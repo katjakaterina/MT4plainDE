@@ -1,0 +1,1323 @@
+# text = Erste Hilfe: Die ersten Maßnahmen am Unfallort
+# sent_id = 0
+1	Erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	2	amod	_	start_char=0|end_char=5
+2	Hilfe	Hilfe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=6|end_char=11
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=11|end_char=12
+4	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=13|end_char=16
+5	ersten	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|NumType=Ord|Number=Plur	6	amod	_	start_char=17|end_char=23
+6	Maßnahmen	Maßnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	appos	_	start_char=24|end_char=33
+7-8	am	_	_	_	_	_	_	_	start_char=34|end_char=36
+7	an	an	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Unfallort	Unfallort	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	start_char=37|end_char=46
+
+# text = Was zu tun ist, wenn Sie als Ersthelfende an einen Unfallort kommen.
+# sent_id = 1
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj	_	start_char=48|end_char=51
+2	zu	zu	PART	PTKZU	_	3	mark	_	start_char=52|end_char=54
+3	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=55|end_char=58
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=59|end_char=62
+5	,	,	PUNCT	$,	_	13	punct	_	start_char=62|end_char=63
+6	wenn	wenn	SCONJ	KOUS	_	13	mark	_	start_char=64|end_char=68
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=69|end_char=72
+8	als	als	ADP	KOKOM	_	9	case	_	start_char=73|end_char=76
+9	Ersthelfende	Ersthelfende	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	obl	_	start_char=77|end_char=89
+10	an	an	ADP	APPR	_	12	case	_	start_char=90|end_char=92
+11	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=93|end_char=98
+12	Unfallort	Unfallort	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	start_char=99|end_char=108
+13	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=109|end_char=115
+14	.	.	PUNCT	$.	_	4	punct	_	start_char=115|end_char=116
+
+# text = Aktualisiert am 13. Februar 2023.
+# sent_id = 2
+1	Aktualisiert	aktualisieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=118|end_char=130
+2-3	am	_	_	_	_	_	_	_	start_char=131|end_char=133
+2	an	an	ADP	APPR	_	5	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+4	13.	13.	ADJ	ADJA	Degree=Pos|NumType=Ord	5	amod	_	start_char=134|end_char=137
+5	Februar	Februar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	start_char=138|end_char=145
+6	2023	2023	NUM	CARD	NumType=Card	5	nmod	_	start_char=146|end_char=150
+7	.	.	PUNCT	$.	_	1	punct	_	start_char=150|end_char=151
+
+# text = ? allgemeine Regeln ? Sie müssen einen Patienten aus der Gefahrenzone bringen.
+# sent_id = 3
+1	?	?	PUNCT	$.	_	2	punct	_	start_char=153|end_char=154
+2	allgemeine	allgemein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=155|end_char=165
+3	Regeln	Regel|Regeln	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	parataxis	_	start_char=166|end_char=172
+4	?	?	PUNCT	$.	_	3	punct	_	start_char=173|end_char=174
+5	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=175|end_char=178
+6	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=179|end_char=185
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=186|end_char=191
+8	Patienten	Patient	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=192|end_char=201
+9	aus	aus	ADP	APPR	_	11	case	_	start_char=202|end_char=205
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=206|end_char=209
+11	Gefahrenzone	Gefahrenzone	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	start_char=210|end_char=222
+12	bringen	bringen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=223|end_char=230
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=230|end_char=231
+
+# text = ? Sie müssen den Helm abnehmen.
+# sent_id = 4
+1	?	?	PUNCT	$.	_	2	punct	_	start_char=232|end_char=233
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=234|end_char=237
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=238|end_char=244
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=245|end_char=248
+5	Helm	Helm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=249|end_char=253
+6	abnehmen	abnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=254|end_char=262
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=262|end_char=263
+
+# text = Es gibt Regeln.
+# sent_id = 5
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=265|end_char=267
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=268|end_char=272
+3	Regeln	Regel|Regeln	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=273|end_char=279
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=279|end_char=280
+
+# text = ?
+# sent_id = 6
+1	?	?	PUNCT	$.	_	0	root	_	start_char=282|end_char=283
+
+# text = Bewahren Sie Ruhe und behalten Sie den Überblick.
+# sent_id = 7
+1	Bewahren	Bewahren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=284|end_char=292
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=293|end_char=296
+3	Ruhe	Ruhe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=297|end_char=301
+4	und	und	CCONJ	KON	_	5	cc	_	start_char=302|end_char=305
+5	behalten	behalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=306|end_char=314
+6	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=315|end_char=318
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=319|end_char=322
+8	Überblick	Überblick	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=323|end_char=332
+9	.	.	PUNCT	$.	_	1	punct	_	start_char=332|end_char=333
+
+# text = Wie viele Personen sind verletzt?
+# sent_id = 8
+1	Wie	wie	ADP	KOUS	_	3	case	_	start_char=334|end_char=337
+2	viele	viel	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	3	det	_	start_char=338|end_char=343
+3	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=344|end_char=352
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=353|end_char=357
+5	verletzt	verletzen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=358|end_char=366
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=366|end_char=367
+
+# text = Wer braucht meine Hilfe am meisten? ? Gehen Sie aus der Gefahrenzone.
+# sent_id = 9
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	2	nsubj	_	start_char=368|end_char=371
+2	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	start_char=372|end_char=379
+3	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=380|end_char=385
+4	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=386|end_char=391
+5-6	am	_	_	_	_	_	_	_	start_char=392|end_char=394
+5	an	an	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	meisten	meist	PRON	PIS	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	2	obl	_	start_char=395|end_char=402
+8	?	?	PUNCT	$.	_	2	punct	_	start_char=402|end_char=403
+9	?	?	PUNCT	$.	_	2	punct	_	start_char=404|end_char=405
+10	Gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=406|end_char=411
+11	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=412|end_char=415
+12	aus	aus	ADP	APPR	_	14	case	_	start_char=416|end_char=419
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=420|end_char=423
+14	Gefahrenzone	Gefahrenzone	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=424|end_char=436
+15	.	.	PUNCT	$.	_	10	punct	_	start_char=436|end_char=437
+
+# text = Bringen Sie die Betroffenen, wenn nötig, aus der Gefahrenzone.
+# sent_id = 10
+1	Bringen	Bringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=438|end_char=445
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=446|end_char=449
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=450|end_char=453
+4	Betroffenen	Betroffene	NOUN	NN	Case=Acc|Number=Plur	1	obj	_	start_char=454|end_char=465
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=465|end_char=466
+6	wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=467|end_char=471
+7	nötig	nötig	ADJ	ADJD	Degree=Pos	1	advcl	_	start_char=472|end_char=477
+8	,	,	PUNCT	$,	_	7	punct	_	start_char=477|end_char=478
+9	aus	aus	ADP	APPR	_	11	case	_	start_char=479|end_char=482
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=483|end_char=486
+11	Gefahrenzone	Gefahrenzone	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	start_char=487|end_char=499
+12	.	.	PUNCT	$.	_	1	punct	_	start_char=499|end_char=500
+
+# text = ? Denken Sie immer an Ihre eigene Sicherheit.
+# sent_id = 11
+1	?	?	PUNCT	$.	_	2	punct	_	start_char=501|end_char=502
+2	Denken	Denken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=503|end_char=509
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=510|end_char=513
+4	immer	immer	ADV	ADV	_	2	advmod	_	start_char=514|end_char=519
+5	an	an	ADP	APPR	_	8	case	_	start_char=520|end_char=522
+6	Ihre	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=523|end_char=527
+7	eigene	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=528|end_char=534
+8	Sicherheit	Sicherheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=535|end_char=545
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=545|end_char=546
+
+# text = Zum Beispiel sollten Sie eine Warnweste anziehen.
+# sent_id = 12
+1-2	Zum	_	_	_	_	_	_	_	start_char=547|end_char=550
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=551|end_char=559
+4	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=560|end_char=567
+5	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=568|end_char=571
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=572|end_char=576
+7	Warnweste	Warnweste	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=577|end_char=586
+8	anziehen	anziehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=587|end_char=595
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=595|end_char=596
+
+# text = Sichern Sie die Unfallstelle.
+# sent_id = 13
+1	Sichern	sichern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=597|end_char=604
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=605|end_char=608
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=609|end_char=612
+4	Unfallstelle	Unfallstelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=613|end_char=625
+5	.	.	PUNCT	$.	_	1	punct	_	start_char=625|end_char=626
+
+# text = Zum Beispiel sollten Sie ein Warndreieck aufstellen.
+# sent_id = 14
+1-2	Zum	_	_	_	_	_	_	_	start_char=627|end_char=630
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=631|end_char=639
+4	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=640|end_char=647
+5	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=648|end_char=651
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=652|end_char=655
+7	Warndreieck	Warndreieck	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	start_char=656|end_char=667
+8	aufstellen	aufstellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=668|end_char=678
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=678|end_char=679
+
+# text = ? Rufen Sie den Rettungsdienst und alarmieren Sie den Notruf, wenn nötig.
+# sent_id = 15
+1	?	?	PUNCT	$.	_	2	punct	_	start_char=680|end_char=681
+2	Rufen	Rufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=682|end_char=687
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=688|end_char=691
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=692|end_char=695
+5	Rettungsdienst	Rettungsdienst	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=696|end_char=710
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=711|end_char=714
+7	alarmieren	alarmieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=715|end_char=725
+8	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=726|end_char=729
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=730|end_char=733
+10	Notruf	Notruf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=734|end_char=740
+11	,	,	PUNCT	$,	_	13	punct	_	start_char=740|end_char=741
+12	wenn	wenn	SCONJ	KOUS	_	13	mark	_	start_char=742|end_char=746
+13	nötig	nötig	ADJ	ADJD	Degree=Pos	7	advcl	_	start_char=747|end_char=752
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=752|end_char=753
+
+# text = Fragen Sie auch andere Passanten um Hilfe.
+# sent_id = 16
+1	Fragen	Frage	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=754|end_char=760
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=761|end_char=764
+3	auch	auch	ADV	ADV	_	1	advmod	_	start_char=765|end_char=769
+4	andere	ander	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=770|end_char=776
+5	Passanten	Passant	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=777|end_char=786
+6	um	um	ADP	APPR	_	7	case	_	start_char=787|end_char=789
+7	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	start_char=790|end_char=795
+8	.	.	PUNCT	$.	_	1	punct	_	start_char=795|end_char=796
+
+# text = Jeder kann sich neben einen Patienten setzen und für ihn da sein.
+# sent_id = 17
+1	Jeder	jed	PRON	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	start_char=797|end_char=802
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=803|end_char=807
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=808|end_char=812
+4	neben	neben	ADP	APPR	_	6	case	_	start_char=813|end_char=818
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=819|end_char=824
+6	Patienten	Patient	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	start_char=825|end_char=834
+7	setzen	setzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=835|end_char=841
+8	und	und	CCONJ	KON	_	12	cc	_	start_char=842|end_char=845
+9	für	für	ADP	APPR	_	10	case	_	start_char=846|end_char=849
+10	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	start_char=850|end_char=853
+11	da	da	ADV	ADV	_	12	advmod	_	start_char=854|end_char=856
+12	sein	sein	AUX	VAINF	VerbForm=Inf	7	conj	_	start_char=857|end_char=861
+13	.	.	PUNCT	$.	_	7	punct	_	start_char=861|end_char=862
+
+# text = Bitte bleiben Sie bei dem Patienten bis der Rettungsdienst da ist.
+# sent_id = 18
+1	Bitte	bitten	ADV	ADV	_	2	advmod	_	start_char=863|end_char=868
+2	bleiben	bleiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=869|end_char=876
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=877|end_char=880
+4	bei	bei	ADP	APPR	_	6	case	_	start_char=881|end_char=884
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=885|end_char=888
+6	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=889|end_char=898
+7	bis	bis	SCONJ	KOUS	_	11	mark	_	start_char=899|end_char=902
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=903|end_char=906
+9	Rettungsdienst	Rettungsdienst	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=907|end_char=921
+10	da	da	ADV	ADV	_	11	advmod	_	start_char=922|end_char=924
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=925|end_char=928
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=928|end_char=929
+
+# text = Notruf:
+# sent_id = 19
+1	Notruf	Notruf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=931|end_char=937
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=937|end_char=938
+
+# text = Als Notrufnummer gilt: 112.
+# sent_id = 20
+1	Als	als	ADP	KOKOM	_	2	case	_	start_char=940|end_char=943
+2	Notrufnummer	Notrufnummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	xcomp	_	start_char=944|end_char=956
+3	gilt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=957|end_char=961
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=961|end_char=962
+5	112	112	NUM	CARD	NumType=Card	3	xcomp	_	start_char=963|end_char=966
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=966|end_char=967
+
+# text = Diese Nummer gilt überall in Deutschland.
+# sent_id = 21
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=968|end_char=973
+2	Nummer	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=974|end_char=980
+3	gilt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=981|end_char=985
+4	überall	überall	ADV	ADV	_	3	advmod	_	start_char=986|end_char=993
+5	in	in	ADP	APPR	_	6	case	_	start_char=994|end_char=996
+6	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=997|end_char=1008
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1008|end_char=1009
+
+# text = Die Notrufnummer 112 ist in allen Handynetzen und Festnetzen kostenlos.
+# sent_id = 22
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1011|end_char=1014
+2	Notrufnummer	Notrufnummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1015|end_char=1027
+3	112	112	PROPN	CARD	NumType=Card	2	appos	_	start_char=1028|end_char=1031
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=1032|end_char=1035
+5	in	in	ADP	APPR	_	7	case	_	start_char=1036|end_char=1038
+6	allen	alle	PRON	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	start_char=1039|end_char=1044
+7	Handynetzen	Handynetz	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	nmod	_	start_char=1045|end_char=1056
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=1057|end_char=1060
+9	Festnetzen	Festnetzen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	conj	_	start_char=1061|end_char=1071
+10	kostenlos	kostenlos	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1072|end_char=1081
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1081|end_char=1082
+
+# text = Sie können die Nummer also überall anrufen.
+# sent_id = 23
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=1083|end_char=1086
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1087|end_char=1093
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1094|end_char=1097
+4	Nummer	Nummer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=1098|end_char=1104
+5	also	also	ADV	ADV	_	7	advmod	_	start_char=1105|end_char=1109
+6	überall	überall	ADV	ADV	_	7	advmod	_	start_char=1110|end_char=1117
+7	anrufen	anrufen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1118|end_char=1125
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1125|end_char=1126
+
+# text = Vielleicht haben Sie ein fremdes Handy und können die Nummer nicht anrufen.
+# sent_id = 24
+1	Vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	start_char=1127|end_char=1137
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1138|end_char=1143
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1144|end_char=1147
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=1148|end_char=1151
+5	fremdes	fremd	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=1152|end_char=1159
+6	Handy	Handy	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=1160|end_char=1165
+7	und	und	CCONJ	KON	_	12	cc	_	start_char=1166|end_char=1169
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=1170|end_char=1176
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1177|end_char=1180
+10	Nummer	Nummer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=1181|end_char=1187
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=1188|end_char=1193
+12	anrufen	anrufen	VERB	VVINF	VerbForm=Inf	2	conj	_	start_char=1194|end_char=1201
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=1201|end_char=1202
+
+# text = Aber wenn Sie die Nummer trotzdem anrufen, geht es trotzdem.
+# sent_id = 25
+1	Aber	aber	CCONJ	KON	_	7	cc	_	start_char=1203|end_char=1207
+2	wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=1208|end_char=1212
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=1213|end_char=1216
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1217|end_char=1220
+5	Nummer	Nummer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=1221|end_char=1227
+6	trotzdem	trotzdem	ADV	PAV	_	7	advmod	_	start_char=1228|end_char=1236
+7	anrufen	anrufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=1237|end_char=1244
+8	,	,	PUNCT	$,	_	7	punct	_	start_char=1244|end_char=1245
+9	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1246|end_char=1250
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=1251|end_char=1253
+11	trotzdem	trotzdem	ADV	PAV	_	9	advmod	_	start_char=1254|end_char=1262
+12	.	.	PUNCT	$.	_	9	punct	_	start_char=1262|end_char=1263
+
+# text = Das Handy ist vielleicht mit einer PIN gesperrt.
+# sent_id = 26
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1264|end_char=1267
+2	Handy	Handy	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=1268|end_char=1273
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1274|end_char=1277
+4	vielleicht	vielleicht	ADV	ADV	_	8	advmod	_	start_char=1278|end_char=1288
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=1289|end_char=1292
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1293|end_char=1298
+7	PIN	PIN	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	start_char=1299|end_char=1302
+8	gesperrt	sperren	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=1303|end_char=1311
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=1311|end_char=1312
+
+# text = Polizeinotruf: 110
+# sent_id = 27
+1	Polizeinotruf	Polizeinotruf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=1314|end_char=1327
+2	:	:	PUNCT	$.	_	3	punct	_	start_char=1327|end_char=1328
+3	110	110	NUM	CARD	NumType=Card	1	appos	_	start_char=1329|end_char=1332
+
+# text = In ganz Europa gibt es den Notruf für die Euro: 112.
+# sent_id = 28
+1	In	in	ADP	APPR	_	3	case	_	start_char=1334|end_char=1336
+2	ganz	ganz	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=1337|end_char=1341
+3	Europa	Europa	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=1342|end_char=1348
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1349|end_char=1353
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=1354|end_char=1356
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=1357|end_char=1360
+7	Notruf	Notruf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=1361|end_char=1367
+8	für	für	ADP	APPR	_	10	case	_	start_char=1368|end_char=1371
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1372|end_char=1375
+10	Euro	Euro	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	start_char=1376|end_char=1380
+11	:	:	PUNCT	$.	_	12	punct	_	start_char=1380|end_char=1381
+12	112	112	PROPN	CARD	NumType=Card	10	appos	_	start_char=1382|end_char=1385
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=1385|end_char=1386
+
+# text = Es gibt mehrere Notrufnummern für verschiedene Länder.
+# sent_id = 29
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1388|end_char=1390
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1391|end_char=1395
+3	mehrere	mehrere	PRON	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	start_char=1396|end_char=1403
+4	Notrufnummern	Notrufnummern	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1404|end_char=1417
+5	für	für	ADP	APPR	_	7	case	_	start_char=1418|end_char=1421
+6	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	start_char=1422|end_char=1434
+7	Länder	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	start_char=1435|end_char=1441
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=1441|end_char=1442
+
+# text = Die Nummern sind oft noch gültig, wenn Sie eine andere Nummer wählen.
+# sent_id = 30
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	start_char=1443|end_char=1446
+2	Nummern	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=1447|end_char=1454
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1455|end_char=1459
+4	oft	oft	ADV	ADV	_	6	advmod	_	start_char=1460|end_char=1463
+5	noch	noch	ADV	ADV	_	6	advmod	_	start_char=1464|end_char=1468
+6	gültig	gültig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1469|end_char=1475
+7	,	,	PUNCT	$,	_	13	punct	_	start_char=1475|end_char=1476
+8	wenn	wenn	SCONJ	KOUS	_	13	mark	_	start_char=1477|end_char=1481
+9	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=1482|end_char=1485
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=1486|end_char=1490
+11	andere	ander	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=1491|end_char=1497
+12	Nummer	Nummer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=1498|end_char=1504
+13	wählen	wählen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=1505|end_char=1511
+14	.	.	PUNCT	$.	_	6	punct	_	start_char=1511|end_char=1512
+
+# text = Halten Sie beim Anrufen diese Informationen bereit (5 W): ? Wo ist der Notfall passiert?
+# sent_id = 31
+1	Halten	halten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1514|end_char=1520
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=1521|end_char=1524
+3-4	beim	_	_	_	_	_	_	_	start_char=1525|end_char=1529
+3	bei	bei	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Anrufen	Anruf	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	start_char=1530|end_char=1537
+6	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	7	det	_	start_char=1538|end_char=1543
+7	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=1544|end_char=1557
+8	bereit	bereit	ADV	PTKVZ	_	1	compound:prt	_	start_char=1558|end_char=1564
+9	(	(	PUNCT	$(	_	11	punct	_	start_char=1565|end_char=1566
+10	5	5	NUM	CARD	NumType=Card	11	nummod	_	start_char=1566|end_char=1567
+11	W	W	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	appos	_	start_char=1568|end_char=1569
+12	)	)	PUNCT	$(	_	11	punct	_	start_char=1569|end_char=1570
+13	:	:	PUNCT	$.	_	19	punct	_	start_char=1570|end_char=1571
+14	?	?	PUNCT	$.	_	19	punct	_	start_char=1572|end_char=1573
+15	Wo	wo	ADV	PWAV	PronType=Int	19	advmod	_	start_char=1574|end_char=1576
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=1577|end_char=1580
+17	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=1581|end_char=1584
+18	Notfall	Notfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=1585|end_char=1592
+19	passiert	passieren	VERB	VVPP	VerbForm=Part	1	parataxis	_	start_char=1593|end_char=1601
+20	?	?	PUNCT	$.	_	19	punct	_	start_char=1601|end_char=1602
+
+# text = ? Was ist passiert? ? Wie viele Personen sind betroffen? ? Welche Verletzungen gibt es?
+# sent_id = 32
+1	?	?	PUNCT	$.	_	2	punct	_	start_char=1603|end_char=1604
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	4	nsubj	_	start_char=1605|end_char=1608
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1609|end_char=1612
+4	passiert	passieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1613|end_char=1621
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=1621|end_char=1622
+6	?	?	PUNCT	$.	_	11	punct	_	start_char=1623|end_char=1624
+7	Wie	wie	ADV	KOUS	PronType=Int	11	advmod	_	start_char=1625|end_char=1628
+8	viele	viel	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	start_char=1629|end_char=1634
+9	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=1635|end_char=1643
+10	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=1644|end_char=1648
+11	betroffen	betreffen	ADJ	ADJD	Degree=Pos	4	parataxis	_	start_char=1649|end_char=1658
+12	?	?	PUNCT	$.	_	11	punct	_	start_char=1658|end_char=1659
+13	?	?	PUNCT	$.	_	11	punct	_	start_char=1660|end_char=1661
+14	Welche	welch	PRON	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int	15	det	_	start_char=1662|end_char=1668
+15	Verletzungen	Verletzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	nsubj	_	start_char=1669|end_char=1681
+16	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	start_char=1682|end_char=1686
+17	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	start_char=1687|end_char=1689
+18	?	?	PUNCT	$.	_	16	punct	_	start_char=1689|end_char=1690
+
+# text = Der Patient ist aus der Gefahrenzone.
+# sent_id = 33
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1692|end_char=1695
+2	Patient	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1696|end_char=1703
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1704|end_char=1707
+4	aus	aus	ADP	APPR	_	6	case	_	start_char=1708|end_char=1711
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1712|end_char=1715
+6	Gefahrenzone	Gefahrenzone	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=1716|end_char=1728
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1728|end_char=1729
+
+# text = Bringen Sie ihn jetzt in ein Krankenhaus.
+# sent_id = 34
+1	Bringen	Bringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1730|end_char=1737
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=1738|end_char=1741
+3	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=1742|end_char=1745
+4	jetzt	jetzt	ADV	ADV	_	1	advmod	_	start_char=1746|end_char=1751
+5	in	in	ADP	APPR	_	7	case	_	start_char=1752|end_char=1754
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=1755|end_char=1758
+7	Krankenhaus	Krankenhaus	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	start_char=1759|end_char=1770
+8	.	.	PUNCT	$.	_	1	punct	_	start_char=1770|end_char=1771
+
+# text = Vielleicht müssen Verletzte aus der Gefahrenzone gebracht werden.
+# sent_id = 35
+1	Vielleicht	vielleicht	ADV	ADV	_	7	advmod	_	start_char=1773|end_char=1783
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1784|end_char=1790
+3	Verletzte	Verletzte	NOUN	NN	Case=Nom|Number=Plur	7	nsubj:pass	_	start_char=1791|end_char=1800
+4	aus	aus	ADP	APPR	_	6	case	_	start_char=1801|end_char=1804
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1805|end_char=1808
+6	Gefahrenzone	Gefahrenzone	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=1809|end_char=1821
+7	gebracht	bringen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1822|end_char=1830
+8	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	7	aux:pass	_	start_char=1831|end_char=1837
+9	.	.	PUNCT	$.	_	7	punct	_	start_char=1837|end_char=1838
+
+# text = Das ist wichtiger als die Behandlung.
+# sent_id = 36
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=1839|end_char=1842
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1843|end_char=1846
+3	wichtiger	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1847|end_char=1856
+4	als	als	ADP	KOKOM	_	6	case	_	start_char=1857|end_char=1860
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1861|end_char=1864
+6	Behandlung	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	start_char=1865|end_char=1875
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1875|end_char=1876
+
+# text = Wenn Sie Verletzte bewegen, müssen Sie sehr vorsichtig sein.
+# sent_id = 37
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=1877|end_char=1881
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=1882|end_char=1885
+3	Verletzte	Verletzte	NOUN	NN	Case=Nom|Number=Plur	4	obj	_	start_char=1886|end_char=1895
+4	bewegen	bewegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=1896|end_char=1903
+5	,	,	PUNCT	$,	_	4	punct	_	start_char=1903|end_char=1904
+6	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1905|end_char=1911
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=1912|end_char=1915
+8	sehr	sehr	ADV	ADV	_	9	advmod	_	start_char=1916|end_char=1920
+9	vorsichtig	vorsichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1921|end_char=1931
+10	sein	sein	AUX	VAINF	VerbForm=Inf	9	cop	_	start_char=1932|end_char=1936
+11	.	.	PUNCT	$.	_	9	punct	_	start_char=1936|end_char=1937
+
+# text = Wenn es keine sichere und schonende Möglichkeit gibt, können Sie den Rautek-Griff benutzen.
+# sent_id = 38
+1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=1938|end_char=1942
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=1943|end_char=1945
+3	keine	kein	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	7	nmod	_	start_char=1946|end_char=1951
+4	sichere	sicher	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=1952|end_char=1959
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=1960|end_char=1963
+6	schonende	schonend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	start_char=1964|end_char=1973
+7	Möglichkeit	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=1974|end_char=1985
+8	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=1986|end_char=1990
+9	,	,	PUNCT	$,	_	8	punct	_	start_char=1990|end_char=1991
+10	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=1992|end_char=1998
+11	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=1999|end_char=2002
+12	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=2003|end_char=2006
+13	Rautek	Rautek	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=2007|end_char=2013
+14	-	-	PUNCT	$(	_	15	punct	_	start_char=2013|end_char=2014
+15	Griff	Griff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	flat	_	start_char=2014|end_char=2019
+16	benutzen	benutzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2020|end_char=2028
+17	.	.	PUNCT	$.	_	16	punct	_	start_char=2028|end_char=2029
+
+# text = ?
+# sent_id = 39
+1	?	?	PUNCT	$.	_	0	root	_	start_char=2031|end_char=2032
+
+# text = Sie fassen unter den Achseln des Patienten durch und fassen einen Unterarm mit beiden Händen.
+# sent_id = 40
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=2033|end_char=2036
+2	fassen	fassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2037|end_char=2043
+3	unter	unter	ADP	APPR	_	5	case	_	start_char=2044|end_char=2049
+4	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=2050|end_char=2053
+5	Achseln	Achsel	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	start_char=2054|end_char=2061
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=2062|end_char=2065
+7	Patienten	Patient	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=2066|end_char=2075
+8	durch	durch	ADP	PTKVZ	_	2	compound:prt	_	start_char=2076|end_char=2081
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=2082|end_char=2085
+10	fassen	fassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=2086|end_char=2092
+11	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=2093|end_char=2098
+12	Unterarm	Unterarm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=2099|end_char=2107
+13	mit	mit	ADP	APPR	_	15	case	_	start_char=2108|end_char=2111
+14	beiden	beide	PRON	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	15	det	_	start_char=2112|end_char=2118
+15	Händen	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	nmod	_	start_char=2119|end_char=2125
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=2125|end_char=2126
+
+# text = Legen Sie den Unterarm über die Brust des Verletzten.
+# sent_id = 41
+1	Legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2127|end_char=2132
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=2133|end_char=2136
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=2137|end_char=2140
+4	Unterarm	Unterarm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=2141|end_char=2149
+5	über	über	ADP	APPR	_	7	case	_	start_char=2150|end_char=2154
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2155|end_char=2158
+7	Brust	Brust	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	start_char=2159|end_char=2164
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=2165|end_char=2168
+9	Verletzten	Verletzte	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=2169|end_char=2179
+10	.	.	PUNCT	$.	_	1	punct	_	start_char=2179|end_char=2180
+
+# text = Fassen Sie den Unterarm mit beiden Händen.
+# sent_id = 42
+1	Fassen	Fassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2181|end_char=2187
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=2188|end_char=2191
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=2192|end_char=2195
+4	Unterarm	Unterarm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=2196|end_char=2204
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=2205|end_char=2208
+6	beiden	beide	PRON	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	start_char=2209|end_char=2215
+7	Händen	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	1	obl	_	start_char=2216|end_char=2222
+8	.	.	PUNCT	$.	_	1	punct	_	start_char=2222|end_char=2223
+
+# text = Gehen Sie leicht in die Knie und ziehen Sie den Patienten auf den Oberschenkel.
+# sent_id = 43
+1	Gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2224|end_char=2229
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=2230|end_char=2233
+3	leicht	leicht	ADJ	ADJD	Degree=Pos	1	advmod	_	start_char=2234|end_char=2240
+4	in	in	ADP	APPR	_	6	case	_	start_char=2241|end_char=2243
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=2244|end_char=2247
+6	Knie	Knie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	start_char=2248|end_char=2252
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=2253|end_char=2256
+8	ziehen	ziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=2257|end_char=2263
+9	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=2264|end_char=2267
+10	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	start_char=2268|end_char=2271
+11	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	iobj	_	start_char=2272|end_char=2281
+12	auf	auf	ADP	APPR	_	14	case	_	start_char=2282|end_char=2285
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=2286|end_char=2289
+14	Oberschenkel	Oberschenkel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	start_char=2290|end_char=2302
+15	.	.	PUNCT	$.	_	1	punct	_	start_char=2302|end_char=2303
+
+# text = Gehen Sie rückwärts und legen Sie den Verletzten an einer sicheren Stelle ab.
+# sent_id = 44
+1	Gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2304|end_char=2309
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=2310|end_char=2313
+3	rückwärts	rückwärts	ADV	PTKVZ	_	1	advmod	_	start_char=2314|end_char=2323
+4	und	und	CCONJ	KON	_	5	cc	_	start_char=2324|end_char=2327
+5	legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=2328|end_char=2333
+6	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=2334|end_char=2337
+7	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	start_char=2338|end_char=2341
+8	Verletzten	Verletzte	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	start_char=2342|end_char=2352
+9	an	an	ADP	APPR	_	12	case	_	start_char=2353|end_char=2355
+10	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=2356|end_char=2361
+11	sicheren	sicher	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=2362|end_char=2370
+12	Stelle	Stelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=2371|end_char=2377
+13	ab	ab	ADP	PTKVZ	_	5	compound:prt	_	start_char=2378|end_char=2380
+14	.	.	PUNCT	$.	_	1	punct	_	start_char=2380|end_char=2381
+
+# text = Am besten auf einer Decke.
+# sent_id = 45
+1-2	Am	_	_	_	_	_	_	_	start_char=2382|end_char=2384
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	besten	gut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	start_char=2385|end_char=2391
+4	auf	auf	ADP	APPR	_	6	case	_	start_char=2392|end_char=2395
+5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=2396|end_char=2401
+6	Decke	Decke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	start_char=2402|end_char=2407
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=2407|end_char=2408
+
+# text = Sie sollen überprüfen, ob die Person bewusstlos ist und atmet.
+# sent_id = 46
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=2410|end_char=2413
+2	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=2414|end_char=2420
+3	überprüfen	überprüfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2421|end_char=2431
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=2431|end_char=2432
+5	ob	ob	SCONJ	KOUS	_	8	mark	_	start_char=2433|end_char=2435
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2436|end_char=2439
+7	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=2440|end_char=2446
+8	bewusstlos	bewußtlos	ADJ	ADJD	Degree=Pos	3	ccomp	_	start_char=2447|end_char=2457
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=2458|end_char=2461
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=2462|end_char=2465
+11	atmet	atmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=2466|end_char=2471
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=2471|end_char=2472
+
+# text = Sie haben einen Patienten, der bewusstlos ist.
+# sent_id = 47
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=2474|end_char=2477
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2478|end_char=2483
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=2484|end_char=2489
+4	Patienten	Patient	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=2490|end_char=2499
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=2499|end_char=2500
+6	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	7	nsubj	_	start_char=2501|end_char=2504
+7	bewusstlos	bewußtlos	ADJ	ADJD	Degree=Pos	4	acl	_	start_char=2505|end_char=2515
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=2516|end_char=2519
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=2519|end_char=2520
+
+# text = Hat der Patient Atem? Nein?
+# sent_id = 48
+1	Hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2521|end_char=2524
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=2525|end_char=2528
+3	Patient	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=2529|end_char=2536
+4	Atem	Atem	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	start_char=2537|end_char=2541
+5	?	?	PUNCT	$.	_	1	punct	_	start_char=2541|end_char=2542
+6	Nein	nein	ADV	ADV	_	1	advmod	_	start_char=2543|end_char=2547
+7	?	?	PUNCT	$.	_	1	punct	_	start_char=2547|end_char=2548
+
+# text = Dann beginnen Sie mit der Wiederbelebung.
+# sent_id = 49
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=2549|end_char=2553
+2	beginnen	beginnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2554|end_char=2562
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=2563|end_char=2566
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=2567|end_char=2570
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=2571|end_char=2574
+6	Wiederbelebung	Wiederbelebung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=2575|end_char=2589
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=2589|end_char=2590
+
+# text = Ja? Dann bringen Sie den Patienten bitte in die stabile Seitenlage.
+# sent_id = 50
+1	Ja?	Ja?	ADV	ADV	_	2	advmod	_	start_char=2591|end_char=2594
+2	Dann	dann	ADV	ADV	_	3	advmod	_	start_char=2595|end_char=2599
+3	bringen	bringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2600|end_char=2607
+4	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=2608|end_char=2611
+5	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	start_char=2612|end_char=2615
+6	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	iobj	_	start_char=2616|end_char=2625
+7	bitte	bitte	ADV	ADV	_	3	advmod	_	start_char=2626|end_char=2631
+8	in	in	ADP	APPR	_	11	case	_	start_char=2632|end_char=2634
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=2635|end_char=2638
+10	stabile	stabil	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=2639|end_char=2646
+11	Seitenlage	Seitenlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=2647|end_char=2657
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=2657|end_char=2658
+
+# text = Helm abnehmen
+# sent_id = 51
+1	Helm	Helm	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	dep	_	start_char=2660|end_char=2664
+2	abnehmen	abnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2665|end_char=2673
+
+# text = Ein Motorradfahrer ist bewusstlos und fährt noch.
+# sent_id = 52
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=2675|end_char=2678
+2	Motorradfahrer	Motorradfahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=2679|end_char=2693
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2694|end_char=2697
+4	bewusstlos	bewußtlos	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2698|end_char=2708
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=2709|end_char=2712
+6	fährt	fahren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=2713|end_char=2718
+7	noch	noch	ADV	ADV	_	6	advmod	_	start_char=2719|end_char=2723
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=2723|end_char=2724
+
+# text = 2 Helfer arbeiten am besten zusammen.
+# sent_id = 53
+1	2	2	NUM	CARD	NumType=Card	2	nummod	_	start_char=2725|end_char=2726
+2	Helfer	Helfer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=2727|end_char=2733
+3	arbeiten	arbeiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2734|end_char=2742
+4-5	am	_	_	_	_	_	_	_	start_char=2743|end_char=2745
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	besten	gut	NOUN	ADJA	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=2746|end_char=2752
+7	zusammen	zusammen	ADV	PTKVZ	_	3	compound:prt	_	start_char=2753|end_char=2761
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=2761|end_char=2762
+
+# text = Das ist weil die Gefahr besteht, dass der Motorradfahrer eine Verletzung der Halswirbelsäule hat.
+# sent_id = 54
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=2763|end_char=2766
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2767|end_char=2770
+3	weil	weil	SCONJ	KOUS	_	6	mark	_	start_char=2771|end_char=2775
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2776|end_char=2779
+5	Gefahr	Gefahr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=2780|end_char=2786
+6	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=2787|end_char=2794
+7	,	,	PUNCT	$,	_	15	punct	_	start_char=2794|end_char=2795
+8	dass	dass	SCONJ	KOUS	_	15	mark	_	start_char=2796|end_char=2800
+9	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=2801|end_char=2804
+10	Motorradfahrer	Motorradfahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=2805|end_char=2819
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=2820|end_char=2824
+12	Verletzung	Verletzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=2825|end_char=2835
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=2836|end_char=2839
+14	Halswirbelsäule	Halswirbelsäule	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=2840|end_char=2855
+15	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	start_char=2856|end_char=2859
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=2859|end_char=2860
+
+# text = Die Helfer müssen sehr vorsichtig sein und die Halswirbelsäule des Patienten nicht bewegen.
+# sent_id = 55
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	start_char=2861|end_char=2864
+2	Helfer	Helfer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=2865|end_char=2871
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2872|end_char=2878
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	start_char=2879|end_char=2883
+5	vorsichtig	vorsichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2884|end_char=2894
+6	sein	sein	AUX	VAINF	VerbForm=Inf	5	cop	_	start_char=2895|end_char=2899
+7	und	und	CCONJ	KON	_	13	cc	_	start_char=2900|end_char=2903
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=2904|end_char=2907
+9	Halswirbelsäule	Halswirbelsäule	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	obj	_	start_char=2908|end_char=2923
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=2924|end_char=2927
+11	Patienten	Patient	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=2928|end_char=2937
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	start_char=2938|end_char=2943
+13	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	5	conj	_	start_char=2944|end_char=2951
+14	.	.	PUNCT	$.	_	5	punct	_	start_char=2951|end_char=2952
+
+# text = ?
+# sent_id = 56
+1	?	?	PUNCT	$.	_	0	root	_	start_char=2954|end_char=2955
+
+# text = Helfer 1 kniet oberhalb des Kopfes und hält den Kopf des Verletzten.
+# sent_id = 57
+1	Helfer	Helfer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2956|end_char=2962
+2	1	1	NUM	CARD	NumType=Card	1	appos	_	start_char=2963|end_char=2964
+3	kniet	knieen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2965|end_char=2970
+4	oberhalb	oberhalb	ADP	APPR	_	6	case	_	start_char=2971|end_char=2979
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=2980|end_char=2983
+6	Kopfes	Kopf	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=2984|end_char=2990
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=2991|end_char=2994
+8	hält	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=2995|end_char=2999
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=3000|end_char=3003
+10	Kopf	Kopf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=3004|end_char=3008
+11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=3009|end_char=3012
+12	Verletzten	Verletzte	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=3013|end_char=3023
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=3023|end_char=3024
+
+# text = Er hält mit beiden Händen den Helm und den Unterkiefer des Verletzten.
+# sent_id = 58
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=3025|end_char=3027
+2	hält	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3028|end_char=3032
+3	mit	mit	ADP	APPR	_	5	case	_	start_char=3033|end_char=3036
+4	beiden	beide	PRON	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	start_char=3037|end_char=3043
+5	Händen	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=3044|end_char=3050
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=3051|end_char=3054
+7	Helm	Helm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=3055|end_char=3059
+8	und	und	CCONJ	KON	_	10	cc	_	start_char=3060|end_char=3063
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=3064|end_char=3067
+10	Unterkiefer	Unterkiefer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	conj	_	start_char=3068|end_char=3079
+11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=3080|end_char=3083
+12	Verletzten	Verletzte	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=3084|end_char=3094
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=3094|end_char=3095
+
+# text = ? Helfer 2 kniet neben dem Verletzten und öffnet Visier, Kinnriemen oder -schale.
+# sent_id = 59
+1	?	?	PUNCT	$.	_	2	punct	_	start_char=3096|end_char=3097
+2	Helfer	Helfer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3098|end_char=3104
+3	2	2	NUM	CARD	NumType=Card	2	appos	_	start_char=3105|end_char=3106
+4	kniet	knieen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3107|end_char=3112
+5	neben	neben	ADP	APPR	_	7	case	_	start_char=3113|end_char=3118
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=3119|end_char=3122
+7	Verletzten	Verletzte	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=3123|end_char=3133
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=3134|end_char=3137
+9	öffnet	öffnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=3138|end_char=3144
+10	Visier	Visier	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=3145|end_char=3151
+11	,	,	PUNCT	$,	_	12	punct	_	start_char=3151|end_char=3152
+12	Kinnriemen	Kinnriemen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	conj	_	start_char=3153|end_char=3163
+13	oder	oder	CCONJ	KON	_	15	cc	_	start_char=3164|end_char=3168
+14	-	-	PUNCT	$(	_	15	punct	_	start_char=3169|end_char=3170
+15	schale	schale	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	start_char=3170|end_char=3176
+16	.	.	PUNCT	$.	_	4	punct	_	start_char=3176|end_char=3177
+
+# text = Sie haben einen Patienten, der nicht auf Sie achtet.
+# sent_id = 60
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=3179|end_char=3182
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3183|end_char=3188
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=3189|end_char=3194
+4	Patienten	Patient	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=3195|end_char=3204
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=3204|end_char=3205
+6	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	10	nsubj	_	start_char=3206|end_char=3209
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=3210|end_char=3215
+8	auf	auf	ADP	APPR	_	9	case	_	start_char=3216|end_char=3219
+9	Sie	Sie|sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obl	_	start_char=3220|end_char=3223
+10	achtet	achten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=3224|end_char=3230
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=3230|end_char=3231
+
+# text = Der Patient hat Atemprobleme und Sie bringen ihn in die stabile Seitenlage.
+# sent_id = 61
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=3232|end_char=3235
+2	Patient	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=3236|end_char=3243
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3244|end_char=3247
+4	Atemprobleme	Atemproblem	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=3248|end_char=3260
+5	und	und	CCONJ	KON	_	7	cc	_	start_char=3261|end_char=3264
+6	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=3265|end_char=3268
+7	bringen	bringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=3269|end_char=3276
+8	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=3277|end_char=3280
+9	in	in	ADP	APPR	_	12	case	_	start_char=3281|end_char=3283
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=3284|end_char=3287
+11	stabile	stabil	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=3288|end_char=3295
+12	Seitenlage	Seitenlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	start_char=3296|end_char=3306
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=3306|end_char=3307
+
+# text = Dabei soll die Halswirbelsäule von Ihrem Helfer festgehalten werden.
+# sent_id = 62
+1	Dabei	dabei	ADV	PAV	_	8	advmod	_	start_char=3308|end_char=3313
+2	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=3314|end_char=3318
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=3319|end_char=3322
+4	Halswirbelsäule	Halswirbelsäule	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	start_char=3323|end_char=3338
+5	von	von	ADP	APPR	_	7	case	_	start_char=3339|end_char=3342
+6	Ihrem	Ihr|ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=3343|end_char=3348
+7	Helfer	Helfer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=3349|end_char=3355
+8	festgehalten	festhalten	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3356|end_char=3368
+9	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	8	aux:pass	_	start_char=3369|end_char=3375
+10	.	.	PUNCT	$.	_	8	punct	_	start_char=3375|end_char=3376
+
+# text = Der Patient ist bewusstlos und atmet nicht?
+# sent_id = 63
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=3377|end_char=3380
+2	Patient	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3381|end_char=3388
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3389|end_char=3392
+4	bewusstlos	bewußtlos	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3393|end_char=3403
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=3404|end_char=3407
+6	atmet	atmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=3408|end_char=3413
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=3414|end_char=3419
+8	?	?	PUNCT	$.	_	4	punct	_	start_char=3419|end_char=3420
+
+# text = Dann beginnen Sie mit der Wiederbelebung.
+# sent_id = 64
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=3421|end_char=3425
+2	beginnen	beginnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3426|end_char=3434
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=3435|end_char=3438
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=3439|end_char=3442
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3443|end_char=3446
+6	Wiederbelebung	Wiederbelebung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=3447|end_char=3461
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=3461|end_char=3462
+
+# text = Wie man helfen kann, wenn jemand einen Schock hat.
+# sent_id = 65
+1	Wie	wie	ADV	KOUS	PronType=Int	3	advmod	_	start_char=3464|end_char=3467
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=3468|end_char=3471
+3	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3472|end_char=3478
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=3479|end_char=3483
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=3483|end_char=3484
+6	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=3485|end_char=3489
+7	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=3490|end_char=3496
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=3497|end_char=3502
+9	Schock	Schock	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=3503|end_char=3509
+10	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=3510|end_char=3513
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=3513|end_char=3514
+
+# text = Die "Psychische Erste Hilfe" ist sehr gut.
+# sent_id = 66
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=3516|end_char=3519
+2	"	"	PUNCT	$(	_	5	punct	_	start_char=3520|end_char=3521
+3	Psychische	psychisch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	start_char=3521|end_char=3531
+4	Erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	5	amod	_	start_char=3532|end_char=3537
+5	Hilfe	Hilfe	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=3538|end_char=3543
+6	"	"	PUNCT	$(	_	5	punct	_	start_char=3543|end_char=3544
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=3545|end_char=3548
+8	sehr	sehr	ADV	ADV	_	9	advmod	_	start_char=3549|end_char=3553
+9	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3554|end_char=3557
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3557|end_char=3558
+
+# text = Sie wurde von Professor Frank Lasogga und Professor Bernd Gasch entwickelt.
+# sent_id = 67
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj:pass	_	start_char=3559|end_char=3562
+2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	11	aux:pass	_	start_char=3563|end_char=3568
+3	von	von	ADP	APPR	_	4	case	_	start_char=3569|end_char=3572
+4	Professor	Professor	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=3573|end_char=3582
+5	Frank	Frank	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	4	appos	_	start_char=3583|end_char=3588
+6	Lasogga	Lasogga	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	5	flat	_	start_char=3589|end_char=3596
+7	und	und	CCONJ	KON	_	9	cc	_	start_char=3597|end_char=3600
+8	Professor	Professor	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	compound	_	start_char=3601|end_char=3610
+9	Bernd	Bernd	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	5	conj	_	start_char=3611|end_char=3616
+10	Gasch	Gasch	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	9	flat	_	start_char=3617|end_char=3622
+11	entwickelt	entwickeln	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3623|end_char=3633
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=3633|end_char=3634
+
+# text = Die beiden sind an der Universität Dortmund für Psychologie zuständig.
+# sent_id = 68
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=3635|end_char=3638
+2	beiden	beide	PRON	PIS	Case=Nom|Number=Plur|PronType=Ind	10	nsubj	_	start_char=3639|end_char=3645
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=3646|end_char=3650
+4	an	an	ADP	APPR	_	6	case	_	start_char=3651|end_char=3653
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3654|end_char=3657
+6	Universität	Universität	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	start_char=3658|end_char=3669
+7	Dortmund	Dortmund	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	appos	_	start_char=3670|end_char=3678
+8	für	für	ADP	APPR	_	9	case	_	start_char=3679|end_char=3682
+9	Psychologie	Psychologie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	start_char=3683|end_char=3694
+10	zuständig	zuständig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3695|end_char=3704
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=3704|end_char=3705
+
+# text = Sie haben die Erste Hilfe genau untersucht.
+# sent_id = 69
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=3706|end_char=3709
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=3710|end_char=3715
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=3716|end_char=3719
+4	Erste	erst	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	5	amod	_	start_char=3720|end_char=3725
+5	Hilfe	Hilfe	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=3726|end_char=3731
+6	genau	genau	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=3732|end_char=3737
+7	untersucht	untersuchen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3738|end_char=3748
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=3748|end_char=3749
+
+# text = Dabei haben sie auch viele Ersthelfer und Opfer gefragt.
+# sent_id = 70
+1	Dabei	dabei	ADV	PAV	_	9	advmod	_	start_char=3750|end_char=3755
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=3756|end_char=3761
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=3762|end_char=3765
+4	auch	auch	ADV	ADV	_	9	advmod	_	start_char=3766|end_char=3770
+5	viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	6	amod	_	start_char=3771|end_char=3776
+6	Ersthelfer	Ersthelfer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	obj	_	start_char=3777|end_char=3787
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=3788|end_char=3791
+8	Opfer	Opfer	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	conj	_	start_char=3792|end_char=3797
+9	gefragt	fragen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3798|end_char=3805
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3805|end_char=3806
+
+# text = Regel 1: Sagen Sie, dass Sie da sind und dass etwas passiert.
+# sent_id = 71
+1	Regel	Regel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	dep	_	start_char=3808|end_char=3813
+2	1	1	NUM	CARD	NumType=Card	1	nummod	_	start_char=3814|end_char=3815
+3	:	:	PUNCT	$.	_	1	punct	_	start_char=3815|end_char=3816
+4	Sagen	Sage|Sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3817|end_char=3822
+5	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=3823|end_char=3826
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=3826|end_char=3827
+7	dass	dass	SCONJ	KOUS	_	10	mark	_	start_char=3828|end_char=3832
+8	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=3833|end_char=3836
+9	da	da	ADV	ADV	_	10	advmod	_	start_char=3837|end_char=3839
+10	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=3840|end_char=3844
+11	und	und	CCONJ	KON	_	14	cc	_	start_char=3845|end_char=3848
+12	dass	dass	SCONJ	KOUS	_	14	mark	_	start_char=3849|end_char=3853
+13	etwas	etwas	PRON	PIS	PronType=Ind	14	nsubj	_	start_char=3854|end_char=3859
+14	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	start_char=3860|end_char=3868
+15	.	.	PUNCT	$.	_	4	punct	_	start_char=3868|end_char=3869
+
+# text = Der Verletzte soll spüren, dass er nicht allein ist.
+# sent_id = 72
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=3870|end_char=3873
+2	Verletzte	Verletzte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3874|end_char=3883
+3	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=3884|end_char=3888
+4	spüren	spüren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3889|end_char=3895
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=3895|end_char=3896
+6	dass	dass	SCONJ	KOUS	_	9	mark	_	start_char=3897|end_char=3901
+7	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=3902|end_char=3904
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=3905|end_char=3910
+9	allein	allein	ADJ	ADV	Degree=Pos	4	ccomp	_	start_char=3911|end_char=3917
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=3918|end_char=3921
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=3921|end_char=3922
+
+# text = Gehen Sie zu dem Betroffenen und stehen Sie nicht herum.
+# sent_id = 73
+1	Gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3923|end_char=3928
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=3929|end_char=3932
+3	zu	zu	ADP	APPR	_	5	case	_	start_char=3933|end_char=3935
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=3936|end_char=3939
+5	Betroffenen	Betroffene	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	start_char=3940|end_char=3951
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=3952|end_char=3955
+7	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=3956|end_char=3962
+8	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=3963|end_char=3966
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=3967|end_char=3972
+10	herum	herum	ADV	PTKVZ	_	7	compound:prt	_	start_char=3973|end_char=3978
+11	.	.	PUNCT	$.	_	1	punct	_	start_char=3978|end_char=3979
+
+# text = Schon der Satz "Ich bleibe bei Ihnen, bis der Krankenwagen kommt" wirkt beruhigend und gut.
+# sent_id = 74
+1	Schon	schon	ADV	ADV	_	3	advmod	_	start_char=3980|end_char=3985
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=3986|end_char=3989
+3	Satz	Satz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=3990|end_char=3994
+4	"	"	PUNCT	$(	_	6	punct	_	start_char=3995|end_char=3996
+5	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=3996|end_char=3999
+6	bleibe	bleiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=4000|end_char=4006
+7	bei	bei	ADP	APPR	_	8	case	_	start_char=4007|end_char=4010
+8	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	6	obl	_	start_char=4011|end_char=4016
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=4016|end_char=4017
+10	bis	bis	SCONJ	KOUS	_	13	mark	_	start_char=4018|end_char=4021
+11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=4022|end_char=4025
+12	Krankenwagen	Krankenwagen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=4026|end_char=4038
+13	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=4039|end_char=4044
+14	"	"	PUNCT	$(	_	13	punct	_	start_char=4044|end_char=4045
+15	wirkt	wirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4046|end_char=4051
+16	beruhigend	beruhigend	ADJ	ADJD	Degree=Pos	15	xcomp	_	start_char=4052|end_char=4062
+17	und	und	CCONJ	KON	_	18	cc	_	start_char=4063|end_char=4066
+18	gut	gut	ADJ	ADJD	Degree=Pos	16	conj	_	start_char=4067|end_char=4070
+19	.	.	PUNCT	$.	_	15	punct	_	start_char=4070|end_char=4071
+
+# text = Informieren Sie den Verletzten auch über Maßnahmen, die schon gemacht wurden.
+# sent_id = 75
+1	Informieren	Informieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4072|end_char=4083
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=4084|end_char=4087
+3	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	start_char=4088|end_char=4091
+4	Verletzten	Verletzte	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	1	iobj	_	start_char=4092|end_char=4102
+5	auch	auch	ADV	ADV	_	1	advmod	_	start_char=4103|end_char=4107
+6	über	über	ADP	APPR	_	7	case	_	start_char=4108|end_char=4112
+7	Maßnahmen	Maßnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	1	obl	_	start_char=4113|end_char=4122
+8	,	,	PUNCT	$,	_	11	punct	_	start_char=4122|end_char=4123
+9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	11	nsubj:pass	_	start_char=4124|end_char=4127
+10	schon	schon	ADV	ADV	_	11	advmod	_	start_char=4128|end_char=4133
+11	gemacht	machen	VERB	VVPP	VerbForm=Part	7	acl	_	start_char=4134|end_char=4141
+12	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	11	aux:pass	_	start_char=4142|end_char=4148
+13	.	.	PUNCT	$.	_	1	punct	_	start_char=4148|end_char=4149
+
+# text = Zum Beispiel "Der Arzt ist auf dem Weg. ". Regel 2: Schützen Sie den Verletzten vor Zuschauern.
+# sent_id = 76
+1-2	Zum	_	_	_	_	_	_	_	start_char=4150|end_char=4153
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=4154|end_char=4162
+4	"	"	PUNCT	$(	_	7	punct	_	start_char=4163|end_char=4164
+5	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=4164|end_char=4167
+6	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=4168|end_char=4172
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4173|end_char=4176
+8	auf	auf	ADP	APPR	_	10	case	_	start_char=4177|end_char=4180
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=4181|end_char=4184
+10	Weg.	Weg.	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=4185|end_char=4189
+11	"	"	PUNCT	$(	_	13	punct	_	start_char=4190|end_char=4191
+12	.	.	PUNCT	$.	_	13	punct	_	start_char=4191|end_char=4192
+13	Regel	Regel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	appos	_	start_char=4193|end_char=4198
+14	2	2	NUM	CARD	NumType=Card	13	appos	_	start_char=4199|end_char=4200
+15	:	:	PUNCT	$.	_	16	punct	_	start_char=4200|end_char=4201
+16	Schützen	Schütze|Schützen	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	7	parataxis	_	start_char=4202|end_char=4210
+17	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=4211|end_char=4214
+18	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	start_char=4215|end_char=4218
+19	Verletzten	Verletzte	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	iobj	_	start_char=4219|end_char=4229
+20	vor	vor	ADP	APPR	_	21	case	_	start_char=4230|end_char=4233
+21	Zuschauern	Zuschauer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	nmod	_	start_char=4234|end_char=4244
+22	.	.	PUNCT	$.	_	7	punct	_	start_char=4244|end_char=4245
+
+# text = Neugierige Blicke sind für einen Verletzten unangenehm.
+# sent_id = 77
+1	Neugierige	neugierig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=4246|end_char=4256
+2	Blicke	Blicke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=4257|end_char=4263
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=4264|end_char=4268
+4	für	für	ADP	APPR	_	6	case	_	start_char=4269|end_char=4272
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=4273|end_char=4278
+6	Verletzten	Verletzte	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	start_char=4279|end_char=4289
+7	unangenehm	unangenehm	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4290|end_char=4300
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=4300|end_char=4301
+
+# text = Weisen Sie Schaulustige freundlich aber bestimmt an: "Bitte treten Sie zurück!"
+# sent_id = 78
+1	Weisen	Weise	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4302|end_char=4308
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=4309|end_char=4312
+3	Schaulustige	Schaulustige	NOUN	NN	Case=Nom|Number=Plur	1	obj	_	start_char=4313|end_char=4325
+4	freundlich	freundlich	ADV	ADJD	_	1	advmod	_	start_char=4326|end_char=4336
+5	aber	aber	ADV	ADV	_	1	advmod	_	start_char=4337|end_char=4341
+6	bestimmt	bestimmt	ADV	ADV	_	1	advmod	_	start_char=4342|end_char=4350
+7	an	an	ADP	PTKVZ	_	1	compound:prt	_	start_char=4351|end_char=4353
+8	:	:	PUNCT	$.	_	11	punct	_	start_char=4353|end_char=4354
+9	"	"	PUNCT	$(	_	11	punct	_	start_char=4355|end_char=4356
+10	Bitte	bitten	ADV	ADV	_	11	advmod	_	start_char=4356|end_char=4361
+11	treten	treten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	start_char=4362|end_char=4368
+12	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=4369|end_char=4372
+13	zurück	zurück	ADV	PTKVZ	_	11	compound:prt	_	start_char=4373|end_char=4379
+14	!	!	PUNCT	$.	_	11	punct	_	start_char=4379|end_char=4380
+15	"	"	PUNCT	$(	_	11	punct	_	start_char=4380|end_char=4381
+
+# text = Wenn Zuschauer stören, weil sie unnötige Ratschläge geben oder ihre eigenen schlimmen Erlebnisse erzählen, geben Sie ihnen eine Aufgabe.
+# sent_id = 79
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	start_char=4382|end_char=4386
+2	Zuschauer	Zuschauer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=4387|end_char=4396
+3	stören	stören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	start_char=4397|end_char=4403
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=4403|end_char=4404
+5	weil	weil	SCONJ	KOUS	_	9	mark	_	start_char=4405|end_char=4409
+6	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=4410|end_char=4413
+7	unnötige	unnötig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=4414|end_char=4422
+8	Ratschläge	Ratschlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=4423|end_char=4433
+9	geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=4434|end_char=4439
+10	oder	oder	CCONJ	KON	_	15	cc	_	start_char=4440|end_char=4444
+11	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	start_char=4445|end_char=4449
+12	eigenen	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	start_char=4450|end_char=4457
+13	schlimmen	schlimm	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	start_char=4458|end_char=4467
+14	Erlebnisse	Erlebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	start_char=4468|end_char=4478
+15	erzählen	erzählen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	start_char=4479|end_char=4487
+16	,	,	PUNCT	$,	_	3	punct	_	start_char=4487|end_char=4488
+17	geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4489|end_char=4494
+18	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	start_char=4495|end_char=4498
+19	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	17	iobj	_	start_char=4499|end_char=4504
+20	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=4505|end_char=4509
+21	Aufgabe	Aufgabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	start_char=4510|end_char=4517
+22	.	.	PUNCT	$.	_	17	punct	_	start_char=4517|end_char=4518
+
+# text = Zum Beispiel: "Schauen Sie bitte, ob die Unfallstelle abgesichert ist."
+# sent_id = 80
+1-2	Zum	_	_	_	_	_	_	_	start_char=4519|end_char=4522
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=4523|end_char=4531
+4	:	:	PUNCT	$.	_	6	punct	_	start_char=4531|end_char=4532
+5	"	"	PUNCT	$(	_	6	punct	_	start_char=4533|end_char=4534
+6	Schauen	Schauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4534|end_char=4541
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=4542|end_char=4545
+8	bitte	bitten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	start_char=4546|end_char=4551
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=4551|end_char=4552
+10	ob	ob	SCONJ	KOUS	_	13	mark	_	start_char=4553|end_char=4555
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=4556|end_char=4559
+12	Unfallstelle	Unfallstelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=4560|end_char=4572
+13	abgesichert	absichern	ADJ	VVPP	Degree=Pos|VerbForm=Part	8	ccomp	_	start_char=4573|end_char=4584
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=4585|end_char=4588
+15	.	.	PUNCT	$.	_	6	punct	_	start_char=4588|end_char=4589
+16	"	"	PUNCT	$(	_	6	punct	_	start_char=4589|end_char=4590
+
+# text = Oder: "Halten Sie bitte die Zuschauer von dem Verletzten weg und machen Sie Ruhe!"
+# sent_id = 81
+1	Oder	Oder	ADV	ADV	_	4	advmod	_	start_char=4591|end_char=4595
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=4595|end_char=4596
+3	"	"	PUNCT	$(	_	4	punct	_	start_char=4597|end_char=4598
+4	Halten	halten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4598|end_char=4604
+5	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=4605|end_char=4608
+6	bitte	bitten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=4609|end_char=4614
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	start_char=4615|end_char=4618
+8	Zuschauer	Zuschauer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=4619|end_char=4628
+9	von	von	ADP	APPR	_	11	case	_	start_char=4629|end_char=4632
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=4633|end_char=4636
+11	Verletzten	Verletzte	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	start_char=4637|end_char=4647
+12	weg	weg	ADV	PTKVZ	_	6	compound:prt	_	start_char=4648|end_char=4651
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=4652|end_char=4655
+14	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=4656|end_char=4662
+15	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=4663|end_char=4666
+16	Ruhe	Ruhe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=4667|end_char=4671
+17	!	!	PUNCT	$.	_	4	punct	_	start_char=4671|end_char=4672
+18	"	"	PUNCT	$(	_	4	punct	_	start_char=4672|end_char=4673
+
+# text = Regel 3: Suchen Sie vorsichtig Körperkontakt!
+# sent_id = 82
+1	Regel	Regel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	dep	_	start_char=4674|end_char=4679
+2	3	3	NUM	CARD	NumType=Card	1	nummod	_	start_char=4680|end_char=4681
+3	:	:	PUNCT	$.	_	1	punct	_	start_char=4681|end_char=4682
+4	Suchen	Suche|Suchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4683|end_char=4689
+5	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=4690|end_char=4693
+6	vorsichtig	vorsichtig	ADV	ADJD	_	4	advmod	_	start_char=4694|end_char=4704
+7	Körperkontakt	Körperkontakt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=4705|end_char=4718
+8	!	!	PUNCT	$.	_	4	punct	_	start_char=4718|end_char=4719
+
+# text = Leichter Körperkontakt fühlt sich für einen Verletzten gut und beruhigend an.
+# sent_id = 83
+1	Leichter	leicht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=4720|end_char=4728
+2	Körperkontakt	Körperkontakt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=4729|end_char=4742
+3	fühlt	fühlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4743|end_char=4748
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=4749|end_char=4753
+5	für	für	ADP	APPR	_	7	case	_	start_char=4754|end_char=4757
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=4758|end_char=4763
+7	Verletzten	Verletzte	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=4764|end_char=4774
+8	gut	gut	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=4775|end_char=4778
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=4779|end_char=4782
+10	beruhigend	beruhigend	ADJ	ADJD	Degree=Pos	8	conj	_	start_char=4783|end_char=4793
+11	an	an	ADP	PTKVZ	_	3	compound:prt	_	start_char=4794|end_char=4796
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=4796|end_char=4797
+
+# text = Halten Sie die Hand oder die Schulter des Betroffenen.
+# sent_id = 84
+1	Halten	halten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4798|end_char=4804
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=4805|end_char=4808
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=4809|end_char=4812
+4	Hand	Hand	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=4813|end_char=4817
+5	oder	oder	CCONJ	KON	_	7	cc	_	start_char=4818|end_char=4822
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=4823|end_char=4826
+7	Schulter	Schulter	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	start_char=4827|end_char=4835
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=4836|end_char=4839
+9	Betroffenen	Betroffene	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=4840|end_char=4851
+10	.	.	PUNCT	$.	_	1	punct	_	start_char=4851|end_char=4852
+
+# text = Berührungen am Kopf oder anderen Körperteilen sind nicht gut.
+# sent_id = 85
+1	Berührungen	Berührung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=4853|end_char=4864
+2-3	am	_	_	_	_	_	_	_	start_char=4865|end_char=4867
+2	an	an	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Kopf	Kopf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	start_char=4868|end_char=4872
+5	oder	oder	CCONJ	KON	_	7	cc	_	start_char=4873|end_char=4877
+6	anderen	ander	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	start_char=4878|end_char=4885
+7	Körperteilen	Körperteil	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	conj	_	start_char=4886|end_char=4898
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=4899|end_char=4903
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=4904|end_char=4909
+10	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4910|end_char=4913
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=4913|end_char=4914
+
+# text = Begeben Sie sich auf die gleiche Höhe wie der Verletzte: Knien Sie neben ihm oder beugen Sie sich herab.
+# sent_id = 86
+1	Begeben	Begeben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4915|end_char=4922
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=4923|end_char=4926
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	start_char=4927|end_char=4931
+4	auf	auf	ADP	APPR	_	7	case	_	start_char=4932|end_char=4935
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=4936|end_char=4939
+6	gleiche	gleich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=4940|end_char=4947
+7	Höhe	Höhe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	start_char=4948|end_char=4952
+8	wie	wie	ADP	KOKOM	_	10	case	_	start_char=4953|end_char=4956
+9	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=4957|end_char=4960
+10	Verletzte	Verletzte	NOUN	NN	Case=Nom|Number=Sing	7	nmod	_	start_char=4961|end_char=4970
+11	:	:	PUNCT	$.	_	12	punct	_	start_char=4970|end_char=4971
+12	Knien	Knien	NOUN	NN	Case=Nom|Number=Plur	1	parataxis	_	start_char=4972|end_char=4977
+13	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=4978|end_char=4981
+14	neben	neben	ADP	APPR	_	15	case	_	start_char=4982|end_char=4987
+15	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nmod	_	start_char=4988|end_char=4991
+16	oder	oder	CCONJ	KON	_	17	cc	_	start_char=4992|end_char=4996
+17	beugen	beugen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=4997|end_char=5003
+18	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	start_char=5004|end_char=5007
+19	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	start_char=5008|end_char=5012
+20	herab	herab	ADV	PTKVZ	_	17	compound:prt	_	start_char=5013|end_char=5018
+21	.	.	PUNCT	$.	_	1	punct	_	start_char=5018|end_char=5019
+
+# text = Regel 4: Sprechen Sie und hören Sie zu.
+# sent_id = 87
+1	Regel	Regel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	dep	_	start_char=5021|end_char=5026
+2	4	4	NUM	CARD	NumType=Card	1	nummod	_	start_char=5027|end_char=5028
+3	:	:	PUNCT	$.	_	1	punct	_	start_char=5028|end_char=5029
+4	Sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5030|end_char=5038
+5	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=5039|end_char=5042
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=5043|end_char=5046
+7	hören	hören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=5047|end_char=5052
+8	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	obj	_	start_char=5053|end_char=5056
+9	zu	zu	ADP	PTKVZ	_	7	compound:prt	_	start_char=5057|end_char=5059
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=5059|end_char=5060
+
+# text = Sprechen kann für den Verletzten gut sein.
+# sent_id = 88
+1	Sprechen	sprechen	VERB	VVINF	VerbForm=Inf	6	advcl	_	start_char=5061|end_char=5069
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=5070|end_char=5074
+3	für	für	ADP	APPR	_	5	case	_	start_char=5075|end_char=5078
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=5079|end_char=5082
+5	Verletzten	Verletzte	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	start_char=5083|end_char=5093
+6	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5094|end_char=5097
+7	sein	sein	AUX	VAINF	VerbForm=Inf	6	cop	_	start_char=5098|end_char=5102
+8	.	.	PUNCT	$.	_	6	punct	_	start_char=5102|end_char=5103
+
+# text = Wenn der Betroffene redet, hören Sie geduldig zu.
+# sent_id = 89
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=5104|end_char=5108
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=5109|end_char=5112
+3	Betroffene	Betroffene	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=5113|end_char=5123
+4	redet	reden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=5124|end_char=5129
+5	,	,	PUNCT	$,	_	4	punct	_	start_char=5129|end_char=5130
+6	hören	hören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5131|end_char=5136
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=5137|end_char=5140
+8	geduldig	geduldig	ADV	ADJD	_	6	advmod	_	start_char=5141|end_char=5149
+9	zu	zu	ADP	PTKVZ	_	6	compound:prt	_	start_char=5150|end_char=5152
+10	.	.	PUNCT	$.	_	6	punct	_	start_char=5152|end_char=5153
+
+# text = Sprechen Sie von sich aus, möglichst in ruhigem Tonfall.
+# sent_id = 90
+1	Sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5154|end_char=5162
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=5163|end_char=5166
+3	von	von	ADP	APPR	_	4	case	_	start_char=5167|end_char=5170
+4	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	1	obl	_	start_char=5171|end_char=5175
+5	aus	aus	ADP	PTKVZ	_	1	compound:prt	_	start_char=5176|end_char=5179
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=5179|end_char=5180
+7	möglichst	möglichst	ADV	ADV	_	10	advmod	_	start_char=5181|end_char=5190
+8	in	in	ADP	APPR	_	10	case	_	start_char=5191|end_char=5193
+9	ruhigem	ruhigem	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=5194|end_char=5201
+10	Tonfall	Tonfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	start_char=5202|end_char=5209
+11	.	.	PUNCT	$.	_	1	punct	_	start_char=5209|end_char=5210
+
+# text = Auch zu Bewusstlosen, wenn sie atmen und in die stabile Seitenlage gebracht sind.
+# sent_id = 91
+1	Auch	auch	ADV	ADV	_	3	advmod	_	start_char=5211|end_char=5215
+2	zu	zu	ADP	APPR	_	3	case	_	start_char=5216|end_char=5218
+3	Bewusstlosen	Bewußtlose	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	0	root	_	start_char=5219|end_char=5231
+4	,	,	PUNCT	$,	_	7	punct	_	start_char=5231|end_char=5232
+5	wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=5233|end_char=5237
+6	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=5238|end_char=5241
+7	atmen	atmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=5242|end_char=5247
+8	und	und	CCONJ	KON	_	13	cc	_	start_char=5248|end_char=5251
+9	in	in	ADP	APPR	_	12	case	_	start_char=5252|end_char=5254
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=5255|end_char=5258
+11	stabile	stabil	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=5259|end_char=5266
+12	Seitenlage	Seitenlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	start_char=5267|end_char=5277
+13	gebracht	bringen	VERB	VVPP	VerbForm=Part	7	conj	_	start_char=5278|end_char=5286
+14	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	start_char=5287|end_char=5291
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=5291|end_char=5292
+
+# text = Vermeiden Sie Vorwürfe.
+# sent_id = 92
+1	Vermeiden	Vermeiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5293|end_char=5302
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=5303|end_char=5306
+3	Vorwürfe	Vorwurf	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=5307|end_char=5315
+4	.	.	PUNCT	$.	_	1	punct	_	start_char=5315|end_char=5316
+
+# text = Fragen Sie den Verletzten: "Kann ich etwas für Sie tun?"
+# sent_id = 93
+1	Fragen	Frage	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5317|end_char=5323
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=5324|end_char=5327
+3	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	start_char=5328|end_char=5331
+4	Verletzten	Verletzte	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	1	iobj	_	start_char=5332|end_char=5342
+5	:	:	PUNCT	$.	_	12	punct	_	start_char=5342|end_char=5343
+6	"	"	PUNCT	$(	_	12	punct	_	start_char=5344|end_char=5345
+7	Kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=5345|end_char=5349
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=5350|end_char=5353
+9	etwas	etwas	PRON	PIS	PronType=Ind	12	obj	_	start_char=5354|end_char=5359
+10	für	für	ADP	APPR	_	11	case	_	start_char=5360|end_char=5363
+11	Sie	Sie|sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	nmod	_	start_char=5364|end_char=5367
+12	tun	tun	VERB	VVINF	VerbForm=Inf	1	parataxis	_	start_char=5368|end_char=5371
+13	?	?	PUNCT	$.	_	12	punct	_	start_char=5371|end_char=5372
+14	"	"	PUNCT	$(	_	12	punct	_	start_char=5372|end_char=5373
+
+# text = Informieren Sie hierüber gegebenenfalls die professionellen Helfer.
+# sent_id = 94
+1	Informieren	Informieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5374|end_char=5385
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=5386|end_char=5389
+3	hierüber	hierüber	ADV	ADV	_	1	advmod	_	start_char=5390|end_char=5398
+4	gegebenenfalls	gegebenenfalls	ADV	ADV	_	1	advmod	_	start_char=5399|end_char=5413
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=5414|end_char=5417
+6	professionellen	professionell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=5418|end_char=5433
+7	Helfer	Helfer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=5434|end_char=5440
+8	.	.	PUNCT	$.	_	1	punct	_	start_char=5440|end_char=5441
+
+# text = Wenn Sie Mitleid verspüren, ist es okay, das zu zeigen.
+# sent_id = 95
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=5442|end_char=5446
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=5447|end_char=5450
+3	Mitleid	Mitleid	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=5451|end_char=5458
+4	verspüren	verspüren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	start_char=5459|end_char=5468
+5	,	,	PUNCT	$,	_	4	punct	_	start_char=5468|end_char=5469
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=5470|end_char=5473
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	start_char=5474|end_char=5476
+8	okay	Okay	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5477|end_char=5481
+9	,	,	PUNCT	$,	_	12	punct	_	start_char=5481|end_char=5482
+10	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obj	_	start_char=5483|end_char=5486
+11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=5487|end_char=5489
+12	zeigen	zeigen	VERB	VVINF	VerbForm=Inf	8	xcomp	_	start_char=5490|end_char=5496
+13	.	.	PUNCT	$.	_	8	punct	_	start_char=5496|end_char=5497
+

@@ -1,0 +1,2393 @@
+# text = ﻿
+# sent_id = 0
+1	﻿	"	PUNCT	$(	_	0	root	_	start_char=0|end_char=1
+
+# text = Schlaf-Störungen: Was sind die Gründe?
+# sent_id = 1
+1	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	compound	_	start_char=2|end_char=8
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=8|end_char=9
+3	Störungen	Störung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=9|end_char=18
+4	:	:	PUNCT	$.	_	8	punct	_	start_char=18|end_char=19
+5	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	8	nsubj	_	start_char=20|end_char=23
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=24|end_char=28
+7	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=29|end_char=32
+8	Gründe	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	parataxis	_	start_char=33|end_char=39
+9	?	?	PUNCT	$.	_	8	punct	_	start_char=39|end_char=40
+
+# text = Wie kann man sie behandeln?
+# sent_id = 2
+1	Wie	wie	ADV	PWAV	PronType=Int	5	advmod	_	start_char=41|end_char=44
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=45|end_char=49
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=50|end_char=53
+4	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	start_char=54|end_char=57
+5	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=58|end_char=67
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=67|end_char=68
+
+# text = Wie kann man sich selbst helfen?
+# sent_id = 3
+1	Wie	wie	ADV	PWAV	PronType=Int	6	advmod	_	start_char=69|end_char=72
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=73|end_char=77
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=78|end_char=81
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	start_char=82|end_char=86
+5	selbst	selbst	ADV	ADV	_	6	advmod	_	start_char=87|end_char=93
+6	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=94|end_char=100
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=100|end_char=101
+
+# text = Schlaf-Probleme können viele Formen haben.
+# sent_id = 4
+1	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	compound	_	start_char=103|end_char=109
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=109|end_char=110
+3	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	start_char=110|end_char=118
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=119|end_char=125
+5	viele	viel	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	start_char=126|end_char=131
+6	Formen	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	obj	_	start_char=132|end_char=138
+7	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=139|end_char=144
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=144|end_char=145
+
+# text = Zum Beispiel: - Sie können nicht einschlafen.
+# sent_id = 5
+1-2	Zum	_	_	_	_	_	_	_	start_char=146|end_char=149
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=150|end_char=158
+4	:	:	PUNCT	$.	_	9	punct	_	start_char=158|end_char=159
+5	-	-	PUNCT	$(	_	3	punct	_	start_char=160|end_char=161
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=162|end_char=165
+7	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=166|end_char=172
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=173|end_char=178
+9	einschlafen	einschlafen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=179|end_char=190
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=190|end_char=191
+
+# text = - Sie wachen oft auf. - Sie schnarchen. - Ihre Beine kribbeln und Sie können nicht still liegen.
+# sent_id = 6
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=192|end_char=193
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=194|end_char=197
+3	wachen	wachen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=198|end_char=204
+4	oft	oft	ADV	ADV	_	3	advmod	_	start_char=205|end_char=208
+5	auf	auf	ADP	PTKVZ	_	3	compound:prt	_	start_char=209|end_char=212
+6	.	.	PUNCT	$.	_	9	punct	_	start_char=212|end_char=213
+7	-	-	PUNCT	$(	_	9	punct	_	start_char=214|end_char=215
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=216|end_char=219
+9	schnarchen	schnarchen	VERB	VVINF	Number=Plur|VerbForm=Fin	3	parataxis	_	start_char=220|end_char=230
+10	.	.	PUNCT	$.	_	14	punct	_	start_char=230|end_char=231
+11	-	-	PUNCT	$(	_	14	punct	_	start_char=232|end_char=233
+12	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	start_char=234|end_char=238
+13	Beine	Bein	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	start_char=239|end_char=244
+14	kribbeln	kribbeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=245|end_char=253
+15	und	und	CCONJ	KON	_	20	cc	_	start_char=254|end_char=257
+16	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=258|end_char=261
+17	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=262|end_char=268
+18	nicht	nicht	PART	PTKNEG	Polarity=Neg	20	advmod	_	start_char=269|end_char=274
+19	still	still	ADV	ADJD	_	20	advmod	_	start_char=275|end_char=280
+20	liegen	liegen	VERB	VVINF	VerbForm=Inf	3	conj	_	start_char=281|end_char=287
+21	.	.	PUNCT	$.	_	3	punct	_	start_char=287|end_char=288
+
+# text = - Sie schlafen tagsüber oft ein.
+# sent_id = 7
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=289|end_char=290
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=291|end_char=294
+3	schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=295|end_char=303
+4	tagsüber	tagsüber	ADV	ADV	_	3	advmod	_	start_char=304|end_char=312
+5	oft	oft	ADV	ADV	_	3	advmod	_	start_char=313|end_char=316
+6	ein	ein	ADV	PTKVZ	_	3	compound:prt	_	start_char=317|end_char=320
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=320|end_char=321
+
+# text = Es gibt viele Gründe für Schlaf-Probleme.
+# sent_id = 8
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=322|end_char=324
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=325|end_char=329
+3	viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	start_char=330|end_char=335
+4	Gründe	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=336|end_char=342
+5	für	für	ADP	APPR	_	8	case	_	start_char=343|end_char=346
+6	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	compound	_	start_char=347|end_char=353
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=353|end_char=354
+8	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	start_char=354|end_char=362
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=362|end_char=363
+
+# text = Unsere Texte sind von Apothekern und Ärzten geprüft.
+# sent_id = 9
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=365|end_char=371
+2	Texte	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	start_char=372|end_char=377
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	start_char=378|end_char=382
+4	von	von	ADP	APPR	_	5	case	_	start_char=383|end_char=386
+5	Apothekern	Apotheker	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl:agent	_	start_char=387|end_char=397
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=398|end_char=401
+7	Ärzten	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	start_char=402|end_char=408
+8	geprüft	prüfen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=409|end_char=416
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=416|end_char=417
+
+# text = Andrea Blank-Koppenleitner hat den Text geschrieben.
+# sent_id = 10
+1	Andrea	Andrea	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=419|end_char=425
+2	Blank	Blank	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	start_char=426|end_char=431
+3	-	-	PUNCT	$(	_	4	punct	_	start_char=431|end_char=432
+4	Koppenleitner	Koppenleitner	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	start_char=432|end_char=445
+5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=446|end_char=449
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=450|end_char=453
+7	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=454|end_char=458
+8	geschrieben	schreiben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=459|end_char=470
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=470|end_char=471
+
+# text = Sie hat den Text am 4. April 2018 aktualisiert.
+# sent_id = 11
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=472|end_char=475
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=476|end_char=479
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=480|end_char=483
+4	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=484|end_char=488
+5-6	am	_	_	_	_	_	_	_	start_char=489|end_char=491
+5	an	an	ADP	APPR	_	8	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+7	4.	4.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	8	amod	_	start_char=492|end_char=494
+8	April	April	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=495|end_char=500
+9	2018	2018	NUM	CARD	NumType=Card	8	nmod	_	start_char=501|end_char=505
+10	aktualisiert	aktualisieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=506|end_char=518
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=518|end_char=519
+
+# text = Das sind Themen über Schlaf-Störungen: - Was sind Schlaf-Störungen? - Warum ist Schlaf wichtig?
+# sent_id = 12
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=521|end_char=524
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=525|end_char=529
+3	Themen	Thema	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=530|end_char=536
+4	über	über	ADP	APPR	_	7	case	_	start_char=537|end_char=541
+5	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	compound	_	start_char=542|end_char=548
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=548|end_char=549
+7	Störungen	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	start_char=549|end_char=558
+8	:	:	PUNCT	$.	_	14	punct	_	start_char=558|end_char=559
+9	-	-	PUNCT	$(	_	14	punct	_	start_char=560|end_char=561
+10	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	14	nsubj	_	start_char=562|end_char=565
+11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=566|end_char=570
+12	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	compound	_	start_char=571|end_char=577
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=577|end_char=578
+14	Störungen	Störung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	appos	_	start_char=578|end_char=587
+15	?	?	PUNCT	$.	_	14	punct	_	start_char=587|end_char=588
+16	-	-	PUNCT	$(	_	20	punct	_	start_char=589|end_char=590
+17	Warum	warum	ADV	PWAV	PronType=Int	20	advmod	_	start_char=591|end_char=596
+18	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=597|end_char=600
+19	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	start_char=601|end_char=607
+20	wichtig	wichtig	ADJ	ADJD	Degree=Pos	3	parataxis	_	start_char=608|end_char=615
+21	?	?	PUNCT	$.	_	20	punct	_	start_char=615|end_char=616
+
+# text = - Wie erkennt man Schlaf-Störungen? - Was verursacht Schlaf-Störungen?
+# sent_id = 13
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=617|end_char=618
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	start_char=619|end_char=622
+3	erkennt	erkennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=623|end_char=630
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=631|end_char=634
+5	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	compound	_	start_char=635|end_char=641
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=641|end_char=642
+7	Störungen	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=642|end_char=651
+8	?	?	PUNCT	$.	_	11	punct	_	start_char=651|end_char=652
+9	-	-	PUNCT	$(	_	11	punct	_	start_char=653|end_char=654
+10	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	11	nsubj	_	start_char=655|end_char=658
+11	verursacht	verursachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=659|end_char=669
+12	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	compound	_	start_char=670|end_char=676
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=676|end_char=677
+14	Störungen	Störung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	obj	_	start_char=677|end_char=686
+15	?	?	PUNCT	$.	_	11	punct	_	start_char=686|end_char=687
+
+# text = Zum Beispiel: Stress, Schicht-Arbeit. - Medikamente können auch Schlaf-Störungen verursachen.
+# sent_id = 14
+1-2	Zum	_	_	_	_	_	_	_	start_char=688|end_char=691
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	start_char=692|end_char=700
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=700|end_char=701
+5	Stress	Streß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=702|end_char=708
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=708|end_char=709
+7	Schicht	Schicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	compound	_	start_char=710|end_char=717
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=717|end_char=718
+9	Arbeit.	Arbeit.	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	compound	_	start_char=718|end_char=725
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=726|end_char=727
+11	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	conj	_	start_char=728|end_char=739
+12	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=740|end_char=746
+13	auch	auch	ADV	ADV	_	17	advmod	_	start_char=747|end_char=751
+14	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	compound	_	start_char=752|end_char=758
+15	-	-	PUNCT	$(	_	14	punct	_	start_char=758|end_char=759
+16	Störungen	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	start_char=759|end_char=768
+17	verursachen	verursechen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=769|end_char=780
+18	.	.	PUNCT	$.	_	17	punct	_	start_char=780|end_char=781
+
+# text = - Depressionen und Ängste können auch Schlaf-Störungen verursachen.
+# sent_id = 15
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=782|end_char=783
+2	Depressionen	Depression	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=784|end_char=796
+3	und	und	CCONJ	KON	_	4	cc	_	start_char=797|end_char=800
+4	Ängste	Angst	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=801|end_char=807
+5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=808|end_char=814
+6	auch	auch	ADV	ADV	_	10	advmod	_	start_char=815|end_char=819
+7	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	compound	_	start_char=820|end_char=826
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=826|end_char=827
+9	Störungen	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=827|end_char=836
+10	verursachen	verursechen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=837|end_char=848
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=848|end_char=849
+
+# text = - Manche Menschen schnarchen oder haben Atemaussetzer im Schlaf.
+# sent_id = 16
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=850|end_char=851
+2	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=852|end_char=858
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=859|end_char=867
+4	schnarchen	schnarchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=868|end_char=878
+5	oder	oder	CCONJ	KON	_	6	cc	_	start_char=879|end_char=883
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=884|end_char=889
+7	Atemaussetzer	Atemaussetzer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=890|end_char=903
+8-9	im	_	_	_	_	_	_	_	start_char=904|end_char=906
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Schlaf	Schlaf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	start_char=907|end_char=913
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=913|end_char=914
+
+# text = - Manche Menschen haben unruhige Beine im Schlaf. - Manche Menschen haben Narkolepsie oder Parasomnien.
+# sent_id = 17
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=915|end_char=916
+2	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=917|end_char=923
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=924|end_char=932
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=933|end_char=938
+5	unruhige	unruhig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=939|end_char=947
+6	Beine	Bein	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=948|end_char=953
+7-8	im	_	_	_	_	_	_	_	start_char=954|end_char=956
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Schlaf.	Schlaf.	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	start_char=957|end_char=964
+10	-	-	PUNCT	$(	_	13	punct	_	start_char=965|end_char=966
+11	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	12	det	_	start_char=967|end_char=973
+12	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=974|end_char=982
+13	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=983|end_char=988
+14	Narkolepsie	Narkolepsie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=989|end_char=1000
+15	oder	oder	CCONJ	KON	_	16	cc	_	start_char=1001|end_char=1005
+16	Parasomnien	Parasomnie	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	conj	_	start_char=1006|end_char=1017
+17	.	.	PUNCT	$.	_	4	punct	_	start_char=1017|end_char=1018
+
+# text = - Körperliche Krankheiten können den Schlaf stören.
+# sent_id = 18
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1019|end_char=1020
+2	Körperliche	körperlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=1021|end_char=1032
+3	Krankheiten	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=1033|end_char=1044
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1045|end_char=1051
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=1052|end_char=1055
+6	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=1056|end_char=1062
+7	stören	stören	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1063|end_char=1069
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1069|end_char=1070
+
+# text = - Wie behandelt man Schlaf-Störungen?
+# sent_id = 19
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1071|end_char=1072
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	start_char=1073|end_char=1076
+3	behandelt	behandeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1077|end_char=1086
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=1087|end_char=1090
+5	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	compound	_	start_char=1091|end_char=1097
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=1097|end_char=1098
+7	Störungen	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=1098|end_char=1107
+8	?	?	PUNCT	$.	_	3	punct	_	start_char=1107|end_char=1108
+
+# text = Was kann man selbst tun? - Wo findet man Fach-Literatur über Schlaf-Störungen?
+# sent_id = 20
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	5	obj	_	start_char=1109|end_char=1112
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1113|end_char=1117
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=1118|end_char=1121
+4	selbst	selbst	ADV	ADV	_	5	advmod	_	start_char=1122|end_char=1128
+5	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1129|end_char=1132
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=1132|end_char=1133
+7	-	-	PUNCT	$(	_	9	punct	_	start_char=1134|end_char=1135
+8	Wo	wo	ADV	PWAV	PronType=Int	9	advmod	_	start_char=1136|end_char=1138
+9	findet	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=1139|end_char=1145
+10	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=1146|end_char=1149
+11	Fach	Fach	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	compound	_	start_char=1150|end_char=1154
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=1154|end_char=1155
+13	Literatur	Literatur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=1155|end_char=1164
+14	über	über	ADP	APPR	_	17	case	_	start_char=1165|end_char=1169
+15	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	compound	_	start_char=1170|end_char=1176
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=1176|end_char=1177
+17	Störungen	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	nmod	_	start_char=1177|end_char=1186
+18	?	?	PUNCT	$.	_	9	punct	_	start_char=1186|end_char=1187
+
+# text = Was ist Schlaf-Mangel?
+# sent_id = 21
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=1189|end_char=1192
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1193|end_char=1196
+3	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	start_char=1197|end_char=1203
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=1203|end_char=1204
+5	Mangel	Mangel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=1204|end_char=1210
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=1210|end_char=1211
+
+# text = Schlaf-Mangel bedeutet, dass man zu wenig schläft.
+# sent_id = 22
+1	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	start_char=1212|end_char=1218
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=1218|end_char=1219
+3	Mangel	Mangel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1219|end_char=1225
+4	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1226|end_char=1234
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=1234|end_char=1235
+6	dass	dass	SCONJ	KOUS	_	10	mark	_	start_char=1236|end_char=1240
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=1241|end_char=1244
+8	zu	zu	ADV	PTKA	_	9	advmod	_	start_char=1245|end_char=1247
+9	wenig	wenig	DET	PIS	PronType=Ind	10	obj	_	start_char=1248|end_char=1253
+10	schläft	schlafen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=1254|end_char=1261
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=1261|end_char=1262
+
+# text = Das kann Probleme machen.
+# sent_id = 23
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=1263|end_char=1266
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1267|end_char=1271
+3	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=1272|end_char=1280
+4	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1281|end_char=1287
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=1287|end_char=1288
+
+# text = Was ist eine Schlaf-Störung? - Sie schlafen schlecht ein oder durch.
+# sent_id = 24
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=1290|end_char=1293
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1294|end_char=1297
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=1298|end_char=1302
+4	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	start_char=1303|end_char=1309
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1309|end_char=1310
+6	Störung	Störung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1310|end_char=1317
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=1317|end_char=1318
+8	-	-	PUNCT	$(	_	10	punct	_	start_char=1319|end_char=1320
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=1321|end_char=1324
+10	schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=1325|end_char=1333
+11	schlecht	schlecht	ADV	ADJD	_	10	advmod	_	start_char=1334|end_char=1342
+12	ein	ein	ADV	PTKVZ	_	10	compound:prt	_	start_char=1343|end_char=1346
+13	oder	oder	CCONJ	KON	_	10	cc	_	start_char=1347|end_char=1351
+14	durch	durch	ADP	PTKVZ	_	10	compound:prt	_	start_char=1352|end_char=1357
+15	.	.	PUNCT	$.	_	6	punct	_	start_char=1357|end_char=1358
+
+# text = - Das passiert mindestens dreimal pro Woche.
+# sent_id = 25
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1359|end_char=1360
+2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=1361|end_char=1364
+3	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1365|end_char=1373
+4	mindestens	mindestens	ADV	ADV	_	5	advmod	_	start_char=1374|end_char=1384
+5	dreimal	dreimal	ADV	ADV	_	3	advmod	_	start_char=1385|end_char=1392
+6	pro	pro	ADP	APPR	_	7	case	_	start_char=1393|end_char=1396
+7	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=1397|end_char=1402
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=1402|end_char=1403
+
+# text = - Das geht schon ein bis 3 Monate so.
+# sent_id = 26
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1404|end_char=1405
+2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=1406|end_char=1409
+3	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1410|end_char=1414
+4	schon	schon	ADV	ADV	_	3	advmod	_	start_char=1415|end_char=1420
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=1421|end_char=1424
+6	bis	bis	ADP	APPR	_	7	case	_	start_char=1425|end_char=1428
+7	3	3	NUM	CARD	NumType=Card	8	nmod	_	start_char=1429|end_char=1430
+8	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	start_char=1431|end_char=1437
+9	so	so	ADV	ADV	_	3	advmod	_	start_char=1438|end_char=1440
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=1440|end_char=1441
+
+# text = Die Schlaf-Störung kommt nicht von einer anderen Krankheit.
+# sent_id = 27
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1442|end_char=1445
+2	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	start_char=1446|end_char=1452
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=1452|end_char=1453
+4	Störung	Störung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=1453|end_char=1460
+5	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1461|end_char=1466
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=1467|end_char=1472
+7	von	von	ADP	APPR	_	10	case	_	start_char=1473|end_char=1476
+8	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=1477|end_char=1482
+9	anderen	anderer	DET	ADJA	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	10	det	_	start_char=1483|end_char=1490
+10	Krankheit	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=1491|end_char=1500
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=1500|end_char=1501
+
+# text = Die Schlaf-Störung macht Ihnen Probleme im All-Tag.
+# sent_id = 28
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=1502|end_char=1505
+2	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	start_char=1506|end_char=1512
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=1512|end_char=1513
+4	Störung	Störung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=1513|end_char=1520
+5	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1521|end_char=1526
+6	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	obl:arg	_	start_char=1527|end_char=1532
+7	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	start_char=1533|end_char=1541
+8-9	im	_	_	_	_	_	_	_	start_char=1542|end_char=1544
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	All	all	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	start_char=1545|end_char=1548
+11	-	-	PUNCT	$(	_	12	punct	_	start_char=1548|end_char=1549
+12	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	flat	_	start_char=1549|end_char=1552
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=1552|end_char=1553
+
+# text = Etwa 6 Prozent der Menschen haben eine Schlaf-Störung.
+# sent_id = 29
+1	Etwa	etwa	ADV	ADV	_	2	advmod	_	start_char=1554|end_char=1558
+2	6	6	NUM	CARD	NumType=Card	3	nummod	_	start_char=1559|end_char=1560
+3	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=1561|end_char=1568
+4	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1569|end_char=1572
+5	Menschen	Mensch	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=1573|end_char=1581
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1582|end_char=1587
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=1588|end_char=1592
+8	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	compound	_	start_char=1593|end_char=1599
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=1599|end_char=1600
+10	Störung	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=1600|end_char=1607
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=1607|end_char=1608
+
+# text = Wie findet der Arzt heraus, ob Sie eine Schlaf-Störung haben? - Der Arzt spricht mit Ihnen.
+# sent_id = 30
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	start_char=1609|end_char=1612
+2	findet	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1613|end_char=1619
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1620|end_char=1623
+4	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1624|end_char=1628
+5	heraus	heraus	ADV	PTKVZ	_	2	compound:prt	_	start_char=1629|end_char=1635
+6	,	,	PUNCT	$,	_	13	punct	_	start_char=1635|end_char=1636
+7	ob	ob	SCONJ	KOUS	_	13	mark	_	start_char=1637|end_char=1639
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	13	nsubj	_	start_char=1640|end_char=1643
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=1644|end_char=1648
+10	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	compound	_	start_char=1649|end_char=1655
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=1655|end_char=1656
+12	Störung	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=1656|end_char=1663
+13	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=1664|end_char=1669
+14	?	?	PUNCT	$.	_	13	punct	_	start_char=1669|end_char=1670
+15	-	-	PUNCT	$(	_	18	punct	_	start_char=1671|end_char=1672
+16	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=1673|end_char=1676
+17	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	start_char=1677|end_char=1681
+18	spricht	sprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=1682|end_char=1689
+19	mit	mit	ADP	APPR	_	20	case	_	start_char=1690|end_char=1693
+20	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	18	obl	_	start_char=1694|end_char=1699
+21	.	.	PUNCT	$.	_	2	punct	_	start_char=1699|end_char=1700
+
+# text = - Sie füllen Frage-Bögen aus. - Sie schreiben 14 Tage lang auf, wann und wie Sie schlafen.
+# sent_id = 31
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1701|end_char=1702
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1703|end_char=1706
+3	füllen	füllen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1707|end_char=1713
+4	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	compound	_	start_char=1714|end_char=1719
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1719|end_char=1720
+6	Bögen	Bogen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=1720|end_char=1725
+7	aus	aus	ADP	PTKVZ	_	3	compound:prt	_	start_char=1726|end_char=1729
+8	.	.	PUNCT	$.	_	11	punct	_	start_char=1729|end_char=1730
+9	-	-	PUNCT	$(	_	11	punct	_	start_char=1731|end_char=1732
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=1733|end_char=1736
+11	schreiben	schreiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=1737|end_char=1746
+12	14	14	NUM	CARD	NumType=Card	13	nummod	_	start_char=1747|end_char=1749
+13	Tage	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	nmod	_	start_char=1750|end_char=1754
+14	lang	lang	ADJ	ADJD	Degree=Pos	11	advmod	_	start_char=1755|end_char=1759
+15	auf	auf	ADP	PTKVZ	_	11	compound:prt	_	start_char=1760|end_char=1763
+16	,	,	PUNCT	$,	_	21	punct	_	start_char=1763|end_char=1764
+17	wann	wann	ADV	PWAV	PronType=Int	21	advmod	_	start_char=1765|end_char=1769
+18	und	und	CCONJ	KON	_	21	cc	_	start_char=1770|end_char=1773
+19	wie	wie	SCONJ	KOUS	_	21	mark	_	start_char=1774|end_char=1777
+20	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	21	nsubj	_	start_char=1778|end_char=1781
+21	schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=1782|end_char=1790
+22	.	.	PUNCT	$.	_	3	punct	_	start_char=1790|end_char=1791
+
+# text = - Vielleicht misst der Arzt auch Ihre Bewegungen.
+# sent_id = 32
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1792|end_char=1793
+2	Vielleicht	vielleicht	ADV	ADV	_	3	advmod	_	start_char=1794|end_char=1804
+3	misst	messen|missen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1805|end_char=1810
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1811|end_char=1814
+5	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1815|end_char=1819
+6	auch	auch	ADV	ADV	_	3	advmod	_	start_char=1820|end_char=1824
+7	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=1825|end_char=1829
+8	Bewegungen	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=1830|end_char=1840
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=1840|end_char=1841
+
+# text = Wie geht es weiter, wenn Sie eine Schlaf-Störung haben? - Die Schlaf-Störung kann schnell wieder weggehen.
+# sent_id = 33
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	start_char=1842|end_char=1845
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1846|end_char=1850
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1851|end_char=1853
+4	weiter	weiter	ADV	ADV	_	2	compound:prt	_	start_char=1854|end_char=1860
+5	,	,	PUNCT	$,	_	12	punct	_	start_char=1860|end_char=1861
+6	wenn	wenn	SCONJ	KOUS	_	12	mark	_	start_char=1862|end_char=1866
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	start_char=1867|end_char=1870
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=1871|end_char=1875
+9	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	compound	_	start_char=1876|end_char=1882
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=1882|end_char=1883
+11	Störung	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=1883|end_char=1890
+12	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=1891|end_char=1896
+13	?	?	PUNCT	$.	_	12	punct	_	start_char=1896|end_char=1897
+14	-	-	PUNCT	$(	_	22	punct	_	start_char=1898|end_char=1899
+15	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	18	det	_	start_char=1900|end_char=1903
+16	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	compound	_	start_char=1904|end_char=1910
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=1910|end_char=1911
+18	Störung	Störung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	start_char=1911|end_char=1918
+19	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=1919|end_char=1923
+20	schnell	schnell	ADV	ADJD	_	22	advmod	_	start_char=1924|end_char=1931
+21	wieder	wieder	ADV	ADV	_	22	advmod	_	start_char=1932|end_char=1938
+22	weggehen	weggehen	VERB	VVINF	VerbForm=Inf	2	parataxis	_	start_char=1939|end_char=1947
+23	.	.	PUNCT	$.	_	2	punct	_	start_char=1947|end_char=1948
+
+# text = - Aber die Schlaf-Störung kann auch lange bleiben.
+# sent_id = 34
+1	-	-	PUNCT	$(	_	10	punct	_	start_char=1949|end_char=1950
+2	Aber	aber	CCONJ	KON	_	10	cc	_	start_char=1951|end_char=1955
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1956|end_char=1959
+4	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	start_char=1960|end_char=1966
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1966|end_char=1967
+6	Störung	Störung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1967|end_char=1974
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1975|end_char=1979
+8	auch	auch	ADV	ADV	_	9	advmod	_	start_char=1980|end_char=1984
+9	lange	lange	ADV	ADV	_	10	advmod	_	start_char=1985|end_char=1990
+10	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1991|end_char=1998
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1998|end_char=1999
+
+# text = Was können Sie gegen die Schlaf-Störung tun? - Sie können auf einen gesunden Lebens-Stil achten.
+# sent_id = 35
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	9	obj	_	start_char=2000|end_char=2003
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=2004|end_char=2010
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=2011|end_char=2014
+4	gegen	gegen	ADP	APPR	_	8	case	_	start_char=2015|end_char=2020
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=2021|end_char=2024
+6	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	compound	_	start_char=2025|end_char=2031
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2031|end_char=2032
+8	Störung	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	start_char=2032|end_char=2039
+9	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2040|end_char=2043
+10	?	?	PUNCT	$.	_	9	punct	_	start_char=2043|end_char=2044
+11	-	-	PUNCT	$(	_	20	punct	_	start_char=2045|end_char=2046
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=2047|end_char=2050
+13	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=2051|end_char=2057
+14	auf	auf	ADP	APPR	_	19	case	_	start_char=2058|end_char=2061
+15	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	19	det	_	start_char=2062|end_char=2067
+16	gesunden	gesund	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=2068|end_char=2076
+17	Lebens	Leben	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	compound	_	start_char=2077|end_char=2083
+18	-	-	PUNCT	$(	_	17	punct	_	start_char=2083|end_char=2084
+19	Stil	Stil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	start_char=2084|end_char=2088
+20	achten	achten	VERB	VVINF	VerbForm=Inf	9	parataxis	_	start_char=2089|end_char=2095
+21	.	.	PUNCT	$.	_	9	punct	_	start_char=2095|end_char=2096
+
+# text = - Sie können Dinge tun, die gut für den Schlaf sind.
+# sent_id = 36
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2097|end_char=2098
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=2099|end_char=2102
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2103|end_char=2109
+4	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	start_char=2110|end_char=2115
+5	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2116|end_char=2119
+6	,	,	PUNCT	$,	_	12	punct	_	start_char=2119|end_char=2120
+7	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	12	nsubj	_	start_char=2121|end_char=2124
+8	gut	gut	ADV	ADJD	_	12	advmod	_	start_char=2125|end_char=2128
+9	für	für	ADP	APPR	_	11	case	_	start_char=2129|end_char=2132
+10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=2133|end_char=2136
+11	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	start_char=2137|end_char=2143
+12	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=2144|end_char=2148
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=2148|end_char=2149
+
+# text = - Der Arzt kann Ihnen helfen, besser zu schlafen.
+# sent_id = 37
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2150|end_char=2151
+2	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=2152|end_char=2155
+3	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=2156|end_char=2160
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2161|end_char=2165
+5	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	obl:arg	_	start_char=2166|end_char=2171
+6	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2172|end_char=2178
+7	,	,	PUNCT	$,	_	10	punct	_	start_char=2178|end_char=2179
+8	besser	gut	ADJ	ADJD	Degree=Cmp	10	advmod	_	start_char=2180|end_char=2186
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=2187|end_char=2189
+10	schlafen	schlafen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	start_char=2190|end_char=2198
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=2198|end_char=2199
+
+# text = - Eine Therapie kann auch helfen.
+# sent_id = 38
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2200|end_char=2201
+2	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=2202|end_char=2206
+3	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=2207|end_char=2215
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2216|end_char=2220
+5	auch	auch	ADV	ADV	_	6	advmod	_	start_char=2221|end_char=2225
+6	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2226|end_char=2232
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2232|end_char=2233
+
+# text = Manchmal verschreibt der Arzt ein Schlaf-Mittel.
+# sent_id = 39
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=2235|end_char=2243
+2	verschreibt	verschreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2244|end_char=2255
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=2256|end_char=2259
+4	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=2260|end_char=2264
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=2265|end_char=2268
+6	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	compound	_	start_char=2269|end_char=2275
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2275|end_char=2276
+8	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=2276|end_char=2282
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=2282|end_char=2283
+
+# text = Das ist aber nur für kurze Zeit.
+# sent_id = 40
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=2284|end_char=2287
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2288|end_char=2291
+3	aber	aber	ADV	ADV	_	7	advmod	_	start_char=2292|end_char=2296
+4	nur	nur	ADV	ADV	_	7	advmod	_	start_char=2297|end_char=2300
+5	für	für	ADP	APPR	_	7	case	_	start_char=2301|end_char=2304
+6	kurze	kurz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=2305|end_char=2310
+7	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=2311|end_char=2315
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=2315|end_char=2316
+
+# text = Pflanzen können auch beim Schlafen helfen.
+# sent_id = 41
+1	Pflanzen	Pflanze|Pflanzen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=2317|end_char=2325
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=2326|end_char=2332
+3	auch	auch	ADV	ADV	_	7	advmod	_	start_char=2333|end_char=2337
+4-5	beim	_	_	_	_	_	_	_	start_char=2338|end_char=2342
+4	bei	bei	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Schlafen	Schlafe	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=2343|end_char=2351
+7	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2352|end_char=2358
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=2358|end_char=2359
+
+# text = Schlaf ist sehr wichtig.
+# sent_id = 42
+1	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=2361|end_char=2367
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2368|end_char=2371
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	start_char=2372|end_char=2376
+4	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2377|end_char=2384
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=2384|end_char=2385
+
+# text = Wissenschaftler finden immer wieder neue Gründe dafür.
+# sent_id = 43
+1	Wissenschaftler	Wissenschaftler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=2386|end_char=2401
+2	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2402|end_char=2408
+3	immer	immer	ADV	ADV	_	4	advmod	_	start_char=2409|end_char=2414
+4	wieder	wieder	ADV	ADV	_	2	advmod	_	start_char=2415|end_char=2421
+5	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=2422|end_char=2426
+6	Gründe	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=2427|end_char=2433
+7	dafür	dafür	ADV	PAV	PronType=Dem	2	advmod	_	start_char=2434|end_char=2439
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=2439|end_char=2440
+
+# text = Schlafen ist wichtig für das Lernen.
+# sent_id = 44
+1	Schlafen	Schlafe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=2442|end_char=2450
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=2451|end_char=2454
+3	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2455|end_char=2462
+4	für	für	ADP	APPR	_	6	case	_	start_char=2463|end_char=2466
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=2467|end_char=2470
+6	Lernen	Lernen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	start_char=2471|end_char=2477
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=2477|end_char=2478
+
+# text = Unser Gehirn verarbeitet neue Informationen im Schlaf.
+# sent_id = 45
+1	Unser	unser	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=2479|end_char=2484
+2	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=2485|end_char=2491
+3	verarbeitet	verarbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2492|end_char=2503
+4	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=2504|end_char=2508
+5	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=2509|end_char=2522
+6-7	im	_	_	_	_	_	_	_	start_char=2523|end_char=2525
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Schlaf	Schlaf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=2526|end_char=2532
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=2532|end_char=2533
+
+# text = Schlafen hilft auch beim Abnehmen.
+# sent_id = 46
+1	Schlafen	Schlafe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=2534|end_char=2542
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2543|end_char=2548
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=2549|end_char=2553
+4-5	beim	_	_	_	_	_	_	_	start_char=2554|end_char=2558
+4	bei	bei	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Abnehmen	Abnehmen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=2559|end_char=2567
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=2567|end_char=2568
+
+# text = Wer genug schläft, nimmt leichter ab.
+# sent_id = 47
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=2569|end_char=2572
+2	genug	genug	ADV	ADV	PronType=Ind	3	advmod	_	start_char=2573|end_char=2578
+3	schläft	schlafen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	csubj	_	start_char=2579|end_char=2586
+4	,	,	PUNCT	$,	_	3	punct	_	start_char=2586|end_char=2587
+5	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2588|end_char=2593
+6	leichter	leicht	ADJ	ADJD	Degree=Cmp	5	advmod	_	start_char=2594|end_char=2602
+7	ab	ab	ADP	PTKVZ	_	5	compound:prt	_	start_char=2603|end_char=2605
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=2605|end_char=2606
+
+# text = Schlafen hält uns jung und schön.
+# sent_id = 48
+1	Schlafen	Schlafe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=2607|end_char=2615
+2	hält	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2616|end_char=2620
+3	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	obl:arg	_	start_char=2621|end_char=2624
+4	jung	jung	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=2625|end_char=2629
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=2630|end_char=2633
+6	schön	schön	ADJ	ADJD	Degree=Pos	4	conj	_	start_char=2634|end_char=2639
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=2639|end_char=2640
+
+# text = Das wussten schon unsere Großmütter.
+# sent_id = 49
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=2641|end_char=2644
+2	wussten	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2645|end_char=2652
+3	schon	schon	ADV	ADV	_	2	advmod	_	start_char=2653|end_char=2658
+4	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=2659|end_char=2665
+5	Großmütter	Großmutt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=2666|end_char=2676
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=2676|end_char=2677
+
+# text = Guter Schlaf hat noch mehr Vorteile: - Er stärkt unser Immun-System.
+# sent_id = 50
+1	Guter	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=2678|end_char=2683
+2	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2684|end_char=2690
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2691|end_char=2694
+4	noch	noch	ADV	ADV	_	3	advmod	_	start_char=2695|end_char=2699
+5	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	6	det	_	start_char=2700|end_char=2704
+6	Vorteile	Vorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=2705|end_char=2713
+7	:	:	PUNCT	$.	_	10	punct	_	start_char=2713|end_char=2714
+8	-	-	PUNCT	$(	_	10	punct	_	start_char=2715|end_char=2716
+9	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=2717|end_char=2719
+10	stärkt	stärken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=2720|end_char=2726
+11	unser	unser	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	start_char=2727|end_char=2732
+12	Immun	Immun	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	compound	_	start_char=2733|end_char=2738
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=2738|end_char=2739
+14	System	System	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=2739|end_char=2745
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=2745|end_char=2746
+
+# text = - Er macht uns seelisch ausgeglichen.
+# sent_id = 51
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2747|end_char=2748
+2	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=2749|end_char=2751
+3	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2752|end_char=2757
+4	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=2758|end_char=2761
+5	seelisch	seelisch	ADV	ADJD	_	6	advmod	_	start_char=2762|end_char=2770
+6	ausgeglichen	ausgeglichen	ADJ	ADJD	Degree=Pos|VerbForm=Part	3	xcomp	_	start_char=2771|end_char=2783
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=2783|end_char=2784
+
+# text = - Er verbessert die Funktion unserer Organe.
+# sent_id = 52
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2785|end_char=2786
+2	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=2787|end_char=2789
+3	verbessert	verbessern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2790|end_char=2800
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2801|end_char=2804
+5	Funktion	Funktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=2805|end_char=2813
+6	unserer	unser	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=2814|end_char=2821
+7	Organe	Organ	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	start_char=2822|end_char=2828
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=2828|end_char=2829
+
+# text = - Er verbessert unseren Stoff-Wechsel.
+# sent_id = 53
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2830|end_char=2831
+2	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=2832|end_char=2834
+3	verbessert	verbessern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2835|end_char=2845
+4	unseren	unser	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=2846|end_char=2853
+5	Stoff	Stoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	compound	_	start_char=2854|end_char=2859
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=2859|end_char=2860
+7	Wechsel	Wechsel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=2860|end_char=2867
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=2867|end_char=2868
+
+# text = Jeder hat mal eine unruhige Nacht.
+# sent_id = 54
+1	Jeder	jeder	DET	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	2	nsubj	_	start_char=2870|end_char=2875
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2876|end_char=2879
+3	mal	mal	ADV	ADV	_	2	advmod	_	start_char=2880|end_char=2883
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=2884|end_char=2888
+5	unruhige	unruhig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=2889|end_char=2897
+6	Nacht	Nacht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2898|end_char=2903
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=2903|end_char=2904
+
+# text = Stress kann uns wach halten.
+# sent_id = 55
+1	Stress	Streß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=2906|end_char=2912
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2913|end_char=2917
+3	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	obl:arg	_	start_char=2918|end_char=2921
+4	wach	wach	ADV	ADJD	_	5	advmod	_	start_char=2922|end_char=2926
+5	halten	halten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2927|end_char=2933
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2933|end_char=2934
+
+# text = Ärger in der Arbeit auch.
+# sent_id = 56
+1	Ärger	Ärger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=2935|end_char=2940
+2	in	in	ADP	APPR	_	4	case	_	start_char=2941|end_char=2943
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2944|end_char=2947
+4	Arbeit	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	start_char=2948|end_char=2954
+5	auch	auch	ADV	ADV	_	1	advmod	_	start_char=2955|end_char=2959
+6	.	.	PUNCT	$.	_	1	punct	_	start_char=2959|end_char=2960
+
+# text = Private Probleme ebenfalls.
+# sent_id = 57
+1	Private	private	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	2	amod	_	start_char=2961|end_char=2968
+2	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	0	root	_	start_char=2969|end_char=2977
+3	ebenfalls	ebenfalls	ADV	ADV	_	2	advmod	_	start_char=2978|end_char=2987
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=2987|end_char=2988
+
+# text = Oder wenn wir aufgeregt sind, weil etwas Wichtiges passiert.
+# sent_id = 58
+1	Oder	Oder	CCONJ	KON	_	4	cc	_	start_char=2989|end_char=2993
+2	wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=2994|end_char=2998
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=2999|end_char=3002
+4	aufgeregt	aufgeregt	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3003|end_char=3012
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3013|end_char=3017
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=3017|end_char=3018
+7	weil	weil	SCONJ	KOUS	_	10	mark	_	start_char=3019|end_char=3023
+8	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	10	nsubj	_	start_char=3024|end_char=3029
+9	Wichtiges	Wichtige	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=3030|end_char=3039
+10	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=3040|end_char=3048
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=3048|end_char=3049
+
+# text = Auch eine Erkältung kann uns wach halten.
+# sent_id = 59
+1	Auch	auch	ADV	ADV	_	7	advmod	_	start_char=3050|end_char=3054
+2	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=3055|end_char=3059
+3	Erkältung	Erkältung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=3060|end_char=3069
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=3070|end_char=3074
+5	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	obl:arg	_	start_char=3075|end_char=3078
+6	wach	wach	ADV	ADV	_	7	mark	_	start_char=3079|end_char=3083
+7	halten	halten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3084|end_char=3090
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=3090|end_char=3091
+
+# text = Oder ein juckender Ausschlag.
+# sent_id = 60
+1	Oder	Oder	CCONJ	KON	_	4	cc	_	start_char=3092|end_char=3096
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=3097|end_char=3100
+3	juckender	juckend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=3101|end_char=3110
+4	Ausschlag	Ausschlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=3111|end_char=3120
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=3120|end_char=3121
+
+# text = Eine alte Matratze kann Schlaf-Probleme verursachen.
+# sent_id = 61
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=3123|end_char=3127
+2	alte	alt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=3128|end_char=3132
+3	Matratze	Matratze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=3133|end_char=3141
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=3142|end_char=3146
+5	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	compound	_	start_char=3147|end_char=3153
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=3153|end_char=3154
+7	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	start_char=3154|end_char=3162
+8	verursachen	verursechen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3163|end_char=3174
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=3174|end_char=3175
+
+# text = Oder eine neue Straßen-Lampe vor dem Fenster stört beim Schlafen.
+# sent_id = 62
+1	Oder	Oder	CCONJ	KON	_	10	cc	_	start_char=3176|end_char=3180
+2	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=3181|end_char=3185
+3	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=3186|end_char=3190
+4	Straßen	Straße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	start_char=3191|end_char=3198
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=3198|end_char=3199
+6	Lampe	Lampe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=3199|end_char=3204
+7	vor	vor	ADP	APPR	_	9	case	_	start_char=3205|end_char=3208
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=3209|end_char=3212
+9	Fenster	Fenster	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=3213|end_char=3220
+10	stört	stören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3221|end_char=3226
+11-12	beim	_	_	_	_	_	_	_	start_char=3227|end_char=3231
+11	bei	bei	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Schlafen	Schlafe	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=3232|end_char=3240
+14	.	.	PUNCT	$.	_	10	punct	_	start_char=3240|end_char=3241
+
+# text = Die Krankheit geht weg.
+# sent_id = 63
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=3243|end_char=3246
+2	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=3247|end_char=3256
+3	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3257|end_char=3261
+4	weg	weg	ADV	PTKVZ	_	3	compound:prt	_	start_char=3262|end_char=3265
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=3265|end_char=3266
+
+# text = Schlafen hilft dabei.
+# sent_id = 64
+1	Schlafen	Schlafe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=3267|end_char=3275
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3276|end_char=3281
+3	dabei	dabei	ADV	PAV	_	2	advmod	_	start_char=3282|end_char=3287
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=3287|end_char=3288
+
+# text = Die Auf-Regung wird weniger.
+# sent_id = 65
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=3289|end_char=3292
+2	Auf	auf	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	start_char=3293|end_char=3296
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=3296|end_char=3297
+4	Regung	Regung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=3297|end_char=3303
+5	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3304|end_char=3308
+6	weniger	weniger	ADV	ADV	_	5	advmod	_	start_char=3309|end_char=3316
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=3316|end_char=3317
+
+# text = Eine neue Matratze hilft dem Rücken.
+# sent_id = 66
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=3318|end_char=3322
+2	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=3323|end_char=3327
+3	Matratze	Matratze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=3328|end_char=3336
+4	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3337|end_char=3342
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=3343|end_char=3346
+6	Rücken	Rücken	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl:arg	_	start_char=3347|end_char=3353
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=3353|end_char=3354
+
+# text = Viele Menschen finden ihren normalen Schlaf wieder.
+# sent_id = 67
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=3356|end_char=3361
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3362|end_char=3370
+3	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3371|end_char=3377
+4	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=3378|end_char=3383
+5	normalen	normal	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=3384|end_char=3392
+6	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=3393|end_char=3399
+7	wieder	wieder	ADV	PTKVZ	_	3	mark	_	start_char=3400|end_char=3406
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=3406|end_char=3407
+
+# text = Aber jeder Mensch schläft anders.
+# sent_id = 68
+1	Aber	aber	CCONJ	KON	_	4	cc	_	start_char=3408|end_char=3412
+2	jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	3	det	_	start_char=3413|end_char=3418
+3	Mensch	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3419|end_char=3425
+4	schläft	schlafen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3426|end_char=3433
+5	anders	anders	ADV	ADV	_	4	advmod	_	start_char=3434|end_char=3440
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=3440|end_char=3441
+
+# text = Manche Menschen stehen früh auf.
+# sent_id = 69
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=3442|end_char=3448
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3449|end_char=3457
+3	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3458|end_char=3464
+4	früh	früh	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=3465|end_char=3469
+5	auf	auf	ADP	PTKVZ	_	3	compound:prt	_	start_char=3470|end_char=3473
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=3473|end_char=3474
+
+# text = Andere Menschen bleiben lange wach.
+# sent_id = 70
+1	Andere	anderer	DET	ADJA	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=3475|end_char=3481
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3482|end_char=3490
+3	bleiben	bleiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3491|end_char=3498
+4	lange	lange	ADV	ADV	_	3	advmod	_	start_char=3499|end_char=3504
+5	wach	wach	ADV	PTKVZ	_	3	compound:prt	_	start_char=3505|end_char=3509
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=3509|end_char=3510
+
+# text = Und jeder Mensch braucht eine andere Menge Schlaf.
+# sent_id = 71
+1	Und	und	CCONJ	KON	_	4	cc	_	start_char=3511|end_char=3514
+2	jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	3	det	_	start_char=3515|end_char=3520
+3	Mensch	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3521|end_char=3527
+4	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3528|end_char=3535
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=3536|end_char=3540
+6	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	start_char=3541|end_char=3547
+7	Menge	Menge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	compound	_	start_char=3548|end_char=3553
+8	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=3554|end_char=3560
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=3560|end_char=3561
+
+# text = Manche Menschen brauchen viel Schlaf.
+# sent_id = 72
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=3562|end_char=3568
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3569|end_char=3577
+3	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3578|end_char=3586
+4	viel	viel	DET	PIAT	PronType=Ind	5	det	_	start_char=3587|end_char=3591
+5	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=3592|end_char=3598
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=3598|end_char=3599
+
+# text = Andere Menschen brauchen wenig Schlaf.
+# sent_id = 73
+1	Andere	anderer	DET	ADJA	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=3600|end_char=3606
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3607|end_char=3615
+3	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3616|end_char=3624
+4	wenig	wenig	DET	PIAT	PronType=Ind	5	det	_	start_char=3625|end_char=3630
+5	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=3631|end_char=3637
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=3637|end_char=3638
+
+# text = Guter Schlaf ist wichtig.
+# sent_id = 74
+1	Guter	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=3640|end_char=3645
+2	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3646|end_char=3652
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3653|end_char=3656
+4	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3657|end_char=3664
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=3664|end_char=3665
+
+# text = Schlafen Sie nicht zu wenig.
+# sent_id = 75
+1	Schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3666|end_char=3674
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=3675|end_char=3678
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	1	advmod	_	start_char=3679|end_char=3684
+4	zu	zu	ADV	PTKA	_	5	advmod	_	start_char=3685|end_char=3687
+5	wenig	wenig	DET	PIS	PronType=Ind	1	obj	_	start_char=3688|end_char=3693
+6	.	.	PUNCT	$.	_	1	punct	_	start_char=3693|end_char=3694
+
+# text = Aber auch nicht zu viel.
+# sent_id = 76
+1	Aber	aber	CCONJ	KON	_	5	cc	_	start_char=3695|end_char=3699
+2	auch	auch	ADV	ADV	_	5	advmod	_	start_char=3700|end_char=3704
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=3705|end_char=3710
+4	zu	zu	ADV	PTKA	_	5	advmod	_	start_char=3711|end_char=3713
+5	viel	viel	DET	PIS	PronType=Ind	0	root	_	start_char=3714|end_char=3718
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=3718|end_char=3719
+
+# text = Viele Deutsche haben Schlaf-Probleme.
+# sent_id = 77
+1	Viele	viel	DET	PIAT	Case=Nom|Number=Plur|PronType=Ind	2	det	_	start_char=3721|end_char=3726
+2	Deutsche	deutsch	NOUN	NN	Case=Nom|Number=Plur	3	nsubj	_	start_char=3727|end_char=3735
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3736|end_char=3741
+4	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	compound	_	start_char=3742|end_char=3748
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=3748|end_char=3749
+6	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=3749|end_char=3757
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=3757|end_char=3758
+
+# text = Sie wollen einfach gut schlafen.
+# sent_id = 78
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=3759|end_char=3762
+2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3763|end_char=3769
+3	einfach	einfach	ADV	ADV	_	4	advmod	_	start_char=3770|end_char=3777
+4	gut	gut	ADV	ADJD	_	5	advmod	_	start_char=3778|end_char=3781
+5	schlafen	schlafen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3782|end_char=3790
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=3790|end_char=3791
+
+# text = Das bedeutet: - Sie wollen nicht zu wenig schlafen.
+# sent_id = 79
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=3792|end_char=3795
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3796|end_char=3804
+3	:	:	PUNCT	$.	_	10	punct	_	start_char=3804|end_char=3805
+4	-	-	PUNCT	$(	_	10	punct	_	start_char=3806|end_char=3807
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=3808|end_char=3811
+6	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=3812|end_char=3818
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=3819|end_char=3824
+8	zu	zu	ADV	PTKA	_	9	advmod	_	start_char=3825|end_char=3827
+9	wenig	wenig	DET	PIS	PronType=Ind	10	obj	_	start_char=3828|end_char=3833
+10	schlafen	schlafen	VERB	VVINF	VerbForm=Inf	2	parataxis	_	start_char=3834|end_char=3842
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=3842|end_char=3843
+
+# text = - Sie wollen nicht zu viel schlafen.
+# sent_id = 80
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=3844|end_char=3845
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=3846|end_char=3849
+3	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=3850|end_char=3856
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=3857|end_char=3862
+5	zu	zu	ADV	PTKA	_	6	advmod	_	start_char=3863|end_char=3865
+6	viel	viel	DET	PIS	PronType=Ind	7	obj	_	start_char=3866|end_char=3870
+7	schlafen	schlafen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3871|end_char=3879
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=3879|end_char=3880
+
+# text = - Sie wollen etwa 7 Stunden schlafen.
+# sent_id = 81
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=3881|end_char=3882
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=3883|end_char=3886
+3	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=3887|end_char=3893
+4	etwa	etwa	ADV	ADV	_	5	advmod	_	start_char=3894|end_char=3898
+5	7	7	NUM	CARD	NumType=Card	6	nummod	_	start_char=3899|end_char=3900
+6	Stunden	Stunde|Stunden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	start_char=3901|end_char=3908
+7	schlafen	schlafen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3909|end_char=3917
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=3917|end_char=3918
+
+# text = - Sie wollen schnell einschlafen.
+# sent_id = 82
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=3919|end_char=3920
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=3921|end_char=3924
+3	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3925|end_char=3931
+4	schnell	schnell	ADV	ADJD	_	5	advmod	_	start_char=3932|end_char=3939
+5	einschlafen	einschlafen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3940|end_char=3951
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=3951|end_char=3952
+
+# text = - Sie wollen die ganze Nacht durchschlafen.
+# sent_id = 83
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=3953|end_char=3954
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=3955|end_char=3958
+3	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=3959|end_char=3965
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3966|end_char=3969
+5	ganze	ganz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=3970|end_char=3975
+6	Nacht	Nacht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=3976|end_char=3981
+7	durchschlafen	durchschlafen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3982|end_char=3995
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=3995|end_char=3996
+
+# text = - Sie wollen morgens ausgeruht aufwachen.
+# sent_id = 84
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=3997|end_char=3998
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=3999|end_char=4002
+3	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=4003|end_char=4009
+4	morgens	morgens	ADV	ADV	_	6	advmod	_	start_char=4010|end_char=4017
+5	ausgeruht	ausruhen	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=4018|end_char=4027
+6	aufwachen	aufwachen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4028|end_char=4037
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4037|end_char=4038
+
+# text = - Sie wollen tagsüber konzentriert und aktiv sein.
+# sent_id = 85
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=4039|end_char=4040
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=4041|end_char=4044
+3	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=4045|end_char=4051
+4	tagsüber	tagsüber	ADV	ADV	_	5	advmod	_	start_char=4052|end_char=4060
+5	konzentriert	konzentrieren	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4061|end_char=4073
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=4074|end_char=4077
+7	aktiv	aktiv	ADJ	ADJD	Degree=Pos	5	conj	_	start_char=4078|end_char=4083
+8	sein	sein	AUX	VAINF	VerbForm=Inf	5	cop	_	start_char=4084|end_char=4088
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=4088|end_char=4089
+
+# text = - Sie wollen gute Laune haben.
+# sent_id = 86
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=4090|end_char=4091
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=4092|end_char=4095
+3	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=4096|end_char=4102
+4	gute	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=4103|end_char=4107
+5	Laune	Laun	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=4108|end_char=4113
+6	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=4114|end_char=4119
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4119|end_char=4120
+
+# text = Viele Menschen schlafen nicht gut.
+# sent_id = 87
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=4122|end_char=4127
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=4128|end_char=4136
+3	schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4137|end_char=4145
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=4146|end_char=4151
+5	gut	gut	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=4152|end_char=4155
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=4155|end_char=4156
+
+# text = Manche Menschen nehmen das einfach so hin.
+# sent_id = 88
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=4157|end_char=4163
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=4164|end_char=4172
+3	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4173|end_char=4179
+4	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	obj	_	start_char=4180|end_char=4183
+5	einfach	einfach	ADV	ADV	_	3	advmod	_	start_char=4184|end_char=4191
+6	so	so	ADV	ADV	_	3	advmod	_	start_char=4192|end_char=4194
+7	hin	hin	ADV	PTKVZ	_	3	compound:prt	_	start_char=4195|end_char=4198
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=4198|end_char=4199
+
+# text = Andere Menschen nehmen Schlaf-Mittel.
+# sent_id = 89
+1	Andere	anderer	DET	ADJA	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=4200|end_char=4206
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=4207|end_char=4215
+3	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4216|end_char=4222
+4	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	compound	_	start_char=4223|end_char=4229
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=4229|end_char=4230
+6	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=4230|end_char=4236
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=4236|end_char=4237
+
+# text = Aber das hilft oft nicht lange.
+# sent_id = 90
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=4238|end_char=4242
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=4243|end_char=4246
+3	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4247|end_char=4252
+4	oft	oft	ADV	ADV	_	3	advmod	_	start_char=4253|end_char=4256
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=4257|end_char=4262
+6	lange	lange	ADV	ADV	_	3	advmod	_	start_char=4263|end_char=4268
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=4268|end_char=4269
+
+# text = Oder die Schlaf-Probleme werden noch schlimmer.
+# sent_id = 91
+1	Oder	Oder	CCONJ	KON	_	6	cc	_	start_char=4270|end_char=4274
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=4275|end_char=4278
+3	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	compound	_	start_char=4279|end_char=4285
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=4285|end_char=4286
+5	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=4286|end_char=4294
+6	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4295|end_char=4301
+7	noch	noch	ADV	ADV	_	8	advmod	_	start_char=4302|end_char=4306
+8	schlimmer	schlimm	ADJ	ADJD	Degree=Cmp	6	xcomp	_	start_char=4307|end_char=4316
+9	.	.	PUNCT	$.	_	6	punct	_	start_char=4316|end_char=4317
+
+# text = Schlaf-Störungen haben viele verschiedene Ursachen.
+# sent_id = 92
+1	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	compound	_	start_char=4318|end_char=4324
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=4324|end_char=4325
+3	Störungen	Störung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=4325|end_char=4334
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4335|end_char=4340
+5	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	start_char=4341|end_char=4346
+6	verschiedene	verschieden	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=4347|end_char=4359
+7	Ursachen	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=4360|end_char=4368
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=4368|end_char=4369
+
+# text = Deshalb ist es wichtig, die Ursache zu finden.
+# sent_id = 93
+1	Deshalb	deshalb	ADV	PAV	_	4	advmod	_	start_char=4370|end_char=4377
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4378|end_char=4381
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=4382|end_char=4384
+4	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4385|end_char=4392
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=4392|end_char=4393
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=4394|end_char=4397
+7	Ursache	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=4398|end_char=4405
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=4406|end_char=4408
+9	finden	finden	VERB	VVINF	VerbForm=Inf	4	xcomp	_	start_char=4409|end_char=4415
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=4415|end_char=4416
+
+# text = Wenn man die Ursache kennt, kann man die Schlaf-Störungen oft gut behandeln.
+# sent_id = 94
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=4417|end_char=4421
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=4422|end_char=4425
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=4426|end_char=4429
+4	Ursache	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=4430|end_char=4437
+5	kennt	kennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=4438|end_char=4443
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=4443|end_char=4444
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=4445|end_char=4449
+8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	15	nsubj	_	start_char=4450|end_char=4453
+9	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=4454|end_char=4457
+10	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	compound	_	start_char=4458|end_char=4464
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=4464|end_char=4465
+12	Störungen	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	start_char=4465|end_char=4474
+13	oft	oft	ADV	ADV	_	15	advmod	_	start_char=4475|end_char=4478
+14	gut	gut	ADV	ADJD	_	15	advmod	_	start_char=4479|end_char=4482
+15	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4483|end_char=4492
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=4492|end_char=4493
+
+# text = Das größte Schlaf-Problem ist: Man schläft zu wenig oder nicht gut.
+# sent_id = 95
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=4495|end_char=4498
+2	größte	groß	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	5	amod	_	start_char=4499|end_char=4505
+3	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	compound	_	start_char=4506|end_char=4512
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=4512|end_char=4513
+5	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4513|end_char=4520
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=4521|end_char=4524
+7	:	:	PUNCT	$.	_	9	punct	_	start_char=4524|end_char=4525
+8	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=4526|end_char=4529
+9	schläft	schlafen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=4530|end_char=4537
+10	zu	zu	ADV	PTKA	_	11	advmod	_	start_char=4538|end_char=4540
+11	wenig	wenig	DET	PIS	PronType=Ind	9	obj	_	start_char=4541|end_char=4546
+12	oder	oder	CCONJ	KON	_	14	cc	_	start_char=4547|end_char=4551
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	start_char=4552|end_char=4557
+14	gut	gut	ADJ	ADJD	Degree=Pos	9	conj	_	start_char=4558|end_char=4561
+15	.	.	PUNCT	$.	_	5	punct	_	start_char=4561|end_char=4562
+
+# text = Viele Menschen schlafen schlecht.
+# sent_id = 96
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=4564|end_char=4569
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=4570|end_char=4578
+3	schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4579|end_char=4587
+4	schlecht	schlecht	ADJ	ADJD	Degree=Pos	3	xcomp	_	start_char=4588|end_char=4596
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=4596|end_char=4597
+
+# text = Sie leiden unter Schlaflosigkeit.
+# sent_id = 97
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=4598|end_char=4601
+2	leiden	leiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4602|end_char=4608
+3	unter	unter	ADP	APPR	_	4	case	_	start_char=4609|end_char=4614
+4	Schlaflosigkeit	Schlaflosigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=4615|end_char=4630
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=4630|end_char=4631
+
+# text = Das nennt man auch Insomnie.
+# sent_id = 98
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=4632|end_char=4635
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4636|end_char=4641
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=4642|end_char=4645
+4	auch	auch	ADV	ADV	_	2	advmod	_	start_char=4646|end_char=4650
+5	Insomnie	Insomnie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=4651|end_char=4659
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=4659|end_char=4660
+
+# text = Menschen mit Insomnie haben Probleme beim Einschlafen.
+# sent_id = 99
+1	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=4661|end_char=4669
+2	mit	mit	ADP	APPR	_	3	case	_	start_char=4670|end_char=4673
+3	Insomnie	Insomnie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	start_char=4674|end_char=4682
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4683|end_char=4688
+5	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=4689|end_char=4697
+6-7	beim	_	_	_	_	_	_	_	start_char=4698|end_char=4702
+6	bei	bei	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Einschlafen	Einschlaf	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=4703|end_char=4714
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=4714|end_char=4715
+
+# text = Oder sie wachen nachts oft auf.
+# sent_id = 100
+1	Oder	Oder	CCONJ	KON	_	3	cc	_	start_char=4716|end_char=4720
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=4721|end_char=4724
+3	wachen	wachen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4725|end_char=4731
+4	nachts	nachts	ADV	ADV	_	3	advmod	_	start_char=4732|end_char=4738
+5	oft	oft	ADV	ADV	_	3	advmod	_	start_char=4739|end_char=4742
+6	auf	auf	ADP	PTKVZ	_	3	compound:prt	_	start_char=4743|end_char=4746
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=4746|end_char=4747
+
+# text = Dann liegen sie lange wach.
+# sent_id = 101
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=4748|end_char=4752
+2	liegen	liegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4753|end_char=4759
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=4760|end_char=4763
+4	lange	lange	ADV	ADV	_	2	advmod	_	start_char=4764|end_char=4769
+5	wach	wach	ADV	PTKVZ	_	2	compound:prt	_	start_char=4770|end_char=4774
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=4774|end_char=4775
+
+# text = Manche Menschen schlafen erst gut.
+# sent_id = 102
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=4776|end_char=4782
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=4783|end_char=4791
+3	schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4792|end_char=4800
+4	erst	erst	ADV	ADV	_	5	advmod	_	start_char=4801|end_char=4805
+5	gut	gut	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=4806|end_char=4809
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=4809|end_char=4810
+
+# text = Aber früh am Morgen werden sie unruhig.
+# sent_id = 103
+1	Aber	aber	CCONJ	KON	_	8	cc	_	start_char=4811|end_char=4815
+2	früh	früh	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=4816|end_char=4820
+3-4	am	_	_	_	_	_	_	_	start_char=4821|end_char=4823
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Morgen	Morgen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	start_char=4824|end_char=4830
+6	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	cop	_	start_char=4831|end_char=4837
+7	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=4838|end_char=4841
+8	unruhig	unruhig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4842|end_char=4849
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=4849|end_char=4850
+
+# text = Dann können sie nicht mehr schlafen.
+# sent_id = 104
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=4851|end_char=4855
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=4856|end_char=4862
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=4863|end_char=4866
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=4867|end_char=4872
+5	mehr	mehr	ADV	ADV	_	6	advmod	_	start_char=4873|end_char=4877
+6	schlafen	schlafen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4878|end_char=4886
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4886|end_char=4887
+
+# text = Sie schlafen schlecht?
+# sent_id = 105
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=4889|end_char=4892
+2	schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4893|end_char=4901
+3	schlecht	schlecht	ADJ	ADJD	Degree=Pos	2	xcomp	_	start_char=4902|end_char=4910
+4	?	?	PUNCT	$.	_	2	punct	_	start_char=4910|end_char=4911
+
+# text = Das kann viele Gründe haben.
+# sent_id = 106
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=4912|end_char=4915
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=4916|end_char=4920
+3	viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	start_char=4921|end_char=4926
+4	Gründe	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=4927|end_char=4933
+5	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=4934|end_char=4939
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=4939|end_char=4940
+
+# text = Zum Beispiel: - Sie haben schlechte Schlaf-Gewohnheiten.
+# sent_id = 107
+1-2	Zum	_	_	_	_	_	_	_	start_char=4941|end_char=4944
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=4945|end_char=4953
+4	:	:	PUNCT	$.	_	7	punct	_	start_char=4953|end_char=4954
+5	-	-	PUNCT	$(	_	3	punct	_	start_char=4955|end_char=4956
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=4957|end_char=4960
+7	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4961|end_char=4966
+8	schlechte	schlecht	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=4967|end_char=4976
+9	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	compound	_	start_char=4977|end_char=4983
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=4983|end_char=4984
+11	Gewohnheiten	Gewohnheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=4984|end_char=4996
+12	.	.	PUNCT	$.	_	7	punct	_	start_char=4996|end_char=4997
+
+# text = - Es gibt Störungen von außen.
+# sent_id = 108
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=4998|end_char=4999
+2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=5000|end_char=5002
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5003|end_char=5007
+4	Störungen	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=5008|end_char=5017
+5	von	von	ADP	APPR	_	6	case	_	start_char=5018|end_char=5021
+6	außen	außen	ADV	ADV	_	3	advmod	_	start_char=5022|end_char=5027
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=5027|end_char=5028
+
+# text = - Sie sind krank.
+# sent_id = 109
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=5029|end_char=5030
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=5031|end_char=5034
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=5035|end_char=5039
+4	krank	krank	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5040|end_char=5045
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=5045|end_char=5046
+
+# text = Die Krankheit kann zum Beispiel im Körper, im Gehirn oder in der Seele sein.
+# sent_id = 110
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5047|end_char=5050
+2	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	start_char=5051|end_char=5060
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=5061|end_char=5065
+4-5	zum	_	_	_	_	_	_	_	start_char=5066|end_char=5069
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	start_char=5070|end_char=5078
+7-8	im	_	_	_	_	_	_	_	start_char=5079|end_char=5081
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	start_char=5082|end_char=5088
+10	,	,	PUNCT	$,	_	13	punct	_	start_char=5088|end_char=5089
+11-12	im	_	_	_	_	_	_	_	start_char=5090|end_char=5092
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	conj	_	start_char=5093|end_char=5099
+14	oder	oder	CCONJ	KON	_	17	cc	_	start_char=5100|end_char=5104
+15	in	in	ADP	APPR	_	17	case	_	start_char=5105|end_char=5107
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=5108|end_char=5111
+17	Seele	Seele	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	conj	_	start_char=5112|end_char=5117
+18	sein	sein	AUX	VAINF	VerbForm=Inf	0	root	_	start_char=5118|end_char=5122
+19	.	.	PUNCT	$.	_	18	punct	_	start_char=5122|end_char=5123
+
+# text = Dann ist das Schlaf-Problem ein Zeichen für die Krankheit.
+# sent_id = 111
+1	Dann	dann	ADV	ADV	_	8	advmod	_	start_char=5124|end_char=5128
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=5129|end_char=5132
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=5133|end_char=5136
+4	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	compound	_	start_char=5137|end_char=5143
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=5143|end_char=5144
+6	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=5144|end_char=5151
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=5152|end_char=5155
+8	Zeichen	Zeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=5156|end_char=5163
+9	für	für	ADP	APPR	_	11	case	_	start_char=5164|end_char=5167
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=5168|end_char=5171
+11	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	start_char=5172|end_char=5181
+12	.	.	PUNCT	$.	_	8	punct	_	start_char=5181|end_char=5182
+
+# text = Schlaf-Mangel kann Krankheiten fördern.
+# sent_id = 112
+1	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	start_char=5184|end_char=5190
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=5190|end_char=5191
+3	Mangel	Mangel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=5191|end_char=5197
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=5198|end_char=5202
+5	Krankheiten	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=5203|end_char=5214
+6	fördern	fördern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5215|end_char=5222
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=5222|end_char=5223
+
+# text = Zum Beispiel Blut-Hoch-Druck oder Depressionen.
+# sent_id = 113
+1-2	Zum	_	_	_	_	_	_	_	start_char=5224|end_char=5227
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=5228|end_char=5236
+4	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	compound	_	start_char=5237|end_char=5241
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=5241|end_char=5242
+6	Hoch	Hoch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	compound	_	start_char=5242|end_char=5246
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=5246|end_char=5247
+8	Druck	Druck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	start_char=5247|end_char=5252
+9	oder	oder	CCONJ	KON	_	10	cc	_	start_char=5253|end_char=5257
+10	Depressionen	Depression	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	conj	_	start_char=5258|end_char=5270
+11	.	.	PUNCT	$.	_	8	punct	_	start_char=5270|end_char=5271
+
+# text = Manchmal weiß man nicht, warum man nicht schlafen kann.
+# sent_id = 114
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=5272|end_char=5280
+2	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5281|end_char=5285
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=5286|end_char=5289
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=5290|end_char=5295
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=5295|end_char=5296
+6	warum	warum	ADV	PWAV	PronType=Int	9	mark	_	start_char=5297|end_char=5302
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=5303|end_char=5306
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=5307|end_char=5312
+9	schlafen	schlafen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	start_char=5313|end_char=5321
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=5322|end_char=5326
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=5326|end_char=5327
+
+# text = Das nennt man primäre Insomnie.
+# sent_id = 115
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=5328|end_char=5331
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5332|end_char=5337
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=5338|end_char=5341
+4	primäre	primär	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=5342|end_char=5349
+5	Insomnie	Insomnie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	xcomp	_	start_char=5350|end_char=5358
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=5358|end_char=5359
+
+# text = Oft sind Sorgen der Grund für die Schlaflosigkeit.
+# sent_id = 116
+1	Oft	oft	ADV	ADV	_	5	advmod	_	start_char=5360|end_char=5363
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=5364|end_char=5368
+3	Sorgen	Sorge|Sorgen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=5369|end_char=5375
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=5376|end_char=5379
+5	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=5380|end_char=5385
+6	für	für	ADP	APPR	_	8	case	_	start_char=5386|end_char=5389
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=5390|end_char=5393
+8	Schlaflosigkeit	Schlaflosigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=5394|end_char=5409
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=5409|end_char=5410
+
+# text = Schlaf ist wichtig für den Erfolg.
+# sent_id = 117
+1	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=5412|end_char=5418
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=5419|end_char=5422
+3	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5423|end_char=5430
+4	für	für	ADP	APPR	_	6	case	_	start_char=5431|end_char=5434
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=5435|end_char=5438
+6	Erfolg	Erfolg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	start_char=5439|end_char=5445
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=5445|end_char=5446
+
+# text = Guter Schlaf macht den Tag produktiver.
+# sent_id = 118
+1	Guter	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=5447|end_char=5452
+2	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=5453|end_char=5459
+3	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5460|end_char=5465
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=5466|end_char=5469
+5	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	start_char=5470|end_char=5473
+6	produktiver	produktiv	ADJ	ADJD	Degree=Cmp	3	xcomp	_	start_char=5474|end_char=5485
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=5485|end_char=5486
+
+# text = Schlaf-Störungen: Nehmen Sie das ernst.
+# sent_id = 119
+1	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	compound	_	start_char=5488|end_char=5494
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=5494|end_char=5495
+3	Störungen	Störung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=5495|end_char=5504
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=5504|end_char=5505
+5	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5506|end_char=5512
+6	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=5513|end_char=5516
+7	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	obj	_	start_char=5517|end_char=5520
+8	ernst	ernst	ADV	PTKVZ	_	5	compound:prt	_	start_char=5521|end_char=5526
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=5526|end_char=5527
+
+# text = Schlafen Sie schlecht?
+# sent_id = 120
+1	Schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5529|end_char=5537
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=5538|end_char=5541
+3	schlecht	schlecht	ADJ	ADJD	Degree=Pos	1	xcomp	_	start_char=5542|end_char=5550
+4	?	?	PUNCT	$.	_	1	punct	_	start_char=5550|end_char=5551
+
+# text = Das kann Ihren All-Tag stören.
+# sent_id = 121
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	start_char=5552|end_char=5555
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=5556|end_char=5560
+3	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=5561|end_char=5566
+4	All	all	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=5567|end_char=5570
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=5570|end_char=5571
+6	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	flat	_	start_char=5571|end_char=5574
+7	stören	stören	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5575|end_char=5581
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=5581|end_char=5582
+
+# text = Und das kann auch Ihrer Gesundheit schaden.
+# sent_id = 122
+1	Und	und	CCONJ	KON	_	7	cc	_	start_char=5583|end_char=5586
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	start_char=5587|end_char=5590
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=5591|end_char=5595
+4	auch	auch	ADV	ADV	_	7	advmod	_	start_char=5596|end_char=5600
+5	Ihrer	Ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=5601|end_char=5606
+6	Gesundheit	Gesundheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl:arg	_	start_char=5607|end_char=5617
+7	schaden	schaden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5618|end_char=5625
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=5625|end_char=5626
+
+# text = Dann entsteht ein Teufels-Kreis.
+# sent_id = 123
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5627|end_char=5631
+2	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5632|end_char=5640
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=5641|end_char=5644
+4	Teufels	Teufel	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=5645|end_char=5652
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=5652|end_char=5653
+6	Kreis	Kreis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	start_char=5653|end_char=5658
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=5658|end_char=5659
+
+# text = Sprechen Sie mit Ihrem Arzt darüber.
+# sent_id = 124
+1	Sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5660|end_char=5668
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=5669|end_char=5672
+3	mit	mit	ADP	APPR	_	5	case	_	start_char=5673|end_char=5676
+4	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=5677|end_char=5682
+5	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	start_char=5683|end_char=5687
+6	darüber	darüber	ADV	PAV	PronType=Dem	1	advmod	_	start_char=5688|end_char=5695
+7	.	.	PUNCT	$.	_	1	punct	_	start_char=5695|end_char=5696
+
+# text = Gemeinsam können Sie das Problem lösen.
+# sent_id = 125
+1	Gemeinsam	gemeinsam	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=5697|end_char=5706
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=5707|end_char=5713
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=5714|end_char=5717
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=5718|end_char=5721
+5	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=5722|end_char=5729
+6	lösen	lösen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5730|end_char=5735
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=5735|end_char=5736
+
+# text = Sie können nicht gut schlafen?
+# sent_id = 126
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=5738|end_char=5741
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=5742|end_char=5748
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=5749|end_char=5754
+4	gut	gut	ADV	ADJD	_	5	advmod	_	start_char=5755|end_char=5758
+5	schlafen	schlafen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5759|end_char=5767
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=5767|end_char=5768
+
+# text = Dann gehen Sie zum Arzt.
+# sent_id = 127
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5769|end_char=5773
+2	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5774|end_char=5779
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=5780|end_char=5783
+4-5	zum	_	_	_	_	_	_	_	start_char=5784|end_char=5787
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=5788|end_char=5792
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=5792|end_char=5793
+
+# text = Der Arzt kann Ihnen helfen.
+# sent_id = 128
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=5794|end_char=5797
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=5798|end_char=5802
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=5803|end_char=5807
+4	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	obl:arg	_	start_char=5808|end_char=5813
+5	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5814|end_char=5820
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=5820|end_char=5821
+
+# text = Schlafen Sie schlecht?
+# sent_id = 129
+1	Schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5823|end_char=5831
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=5832|end_char=5835
+3	schlecht	schlecht	ADJ	ADJD	Degree=Pos	1	xcomp	_	start_char=5836|end_char=5844
+4	?	?	PUNCT	$.	_	1	punct	_	start_char=5844|end_char=5845
+
+# text = Dann sollten Sie aufmerksam sein.
+# sent_id = 130
+1	Dann	dann	ADV	ADV	_	4	advmod	_	start_char=5846|end_char=5850
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=5851|end_char=5858
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=5859|end_char=5862
+4	aufmerksam	aufmerksam	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5863|end_char=5873
+5	sein	sein	AUX	VAINF	VerbForm=Inf	4	cop	_	start_char=5874|end_char=5878
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=5878|end_char=5879
+
+# text = Finden Sie keinen Grund für Ihre Schlaf-Probleme?
+# sent_id = 131
+1	Finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5880|end_char=5886
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=5887|end_char=5890
+3	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	4	det	_	start_char=5891|end_char=5897
+4	Grund	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=5898|end_char=5903
+5	für	für	ADP	APPR	_	9	case	_	start_char=5904|end_char=5907
+6	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=5908|end_char=5912
+7	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	compound	_	start_char=5913|end_char=5919
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=5919|end_char=5920
+9	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	start_char=5920|end_char=5928
+10	?	?	PUNCT	$.	_	1	punct	_	start_char=5928|end_char=5929
+
+# text = Zum Beispiel Stress oder eine Krankheit?
+# sent_id = 132
+1-2	Zum	_	_	_	_	_	_	_	start_char=5930|end_char=5933
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=5934|end_char=5942
+4	Stress	Streß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=5943|end_char=5949
+5	oder	oder	CCONJ	KON	_	7	cc	_	start_char=5950|end_char=5954
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=5955|end_char=5959
+7	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	start_char=5960|end_char=5969
+8	?	?	PUNCT	$.	_	4	punct	_	start_char=5969|end_char=5970
+
+# text = Und die Schlaf-Probleme dauern schon lange an?
+# sent_id = 133
+1	Und	und	CCONJ	KON	_	6	cc	_	start_char=5971|end_char=5974
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=5975|end_char=5978
+3	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	compound	_	start_char=5979|end_char=5985
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=5985|end_char=5986
+5	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=5986|end_char=5994
+6	dauern	dauern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5995|end_char=6001
+7	schon	schon	ADV	ADV	_	8	advmod	_	start_char=6002|end_char=6007
+8	lange	lange	ADV	ADV	_	6	advmod	_	start_char=6008|end_char=6013
+9	an	an	ADP	PTKVZ	_	6	compound:prt	_	start_char=6014|end_char=6016
+10	?	?	PUNCT	$.	_	6	punct	_	start_char=6016|end_char=6017
+
+# text = Dann sollten Sie nach anderen Gründen suchen.
+# sent_id = 134
+1	Dann	dann	ADV	ADV	_	7	advmod	_	start_char=6018|end_char=6022
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=6023|end_char=6030
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	start_char=6031|end_char=6034
+4	nach	nach	ADP	APPR	_	6	case	_	start_char=6035|end_char=6039
+5	anderen	anderer	DET	ADJA	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	6	det	_	start_char=6040|end_char=6047
+6	Gründen	Grund|Gründen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	start_char=6048|end_char=6055
+7	suchen	suchen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6056|end_char=6062
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=6062|end_char=6063
+
+# text = Sie schlafen seit einem Monat schlecht?
+# sent_id = 135
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=6065|end_char=6068
+2	schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6069|end_char=6077
+3	seit	seit	ADP	APPR	_	5	case	_	start_char=6078|end_char=6082
+4	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=6083|end_char=6088
+5	Monat	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	start_char=6089|end_char=6094
+6	schlecht	schlecht	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=6095|end_char=6103
+7	?	?	PUNCT	$.	_	2	punct	_	start_char=6103|end_char=6104
+
+# text = Und das passiert 3 Nächte oder mehr in der Woche?
+# sent_id = 136
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=6105|end_char=6108
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=6109|end_char=6112
+3	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6113|end_char=6121
+4	3	3	NUM	CARD	NumType=Card	5	nummod	_	start_char=6122|end_char=6123
+5	Nächte	Nacht	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=6124|end_char=6130
+6	oder	oder	CCONJ	KON	_	7	cc	_	start_char=6131|end_char=6135
+7	mehr	mehr	ADV	ADV	_	5	conj	_	start_char=6136|end_char=6140
+8	in	in	ADP	APPR	_	10	case	_	start_char=6141|end_char=6143
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=6144|end_char=6147
+10	Woche	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	start_char=6148|end_char=6153
+11	?	?	PUNCT	$.	_	3	punct	_	start_char=6153|end_char=6154
+
+# text = Dann haben Sie vielleicht eine Schlaf-Störung.
+# sent_id = 137
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=6155|end_char=6159
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6160|end_char=6165
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=6166|end_char=6169
+4	vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	start_char=6170|end_char=6180
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=6181|end_char=6185
+6	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	compound	_	start_char=6186|end_char=6192
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=6192|end_char=6193
+8	Störung	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=6193|end_char=6200
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=6200|end_char=6201
+
+# text = Anzeichen für eine Schlaf-Störung sind zum Beispiel: - Sie fühlen sich tagsüber müde und kraftlos.
+# sent_id = 138
+1	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=6202|end_char=6211
+2	für	für	ADP	APPR	_	6	case	_	start_char=6212|end_char=6215
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=6216|end_char=6220
+4	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	compound	_	start_char=6221|end_char=6227
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=6227|end_char=6228
+6	Störung	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	start_char=6228|end_char=6235
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=6236|end_char=6240
+8-9	zum	_	_	_	_	_	_	_	start_char=6241|end_char=6244
+8	zu	zu	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	start_char=6245|end_char=6253
+11	:	:	PUNCT	$.	_	14	punct	_	start_char=6253|end_char=6254
+12	-	-	PUNCT	$(	_	14	punct	_	start_char=6255|end_char=6256
+13	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=6257|end_char=6260
+14	fühlen	fühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	start_char=6261|end_char=6267
+15	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	start_char=6268|end_char=6272
+16	tagsüber	tagsüber	ADV	ADV	_	14	advmod	_	start_char=6273|end_char=6281
+17	müde	müd	ADJ	ADJD	Degree=Pos	14	xcomp	_	start_char=6282|end_char=6286
+18	und	und	CCONJ	KON	_	19	cc	_	start_char=6287|end_char=6290
+19	kraftlos	kraftlos	ADJ	ADJD	Degree=Pos	17	conj	_	start_char=6291|end_char=6299
+20	.	.	PUNCT	$.	_	7	punct	_	start_char=6299|end_char=6300
+
+# text = - Sie sind tagsüber nervös und gereizt.
+# sent_id = 139
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=6301|end_char=6302
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=6303|end_char=6306
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=6307|end_char=6311
+4	tagsüber	tagsüber	ADV	ADV	_	5	advmod	_	start_char=6312|end_char=6320
+5	nervös	nervös	ADJ	ADJD	Degree=Pos	0	root	_	start_char=6321|end_char=6327
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=6328|end_char=6331
+7	gereizt	reizen	ADJ	ADJD	Degree=Pos	5	conj	_	start_char=6332|end_char=6339
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=6339|end_char=6340
+
+# text = - Sie sind tagsüber sehr müde, obwohl Sie gut geschlafen haben.
+# sent_id = 140
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=6341|end_char=6342
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=6343|end_char=6346
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=6347|end_char=6351
+4	tagsüber	tagsüber	ADV	ADV	_	6	advmod	_	start_char=6352|end_char=6360
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	start_char=6361|end_char=6365
+6	müde	müd	ADJ	ADJD	Degree=Pos	0	root	_	start_char=6366|end_char=6370
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=6370|end_char=6371
+8	obwohl	obwohl	SCONJ	KOUS	_	11	mark	_	start_char=6372|end_char=6378
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=6379|end_char=6382
+10	gut	gut	ADV	ADJD	_	11	advmod	_	start_char=6383|end_char=6386
+11	geschlafen	schlafen	VERB	VVPP	VerbForm=Part	6	advcl	_	start_char=6387|end_char=6397
+12	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=6398|end_char=6403
+13	.	.	PUNCT	$.	_	6	punct	_	start_char=6403|end_char=6404
+
+# text = Sie haben Anzeichen für eine Schlaf-Störung?
+# sent_id = 141
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=6405|end_char=6408
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6409|end_char=6414
+3	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=6415|end_char=6424
+4	für	für	ADP	APPR	_	8	case	_	start_char=6425|end_char=6428
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=6429|end_char=6433
+6	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	compound	_	start_char=6434|end_char=6440
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=6440|end_char=6441
+8	Störung	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=6441|end_char=6448
+9	?	?	PUNCT	$.	_	2	punct	_	start_char=6448|end_char=6449
+
+# text = Dann gehen Sie zu Ihrem Arzt.
+# sent_id = 142
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=6450|end_char=6454
+2	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6455|end_char=6460
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=6461|end_char=6464
+4	zu	zu	ADP	APPR	_	6	case	_	start_char=6465|end_char=6467
+5	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=6468|end_char=6473
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=6474|end_char=6478
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=6478|end_char=6479
+
+# text = Schlaflosigkeit kann viele Ursachen haben.
+# sent_id = 143
+1	Schlaflosigkeit	Schlaflosigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=6481|end_char=6496
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=6497|end_char=6501
+3	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	start_char=6502|end_char=6507
+4	Ursachen	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=6508|end_char=6516
+5	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=6517|end_char=6522
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=6522|end_char=6523
+
+# text = Hier sind einige davon: - Kaffee, Alkohol und Rauchen - Ihre Schlaf-Umgebung - Jetlag oder Schicht-Arbeit - Medikamente oder Schlaf-Mittel - Probleme mit Herz oder Kreis-Lauf - Probleme mit den Atem-Wegen oder der Lunge - Sodbrennen oder Magen-Darm-Krankheiten - Chronische Schmerzen, zum Beispiel durch Arthritis oder Arthrose - Fibromyalgie-Syndrom - Kopf-Schmerzen oder Migräne - Hormonelle Veränderungen, zum Beispiel in den Wechsel-Jahren - Schilddrüsenerkrankungen - Häufiger Harndrang, Nieren-Erkrankungen oder Prostata-Leiden - Neurologische Erkrankungen wie Multiple Sklerose oder Parkinson-Krankheit - Chronisches Erschöpfungs-Syndrom - Tinnitus - Stress, seelische Belastungen oder Burn-out-Syndrom - Depressionen, Manien oder Angst-Störungen - Krebs-Erkrankungen - Schwangerschaft Außerdem gibt es spezielle Schlaf-Störungen.
+# sent_id = 144
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=6524|end_char=6528
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=6529|end_char=6533
+3	einige	einige	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	2	nsubj	_	start_char=6534|end_char=6540
+4	davon	davon	ADV	PAV	PronType=Dem	3	advmod	_	start_char=6541|end_char=6546
+5	:	:	PUNCT	$.	_	7	punct	_	start_char=6546|end_char=6547
+6	-	-	PUNCT	$(	_	7	punct	_	start_char=6548|end_char=6549
+7	Kaffee	Kaffee	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=6550|end_char=6556
+8	,	,	PUNCT	$,	_	9	punct	_	start_char=6556|end_char=6557
+9	Alkohol	Alkohol	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	start_char=6558|end_char=6565
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=6566|end_char=6569
+11	Rauchen	Rauchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	start_char=6570|end_char=6577
+12	-	-	PUNCT	$(	_	18	punct	_	start_char=6578|end_char=6579
+13	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	det:poss	_	start_char=6580|end_char=6584
+14	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	compound	_	start_char=6585|end_char=6591
+15	-	-	PUNCT	$(	_	14	punct	_	start_char=6591|end_char=6592
+16	Umgebung	Umgebung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	compound	_	start_char=6592|end_char=6600
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=6601|end_char=6602
+18	Jetlag	Jetlag	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	start_char=6603|end_char=6609
+19	oder	oder	CCONJ	KON	_	24	cc	_	start_char=6610|end_char=6614
+20	Schicht	Schicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	compound	_	start_char=6615|end_char=6622
+21	-	-	PUNCT	$(	_	20	punct	_	start_char=6622|end_char=6623
+22	Arbeit	Arbeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	compound	_	start_char=6623|end_char=6629
+23	-	-	PUNCT	$(	_	22	punct	_	start_char=6630|end_char=6631
+24	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	conj	_	start_char=6632|end_char=6643
+25	oder	oder	CCONJ	KON	_	30	cc	_	start_char=6644|end_char=6648
+26	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	30	compound	_	start_char=6649|end_char=6655
+27	-	-	PUNCT	$(	_	26	punct	_	start_char=6655|end_char=6656
+28	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	30	compound	_	start_char=6656|end_char=6662
+29	-	-	PUNCT	$(	_	28	punct	_	start_char=6663|end_char=6664
+30	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	conj	_	start_char=6665|end_char=6673
+31	mit	mit	ADP	APPR	_	32	case	_	start_char=6674|end_char=6677
+32	Herz	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	30	nmod	_	start_char=6678|end_char=6682
+33	oder	oder	CCONJ	KON	_	38	cc	_	start_char=6683|end_char=6687
+34	Kreis	Kreis	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	36	compound	_	start_char=6688|end_char=6693
+35	-	-	PUNCT	$(	_	34	punct	_	start_char=6693|end_char=6694
+36	Lauf	Lauf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	38	compound	_	start_char=6694|end_char=6698
+37	-	-	PUNCT	$(	_	36	punct	_	start_char=6699|end_char=6700
+38	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	30	conj	_	start_char=6701|end_char=6709
+39	mit	mit	ADP	APPR	_	43	case	_	start_char=6710|end_char=6713
+40	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	43	det	_	start_char=6714|end_char=6717
+41	Atem	Atem	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	43	compound	_	start_char=6718|end_char=6722
+42	-	-	PUNCT	$(	_	41	punct	_	start_char=6722|end_char=6723
+43	Wegen	Weg	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	38	nmod	_	start_char=6723|end_char=6728
+44	oder	oder	CCONJ	KON	_	48	cc	_	start_char=6729|end_char=6733
+45	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	start_char=6734|end_char=6737
+46	Lunge	Lunge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	48	compound	_	start_char=6738|end_char=6743
+47	-	-	PUNCT	$(	_	46	punct	_	start_char=6744|end_char=6745
+48	Sodbrennen	Sodbrennen	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	43	conj	_	start_char=6746|end_char=6756
+49	oder	oder	CCONJ	KON	_	57	cc	_	start_char=6757|end_char=6761
+50	Magen	Mage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	52	compound	_	start_char=6762|end_char=6767
+51	-	-	PUNCT	$(	_	50	punct	_	start_char=6767|end_char=6768
+52	Darm	Darm	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	57	compound	_	start_char=6768|end_char=6772
+53	-	-	PUNCT	$(	_	52	punct	_	start_char=6772|end_char=6773
+54	Krankheiten	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	57	compound	_	start_char=6773|end_char=6784
+55	-	-	PUNCT	$(	_	54	punct	_	start_char=6785|end_char=6786
+56	Chronische	chronisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	57	amod	_	start_char=6787|end_char=6797
+57	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	48	conj	_	start_char=6798|end_char=6807
+58	,	,	PUNCT	$,	_	63	punct	_	start_char=6807|end_char=6808
+59-60	zum	_	_	_	_	_	_	_	start_char=6809|end_char=6812
+59	zu	zu	ADP	APPR	_	61	case	_	_
+60	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	61	det	_	_
+61	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	63	nmod	_	start_char=6813|end_char=6821
+62	durch	durch	ADP	APPR	_	63	case	_	start_char=6822|end_char=6827
+63	Arthritis	Arthritis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	57	nmod	_	start_char=6828|end_char=6837
+64	oder	oder	CCONJ	KON	_	73	cc	_	start_char=6838|end_char=6842
+65	Arthrose	Arthrose	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	73	compound	_	start_char=6843|end_char=6851
+66	-	-	PUNCT	$(	_	65	punct	_	start_char=6852|end_char=6853
+67	Fibromyalgie	Fibromyalgie	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	73	compound	_	start_char=6854|end_char=6866
+68	-	-	PUNCT	$(	_	67	punct	_	start_char=6866|end_char=6867
+69	Syndrom	Syndrom	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	73	compound	_	start_char=6867|end_char=6874
+70	-	-	PUNCT	$(	_	69	punct	_	start_char=6875|end_char=6876
+71	Kopf	Kopf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	73	compound	_	start_char=6877|end_char=6881
+72	-	-	PUNCT	$(	_	71	punct	_	start_char=6881|end_char=6882
+73	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	63	conj	_	start_char=6882|end_char=6891
+74	oder	oder	CCONJ	KON	_	78	cc	_	start_char=6892|end_char=6896
+75	Migräne	Migran	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	77	compound	_	start_char=6897|end_char=6904
+76	-	-	PUNCT	$(	_	75	punct	_	start_char=6905|end_char=6906
+77	Hormonelle	hormonell	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	78	amod	_	start_char=6907|end_char=6917
+78	Veränderungen	Veränderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	63	conj	_	start_char=6918|end_char=6931
+79	,	,	PUNCT	$,	_	92	punct	_	start_char=6931|end_char=6932
+80-81	zum	_	_	_	_	_	_	_	start_char=6933|end_char=6936
+80	zu	zu	ADP	APPR	_	82	case	_	_
+81	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	82	det	_	_
+82	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	92	nmod	_	start_char=6937|end_char=6945
+83	in	in	ADP	APPR	_	92	case	_	start_char=6946|end_char=6948
+84	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	92	det	_	start_char=6949|end_char=6952
+85	Wechsel	Wechsel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	87	compound	_	start_char=6953|end_char=6960
+86	-	-	PUNCT	$(	_	85	punct	_	start_char=6960|end_char=6961
+87	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	92	compound	_	start_char=6961|end_char=6967
+88	-	-	PUNCT	$(	_	87	punct	_	start_char=6968|end_char=6969
+89	Schilddrüsenerkrankungen	Schilddrüsenerkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	92	compound	_	start_char=6970|end_char=6994
+90	-	-	PUNCT	$(	_	89	punct	_	start_char=6995|end_char=6996
+91	Häufiger	Häufiger	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	92	amod	_	start_char=6997|end_char=7005
+92	Harndrang	Harndrang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	78	nmod	_	start_char=7006|end_char=7015
+93	,	,	PUNCT	$,	_	96	punct	_	start_char=7015|end_char=7016
+94	Nieren	Niere	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	96	compound	_	start_char=7017|end_char=7023
+95	-	-	PUNCT	$(	_	94	punct	_	start_char=7023|end_char=7024
+96	Erkrankungen	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	92	conj	_	start_char=7024|end_char=7036
+97	oder	oder	CCONJ	KON	_	103	cc	_	start_char=7037|end_char=7041
+98	Prostata	Prostata	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	102	compound	_	start_char=7042|end_char=7050
+99	-	-	PUNCT	$(	_	98	punct	_	start_char=7050|end_char=7051
+100	Leiden	Leiden	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	103	compound	_	start_char=7051|end_char=7057
+101	-	-	PUNCT	$(	_	100	punct	_	start_char=7058|end_char=7059
+102	Neurologische	neurologisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	103	amod	_	start_char=7060|end_char=7073
+103	Erkrankungen	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	92	conj	_	start_char=7074|end_char=7086
+104	wie	wie	ADP	KOKOM	_	106	case	_	start_char=7087|end_char=7090
+105	Multiple	multipl	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	106	amod	_	start_char=7091|end_char=7099
+106	Sklerose	Sklerose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	103	nmod	_	start_char=7100|end_char=7108
+107	oder	oder	CCONJ	KON	_	119	cc	_	start_char=7109|end_char=7113
+108	Parkinson	Parkinson	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	110	compound	_	start_char=7114|end_char=7123
+109	-	-	PUNCT	$(	_	108	punct	_	start_char=7123|end_char=7124
+110	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	112	compound	_	start_char=7124|end_char=7133
+111	-	-	PUNCT	$(	_	110	punct	_	start_char=7134|end_char=7135
+112	Chronisches	mhronisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	119	amod	_	start_char=7136|end_char=7147
+113	Erschöpfungs	Erschöpfungs	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	119	compound	_	start_char=7148|end_char=7160
+114	-	-	PUNCT	$(	_	113	punct	_	start_char=7160|end_char=7161
+115	Syndrom	Syndrom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	119	compound	_	start_char=7161|end_char=7168
+116	-	-	PUNCT	$(	_	117	punct	_	start_char=7169|end_char=7170
+117	Tinnitus	Tinnitus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	119	compound	_	start_char=7171|end_char=7179
+118	-	-	PUNCT	$(	_	117	punct	_	start_char=7180|end_char=7181
+119	Stress	Streß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	103	conj	_	start_char=7182|end_char=7188
+120	,	,	PUNCT	$,	_	122	punct	_	start_char=7188|end_char=7189
+121	seelische	seelisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	122	amod	_	start_char=7190|end_char=7199
+122	Belastungen	Belastung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	119	conj	_	start_char=7200|end_char=7211
+123	oder	oder	CCONJ	KON	_	130	cc	_	start_char=7212|end_char=7216
+124	Burn	Burn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	130	compound	_	start_char=7217|end_char=7221
+125	-	-	PUNCT	$(	_	124	punct	_	start_char=7221|end_char=7222
+126	out	out	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	130	compound	_	start_char=7222|end_char=7225
+127	-	-	PUNCT	$(	_	126	punct	_	start_char=7225|end_char=7226
+128	Syndrom	Syndrom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	130	compound	_	start_char=7226|end_char=7233
+129	-	-	PUNCT	$(	_	128	punct	_	start_char=7234|end_char=7235
+130	Depressionen	Depression	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	119	conj	_	start_char=7236|end_char=7248
+131	,	,	PUNCT	$,	_	132	punct	_	start_char=7248|end_char=7249
+132	Manien	Manie	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	start_char=7250|end_char=7256
+133	oder	oder	CCONJ	KON	_	142	cc	_	start_char=7257|end_char=7261
+134	Angst	Angst	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	136	compound	_	start_char=7262|end_char=7267
+135	-	-	PUNCT	$(	_	134	punct	_	start_char=7267|end_char=7268
+136	Störungen	Störung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	142	compound	_	start_char=7268|end_char=7277
+137	-	-	PUNCT	$(	_	136	punct	_	start_char=7278|end_char=7279
+138	Krebs	Krebs	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	142	compound	_	start_char=7280|end_char=7285
+139	-	-	PUNCT	$(	_	138	punct	_	start_char=7285|end_char=7286
+140	Erkrankungen	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	142	compound	_	start_char=7286|end_char=7298
+141	-	-	PUNCT	$(	_	140	punct	_	start_char=7299|end_char=7300
+142	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	130	conj	_	start_char=7301|end_char=7316
+143	Außerdem	außerdem	ADV	PAV	_	144	advmod	_	start_char=7317|end_char=7325
+144	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=7326|end_char=7330
+145	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	144	expl	_	start_char=7331|end_char=7333
+146	spezielle	speziell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	149	amod	_	start_char=7334|end_char=7343
+147	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	149	compound	_	start_char=7344|end_char=7350
+148	-	-	PUNCT	$(	_	147	punct	_	start_char=7350|end_char=7351
+149	Störungen	Störung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	144	nsubj	_	start_char=7351|end_char=7360
+150	.	.	PUNCT	$.	_	144	punct	_	start_char=7360|end_char=7361
+
+# text = Zum Beispiel: - Atmungsstörungen beim Schlafen wie Schnarchen und Atemaussetzer (Schlafapnoe).
+# sent_id = 145
+1-2	Zum	_	_	_	_	_	_	_	start_char=7362|end_char=7365
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=7366|end_char=7374
+4	:	:	PUNCT	$.	_	6	punct	_	start_char=7374|end_char=7375
+5	-	-	PUNCT	$(	_	3	punct	_	start_char=7376|end_char=7377
+6	Atmungsstörungen	Atmungsstörung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=7378|end_char=7394
+7-8	beim	_	_	_	_	_	_	_	start_char=7395|end_char=7399
+7	bei	bei	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Schlafen	Schlafe	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=7400|end_char=7408
+10	wie	wie	ADP	KOKOM	_	11	case	_	start_char=7409|end_char=7412
+11	Schnarchen	Schnarche	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	start_char=7413|end_char=7423
+12	und	und	CCONJ	KON	_	13	cc	_	start_char=7424|end_char=7427
+13	Atemaussetzer	Atemaussetzer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	start_char=7428|end_char=7441
+14	(	(	PUNCT	$(	_	15	punct	_	start_char=7442|end_char=7443
+15	Schlafapnoe	Schlafapnoe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	appos	_	start_char=7443|end_char=7454
+16	)	)	PUNCT	$(	_	15	punct	_	start_char=7454|end_char=7455
+17	.	.	PUNCT	$.	_	6	punct	_	start_char=7455|end_char=7456
+
+# text = Es gibt verschiedene Schlaf-Probleme.
+# sent_id = 146
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=7458|end_char=7460
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7461|end_char=7465
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=7466|end_char=7478
+4	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	compound	_	start_char=7479|end_char=7485
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=7485|end_char=7486
+6	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=7486|end_char=7494
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=7494|end_char=7495
+
+# text = Zum Beispiel: - Ruhe-Lose Beine - Schlafsucht - Ereignisse im Schlaf Bei ruhelosen Beinen zappeln die Beine.
+# sent_id = 147
+1-2	Zum	_	_	_	_	_	_	_	start_char=7496|end_char=7499
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	start_char=7500|end_char=7508
+4	:	:	PUNCT	$.	_	6	punct	_	start_char=7508|end_char=7509
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=7510|end_char=7511
+6	Ruhe	Ruhe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	compound	_	start_char=7512|end_char=7516
+7	-	-	PUNCT	$(	_	9	punct	_	start_char=7516|end_char=7517
+8	Lose	Lose	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=7517|end_char=7521
+9	Beine	Bein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	compound	_	start_char=7522|end_char=7527
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=7528|end_char=7529
+11	Schlafsucht	Schlafsucht	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	compound	_	start_char=7530|end_char=7541
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=7542|end_char=7543
+13	Ereignisse	Ereignis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	start_char=7544|end_char=7554
+14-15	im	_	_	_	_	_	_	_	start_char=7555|end_char=7557
+14	in	in	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Schlaf	Schlaf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	start_char=7558|end_char=7564
+17	Bei	bei	ADP	APPR	_	19	case	_	start_char=7565|end_char=7568
+18	ruhelosen	ruhelos	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=7569|end_char=7578
+19	Beinen	Bein|Reinen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	20	obl	_	start_char=7579|end_char=7585
+20	zappeln	zappeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7586|end_char=7593
+21	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	22	det	_	start_char=7594|end_char=7597
+22	Beine	Bein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	start_char=7598|end_char=7603
+23	.	.	PUNCT	$.	_	20	punct	_	start_char=7603|end_char=7604
+
+# text = Bei Schlafsucht schläft die Person sehr viel.
+# sent_id = 148
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=7605|end_char=7608
+2	Schlafsucht	Schlafsucht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=7609|end_char=7620
+3	schläft	schlafen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7621|end_char=7628
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=7629|end_char=7632
+5	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=7633|end_char=7639
+6	sehr	sehr	ADV	ADV	_	7	advmod	_	start_char=7640|end_char=7644
+7	viel	viel	DET	PIS	PronType=Ind	3	obj	_	start_char=7645|end_char=7649
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=7649|end_char=7650
+
+# text = Ereignisse im Schlaf sind zum Beispiel: - Schlafwandeln - Angst im Schlaf - Einnässen im Schlaf - Zähneknirschen im Schlaf.
+# sent_id = 149
+1	Ereignisse	Ereignis	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	start_char=7651|end_char=7661
+2-3	im	_	_	_	_	_	_	_	start_char=7662|end_char=7664
+2	in	in	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Schlaf	Schlaf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	start_char=7665|end_char=7671
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=7672|end_char=7676
+6-7	zum	_	_	_	_	_	_	_	start_char=7677|end_char=7680
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	start_char=7681|end_char=7689
+9	:	:	PUNCT	$.	_	13	punct	_	start_char=7689|end_char=7690
+10	-	-	PUNCT	$(	_	11	punct	_	start_char=7691|end_char=7692
+11	Schlafwandeln	Schlafwandel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	compound	_	start_char=7693|end_char=7706
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=7707|end_char=7708
+13	Angst	Angst	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7709|end_char=7714
+14-15	im	_	_	_	_	_	_	_	start_char=7715|end_char=7717
+14	in	in	ADP	APPR	_	18	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+16	Schlaf	Schlaf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	compound	_	start_char=7718|end_char=7724
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=7725|end_char=7726
+18	Einnässen	Einnaß	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	start_char=7727|end_char=7736
+19-20	im	_	_	_	_	_	_	_	start_char=7737|end_char=7739
+19	in	in	ADP	APPR	_	23	case	_	_
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+21	Schlaf	Schlaf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	compound	_	start_char=7740|end_char=7746
+22	-	-	PUNCT	$(	_	21	punct	_	start_char=7747|end_char=7748
+23	Zähneknirschen	Zähneknirschen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	start_char=7749|end_char=7763
+24-25	im	_	_	_	_	_	_	_	start_char=7764|end_char=7766
+24	in	in	ADP	APPR	_	26	case	_	_
+25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Schlaf	Schlaf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	start_char=7767|end_char=7773
+27	.	.	PUNCT	$.	_	13	punct	_	start_char=7773|end_char=7774
+
+# text = Manche Menschen schnarchen.
+# sent_id = 150
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=7776|end_char=7782
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=7783|end_char=7791
+3	schnarchen	schnarchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7792|end_char=7802
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=7802|end_char=7803
+
+# text = Oder sie atmen nachts manchmal nicht.
+# sent_id = 151
+1	Oder	Oder	CCONJ	KON	_	3	cc	_	start_char=7804|end_char=7808
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=7809|end_char=7812
+3	atmen	atmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7813|end_char=7818
+4	nachts	nachts	ADV	ADV	_	3	advmod	_	start_char=7819|end_char=7825
+5	manchmal	manchmal	ADV	ADV	_	3	advmod	_	start_char=7826|end_char=7834
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=7835|end_char=7840
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=7840|end_char=7841
+
+# text = Das stört die Menschen oft nicht beim Schlafen.
+# sent_id = 152
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=7842|end_char=7845
+2	stört	stören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7846|end_char=7851
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=7852|end_char=7855
+4	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=7856|end_char=7864
+5	oft	oft	ADV	ADV	_	6	advmod	_	start_char=7865|end_char=7868
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=7869|end_char=7874
+7-8	beim	_	_	_	_	_	_	_	start_char=7875|end_char=7879
+7	bei	bei	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Schlafen	Schlafe	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=7880|end_char=7888
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=7888|end_char=7889
+
+# text = Aber es stört die anderen Menschen im Raum.
+# sent_id = 153
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=7890|end_char=7894
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=7895|end_char=7897
+3	stört	stören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7898|end_char=7903
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=7904|end_char=7907
+5	anderen	anderer	DET	ADJA	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	6	det	_	start_char=7908|end_char=7915
+6	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=7916|end_char=7924
+7-8	im	_	_	_	_	_	_	_	start_char=7925|end_char=7927
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Raum	Raum	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=7928|end_char=7932
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=7932|end_char=7933
+
+# text = Das Schnarchen und die Atem-Pausen sind aber schlecht für den Schlaf.
+# sent_id = 154
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=7934|end_char=7937
+2	Schnarchen	Schnarche	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=7938|end_char=7948
+3	und	und	CCONJ	KON	_	7	cc	_	start_char=7949|end_char=7952
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=7953|end_char=7956
+5	Atem	Atem	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	compound	_	start_char=7957|end_char=7961
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=7961|end_char=7962
+7	Pausen	Pause	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	start_char=7962|end_char=7968
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=7969|end_char=7973
+9	aber	aber	ADV	ADV	_	10	advmod	_	start_char=7974|end_char=7978
+10	schlecht	schlecht	ADJ	ADJD	Degree=Pos	0	root	_	start_char=7979|end_char=7987
+11	für	für	ADP	APPR	_	13	case	_	start_char=7988|end_char=7991
+12	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=7992|end_char=7995
+13	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	start_char=7996|end_char=8002
+14	.	.	PUNCT	$.	_	10	punct	_	start_char=8002|end_char=8003
+
+# text = Sie können sogar krank machen.
+# sent_id = 155
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=8004|end_char=8007
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=8008|end_char=8014
+3	sogar	sogar	ADV	ADV	_	5	advmod	_	start_char=8015|end_char=8020
+4	krank	krank	ADJ	ADJD	Degree=Pos	5	xcomp	_	start_char=8021|end_char=8026
+5	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8027|end_char=8033
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=8033|end_char=8034
+
+# text = Zum Beispiel kann eine Schlafapnoe entstehen.
+# sent_id = 156
+1-2	Zum	_	_	_	_	_	_	_	start_char=8035|end_char=8038
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=8039|end_char=8047
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=8048|end_char=8052
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=8053|end_char=8057
+6	Schlafapnoe	Schlafapnoe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=8058|end_char=8069
+7	entstehen	entstehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8070|end_char=8079
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=8079|end_char=8080
+
+# text = Eine Schlafapnoe ist eine ernsthafte Krankheit.
+# sent_id = 157
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=8081|end_char=8085
+2	Schlafapnoe	Schlafapnoe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=8086|end_char=8097
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=8098|end_char=8101
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=8102|end_char=8106
+5	ernsthafte	ernsthaft	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=8107|end_char=8117
+6	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=8118|end_char=8127
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=8127|end_char=8128
+
+# text = Parasomnien sind Störungen im Schlaf.
+# sent_id = 158
+1	Parasomnien	Parasomnie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=8130|end_char=8141
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=8142|end_char=8146
+3	Störungen	Störung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=8147|end_char=8156
+4-5	im	_	_	_	_	_	_	_	start_char=8157|end_char=8159
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Schlaf	Schlaf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	start_char=8160|end_char=8166
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=8166|end_char=8167
+
+# text = Die betroffenen Personen wachen dabei nicht auf.
+# sent_id = 159
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=8168|end_char=8171
+2	betroffenen	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=8172|end_char=8183
+3	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=8184|end_char=8192
+4	wachen	wachen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8193|end_char=8199
+5	dabei	dabei	ADV	PAV	_	4	advmod	_	start_char=8200|end_char=8205
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=8206|end_char=8211
+7	auf	auf	ADP	PTKVZ	_	4	compound:prt	_	start_char=8212|end_char=8215
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=8215|end_char=8216
+
+# text = Aber sie können sich und andere gefährden.
+# sent_id = 160
+1	Aber	aber	CCONJ	KON	_	7	cc	_	start_char=8217|end_char=8221
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=8222|end_char=8225
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=8226|end_char=8232
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=8233|end_char=8237
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=8238|end_char=8241
+6	andere	anderer	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	4	conj	_	start_char=8242|end_char=8248
+7	gefährden	gefährden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8249|end_char=8258
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=8258|end_char=8259
+
+# text = Zum Beispiel durch Schlafwandeln.
+# sent_id = 161
+1-2	Zum	_	_	_	_	_	_	_	start_char=8260|end_char=8263
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=8264|end_char=8272
+4	durch	durch	ADP	APPR	_	5	case	_	start_char=8273|end_char=8278
+5	Schlafwandeln	Schlafwandel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	0	root	_	start_char=8279|end_char=8292
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=8292|end_char=8293
+
+# text = Oder durch Zähneknirschen im Schlaf.
+# sent_id = 162
+1	Oder	Oder	CCONJ	KON	_	3	cc	_	start_char=8294|end_char=8298
+2	durch	durch	ADP	APPR	_	3	case	_	start_char=8299|end_char=8304
+3	Zähneknirschen	Zähneknirschen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	0	root	_	start_char=8305|end_char=8319
+4-5	im	_	_	_	_	_	_	_	start_char=8320|end_char=8322
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Schlaf	Schlaf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	start_char=8323|end_char=8329
+7	.	.	PUNCT	$.	_	1	punct	_	start_char=8329|end_char=8330
+
+# text = Oder durch Einnässen im Schlaf.
+# sent_id = 163
+1	Oder	Oder	CCONJ	KON	_	3	cc	_	start_char=8331|end_char=8335
+2	durch	durch	ADP	APPR	_	3	case	_	start_char=8336|end_char=8341
+3	Einnässen	Einnaß	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	0	root	_	start_char=8342|end_char=8351
+4-5	im	_	_	_	_	_	_	_	start_char=8352|end_char=8354
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Schlaf	Schlaf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	start_char=8355|end_char=8361
+7	.	.	PUNCT	$.	_	1	punct	_	start_char=8361|end_char=8362
+
+# text = Das Syndrom der ruhelosen Beine stört den Schlaf.
+# sent_id = 164
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=8364|end_char=8367
+2	Syndrom	Syndrom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=8368|end_char=8375
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=8376|end_char=8379
+4	ruhelosen	ruhelos	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=8380|end_char=8389
+5	Beine	Bein	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=8390|end_char=8395
+6	stört	stören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8396|end_char=8401
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=8402|end_char=8405
+8	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=8406|end_char=8412
+9	.	.	PUNCT	$.	_	6	punct	_	start_char=8412|end_char=8413
+
+# text = Es wird auch "restless legs" genannt.
+# sent_id = 165
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	start_char=8414|end_char=8416
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=8417|end_char=8421
+3	auch	auch	ADV	ADV	_	8	advmod	_	start_char=8422|end_char=8426
+4	"	"	PUNCT	$(	_	5	punct	_	start_char=8427|end_char=8428
+5	restless	restleß	PROPN	FM	Foreign=Yes	8	xcomp	_	start_char=8428|end_char=8436
+6	legs	legs	PROPN	FM	Foreign=Yes	5	flat	_	start_char=8437|end_char=8441
+7	"	"	PUNCT	$(	_	5	punct	_	start_char=8441|end_char=8442
+8	genannt	nennen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=8443|end_char=8450
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=8450|end_char=8451
+
+# text = Die Beine kribbeln unangenehm, wenn man sich hinlegt.
+# sent_id = 166
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=8452|end_char=8455
+2	Beine	Bein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=8456|end_char=8461
+3	kribbeln	kribbeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8462|end_char=8470
+4	unangenehm	unangenehm	ADJ	ADJD	Degree=Pos	3	xcomp	_	start_char=8471|end_char=8481
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=8481|end_char=8482
+6	wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=8483|end_char=8487
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=8488|end_char=8491
+8	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	start_char=8492|end_char=8496
+9	hinlegt	hinlegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=8497|end_char=8504
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=8504|end_char=8505
+
+# text = Das Kribbeln hört oft erst auf, wenn man aufsteht und geht.
+# sent_id = 167
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=8506|end_char=8509
+2	Kribbeln	Kribbel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=8510|end_char=8518
+3	hört	hören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8519|end_char=8523
+4	oft	oft	ADV	ADV	_	3	advmod	_	start_char=8524|end_char=8527
+5	erst	erst	ADV	ADV	_	3	advmod	_	start_char=8528|end_char=8532
+6	auf	auf	ADP	PTKVZ	_	3	compound:prt	_	start_char=8533|end_char=8536
+7	,	,	PUNCT	$,	_	10	punct	_	start_char=8536|end_char=8537
+8	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=8538|end_char=8542
+9	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=8543|end_char=8546
+10	aufsteht	aufstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=8547|end_char=8555
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=8556|end_char=8559
+12	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	start_char=8560|end_char=8564
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=8564|end_char=8565
+
+# text = Dadurch wird der Schlaf oft unterbrochen.
+# sent_id = 168
+1	Dadurch	dadurch	ADV	PAV	PronType=Dem	6	advmod	_	start_char=8566|end_char=8573
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	start_char=8574|end_char=8578
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=8579|end_char=8582
+4	Schlaf	Schlaf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	start_char=8583|end_char=8589
+5	oft	oft	ADV	ADV	_	6	advmod	_	start_char=8590|end_char=8593
+6	unterbrochen	unterbrechen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=8594|end_char=8606
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=8606|end_char=8607
+
+# text = Andere Probleme sind Muskelzuckungen oder Bewegungen im Schlaf.
+# sent_id = 169
+1	Andere	anderer	DET	ADJA	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	2	det	_	start_char=8608|end_char=8614
+2	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=8615|end_char=8623
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=8624|end_char=8628
+4	Muskelzuckungen	Muskelzuckung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=8629|end_char=8644
+5	oder	oder	CCONJ	KON	_	6	cc	_	start_char=8645|end_char=8649
+6	Bewegungen	Bewegung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	conj	_	start_char=8650|end_char=8660
+7-8	im	_	_	_	_	_	_	_	start_char=8661|end_char=8663
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Schlaf	Schlaf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=8664|end_char=8670
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=8670|end_char=8671
+
+# text = Manchmal schlafen Menschen nachts nicht gut.
+# sent_id = 170
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=8673|end_char=8681
+2	schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8682|end_char=8690
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=8691|end_char=8699
+4	nachts	nachts	ADV	ADV	_	2	advmod	_	start_char=8700|end_char=8706
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=8707|end_char=8712
+6	gut	gut	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=8713|end_char=8716
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=8716|end_char=8717
+
+# text = Dann sind sie am Tag sehr müde.
+# sent_id = 171
+1	Dann	dann	ADV	ADV	_	8	advmod	_	start_char=8718|end_char=8722
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=8723|end_char=8727
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=8728|end_char=8731
+4-5	am	_	_	_	_	_	_	_	start_char=8732|end_char=8734
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	start_char=8735|end_char=8738
+7	sehr	sehr	ADV	ADV	_	8	advmod	_	start_char=8739|end_char=8743
+8	müde	müd	ADJ	ADJD	Degree=Pos	0	root	_	start_char=8744|end_char=8748
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=8748|end_char=8749
+
+# text = Das nennt man Hypersomnie.
+# sent_id = 172
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=8750|end_char=8753
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8754|end_char=8759
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=8760|end_char=8763
+4	Hypersomnie	Hypersomnie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	xcomp	_	start_char=8764|end_char=8775
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=8775|end_char=8776
+
+# text = Es gibt auch die Krankheit Narkolepsie.
+# sent_id = 173
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=8777|end_char=8779
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8780|end_char=8784
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=8785|end_char=8789
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=8790|end_char=8793
+5	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=8794|end_char=8803
+6	Narkolepsie	Narkolepsie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	start_char=8804|end_char=8815
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=8815|end_char=8816
+
+# text = Menschen mit Narkolepsie sind am Tag sehr müde.
+# sent_id = 174
+1	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=8817|end_char=8825
+2	mit	mit	ADP	APPR	_	3	case	_	start_char=8826|end_char=8829
+3	Narkolepsie	Narkolepsie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	start_char=8830|end_char=8841
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=8842|end_char=8846
+5-6	am	_	_	_	_	_	_	_	start_char=8847|end_char=8849
+5	an	an	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	start_char=8850|end_char=8853
+8	sehr	sehr	ADV	ADV	_	9	advmod	_	start_char=8854|end_char=8858
+9	müde	müd	ADJ	ADJD	Degree=Pos	0	root	_	start_char=8859|end_char=8863
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=8863|end_char=8864
+
+# text = Sie schlafen dann plötzlich ein.
+# sent_id = 175
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=8865|end_char=8868
+2	schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8869|end_char=8877
+3	dann	dann	ADV	ADV	_	2	advmod	_	start_char=8878|end_char=8882
+4	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=8883|end_char=8892
+5	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	start_char=8893|end_char=8896
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=8896|end_char=8897
+
+# text = Das nennt man Schlaf-Attacken.
+# sent_id = 176
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=8898|end_char=8901
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8902|end_char=8907
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=8908|end_char=8911
+4	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	compound	_	start_char=8912|end_char=8918
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=8918|end_char=8919
+6	Attacken	Attacken	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=8919|end_char=8927
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=8927|end_char=8928
+
+# text = Menschen mit Narkolepsie haben oft noch andere Probleme: - Ihre Muskeln werden plötzlich schlapp.
+# sent_id = 177
+1	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=8929|end_char=8937
+2	mit	mit	ADP	APPR	_	3	case	_	start_char=8938|end_char=8941
+3	Narkolepsie	Narkolepsie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	start_char=8942|end_char=8953
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8954|end_char=8959
+5	oft	oft	ADV	ADV	_	4	advmod	_	start_char=8960|end_char=8963
+6	noch	noch	ADV	ADV	_	4	advmod	_	start_char=8964|end_char=8968
+7	andere	anderer	DET	ADJA	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	8	det	_	start_char=8969|end_char=8975
+8	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=8976|end_char=8984
+9	:	:	PUNCT	$.	_	13	punct	_	start_char=8984|end_char=8985
+10	-	-	PUNCT	$(	_	13	punct	_	start_char=8986|end_char=8987
+11	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=8988|end_char=8992
+12	Muskeln	Muskel	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	start_char=8993|end_char=9000
+13	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=9001|end_char=9007
+14	plötzlich	plötzlich	ADV	ADJD	_	13	advmod	_	start_char=9008|end_char=9017
+15	schlapp	schlapp	ADJ	ADJD	Degree=Pos	13	xcomp	_	start_char=9018|end_char=9025
+16	.	.	PUNCT	$.	_	4	punct	_	start_char=9025|end_char=9026
+
+# text = - Sie sehen Dinge, die nicht da sind.
+# sent_id = 178
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=9027|end_char=9028
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=9029|end_char=9032
+3	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9033|end_char=9038
+4	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=9039|end_char=9044
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=9044|end_char=9045
+6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	9	nsubj	_	start_char=9046|end_char=9049
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=9050|end_char=9055
+8	da	da	ADV	ADV	_	9	advmod	_	start_char=9056|end_char=9058
+9	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=9059|end_char=9063
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=9063|end_char=9064
+
+# text = - Sie schlafen nachts nicht gut.
+# sent_id = 179
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=9065|end_char=9066
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=9067|end_char=9070
+3	schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9071|end_char=9079
+4	nachts	nachts	ADV	ADV	_	3	advmod	_	start_char=9080|end_char=9086
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=9087|end_char=9092
+6	gut	gut	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=9093|end_char=9096
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=9096|end_char=9097
+
+# text = Wichtiger Hinweis: Dieser Text gibt nur allgemeine Tipps.
+# sent_id = 180
+1	Wichtiger	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=9099|end_char=9108
+2	Hinweis	Hinweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=9109|end_char=9116
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=9116|end_char=9117
+4	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=9118|end_char=9124
+5	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=9125|end_char=9129
+6	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=9130|end_char=9134
+7	nur	nur	ADV	ADV	_	6	advmod	_	start_char=9135|end_char=9138
+8	allgemeine	allgemein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=9139|end_char=9149
+9	Tipps	Tip	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=9150|end_char=9155
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=9155|end_char=9156
+
+# text = Sie dürfen den Text nicht für eigene Diagnosen oder Behandlungen nutzen.
+# sent_id = 181
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=9157|end_char=9160
+2	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=9161|end_char=9167
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=9168|end_char=9171
+4	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=9172|end_char=9176
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=9177|end_char=9182
+6	für	für	ADP	APPR	_	8	case	_	start_char=9183|end_char=9186
+7	eigene	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=9187|end_char=9193
+8	Diagnosen	Diagnose	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	start_char=9194|end_char=9203
+9	oder	oder	CCONJ	KON	_	10	cc	_	start_char=9204|end_char=9208
+10	Behandlungen	Behandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	conj	_	start_char=9209|end_char=9221
+11	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=9222|end_char=9228
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=9228|end_char=9229
+
+# text = Der Text ersetzt keinen Arzt-Besuch.
+# sent_id = 182
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=9230|end_char=9233
+2	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=9234|end_char=9238
+3	ersetzt	ersetzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9239|end_char=9246
+4	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	7	det	_	start_char=9247|end_char=9253
+5	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	compound	_	start_char=9254|end_char=9258
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=9258|end_char=9259
+7	Besuch	Besuch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=9259|end_char=9265
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=9265|end_char=9266
+

@@ -1,0 +1,723 @@
+# text = Digitales Blutdruck-Management
+# sent_id = 0
+1	Digitales	digital	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=0|end_char=9
+2	Blutdruck	Blutdruck	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	start_char=10|end_char=19
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=19|end_char=20
+4	Management	Management	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=20|end_char=30
+
+# text = Dieser Text informiert in Einfacher Sprache zum Thema: digitales Blutdruck-Management Von www.digital-ratgeber.de, 26.02.2020 * APPS UND BLUTDRUCK-MESSGERÄTE * WELCHE DATEN SPEICHERT DIE APP?
+# sent_id = 1
+1	Dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=31|end_char=37
+2	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=38|end_char=42
+3	informiert	informieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=43|end_char=53
+4	in	in	ADP	APPR	_	6	case	_	start_char=54|end_char=56
+5	Einfacher	Einfacher	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=57|end_char=66
+6	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=67|end_char=74
+7-8	zum	_	_	_	_	_	_	_	start_char=75|end_char=78
+7	zu	zu	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Thema	Thema	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=79|end_char=84
+10	:	:	PUNCT	$.	_	14	punct	_	start_char=84|end_char=85
+11	digitales	digital	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=86|end_char=95
+12	Blutdruck	Blutdruck	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	compound	_	start_char=96|end_char=105
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=105|end_char=106
+14	Management	Management	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	9	appos	_	start_char=106|end_char=116
+15	Von	von	ADP	APPR	_	16	case	_	start_char=117|end_char=120
+16	www.digital-ratgeber.de,	www.digital-ratgeber.de,	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	start_char=121|end_char=145
+17	26.02.2020	26.02.2020	PROPN	NE	Case=Dat|Number=Sing	16	appos	_	start_char=146|end_char=156
+18	*	*	PUNCT	$(	_	19	cc	_	start_char=157|end_char=158
+19	APPS	APPS	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	16	appos	_	start_char=159|end_char=163
+20	UND	UND	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	19	flat	_	start_char=164|end_char=167
+21	BLUTDRUCK-MESSGERÄTE	BLUTDRUCK-MESSGERÄTE	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	19	flat	_	start_char=168|end_char=188
+22	*	*	PUNCT	$(	_	23	cc	_	start_char=189|end_char=190
+23	WELCHE	weLCHE	PRON	NE	Case=Nom|Number=Plur|PronType=Ind	19	appos	_	start_char=191|end_char=197
+24	DATEN	Daten	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	23	flat	_	start_char=198|end_char=203
+25	SPEICHERT	SPEICHERT	PROPN	NE	Case=Nom|Gender=Masc|Number=Plur	23	flat	_	start_char=204|end_char=213
+26	DIE	DIE	PROPN	NE	Case=Acc|Gender=Masc|Number=Plur	23	flat	_	start_char=214|end_char=217
+27	APP?	APP?	PROPN	NE	Case=Acc|Gender=Masc|Number=Plur	24	flat	_	start_char=218|end_char=222
+
+# text = * APPS UND FITNESSARMBÄNDER * BLUTDRUCK MESSEN MIT SMARTWACH * WAS SIND DIE VORTEILE? * QUALITÄT IST SEHR UNTERSCHIEDLICH * WO BEKOMME ICH MEHR INFORMATIONEN?
+# sent_id = 2
+1	*	*	PUNCT	$(	_	0	root	_	start_char=223|end_char=224
+2	APPS	APPS	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	start_char=225|end_char=229
+3	UND	UND	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	start_char=230|end_char=233
+4	FITNESSARMBÄNDER	FITNESSARMBÄNDER	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	flat	_	start_char=234|end_char=250
+5	*	*	PUNCT	$(	_	1	cc	_	start_char=251|end_char=252
+6	BLUTDRUCK	BLUTDRUCK	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	start_char=253|end_char=262
+7	MESSEN	MESSEN	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	flat	_	start_char=263|end_char=269
+8	MIT	MIT	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	flat	_	start_char=270|end_char=273
+9	SMARTWACH	SMARTWACH	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	flat	_	start_char=274|end_char=283
+10	*	*	PUNCT	$(	_	6	flat	_	start_char=284|end_char=285
+11	WAS	WAS	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	flat	_	start_char=286|end_char=289
+12	SIND	SIND	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	flat	_	start_char=290|end_char=294
+13	DIE	DIE	PROPN	NE	Case=Nom|Gender=Neut|Number=Plur	11	flat	_	start_char=295|end_char=298
+14	VORTEILE?	VORTEILE?	PROPN	NE	Case=Nom|Gender=Neut|Number=Plur	11	flat	_	start_char=299|end_char=308
+15	*	*	PUNCT	$(	_	11	flat	_	start_char=309|end_char=310
+16	QUALITÄT	QUALITÄT	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	flat	_	start_char=311|end_char=319
+17	IST	IST	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	16	flat	_	start_char=320|end_char=323
+18	SEHR	SEHR	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	16	flat	_	start_char=324|end_char=328
+19	UNTERSCHIEDLICH	UNTERSCHIEDLICH	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	16	flat	_	start_char=329|end_char=344
+20	*	*	PUNCT	$(	_	22	cc	_	start_char=345|end_char=346
+21	WO	wo	ADV	NE	Case=Acc|Gender=Neut|Number=Sing	22	advmod	_	start_char=347|end_char=349
+22	BEKOMME	BEKOMME	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	11	appos	_	start_char=350|end_char=357
+23	ICH	ICH	ADV	NE	Case=Acc|Gender=Neut|Number=Sing	24	advmod	_	start_char=358|end_char=361
+24	MEHR	MEHR	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	22	flat	_	start_char=362|end_char=366
+25	INFORMATIONEN	INFORMATIIN	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	24	flat	_	start_char=367|end_char=380
+26	?	?	PUNCT	$.	_	22	punct	_	start_char=380|end_char=381
+
+# text = Fast jeder dritte Mensch in Deutschland hat zu hohen Blutdruck.
+# sent_id = 3
+1	Fast	fast	ADV	ADV	_	4	advmod	_	start_char=382|end_char=386
+2	jeder	jed	PRON	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	start_char=387|end_char=392
+3	dritte	dritt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|NumType=Ord|Number=Sing	4	amod	_	start_char=393|end_char=399
+4	Mensch	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=400|end_char=406
+5	in	in	ADP	APPR	_	6	case	_	start_char=407|end_char=409
+6	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=410|end_char=421
+7	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=422|end_char=425
+8	zu	zu	ADV	PTKA	_	9	advmod	_	start_char=426|end_char=428
+9	hohen	hoch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=429|end_char=434
+10	Blutdruck	Blutdruck	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obj	_	start_char=435|end_char=444
+11	.	.	PUNCT	$.	_	7	punct	_	start_char=444|end_char=445
+
+# text = Deshalb gibt es immer mehr Blutdruck-Apps.
+# sent_id = 4
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=446|end_char=453
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=454|end_char=458
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=459|end_char=461
+4	immer	immer	ADV	ADV	_	2	advmod	_	start_char=462|end_char=467
+5	mehr	mehr	PRON	PIAT	PronType=Ind	8	det	_	start_char=468|end_char=472
+6	Blutdruck	Blutdruck	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	compound	_	start_char=473|end_char=482
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=482|end_char=483
+8	Apps	Apps	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	nsubj	_	start_char=483|end_char=487
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=487|end_char=488
+
+# text = Sie können diese Menschen beim Umgang mit ihrer Erkrankung unterstützen.
+# sent_id = 5
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=489|end_char=492
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=493|end_char=499
+3	diese	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	start_char=500|end_char=505
+4	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=506|end_char=514
+5-6	beim	_	_	_	_	_	_	_	start_char=515|end_char=519
+5	bei	bei	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Umgang	Umgang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=520|end_char=526
+8	mit	mit	ADP	APPR	_	10	case	_	start_char=527|end_char=530
+9	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=531|end_char=536
+10	Erkrankung	Erkrankung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	start_char=537|end_char=547
+11	unterstützen	unterstützen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=548|end_char=560
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=560|end_char=561
+
+# text = Apps und Blutdruck-Messgeräte Viele Apps können Sie mit Ihrem Blutdruck-Messgerät verbinden.
+# sent_id = 6
+1	Apps	Apps	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	obj	_	start_char=562|end_char=566
+2	und	und	CCONJ	KON	_	5	cc	_	start_char=567|end_char=570
+3	Blutdruck	Blutdruck	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	compound	_	start_char=571|end_char=580
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=580|end_char=581
+5	Messgeräte	Messgerat	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	1	conj	_	start_char=581|end_char=591
+6	Viele	viel	PRON	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	start_char=593|end_char=598
+7	Apps	Apps	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	obj	_	start_char=599|end_char=603
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=604|end_char=610
+9	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=611|end_char=614
+10	mit	mit	ADP	APPR	_	14	case	_	start_char=615|end_char=618
+11	Ihrem	Ihr|ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	start_char=619|end_char=624
+12	Blutdruck	Blutdruck	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	compound	_	start_char=625|end_char=634
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=634|end_char=635
+14	Messgerät	Messgerät	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	start_char=635|end_char=644
+15	verbinden	verbinden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=645|end_char=654
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=654|end_char=655
+
+# text = Die App speichert die Daten dann automatisch in einem Tagebuch.
+# sent_id = 7
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=656|end_char=659
+2	App	App	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=660|end_char=663
+3	speichert	speichern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=664|end_char=673
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	start_char=674|end_char=677
+5	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=678|end_char=683
+6	dann	dann	ADV	ADV	_	3	advmod	_	start_char=684|end_char=688
+7	automatisch	automatisch	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=689|end_char=700
+8	in	in	ADP	APPR	_	10	case	_	start_char=701|end_char=703
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=704|end_char=709
+10	Tagebuch	Tagebuch	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=710|end_char=718
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=718|end_char=719
+
+# text = Sie können die Daten aber auch selber eingeben.
+# sent_id = 8
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=720|end_char=723
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=724|end_char=730
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	start_char=731|end_char=734
+4	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	start_char=735|end_char=740
+5	aber	aber	ADV	ADV	_	8	advmod	_	start_char=741|end_char=745
+6	auch	auch	ADV	ADV	_	7	advmod	_	start_char=746|end_char=750
+7	selber	selber	ADV	ADV	_	8	advmod	_	start_char=751|end_char=757
+8	eingeben	eingeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=758|end_char=766
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=766|end_char=767
+
+# text = Manche Apps prüfen auch gleich, ob ein Wert ungewöhnlich ist.
+# sent_id = 9
+1	Manche	manch	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=768|end_char=774
+2	Apps	Apps	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=775|end_char=779
+3	prüfen	prüfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=780|end_char=786
+4	auch	auch	ADV	ADV	_	3	advmod	_	start_char=787|end_char=791
+5	gleich	gleich	ADV	PTKVZ	_	3	compound:prt	_	start_char=792|end_char=798
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=798|end_char=799
+7	ob	ob	SCONJ	KOUS	_	10	mark	_	start_char=800|end_char=802
+8	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=803|end_char=806
+9	Wert	Wert	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=807|end_char=811
+10	ungewöhnlich	ungewöhnlich	ADJ	ADJD	Degree=Pos	3	ccomp	_	start_char=812|end_char=824
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=825|end_char=828
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=828|end_char=829
+
+# text = Haben Sie sich zum Beispiel vertippt und einen falschen Wert eingegeben?
+# sent_id = 10
+1	Haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=830|end_char=835
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=836|end_char=839
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=840|end_char=844
+4-5	zum	_	_	_	_	_	_	_	start_char=845|end_char=848
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=849|end_char=857
+7	vertippt	vertippen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=858|end_char=866
+8	und	und	CCONJ	KON	_	12	cc	_	start_char=867|end_char=870
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=871|end_char=876
+10	falschen	falsch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=877|end_char=885
+11	Wert	Wert	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=886|end_char=890
+12	eingegeben	eingeben	VERB	VVPP	VerbForm=Part	7	conj	_	start_char=891|end_char=901
+13	?	?	PUNCT	$.	_	7	punct	_	start_char=901|end_char=902
+
+# text = Dann merkt die App das vielleicht.
+# sent_id = 11
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=903|end_char=907
+2	merkt	merken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=908|end_char=913
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=914|end_char=917
+4	App	App	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=918|end_char=921
+5	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	start_char=922|end_char=925
+6	vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	start_char=926|end_char=936
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=936|end_char=937
+
+# text = Ihre Arztpraxis kann die Daten aus der App auch nutzen.
+# sent_id = 12
+1	Ihre	Ihr|ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=938|end_char=942
+2	Arztpraxis	Arztpraxis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=943|end_char=953
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=954|end_char=958
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	start_char=959|end_char=962
+5	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=963|end_char=968
+6	aus	aus	ADP	APPR	_	8	case	_	start_char=969|end_char=972
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=973|end_char=976
+8	App	App	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	start_char=977|end_char=980
+9	auch	auch	ADV	ADV	_	10	advmod	_	start_char=981|end_char=985
+10	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=986|end_char=992
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=992|end_char=993
+
+# text = Dann hat ihr Arzt schnell alle Daten auf einen Blick.
+# sent_id = 13
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=994|end_char=998
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=999|end_char=1002
+3	ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	4	det:poss	_	start_char=1003|end_char=1006
+4	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1007|end_char=1011
+5	schnell	schnell	ADV	ADJD	_	2	advmod	_	start_char=1012|end_char=1019
+6	alle	alle	PRON	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	7	det	_	start_char=1020|end_char=1024
+7	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=1025|end_char=1030
+8	auf	auf	ADP	APPR	_	10	case	_	start_char=1031|end_char=1034
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=1035|end_char=1040
+10	Blick	Blick	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=1041|end_char=1046
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=1046|end_char=1047
+
+# text = Sie müssen die Daten aber freigeben.
+# sent_id = 14
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=1048|end_char=1051
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1052|end_char=1058
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	start_char=1059|end_char=1062
+4	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=1063|end_char=1068
+5	aber	aber	ADV	ADV	_	6	advmod	_	start_char=1069|end_char=1073
+6	freigeben	freigeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1074|end_char=1083
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1083|end_char=1084
+
+# text = Ihr Arzt kann die Daten nicht ohne Ihre Erlaubnis sehen.
+# sent_id = 15
+1	Ihr	Ihr|ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	2	det:poss	_	start_char=1085|end_char=1088
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=1089|end_char=1093
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1094|end_char=1098
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	start_char=1099|end_char=1102
+5	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=1103|end_char=1108
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=1109|end_char=1114
+7	ohne	ohne	ADP	APPR	_	9	case	_	start_char=1115|end_char=1119
+8	Ihre	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=1120|end_char=1124
+9	Erlaubnis	Erlaubnis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	start_char=1125|end_char=1134
+10	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1135|end_char=1140
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1140|end_char=1141
+
+# text = Welche Daten speichert die App?
+# sent_id = 16
+1	Welche	welch	PRON	PWAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Int	2	det	_	start_char=1142|end_char=1148
+2	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	obj	_	start_char=1149|end_char=1154
+3	speichert	speichern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1155|end_char=1164
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1165|end_char=1168
+5	App	App	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1169|end_char=1172
+6	?	?	PUNCT	$.	_	3	punct	_	start_char=1172|end_char=1173
+
+# text = Die meisten Apps speichern nicht nur Daten über Ihren Blutdruck.
+# sent_id = 17
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	start_char=1175|end_char=1178
+2	meisten	meist	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	amod	_	start_char=1179|end_char=1186
+3	Apps	Apps	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=1187|end_char=1191
+4	speichern	speichern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1192|end_char=1201
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=1202|end_char=1207
+6	nur	nur	ADV	ADV	_	4	advmod	_	start_char=1208|end_char=1211
+7	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=1212|end_char=1217
+8	über	über	ADP	APPR	_	10	case	_	start_char=1218|end_char=1222
+9	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=1223|end_char=1228
+10	Blutdruck	Blutdruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	start_char=1229|end_char=1238
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=1238|end_char=1239
+
+# text = Sie können dort noch mehr Daten eingeben.
+# sent_id = 18
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=1240|end_char=1243
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1244|end_char=1250
+3	dort	dort	ADV	ADV	_	7	advmod	_	start_char=1251|end_char=1255
+4	noch	noch	ADV	ADV	_	5	advmod	_	start_char=1256|end_char=1260
+5	mehr	mehr	PRON	PIAT	PronType=Ind	6	det	_	start_char=1261|end_char=1265
+6	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	start_char=1266|end_char=1271
+7	eingeben	eingeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1272|end_char=1280
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1280|end_char=1281
+
+# text = Zum Beispiel: * Ihren Puls * Ihren Blutzuckerwert * ob und wie viel Sie sich bewegen * Ihr Gewicht * wie viele Kalorien Sie essen * wann und wie viel Sie schlafen * Ihre Temperatur Apps und Fitnessarmbänder Manche Apps können Sie auch mit einem Fitnessarmband verbinden.
+# sent_id = 19
+1-2	Zum	_	_	_	_	_	_	_	start_char=1282|end_char=1285
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	49	obl	_	start_char=1286|end_char=1294
+4	:	:	PUNCT	$.	_	3	punct	_	start_char=1294|end_char=1295
+5	*	*	PUNCT	$(	_	3	case	_	start_char=1296|end_char=1297
+6	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=1298|end_char=1303
+7	Puls	Puls	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	appos	_	start_char=1304|end_char=1308
+8	*	*	PUNCT	$(	_	7	dep	_	start_char=1309|end_char=1310
+9	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=1311|end_char=1316
+10	Blutzuckerwert	Blutzuckerwert	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	conj	_	start_char=1317|end_char=1331
+11	*	*	PUNCT	$(	_	18	advmod	_	start_char=1332|end_char=1333
+12	ob	ob	SCONJ	KOUS	_	18	mark	_	start_char=1334|end_char=1336
+13	und	und	CCONJ	KON	_	18	cc	_	start_char=1337|end_char=1340
+14	wie	wie	SCONJ	KOUS	_	15	advmod	_	start_char=1341|end_char=1344
+15	viel	viel	PRON	PIS	PronType=Ind	18	conj	_	start_char=1345|end_char=1349
+16	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=1350|end_char=1353
+17	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	18	obj	_	start_char=1354|end_char=1358
+18	bewegen	bewegen	VERB	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	start_char=1359|end_char=1366
+19	*	*	PUNCT	$(	_	27	cc	_	start_char=1367|end_char=1368
+20	Ihr	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	21	det:poss	_	start_char=1369|end_char=1372
+21	Gewicht	Gewicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	27	nsubj	_	start_char=1373|end_char=1380
+22	*	*	PUNCT	$(	_	27	advmod	_	start_char=1381|end_char=1382
+23	wie	wie	ADP	KOKOM	_	25	case	_	start_char=1383|end_char=1386
+24	viele	viel	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	25	det	_	start_char=1387|end_char=1392
+25	Kalorien	Kalorie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	21	nmod	_	start_char=1393|end_char=1401
+26	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	start_char=1402|end_char=1405
+27	essen	essen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	start_char=1406|end_char=1411
+28	*	*	PUNCT	$(	_	27	advmod	_	start_char=1412|end_char=1413
+29	wann	wann	ADV	PWAV	_	27	advmod	_	start_char=1414|end_char=1418
+30	und	und	CCONJ	KON	_	34	cc	_	start_char=1419|end_char=1422
+31	wie	wie	SCONJ	KOUS	_	34	advmod	_	start_char=1423|end_char=1426
+32	viel	viel	PRON	PIS	PronType=Ind	33	det	_	start_char=1427|end_char=1431
+33	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	34	nsubj	_	start_char=1432|end_char=1435
+34	schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	start_char=1436|end_char=1444
+35	*	*	PUNCT	$(	_	49	cc	_	start_char=1445|end_char=1446
+36	Ihre	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	det:poss	_	start_char=1447|end_char=1451
+37	Temperatur	Temperatur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	obj	_	start_char=1452|end_char=1462
+38	Apps	Apps	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	37	appos	_	start_char=1463|end_char=1467
+39	und	und	CCONJ	KON	_	40	cc	_	start_char=1468|end_char=1471
+40	Fitnessarmbänder	Fitnessarmband	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	38	conj	_	start_char=1472|end_char=1488
+41	Manche	manch	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	42	det	_	start_char=1490|end_char=1496
+42	Apps	Apps	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	38	conj	_	start_char=1497|end_char=1501
+43	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	start_char=1502|end_char=1508
+44	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	49	nsubj	_	start_char=1509|end_char=1512
+45	auch	auch	ADV	ADV	_	49	advmod	_	start_char=1513|end_char=1517
+46	mit	mit	ADP	APPR	_	48	case	_	start_char=1518|end_char=1521
+47	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	48	det	_	start_char=1522|end_char=1527
+48	Fitnessarmband	Fitnessarmband	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	49	obl	_	start_char=1528|end_char=1542
+49	verbinden	verbinden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1543|end_char=1552
+50	.	.	PUNCT	$.	_	49	punct	_	start_char=1552|end_char=1553
+
+# text = Dann kann die App auch die Daten vom Fitnessarmband speichern.
+# sent_id = 20
+1	Dann	dann	ADV	ADV	_	11	advmod	_	start_char=1554|end_char=1558
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=1559|end_char=1563
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1564|end_char=1567
+4	App	App	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=1568|end_char=1571
+5	auch	auch	ADV	ADV	_	11	advmod	_	start_char=1572|end_char=1576
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	start_char=1577|end_char=1580
+7	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	start_char=1581|end_char=1586
+8-9	vom	_	_	_	_	_	_	_	start_char=1587|end_char=1590
+8	von	von	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Fitnessarmband	Fitnessarmband	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=1591|end_char=1605
+11	speichern	speichern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1606|end_char=1615
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=1615|end_char=1616
+
+# text = Sie können sich alle Daten als Tabelle oder Grafik anzeigen lassen.
+# sent_id = 21
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=1617|end_char=1620
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=1621|end_char=1627
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	11	iobj	_	start_char=1628|end_char=1632
+4	alle	alle	PRON	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	5	det	_	start_char=1633|end_char=1637
+5	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=1638|end_char=1643
+6	als	als	ADP	KOKOM	_	7	case	_	start_char=1644|end_char=1647
+7	Tabelle	Tabelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obl	_	start_char=1648|end_char=1655
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=1656|end_char=1660
+9	Grafik	Grafik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	start_char=1661|end_char=1667
+10	anzeigen	anzeigen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1668|end_char=1676
+11	lassen	lassen	VERB	VVINF	VerbForm=Inf	10	xcomp	_	start_char=1677|end_char=1683
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=1683|end_char=1684
+
+# text = Ist ein Wert auffällig?
+# sent_id = 22
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1685|end_char=1688
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=1689|end_char=1692
+3	Wert	Wert	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1693|end_char=1697
+4	auffällig	auffällig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1698|end_char=1707
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=1707|end_char=1708
+
+# text = Dann ist dieser Wert oft farblich markiert.
+# sent_id = 23
+1	Dann	dann	ADV	ADV	_	7	advmod	_	start_char=1709|end_char=1713
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1714|end_char=1717
+3	dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=1718|end_char=1724
+4	Wert	Wert	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=1725|end_char=1729
+5	oft	oft	ADV	ADV	_	7	advmod	_	start_char=1730|end_char=1733
+6	farblich	farblich	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=1734|end_char=1742
+7	markiert	markieren	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=1743|end_char=1751
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1751|end_char=1752
+
+# text = Achtung: Ändern Sie nicht einfach Ihre Behandlung, wenn sich die Daten ändern.
+# sent_id = 24
+1	Achtung	Achtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1753|end_char=1760
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=1760|end_char=1761
+3	Ändern	Ändern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1762|end_char=1768
+4	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1769|end_char=1772
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=1773|end_char=1778
+6	einfach	einfach	ADV	ADV	_	3	advmod	_	start_char=1779|end_char=1786
+7	Ihre	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=1787|end_char=1791
+8	Behandlung	Behandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=1792|end_char=1802
+9	,	,	PUNCT	$,	_	14	punct	_	start_char=1802|end_char=1803
+10	wenn	wenn	SCONJ	KOUS	_	14	mark	_	start_char=1804|end_char=1808
+11	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	start_char=1809|end_char=1813
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	13	det	_	start_char=1814|end_char=1817
+13	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	start_char=1818|end_char=1823
+14	ändern	ändern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=1824|end_char=1830
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=1830|end_char=1831
+
+# text = Sprechen Sie immer erst mit Ihrem Arzt!
+# sent_id = 25
+1	Sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1832|end_char=1840
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=1841|end_char=1844
+3	immer	immer	ADV	ADV	_	1	advmod	_	start_char=1845|end_char=1850
+4	erst	erst	ADV	ADV	_	1	advmod	_	start_char=1851|end_char=1855
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=1856|end_char=1859
+6	Ihrem	Ihr|ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=1860|end_char=1865
+7	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	start_char=1866|end_char=1870
+8	!	!	PUNCT	$.	_	1	punct	_	start_char=1870|end_char=1871
+
+# text = Blutdruck messen mit Smartwach Mit manchen Smartwatches können Sie schon Blutdruck messen.
+# sent_id = 26
+1	Blutdruck	Blutdruck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1872|end_char=1881
+2	messen	messen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1882|end_char=1888
+3	mit	mit	ADP	APPR	_	4	case	_	start_char=1889|end_char=1892
+4	Smartwach	Smartwach	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=1893|end_char=1902
+5	Mit	mit	ADP	APPR	_	7	case	_	start_char=1904|end_char=1907
+6	manchen	manch	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	start_char=1908|end_char=1915
+7	Smartwatches	Smartwatch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	start_char=1916|end_char=1928
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=1929|end_char=1935
+9	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=1936|end_char=1939
+10	schon	schon	ADV	ADV	_	12	advmod	_	start_char=1940|end_char=1945
+11	Blutdruck	Blutdruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=1946|end_char=1955
+12	messen	messen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	start_char=1956|end_char=1962
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=1962|end_char=1963
+
+# text = Aber die Smartwatches messen noch nicht gut genug.
+# sent_id = 27
+1	Aber	aber	CCONJ	KON	_	4	cc	_	start_char=1964|end_char=1968
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=1969|end_char=1972
+3	Smartwatches	Smartwatch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=1973|end_char=1985
+4	messen	messen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1986|end_char=1992
+5	noch	noch	ADV	ADV	_	6	advmod	_	start_char=1993|end_char=1997
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=1998|end_char=2003
+7	gut	gut	ADV	ADJD	_	4	advmod	_	start_char=2004|end_char=2007
+8	genug	genug	ADV	ADV	_	4	advmod	_	start_char=2008|end_char=2013
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=2013|end_char=2014
+
+# text = Benutzen Sie deshalb lieber weiter ein normales Blutdruck- Messgerät.
+# sent_id = 28
+1	Benutzen	Benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2015|end_char=2023
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=2024|end_char=2027
+3	deshalb	deshalb	ADV	PAV	_	1	advmod	_	start_char=2028|end_char=2035
+4	lieber	lieb	ADV	ADV	_	1	advmod	_	start_char=2036|end_char=2042
+5	weiter	weiter	ADV	ADV	_	1	advmod	_	start_char=2043|end_char=2049
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=2050|end_char=2053
+7	normales	normal	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=2054|end_char=2062
+8	Blutdruck-	blutdruck-	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=2063|end_char=2073
+9	Messgerät	Messgerät	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	obj	_	start_char=2074|end_char=2083
+10	.	.	PUNCT	$.	_	1	punct	_	start_char=2083|end_char=2084
+
+# text = Was sind die Vorteile?
+# sent_id = 29
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	4	nsubj	_	start_char=2085|end_char=2088
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2089|end_char=2093
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	start_char=2094|end_char=2097
+4	Vorteile	Vorteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=2098|end_char=2106
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=2106|end_char=2107
+
+# text = Die Apps können Sie daran erinnern, regelmäßig Ihren Blutdruck zu messen.
+# sent_id = 30
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	start_char=2109|end_char=2112
+2	Apps	Apps	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	obj	_	start_char=2113|end_char=2117
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2118|end_char=2124
+4	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=2125|end_char=2128
+5	daran	daran	PRON	PAV	_	6	advmod	_	start_char=2129|end_char=2134
+6	erinnern	erinnern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2135|end_char=2143
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=2143|end_char=2144
+8	regelmäßig	regelmäßig	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=2145|end_char=2155
+9	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=2156|end_char=2161
+10	Blutdruck	Blutdruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=2162|end_char=2171
+11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=2172|end_char=2174
+12	messen	messen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	start_char=2175|end_char=2181
+13	.	.	PUNCT	$.	_	6	punct	_	start_char=2181|end_char=2182
+
+# text = Oder die Apps erinnern Sie daran, dass Sie Ihre Medikamente nehmen müssen.
+# sent_id = 31
+1	Oder	Oder	CCONJ	KON	_	4	cc	_	start_char=2183|end_char=2187
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=2188|end_char=2191
+3	Apps	Apps	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	obj	_	start_char=2192|end_char=2196
+4	erinnern	erinnern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2197|end_char=2205
+5	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=2206|end_char=2209
+6	daran	daran	PRON	PAV	_	4	dep	_	start_char=2210|end_char=2215
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=2215|end_char=2216
+8	dass	dass	SCONJ	KOUS	_	12	mark	_	start_char=2217|end_char=2221
+9	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=2222|end_char=2225
+10	Ihre	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	start_char=2226|end_char=2230
+11	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	start_char=2231|end_char=2242
+12	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	start_char=2243|end_char=2249
+13	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=2250|end_char=2256
+14	.	.	PUNCT	$.	_	4	punct	_	start_char=2256|end_char=2257
+
+# text = Die App speichert Ihre Blutdruckwerte.
+# sent_id = 32
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2258|end_char=2261
+2	App	App	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2262|end_char=2265
+3	speichert	speichern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2266|end_char=2275
+4	Ihre	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=2276|end_char=2280
+5	Blutdruckwerte	Blutdruckwerte	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=2281|end_char=2295
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=2295|end_char=2296
+
+# text = So bekommen Sie einen guten Überblick über Ihre Werte.
+# sent_id = 33
+1	So	so	ADV	ADV	_	2	advmod	_	start_char=2297|end_char=2299
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2300|end_char=2308
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=2309|end_char=2312
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=2313|end_char=2318
+5	guten	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=2319|end_char=2324
+6	Überblick	Überblick	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=2325|end_char=2334
+7	über	über	ADP	APPR	_	9	case	_	start_char=2335|end_char=2339
+8	Ihre	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=2340|end_char=2344
+9	Werte	Wert	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	start_char=2345|end_char=2350
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=2350|end_char=2351
+
+# text = Dann erkennen Sie leichter, wenn die Werte auffällig sind.
+# sent_id = 34
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=2352|end_char=2356
+2	erkennen	erkennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2357|end_char=2365
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=2366|end_char=2369
+4	leichter	leicht	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=2370|end_char=2378
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=2378|end_char=2379
+6	wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=2380|end_char=2384
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	start_char=2385|end_char=2388
+8	Werte	Wert	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=2389|end_char=2394
+9	auffällig	auffällig	ADJ	ADJD	Degree=Pos	2	advcl	_	start_char=2395|end_char=2404
+10	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=2405|end_char=2409
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=2409|end_char=2410
+
+# text = Qualität ist sehr unterschiedlich Es gibt immer mehr Blutdruck-Apps.
+# sent_id = 35
+1	Qualität	Qualität	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=2411|end_char=2419
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2420|end_char=2423
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	start_char=2424|end_char=2428
+4	unterschiedlich	unterschiedlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2429|end_char=2444
+5	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	start_char=2446|end_char=2448
+6	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=2449|end_char=2453
+7	immer	immer	ADV	ADV	_	8	advmod	_	start_char=2454|end_char=2459
+8	mehr	mehr	PRON	PIAT	PronType=Ind	11	det	_	start_char=2460|end_char=2464
+9	Blutdruck	Blutdruck	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	compound	_	start_char=2465|end_char=2474
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=2474|end_char=2475
+11	Apps	Apps	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=2475|end_char=2479
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=2479|end_char=2480
+
+# text = Aber nicht alle haben auch eine gute Qualität.
+# sent_id = 36
+1	Aber	aber	CCONJ	KON	_	4	cc	_	start_char=2481|end_char=2485
+2	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=2486|end_char=2491
+3	alle	alle	PRON	PIS	Case=Nom|Number=Plur|PronType=Ind	4	nsubj	_	start_char=2492|end_char=2496
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2497|end_char=2502
+5	auch	auch	ADV	ADV	_	4	advmod	_	start_char=2503|end_char=2507
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=2508|end_char=2512
+7	gute	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=2513|end_char=2517
+8	Qualität	Qualität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=2518|end_char=2526
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=2526|end_char=2527
+
+# text = Viele Apps gelten nicht als Medizin-Produkt.
+# sent_id = 37
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=2528|end_char=2533
+2	Apps	Apps	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=2534|end_char=2538
+3	gelten	gelten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2539|end_char=2545
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=2546|end_char=2551
+5	als	als	ADP	KOKOM	_	8	case	_	start_char=2552|end_char=2555
+6	Medizin	Medizin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	compound	_	start_char=2556|end_char=2563
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2563|end_char=2564
+8	Produkt	Produkt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	xcomp	_	start_char=2564|end_char=2571
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=2571|end_char=2572
+
+# text = Das heißt: Sie müssen zum Beispiel nicht gut geprüft werden.
+# sent_id = 38
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=2573|end_char=2576
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2577|end_char=2582
+3	:	:	PUNCT	$.	_	11	punct	_	start_char=2582|end_char=2583
+4	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj:pass	_	start_char=2584|end_char=2587
+5	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=2588|end_char=2594
+6-7	zum	_	_	_	_	_	_	_	start_char=2595|end_char=2598
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=2599|end_char=2607
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=2608|end_char=2613
+10	gut	gut	ADV	ADJD	_	11	advmod	_	start_char=2614|end_char=2617
+11	geprüft	prüfen	VERB	VVPP	VerbForm=Part	2	parataxis	_	start_char=2618|end_char=2625
+12	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	11	aux:pass	_	start_char=2626|end_char=2632
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=2632|end_char=2633
+
+# text = Die Deutsche Hochdruckliga zertifiziert seit November 2019 Blutdruck-Apps.
+# sent_id = 39
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=2634|end_char=2637
+2	Deutsche	deutsch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	start_char=2638|end_char=2646
+3	Hochdruckliga	Hochdruckliga	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=2647|end_char=2660
+4	zertifiziert	zertifizieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2661|end_char=2673
+5	seit	seit	ADP	APPR	_	6	case	_	start_char=2674|end_char=2678
+6	November	November	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=2679|end_char=2687
+7	2019	2019	NUM	CARD	NumType=Card	6	nmod	_	start_char=2688|end_char=2692
+8	Blutdruck	Blutdruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	compound	_	start_char=2693|end_char=2702
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=2702|end_char=2703
+10	Apps	Apps	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=2703|end_char=2707
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=2707|end_char=2708
+
+# text = Sie prüft also, ob die Apps eine gute Qualität haben.
+# sent_id = 40
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2709|end_char=2712
+2	prüft	prüfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2713|end_char=2718
+3	also	also	ADV	ADV	_	2	advmod	_	start_char=2719|end_char=2723
+4	,	,	PUNCT	$,	_	11	punct	_	start_char=2723|end_char=2724
+5	ob	ob	SCONJ	KOUS	_	11	mark	_	start_char=2725|end_char=2727
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=2728|end_char=2731
+7	Apps	Apps	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	start_char=2732|end_char=2736
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=2737|end_char=2741
+9	gute	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=2742|end_char=2746
+10	Qualität	Qualität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=2747|end_char=2755
+11	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=2756|end_char=2761
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=2761|end_char=2762
+
+# text = Die Ergebnisse will die Deutsche Hochdruckliga auf ihrer Internetseite veröffentlichen.
+# sent_id = 41
+1	Die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	start_char=2763|end_char=2766
+2	Ergebnisse	Ergebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=2767|end_char=2777
+3	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=2778|end_char=2782
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=2783|end_char=2786
+5	Deutsche	deutsch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=2787|end_char=2795
+6	Hochdruckliga	Hochdruckliga	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	flat	_	start_char=2796|end_char=2809
+7	auf	auf	ADP	APPR	_	9	case	_	start_char=2810|end_char=2813
+8	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=2814|end_char=2819
+9	Internetseite	Internetseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=2820|end_char=2833
+10	veröffentlichen	veröffentlichen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2834|end_char=2849
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=2849|end_char=2850
+
+# text = Die Adresse ist: www.hochdruckliga.de Achtung:
+# sent_id = 42
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2851|end_char=2854
+2	Adresse	Adresse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=2855|end_char=2862
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2863|end_char=2866
+4	:	:	PUNCT	$.	_	6	punct	_	start_char=2866|end_char=2867
+5	www.hochdruckliga.de	www.hochdruckliga.de	PROPN	NE	_	6	compound	_	start_char=2868|end_char=2888
+6	Achtung	Achtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2889|end_char=2896
+7	:	:	PUNCT	$.	_	6	punct	_	start_char=2896|end_char=2897
+
+# text = Die Informationen auf dieser Seite sind nicht in Einfacher Sprache.
+# sent_id = 43
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	start_char=2898|end_char=2901
+2	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=2902|end_char=2915
+3	auf	auf	ADP	APPR	_	5	case	_	start_char=2916|end_char=2919
+4	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=2920|end_char=2926
+5	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=2927|end_char=2932
+6	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2933|end_char=2937
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=2938|end_char=2943
+8	in	in	ADP	APPR	_	10	case	_	start_char=2944|end_char=2946
+9	Einfacher	Einfacher	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=2947|end_char=2956
+10	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=2957|end_char=2964
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=2964|end_char=2965
+
+# text = Wo bekomme ich mehr Informationen?
+# sent_id = 44
+1	Wo	wo	ADV	PWAV	PronType=Int	2	advmod	_	start_char=2966|end_char=2968
+2	bekomme	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2969|end_char=2976
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=2977|end_char=2980
+4	mehr	mehr	PRON	PIAT	PronType=Ind	5	det	_	start_char=2981|end_char=2985
+5	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=2986|end_char=2999
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=2999|end_char=3000
+
+# text = Sie möchten noch mehr über digitales Blutdruck-Management lesen?
+# sent_id = 45
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=3002|end_char=3005
+2	möchten	mögen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	start_char=3006|end_char=3013
+3	noch	noch	ADV	ADV	_	4	advmod	_	start_char=3014|end_char=3018
+4	mehr	mehr	ADV	ADV	_	10	advmod	_	start_char=3019|end_char=3023
+5	über	über	ADP	APPR	_	9	case	_	start_char=3024|end_char=3028
+6	digitales	digital	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=3029|end_char=3038
+7	Blutdruck	Blutdruck	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	compound	_	start_char=3039|end_char=3048
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=3048|end_char=3049
+9	Management	Management	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	start_char=3049|end_char=3059
+10	lesen	lesen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3060|end_char=3065
+11	?	?	PUNCT	$.	_	10	punct	_	start_char=3065|end_char=3066
+
+# text = Mehr Informationen über digitales Blutdruck-Management finden Sie hier.
+# sent_id = 46
+1	Mehr	mehr	PRON	PIAT	PronType=Ind	2	det	_	start_char=3067|end_char=3071
+2	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=3072|end_char=3085
+3	über	über	ADP	APPR	_	7	case	_	start_char=3086|end_char=3090
+4	digitales	digital	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=3091|end_char=3100
+5	Blutdruck	Blutdruck	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	compound	_	start_char=3101|end_char=3110
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=3110|end_char=3111
+7	Management	Management	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	start_char=3111|end_char=3121
+8	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3122|end_char=3128
+9	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=3129|end_char=3132
+10	hier	hier	ADV	ADV	_	8	advmod	_	start_char=3133|end_char=3137
+11	.	.	PUNCT	$.	_	8	punct	_	start_char=3137|end_char=3138
+
+# text = Achtung: Dieser Link führt aus unserem Einfache-Sprache-Angebot heraus.
+# sent_id = 47
+1	Achtung	Achtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	dep	_	start_char=3139|end_char=3146
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=3146|end_char=3147
+3	Dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=3148|end_char=3154
+4	Link	Link	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=3155|end_char=3159
+5	führt	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3160|end_char=3165
+6	aus	aus	ADP	APPR	_	12	case	_	start_char=3166|end_char=3169
+7	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=3170|end_char=3177
+8	Einfache	Einfache	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	compound	_	start_char=3178|end_char=3186
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=3186|end_char=3187
+10	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	compound	_	start_char=3187|end_char=3194
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=3194|end_char=3195
+12	Angebot	Angebot	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=3195|end_char=3202
+13	heraus	heraus	ADV	PTKVZ	_	5	compound:prt	_	start_char=3203|end_char=3209
+14	.	.	PUNCT	$.	_	5	punct	_	start_char=3209|end_char=3210
+
+# text = Die Informationen sind dann nicht mehr in Einfacher Sprache.
+# sent_id = 48
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	start_char=3211|end_char=3214
+2	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=3215|end_char=3228
+3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3229|end_char=3233
+4	dann	dann	ADV	ADV	_	3	advmod	_	start_char=3234|end_char=3238
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=3239|end_char=3244
+6	mehr	mehr	ADV	ADV	_	5	advmod	_	start_char=3245|end_char=3249
+7	in	in	ADP	APPR	_	9	case	_	start_char=3250|end_char=3252
+8	Einfacher	Einfacher	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=3253|end_char=3262
+9	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=3263|end_char=3270
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=3270|end_char=3271
+

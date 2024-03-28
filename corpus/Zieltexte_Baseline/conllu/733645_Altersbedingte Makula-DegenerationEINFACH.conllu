@@ -1,0 +1,1401 @@
+# text = Es gibt eine bestimmte Krankheit des Auges.
+# sent_id = 0
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3|end_char=7
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=8|end_char=12
+4	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=13|end_char=22
+5	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=23|end_char=32
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=33|end_char=36
+7	Auges	Auge	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=37|end_char=42
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=42|end_char=43
+
+# text = Diese Krankheit heißt altersbedingte Makuladegeneration (AMD).
+# sent_id = 1
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=44|end_char=49
+2	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=50|end_char=59
+3	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=60|end_char=65
+4	altersbedingte	altersbedingt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=66|end_char=80
+5	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	xcomp	_	start_char=81|end_char=99
+6	(	(	PUNCT	$(	_	7	punct	_	start_char=100|end_char=101
+7	AMD	AMD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	start_char=101|end_char=104
+8	)	)	PUNCT	$(	_	7	punct	_	start_char=104|end_char=105
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=105|end_char=106
+
+# text = Der Netzhautschaden bei Makuladegeneration kann zu starker Sehbehinderung führen.
+# sent_id = 2
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=108|end_char=111
+2	Netzhautschaden	Netzhautschaden	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=112|end_char=127
+3	bei	bei	ADP	APPR	_	4	case	_	start_char=128|end_char=131
+4	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=132|end_char=150
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=151|end_char=155
+6	zu	zu	ADP	APPR	_	8	case	_	start_char=156|end_char=158
+7	starker	stark	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=159|end_char=166
+8	Sehbehinderung	Sehbehinderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=167|end_char=181
+9	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=182|end_char=188
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=188|end_char=189
+
+# text = Das kann bis zur Erblindung gehen.
+# sent_id = 3
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	start_char=190|end_char=193
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=194|end_char=198
+3	bis	bis	ADP	APPR	_	6	case	_	start_char=199|end_char=202
+4-5	zur	_	_	_	_	_	_	_	start_char=203|end_char=206
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Erblindung	Erblindung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=207|end_char=217
+7	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=218|end_char=223
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=223|end_char=224
+
+# text = Wenn Sie rechtzeitig behandelt werden, kann sich das verhindern.
+# sent_id = 4
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=225|end_char=229
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	_	start_char=230|end_char=233
+3	rechtzeitig	rechtzeitig	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=234|end_char=245
+4	behandelt	behandeln	VERB	VVPP	VerbForm=Part	10	advcl	_	start_char=246|end_char=255
+5	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	aux:pass	_	start_char=256|end_char=262
+6	,	,	PUNCT	$,	_	4	punct	_	start_char=262|end_char=263
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=264|end_char=268
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	start_char=269|end_char=273
+9	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	start_char=274|end_char=277
+10	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=278|end_char=288
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=288|end_char=289
+
+# text = Mehr zu Ursachen, Diagnose und Therapie.
+# sent_id = 5
+1	Mehr	mehr	ADV	ADV	_	0	root	_	start_char=290|end_char=294
+2	zu	zu	ADP	APPR	_	3	case	_	start_char=295|end_char=297
+3	Ursachen	Ursache	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	1	nmod	_	start_char=298|end_char=306
+4	,	,	PUNCT	$,	_	5	punct	_	start_char=306|end_char=307
+5	Diagnose	Diagnose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	conj	_	start_char=308|end_char=316
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=317|end_char=320
+7	Therapie	Therapie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	conj	_	start_char=321|end_char=329
+8	.	.	PUNCT	$.	_	1	punct	_	start_char=329|end_char=330
+
+# text = Unsere Inhalte sind von Ärzten und Pharmazeuten geprüft worden.
+# sent_id = 6
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=332|end_char=338
+2	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	start_char=339|end_char=346
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=347|end_char=351
+4	von	von	ADP	APPR	_	5	case	_	start_char=352|end_char=355
+5	Ärzten	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	start_char=356|end_char=362
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=363|end_char=366
+7	Pharmazeuten	Pharmazeut	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	start_char=367|end_char=379
+8	geprüft	prüfen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=380|end_char=387
+9	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	8	aux:pass	_	start_char=388|end_char=394
+10	.	.	PUNCT	$.	_	8	punct	_	start_char=394|end_char=395
+
+# text = Von Dr. Claudia Osthoff (Redaktion) Von Dr. Irmela Manus (Redaktion) Von Birgit Ruf (Redaktion)
+# sent_id = 7
+1	Von	von	ADP	APPR	_	3	case	_	start_char=397|end_char=400
+2	Dr.	Dr.	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	compound	_	start_char=401|end_char=404
+3	Claudia	Claudia	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	0	root	_	start_char=405|end_char=412
+4	Osthoff	Osthoff	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	3	flat	_	start_char=413|end_char=420
+5	(	(	PUNCT	$(	_	6	punct	_	start_char=421|end_char=422
+6	Redaktion	Redaktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	appos	_	start_char=422|end_char=431
+7	)	)	PUNCT	$(	_	6	punct	_	start_char=431|end_char=432
+8	Von	von	ADP	APPR	_	9	case	_	start_char=433|end_char=436
+9	Dr.	Dr.	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	start_char=437|end_char=440
+10	Irmela	Irmela	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	9	flat	_	start_char=441|end_char=447
+11	Manus	Manus	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	9	flat	_	start_char=448|end_char=453
+12	(	(	PUNCT	$(	_	13	punct	_	start_char=454|end_char=455
+13	Redaktion	Redaktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	appos	_	start_char=455|end_char=464
+14	)	)	PUNCT	$(	_	13	punct	_	start_char=464|end_char=465
+15	Von	von	ADP	APPR	_	16	case	_	start_char=466|end_char=469
+16	Birgit	Birgit	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	start_char=470|end_char=476
+17	Ruf	Ruf	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	16	flat	_	start_char=477|end_char=480
+18	(	(	PUNCT	$(	_	19	punct	_	start_char=481|end_char=482
+19	Redaktion	Redaktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	appos	_	start_char=482|end_char=491
+20	)	)	PUNCT	$(	_	19	punct	_	start_char=491|end_char=492
+
+# text = Diese Information ist am 28.
+# sent_id = 8
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=493|end_char=498
+2	Information	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=499|end_char=510
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=511|end_char=514
+4-5	am	_	_	_	_	_	_	_	start_char=515|end_char=517
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+6	28	28	NUM	CARD	NumType=Card	3	obl	_	start_char=518|end_char=520
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=520|end_char=521
+
+# text = Februar 2023 aktualisiert worden.
+# sent_id = 9
+1	Februar	Februar	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	dep	_	start_char=522|end_char=529
+2	2023	2023	NUM	CARD	NumType=Card	1	nmod	_	start_char=530|end_char=534
+3	aktualisiert	aktualisieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=535|end_char=547
+4	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	3	aux:pass	_	start_char=548|end_char=554
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=554|end_char=555
+
+# text = Der Begriff Makuladegeneration bedeutet: Die Zellen in Ihrem Auge werden schlechter.
+# sent_id = 10
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=557|end_char=560
+2	Begriff	Begriff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=561|end_char=568
+3	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	start_char=569|end_char=587
+4	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=588|end_char=596
+5	:	:	PUNCT	$.	_	11	punct	_	start_char=596|end_char=597
+6	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=598|end_char=601
+7	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=602|end_char=608
+8	in	in	ADP	APPR	_	10	case	_	start_char=609|end_char=611
+9	Ihrem	Ihr|ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=612|end_char=617
+10	Auge	Auge	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=618|end_char=622
+11	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=623|end_char=629
+12	schlechter	schlecht	ADJ	ADJD	Degree=Pos	11	xcomp	_	start_char=630|end_char=640
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=640|end_char=641
+
+# text = Das kann passieren.
+# sent_id = 11
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=642|end_char=645
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=646|end_char=650
+3	passieren	passieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=651|end_char=660
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=660|end_char=661
+
+# text = Es gibt dazu verschiedene Gründe.
+# sent_id = 12
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=662|end_char=664
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=665|end_char=669
+3	dazu	dazu	ADV	PAV	_	2	advmod	_	start_char=670|end_char=674
+4	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=675|end_char=687
+5	Gründe	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	start_char=688|end_char=694
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=694|end_char=695
+
+# text = Und es gibt auch Risikofaktoren.
+# sent_id = 13
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=696|end_char=699
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=700|end_char=702
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=703|end_char=707
+4	auch	auch	ADV	ADV	_	3	advmod	_	start_char=708|end_char=712
+5	Risikofaktoren	Risikofaktor	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=713|end_char=727
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=727|end_char=728
+
+# text = Sie können früher erkennen, ob Sie diese Erkrankung haben.
+# sent_id = 14
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=729|end_char=732
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=733|end_char=739
+3	früher	früher	ADJ	ADV	Degree=Pos	4	advmod	_	start_char=740|end_char=746
+4	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=747|end_char=755
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=755|end_char=756
+6	ob	ob	SCONJ	KOUS	_	10	mark	_	start_char=757|end_char=759
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=760|end_char=763
+8	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	start_char=764|end_char=769
+9	Erkrankung	Erkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=770|end_char=780
+10	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=781|end_char=786
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=786|end_char=787
+
+# text = Sie können auch früher einen Arzt finden.
+# sent_id = 15
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=788|end_char=791
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=792|end_char=798
+3	auch	auch	ADV	ADV	_	7	advmod	_	start_char=799|end_char=803
+4	früher	früher	ADJ	ADV	Degree=Pos	7	advmod	_	start_char=804|end_char=810
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=811|end_char=816
+6	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=817|end_char=821
+7	finden	finden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=822|end_char=828
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=828|end_char=829
+
+# text = Sie können auch früher eine Diagnose bekommen.
+# sent_id = 16
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=830|end_char=833
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=834|end_char=840
+3	auch	auch	ADV	ADV	_	7	advmod	_	start_char=841|end_char=845
+4	früher	früher	ADJ	ADV	Degree=Pos	7	advmod	_	start_char=846|end_char=852
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=853|end_char=857
+6	Diagnose	Diagnose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=858|end_char=866
+7	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=867|end_char=875
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=875|end_char=876
+
+# text = Und Sie können auch früher eine Therapie bekommen.
+# sent_id = 17
+1	Und	und	CCONJ	KON	_	8	cc	_	start_char=877|end_char=880
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=881|end_char=884
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=885|end_char=891
+4	auch	auch	ADV	ADV	_	5	advmod	_	start_char=892|end_char=896
+5	früher	früher	ADV	ADV	_	8	advmod	_	start_char=897|end_char=903
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=904|end_char=908
+7	Therapie	Therapie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=909|end_char=917
+8	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=918|end_char=926
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=926|end_char=927
+
+# text = Hier sind ein paar Tipps für Sie.
+# sent_id = 18
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=928|end_char=932
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=933|end_char=937
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=938|end_char=941
+4	paar	paar	PRON	PIAT	PronType=Ind	5	det	_	start_char=942|end_char=946
+5	Tipps	Tip	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	start_char=947|end_char=952
+6	für	für	ADP	APPR	_	7	case	_	start_char=953|end_char=956
+7	Sie	Sie|sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	nmod	_	start_char=957|end_char=960
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=960|end_char=961
+
+# text = Und Sie können sich auch an einen Berater wenden.
+# sent_id = 19
+1	Und	und	CCONJ	KON	_	9	cc	_	start_char=962|end_char=965
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=966|end_char=969
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=970|end_char=976
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	start_char=977|end_char=981
+5	auch	auch	ADV	ADV	_	9	advmod	_	start_char=982|end_char=986
+6	an	an	ADP	APPR	_	8	case	_	start_char=987|end_char=989
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=990|end_char=995
+8	Berater	Berater	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	start_char=996|end_char=1003
+9	wenden	wenden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1004|end_char=1010
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1010|end_char=1011
+
+# text = Zusammenfassung: Makuladegeneration
+# sent_id = 20
+1	Zusammenfassung	Zusammenfassung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1013|end_char=1028
+2	:	:	PUNCT	$.	_	3	punct	_	start_char=1028|end_char=1029
+3	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=1030|end_char=1048
+
+# text = Es gibt eine Erkrankung der Augen, die altersbedingt ist.
+# sent_id = 21
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1050|end_char=1052
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1053|end_char=1057
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1058|end_char=1062
+4	Erkrankung	Erkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nsubj	_	start_char=1063|end_char=1073
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	start_char=1074|end_char=1077
+6	Augen	Auge	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	start_char=1078|end_char=1083
+7	,	,	PUNCT	$,	_	9	punct	_	start_char=1083|end_char=1084
+8	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	9	nsubj	_	start_char=1085|end_char=1088
+9	altersbedingt	altersbedingt	ADJ	ADJD	Degree=Pos	4	acl	_	start_char=1089|end_char=1102
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=1103|end_char=1106
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=1106|end_char=1107
+
+# text = Diese Erkrankung heißt altersbedingte Makuladegeneration (auch altersbezogene oder altersabhängige Makuladegeneration, kurz: AMD).
+# sent_id = 22
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=1108|end_char=1113
+2	Erkrankung	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1114|end_char=1124
+3	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1125|end_char=1130
+4	altersbedingte	altersbedingt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=1131|end_char=1145
+5	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	xcomp	_	start_char=1146|end_char=1164
+6	(	(	PUNCT	$(	_	11	punct	_	start_char=1165|end_char=1166
+7	auch	auch	ADV	ADV	_	11	advmod	_	start_char=1166|end_char=1170
+8	altersbezogene	altersbezogen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1171|end_char=1185
+9	oder	oder	CCONJ	KON	_	10	cc	_	start_char=1186|end_char=1190
+10	altersabhängige	altersabhängig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	conj	_	start_char=1191|end_char=1206
+11	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	start_char=1207|end_char=1225
+12	,	,	PUNCT	$,	_	13	punct	_	start_char=1225|end_char=1226
+13	kurz	kurz	ADJ	ADJD	Degree=Pos	11	appos	_	start_char=1227|end_char=1231
+14	:	:	PUNCT	$.	_	15	punct	_	start_char=1231|end_char=1232
+15	AMD	AMD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	13	appos	_	start_char=1233|end_char=1236
+16	)	)	PUNCT	$(	_	11	punct	_	start_char=1236|end_char=1237
+17	.	.	PUNCT	$.	_	3	punct	_	start_char=1237|end_char=1238
+
+# text = Diese Erkrankung ist die Hauptursache für schlechte Sehvermögen bei Menschen über 60 Jahren in der westlichen Welt.
+# sent_id = 23
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=1239|end_char=1244
+2	Erkrankung	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=1245|end_char=1255
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1256|end_char=1259
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1260|end_char=1263
+5	Hauptursache	Hauptursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1264|end_char=1276
+6	für	für	ADP	APPR	_	8	case	_	start_char=1277|end_char=1280
+7	schlechte	schlecht	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	start_char=1281|end_char=1290
+8	Sehvermögen	Sehvermögen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	nmod	_	start_char=1291|end_char=1302
+9	bei	bei	ADP	APPR	_	10	case	_	start_char=1303|end_char=1306
+10	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	nmod	_	start_char=1307|end_char=1315
+11	über	über	ADP	ADV	_	13	case	_	start_char=1316|end_char=1320
+12	60	60	NUM	CARD	NumType=Card	13	nummod	_	start_char=1321|end_char=1323
+13	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	nmod	_	start_char=1324|end_char=1330
+14	in	in	ADP	APPR	_	17	case	_	start_char=1331|end_char=1333
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=1334|end_char=1337
+16	westlichen	westlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=1338|end_char=1348
+17	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	start_char=1349|end_char=1353
+18	.	.	PUNCT	$.	_	5	punct	_	start_char=1353|end_char=1354
+
+# text = In der Mitte der Augen gehen die Zellen der Augen, die scharfes und buntes Sehen erkennen, kaputt.
+# sent_id = 24
+1	In	in	ADP	APPR	_	3	case	_	start_char=1355|end_char=1357
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=1358|end_char=1361
+3	Mitte	Mitte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=1362|end_char=1367
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	start_char=1368|end_char=1371
+5	Augen	Auge	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	start_char=1372|end_char=1377
+6	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1378|end_char=1383
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=1384|end_char=1387
+8	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=1388|end_char=1394
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	10	det	_	start_char=1395|end_char=1398
+10	Augen	Auge	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	start_char=1399|end_char=1404
+11	,	,	PUNCT	$,	_	17	punct	_	start_char=1404|end_char=1405
+12	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	17	nsubj	_	start_char=1406|end_char=1409
+13	scharfes	scharf	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	start_char=1410|end_char=1418
+14	und	und	CCONJ	KON	_	15	cc	_	start_char=1419|end_char=1422
+15	buntes	bunt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	conj	_	start_char=1423|end_char=1429
+16	Sehen	Sehen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	start_char=1430|end_char=1435
+17	erkennen	erkennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	start_char=1436|end_char=1444
+18	,	,	PUNCT	$,	_	17	punct	_	start_char=1444|end_char=1445
+19	kaputt	kaputt	ADJ	ADJD	Degree=Pos	6	xcomp	_	start_char=1446|end_char=1452
+20	.	.	PUNCT	$.	_	6	punct	_	start_char=1452|end_char=1453
+
+# text = Man sieht verschwommen oder verzerrt.
+# sent_id = 25
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=1455|end_char=1458
+2	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1459|end_char=1464
+3	verschwommen	verschwehmen	ADJ	ADJD	Degree=Pos	2	xcomp	_	start_char=1465|end_char=1477
+4	oder	oder	CCONJ	KON	_	5	cc	_	start_char=1478|end_char=1482
+5	verzerrt	verzerren	ADJ	VVPP	Degree=Pos|VerbForm=Part	3	conj	_	start_char=1483|end_char=1491
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=1491|end_char=1492
+
+# text = Das ist das erste Zeichen von der Krankheit.
+# sent_id = 26
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=1493|end_char=1496
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1497|end_char=1500
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1501|end_char=1504
+4	erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|NumType=Ord|Number=Sing	5	amod	_	start_char=1505|end_char=1510
+5	Zeichen	Zeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1511|end_char=1518
+6	von	von	ADP	APPR	_	8	case	_	start_char=1519|end_char=1522
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1523|end_char=1526
+8	Krankheit	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	start_char=1527|end_char=1536
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=1536|end_char=1537
+
+# text = In der Mitte des Gesichtsfeldes sieht man nur noch einen dunklen Fleck.
+# sent_id = 27
+1	In	in	ADP	APPR	_	3	case	_	start_char=1538|end_char=1540
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=1541|end_char=1544
+3	Mitte	Mitte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=1545|end_char=1550
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1551|end_char=1554
+5	Gesichtsfeldes	Gesichtsfeldes	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=1555|end_char=1569
+6	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1570|end_char=1575
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=1576|end_char=1579
+8	nur	nur	ADV	ADV	_	9	advmod	_	start_char=1580|end_char=1583
+9	noch	noch	ADV	ADV	_	6	advmod	_	start_char=1584|end_char=1588
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=1589|end_char=1594
+11	dunklen	dunkel	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=1595|end_char=1602
+12	Fleck	Fleck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=1603|end_char=1608
+13	.	.	PUNCT	$.	_	6	punct	_	start_char=1608|end_char=1609
+
+# text = Man kann noch in die Richtungen sehen, aber Gesichter und Zahlen erkennen ist dann nicht mehr möglich.
+# sent_id = 28
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1610|end_char=1613
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1614|end_char=1618
+3	noch	noch	ADV	ADV	_	7	advmod	_	start_char=1619|end_char=1623
+4	in	in	ADP	APPR	_	6	case	_	start_char=1624|end_char=1626
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=1627|end_char=1630
+6	Richtungen	Richtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	start_char=1631|end_char=1641
+7	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1642|end_char=1647
+8	,	,	PUNCT	$,	_	18	punct	_	start_char=1647|end_char=1648
+9	aber	aber	CCONJ	KON	_	13	cc	_	start_char=1649|end_char=1653
+10	Gesichter	Gesicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	start_char=1654|end_char=1663
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=1664|end_char=1667
+12	Zahlen	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	conj	_	start_char=1668|end_char=1674
+13	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	7	conj	_	start_char=1675|end_char=1683
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=1684|end_char=1687
+15	dann	dann	ADV	ADV	_	18	advmod	_	start_char=1688|end_char=1692
+16	nicht	nicht	PART	PTKNEG	Polarity=Neg	18	advmod	_	start_char=1693|end_char=1698
+17	mehr	mehr	ADV	ADV	_	16	advmod	_	start_char=1699|end_char=1703
+18	möglich	möglich	ADJ	ADJD	Degree=Pos	7	conj	_	start_char=1704|end_char=1711
+19	.	.	PUNCT	$.	_	7	punct	_	start_char=1711|end_char=1712
+
+# text = Man kann auch keine Buchstaben mehr erkennen.
+# sent_id = 29
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1713|end_char=1716
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1717|end_char=1721
+3	auch	auch	ADV	ADV	_	7	advmod	_	start_char=1722|end_char=1726
+4	keine	kein	PRON	PIAT	Case=Acc|Gender=Fem|Number=Plur|Polarity=Neg|PronType=Neg	5	nmod	_	start_char=1727|end_char=1732
+5	Buchstaben	Buchstabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=1733|end_char=1743
+6	mehr	mehr	ADV	ADV	_	7	advmod	_	start_char=1744|end_char=1748
+7	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1749|end_char=1757
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1757|end_char=1758
+
+# text = Es gibt frühe und späte Formen der Makuladegeneration.
+# sent_id = 30
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1760|end_char=1762
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1763|end_char=1767
+3	frühe	früh	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=1768|end_char=1773
+4	und	und	CCONJ	KON	_	5	cc	_	start_char=1774|end_char=1777
+5	späte	spät	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	conj	_	start_char=1778|end_char=1783
+6	Formen	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1784|end_char=1790
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1791|end_char=1794
+8	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=1795|end_char=1813
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=1813|end_char=1814
+
+# text = Zu den späten Formen gehört auch die feuchte Form.
+# sent_id = 31
+1	Zu	zu	ADP	APPR	_	4	case	_	start_char=1815|end_char=1817
+2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=1818|end_char=1821
+3	späten	spät	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=1822|end_char=1828
+4	Formen	Form	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	start_char=1829|end_char=1835
+5	gehört	gehören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1836|end_char=1842
+6	auch	auch	ADV	ADV	_	5	advmod	_	start_char=1843|end_char=1847
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1848|end_char=1851
+8	feuchte	feucht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=1852|end_char=1859
+9	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=1860|end_char=1864
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=1864|end_char=1865
+
+# text = Diese Form ist bei etwa 10-15 Prozent der Fälle schlimm.
+# sent_id = 32
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=1866|end_char=1871
+2	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1872|end_char=1876
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=1877|end_char=1880
+4	bei	bei	ADP	APPR	_	7	case	_	start_char=1881|end_char=1884
+5	etwa	etwa	ADV	ADV	_	6	advmod	_	start_char=1885|end_char=1889
+6	10-15	10-15	NUM	CARD	NumType=Card	7	nummod	_	start_char=1890|end_char=1895
+7	Prozent	Prozent	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	nmod	_	start_char=1896|end_char=1903
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=1904|end_char=1907
+9	Fälle	Fall	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=1908|end_char=1913
+10	schlimm	schlimm	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1914|end_char=1921
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1921|end_char=1922
+
+# text = Das gilt vor allem für die Patientinnen und Patienten mit schlechter Sehfähigkeit.
+# sent_id = 33
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=1923|end_char=1926
+2	gilt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1927|end_char=1931
+3	vor	vor	ADP	APPR	_	4	case	_	start_char=1932|end_char=1935
+4	allem	alle	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	2	obl	_	start_char=1936|end_char=1941
+5	für	für	ADP	APPR	_	7	case	_	start_char=1942|end_char=1945
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=1946|end_char=1949
+7	Patientinnen	Patientin	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	start_char=1950|end_char=1962
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=1963|end_char=1966
+9	Patienten	Patient	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	conj	_	start_char=1967|end_char=1976
+10	mit	mit	ADP	APPR	_	12	case	_	start_char=1977|end_char=1980
+11	schlechter	schlecht	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=1981|end_char=1991
+12	Sehfähigkeit	Sehfähigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	start_char=1992|end_char=2004
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=2004|end_char=2005
+
+# text = Es gibt keine Heilung oder Vorbeugung für die AMD.
+# sent_id = 34
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=2007|end_char=2009
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2010|end_char=2014
+3	keine	kein	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	4	nmod	_	start_char=2015|end_char=2020
+4	Heilung	Heilung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nsubj	_	start_char=2021|end_char=2028
+5	oder	oder	CCONJ	KON	_	6	cc	_	start_char=2029|end_char=2033
+6	Vorbeugung	Vorbeugung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	start_char=2034|end_char=2044
+7	für	für	ADP	APPR	_	9	case	_	start_char=2045|end_char=2048
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=2049|end_char=2052
+9	AMD	AMD	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	start_char=2053|end_char=2056
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=2056|end_char=2057
+
+# text = Wenn Sie es rechtzeitig erkennen, können Sie mit Medikamenten die AMD langsamer machen.
+# sent_id = 35
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=2058|end_char=2062
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=2063|end_char=2066
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=2067|end_char=2069
+4	rechtzeitig	rechtzeitig	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=2070|end_char=2081
+5	erkennen	erkennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=2082|end_char=2090
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=2090|end_char=2091
+7	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=2092|end_char=2098
+8	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=2099|end_char=2102
+9	mit	mit	ADP	APPR	_	10	case	_	start_char=2103|end_char=2106
+10	Medikamenten	Medikament	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	start_char=2107|end_char=2119
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=2120|end_char=2123
+12	AMD	AMD	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=2124|end_char=2127
+13	langsamer	langsam	ADJ	ADJD	Degree=Pos	14	xcomp	_	start_char=2128|end_char=2137
+14	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2138|end_char=2144
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=2144|end_char=2145
+
+# text = So können Sie länger sehen.
+# sent_id = 36
+1	So	so	ADV	ADV	_	5	advmod	_	start_char=2146|end_char=2148
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2149|end_char=2155
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=2156|end_char=2159
+4	länger	lang	ADV	ADJD	_	5	advmod	_	start_char=2160|end_char=2166
+5	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2167|end_char=2172
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2172|end_char=2173
+
+# text = Makula heißt die Stelle des schärfsten Sehens auf der Netzhaut des Auges.
+# sent_id = 37
+1	Makula	Makula	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=2175|end_char=2181
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2182|end_char=2187
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2188|end_char=2191
+4	Stelle	Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2192|end_char=2198
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=2199|end_char=2202
+6	schärfsten	scharf	ADJ	ADJA	Case=Gen|Degree=Sup|Gender=Neut|Number=Sing	7	amod	_	start_char=2203|end_char=2213
+7	Sehens	Sehen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=2214|end_char=2220
+8	auf	auf	ADP	APPR	_	10	case	_	start_char=2221|end_char=2224
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=2225|end_char=2228
+10	Netzhaut	Netzhaut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	start_char=2229|end_char=2237
+11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=2238|end_char=2241
+12	Auges	Auge	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	start_char=2242|end_char=2247
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=2247|end_char=2248
+
+# text = Was ist eine altersbedingte Makuladegeneration (AMD)?
+# sent_id = 38
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	5	nsubj	_	start_char=2250|end_char=2253
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2254|end_char=2257
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2258|end_char=2262
+4	altersbedingte	altersbedingt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=2263|end_char=2277
+5	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2278|end_char=2296
+6	(	(	PUNCT	$(	_	7	punct	_	start_char=2297|end_char=2298
+7	AMD	AMD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	start_char=2298|end_char=2301
+8	)	)	PUNCT	$(	_	7	punct	_	start_char=2301|end_char=2302
+9	?	?	PUNCT	$.	_	5	punct	_	start_char=2302|end_char=2303
+
+# text = Risikofaktoren
+# sent_id = 39
+1	Risikofaktoren	Risikofaktor	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=2305|end_char=2319
+
+# text = Rauchen, Licht und Blutdruck sind die Hauptrisikofaktoren für die altersbedingte Makuladegeneration.
+# sent_id = 40
+1	Rauchen	Rauchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=2321|end_char=2328
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=2328|end_char=2329
+3	Licht	Licht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	start_char=2330|end_char=2335
+4	und	und	CCONJ	KON	_	5	cc	_	start_char=2336|end_char=2339
+5	Blutdruck	Blutdruck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=2340|end_char=2349
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=2350|end_char=2354
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=2355|end_char=2358
+8	Hauptrisikofaktoren	Hauptrisikofaktoren	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=2359|end_char=2378
+9	für	für	ADP	APPR	_	12	case	_	start_char=2379|end_char=2382
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=2383|end_char=2386
+11	altersbedingte	altersbedingt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=2387|end_char=2401
+12	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	start_char=2402|end_char=2420
+13	.	.	PUNCT	$.	_	8	punct	_	start_char=2420|end_char=2421
+
+# text = Das ist der aktuelle Kenntnisstand.
+# sent_id = 41
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=2422|end_char=2425
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2426|end_char=2429
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=2430|end_char=2433
+4	aktuelle	aktuell	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=2434|end_char=2442
+5	Kenntnisstand	Kenntnisstand	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=2443|end_char=2456
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2456|end_char=2457
+
+# text = Es gibt auch eine genetische Veranlagung dafür.
+# sent_id = 42
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2458|end_char=2460
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2461|end_char=2465
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=2466|end_char=2470
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=2471|end_char=2475
+5	genetische	genetisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=2476|end_char=2486
+6	Veranlagung	Veranlagung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2487|end_char=2498
+7	dafür	dafür	PRON	PAV	_	2	advmod	_	start_char=2499|end_char=2504
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=2504|end_char=2505
+
+# text = Die Krankheit wird im Alter immer häufiger.
+# sent_id = 43
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2506|end_char=2509
+2	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2510|end_char=2519
+3	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=2520|end_char=2524
+4-5	im	_	_	_	_	_	_	_	start_char=2525|end_char=2527
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Alter	Alter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=2528|end_char=2533
+7	immer	immer	ADV	ADV	_	3	advmod	_	start_char=2534|end_char=2539
+8	häufiger	häufig	ADJ	ADJD	Degree=Pos	3	xcomp	_	start_char=2540|end_char=2548
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=2548|end_char=2549
+
+# text = Sie kommt meistens nach dem 60.
+# sent_id = 44
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2550|end_char=2553
+2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2554|end_char=2559
+3	meistens	meistens	ADV	ADV	_	2	advmod	_	start_char=2560|end_char=2568
+4	nach	nach	ADP	APPR	_	6	case	_	start_char=2569|end_char=2573
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=2574|end_char=2577
+6	60	60	NUM	CARD	NumType=Card	2	obl	_	start_char=2578|end_char=2580
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2580|end_char=2581
+
+# text = Lebensjahr und wird dann schlimmer.
+# sent_id = 45
+1	Lebensjahr	Lebensjahr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	dep	_	start_char=2582|end_char=2592
+2	und	und	CCONJ	KON	_	3	cc	_	start_char=2593|end_char=2596
+3	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2597|end_char=2601
+4	dann	dann	ADV	ADV	_	3	advmod	_	start_char=2602|end_char=2606
+5	schlimmer	schlimm	ADJ	ADJD	Degree=Pos	3	xcomp	_	start_char=2607|end_char=2616
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=2616|end_char=2617
+
+# text = Frauen leben meist länger als Männer und haben deshalb auch häufiger die Makuladegeneration.
+# sent_id = 46
+1	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2618|end_char=2624
+2	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2625|end_char=2630
+3	meist	meist	ADV	ADV	_	2	advmod	_	start_char=2631|end_char=2636
+4	länger	lang	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=2637|end_char=2643
+5	als	als	ADP	KOKOM	_	6	case	_	start_char=2644|end_char=2647
+6	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nmod	_	start_char=2648|end_char=2654
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=2655|end_char=2658
+8	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=2659|end_char=2664
+9	deshalb	deshalb	ADV	PAV	_	8	advmod	_	start_char=2665|end_char=2672
+10	auch	auch	ADV	ADV	_	11	advmod	_	start_char=2673|end_char=2677
+11	häufiger	häufig	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=2678|end_char=2686
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=2687|end_char=2690
+13	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=2691|end_char=2709
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=2709|end_char=2710
+
+# text = Es gibt bestimmte Symptome bei der Makuladegeneration.
+# sent_id = 47
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=2712|end_char=2714
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2715|end_char=2719
+3	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=2720|end_char=2729
+4	Symptome	Symptom	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=2730|end_char=2738
+5	bei	bei	ADP	APPR	_	7	case	_	start_char=2739|end_char=2742
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2743|end_char=2746
+7	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	start_char=2747|end_char=2765
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=2765|end_char=2766
+
+# text = ?
+# sent_id = 48
+1	?	?	PUNCT	$.	_	0	root	_	start_char=2768|end_char=2769
+
+# text = Die Makuladegeneration (AMD) ist schmerzlos.
+# sent_id = 49
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2770|end_char=2773
+2	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=2774|end_char=2792
+3	(	(	PUNCT	$(	_	4	punct	_	start_char=2793|end_char=2794
+4	AMD	AMD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	start_char=2794|end_char=2797
+5	)	)	PUNCT	$(	_	4	punct	_	start_char=2797|end_char=2798
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=2799|end_char=2802
+7	schmerzlos	schmerzlos	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2803|end_char=2813
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=2813|end_char=2814
+
+# text = Am häufigsten tritt die trockene Makuladegeneration auf (etwa 85 Prozent der Fälle).
+# sent_id = 50
+1-2	Am	_	_	_	_	_	_	_	start_char=2815|end_char=2817
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	häufigsten	häufig	NOUN	ADJA	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=2818|end_char=2828
+4	tritt	treten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2829|end_char=2834
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2835|end_char=2838
+6	trockene	trocken	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=2839|end_char=2847
+7	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=2848|end_char=2866
+8	auf	auf	ADP	PTKVZ	_	4	compound:prt	_	start_char=2867|end_char=2870
+9	(	(	PUNCT	$(	_	12	punct	_	start_char=2871|end_char=2872
+10	etwa	etwa	ADV	ADV	_	11	advmod	_	start_char=2872|end_char=2876
+11	85	85	NUM	CARD	NumType=Card	12	nummod	_	start_char=2877|end_char=2879
+12	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	appos	_	start_char=2880|end_char=2887
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	start_char=2888|end_char=2891
+14	Fälle	Fall	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	start_char=2892|end_char=2897
+15	)	)	PUNCT	$(	_	12	punct	_	start_char=2897|end_char=2898
+16	.	.	PUNCT	$.	_	4	punct	_	start_char=2898|end_char=2899
+
+# text = Die trockene AMD ist schwer zu erkennen.
+# sent_id = 51
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=2900|end_char=2903
+2	trockene	trocken	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=2904|end_char=2912
+3	AMD	AMD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=2913|end_char=2916
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2917|end_char=2920
+5	schwer	schwer	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=2921|end_char=2927
+6	zu	zu	PART	PTKZU	_	7	mark	_	start_char=2928|end_char=2930
+7	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	4	acl	_	start_char=2931|end_char=2939
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=2939|end_char=2940
+
+# text = Man merkt erst, wenn man schon sehr schlecht sehen kann.
+# sent_id = 52
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=2941|end_char=2944
+2	merkt	merken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2945|end_char=2950
+3	erst	erst	ADV	ADV	_	2	advmod	_	start_char=2951|end_char=2955
+4	,	,	PUNCT	$,	_	10	punct	_	start_char=2955|end_char=2956
+5	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=2957|end_char=2961
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=2962|end_char=2965
+7	schon	schon	ADV	ADV	_	10	advmod	_	start_char=2966|end_char=2971
+8	sehr	sehr	ADV	ADV	_	9	advmod	_	start_char=2972|end_char=2976
+9	schlecht	schlecht	ADV	ADJD	_	10	advmod	_	start_char=2977|end_char=2985
+10	sehen	sehen	VERB	VVINF	VerbForm=Inf	2	advcl	_	start_char=2986|end_char=2991
+11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=2992|end_char=2996
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=2996|end_char=2997
+
+# text = Man kann dann zum Beispiel nicht mehr gut lesen.
+# sent_id = 53
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=2998|end_char=3001
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=3002|end_char=3006
+3	dann	dann	ADV	ADV	_	10	advmod	_	start_char=3007|end_char=3011
+4-5	zum	_	_	_	_	_	_	_	start_char=3012|end_char=3015
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=3016|end_char=3024
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=3025|end_char=3030
+8	mehr	mehr	ADV	ADV	_	7	advmod	_	start_char=3031|end_char=3035
+9	gut	gut	ADV	ADJD	_	10	advmod	_	start_char=3036|end_char=3039
+10	lesen	lesen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3040|end_char=3045
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=3045|end_char=3046
+
+# text = Man sieht das Zentrum des Blickfeldes schlechter und schlechter.
+# sent_id = 54
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=3047|end_char=3050
+2	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3051|end_char=3056
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=3057|end_char=3060
+4	Zentrum	Zentrum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	nsubj	_	start_char=3061|end_char=3068
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=3069|end_char=3072
+6	Blickfeldes	Blickfeldes	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=3073|end_char=3084
+7	schlechter	schlecht	ADJ	ADJD	Degree=Pos	2	xcomp	_	start_char=3085|end_char=3095
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=3096|end_char=3099
+9	schlechter	schlecht	ADJ	ADJD	Degree=Pos	7	conj	_	start_char=3100|end_char=3110
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=3110|end_char=3111
+
+# text = Das Zentrum des Gesichtsfeldes ist dunkler geworden.
+# sent_id = 55
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=3113|end_char=3116
+2	Zentrum	Zentrum	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=3117|end_char=3124
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=3125|end_char=3128
+4	Gesichtsfeldes	Gesichtsfeldes	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	start_char=3129|end_char=3143
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=3144|end_char=3147
+6	dunkler	dunkel	ADJ	ADJD	Degree=Pos	7	xcomp	_	start_char=3148|end_char=3155
+7	geworden	werden	VERB	VAPP	VerbForm=Part	0	root	_	start_char=3156|end_char=3164
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=3164|end_char=3165
+
+# text = Der äußere Bereich des Gesichtsfeldes ist noch da.
+# sent_id = 56
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=3166|end_char=3169
+2	äußere	äußer	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=3170|end_char=3176
+3	Bereich	Bereich	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=3177|end_char=3184
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=3185|end_char=3188
+5	Gesichtsfeldes	Gesichtsfeldes	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=3189|end_char=3203
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3204|end_char=3207
+7	noch	noch	ADV	ADV	_	8	advmod	_	start_char=3208|end_char=3212
+8	da	da	ADV	ADV	_	6	advmod	_	start_char=3213|end_char=3215
+9	.	.	PUNCT	$.	_	6	punct	_	start_char=3215|end_char=3216
+
+# text = Wie die altersbedingte Makuladegeneration (AMD) entsteht.
+# sent_id = 57
+1	Wie	wie	ADV	KOUS	PronType=Int	8	advmod	_	start_char=3218|end_char=3221
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=3222|end_char=3225
+3	altersbedingte	altersbedingt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=3226|end_char=3240
+4	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=3241|end_char=3259
+5	(	(	PUNCT	$(	_	6	punct	_	start_char=3260|end_char=3261
+6	AMD	AMD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	start_char=3261|end_char=3264
+7	)	)	PUNCT	$(	_	6	punct	_	start_char=3264|end_char=3265
+8	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3266|end_char=3274
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=3274|end_char=3275
+
+# text = Was ist der Hintergrund?
+# sent_id = 58
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	4	nsubj	_	start_char=3277|end_char=3280
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3281|end_char=3284
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=3285|end_char=3288
+4	Hintergrund	Hintergrund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=3289|end_char=3300
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=3300|end_char=3301
+
+# text = Im Alter können kleine weiße oder gelbe Dinge unter der Netzhaut entstehen.
+# sent_id = 59
+1-2	Im	_	_	_	_	_	_	_	start_char=3303|end_char=3305
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Alter	Alter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	start_char=3306|end_char=3311
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=3312|end_char=3318
+5	kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=3319|end_char=3325
+6	weiße	weiß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=3326|end_char=3331
+7	oder	oder	CCONJ	KON	_	8	cc	_	start_char=3332|end_char=3336
+8	gelbe	gelb	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	6	conj	_	start_char=3337|end_char=3342
+9	Dinge	Ding	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	start_char=3343|end_char=3348
+10	unter	unter	ADP	APPR	_	12	case	_	start_char=3349|end_char=3354
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=3355|end_char=3358
+12	Netzhaut	Netzhaut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	start_char=3359|end_char=3367
+13	entstehen	entstehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3368|end_char=3377
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=3377|end_char=3378
+
+# text = Das nennt man dann Drusen.
+# sent_id = 60
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=3379|end_char=3382
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3383|end_char=3388
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=3389|end_char=3392
+4	dann	dann	ADV	ADV	_	2	advmod	_	start_char=3393|end_char=3397
+5	Drusen	Druse	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	xcomp	_	start_char=3398|end_char=3404
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=3404|end_char=3405
+
+# text = In der Schicht unter der Netzhaut passiert dann oft etwas.
+# sent_id = 61
+1	In	in	ADP	APPR	_	3	case	_	start_char=3406|end_char=3408
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3409|end_char=3412
+3	Schicht	Schicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=3413|end_char=3420
+4	unter	unter	ADP	APPR	_	6	case	_	start_char=3421|end_char=3426
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3427|end_char=3430
+6	Netzhaut	Netzhaut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	start_char=3431|end_char=3439
+7	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3440|end_char=3448
+8	dann	dann	ADV	ADV	_	7	advmod	_	start_char=3449|end_char=3453
+9	oft	oft	ADV	ADV	_	7	advmod	_	start_char=3454|end_char=3457
+10	etwas	etwas	PRON	PIS	PronType=Ind	7	nsubj	_	start_char=3458|end_char=3463
+11	.	.	PUNCT	$.	_	7	punct	_	start_char=3463|end_char=3464
+
+# text = Das passiert zum Beispiel auch in der Pigmentepithelschicht.
+# sent_id = 62
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=3465|end_char=3468
+2	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3469|end_char=3477
+3-4	zum	_	_	_	_	_	_	_	start_char=3478|end_char=3481
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=3482|end_char=3490
+6	auch	auch	ADV	ADV	_	2	advmod	_	start_char=3491|end_char=3495
+7	in	in	ADP	APPR	_	9	case	_	start_char=3496|end_char=3498
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=3499|end_char=3502
+9	Pigmentepithelschicht	Pigmentepithelschicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=3503|end_char=3524
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=3524|end_char=3525
+
+# text = Dann werden die Farben nicht mehr richtig gemacht.
+# sent_id = 63
+1	Dann	dann	ADV	ADV	_	8	advmod	_	start_char=3526|end_char=3530
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=3531|end_char=3537
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=3538|end_char=3541
+4	Farben	Farbe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj:pass	_	start_char=3542|end_char=3548
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=3549|end_char=3554
+6	mehr	mehr	ADV	ADV	_	5	advmod	_	start_char=3555|end_char=3559
+7	richtig	richtig	ADV	ADJD	_	8	xcomp	_	start_char=3560|end_char=3567
+8	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3568|end_char=3575
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=3575|end_char=3576
+
+# text = Die Schicht wird dünner und die Gefäße werden auch kleiner.
+# sent_id = 64
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=3577|end_char=3580
+2	Schicht	Schicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=3581|end_char=3588
+3	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3589|end_char=3593
+4	dünner	dünn	ADJ	ADJD	Degree=Pos	3	xcomp	_	start_char=3594|end_char=3600
+5	und	und	CCONJ	KON	_	8	cc	_	start_char=3601|end_char=3604
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=3605|end_char=3608
+7	Gefäße	Gefäße	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=3609|end_char=3615
+8	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	start_char=3616|end_char=3622
+9	auch	auch	ADV	ADV	_	8	advmod	_	start_char=3623|end_char=3627
+10	kleiner	klein	ADJ	ADJD	Degree=Pos	8	xcomp	_	start_char=3628|end_char=3635
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=3635|end_char=3636
+
+# text = Im späten Stadium gehen die Sehzellen kaputt.
+# sent_id = 65
+1-2	Im	_	_	_	_	_	_	_	start_char=3637|end_char=3639
+1	In	in	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+3	späten	spät	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=3640|end_char=3646
+4	Stadium	Stadium	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=3647|end_char=3654
+5	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3655|end_char=3660
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=3661|end_char=3664
+7	Sehzellen	Sehzelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=3665|end_char=3674
+8	kaputt	kaputt	ADJ	ADJD	Degree=Pos	5	xcomp	_	start_char=3675|end_char=3681
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=3681|end_char=3682
+
+# text = Das nennt man dann geografische Atrophie bei trockener Makuladegeneration.
+# sent_id = 66
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	start_char=3683|end_char=3686
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3687|end_char=3692
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=3693|end_char=3696
+4	dann	dann	ADV	ADV	_	2	advmod	_	start_char=3697|end_char=3701
+5	geografische	geografisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=3702|end_char=3714
+6	Atrophie	Atrophie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=3715|end_char=3723
+7	bei	bei	ADP	APPR	_	9	case	_	start_char=3724|end_char=3727
+8	trockener	trocken	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=3728|end_char=3737
+9	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	start_char=3738|end_char=3756
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=3756|end_char=3757
+
+# text = Es können neue Gefäße unter der Makula wachsen.
+# sent_id = 67
+1	Es	es	PRON	PPER	PronType=Prs	8	expl	_	start_char=3759|end_char=3761
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=3762|end_char=3768
+3	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=3769|end_char=3773
+4	Gefäße	Gefäße	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=3774|end_char=3780
+5	unter	unter	ADP	APPR	_	7	case	_	start_char=3781|end_char=3786
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=3787|end_char=3790
+7	Makula	Makula	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=3791|end_char=3797
+8	wachsen	wachsen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3798|end_char=3805
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=3805|end_char=3806
+
+# text = Diese Gefäße sind dann aber nicht mehr so stabil.
+# sent_id = 68
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	start_char=3807|end_char=3812
+2	Gefäße	Gefäße	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=3813|end_char=3819
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=3820|end_char=3824
+4	dann	dann	ADV	ADV	_	9	advmod	_	start_char=3825|end_char=3829
+5	aber	aber	ADV	ADV	_	9	advmod	_	start_char=3830|end_char=3834
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=3835|end_char=3840
+7	mehr	mehr	ADV	ADV	_	6	advmod	_	start_char=3841|end_char=3845
+8	so	so	ADV	ADV	_	9	advmod	_	start_char=3846|end_char=3848
+9	stabil	stabil	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3849|end_char=3855
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3855|end_char=3856
+
+# text = Das kann zu: - Blutungen und Schwellungen führen.
+# sent_id = 69
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	start_char=3857|end_char=3860
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=3861|end_char=3865
+3	zu	zu	ADP	PTKVZ	_	9	compound:prt	_	start_char=3866|end_char=3868
+4	:	:	PUNCT	$.	_	6	punct	_	start_char=3868|end_char=3869
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=3870|end_char=3871
+6	Blutungen	Blutung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	obj	_	start_char=3872|end_char=3881
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=3882|end_char=3885
+8	Schwellungen	Schwellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	start_char=3886|end_char=3898
+9	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3899|end_char=3905
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3905|end_char=3906
+
+# text = - Abhebungen führen.
+# sent_id = 70
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=3907|end_char=3908
+2	Abhebungen	Abhebung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=3909|end_char=3919
+3	führen	führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3920|end_char=3926
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=3926|end_char=3927
+
+# text = Dann hat sich eine feuchte Form der Makuladegeneration entwickelt.
+# sent_id = 71
+1	Dann	dann	ADV	ADV	_	9	advmod	_	start_char=3928|end_char=3932
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=3933|end_char=3936
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	start_char=3937|end_char=3941
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3942|end_char=3946
+5	feuchte	feucht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=3947|end_char=3954
+6	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=3955|end_char=3959
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=3960|end_char=3963
+8	Makuladegeneration	Makuladegeneration	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=3964|end_char=3982
+9	entwickelt	entwickeln	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3983|end_char=3993
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3993|end_char=3994
+
+# text = Die Sehzellen sterben ab und es kommt zu Vernarbungen.
+# sent_id = 72
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	start_char=3995|end_char=3998
+2	Sehzellen	Sehzelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=3999|end_char=4008
+3	sterben	sterben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4009|end_char=4016
+4	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	start_char=4017|end_char=4019
+5	und	und	CCONJ	KON	_	7	cc	_	start_char=4020|end_char=4023
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=4024|end_char=4026
+7	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=4027|end_char=4032
+8	zu	zu	ADP	APPR	_	9	case	_	start_char=4033|end_char=4035
+9	Vernarbungen	Vernarbung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	start_char=4036|end_char=4048
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=4048|end_char=4049
+
+# text = Bei der trockenen AMD geht es langsam mit den Sehzellen bergab.
+# sent_id = 73
+1	Bei	bei	ADP	APPR	_	4	case	_	start_char=4050|end_char=4053
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=4054|end_char=4057
+3	trockenen	trocken	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=4058|end_char=4067
+4	AMD	AMD	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=4068|end_char=4071
+5	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4072|end_char=4076
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=4077|end_char=4079
+7	langsam	langsam	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=4080|end_char=4087
+8	mit	mit	ADP	APPR	_	10	case	_	start_char=4088|end_char=4091
+9	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=4092|end_char=4095
+10	Sehzellen	Sehzelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	start_char=4096|end_char=4105
+11	bergab	bergab	ADV	PTKVZ	_	5	compound:prt	_	start_char=4106|end_char=4112
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=4112|end_char=4113
+
+# text = Bei der feuchten AMD geht es auch mit den Sehzellen bergab, aber auch mit dem ganzen Auge.
+# sent_id = 74
+1	Bei	bei	ADP	APPR	_	4	case	_	start_char=4114|end_char=4117
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=4118|end_char=4121
+3	feuchten	feucht	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=4122|end_char=4130
+4	AMD	AMD	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=4131|end_char=4134
+5	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4135|end_char=4139
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=4140|end_char=4142
+7	auch	auch	ADV	ADV	_	5	advmod	_	start_char=4143|end_char=4147
+8	mit	mit	ADP	APPR	_	10	case	_	start_char=4148|end_char=4151
+9	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=4152|end_char=4155
+10	Sehzellen	Sehzelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	start_char=4156|end_char=4165
+11	bergab	bergab	ADV	PTKVZ	_	5	compound:prt	_	start_char=4166|end_char=4172
+12	,	,	PUNCT	$,	_	18	punct	_	start_char=4172|end_char=4173
+13	aber	aber	CCONJ	KON	_	18	cc	_	start_char=4174|end_char=4178
+14	auch	auch	ADV	ADV	_	18	advmod	_	start_char=4179|end_char=4183
+15	mit	mit	ADP	APPR	_	18	case	_	start_char=4184|end_char=4187
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	start_char=4188|end_char=4191
+17	ganzen	ganz	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=4192|end_char=4198
+18	Auge	Auge	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	conj	_	start_char=4199|end_char=4203
+19	.	.	PUNCT	$.	_	5	punct	_	start_char=4203|end_char=4204
+
+# text = Früherkennung
+# sent_id = 75
+1	Früherkennung	Früherkennung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=4206|end_char=4219
+
+# text = Augenärztinnen und Augenärzte empfehlen regelmäßige Kontrollen ab 60 Jahren.
+# sent_id = 76
+1	Augenärztinnen	Augenärztin	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=4221|end_char=4235
+2	und	und	CCONJ	KON	_	3	cc	_	start_char=4236|end_char=4239
+3	Augenärzte	Augenarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=4240|end_char=4250
+4	empfehlen	empfehlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4251|end_char=4260
+5	regelmäßige	regelmäßig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=4261|end_char=4272
+6	Kontrollen	Kontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=4273|end_char=4283
+7	ab	ab	ADP	APPR	_	9	case	_	start_char=4284|end_char=4286
+8	60	60	NUM	CARD	NumType=Card	9	nummod	_	start_char=4287|end_char=4289
+9	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	start_char=4290|end_char=4296
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=4296|end_char=4297
+
+# text = Eine gute Möglichkeit, die Augen zu überprüfen, ist der Amsler-Gitter-Test.
+# sent_id = 77
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=4298|end_char=4302
+2	gute	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=4303|end_char=4307
+3	Möglichkeit	Möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=4308|end_char=4319
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=4319|end_char=4320
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	start_char=4321|end_char=4324
+6	Augen	Auge	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	start_char=4325|end_char=4330
+7	zu	zu	PART	PTKZU	_	8	mark	_	start_char=4331|end_char=4333
+8	überprüfen	überprüfen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	start_char=4334|end_char=4344
+9	,	,	PUNCT	$,	_	8	punct	_	start_char=4344|end_char=4345
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=4346|end_char=4349
+11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=4350|end_char=4353
+12	Amsler	Amsler	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=4354|end_char=4360
+13	-	-	PUNCT	$(	_	14	punct	_	start_char=4360|end_char=4361
+14	Gitter	Gitter	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	12	flat	_	start_char=4361|end_char=4367
+15	-	-	PUNCT	$(	_	16	punct	_	start_char=4367|end_char=4368
+16	Test	Test	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	flat	_	start_char=4368|end_char=4372
+17	.	.	PUNCT	$.	_	12	punct	_	start_char=4372|end_char=4373
+
+# text = Weitere Informationen und eine Testvorlage zum Ausdrucken finden Sie im Kapitel Früherkennung.
+# sent_id = 78
+1	Weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	2	amod	_	start_char=4374|end_char=4381
+2	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	start_char=4382|end_char=4395
+3	und	und	CCONJ	KON	_	5	cc	_	start_char=4396|end_char=4399
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=4400|end_char=4404
+5	Testvorlage	Testvorlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	conj	_	start_char=4405|end_char=4416
+6-7	zum	_	_	_	_	_	_	_	start_char=4417|end_char=4420
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Ausdrucken	Ausdruck	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=4421|end_char=4431
+9	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4432|end_char=4438
+10	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=4439|end_char=4442
+11-12	im	_	_	_	_	_	_	_	start_char=4443|end_char=4445
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Kapitel	Kapitel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=4446|end_char=4453
+14	Früherkennung	Früherkennung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	appos	_	start_char=4454|end_char=4467
+15	.	.	PUNCT	$.	_	9	punct	_	start_char=4467|end_char=4468
+
+# text = Wie kann man die Augenkrankheit grüner Star früh erkennen?
+# sent_id = 79
+1	Wie	wie	ADV	PWAV	PronType=Int	9	advmod	_	start_char=4469|end_char=4472
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=4473|end_char=4477
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=4478|end_char=4481
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=4482|end_char=4485
+5	Augenkrankheit	Augenkrankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=4486|end_char=4500
+6	grüner	grün	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=4501|end_char=4507
+7	Star	Star	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	start_char=4508|end_char=4512
+8	früh	früh	ADV	ADJD	_	9	advmod	_	start_char=4513|end_char=4517
+9	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4518|end_char=4526
+10	?	?	PUNCT	$.	_	9	punct	_	start_char=4526|end_char=4527
+
+# text = Man sollte schon ab 40 Jahren regelmäßig zum Augenarzt gehen.
+# sent_id = 80
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=4528|end_char=4531
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	start_char=4532|end_char=4538
+3	schon	schon	ADV	ADV	_	11	advmod	_	start_char=4539|end_char=4544
+4	ab	ab	ADP	APPR	_	6	case	_	start_char=4545|end_char=4547
+5	40	40	NUM	CARD	NumType=Card	6	nummod	_	start_char=4548|end_char=4550
+6	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	start_char=4551|end_char=4557
+7	regelmäßig	regelmäßig	ADV	ADJD	_	11	advmod	_	start_char=4558|end_char=4568
+8-9	zum	_	_	_	_	_	_	_	start_char=4569|end_char=4572
+8	zu	zu	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Augenarzt	Augenarzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=4573|end_char=4582
+11	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4583|end_char=4588
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=4588|end_char=4589
+
+# text = Die Krankenkasse zahlt eine Früherkennung nur, wenn man Verdacht hat oder bestimmte Risiken hat.
+# sent_id = 81
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=4590|end_char=4593
+2	Krankenkasse	Krankenkasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=4594|end_char=4606
+3	zahlt	zahlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4607|end_char=4612
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=4613|end_char=4617
+5	Früherkennung	Früherkennung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=4618|end_char=4631
+6	nur	nur	ADV	ADV	_	3	advmod	_	start_char=4632|end_char=4635
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=4635|end_char=4636
+8	wenn	wenn	SCONJ	KOUS	_	11	mark	_	start_char=4637|end_char=4641
+9	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=4642|end_char=4645
+10	Verdacht	Verdacht	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=4646|end_char=4654
+11	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=4655|end_char=4658
+12	oder	oder	CCONJ	KON	_	15	cc	_	start_char=4659|end_char=4663
+13	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=4664|end_char=4673
+14	Risiken	Risiko	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	start_char=4674|end_char=4681
+15	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	start_char=4682|end_char=4685
+16	.	.	PUNCT	$.	_	3	punct	_	start_char=4685|end_char=4686
+
+# text = Wie geht es und was macht die Therapie?
+# sent_id = 82
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	start_char=4688|end_char=4691
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4692|end_char=4696
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=4697|end_char=4699
+4	und	und	CCONJ	KON	_	6	cc	_	start_char=4700|end_char=4703
+5	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	6	nsubj	_	start_char=4704|end_char=4707
+6	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=4708|end_char=4713
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=4714|end_char=4717
+8	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=4718|end_char=4726
+9	?	?	PUNCT	$.	_	2	punct	_	start_char=4726|end_char=4727
+
+# text = ?
+# sent_id = 83
+1	?	?	PUNCT	$.	_	0	root	_	start_char=4729|end_char=4730
+
+# text = Die trockene AMD kann manchmal aufhören.
+# sent_id = 84
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=4731|end_char=4734
+2	trockene	trocken	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=4735|end_char=4743
+3	AMD	AMD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=4744|end_char=4747
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=4748|end_char=4752
+5	manchmal	manchmal	ADV	ADV	_	6	advmod	_	start_char=4753|end_char=4761
+6	aufhören	aufhören	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4762|end_char=4770
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4770|end_char=4771
+
+# text = Die Betroffenen können dann vielleicht noch länger lesen.
+# sent_id = 85
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=4772|end_char=4775
+2	Betroffenen	Betroffene	NOUN	NN	Case=Nom|Number=Plur	8	nsubj	_	start_char=4776|end_char=4787
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=4788|end_char=4794
+4	dann	dann	ADV	ADV	_	8	advmod	_	start_char=4795|end_char=4799
+5	vielleicht	vielleicht	ADV	ADV	_	8	advmod	_	start_char=4800|end_char=4810
+6	noch	noch	ADV	ADV	_	7	advmod	_	start_char=4811|end_char=4815
+7	länger	lang	ADV	ADJD	_	8	advmod	_	start_char=4816|end_char=4822
+8	lesen	lesen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4823|end_char=4828
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=4828|end_char=4829
+
+# text = Sie können dann mit elektronischen oder optischen Hilfen lesen.
+# sent_id = 86
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=4830|end_char=4833
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=4834|end_char=4840
+3	dann	dann	ADV	ADV	_	9	advmod	_	start_char=4841|end_char=4845
+4	mit	mit	ADP	APPR	_	8	case	_	start_char=4846|end_char=4849
+5	elektronischen	elektronisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=4850|end_char=4864
+6	oder	oder	CCONJ	KON	_	7	cc	_	start_char=4865|end_char=4869
+7	optischen	optisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	5	conj	_	start_char=4870|end_char=4879
+8	Hilfen	Hilfe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	start_char=4880|end_char=4886
+9	lesen	lesen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4887|end_char=4892
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=4892|end_char=4893
+
+# text = Mit einer bestimmten Menge an Vitaminen und Mineralien kann man die trockene Form etwas länger aufhalten.
+# sent_id = 87
+1	Mit	mit	ADP	APPR	_	4	case	_	start_char=4894|end_char=4897
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=4898|end_char=4903
+3	bestimmten	bestimmt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=4904|end_char=4914
+4	Menge	Menge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	start_char=4915|end_char=4920
+5	an	an	ADP	APPR	_	6	case	_	start_char=4921|end_char=4923
+6	Vitaminen	Vitamine	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	start_char=4924|end_char=4933
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=4934|end_char=4937
+8	Mineralien	Mineralie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	conj	_	start_char=4938|end_char=4948
+9	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=4949|end_char=4953
+10	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	16	nsubj	_	start_char=4954|end_char=4957
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=4958|end_char=4961
+12	trockene	trocken	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=4962|end_char=4970
+13	Form	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	start_char=4971|end_char=4975
+14	etwas	etwas	ADV	ADV	_	15	advmod	_	start_char=4976|end_char=4981
+15	länger	lang	ADJ	ADJD	Degree=Pos	16	advmod	_	start_char=4982|end_char=4988
+16	aufhalten	aufhalten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4989|end_char=4998
+17	.	.	PUNCT	$.	_	16	punct	_	start_char=4998|end_char=4999
+
+# text = Die Augenärztin oder der Augenarzt kann Ihnen dabei helfen.
+# sent_id = 88
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5000|end_char=5003
+2	Augenärztin	Augenärztin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=5004|end_char=5015
+3	oder	oder	CCONJ	KON	_	5	cc	_	start_char=5016|end_char=5020
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=5021|end_char=5024
+5	Augenarzt	Augenarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=5025|end_char=5034
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=5035|end_char=5039
+7	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	9	iobj	_	start_char=5040|end_char=5045
+8	dabei	dabei	ADV	PAV	_	9	advmod	_	start_char=5046|end_char=5051
+9	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5052|end_char=5058
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=5058|end_char=5059
+
+# text = Die Frage ist, ob die Präparate im Einzelfall sinnvoll sind.
+# sent_id = 89
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5060|end_char=5063
+2	Frage	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5064|end_char=5069
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5070|end_char=5073
+4	,	,	PUNCT	$,	_	11	punct	_	start_char=5073|end_char=5074
+5	ob	ob	SCONJ	KOUS	_	11	mark	_	start_char=5075|end_char=5077
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	start_char=5078|end_char=5081
+7	Präparate	Präparat	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	start_char=5082|end_char=5091
+8-9	im	_	_	_	_	_	_	_	start_char=5092|end_char=5094
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Einzelfall	Einzelfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	start_char=5095|end_char=5105
+11	sinnvoll	sinnvoll	ADJ	ADJD	Degree=Pos	3	ccomp	_	start_char=5106|end_char=5114
+12	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=5115|end_char=5119
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=5119|end_char=5120
+
+# text = Es gibt keine Heilung für die AMD. ? Die feuchte AMD kann mit Medikamenten behandelt werden.
+# sent_id = 90
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=5121|end_char=5123
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5124|end_char=5128
+3	keine	kein	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	4	nmod	_	start_char=5129|end_char=5134
+4	Heilung	Heilung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nsubj	_	start_char=5135|end_char=5142
+5	für	für	ADP	APPR	_	7	case	_	start_char=5143|end_char=5146
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=5147|end_char=5150
+7	AMD	AMD	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	start_char=5151|end_char=5154
+8	.	.	PUNCT	$.	_	16	punct	_	start_char=5154|end_char=5155
+9	?	?	PUNCT	$.	_	16	punct	_	start_char=5156|end_char=5157
+10	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=5158|end_char=5161
+11	feuchte	feucht	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	start_char=5162|end_char=5169
+12	AMD	AMD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	start_char=5170|end_char=5173
+13	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=5174|end_char=5178
+14	mit	mit	ADP	APPR	_	15	case	_	start_char=5179|end_char=5182
+15	Medikamenten	Medikament	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	16	obl	_	start_char=5183|end_char=5195
+16	behandelt	behandeln	VERB	VVPP	VerbForm=Part	2	parataxis	_	start_char=5196|end_char=5205
+17	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	16	aux:pass	_	start_char=5206|end_char=5212
+18	.	.	PUNCT	$.	_	16	punct	_	start_char=5212|end_char=5213
+
+# text = Diese Medikamente heißen VEGF-Antagonisten.
+# sent_id = 91
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	start_char=5214|end_char=5219
+2	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=5220|end_char=5231
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5232|end_char=5238
+4	VEGF	VEGF	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	3	xcomp	_	start_char=5239|end_char=5243
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=5243|end_char=5244
+6	Antagonisten	Antagonist	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	flat	_	start_char=5244|end_char=5256
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=5256|end_char=5257
+
+# text = Die Medikamente können das Gefäßwachstum stoppen und den Sehverlust verlangsamen.
+# sent_id = 92
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	start_char=5258|end_char=5261
+2	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=5262|end_char=5273
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=5274|end_char=5280
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=5281|end_char=5284
+5	Gefäßwachstum	Gefäßwachstum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=5285|end_char=5298
+6	stoppen	stoppen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5299|end_char=5306
+7	und	und	CCONJ	KON	_	10	cc	_	start_char=5307|end_char=5310
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=5311|end_char=5314
+9	Sehverlust	Sehverlust	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=5315|end_char=5325
+10	verlangsamen	verlangehen	VERB	VVINF	VerbForm=Inf	6	conj	_	start_char=5326|end_char=5338
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=5338|end_char=5339
+
+# text = Tipps für den Alltag
+# sent_id = 93
+1	Tipps	Tip	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=5341|end_char=5346
+2	für	für	ADP	APPR	_	4	case	_	start_char=5347|end_char=5350
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=5351|end_char=5354
+4	Alltag	Alltag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	start_char=5355|end_char=5361
+
+# text = Regelmäßige körperliche Bewegung und gesunde Ernährung sind immer gut.
+# sent_id = 94
+1	Regelmäßige	regelmäßig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=5363|end_char=5374
+2	körperliche	körperlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=5375|end_char=5386
+3	Bewegung	Bewegung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=5387|end_char=5395
+4	und	und	CCONJ	KON	_	6	cc	_	start_char=5396|end_char=5399
+5	gesunde	gesund	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=5400|end_char=5407
+6	Ernährung	Ernährung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	start_char=5408|end_char=5417
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=5418|end_char=5422
+8	immer	immer	ADV	ADV	_	9	advmod	_	start_char=5423|end_char=5428
+9	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5429|end_char=5432
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=5432|end_char=5433
+
+# text = Obst und Gemüse mit grünen Blättern sind besonders gut.
+# sent_id = 95
+1	Obst	Obst	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=5434|end_char=5438
+2	und	und	CCONJ	KON	_	3	cc	_	start_char=5439|end_char=5442
+3	Gemüse	Gemüse	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	start_char=5443|end_char=5449
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=5450|end_char=5453
+5	grünen	grün	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	start_char=5454|end_char=5460
+6	Blättern	Blatt|Blättern	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	1	nmod	_	start_char=5461|end_char=5469
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=5470|end_char=5474
+8	besonders	besonders	ADV	ADV	_	9	advmod	_	start_char=5475|end_char=5484
+9	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5485|end_char=5488
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=5488|end_char=5489
+
+# text = Diese Dinge haben die besten natürlichen Antioxidanzien.
+# sent_id = 96
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	start_char=5490|end_char=5495
+2	Dinge	Ding	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=5496|end_char=5501
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5502|end_char=5507
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=5508|end_char=5511
+5	besten	gut	ADJ	ADJA	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	7	amod	_	start_char=5512|end_char=5518
+6	natürlichen	natürlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=5519|end_char=5530
+7	Antioxidanzien	Antioxidanzien	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=5531|end_char=5545
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=5545|end_char=5546
+
+# text = Das sind Stoffe, die Zellen schützen.
+# sent_id = 97
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=5547|end_char=5550
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=5551|end_char=5555
+3	Stoffe	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=5556|end_char=5562
+4	,	,	PUNCT	$,	_	7	punct	_	start_char=5562|end_char=5563
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=5564|end_char=5567
+6	Zellen	Zelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=5568|end_char=5574
+7	schützen	schützen	VERB	VVINF	VerbForm=Inf	3	conj	_	start_char=5575|end_char=5583
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=5583|end_char=5584
+
+# text = Es gibt zum Beispiel Lutein und Zeaxanthin.
+# sent_id = 98
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=5585|end_char=5587
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5588|end_char=5592
+3-4	zum	_	_	_	_	_	_	_	start_char=5593|end_char=5596
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=5597|end_char=5605
+6	Lutein	Lutein	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=5606|end_char=5612
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=5613|end_char=5616
+8	Zeaxanthin	Zeaxanthin	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	start_char=5617|end_char=5627
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=5627|end_char=5628
+
+# text = Diese Stoffe sind Verwandte von Beta-Carotin.
+# sent_id = 99
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	start_char=5629|end_char=5634
+2	Stoffe	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=5635|end_char=5641
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=5642|end_char=5646
+4	Verwandte	Verwandte|Verwandter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=5647|end_char=5656
+5	von	von	ADP	APPR	_	6	case	_	start_char=5657|end_char=5660
+6	Beta	Beta	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	start_char=5661|end_char=5665
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=5665|end_char=5666
+8	Carotin	Carotin	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	6	flat	_	start_char=5666|end_char=5673
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=5673|end_char=5674
+
+# text = Sie sind auch in der Makula und helfen dort beim Stoffwechsel.
+# sent_id = 100
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=5675|end_char=5678
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5679|end_char=5683
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=5684|end_char=5688
+4	in	in	ADP	APPR	_	6	case	_	start_char=5689|end_char=5691
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=5692|end_char=5695
+6	Makula	Makula	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=5696|end_char=5702
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=5703|end_char=5706
+8	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=5707|end_char=5713
+9	dort	dort	ADV	ADV	_	8	advmod	_	start_char=5714|end_char=5718
+10-11	beim	_	_	_	_	_	_	_	start_char=5719|end_char=5723
+10	bei	bei	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Stoffwechsel	Stoffwechsel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=5724|end_char=5736
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=5736|end_char=5737
+
+# text = Rauchen ist nicht gut und man sollte auch nicht zu viel wiegen.
+# sent_id = 101
+1	Rauchen	Rauchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=5738|end_char=5745
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=5746|end_char=5749
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=5750|end_char=5755
+4	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5756|end_char=5759
+5	und	und	CCONJ	KON	_	12	cc	_	start_char=5760|end_char=5763
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=5764|end_char=5767
+7	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	start_char=5768|end_char=5774
+8	auch	auch	ADV	ADV	_	12	advmod	_	start_char=5775|end_char=5779
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=5780|end_char=5785
+10	zu	zu	ADV	PTKA	_	11	advmod	_	start_char=5786|end_char=5788
+11	viel	viel	PRON	PIS	PronType=Ind	12	obj	_	start_char=5789|end_char=5793
+12	wiegen	wiegen	VERB	VVINF	VerbForm=Inf	4	conj	_	start_char=5794|end_char=5800
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=5800|end_char=5801
+
+# text = Und man sollte auch den Blutdruck regelmäßig kontrollieren.
+# sent_id = 102
+1	Und	und	CCONJ	KON	_	8	cc	_	start_char=5802|end_char=5805
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=5806|end_char=5809
+3	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=5810|end_char=5816
+4	auch	auch	ADV	ADV	_	8	advmod	_	start_char=5817|end_char=5821
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=5822|end_char=5825
+6	Blutdruck	Blutdruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=5826|end_char=5835
+7	regelmäßig	regelmäßig	ADV	ADJD	_	8	advmod	_	start_char=5836|end_char=5846
+8	kontrollieren	kontrollieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5847|end_char=5860
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=5860|end_char=5861
+
+# text = Wichtiger Hinweis: Dieser Artikel enthält nur allgemeine Informationen.
+# sent_id = 103
+1	Wichtiger	Wichtige	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=5863|end_char=5872
+2	Hinweis	Hinweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=5873|end_char=5880
+3	:	:	PUNCT	$.	_	2	punct	_	start_char=5880|end_char=5881
+4	Dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=5882|end_char=5888
+5	Artikel	Artikel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=5889|end_char=5896
+6	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	appos	_	start_char=5897|end_char=5904
+7	nur	nur	ADV	ADV	_	6	advmod	_	start_char=5905|end_char=5908
+8	allgemeine	allgemein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=5909|end_char=5919
+9	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=5920|end_char=5933
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=5933|end_char=5934
+
+# text = Sie dürfen diesen Artikel nicht dazu nutzen, sich selbst zu diagnostizieren oder zu behandeln.
+# sent_id = 104
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=5935|end_char=5938
+2	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=5939|end_char=5945
+3	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=5946|end_char=5952
+4	Artikel	Artikel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=5953|end_char=5960
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=5961|end_char=5966
+6	dazu	dazu	PRON	PAV	_	7	advmod	_	start_char=5967|end_char=5971
+7	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5972|end_char=5978
+8	,	,	PUNCT	$,	_	12	punct	_	start_char=5978|end_char=5979
+9	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	start_char=5980|end_char=5984
+10	selbst	selbst	ADV	ADV	_	12	advmod	_	start_char=5985|end_char=5991
+11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=5992|end_char=5994
+12	diagnostizieren	diagnostizieren	VERB	VVINF	VerbForm=Inf	6	acl	_	start_char=5995|end_char=6010
+13	oder	oder	CCONJ	KON	_	15	cc	_	start_char=6011|end_char=6015
+14	zu	zu	PART	PTKZU	_	15	mark	_	start_char=6016|end_char=6018
+15	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	12	conj	_	start_char=6019|end_char=6028
+16	.	.	PUNCT	$.	_	7	punct	_	start_char=6028|end_char=6029
+
+# text = Er kann eine Beratung beim Arzt nicht ersetzen.
+# sent_id = 105
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=6030|end_char=6032
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=6033|end_char=6037
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=6038|end_char=6042
+4	Beratung	Beratung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=6043|end_char=6051
+5-6	beim	_	_	_	_	_	_	_	start_char=6052|end_char=6056
+5	bei	bei	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=6057|end_char=6061
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=6062|end_char=6067
+9	ersetzen	ersetzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6068|end_char=6076
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=6076|end_char=6077
+
+# text = Bitte verstehen Sie, dass wir keine individuellen Fragen beantworten.
+# sent_id = 106
+1	Bitte	bitten	ADV	ADV	_	2	advmod	_	start_char=6078|end_char=6083
+2	verstehen	verstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6084|end_char=6093
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=6094|end_char=6097
+4	,	,	PUNCT	$,	_	10	punct	_	start_char=6097|end_char=6098
+5	dass	dass	SCONJ	KOUS	_	10	mark	_	start_char=6099|end_char=6103
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=6104|end_char=6107
+7	keine	kein	PRON	PIAT	Case=Acc|Gender=Fem|Number=Plur|Polarity=Neg|PronType=Neg	9	nmod	_	start_char=6108|end_char=6113
+8	individuellen	individuell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=6114|end_char=6127
+9	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=6128|end_char=6134
+10	beantworten	beantworten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=6135|end_char=6146
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=6146|end_char=6147
+

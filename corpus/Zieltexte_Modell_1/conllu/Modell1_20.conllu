@@ -1,0 +1,2284 @@
+# text = ﻿
+# sent_id = 0
+1	﻿	"	PUNCT	$(	_	0	root	_	start_char=0|end_char=1
+
+# text = Arthrose der Hand- und Fingergelenke.
+# sent_id = 1
+1	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=3|end_char=11
+2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=12|end_char=15
+3	Hand	Hand	NOUN	TRUNC	_	1	nmod	_	start_char=16|end_char=20
+4	-	-	PUNCT	$(	_	6	punct	_	start_char=20|end_char=21
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=22|end_char=25
+6	Fingergelenke	Fingergelenke	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	start_char=26|end_char=39
+7	.	.	PUNCT	$.	_	1	punct	_	start_char=39|end_char=40
+
+# text = Die Finger- oder Handgelenke schmerzen?
+# sent_id = 2
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=42|end_char=45
+2	Finger	Finger	NOUN	TRUNC	_	6	nsubj	_	start_char=46|end_char=52
+3	-	-	PUNCT	$(	_	5	punct	_	start_char=52|end_char=53
+4	oder	oder	CCONJ	KON	_	5	cc	_	start_char=54|end_char=58
+5	Handgelenke	Handgelenk	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=59|end_char=70
+6	schmerzen	schmerzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=71|end_char=80
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=80|end_char=81
+
+# text = Oder es bilden sich kleine Knoten an den Fingergelenken?
+# sent_id = 3
+1	Oder	Oder	CCONJ	KON	_	3	cc	_	start_char=82|end_char=86
+2	es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=87|end_char=89
+3	bilden	bilden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=90|end_char=96
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=97|end_char=101
+5	kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=102|end_char=108
+6	Knoten	Knoten	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=109|end_char=115
+7	an	an	ADP	APPR	_	9	case	_	start_char=116|end_char=118
+8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=119|end_char=122
+9	Fingergelenken	Fingergelenk	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	start_char=123|end_char=137
+10	?	?	PUNCT	$.	_	3	punct	_	start_char=137|end_char=138
+
+# text = Dann kann eine Arthrose die Ursache sein.
+# sent_id = 4
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=139|end_char=143
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=144|end_char=148
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=149|end_char=153
+4	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=154|end_char=162
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=163|end_char=166
+6	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=167|end_char=174
+7	sein	sein	AUX	VAINF	VerbForm=Inf	6	cop	_	start_char=175|end_char=179
+8	.	.	PUNCT	$.	_	6	punct	_	start_char=179|end_char=180
+
+# text = Mehr zu den Anzeichen und der Behandlung einer Arthrose erfahren Sie hier.
+# sent_id = 5
+1	Mehr	mehr	ADV	ADV	_	10	advmod	_	start_char=181|end_char=185
+2	zu	zu	ADP	APPR	_	4	case	_	start_char=186|end_char=188
+3	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=189|end_char=192
+4	Anzeichen	Anzeichen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	1	nmod	_	start_char=193|end_char=202
+5	und	und	CCONJ	KON	_	7	cc	_	start_char=203|end_char=206
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=207|end_char=210
+7	Behandlung	Behandlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	conj	_	start_char=211|end_char=221
+8	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=222|end_char=227
+9	Arthrose	Arthrose	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=228|end_char=236
+10	erfahren	erfahren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=237|end_char=245
+11	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	start_char=246|end_char=249
+12	hier	hier	ADV	ADV	_	10	advmod	_	start_char=250|end_char=254
+13	.	.	PUNCT	$.	_	10	punct	_	start_char=254|end_char=255
+
+# text = Unsere Inhalte sind von Apothekern und Ärzten geprüft.
+# sent_id = 6
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=257|end_char=263
+2	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=264|end_char=271
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=272|end_char=276
+4	von	von	ADP	APPR	_	5	case	_	start_char=277|end_char=280
+5	Apothekern	Apotheker	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	nmod	_	start_char=281|end_char=291
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=292|end_char=295
+7	Ärzten	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	start_char=296|end_char=302
+8	geprüft	prüfen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=303|end_char=310
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=310|end_char=311
+
+# text = Am 21. September 2017 wurde die Seite aktualisiert.
+# sent_id = 7
+1-2	Am	_	_	_	_	_	_	_	start_char=313|end_char=315
+1	An	an	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+3	21.	21.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	4	amod	_	start_char=316|end_char=319
+4	September	September	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	start_char=320|end_char=329
+5	2017	2017	NUM	CARD	NumType=Card	4	nmod	_	start_char=330|end_char=334
+6	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	9	aux:pass	_	start_char=335|end_char=340
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=341|end_char=344
+8	Seite	Seite	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	start_char=345|end_char=350
+9	aktualisiert	aktualisieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=351|end_char=363
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=363|end_char=364
+
+# text = Wie kann ein Arzt Gelenkverschleiß erkennen?
+# sent_id = 8
+1	Wie	wie	ADV	PWAV	PronType=Int	6	advmod	_	start_char=366|end_char=369
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=370|end_char=374
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=375|end_char=378
+4	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=379|end_char=383
+5	Gelenkverschleiß	Gelenkverschleiß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=384|end_char=400
+6	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=401|end_char=409
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=409|end_char=410
+
+# text = Ein Arzt kann Gelenkverschleiß anhand von: - Beschwerden - Untersuchung - Röntgenbildern feststellen.
+# sent_id = 9
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=411|end_char=414
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=415|end_char=419
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=420|end_char=424
+4	Gelenkverschleiß	Gelenkverschleiß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=425|end_char=441
+5	anhand	anhand	ADP	ADV	_	13	case	_	start_char=442|end_char=448
+6	von	von	ADP	APPR	_	13	case	_	start_char=449|end_char=452
+7	:	:	PUNCT	$.	_	9	punct	_	start_char=452|end_char=453
+8	-	-	PUNCT	$(	_	9	punct	_	start_char=454|end_char=455
+9	Beschwerden	Beschwerde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	compound	_	start_char=456|end_char=467
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=468|end_char=469
+11	Untersuchung	Untersuchung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	compound	_	start_char=470|end_char=482
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=483|end_char=484
+13	Röntgenbildern	Röntgenbild	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	obl	_	start_char=485|end_char=499
+14	feststellen	feststellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=500|end_char=511
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=511|end_char=512
+
+# text = Was ist Arthrose der Hand- und Fingergelenke?
+# sent_id = 10
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=514|end_char=517
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=518|end_char=521
+3	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=522|end_char=530
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=531|end_char=534
+5	Hand	Hand	NOUN	TRUNC	_	3	nmod	_	start_char=535|end_char=539
+6	-	-	PUNCT	$(	_	8	punct	_	start_char=539|end_char=540
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=541|end_char=544
+8	Fingergelenke	Fingergelenke	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	start_char=545|end_char=558
+9	?	?	PUNCT	$.	_	3	punct	_	start_char=558|end_char=559
+
+# text = Arthrose der Hand- und Fingergelenke ist eine Gelenkerkrankung.
+# sent_id = 11
+1	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=560|end_char=568
+2	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=569|end_char=572
+3	Hand	Hand	NOUN	TRUNC	_	1	nmod	_	start_char=573|end_char=577
+4	-	-	PUNCT	$(	_	6	punct	_	start_char=577|end_char=578
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=579|end_char=582
+6	Fingergelenke	Fingergelenke	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	3	conj	_	start_char=583|end_char=596
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=597|end_char=600
+8	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=601|end_char=605
+9	Gelenkerkrankung	Gelenkerkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=606|end_char=622
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=622|end_char=623
+
+# text = Bei dieser Erkrankung reagieren die Gelenke auf Belastungen.
+# sent_id = 12
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=624|end_char=627
+2	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=628|end_char=634
+3	Erkrankung	Erkrankung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=635|end_char=645
+4	reagieren	reagieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=646|end_char=655
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=656|end_char=659
+6	Gelenke	Gelenke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=660|end_char=667
+7	auf	auf	ADP	APPR	_	8	case	_	start_char=668|end_char=671
+8	Belastungen	Belastung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	start_char=672|end_char=683
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=683|end_char=684
+
+# text = Die Gelenke werden dann dauerhaft geschädigt.
+# sent_id = 13
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=685|end_char=688
+2	Gelenke	Gelenke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	start_char=689|end_char=696
+3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	start_char=697|end_char=703
+4	dann	dann	ADV	ADV	_	6	advmod	_	start_char=704|end_char=708
+5	dauerhaft	dauerhaft	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=709|end_char=718
+6	geschädigt	schädigen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=719|end_char=729
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=729|end_char=730
+
+# text = Bei einer Arthrose wird der Knorpel im Gelenk abgenutzt.
+# sent_id = 14
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=732|end_char=735
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=736|end_char=741
+3	Arthrose	Arthrose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=742|end_char=750
+4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=751|end_char=755
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=756|end_char=759
+6	Knorpel	Knorpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	start_char=760|end_char=767
+7-8	im	_	_	_	_	_	_	_	start_char=768|end_char=770
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Gelenk	Gelenk	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=771|end_char=777
+10	abgenutzt	abnutzen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=778|end_char=787
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=787|end_char=788
+
+# text = Der Knorpel schützt die Gelenke vor Reibung.
+# sent_id = 15
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=789|end_char=792
+2	Knorpel	Knorpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=793|end_char=800
+3	schützt	schützen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=801|end_char=808
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=809|end_char=812
+5	Gelenke	Gelenke	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=813|end_char=820
+6	vor	vor	ADP	APPR	_	7	case	_	start_char=821|end_char=824
+7	Reibung	Reibung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=825|end_char=832
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=832|end_char=833
+
+# text = Bei einer Arthrose reibt das Gelenk dann auf dem Knochen.
+# sent_id = 16
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=834|end_char=837
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=838|end_char=843
+3	Arthrose	Arthrose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=844|end_char=852
+4	reibt	reiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=853|end_char=858
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=859|end_char=862
+6	Gelenk	Gelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=863|end_char=869
+7	dann	dann	ADV	ADV	_	4	advmod	_	start_char=870|end_char=874
+8	auf	auf	ADP	APPR	_	10	case	_	start_char=875|end_char=878
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=879|end_char=882
+10	Knochen	Knochen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=883|end_char=890
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=890|end_char=891
+
+# text = Das kann zu Schmerzen und Schwellungen führen.
+# sent_id = 17
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	start_char=892|end_char=895
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=896|end_char=900
+3	zu	zu	ADP	APPR	_	4	case	_	start_char=901|end_char=903
+4	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	start_char=904|end_char=913
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=914|end_char=917
+6	Schwellungen	Schwellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	conj	_	start_char=918|end_char=930
+7	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=931|end_char=937
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=937|end_char=938
+
+# text = Die Gelenkkontur kann sich verändern.
+# sent_id = 18
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=939|end_char=942
+2	Gelenkkontur	Gelenkkontur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=943|end_char=955
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=956|end_char=960
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=961|end_char=965
+5	verändern	verändern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=966|end_char=975
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=975|end_char=976
+
+# text = So kann das Gelenk nicht mehr richtig funktionieren.
+# sent_id = 19
+1	So	so	ADV	ADV	_	8	advmod	_	start_char=977|end_char=979
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=980|end_char=984
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=985|end_char=988
+4	Gelenk	Gelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=989|end_char=995
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=996|end_char=1001
+6	mehr	mehr	ADV	ADV	_	8	advmod	_	start_char=1002|end_char=1006
+7	richtig	richtig	ADV	ADJD	_	8	advmod	_	start_char=1007|end_char=1014
+8	funktionieren	funktionieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1015|end_char=1028
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=1028|end_char=1029
+
+# text = Eine Arthrose der Finger kann auch schmerzfrei sein.
+# sent_id = 20
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=1030|end_char=1034
+2	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=1035|end_char=1043
+3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=1044|end_char=1047
+4	Finger	Finger	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=1048|end_char=1054
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1055|end_char=1059
+6	auch	auch	ADV	ADV	_	7	advmod	_	start_char=1060|end_char=1064
+7	schmerzfrei	schmerzfrei	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1065|end_char=1076
+8	sein	sein	AUX	VAINF	VerbForm=Inf	7	cop	_	start_char=1077|end_char=1081
+9	.	.	PUNCT	$.	_	7	punct	_	start_char=1081|end_char=1082
+
+# text = Und die Finger können trotzdem nicht mehr richtig funktionieren.
+# sent_id = 21
+1	Und	und	CCONJ	KON	_	9	cc	_	start_char=1083|end_char=1086
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=1087|end_char=1090
+3	Finger	Finger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=1091|end_char=1097
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1098|end_char=1104
+5	trotzdem	trotzdem	ADV	PAV	_	9	advmod	_	start_char=1105|end_char=1113
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=1114|end_char=1119
+7	mehr	mehr	ADV	ADV	_	6	advmod	_	start_char=1120|end_char=1124
+8	richtig	richtig	ADV	ADJD	_	9	advmod	_	start_char=1125|end_char=1132
+9	funktionieren	funktionieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1133|end_char=1146
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1146|end_char=1147
+
+# text = Es gibt 2 Formen von Arthrose: - Die entzündliche Form - Die nicht entzündliche Form
+# sent_id = 22
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1148|end_char=1150
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1151|end_char=1155
+3	2	2	NUM	CARD	NumType=Card	4	nummod	_	start_char=1156|end_char=1157
+4	Formen	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1158|end_char=1164
+5	von	von	ADP	APPR	_	6	case	_	start_char=1165|end_char=1168
+6	Arthrose	Arthrose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	start_char=1169|end_char=1177
+7	:	:	PUNCT	$.	_	11	punct	_	start_char=1177|end_char=1178
+8	-	-	PUNCT	$(	_	11	punct	_	start_char=1179|end_char=1180
+9	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1181|end_char=1184
+10	entzündliche	entzündlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1185|end_char=1197
+11	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	start_char=1198|end_char=1202
+12	-	-	PUNCT	$(	_	16	punct	_	start_char=1203|end_char=1204
+13	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=1205|end_char=1208
+14	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	start_char=1209|end_char=1214
+15	entzündliche	entzündlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=1215|end_char=1227
+16	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	appos	_	start_char=1228|end_char=1232
+
+# text = Was sind die Ursachen einer Arthrose?
+# sent_id = 23
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obj	_	start_char=1234|end_char=1237
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1238|end_char=1242
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=1243|end_char=1246
+4	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1247|end_char=1255
+5	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=1256|end_char=1261
+6	Arthrose	Arthrose	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=1262|end_char=1270
+7	?	?	PUNCT	$.	_	2	punct	_	start_char=1270|end_char=1271
+
+# text = Es gibt 2 Arten von Arthrosen: - Eine primäre Arthrose hat keine Ursache.
+# sent_id = 24
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1272|end_char=1274
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1275|end_char=1279
+3	2	2	NUM	CARD	NumType=Card	4	nummod	_	start_char=1280|end_char=1281
+4	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1282|end_char=1287
+5	von	von	ADP	APPR	_	6	case	_	start_char=1288|end_char=1291
+6	Arthrosen	Arthrose	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	start_char=1292|end_char=1301
+7	:	:	PUNCT	$.	_	12	punct	_	start_char=1301|end_char=1302
+8	-	-	PUNCT	$(	_	12	punct	_	start_char=1303|end_char=1304
+9	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=1305|end_char=1309
+10	primäre	primär	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1310|end_char=1317
+11	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=1318|end_char=1326
+12	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=1327|end_char=1330
+13	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	14	det	_	start_char=1331|end_char=1336
+14	Ursache	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=1337|end_char=1344
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=1344|end_char=1345
+
+# text = - Eine sekundäre Arthrose hat eine Ursache.
+# sent_id = 25
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1346|end_char=1347
+2	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1348|end_char=1352
+3	sekundäre	sekundär	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=1353|end_char=1362
+4	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=1363|end_char=1371
+5	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1372|end_char=1375
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=1376|end_char=1380
+7	Ursache	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=1381|end_char=1388
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=1388|end_char=1389
+
+# text = Die Ursachen für eine sekundäre Arthrose sind zum Beispiel: - Verletzungen - Krankheiten wie zum Beispiel Gicht oder rheumatoide Arthritis - Osteoporose: Knochen-Schwund - Zu viel Bewegung kann eine Arthrose fördern.
+# sent_id = 26
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1390|end_char=1393
+2	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=1394|end_char=1402
+3	für	für	ADP	APPR	_	6	case	_	start_char=1403|end_char=1406
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=1407|end_char=1411
+5	sekundäre	sekundär	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=1412|end_char=1421
+6	Arthrose	Arthrose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=1422|end_char=1430
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=1431|end_char=1435
+8-9	zum	_	_	_	_	_	_	_	start_char=1436|end_char=1439
+8	zu	zu	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	nmod	_	start_char=1440|end_char=1448
+11	:	:	PUNCT	$.	_	15	punct	_	start_char=1448|end_char=1449
+12	-	-	PUNCT	$(	_	13	punct	_	start_char=1450|end_char=1451
+13	Verletzungen	Verletzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	compound	_	start_char=1452|end_char=1464
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=1465|end_char=1466
+15	Krankheiten	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=1467|end_char=1478
+16	wie	wie	ADP	KOKOM	_	20	case	_	start_char=1479|end_char=1482
+17-18	zum	_	_	_	_	_	_	_	start_char=1483|end_char=1486
+17	zu	zu	ADP	APPR	_	19	case	_	_
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	start_char=1487|end_char=1495
+20	Gicht	Gicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	appos	_	start_char=1496|end_char=1501
+21	oder	oder	CCONJ	KON	_	25	cc	_	start_char=1502|end_char=1506
+22	rheumatoide	rheumatoid	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=1507|end_char=1518
+23	Arthritis	Arthritis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	compound	_	start_char=1519|end_char=1528
+24	-	-	PUNCT	$(	_	23	punct	_	start_char=1529|end_char=1530
+25	Osteoporose	Osteoporose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	conj	_	start_char=1531|end_char=1542
+26	:	:	PUNCT	$.	_	29	punct	_	start_char=1542|end_char=1543
+27	Knochen	Knochen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	compound	_	start_char=1544|end_char=1551
+28	-	-	PUNCT	$(	_	27	punct	_	start_char=1551|end_char=1552
+29	Schwund	Schwund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	conj	_	start_char=1552|end_char=1559
+30	-	-	PUNCT	$(	_	29	punct	_	start_char=1560|end_char=1561
+31	Zu	zu	ADP	APPR	_	33	case	_	start_char=1562|end_char=1564
+32	viel	viel	DET	PIAT	PronType=Ind	33	det	_	start_char=1565|end_char=1569
+33	Bewegung	Bewegung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	37	obl	_	start_char=1570|end_char=1578
+34	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	start_char=1579|end_char=1583
+35	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	36	det	_	start_char=1584|end_char=1588
+36	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	37	obj	_	start_char=1589|end_char=1597
+37	fördern	fördern	VERB	VVINF	VerbForm=Inf	20	parataxis	_	start_char=1598|end_char=1605
+38	.	.	PUNCT	$.	_	7	punct	_	start_char=1605|end_char=1606
+
+# text = Aber auch zu wenig Bewegung kann eine Arthrose fördern.
+# sent_id = 27
+1	Aber	aber	CCONJ	KON	_	9	cc	_	start_char=1607|end_char=1611
+2	auch	auch	ADV	ADV	_	9	advmod	_	start_char=1612|end_char=1616
+3	zu	zu	ADV	PTKA	_	4	advmod	_	start_char=1617|end_char=1619
+4	wenig	wenig	DET	PIAT	PronType=Ind	5	det	_	start_char=1620|end_char=1625
+5	Bewegung	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=1626|end_char=1634
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1635|end_char=1639
+7	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=1640|end_char=1644
+8	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=1645|end_char=1653
+9	fördern	fördern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1654|end_char=1661
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1661|end_char=1662
+
+# text = Frauen und Arthrose Frauen bekommen häufiger Arthrose als Männer.
+# sent_id = 28
+1	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=1664|end_char=1670
+2	und	und	CCONJ	KON	_	3	cc	_	start_char=1671|end_char=1674
+3	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	start_char=1675|end_char=1683
+4	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	start_char=1684|end_char=1690
+5	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1691|end_char=1699
+6	häufiger	häufig	ADJ	ADJD	Degree=Cmp	5	advmod	_	start_char=1700|end_char=1708
+7	Arthrose	Arthrose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=1709|end_char=1717
+8	als	als	ADP	KOKOM	_	9	case	_	start_char=1718|end_char=1721
+9	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nmod	_	start_char=1722|end_char=1728
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=1728|end_char=1729
+
+# text = Das gilt vor allem für Frauen in den Wechsel-Jahren.
+# sent_id = 29
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=1730|end_char=1733
+2	gilt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1734|end_char=1738
+3	vor	vor	ADP	APPR	_	4	case	_	start_char=1739|end_char=1742
+4	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	2	obl	_	start_char=1743|end_char=1748
+5	für	für	ADP	APPR	_	6	case	_	start_char=1749|end_char=1752
+6	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	start_char=1753|end_char=1759
+7	in	in	ADP	APPR	_	11	case	_	start_char=1760|end_char=1762
+8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=1763|end_char=1766
+9	Wechsel	Wechsel	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	compound	_	start_char=1767|end_char=1774
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=1774|end_char=1775
+11	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	start_char=1775|end_char=1781
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=1781|end_char=1782
+
+# text = Frauen in den Wechsel-Jahren bekommen bis zu zehnmal häufiger Arthrose als Männer.
+# sent_id = 30
+1	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=1783|end_char=1789
+2	in	in	ADP	APPR	_	6	case	_	start_char=1790|end_char=1792
+3	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=1793|end_char=1796
+4	Wechsel	Wechsel	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	compound	_	start_char=1797|end_char=1804
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1804|end_char=1805
+6	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	1	nmod	_	start_char=1805|end_char=1811
+7	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1812|end_char=1820
+8	bis	bis	ADP	ADV	_	10	case	_	start_char=1821|end_char=1824
+9	zu	zu	ADP	ADV	_	10	fixed	_	start_char=1825|end_char=1827
+10	zehnmal	zehnmal	ADV	ADV	_	11	advmod	_	start_char=1828|end_char=1835
+11	häufiger	häufig	ADJ	ADJD	Degree=Cmp	7	advmod	_	start_char=1836|end_char=1844
+12	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obj	_	start_char=1845|end_char=1853
+13	als	als	ADP	KOKOM	_	14	case	_	start_char=1854|end_char=1857
+14	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nmod	_	start_char=1858|end_char=1864
+15	.	.	PUNCT	$.	_	7	punct	_	start_char=1864|end_char=1865
+
+# text = Möglicherweise spielt der Hormon-Haus-Halt bei Frauen eine Rolle.
+# sent_id = 31
+1	Möglicherweise	möglicherweise	ADV	ADV	_	2	advmod	_	start_char=1866|end_char=1880
+2	spielt	spielen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1881|end_char=1887
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=1888|end_char=1891
+4	Hormon	Hormon	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	start_char=1892|end_char=1898
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1898|end_char=1899
+6	Haus	Haus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	start_char=1899|end_char=1903
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=1903|end_char=1904
+8	Halt	Halt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1904|end_char=1908
+9	bei	bei	ADP	APPR	_	10	case	_	start_char=1909|end_char=1912
+10	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=1913|end_char=1919
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=1920|end_char=1924
+12	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=1925|end_char=1930
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=1930|end_char=1931
+
+# text = Die Gene spielen auch eine Rolle.
+# sent_id = 32
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1933|end_char=1936
+2	Gene	Gen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1937|end_char=1941
+3	spielen	spielen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1942|end_char=1949
+4	auch	auch	ADV	ADV	_	3	advmod	_	start_char=1950|end_char=1954
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=1955|end_char=1959
+6	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=1960|end_char=1965
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1965|end_char=1966
+
+# text = Sind die Gene einer nahen Verwandten betroffen?
+# sent_id = 33
+1	Sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1967|end_char=1971
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=1972|end_char=1975
+3	Gene	Gen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=1976|end_char=1980
+4	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=1981|end_char=1986
+5	nahen	nah	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=1987|end_char=1992
+6	Verwandten	Verwandte|Verwandter	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	start_char=1993|end_char=2003
+7	betroffen	betreffen	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2004|end_char=2013
+8	?	?	PUNCT	$.	_	7	punct	_	start_char=2013|end_char=2014
+
+# text = Dann haben Sie ein höheres Risiko.
+# sent_id = 34
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=2015|end_char=2019
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2020|end_char=2025
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2026|end_char=2029
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=2030|end_char=2033
+5	höheres	hoch	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	6	amod	_	start_char=2034|end_char=2041
+6	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=2042|end_char=2048
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=2048|end_char=2049
+
+# text = Nach dem 50.
+# sent_id = 35
+1	Nach	nach	ADP	APPR	_	3	case	_	start_char=2051|end_char=2055
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=2056|end_char=2059
+3	50	50	NUM	CARD	NumType=Card	0	root	_	start_char=2060|end_char=2062
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=2062|end_char=2063
+
+# text = Lebens-Jahr verschlechtern sich die Gelenke.
+# sent_id = 36
+1	Lebens	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	compound	_	start_char=2064|end_char=2070
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=2070|end_char=2071
+3	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=2071|end_char=2075
+4	verschlechtern	verschlechtern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2076|end_char=2090
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=2091|end_char=2095
+6	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=2096|end_char=2099
+7	Gelenke	Gelenke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=2100|end_char=2107
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=2107|end_char=2108
+
+# text = Das passiert bei großen und kleinen Gelenken.
+# sent_id = 37
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=2109|end_char=2112
+2	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2113|end_char=2121
+3	bei	bei	ADP	APPR	_	7	case	_	start_char=2122|end_char=2125
+4	großen	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=2126|end_char=2132
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=2133|end_char=2136
+6	kleinen	klein	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	4	conj	_	start_char=2137|end_char=2144
+7	Gelenken	Gelenk	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	start_char=2145|end_char=2153
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=2153|end_char=2154
+
+# text = Aber das ist kein Zeichen für eine Krankheit.
+# sent_id = 38
+1	Aber	aber	CCONJ	KON	_	5	cc	_	start_char=2155|end_char=2159
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=2160|end_char=2163
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2164|end_char=2167
+4	kein	kein	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	5	det	_	start_char=2168|end_char=2172
+5	Zeichen	Zeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=2173|end_char=2180
+6	für	für	ADP	APPR	_	8	case	_	start_char=2181|end_char=2184
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=2185|end_char=2189
+8	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=2190|end_char=2199
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=2199|end_char=2200
+
+# text = Bei einer Arthrose sind die Gelenke betroffen.
+# sent_id = 39
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=2202|end_char=2205
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=2206|end_char=2211
+3	Arthrose	Arthrose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	start_char=2212|end_char=2220
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=2221|end_char=2225
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=2226|end_char=2229
+6	Gelenke	Gelenke	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	start_char=2230|end_char=2237
+7	betroffen	betreffen	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2238|end_char=2247
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=2247|end_char=2248
+
+# text = Was sind die Ursachen von Arthrose der Finger?
+# sent_id = 40
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obj	_	start_char=2250|end_char=2253
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2254|end_char=2258
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=2259|end_char=2262
+4	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2263|end_char=2271
+5	von	von	ADP	APPR	_	6	case	_	start_char=2272|end_char=2275
+6	Arthrose	Arthrose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	start_char=2276|end_char=2284
+7	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=2285|end_char=2288
+8	Finger	Finger	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=2289|end_char=2295
+9	?	?	PUNCT	$.	_	2	punct	_	start_char=2295|end_char=2296
+
+# text = Arthrose der Finger kann verschiedene Ursachen haben.
+# sent_id = 41
+1	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=2297|end_char=2305
+2	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=2306|end_char=2309
+3	Finger	Finger	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=2310|end_char=2316
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=2317|end_char=2321
+5	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=2322|end_char=2334
+6	Ursachen	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=2335|end_char=2343
+7	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=2344|end_char=2349
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=2349|end_char=2350
+
+# text = Zu den möglichen Ursachen gehören zum Beispiel: - Heberden-Arthrose: Diese Form der Arthrose betrifft die Fingerendgelenke.
+# sent_id = 42
+1	Zu	zu	ADP	APPR	_	4	case	_	start_char=2351|end_char=2353
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=2354|end_char=2357
+3	möglichen	möglich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=2358|end_char=2367
+4	Ursachen	Ursache	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	start_char=2368|end_char=2376
+5	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2377|end_char=2384
+6-7	zum	_	_	_	_	_	_	_	start_char=2385|end_char=2388
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=2389|end_char=2397
+9	:	:	PUNCT	$.	_	11	punct	_	start_char=2397|end_char=2398
+10	-	-	PUNCT	$(	_	11	punct	_	start_char=2399|end_char=2400
+11	Heberden	Heberden	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=2401|end_char=2409
+12	-	-	PUNCT	$(	_	13	punct	_	start_char=2409|end_char=2410
+13	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	flat	_	start_char=2410|end_char=2418
+14	:	:	PUNCT	$.	_	19	punct	_	start_char=2418|end_char=2419
+15	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	start_char=2420|end_char=2425
+16	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	start_char=2426|end_char=2430
+17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=2431|end_char=2434
+18	Arthrose	Arthrose	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=2435|end_char=2443
+19	betrifft	betreffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=2444|end_char=2452
+20	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	21	det	_	start_char=2453|end_char=2456
+21	Fingerendgelenke	Fingerendgelenke	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	19	obj	_	start_char=2457|end_char=2473
+22	.	.	PUNCT	$.	_	5	punct	_	start_char=2473|end_char=2474
+
+# text = - Bouchard-Arthrose: Diese Form der Arthrose betrifft die Fingermittelgelenke.
+# sent_id = 43
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2475|end_char=2476
+2	Bouchard	Bouchard	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=2477|end_char=2485
+3	-	-	PUNCT	$(	_	4	punct	_	start_char=2485|end_char=2486
+4	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	start_char=2486|end_char=2494
+5	:	:	PUNCT	$.	_	2	punct	_	start_char=2494|end_char=2495
+6	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=2496|end_char=2501
+7	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=2502|end_char=2506
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=2507|end_char=2510
+9	Arthrose	Arthrose	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=2511|end_char=2519
+10	betrifft	betreffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2520|end_char=2528
+11	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=2529|end_char=2532
+12	Fingermittelgelenke	Fingermittelgelenke	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	start_char=2533|end_char=2552
+13	.	.	PUNCT	$.	_	10	punct	_	start_char=2552|end_char=2553
+
+# text = - Rhizarthrose: Diese Form der Arthrose betrifft das Daumensattelgelenk.
+# sent_id = 44
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2554|end_char=2555
+2	Rhizarthrose	Rhizarthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=2556|end_char=2568
+3	:	:	PUNCT	$.	_	8	punct	_	start_char=2568|end_char=2569
+4	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=2570|end_char=2575
+5	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=2576|end_char=2580
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2581|end_char=2584
+7	Arthrose	Arthrose	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=2585|end_char=2593
+8	betrifft	betreffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2594|end_char=2602
+9	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=2603|end_char=2606
+10	Daumensattelgelenk	Daumensattelgelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	obj	_	start_char=2607|end_char=2625
+11	.	.	PUNCT	$.	_	8	punct	_	start_char=2625|end_char=2626
+
+# text = Arthrose des Handgelenks: - Das Handgelenk ist zwischen der Speiche und dem Kahn-Bein.
+# sent_id = 45
+1	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2628|end_char=2636
+2	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=2637|end_char=2640
+3	Handgelenks	Handgelenk	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=2641|end_char=2652
+4	:	:	PUNCT	$.	_	1	punct	_	start_char=2652|end_char=2653
+5	-	-	PUNCT	$(	_	7	punct	_	start_char=2654|end_char=2655
+6	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=2656|end_char=2659
+7	Handgelenk	Handgelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	start_char=2660|end_char=2670
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=2671|end_char=2674
+9	zwischen	zwischen	ADP	APPR	_	11	case	_	start_char=2675|end_char=2683
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=2684|end_char=2687
+11	Speiche	Speich	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=2688|end_char=2695
+12	und	und	CCONJ	KON	_	14	cc	_	start_char=2696|end_char=2699
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=2700|end_char=2703
+14	Kahn	Kahn	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	conj	_	start_char=2704|end_char=2708
+15	-	-	PUNCT	$(	_	16	punct	_	start_char=2708|end_char=2709
+16	Bein	Bein	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	flat	_	start_char=2709|end_char=2713
+17	.	.	PUNCT	$.	_	1	punct	_	start_char=2713|end_char=2714
+
+# text = Oder das Handgelenk ist zwischen der Speiche und dem Elle.
+# sent_id = 46
+1	Oder	Oder	CCONJ	KON	_	4	cc	_	start_char=2715|end_char=2719
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=2720|end_char=2723
+3	Handgelenk	Handgelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=2724|end_char=2734
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2735|end_char=2738
+5	zwischen	zwischen	ADP	APPR	_	7	case	_	start_char=2739|end_char=2747
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2748|end_char=2751
+7	Speiche	Speich	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=2752|end_char=2759
+8	und	und	CCONJ	KON	_	10	cc	_	start_char=2760|end_char=2763
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=2764|end_char=2767
+10	Elle	Elle	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	conj	_	start_char=2768|end_char=2772
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=2772|end_char=2773
+
+# text = Bei Arthrose der Hand und der Finger können diese Anzeichen auftreten:
+# sent_id = 47
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=2775|end_char=2778
+2	Arthrose	Arthrose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	start_char=2779|end_char=2787
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2788|end_char=2791
+4	Hand	Hand	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=2792|end_char=2796
+5	und	und	CCONJ	KON	_	7	cc	_	start_char=2797|end_char=2800
+6	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=2801|end_char=2804
+7	Finger	Finger	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	conj	_	start_char=2805|end_char=2811
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=2812|end_char=2818
+9	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	10	det	_	start_char=2819|end_char=2824
+10	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=2825|end_char=2834
+11	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2835|end_char=2844
+12	:	:	PUNCT	$.	_	11	punct	_	start_char=2844|end_char=2845
+
+# text = Eine Arthrose entwickelt sich schleichend.
+# sent_id = 48
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=2847|end_char=2851
+2	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2852|end_char=2860
+3	entwickelt	entwickeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2861|end_char=2871
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=2872|end_char=2876
+5	schleichend	schleichend	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=2877|end_char=2888
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=2888|end_char=2889
+
+# text = Oft haben betroffene Personen zuerst keine Beschwerden.
+# sent_id = 49
+1	Oft	oft	ADV	ADV	_	2	advmod	_	start_char=2890|end_char=2893
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2894|end_char=2899
+3	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=2900|end_char=2910
+4	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2911|end_char=2919
+5	zuerst	zuerst	ADV	ADV	_	2	advmod	_	start_char=2920|end_char=2926
+6	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	7	det	_	start_char=2927|end_char=2932
+7	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=2933|end_char=2944
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=2944|end_char=2945
+
+# text = Deshalb bemerken die betroffenen Personen die Arthrose oft nicht.
+# sent_id = 50
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=2946|end_char=2953
+2	bemerken	bemerken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2954|end_char=2962
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=2963|end_char=2966
+4	betroffenen	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=2967|end_char=2978
+5	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2979|end_char=2987
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2988|end_char=2991
+7	Arthrose	Arthrose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2992|end_char=3000
+8	oft	oft	ADV	ADV	_	2	advmod	_	start_char=3001|end_char=3004
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=3005|end_char=3010
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=3010|end_char=3011
+
+# text = Die Arthrose bleibt lange stumm.
+# sent_id = 51
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=3012|end_char=3015
+2	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=3016|end_char=3024
+3	bleibt	bleiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3025|end_char=3031
+4	lange	lange	ADV	ADV	_	3	advmod	_	start_char=3032|end_char=3037
+5	stumm	stumm	ADJ	ADJD	Degree=Pos	3	xcomp	_	start_char=3038|end_char=3043
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=3043|end_char=3044
+
+# text = Deshalb kann die Arthrose erst spät entdeckt werden.
+# sent_id = 52
+1	Deshalb	deshalb	ADV	PAV	_	7	advmod	_	start_char=3045|end_char=3052
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=3053|end_char=3057
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=3058|end_char=3061
+4	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	start_char=3062|end_char=3070
+5	erst	erst	ADV	ADV	_	6	advmod	_	start_char=3071|end_char=3075
+6	spät	spät	ADV	ADJD	_	7	advmod	_	start_char=3076|end_char=3080
+7	entdeckt	entdecken	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3081|end_char=3089
+8	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	7	aux:pass	_	start_char=3090|end_char=3096
+9	.	.	PUNCT	$.	_	7	punct	_	start_char=3096|end_char=3097
+
+# text = Wie stark die Arthrose ist, ist bei jedem Menschen unterschiedlich.
+# sent_id = 53
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	start_char=3098|end_char=3101
+2	stark	stark	ADJ	ADJD	Degree=Pos	11	csubj	_	start_char=3102|end_char=3107
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=3108|end_char=3111
+4	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=3112|end_char=3120
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=3121|end_char=3124
+6	,	,	PUNCT	$,	_	2	punct	_	start_char=3124|end_char=3125
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=3126|end_char=3129
+8	bei	bei	ADP	APPR	_	10	case	_	start_char=3130|end_char=3133
+9	jedem	jeder	DET	PIAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	10	det	_	start_char=3134|end_char=3139
+10	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	start_char=3140|end_char=3148
+11	unterschiedlich	unterschiedlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3149|end_char=3164
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=3164|end_char=3165
+
+# text = Die Gelenke können sich verändern.
+# sent_id = 54
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=3167|end_char=3170
+2	Gelenke	Gelenke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=3171|end_char=3178
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3179|end_char=3185
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=3186|end_char=3190
+5	verändern	verändern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3191|end_char=3200
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=3200|end_char=3201
+
+# text = Das kann zum Beispiel auf einem Röntgenbild zu sehen sein.
+# sent_id = 55
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	10	nsubj:pass	_	start_char=3202|end_char=3205
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=3206|end_char=3210
+3-4	zum	_	_	_	_	_	_	_	start_char=3211|end_char=3214
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=3215|end_char=3223
+6	auf	auf	ADP	APPR	_	8	case	_	start_char=3224|end_char=3227
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=3228|end_char=3233
+8	Röntgenbild	Röntgenbild	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=3234|end_char=3245
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=3246|end_char=3248
+10	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3249|end_char=3254
+11	sein	sein	AUX	VAINF	VerbForm=Inf	10	aux:pass	_	start_char=3255|end_char=3259
+12	.	.	PUNCT	$.	_	10	punct	_	start_char=3259|end_char=3260
+
+# text = Aber die Veränderungen am Gelenk sagen nicht immer etwas über die Beschwerden aus.
+# sent_id = 56
+1	Aber	aber	CCONJ	KON	_	7	cc	_	start_char=3261|end_char=3265
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=3266|end_char=3269
+3	Veränderungen	Veränderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=3270|end_char=3283
+4-5	am	_	_	_	_	_	_	_	start_char=3284|end_char=3286
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Gelenk	Gelenk	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	start_char=3287|end_char=3293
+7	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3294|end_char=3299
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=3300|end_char=3305
+9	immer	immer	ADV	ADV	_	7	advmod	_	start_char=3306|end_char=3311
+10	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	7	obj	_	start_char=3312|end_char=3317
+11	über	über	ADP	APPR	_	13	case	_	start_char=3318|end_char=3322
+12	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=3323|end_char=3326
+13	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	nmod	_	start_char=3327|end_char=3338
+14	aus	aus	ADP	PTKVZ	_	7	compound:prt	_	start_char=3339|end_char=3342
+15	.	.	PUNCT	$.	_	7	punct	_	start_char=3342|end_char=3343
+
+# text = Die Gelenke können sich verändern.
+# sent_id = 57
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=3344|end_char=3347
+2	Gelenke	Gelenke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=3348|end_char=3355
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3356|end_char=3362
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=3363|end_char=3367
+5	verändern	verändern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3368|end_char=3377
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=3377|end_char=3378
+
+# text = Trotzdem haben die betroffenen Personen keine Schmerzen.
+# sent_id = 58
+1	Trotzdem	trotzdem	ADV	PAV	_	2	advmod	_	start_char=3379|end_char=3387
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3388|end_char=3393
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=3394|end_char=3397
+4	betroffenen	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=3398|end_char=3409
+5	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=3410|end_char=3418
+6	keine	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Neg	7	det	_	start_char=3419|end_char=3424
+7	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=3425|end_char=3434
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=3434|end_char=3435
+
+# text = Oder die Gelenke verändern sich nicht.
+# sent_id = 59
+1	Oder	Oder	CCONJ	KON	_	4	cc	_	start_char=3436|end_char=3440
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=3441|end_char=3444
+3	Gelenke	Gelenke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=3445|end_char=3452
+4	verändern	verändern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3453|end_char=3462
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=3463|end_char=3467
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=3468|end_char=3473
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=3473|end_char=3474
+
+# text = Aber die betroffenen Personen haben starke Schmerzen.
+# sent_id = 60
+1	Aber	aber	CCONJ	KON	_	5	cc	_	start_char=3475|end_char=3479
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=3480|end_char=3483
+3	betroffenen	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=3484|end_char=3495
+4	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=3496|end_char=3504
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3505|end_char=3510
+6	starke	stark	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=3511|end_char=3517
+7	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=3518|end_char=3527
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=3527|end_char=3528
+
+# text = Die Anzeichen für Arthrose der Finger sind oft schleichend.
+# sent_id = 61
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=3530|end_char=3533
+2	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=3534|end_char=3543
+3	für	für	ADP	APPR	_	4	case	_	start_char=3544|end_char=3547
+4	Arthrose	Arthrose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=3548|end_char=3556
+5	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=3557|end_char=3560
+6	Finger	Finger	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=3561|end_char=3567
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=3568|end_char=3572
+8	oft	oft	ADV	ADV	_	9	advmod	_	start_char=3573|end_char=3576
+9	schleichend	schleichend	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3577|end_char=3588
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3588|end_char=3589
+
+# text = Die Anzeichen sind zum Beispiel: - Morgens fühlen sich die Finger steif an.
+# sent_id = 62
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=3590|end_char=3593
+2	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=3594|end_char=3603
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3604|end_char=3608
+4-5	zum	_	_	_	_	_	_	_	start_char=3609|end_char=3612
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=3613|end_char=3621
+7	:	:	PUNCT	$.	_	10	punct	_	start_char=3621|end_char=3622
+8	-	-	PUNCT	$(	_	9	punct	_	start_char=3623|end_char=3624
+9	Morgens	morgens	ADV	ADV	_	10	advmod	_	start_char=3625|end_char=3632
+10	fühlen	fühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=3633|end_char=3639
+11	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	start_char=3640|end_char=3644
+12	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=3645|end_char=3648
+13	Finger	Finger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=3649|end_char=3655
+14	steif	steif	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=3656|end_char=3661
+15	an	an	ADP	PTKVZ	_	10	compound:prt	_	start_char=3662|end_char=3664
+16	.	.	PUNCT	$.	_	10	punct	_	start_char=3664|end_char=3665
+
+# text = - Morgens schwellen die Finger an.
+# sent_id = 63
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=3666|end_char=3667
+2	Morgens	morgens	ADV	ADV	_	3	advmod	_	start_char=3668|end_char=3675
+3	schwellen	schwellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3676|end_char=3685
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=3686|end_char=3689
+5	Finger	Finger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3690|end_char=3696
+6	an	an	ADP	PTKVZ	_	3	compound:prt	_	start_char=3697|end_char=3699
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=3699|end_char=3700
+
+# text = - Morgens fällt es schwer, eine Faust zu bilden.
+# sent_id = 64
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=3701|end_char=3702
+2	Morgens	morgens	ADV	ADV	_	3	advmod	_	start_char=3703|end_char=3710
+3	fällt	fallen|fällen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3711|end_char=3716
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=3717|end_char=3719
+5	schwer	schwer	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=3720|end_char=3726
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=3726|end_char=3727
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=3728|end_char=3732
+8	Faust	Faust	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=3733|end_char=3738
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=3739|end_char=3741
+10	bilden	bilden	VERB	VVINF	VerbForm=Inf	3	xcomp	_	start_char=3742|end_char=3748
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=3748|end_char=3749
+
+# text = - Morgens tun die Finger weh. - Morgens kann man die Finger nicht mehr so gut bewegen.
+# sent_id = 65
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=3750|end_char=3751
+2	Morgens	morgens	ADV	ADV	_	3	advmod	_	start_char=3752|end_char=3759
+3	tun	tun	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3760|end_char=3763
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=3764|end_char=3767
+5	Finger	Finger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3768|end_char=3774
+6	weh	weh	ADV	ADV	_	3	advmod	_	start_char=3775|end_char=3778
+7	.	.	PUNCT	$.	_	9	punct	_	start_char=3778|end_char=3779
+8	-	-	PUNCT	$(	_	9	punct	_	start_char=3780|end_char=3781
+9	Morgens	Morgen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=3782|end_char=3789
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=3790|end_char=3794
+11	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	18	nsubj	_	start_char=3795|end_char=3798
+12	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=3799|end_char=3802
+13	Finger	Finger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	18	obj	_	start_char=3803|end_char=3809
+14	nicht	nicht	PART	PTKNEG	Polarity=Neg	18	advmod	_	start_char=3810|end_char=3815
+15	mehr	mehr	ADV	ADV	_	14	advmod	_	start_char=3816|end_char=3820
+16	so	so	ADV	ADV	_	17	advmod	_	start_char=3821|end_char=3823
+17	gut	gut	ADV	ADJD	_	18	advmod	_	start_char=3824|end_char=3827
+18	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	3	conj	_	start_char=3828|end_char=3835
+19	.	.	PUNCT	$.	_	3	punct	_	start_char=3835|end_char=3836
+
+# text = Die Finger werden immer steifer?
+# sent_id = 66
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=3837|end_char=3840
+2	Finger	Finger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3841|end_char=3847
+3	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3848|end_char=3854
+4	immer	immer	ADV	ADV	_	5	advmod	_	start_char=3855|end_char=3860
+5	steifer	steif	ADJ	ADJD	Degree=Cmp	3	xcomp	_	start_char=3861|end_char=3868
+6	?	?	PUNCT	$.	_	3	punct	_	start_char=3868|end_char=3869
+
+# text = Und die Beweglichkeit nimmt ab?
+# sent_id = 67
+1	Und	und	CCONJ	KON	_	4	cc	_	start_char=3870|end_char=3873
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3874|end_char=3877
+3	Beweglichkeit	Beweglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=3878|end_char=3891
+4	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3892|end_char=3897
+5	ab	ab	ADP	PTKVZ	_	4	compound:prt	_	start_char=3898|end_char=3900
+6	?	?	PUNCT	$.	_	4	punct	_	start_char=3900|end_char=3901
+
+# text = Dann können die Finger auch schmerzen.
+# sent_id = 68
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=3902|end_char=3906
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=3907|end_char=3913
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=3914|end_char=3917
+4	Finger	Finger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=3918|end_char=3924
+5	auch	auch	ADV	ADV	_	6	advmod	_	start_char=3925|end_char=3929
+6	schmerzen	schmerzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3930|end_char=3939
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=3939|end_char=3940
+
+# text = Die Finger können auch anschwellen.
+# sent_id = 69
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=3941|end_char=3944
+2	Finger	Finger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=3945|end_char=3951
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3952|end_char=3958
+4	auch	auch	ADV	ADV	_	5	advmod	_	start_char=3959|end_char=3963
+5	anschwellen	anschwellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3964|end_char=3975
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=3975|end_char=3976
+
+# text = Dann heißen die Finger: aktivierte Arthrose.
+# sent_id = 70
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=3977|end_char=3981
+2	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3982|end_char=3988
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=3989|end_char=3992
+4	Finger	Finger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=3993|end_char=3999
+5	:	:	PUNCT	$.	_	7	punct	_	start_char=3999|end_char=4000
+6	aktivierte	aktiviert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=4001|end_char=4011
+7	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	start_char=4012|end_char=4020
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=4020|end_char=4021
+
+# text = Bei einer Arthrose am Fingerendgelenk kann sich eine Zyste bilden.
+# sent_id = 71
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=4023|end_char=4026
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=4027|end_char=4032
+3	Arthrose	Arthrose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	start_char=4033|end_char=4041
+4-5	am	_	_	_	_	_	_	_	start_char=4042|end_char=4044
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Fingerendgelenk	Fingerendgelenk	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	start_char=4045|end_char=4060
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=4061|end_char=4065
+8	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	start_char=4066|end_char=4070
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=4071|end_char=4075
+10	Zyste	Zyste	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=4076|end_char=4081
+11	bilden	bilden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4082|end_char=4088
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=4088|end_char=4089
+
+# text = Eine Zyste ist eine verdickte Stelle.
+# sent_id = 72
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=4090|end_char=4094
+2	Zyste	Zyste	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=4095|end_char=4100
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4101|end_char=4104
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=4105|end_char=4109
+5	verdickte	verdickt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=4110|end_char=4119
+6	Stelle	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=4120|end_char=4126
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4126|end_char=4127
+
+# text = Aus der Zyste kann gallertartige Flüssigkeit austreten.
+# sent_id = 73
+1	Aus	aus	ADP	APPR	_	3	case	_	start_char=4128|end_char=4131
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=4132|end_char=4135
+3	Zyste	Zyste	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=4136|end_char=4141
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=4142|end_char=4146
+5	gallertartige	gallertartig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=4147|end_char=4160
+6	Flüssigkeit	Flüssigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=4161|end_char=4172
+7	austreten	austreten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4173|end_char=4182
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=4182|end_char=4183
+
+# text = Im späteren Verlauf können sich die Knochen an den betroffenen Stellen verformen.
+# sent_id = 74
+1-2	Im	_	_	_	_	_	_	_	start_char=4184|end_char=4186
+1	In	in	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	späteren	spät	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Masc|Number=Sing	4	amod	_	start_char=4187|end_char=4195
+4	Verlauf	Verlauf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	start_char=4196|end_char=4203
+5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=4204|end_char=4210
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	start_char=4211|end_char=4215
+7	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=4216|end_char=4219
+8	Knochen	Knochen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=4220|end_char=4227
+9	an	an	ADP	APPR	_	12	case	_	start_char=4228|end_char=4230
+10	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=4231|end_char=4234
+11	betroffenen	betroffen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=4235|end_char=4246
+12	Stellen	Stelle|Stellen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	start_char=4247|end_char=4254
+13	verformen	verfermen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4255|end_char=4264
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=4264|end_char=4265
+
+# text = Die Knochen können dann nach außen oder nach innen wachsen.
+# sent_id = 75
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=4266|end_char=4269
+2	Knochen	Knochen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=4270|end_char=4277
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=4278|end_char=4284
+4	dann	dann	ADV	ADV	_	10	advmod	_	start_char=4285|end_char=4289
+5	nach	nach	ADP	APPR	_	6	case	_	start_char=4290|end_char=4294
+6	außen	außen	ADV	ADV	_	10	advmod	_	start_char=4295|end_char=4300
+7	oder	oder	CCONJ	KON	_	9	cc	_	start_char=4301|end_char=4305
+8	nach	nach	ADP	APPR	_	9	case	_	start_char=4306|end_char=4310
+9	innen	innen	ADV	ADV	_	6	conj	_	start_char=4311|end_char=4316
+10	wachsen	wachsen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4317|end_char=4324
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=4324|end_char=4325
+
+# text = Eine Sattelgelenksarthrose am Daumen verursacht oft Schmerzen bei All-Tags-Arbeiten.
+# sent_id = 76
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=4326|end_char=4330
+2	Sattelgelenksarthrose	Sattelgelenksarthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=4331|end_char=4352
+3-4	am	_	_	_	_	_	_	_	start_char=4353|end_char=4355
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Daumen	Daumen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	start_char=4356|end_char=4362
+6	verursacht	verursachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4363|end_char=4373
+7	oft	oft	ADV	ADV	_	6	advmod	_	start_char=4374|end_char=4377
+8	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=4378|end_char=4387
+9	bei	bei	ADP	APPR	_	14	case	_	start_char=4388|end_char=4391
+10	All	All	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	compound	_	start_char=4392|end_char=4395
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=4395|end_char=4396
+12	Tags	Tag	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	compound	_	start_char=4396|end_char=4400
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=4400|end_char=4401
+14	Arbeiten	Arbeit|Arbeiten	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	start_char=4401|end_char=4409
+15	.	.	PUNCT	$.	_	6	punct	_	start_char=4409|end_char=4410
+
+# text = Dazu gehören zum Beispiel: - das Öffnen von Flaschen - das Drehen von Schraubverschlüssen - das Heben von schweren Töpfen
+# sent_id = 77
+1	Dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	start_char=4411|end_char=4415
+2	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4416|end_char=4423
+3-4	zum	_	_	_	_	_	_	_	start_char=4424|end_char=4427
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=4428|end_char=4436
+6	:	:	PUNCT	$.	_	9	punct	_	start_char=4436|end_char=4437
+7	-	-	PUNCT	$(	_	9	punct	_	start_char=4438|end_char=4439
+8	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=4440|end_char=4443
+9	Öffnen	Öffne	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=4444|end_char=4450
+10	von	von	ADP	APPR	_	11	case	_	start_char=4451|end_char=4454
+11	Flaschen	Flasche	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	start_char=4455|end_char=4463
+12	-	-	PUNCT	$(	_	14	punct	_	start_char=4464|end_char=4465
+13	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	start_char=4466|end_char=4469
+14	Drehen	Drehen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	conj	_	start_char=4470|end_char=4476
+15	von	von	ADP	APPR	_	16	case	_	start_char=4477|end_char=4480
+16	Schraubverschlüssen	Schraubverschluß	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	start_char=4481|end_char=4500
+17	-	-	PUNCT	$(	_	19	punct	_	start_char=4501|end_char=4502
+18	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	start_char=4503|end_char=4506
+19	Heben	Heben	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	conj	_	start_char=4507|end_char=4512
+20	von	von	ADP	APPR	_	22	case	_	start_char=4513|end_char=4516
+21	schweren	schwer	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	22	amod	_	start_char=4517|end_char=4525
+22	Töpfen	Topfe	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	19	nmod	_	start_char=4526|end_char=4532
+
+# text = Bei einer Sattelgelenksarthrose am Daumen ist das Gelenk sehr beweglich.
+# sent_id = 78
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=4533|end_char=4536
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=4537|end_char=4542
+3	Sattelgelenksarthrose	Sattelgelenksarthrose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	start_char=4543|end_char=4564
+4-5	am	_	_	_	_	_	_	_	start_char=4565|end_char=4567
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Daumen	Daumen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	start_char=4568|end_char=4574
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=4575|end_char=4578
+8	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=4579|end_char=4582
+9	Gelenk	Gelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=4583|end_char=4589
+10	sehr	sehr	ADV	ADV	_	11	advmod	_	start_char=4590|end_char=4594
+11	beweglich	beweglich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4595|end_char=4604
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=4604|end_char=4605
+
+# text = Deshalb ist das Gelenk bei vielen Bewegungen betroffen.
+# sent_id = 79
+1	Deshalb	deshalb	ADV	PAV	_	8	advmod	_	start_char=4606|end_char=4613
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=4614|end_char=4617
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=4618|end_char=4621
+4	Gelenk	Gelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=4622|end_char=4628
+5	bei	bei	ADP	APPR	_	7	case	_	start_char=4629|end_char=4632
+6	vielen	viel	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	start_char=4633|end_char=4639
+7	Bewegungen	Bewegung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	start_char=4640|end_char=4650
+8	betroffen	betreffen	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4651|end_char=4660
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=4660|end_char=4661
+
+# text = Eine Arthrose des Handgelenks kann verschiedene Ursachen haben.
+# sent_id = 80
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=4663|end_char=4667
+2	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=4668|end_char=4676
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=4677|end_char=4680
+4	Handgelenks	Handgelenk	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=4681|end_char=4692
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=4693|end_char=4697
+6	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=4698|end_char=4710
+7	Ursachen	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=4711|end_char=4719
+8	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=4720|end_char=4725
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=4725|end_char=4726
+
+# text = Zu den Ursachen gehören zum Beispiel: - Knochen-Brüche - Rheuma
+# sent_id = 81
+1	Zu	zu	ADP	APPR	_	3	case	_	start_char=4727|end_char=4729
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=4730|end_char=4733
+3	Ursachen	Ursache	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=4734|end_char=4742
+4	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4743|end_char=4750
+5-6	zum	_	_	_	_	_	_	_	start_char=4751|end_char=4754
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=4755|end_char=4763
+8	:	:	PUNCT	$.	_	14	punct	_	start_char=4763|end_char=4764
+9	-	-	PUNCT	$(	_	10	punct	_	start_char=4765|end_char=4766
+10	Knochen	Knochen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	compound	_	start_char=4767|end_char=4774
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=4774|end_char=4775
+12	Brüche	Bruch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	compound	_	start_char=4775|end_char=4781
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=4782|end_char=4783
+14	Rheuma	Rheuma	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=4784|end_char=4790
+
+# text = Eine Arthrose des Handgelenks kann im fortgeschrittenen Stadium zu Schwellungen und Schmerzen führen.
+# sent_id = 82
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=4791|end_char=4795
+2	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=4796|end_char=4804
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=4805|end_char=4808
+4	Handgelenks	Handgelenk	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=4809|end_char=4820
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=4821|end_char=4825
+6-7	im	_	_	_	_	_	_	_	start_char=4826|end_char=4828
+6	in	in	ADP	APPR	_	9	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+8	fortgeschrittenen	fortgeschritten	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=4829|end_char=4846
+9	Stadium	Stadium	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	start_char=4847|end_char=4854
+10	zu	zu	ADP	APPR	_	11	case	_	start_char=4855|end_char=4857
+11	Schwellungen	Schwellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	obl	_	start_char=4858|end_char=4870
+12	und	und	CCONJ	KON	_	13	cc	_	start_char=4871|end_char=4874
+13	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	conj	_	start_char=4875|end_char=4884
+14	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4885|end_char=4891
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=4891|end_char=4892
+
+# text = Die betroffene Person kann das Handgelenk dann nicht mehr so gut bewegen.
+# sent_id = 83
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=4893|end_char=4896
+2	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=4897|end_char=4907
+3	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=4908|end_char=4914
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=4915|end_char=4919
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=4920|end_char=4923
+6	Handgelenk	Handgelenk	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=4924|end_char=4934
+7	dann	dann	ADV	ADV	_	12	advmod	_	start_char=4935|end_char=4939
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=4940|end_char=4945
+9	mehr	mehr	ADV	ADV	_	8	advmod	_	start_char=4946|end_char=4950
+10	so	so	ADV	ADV	_	11	advmod	_	start_char=4951|end_char=4953
+11	gut	gut	ADV	ADJD	_	12	advmod	_	start_char=4954|end_char=4957
+12	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4958|end_char=4965
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=4965|end_char=4966
+
+# text = Sie kann das Handgelenk zum Beispiel nicht mehr so gut biegen oder strecken.
+# sent_id = 84
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=4967|end_char=4970
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=4971|end_char=4975
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=4976|end_char=4979
+4	Handgelenk	Handgelenk	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=4980|end_char=4990
+5-6	zum	_	_	_	_	_	_	_	start_char=4991|end_char=4994
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	start_char=4995|end_char=5003
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=5004|end_char=5009
+9	mehr	mehr	ADV	ADV	_	8	advmod	_	start_char=5010|end_char=5014
+10	so	so	ADV	ADV	_	11	advmod	_	start_char=5015|end_char=5017
+11	gut	gut	ADV	ADJD	_	12	advmod	_	start_char=5018|end_char=5021
+12	biegen	biegen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5022|end_char=5028
+13	oder	oder	CCONJ	KON	_	14	cc	_	start_char=5029|end_char=5033
+14	strecken	strecken	VERB	VVINF	VerbForm=Inf	12	conj	_	start_char=5034|end_char=5042
+15	.	.	PUNCT	$.	_	12	punct	_	start_char=5042|end_char=5043
+
+# text = Und sie kann das Handgelenk nicht mehr so gut um die eigene Achse drehen.
+# sent_id = 85
+1	Und	und	CCONJ	KON	_	14	cc	_	start_char=5044|end_char=5047
+2	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=5048|end_char=5051
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=5052|end_char=5056
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=5057|end_char=5060
+5	Handgelenk	Handgelenk	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	start_char=5061|end_char=5071
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	start_char=5072|end_char=5077
+7	mehr	mehr	ADV	ADV	_	6	advmod	_	start_char=5078|end_char=5082
+8	so	so	ADV	ADV	_	9	advmod	_	start_char=5083|end_char=5085
+9	gut	gut	ADV	ADJD	_	14	advmod	_	start_char=5086|end_char=5089
+10	um	um	ADP	APPR	_	13	case	_	start_char=5090|end_char=5092
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=5093|end_char=5096
+12	eigene	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=5097|end_char=5103
+13	Achse	Achse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	start_char=5104|end_char=5109
+14	drehen	drehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5110|end_char=5116
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=5116|end_char=5117
+
+# text = Was passiert bei einem Gelenkverschleiß?
+# sent_id = 86
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	nsubj	_	start_char=5119|end_char=5122
+2	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5123|end_char=5131
+3	bei	bei	ADP	APPR	_	5	case	_	start_char=5132|end_char=5135
+4	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=5136|end_char=5141
+5	Gelenkverschleiß	Gelenkverschleiß	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=5142|end_char=5158
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=5158|end_char=5159
+
+# text = Unsere Gelenke sind wie Schar-Niere.
+# sent_id = 87
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=5160|end_char=5166
+2	Gelenke	Gelenke	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	start_char=5167|end_char=5174
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=5175|end_char=5179
+4	wie	wie	ADP	KOKOM	_	7	case	_	start_char=5180|end_char=5183
+5	Schar	Schar	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	compound	_	start_char=5184|end_char=5189
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=5189|end_char=5190
+7	Niere	Niere	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=5190|end_char=5195
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=5195|end_char=5196
+
+# text = Sie verbinden unsere Knochen miteinander und ermöglichen Bewegungen.
+# sent_id = 88
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=5197|end_char=5200
+2	verbinden	verbinden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5201|end_char=5210
+3	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=5211|end_char=5217
+4	Knochen	Knochen	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=5218|end_char=5225
+5	miteinander	miteinander	ADV	ADV	_	2	advmod	_	start_char=5226|end_char=5237
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=5238|end_char=5241
+7	ermöglichen	ermöglichen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=5242|end_char=5253
+8	Bewegungen	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=5254|end_char=5264
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=5264|end_char=5265
+
+# text = Eine Kapsel aus Bindegewebe umschließt die beiden Knochen-Enden.
+# sent_id = 89
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=5266|end_char=5270
+2	Kapsel	Kapsel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=5271|end_char=5277
+3	aus	aus	ADP	APPR	_	4	case	_	start_char=5278|end_char=5281
+4	Bindegewebe	Bindegewebe	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	start_char=5282|end_char=5293
+5	umschließt	umschließen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5294|end_char=5304
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=5305|end_char=5308
+7	beiden	beide	DET	PIAT	Case=Acc|Gender=Masc|NumType=Card|Number=Plur|PronType=Tot	10	det	_	start_char=5309|end_char=5315
+8	Knochen	Knochen	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	compound	_	start_char=5316|end_char=5323
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=5323|end_char=5324
+10	Enden	Ende|Enden	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=5324|end_char=5329
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=5329|end_char=5330
+
+# text = Die Innenseite der Kapsel ist mit der Gelenkinnenhaut ausgekleidet.
+# sent_id = 90
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5331|end_char=5334
+2	Innenseite	Innenseite	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=5335|end_char=5345
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=5346|end_char=5349
+4	Kapsel	Kapsel	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=5350|end_char=5356
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=5357|end_char=5360
+6	mit	mit	ADP	APPR	_	8	case	_	start_char=5361|end_char=5364
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=5365|end_char=5368
+8	Gelenkinnenhaut	Gelenkinnenhaut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	start_char=5369|end_char=5384
+9	ausgekleidet	auskleiden	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=5385|end_char=5397
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=5397|end_char=5398
+
+# text = Die Gelenkinnenhaut produziert Gelenkflüssigkeit.
+# sent_id = 91
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5399|end_char=5402
+2	Gelenkinnenhaut	Gelenkinnenhaut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5403|end_char=5418
+3	produziert	produzieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5419|end_char=5429
+4	Gelenkflüssigkeit	Gelenkflüssigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=5430|end_char=5447
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=5447|end_char=5448
+
+# text = Die Gelenkflüssigkeit heißt auch: Synovia.
+# sent_id = 92
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5449|end_char=5452
+2	Gelenkflüssigkeit	Gelenkflüssigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5453|end_char=5470
+3	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5471|end_char=5476
+4	auch	auch	ADV	ADV	_	3	advmod	_	start_char=5477|end_char=5481
+5	:	:	PUNCT	$.	_	6	punct	_	start_char=5481|end_char=5482
+6	Synovia	Synovia	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	xcomp	_	start_char=5483|end_char=5490
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=5490|end_char=5491
+
+# text = Die Gelenkflüssigkeit fließt in den schmalen Spalt zwischen den beiden Knochen-Enden hinein.
+# sent_id = 93
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5492|end_char=5495
+2	Gelenkflüssigkeit	Gelenkflüssigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5496|end_char=5513
+3	fließt	fließen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5514|end_char=5520
+4	in	in	ADP	APPR	_	7	case	_	start_char=5521|end_char=5523
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=5524|end_char=5527
+6	schmalen	schmal	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=5528|end_char=5536
+7	Spalt	Spalt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=5537|end_char=5542
+8	zwischen	zwischen	ADP	APPR	_	13	case	_	start_char=5543|end_char=5551
+9	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=5552|end_char=5555
+10	beiden	beide	DET	PIAT	Case=Dat|Gender=Masc|NumType=Card|Number=Plur|PronType=Tot	13	det	_	start_char=5556|end_char=5562
+11	Knochen	Knochen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	compound	_	start_char=5563|end_char=5570
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=5570|end_char=5571
+13	Enden	Ende|Enden	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	start_char=5571|end_char=5576
+14	hinein	hinein	ADV	PTKVZ	_	3	compound:prt	_	start_char=5577|end_char=5583
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=5583|end_char=5584
+
+# text = Die Gelenkflüssigkeit schmiert die Bewegung.
+# sent_id = 94
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5585|end_char=5588
+2	Gelenkflüssigkeit	Gelenkflüssigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5589|end_char=5606
+3	schmiert	schmieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5607|end_char=5615
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=5616|end_char=5619
+5	Bewegung	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=5620|end_char=5628
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=5628|end_char=5629
+
+# text = So ist die Bewegung leichter und reibungsloser.
+# sent_id = 95
+1	So	so	ADV	ADV	_	5	advmod	_	start_char=5630|end_char=5632
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=5633|end_char=5636
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=5637|end_char=5640
+4	Bewegung	Bewegung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=5641|end_char=5649
+5	leichter	leicht	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=5650|end_char=5658
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=5659|end_char=5662
+7	reibungsloser	reibungsloser	ADJ	ADJD	Degree=Cmp	5	conj	_	start_char=5663|end_char=5676
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=5676|end_char=5677
+
+# text = Die Gelenkflüssigkeit transportiert außerdem Nährstoffe zu der Knorpelschicht.
+# sent_id = 96
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5678|end_char=5681
+2	Gelenkflüssigkeit	Gelenkflüssigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5682|end_char=5699
+3	transportiert	transportieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5700|end_char=5713
+4	außerdem	außerdem	ADV	PAV	_	3	advmod	_	start_char=5714|end_char=5722
+5	Nährstoffe	Nährstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=5723|end_char=5733
+6	zu	zu	ADP	APPR	_	8	case	_	start_char=5734|end_char=5736
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=5737|end_char=5740
+8	Knorpelschicht	Knorpelschicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=5741|end_char=5755
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=5755|end_char=5756
+
+# text = Die Knorpelschicht schützt die beiden Knochen-Enden vor Abnutzung.
+# sent_id = 97
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5757|end_char=5760
+2	Knorpelschicht	Knorpelschicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5761|end_char=5775
+3	schützt	schützen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5776|end_char=5783
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=5784|end_char=5787
+5	beiden	beide	DET	PIAT	Case=Acc|Gender=Masc|NumType=Card|Number=Plur|PronType=Tot	8	det	_	start_char=5788|end_char=5794
+6	Knochen	Knochen	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	compound	_	start_char=5795|end_char=5802
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=5802|end_char=5803
+8	Enden	Ende|Enden	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=5803|end_char=5808
+9	vor	vor	ADP	APPR	_	10	case	_	start_char=5809|end_char=5812
+10	Abnutzung	Abnutzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=5813|end_char=5822
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=5822|end_char=5823
+
+# text = Der Knorpel hat keine eigenen Blut-Gefäße.
+# sent_id = 98
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=5825|end_char=5828
+2	Knorpel	Knorpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=5829|end_char=5836
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5837|end_char=5840
+4	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	8	det	_	start_char=5841|end_char=5846
+5	eigenen	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	start_char=5847|end_char=5854
+6	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	compound	_	start_char=5855|end_char=5859
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=5859|end_char=5860
+8	Gefäße	Gefäß	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=5860|end_char=5866
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=5866|end_char=5867
+
+# text = Deshalb bekommt der Knorpel keine Nährstoffe aus dem Blut.
+# sent_id = 99
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=5868|end_char=5875
+2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5876|end_char=5883
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=5884|end_char=5887
+4	Knorpel	Knorpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=5888|end_char=5895
+5	keine	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Neg	6	det	_	start_char=5896|end_char=5901
+6	Nährstoffe	Nährstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=5902|end_char=5912
+7	aus	aus	ADP	APPR	_	9	case	_	start_char=5913|end_char=5916
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=5917|end_char=5920
+9	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=5921|end_char=5925
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=5925|end_char=5926
+
+# text = Der Knorpel bekommt seine Nährstoffe über die Gelenkflüssigkeit.
+# sent_id = 100
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=5927|end_char=5930
+2	Knorpel	Knorpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=5931|end_char=5938
+3	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5939|end_char=5946
+4	seine	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=5947|end_char=5952
+5	Nährstoffe	Nährstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=5953|end_char=5963
+6	über	über	ADP	APPR	_	8	case	_	start_char=5964|end_char=5968
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=5969|end_char=5972
+8	Gelenkflüssigkeit	Gelenkflüssigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=5973|end_char=5990
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=5990|end_char=5991
+
+# text = Und der Knorpel entsorgt über die Gelenkflüssigkeit seine Abfall-Stoffe.
+# sent_id = 101
+1	Und	und	CCONJ	KON	_	4	cc	_	start_char=5992|end_char=5995
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=5996|end_char=5999
+3	Knorpel	Knorpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=6000|end_char=6007
+4	entsorgt	entsorgen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6008|end_char=6016
+5	über	über	ADP	APPR	_	7	case	_	start_char=6017|end_char=6021
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=6022|end_char=6025
+7	Gelenkflüssigkeit	Gelenkflüssigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=6026|end_char=6043
+8	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	start_char=6044|end_char=6049
+9	Abfall	Abfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	compound	_	start_char=6050|end_char=6056
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=6056|end_char=6057
+11	Stoffe	Stoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=6057|end_char=6063
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=6063|end_char=6064
+
+# text = Der Knorpel braucht Bewegung.
+# sent_id = 102
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=6065|end_char=6068
+2	Knorpel	Knorpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=6069|end_char=6076
+3	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6077|end_char=6084
+4	Bewegung	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=6085|end_char=6093
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=6093|end_char=6094
+
+# text = Aber das Gelenk darf nicht zu stark belastet werden.
+# sent_id = 103
+1	Aber	aber	CCONJ	KON	_	8	cc	_	start_char=6095|end_char=6099
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=6100|end_char=6103
+3	Gelenk	Gelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj:pass	_	start_char=6104|end_char=6110
+4	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=6111|end_char=6115
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=6116|end_char=6121
+6	zu	zu	ADV	PTKA	_	7	advmod	_	start_char=6122|end_char=6124
+7	stark	stark	ADV	ADJD	_	8	advmod	_	start_char=6125|end_char=6130
+8	belastet	belasten	VERB	VVPP	VerbForm=Part	0	root	_	start_char=6131|end_char=6139
+9	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	8	aux:pass	_	start_char=6140|end_char=6146
+10	.	.	PUNCT	$.	_	8	punct	_	start_char=6146|end_char=6147
+
+# text = Bei Bewegung verteilt sich der Druck im Gelenk gleichmäßig auf den Knochen.
+# sent_id = 104
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=6148|end_char=6151
+2	Bewegung	Bewegung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=6152|end_char=6160
+3	verteilt	verteilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6161|end_char=6169
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=6170|end_char=6174
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=6175|end_char=6178
+6	Druck	Druck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=6179|end_char=6184
+7-8	im	_	_	_	_	_	_	_	start_char=6185|end_char=6187
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Gelenk	Gelenk	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=6188|end_char=6194
+10	gleichmäßig	gleichmäßig	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=6195|end_char=6206
+11	auf	auf	ADP	APPR	_	13	case	_	start_char=6207|end_char=6210
+12	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=6211|end_char=6214
+13	Knochen	Knochen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	start_char=6215|end_char=6222
+14	.	.	PUNCT	$.	_	3	punct	_	start_char=6222|end_char=6223
+
+# text = Bei einer Arthrose wird der Knorpel dünner und rauer.
+# sent_id = 105
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=6225|end_char=6228
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=6229|end_char=6234
+3	Arthrose	Arthrose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	start_char=6235|end_char=6243
+4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	cop	_	start_char=6244|end_char=6248
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=6249|end_char=6252
+6	Knorpel	Knorpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=6253|end_char=6260
+7	dünner	dünn	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=6261|end_char=6267
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=6268|end_char=6271
+9	rauer	rau	ADJ	ADJD	Degree=Pos	7	conj	_	start_char=6272|end_char=6277
+10	.	.	PUNCT	$.	_	7	punct	_	start_char=6277|end_char=6278
+
+# text = Der Knorpel kann seine Funktion als Stoßdämpfer nicht mehr gut erfüllen.
+# sent_id = 106
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=6279|end_char=6282
+2	Knorpel	Knorpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=6283|end_char=6290
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=6291|end_char=6295
+4	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=6296|end_char=6301
+5	Funktion	Funktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=6302|end_char=6310
+6	als	als	ADP	KOKOM	_	7	case	_	start_char=6311|end_char=6314
+7	Stoßdämpfer	Stoßdämpfer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	start_char=6315|end_char=6326
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=6327|end_char=6332
+9	mehr	mehr	ADV	ADV	_	8	advmod	_	start_char=6333|end_char=6337
+10	gut	gut	ADV	ADJD	_	11	advmod	_	start_char=6338|end_char=6341
+11	erfüllen	erfüllen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6342|end_char=6350
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=6350|end_char=6351
+
+# text = Deshalb verteilt der Knorpel die Belastung nicht mehr gleichmäßig auf den Knochen.
+# sent_id = 107
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=6352|end_char=6359
+2	verteilt	verteilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6360|end_char=6368
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=6369|end_char=6372
+4	Knorpel	Knorpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=6373|end_char=6380
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=6381|end_char=6384
+6	Belastung	Belastung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=6385|end_char=6394
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=6395|end_char=6400
+8	mehr	mehr	ADV	ADV	_	9	advmod	_	start_char=6401|end_char=6405
+9	gleichmäßig	gleichmäßig	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=6406|end_char=6417
+10	auf	auf	ADP	APPR	_	12	case	_	start_char=6418|end_char=6421
+11	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=6422|end_char=6425
+12	Knochen	Knochen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	start_char=6426|end_char=6433
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=6433|end_char=6434
+
+# text = Der Knochen muss jetzt extreme Belastungen aushalten.
+# sent_id = 108
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=6435|end_char=6438
+2	Knochen	Knochen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=6439|end_char=6446
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=6447|end_char=6451
+4	jetzt	jetzt	ADV	ADV	_	7	advmod	_	start_char=6452|end_char=6457
+5	extreme	extrem	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=6458|end_char=6465
+6	Belastungen	Belastung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=6466|end_char=6477
+7	aushalten	aushalten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6478|end_char=6487
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=6487|end_char=6488
+
+# text = Deshalb wächst der Knochen an manchen Stellen dicker.
+# sent_id = 109
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=6489|end_char=6496
+2	wächst	wachsen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6497|end_char=6503
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=6504|end_char=6507
+4	Knochen	Knochen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=6508|end_char=6515
+5	an	an	ADP	APPR	_	7	case	_	start_char=6516|end_char=6518
+6	manchen	mancher	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	start_char=6519|end_char=6526
+7	Stellen	Stelle|Stellen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=6527|end_char=6534
+8	dicker	dicker	ADJ	ADJD	Degree=Cmp	2	xcomp	_	start_char=6535|end_char=6541
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=6541|end_char=6542
+
+# text = Die betroffenen Personen spüren dann keine Schmerzen.
+# sent_id = 110
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=6543|end_char=6546
+2	betroffenen	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=6547|end_char=6558
+3	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=6559|end_char=6567
+4	spüren	spüren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6568|end_char=6574
+5	dann	dann	ADV	ADV	_	4	advmod	_	start_char=6575|end_char=6579
+6	keine	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Neg	7	det	_	start_char=6580|end_char=6585
+7	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=6586|end_char=6595
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=6595|end_char=6596
+
+# text = Aber die betroffenen Personen spüren vielleicht einen steifen Gelenkverschluss.
+# sent_id = 111
+1	Aber	aber	CCONJ	KON	_	5	cc	_	start_char=6597|end_char=6601
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=6602|end_char=6605
+3	betroffenen	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=6606|end_char=6617
+4	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=6618|end_char=6626
+5	spüren	spüren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6627|end_char=6633
+6	vielleicht	vielleicht	ADV	ADV	_	5	advmod	_	start_char=6634|end_char=6644
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=6645|end_char=6650
+8	steifen	steif	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=6651|end_char=6658
+9	Gelenkverschluss	Gelenkverschluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=6659|end_char=6675
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=6675|end_char=6676
+
+# text = Manchmal hilft das Gelenk nicht mehr so gut wie am Anfang.
+# sent_id = 112
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=6678|end_char=6686
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6687|end_char=6692
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=6693|end_char=6696
+4	Gelenk	Gelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=6697|end_char=6703
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=6704|end_char=6709
+6	mehr	mehr	ADV	ADV	_	2	advmod	_	start_char=6710|end_char=6714
+7	so	so	ADV	ADV	_	8	advmod	_	start_char=6715|end_char=6717
+8	gut	gut	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=6718|end_char=6721
+9	wie	wie	ADP	KOKOM	_	12	case	_	start_char=6722|end_char=6725
+10-11	am	_	_	_	_	_	_	_	start_char=6726|end_char=6728
+10	an	an	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Anfang	Anfang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=6729|end_char=6735
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=6735|end_char=6736
+
+# text = Dann reibt das Gelenk an der Gelenkhaut.
+# sent_id = 113
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=6737|end_char=6741
+2	reibt	reiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6742|end_char=6747
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=6748|end_char=6751
+4	Gelenk	Gelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=6752|end_char=6758
+5	an	an	ADP	APPR	_	7	case	_	start_char=6759|end_char=6761
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=6762|end_char=6765
+7	Gelenkhaut	Gelenkhaut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=6766|end_char=6776
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=6776|end_char=6777
+
+# text = Das kann die Gelenkhaut reizen.
+# sent_id = 114
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=6778|end_char=6781
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=6782|end_char=6786
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=6787|end_char=6790
+4	Gelenkhaut	Gelenkhaut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	start_char=6791|end_char=6801
+5	reizen	reizen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6802|end_char=6808
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=6808|end_char=6809
+
+# text = Die Gelenkhaut produziert dann mehr Gewebeflüssigkeit.
+# sent_id = 115
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=6810|end_char=6813
+2	Gelenkhaut	Gelenkhaut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=6814|end_char=6824
+3	produziert	produzieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6825|end_char=6835
+4	dann	dann	ADV	ADV	_	3	advmod	_	start_char=6836|end_char=6840
+5	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	6	det	_	start_char=6841|end_char=6845
+6	Gewebeflüssigkeit	Gewebeflüssigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=6846|end_char=6863
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=6863|end_char=6864
+
+# text = Es kann sich ein Gelenkerguss bilden.
+# sent_id = 116
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	start_char=6865|end_char=6867
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=6868|end_char=6872
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	start_char=6873|end_char=6877
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=6878|end_char=6881
+5	Gelenkerguss	Gelenkerguss	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=6882|end_char=6894
+6	bilden	bilden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6895|end_char=6901
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=6901|end_char=6902
+
+# text = Die Gewebeflüssigkeit ändert sich: Sie enthält Entzündungsstoffe und Abwehr-Zellen.
+# sent_id = 117
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=6903|end_char=6906
+2	Gewebeflüssigkeit	Gewebeflüssigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=6907|end_char=6924
+3	ändert	ändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6925|end_char=6931
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=6932|end_char=6936
+5	:	:	PUNCT	$.	_	7	punct	_	start_char=6936|end_char=6937
+6	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=6938|end_char=6941
+7	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=6942|end_char=6949
+8	Entzündungsstoffe	Entzündungsstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=6950|end_char=6967
+9	und	und	CCONJ	KON	_	12	cc	_	start_char=6968|end_char=6971
+10	Abwehr	Abwehr	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	compound	_	start_char=6972|end_char=6978
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=6978|end_char=6979
+12	Zellen	Zelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	conj	_	start_char=6979|end_char=6985
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=6985|end_char=6986
+
+# text = Deshalb kann sich das Gelenk entzünden.
+# sent_id = 118
+1	Deshalb	deshalb	ADV	PAV	_	6	advmod	_	start_char=6987|end_char=6994
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=6995|end_char=6999
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	start_char=7000|end_char=7004
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=7005|end_char=7008
+5	Gelenk	Gelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=7009|end_char=7015
+6	entzünden	entzünden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7016|end_char=7025
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=7025|end_char=7026
+
+# text = Das betroffene Gelenk tut dann weh.
+# sent_id = 119
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=7027|end_char=7030
+2	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=7031|end_char=7041
+3	Gelenk	Gelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=7042|end_char=7048
+4	tut	tun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7049|end_char=7052
+5	dann	dann	ADV	ADV	_	4	advmod	_	start_char=7053|end_char=7057
+6	weh	weh	ADV	PTKVZ	_	4	compound:prt	_	start_char=7058|end_char=7061
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=7061|end_char=7062
+
+# text = Es fühlt sich dick an und ist warm und rot.
+# sent_id = 120
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=7063|end_char=7065
+2	fühlt	fühlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7066|end_char=7071
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=7072|end_char=7076
+4	dick	dick	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=7077|end_char=7081
+5	an	an	ADP	PTKVZ	_	2	compound:prt	_	start_char=7082|end_char=7084
+6	und	und	CCONJ	KON	_	8	cc	_	start_char=7085|end_char=7088
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=7089|end_char=7092
+8	warm	warm	ADJ	ADJD	Degree=Pos	2	conj	_	start_char=7093|end_char=7097
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=7098|end_char=7101
+10	rot	rot	ADJ	ADJD	Degree=Pos	8	conj	_	start_char=7102|end_char=7105
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=7105|end_char=7106
+
+# text = Manchmal heilt die Arthrose von selbst.
+# sent_id = 121
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=7108|end_char=7116
+2	heilt	heilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7117|end_char=7122
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=7123|end_char=7126
+4	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=7127|end_char=7135
+5	von	von	ADP	APPR	_	6	case	_	start_char=7136|end_char=7139
+6	selbst	selbst	ADV	ADV	_	2	advmod	_	start_char=7140|end_char=7146
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=7146|end_char=7147
+
+# text = Aber oft werden die Gelenke immer schlimmer.
+# sent_id = 122
+1	Aber	aber	CCONJ	KON	_	7	cc	_	start_char=7148|end_char=7152
+2	oft	oft	ADV	ADV	_	7	advmod	_	start_char=7153|end_char=7156
+3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	cop	_	start_char=7157|end_char=7163
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=7164|end_char=7167
+5	Gelenke	Gelenke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=7168|end_char=7175
+6	immer	immer	ADV	ADV	_	7	advmod	_	start_char=7176|end_char=7181
+7	schlimmer	schlimm	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=7182|end_char=7191
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=7191|end_char=7192
+
+# text = Die Betroffenen müssen die Gelenke dann schonen.
+# sent_id = 123
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=7193|end_char=7196
+2	Betroffenen	Betroffene	NOUN	NN	Case=Nom|Number=Plur	7	nsubj	_	start_char=7197|end_char=7208
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=7209|end_char=7215
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=7216|end_char=7219
+5	Gelenke	Gelenke	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	start_char=7220|end_char=7227
+6	dann	dann	ADV	ADV	_	7	advmod	_	start_char=7228|end_char=7232
+7	schonen	schonen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7233|end_char=7240
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=7240|end_char=7241
+
+# text = So bekommt der Knorpel aber nicht mehr genug Nährstoffe.
+# sent_id = 124
+1	So	so	ADV	ADV	_	2	advmod	_	start_char=7242|end_char=7244
+2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7245|end_char=7252
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=7253|end_char=7256
+4	Knorpel	Knorpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=7257|end_char=7264
+5	aber	aber	ADV	ADV	_	2	advmod	_	start_char=7265|end_char=7269
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=7270|end_char=7275
+7	mehr	mehr	ADV	ADV	_	2	advmod	_	start_char=7276|end_char=7280
+8	genug	genug	ADV	PIAT	PronType=Ind	9	advmod	_	start_char=7281|end_char=7286
+9	Nährstoffe	Nährstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=7287|end_char=7297
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=7297|end_char=7298
+
+# text = Der Knorpel wird schwächer.
+# sent_id = 125
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=7299|end_char=7302
+2	Knorpel	Knorpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=7303|end_char=7310
+3	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7311|end_char=7315
+4	schwächer	schwach	ADJ	ADJD	Degree=Cmp	3	xcomp	_	start_char=7316|end_char=7325
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=7325|end_char=7326
+
+# text = Bei einer Arthrose reibt die Knorpelschicht ab.
+# sent_id = 126
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=7328|end_char=7331
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=7332|end_char=7337
+3	Arthrose	Arthrose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=7338|end_char=7346
+4	reibt	reiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7347|end_char=7352
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=7353|end_char=7356
+6	Knorpelschicht	Knorpelschicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=7357|end_char=7371
+7	ab	ab	ADP	PTKVZ	_	4	compound:prt	_	start_char=7372|end_char=7374
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=7374|end_char=7375
+
+# text = Dann liegt der Knochen frei.
+# sent_id = 127
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=7376|end_char=7380
+2	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7381|end_char=7386
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=7387|end_char=7390
+4	Knochen	Knochen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=7391|end_char=7398
+5	frei	frei	ADV	PTKVZ	_	2	compound:prt	_	start_char=7399|end_char=7403
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=7403|end_char=7404
+
+# text = Der Knorpel schützt den Knochen vor Reibung.
+# sent_id = 128
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=7405|end_char=7408
+2	Knorpel	Knorpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=7409|end_char=7416
+3	schützt	schützen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7417|end_char=7424
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=7425|end_char=7428
+5	Knochen	Knochen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=7429|end_char=7436
+6	vor	vor	ADP	APPR	_	7	case	_	start_char=7437|end_char=7440
+7	Reibung	Reibung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=7441|end_char=7448
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=7448|end_char=7449
+
+# text = Der Knorpel kann sich dann nicht mehr regenerieren.
+# sent_id = 129
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=7450|end_char=7453
+2	Knorpel	Knorpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=7454|end_char=7461
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=7462|end_char=7466
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	start_char=7467|end_char=7471
+5	dann	dann	ADV	ADV	_	8	advmod	_	start_char=7472|end_char=7476
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=7477|end_char=7482
+7	mehr	mehr	ADV	ADV	_	8	advmod	_	start_char=7483|end_char=7487
+8	regenerieren	regenerieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7488|end_char=7500
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=7500|end_char=7501
+
+# text = Die Gelenke können sich verformen.
+# sent_id = 130
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=7502|end_char=7505
+2	Gelenke	Gelenke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=7506|end_char=7513
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=7514|end_char=7520
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=7521|end_char=7525
+5	verformen	verfermen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7526|end_char=7535
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=7535|end_char=7536
+
+# text = Und die Gelenke können nicht mehr so gut bewegen.
+# sent_id = 131
+1	Und	und	CCONJ	KON	_	9	cc	_	start_char=7537|end_char=7540
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=7541|end_char=7544
+3	Gelenke	Gelenke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=7545|end_char=7552
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=7553|end_char=7559
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=7560|end_char=7565
+6	mehr	mehr	ADV	ADV	_	9	advmod	_	start_char=7566|end_char=7570
+7	so	so	ADV	ADV	_	8	advmod	_	start_char=7571|end_char=7573
+8	gut	gut	ADV	ADJD	_	9	advmod	_	start_char=7574|end_char=7577
+9	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7578|end_char=7585
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=7585|end_char=7586
+
+# text = Wie erkennt der Arzt eine Arthrose?
+# sent_id = 132
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	start_char=7588|end_char=7591
+2	erkennt	erkennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7592|end_char=7599
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=7600|end_char=7603
+4	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=7604|end_char=7608
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=7609|end_char=7613
+6	Arthrose	Arthrose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=7614|end_char=7622
+7	?	?	PUNCT	$.	_	2	punct	_	start_char=7622|end_char=7623
+
+# text = Der Arzt fragt: Haben Sie Beschwerden?
+# sent_id = 133
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=7625|end_char=7628
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=7629|end_char=7633
+3	fragt	fragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7634|end_char=7639
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=7639|end_char=7640
+5	Haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=7641|end_char=7646
+6	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=7647|end_char=7650
+7	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=7651|end_char=7662
+8	?	?	PUNCT	$.	_	5	punct	_	start_char=7662|end_char=7663
+
+# text = Zum Beispiel: - Schmerzen in den Fingern? - Schwellungen in den Gelenken? - Rötungen in den Gelenken? - Überwärmung der Gelenke?
+# sent_id = 134
+1-2	Zum	_	_	_	_	_	_	_	start_char=7664|end_char=7667
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=7668|end_char=7676
+4	:	:	PUNCT	$.	_	6	punct	_	start_char=7676|end_char=7677
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=7678|end_char=7679
+6	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=7680|end_char=7689
+7	in	in	ADP	APPR	_	11	case	_	start_char=7690|end_char=7692
+8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=7693|end_char=7696
+9	Fingern?	Fingern?	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	compound	_	start_char=7697|end_char=7705
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=7706|end_char=7707
+11	Schwellungen	Schwellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	start_char=7708|end_char=7720
+12	in	in	ADP	APPR	_	16	case	_	start_char=7721|end_char=7723
+13	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	16	det	_	start_char=7724|end_char=7727
+14	Gelenken?	Gelenken?	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	compound	_	start_char=7728|end_char=7737
+15	-	-	PUNCT	$(	_	14	punct	_	start_char=7738|end_char=7739
+16	Rötungen	Rötung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	nmod	_	start_char=7740|end_char=7748
+17	in	in	ADP	APPR	_	21	case	_	start_char=7749|end_char=7751
+18	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	21	det	_	start_char=7752|end_char=7755
+19	Gelenken?	Gelenken?	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	compound	_	start_char=7756|end_char=7765
+20	-	-	PUNCT	$(	_	19	punct	_	start_char=7766|end_char=7767
+21	Überwärmung	Überwärmung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	start_char=7768|end_char=7779
+22	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	23	det	_	start_char=7780|end_char=7783
+23	Gelenke	Gelenke	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	start_char=7784|end_char=7791
+24	?	?	PUNCT	$.	_	6	punct	_	start_char=7791|end_char=7792
+
+# text = Der Arzt fragt auch: Hat Ihnen schon mal eine andere Person gesagt, dass sie auch Arthrose hat?
+# sent_id = 135
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=7793|end_char=7796
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=7797|end_char=7801
+3	fragt	fragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7802|end_char=7807
+4	auch	auch	ADV	ADV	_	3	advmod	_	start_char=7808|end_char=7812
+5	:	:	PUNCT	$.	_	13	punct	_	start_char=7812|end_char=7813
+6	Hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=7814|end_char=7817
+7	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	13	obl:arg	_	start_char=7818|end_char=7823
+8	schon	schon	ADV	ADV	_	9	advmod	_	start_char=7824|end_char=7829
+9	mal	mal	ADV	ADV	_	13	advmod	_	start_char=7830|end_char=7833
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=7834|end_char=7838
+11	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	12	det	_	start_char=7839|end_char=7845
+12	Person	Person	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nsubj	_	start_char=7846|end_char=7852
+13	gesagt	sagen	VERB	VVPP	VerbForm=Part	3	ccomp	_	start_char=7853|end_char=7859
+14	,	,	PUNCT	$,	_	19	punct	_	start_char=7859|end_char=7860
+15	dass	dass	SCONJ	KOUS	_	19	mark	_	start_char=7861|end_char=7865
+16	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=7866|end_char=7869
+17	auch	auch	ADV	ADV	_	19	advmod	_	start_char=7870|end_char=7874
+18	Arthrose	Arthrose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	start_char=7875|end_char=7883
+19	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	start_char=7884|end_char=7887
+20	?	?	PUNCT	$.	_	13	punct	_	start_char=7887|end_char=7888
+
+# text = Vielleicht haben nämlich auch Ihre Verwandten Arthrose.
+# sent_id = 136
+1	Vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	start_char=7889|end_char=7899
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7900|end_char=7905
+3	nämlich	nämlich	ADV	ADV	_	2	advmod	_	start_char=7906|end_char=7913
+4	auch	auch	ADV	ADV	_	2	advmod	_	start_char=7914|end_char=7918
+5	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=7919|end_char=7923
+6	Verwandten	Verwandte|Verwandter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=7924|end_char=7934
+7	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	start_char=7935|end_char=7943
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=7943|end_char=7944
+
+# text = Dann kann die Krankheit vielleicht vererbt sein.
+# sent_id = 137
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=7945|end_char=7949
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=7950|end_char=7954
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=7955|end_char=7958
+4	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	start_char=7959|end_char=7968
+5	vielleicht	vielleicht	ADV	ADV	_	6	advmod	_	start_char=7969|end_char=7979
+6	vererbt	vererben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=7980|end_char=7987
+7	sein	sein	AUX	VAINF	VerbForm=Inf	6	aux:pass	_	start_char=7988|end_char=7992
+8	.	.	PUNCT	$.	_	6	punct	_	start_char=7992|end_char=7993
+
+# text = Der Arzt fragt auch: Wurden Ihre Finger schon mal durch einen Beruf oder einen Unfall belastet?
+# sent_id = 138
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=7994|end_char=7997
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=7998|end_char=8002
+3	fragt	fragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8003|end_char=8008
+4	auch	auch	ADV	ADV	_	3	advmod	_	start_char=8009|end_char=8013
+5	:	:	PUNCT	$.	_	17	punct	_	start_char=8013|end_char=8014
+6	Wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	17	aux:pass	_	start_char=8015|end_char=8021
+7	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=8022|end_char=8026
+8	Finger	Finger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	start_char=8027|end_char=8033
+9	schon	schon	ADV	ADV	_	10	advmod	_	start_char=8034|end_char=8039
+10	mal	mal	ADV	ADV	_	17	advmod	_	start_char=8040|end_char=8043
+11	durch	durch	ADP	APPR	_	13	case	_	start_char=8044|end_char=8049
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	13	det	_	start_char=8050|end_char=8055
+13	Beruf	Beruf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	start_char=8056|end_char=8061
+14	oder	oder	CCONJ	KON	_	16	cc	_	start_char=8062|end_char=8066
+15	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	16	det	_	start_char=8067|end_char=8072
+16	Unfall	Unfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	conj	_	start_char=8073|end_char=8079
+17	belastet	belasten	VERB	VVPP	VerbForm=Part	3	parataxis	_	start_char=8080|end_char=8088
+18	?	?	PUNCT	$.	_	17	punct	_	start_char=8088|end_char=8089
+
+# text = Der Arzt untersucht die Gelenke.
+# sent_id = 139
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=8091|end_char=8094
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=8095|end_char=8099
+3	untersucht	untersuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8100|end_char=8110
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=8111|end_char=8114
+5	Gelenke	Gelenke	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=8115|end_char=8122
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=8122|end_char=8123
+
+# text = Dabei prüft der Arzt auch: Können die Gelenke noch richtig bewegt werden?
+# sent_id = 140
+1	Dabei	dabei	ADV	PAV	_	2	advmod	_	start_char=8124|end_char=8129
+2	prüft	prüfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8130|end_char=8135
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=8136|end_char=8139
+4	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=8140|end_char=8144
+5	auch	auch	ADV	ADV	_	2	advmod	_	start_char=8145|end_char=8149
+6	:	:	PUNCT	$.	_	12	punct	_	start_char=8149|end_char=8150
+7	Können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=8151|end_char=8157
+8	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=8158|end_char=8161
+9	Gelenke	Gelenke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj:pass	_	start_char=8162|end_char=8169
+10	noch	noch	ADV	ADV	_	11	advmod	_	start_char=8170|end_char=8174
+11	richtig	richtig	ADV	ADJD	_	12	advmod	_	start_char=8175|end_char=8182
+12	bewegt	bewegen	VERB	VVPP	VerbForm=Part	2	ccomp	_	start_char=8183|end_char=8189
+13	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	12	aux:pass	_	start_char=8190|end_char=8196
+14	?	?	PUNCT	$.	_	12	punct	_	start_char=8196|end_char=8197
+
+# text = Manchmal macht der Arzt Röntgen-Aufnahmen der Hände.
+# sent_id = 141
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=8199|end_char=8207
+2	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8208|end_char=8213
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=8214|end_char=8217
+4	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=8218|end_char=8222
+5	Röntgen	Röntgen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	compound	_	start_char=8223|end_char=8230
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=8230|end_char=8231
+7	Aufnahmen	Aufnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=8231|end_char=8240
+8	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=8241|end_char=8244
+9	Hände	Hand	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=8245|end_char=8250
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=8250|end_char=8251
+
+# text = Auf den Röntgenbildern kann man die Veränderungen im Gelenk erkennen.
+# sent_id = 142
+1	Auf	auf	ADP	APPR	_	3	case	_	start_char=8252|end_char=8255
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=8256|end_char=8259
+3	Röntgenbildern	Röntgenbild	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	obl	_	start_char=8260|end_char=8274
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=8275|end_char=8279
+5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=8280|end_char=8283
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=8284|end_char=8287
+7	Veränderungen	Veränderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=8288|end_char=8301
+8-9	im	_	_	_	_	_	_	_	start_char=8302|end_char=8304
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Gelenk	Gelenk	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=8305|end_char=8311
+11	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8312|end_char=8320
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=8320|end_char=8321
+
+# text = Das Gelenk ist zum Beispiel kleiner geworden.
+# sent_id = 143
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=8322|end_char=8325
+2	Gelenk	Gelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=8326|end_char=8332
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=8333|end_char=8336
+4-5	zum	_	_	_	_	_	_	_	start_char=8337|end_char=8340
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=8341|end_char=8349
+7	kleiner	klein	ADJ	ADJD	Degree=Cmp	8	xcomp	_	start_char=8350|end_char=8357
+8	geworden	werden	VERB	VAPP	VerbForm=Part	0	root	_	start_char=8358|end_char=8366
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=8366|end_char=8367
+
+# text = Oder der Knochen ist dicker geworden.
+# sent_id = 144
+1	Oder	Oder	CCONJ	KON	_	6	cc	_	start_char=8368|end_char=8372
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=8373|end_char=8376
+3	Knochen	Knochen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=8377|end_char=8384
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=8385|end_char=8388
+5	dicker	dicker	ADJ	ADJD	Degree=Cmp	6	xcomp	_	start_char=8389|end_char=8395
+6	geworden	werden	VERB	VAPP	VerbForm=Part	0	root	_	start_char=8396|end_char=8404
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=8404|end_char=8405
+
+# text = Oft sind auch Knochen-Anbauten am Gelenkrand zu sehen.
+# sent_id = 145
+1	Oft	oft	ADV	ADV	_	11	advmod	_	start_char=8406|end_char=8409
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	start_char=8410|end_char=8414
+3	auch	auch	ADV	ADV	_	11	advmod	_	start_char=8415|end_char=8419
+4	Knochen	Knochen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	compound	_	start_char=8420|end_char=8427
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=8427|end_char=8428
+6	Anbauten	Anbaut	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	start_char=8428|end_char=8436
+7-8	am	_	_	_	_	_	_	_	start_char=8437|end_char=8439
+7	an	an	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Gelenkrand	Gelenkrand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	start_char=8440|end_char=8450
+10	zu	zu	PART	PTKZU	_	11	mark	_	start_char=8451|end_char=8453
+11	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8454|end_char=8459
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=8459|end_char=8460
+
+# text = Manchmal werden zusätzliche Untersuchungen gemacht.
+# sent_id = 146
+1	Manchmal	manchmal	ADV	ADV	_	5	advmod	_	start_char=8462|end_char=8470
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	start_char=8471|end_char=8477
+3	zusätzliche	zusätzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=8478|end_char=8489
+4	Untersuchungen	Untersuchung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	start_char=8490|end_char=8504
+5	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=8505|end_char=8512
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=8512|end_char=8513
+
+# text = Dazu gehören zum Beispiel: - Computertomografie (CT) - Magnetresonanztomografie (MRT) mit Kontrast-Mittel
+# sent_id = 147
+1	Dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	start_char=8514|end_char=8518
+2	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8519|end_char=8526
+3-4	zum	_	_	_	_	_	_	_	start_char=8527|end_char=8530
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=8531|end_char=8539
+6	:	:	PUNCT	$.	_	8	punct	_	start_char=8539|end_char=8540
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=8541|end_char=8542
+8	Computertomografie	Computertomografie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=8543|end_char=8561
+9	(	(	PUNCT	$(	_	10	punct	_	start_char=8562|end_char=8563
+10	CT	CT	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	8	appos	_	start_char=8563|end_char=8565
+11	)	)	PUNCT	$(	_	10	punct	_	start_char=8565|end_char=8566
+12	-	-	PUNCT	$(	_	13	punct	_	start_char=8567|end_char=8568
+13	Magnetresonanztomografie	Magnetresonanztomografie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	flat	_	start_char=8569|end_char=8593
+14	(	(	PUNCT	$(	_	15	punct	_	start_char=8594|end_char=8595
+15	MRT	MRT	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	8	appos	_	start_char=8595|end_char=8598
+16	)	)	PUNCT	$(	_	15	punct	_	start_char=8598|end_char=8599
+17	mit	mit	ADP	APPR	_	20	case	_	start_char=8600|end_char=8603
+18	Kontrast	Kontrast	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	compound	_	start_char=8604|end_char=8612
+19	-	-	PUNCT	$(	_	18	punct	_	start_char=8612|end_char=8613
+20	Mittel	Mittel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=8613|end_char=8619
+
+# text = Blut-Untersuchungen oder eine Untersuchung von Gelenkflüssigkeit können Stoff-Wechsel-Erkrankungen oder Kristallopathien wie Gicht ausschließen.
+# sent_id = 148
+1	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	compound	_	start_char=8621|end_char=8625
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=8625|end_char=8626
+3	Untersuchungen	Untersuchung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	start_char=8626|end_char=8640
+4	oder	oder	CCONJ	KON	_	6	cc	_	start_char=8641|end_char=8645
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=8646|end_char=8650
+6	Untersuchung	Untersuchung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	start_char=8651|end_char=8663
+7	von	von	ADP	APPR	_	8	case	_	start_char=8664|end_char=8667
+8	Gelenkflüssigkeit	Gelenkflüssigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	start_char=8668|end_char=8685
+9	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=8686|end_char=8692
+10	Stoff	Stoff	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	compound	_	start_char=8693|end_char=8698
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=8698|end_char=8699
+12	Wechsel	Wechsel	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	compound	_	start_char=8699|end_char=8706
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=8706|end_char=8707
+14	Erkrankungen	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	obj	_	start_char=8707|end_char=8719
+15	oder	oder	CCONJ	KON	_	16	cc	_	start_char=8720|end_char=8724
+16	Kristallopathien	Kristallopathien	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	conj	_	start_char=8725|end_char=8741
+17	wie	wie	ADP	KOKOM	_	18	case	_	start_char=8742|end_char=8745
+18	Gicht	Gicht	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	start_char=8746|end_char=8751
+19	ausschließen	ausschließen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8752|end_char=8764
+20	.	.	PUNCT	$.	_	19	punct	_	start_char=8764|end_char=8765
+
+# text = Bei Arthrose der Finger hilft oft: - eine Physiotherapie - eine Operation - Medikamente
+# sent_id = 149
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=8767|end_char=8770
+2	Arthrose	Arthrose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=8771|end_char=8779
+3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=8780|end_char=8783
+4	Finger	Finger	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=8784|end_char=8790
+5	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8791|end_char=8796
+6	oft	oft	ADV	ADV	_	5	advmod	_	start_char=8797|end_char=8800
+7	:	:	PUNCT	$.	_	15	punct	_	start_char=8800|end_char=8801
+8	-	-	PUNCT	$(	_	15	punct	_	start_char=8802|end_char=8803
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=8804|end_char=8808
+10	Physiotherapie	Physiotherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	compound	_	start_char=8809|end_char=8823
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=8824|end_char=8825
+12	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=8826|end_char=8830
+13	Operation	Operation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	compound	_	start_char=8831|end_char=8840
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=8841|end_char=8842
+15	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	parataxis	_	start_char=8843|end_char=8854
+
+# text = Die Ziele der Behandlung sind: - Die Schmerzen sollen besser werden.
+# sent_id = 150
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=8856|end_char=8859
+2	Ziele	Ziel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	start_char=8860|end_char=8865
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=8866|end_char=8869
+4	Behandlung	Behandlung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=8870|end_char=8880
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=8881|end_char=8885
+6	:	:	PUNCT	$.	_	12	punct	_	start_char=8885|end_char=8886
+7	-	-	PUNCT	$(	_	12	punct	_	start_char=8887|end_char=8888
+8	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=8889|end_char=8892
+9	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=8893|end_char=8902
+10	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=8903|end_char=8909
+11	besser	gut	ADJ	ADJD	Degree=Cmp	12	xcomp	_	start_char=8910|end_char=8916
+12	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=8917|end_char=8923
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=8923|end_char=8924
+
+# text = - Sie sollen sich wieder besser bewegen können.
+# sent_id = 151
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=8925|end_char=8926
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=8927|end_char=8930
+3	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=8931|end_char=8937
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=8938|end_char=8942
+5	wieder	wieder	ADV	ADV	_	7	advmod	_	start_char=8943|end_char=8949
+6	besser	gut	ADV	ADJD	_	7	advmod	_	start_char=8950|end_char=8956
+7	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8957|end_char=8964
+8	können	können	AUX	VMINF	VerbForm=Inf	7	aux	_	start_char=8965|end_char=8971
+9	.	.	PUNCT	$.	_	7	punct	_	start_char=8971|end_char=8972
+
+# text = - Das Gelenk soll nicht mehr so schnell abnutzen.
+# sent_id = 152
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=8973|end_char=8974
+2	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=8975|end_char=8978
+3	Gelenk	Gelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=8979|end_char=8985
+4	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=8986|end_char=8990
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=8991|end_char=8996
+6	mehr	mehr	ADV	ADV	_	9	advmod	_	start_char=8997|end_char=9001
+7	so	so	ADV	ADV	_	8	advmod	_	start_char=9002|end_char=9004
+8	schnell	schnell	ADV	ADJD	_	9	advmod	_	start_char=9005|end_char=9012
+9	abnutzen	abnutzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=9013|end_char=9021
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=9021|end_char=9022
+
+# text = Die Ursachen einer Hand- und Fingergelenksarthrose sind oft nicht bekannt.
+# sent_id = 153
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=9024|end_char=9027
+2	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=9028|end_char=9036
+3	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=9037|end_char=9042
+4	Hand	Hand	NOUN	TRUNC	_	2	nmod	_	start_char=9043|end_char=9047
+5	-	-	PUNCT	$(	_	7	punct	_	start_char=9047|end_char=9048
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=9049|end_char=9052
+7	Fingergelenksarthrose	Fingergelenksarthrose	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	conj	_	start_char=9053|end_char=9074
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=9075|end_char=9079
+9	oft	oft	ADV	ADV	_	11	advmod	_	start_char=9080|end_char=9083
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=9084|end_char=9089
+11	bekannt	bekennen	ADJ	ADJD	Degree=Pos	0	root	_	start_char=9090|end_char=9097
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=9097|end_char=9098
+
+# text = Deshalb kann man die Ursachen nicht beseitigen.
+# sent_id = 154
+1	Deshalb	deshalb	ADV	PAV	_	7	advmod	_	start_char=9099|end_char=9106
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=9107|end_char=9111
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=9112|end_char=9115
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=9116|end_char=9119
+5	Ursachen	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=9120|end_char=9128
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=9129|end_char=9134
+7	beseitigen	beseitigen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=9135|end_char=9145
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=9145|end_char=9146
+
+# text = Sie haben eine Hand- und Fingergelenksarthrose?
+# sent_id = 155
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=9147|end_char=9150
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9151|end_char=9156
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=9157|end_char=9161
+4	Hand	Hand	NOUN	TRUNC	_	2	obj	_	start_char=9162|end_char=9166
+5	-	-	PUNCT	$(	_	7	punct	_	start_char=9166|end_char=9167
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=9168|end_char=9171
+7	Fingergelenksarthrose	Fingergelenksarthrose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	start_char=9172|end_char=9193
+8	?	?	PUNCT	$.	_	2	punct	_	start_char=9193|end_char=9194
+
+# text = Dann können Sie die Beschwerden lindern.
+# sent_id = 156
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=9195|end_char=9199
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=9200|end_char=9206
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=9207|end_char=9210
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=9211|end_char=9214
+5	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=9215|end_char=9226
+6	lindern	lindern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=9227|end_char=9234
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=9234|end_char=9235
+
+# text = Und Sie sollten alles tun, was Ihren Gelenken schadet.
+# sent_id = 157
+1	Und	und	CCONJ	KON	_	5	cc	_	start_char=9236|end_char=9239
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=9240|end_char=9243
+3	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=9244|end_char=9251
+4	alles	alle	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	5	obj	_	start_char=9252|end_char=9257
+5	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=9258|end_char=9261
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=9261|end_char=9262
+7	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	10	nsubj	_	start_char=9263|end_char=9266
+8	Ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=9267|end_char=9272
+9	Gelenken	Gelenk	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	obl:arg	_	start_char=9273|end_char=9281
+10	schadet	schaden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=9282|end_char=9289
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=9289|end_char=9290
+
+# text = Die betroffenen Personen haben eine Arthrose?
+# sent_id = 158
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=9292|end_char=9295
+2	betroffenen	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=9296|end_char=9307
+3	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=9308|end_char=9316
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9317|end_char=9322
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=9323|end_char=9327
+6	Arthrose	Arthrose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=9328|end_char=9336
+7	?	?	PUNCT	$.	_	4	punct	_	start_char=9336|end_char=9337
+
+# text = Dann sollten sie ihre Gelenke schonen.
+# sent_id = 159
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=9338|end_char=9342
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	start_char=9343|end_char=9350
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=9351|end_char=9354
+4	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=9355|end_char=9359
+5	Gelenke	Gelenke	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=9360|end_char=9367
+6	schonen	schonen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=9368|end_char=9375
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=9375|end_char=9376
+
+# text = Sie sollten zum Beispiel: - Überanstrengungen vermeiden - Fehlbelastungen im All-Tag vermeiden - Fehlbelastungen im Beruf vermeiden - Sport-Arten mit viel Belastung für die Gelenke vermeiden Sie können lernen, wie Sie Ihre Gelenke schonen können.
+# sent_id = 160
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=9377|end_char=9380
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	start_char=9381|end_char=9388
+3-4	zum	_	_	_	_	_	_	_	start_char=9389|end_char=9392
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=9393|end_char=9401
+6	:	:	PUNCT	$.	_	9	punct	_	start_char=9401|end_char=9402
+7	-	-	PUNCT	$(	_	9	punct	_	start_char=9403|end_char=9404
+8	Überanstrengungen	Überanstrengung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	obj	_	start_char=9405|end_char=9422
+9	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=9423|end_char=9432
+10	-	-	PUNCT	$(	_	11	punct	_	start_char=9433|end_char=9434
+11	Fehlbelastungen	Fehlbelastung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	appos	_	start_char=9435|end_char=9450
+12-13	im	_	_	_	_	_	_	_	start_char=9451|end_char=9453
+12	in	in	ADP	APPR	_	16	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+14	All	All	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	compound	_	start_char=9454|end_char=9457
+15	-	-	PUNCT	$(	_	14	punct	_	start_char=9457|end_char=9458
+16	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	start_char=9458|end_char=9461
+17	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	11	parataxis	_	start_char=9462|end_char=9471
+18	-	-	PUNCT	$(	_	19	punct	_	start_char=9472|end_char=9473
+19	Fehlbelastungen	Fehlbelastung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	conj	_	start_char=9474|end_char=9489
+20-21	im	_	_	_	_	_	_	_	start_char=9490|end_char=9492
+20	in	in	ADP	APPR	_	22	case	_	_
+21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Beruf	Beruf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	start_char=9493|end_char=9498
+23	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	27	parataxis	_	start_char=9499|end_char=9508
+24	-	-	PUNCT	$(	_	25	punct	_	start_char=9509|end_char=9510
+25	Sport	Sport	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	compound	_	start_char=9511|end_char=9516
+26	-	-	PUNCT	$(	_	25	punct	_	start_char=9516|end_char=9517
+27	Arten	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	conj	_	start_char=9517|end_char=9522
+28	mit	mit	ADP	APPR	_	30	case	_	start_char=9523|end_char=9526
+29	viel	viel	DET	PIAT	PronType=Ind	30	det	_	start_char=9527|end_char=9531
+30	Belastung	Belastung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	nmod	_	start_char=9532|end_char=9541
+31	für	für	ADP	APPR	_	33	case	_	start_char=9542|end_char=9545
+32	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	33	det	_	start_char=9546|end_char=9549
+33	Gelenke	Gelenke	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	30	nmod	_	start_char=9550|end_char=9557
+34	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	23	conj	_	start_char=9558|end_char=9567
+35	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	37	nsubj	_	start_char=9568|end_char=9571
+36	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	start_char=9572|end_char=9578
+37	lernen	lernen	VERB	VVINF	VerbForm=Inf	34	conj	_	start_char=9579|end_char=9585
+38	,	,	PUNCT	$,	_	43	punct	_	start_char=9585|end_char=9586
+39	wie	wie	ADV	KOUS	_	43	advmod	_	start_char=9587|end_char=9590
+40	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	43	nsubj	_	start_char=9591|end_char=9594
+41	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	42	det:poss	_	start_char=9595|end_char=9599
+42	Gelenke	Gelenke	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	43	obj	_	start_char=9600|end_char=9607
+43	schonen	schonen	VERB	VVINF	VerbForm=Inf	37	ccomp	_	start_char=9608|end_char=9615
+44	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	start_char=9616|end_char=9622
+45	.	.	PUNCT	$.	_	34	punct	_	start_char=9622|end_char=9623
+
+# text = Dafür arbeiten Sie mit einem Ergo-Therapeuten zusammen.
+# sent_id = 161
+1	Dafür	dafür	ADV	PAV	PronType=Dem	2	advmod	_	start_char=9624|end_char=9629
+2	arbeiten	arbeiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9630|end_char=9638
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=9639|end_char=9642
+4	mit	mit	ADP	APPR	_	8	case	_	start_char=9643|end_char=9646
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=9647|end_char=9652
+6	Ergo	Ergo	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	compound	_	start_char=9653|end_char=9657
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=9657|end_char=9658
+8	Therapeuten	Therapeut	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=9658|end_char=9669
+9	zusammen	zusammen	ADV	PTKVZ	_	2	compound:prt	_	start_char=9670|end_char=9678
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=9678|end_char=9679
+
+# text = Der Ergotherapeut hilft Ihnen dabei, im All-Tag die richtigen Bewegungen zu machen.
+# sent_id = 162
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=9680|end_char=9683
+2	Ergotherapeut	Ergotherapeut	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=9684|end_char=9697
+3	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9698|end_char=9703
+4	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	obl:arg	_	start_char=9704|end_char=9709
+5	dabei	dabei	ADV	PAV	_	3	advmod	_	start_char=9710|end_char=9715
+6	,	,	PUNCT	$,	_	16	punct	_	start_char=9715|end_char=9716
+7-8	im	_	_	_	_	_	_	_	start_char=9717|end_char=9719
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	All	all	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	start_char=9720|end_char=9723
+10	-	-	PUNCT	$(	_	11	punct	_	start_char=9723|end_char=9724
+11	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	flat	_	start_char=9724|end_char=9727
+12	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	14	det	_	start_char=9728|end_char=9731
+13	richtigen	richtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=9732|end_char=9741
+14	Bewegungen	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	start_char=9742|end_char=9752
+15	zu	zu	PART	PTKZU	_	16	mark	_	start_char=9753|end_char=9755
+16	machen	machen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	start_char=9756|end_char=9762
+17	.	.	PUNCT	$.	_	3	punct	_	start_char=9762|end_char=9763
+
+# text = So belasten Sie Ihre Gelenke nicht zu stark.
+# sent_id = 163
+1	So	so	ADV	ADV	_	2	advmod	_	start_char=9764|end_char=9766
+2	belasten	belasten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9767|end_char=9775
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=9776|end_char=9779
+4	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=9780|end_char=9784
+5	Gelenke	Gelenke	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=9785|end_char=9792
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=9793|end_char=9798
+7	zu	zu	ADV	PTKA	_	8	advmod	_	start_char=9799|end_char=9801
+8	stark	stark	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=9802|end_char=9807
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=9807|end_char=9808
+
+# text = Es gibt auch Hilfs-Mittel für die Hände.
+# sent_id = 164
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=9809|end_char=9811
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9812|end_char=9816
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=9817|end_char=9821
+4	Hilfs	Hilf	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	compound	_	start_char=9822|end_char=9827
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=9827|end_char=9828
+6	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=9828|end_char=9834
+7	für	für	ADP	APPR	_	9	case	_	start_char=9835|end_char=9838
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=9839|end_char=9842
+9	Hände	Hand	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	start_char=9843|end_char=9848
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=9848|end_char=9849
+
+# text = Zum Beispiel Griffverstärkungen für Stifte und Besteck.
+# sent_id = 165
+1-2	Zum	_	_	_	_	_	_	_	start_char=9850|end_char=9853
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=9854|end_char=9862
+4	Griffverstärkungen	Griffverstärkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=9863|end_char=9881
+5	für	für	ADP	APPR	_	6	case	_	start_char=9882|end_char=9885
+6	Stifte	Stift	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	start_char=9886|end_char=9892
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=9893|end_char=9896
+8	Besteck	Besteck	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	start_char=9897|end_char=9904
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=9904|end_char=9905
+
+# text = So können Sie Ihre Finger schonen.
+# sent_id = 166
+1	So	so	ADV	ADV	_	6	advmod	_	start_char=9906|end_char=9908
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=9909|end_char=9915
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=9916|end_char=9919
+4	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=9920|end_char=9924
+5	Finger	Finger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=9925|end_char=9931
+6	schonen	schonen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=9932|end_char=9939
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=9939|end_char=9940
+
+# text = Bei einer Arthrose im Daumensattelgelenk hilft auch eine Schiene.
+# sent_id = 167
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=9941|end_char=9944
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=9945|end_char=9950
+3	Arthrose	Arthrose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=9951|end_char=9959
+4-5	im	_	_	_	_	_	_	_	start_char=9960|end_char=9962
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Daumensattelgelenk	Daumensattelgelenk	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	start_char=9963|end_char=9981
+7	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9982|end_char=9987
+8	auch	auch	ADV	ADV	_	7	advmod	_	start_char=9988|end_char=9992
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=9993|end_char=9997
+10	Schiene	Schiene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=9998|end_char=10005
+11	.	.	PUNCT	$.	_	7	punct	_	start_char=10005|end_char=10006
+
+# text = Die Schiene reduziert die Schmerzen.
+# sent_id = 168
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=10007|end_char=10010
+2	Schiene	Schiene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=10011|end_char=10018
+3	reduziert	reduzieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=10019|end_char=10028
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=10029|end_char=10032
+5	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=10033|end_char=10042
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=10042|end_char=10043
+

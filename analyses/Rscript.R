@@ -1,0 +1,27 @@
+library("gplots")
+library("vcd")
+library("graphics")
+library("corrplot")
+library("ca")
+library(ape)
+library(cluster)
+library(pvclust)
+library(fpc)
+
+data<- read.table("/home/ekaterina/katja/hildesheim/collaborations/chatgpt/apothekenumschau/analyses/deprel_hix_stat.csv", header=TRUE)
+data.abs<-data[,c(1:6)]
+data.norm<-data[,c(8:14)]
+
+#perform CA on the absolute numbers and also on normalised (actually it does not make any difference)
+ca.data.abs<-ca(data.abs, graph=FALSE)
+plot(ca.data.abs)
+ca.data.norm<-ca(data.norm, graph=FALSE)
+plot(ca.data.norm)
+
+cluster.data.abs<-pvclust(t(data.abs), method.hclust="ward.D", method.dist="euclidean")
+plot(cluster.data.abs, main="clustering translations")
+pvrect(cluster.data.abs, alpha=.85) 
+
+cluster.data.norm<-pvclust(t(data.norm), method.hclust="ward.D", method.dist="euclidean")
+plot(cluster.data.norm, main="clustering translations")
+pvrect(cluster.data.norm, alpha=.85) 

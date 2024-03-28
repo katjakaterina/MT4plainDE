@@ -1,0 +1,1994 @@
+# text = ﻿
+# sent_id = 0
+1	﻿	"	PUNCT	$(	_	0	root	_	start_char=0|end_char=1
+
+# text = Verhütung: Nehmen Sie die Pille.
+# sent_id = 1
+1	Verhütung	Verhütung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	start_char=3|end_char=12
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=12|end_char=13
+3	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=14|end_char=20
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=21|end_char=24
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=25|end_char=28
+6	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=29|end_char=34
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=34|end_char=35
+
+# text = Die Antibabypille schützt vor einer Schwangerschaft.
+# sent_id = 2
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=37|end_char=40
+2	Antibabypille	Antibabypille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=41|end_char=54
+3	schützt	schützen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=55|end_char=62
+4	vor	vor	ADP	APPR	_	6	case	_	start_char=63|end_char=66
+5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=67|end_char=72
+6	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=73|end_char=88
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=88|end_char=89
+
+# text = Und die Antibabypille ist einfach anzuwenden.
+# sent_id = 3
+1	Und	und	CCONJ	KON	_	6	cc	_	start_char=90|end_char=93
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=94|end_char=97
+3	Antibabypille	Antibabypille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	start_char=98|end_char=111
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	start_char=112|end_char=115
+5	einfach	einfach	ADV	ADV	_	6	advmod	_	start_char=116|end_char=123
+6	anzuwenden	anwenden	VERB	VVIZU	VerbForm=Inf	0	root	_	start_char=124|end_char=134
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=134|end_char=135
+
+# text = Sie möchten mehr über die Antibabypille wissen?
+# sent_id = 4
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=136|end_char=139
+2	möchten	mögen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=140|end_char=147
+3	mehr	mehr	ADV	ADV	_	7	advmod	_	start_char=148|end_char=152
+4	über	über	ADP	APPR	_	6	case	_	start_char=153|end_char=157
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=158|end_char=161
+6	Antibabypille	Antibabypille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	start_char=162|end_char=175
+7	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=176|end_char=182
+8	?	?	PUNCT	$.	_	7	punct	_	start_char=182|end_char=183
+
+# text = Dann lesen Sie hier:
+# sent_id = 5
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=184|end_char=188
+2	lesen	lesen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=189|end_char=194
+3	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=195|end_char=198
+4	hier	hier	ADV	ADV	_	2	advmod	_	start_char=199|end_char=203
+5	:	:	PUNCT	$.	_	2	punct	_	start_char=203|end_char=204
+
+# text = Aktualisiert am 12. Februar 2019.
+# sent_id = 6
+1	Aktualisiert	aktualisieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=206|end_char=218
+2-3	am	_	_	_	_	_	_	_	start_char=219|end_char=221
+2	an	an	ADP	APPR	_	5	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+4	12.	12.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	5	amod	_	start_char=222|end_char=225
+5	Februar	Februar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	start_char=226|end_char=233
+6	2019	2019	NUM	CARD	NumType=Card	5	nmod	_	start_char=234|end_char=238
+7	.	.	PUNCT	$.	_	1	punct	_	start_char=238|end_char=239
+
+# text = Was ist die normale Zyklus?
+# sent_id = 7
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=241|end_char=244
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=245|end_char=248
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=249|end_char=252
+4	normale	normal	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=253|end_char=260
+5	Zyklus	Zyklus	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=261|end_char=267
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=267|end_char=268
+
+# text = Was passiert bei der Pille?
+# sent_id = 8
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	nsubj	_	start_char=269|end_char=272
+2	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=273|end_char=281
+3	bei	bei	ADP	APPR	_	5	case	_	start_char=282|end_char=285
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=286|end_char=289
+5	Pille	Pille	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=290|end_char=295
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=295|end_char=296
+
+# text = Welche Pillen gibt es?
+# sent_id = 9
+1	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	2	det	_	start_char=297|end_char=303
+2	Pillen	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=304|end_char=310
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=311|end_char=315
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=316|end_char=318
+5	?	?	PUNCT	$.	_	3	punct	_	start_char=318|end_char=319
+
+# text = Welche Vorteile und Nachteile hat die Pille?
+# sent_id = 10
+1	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	2	det	_	start_char=320|end_char=326
+2	Vorteile	Vorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=327|end_char=335
+3	und	und	CCONJ	KON	_	4	cc	_	start_char=336|end_char=339
+4	Nachteile	Nachteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	start_char=340|end_char=349
+5	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=350|end_char=353
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=354|end_char=357
+7	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=358|end_char=363
+8	?	?	PUNCT	$.	_	5	punct	_	start_char=363|end_char=364
+
+# text = Wie muss man die Pille nehmen?
+# sent_id = 11
+1	Wie	wie	ADV	PWAV	PronType=Int	6	advmod	_	start_char=365|end_char=368
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=369|end_char=373
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=374|end_char=377
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=378|end_char=381
+5	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=382|end_char=387
+6	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=388|end_char=394
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=394|end_char=395
+
+# text = Was muss man tun, wenn man die Pille vergessen hat?
+# sent_id = 12
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	4	obj	_	start_char=396|end_char=399
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=400|end_char=404
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=405|end_char=408
+4	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=409|end_char=412
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=412|end_char=413
+6	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=414|end_char=418
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=419|end_char=422
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=423|end_char=426
+9	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=427|end_char=432
+10	vergessen	vergessen	VERB	VVPP	VerbForm=Part	4	advcl	_	start_char=433|end_char=442
+11	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=443|end_char=446
+12	?	?	PUNCT	$.	_	4	punct	_	start_char=446|end_char=447
+
+# text = Mit der Pille auf Reisen.
+# sent_id = 13
+1	Mit	mit	ADP	APPR	_	3	case	_	start_char=448|end_char=451
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=452|end_char=455
+3	Pille	Pille	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	start_char=456|end_char=461
+4	auf	auf	ADP	APPR	_	5	case	_	start_char=462|end_char=465
+5	Reisen	Reise|Reisen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	start_char=466|end_char=472
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=472|end_char=473
+
+# text = Welche Nebenwirkungen kann die Pille haben?
+# sent_id = 14
+1	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	2	det	_	start_char=474|end_char=480
+2	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=481|end_char=495
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=496|end_char=500
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=501|end_char=504
+5	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=505|end_char=510
+6	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=511|end_char=516
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=516|end_char=517
+
+# text = Wie sicher ist die Pille?
+# sent_id = 15
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	start_char=518|end_char=521
+2	sicher	sicher	ADJ	ADJD	Degree=Pos	0	root	_	start_char=522|end_char=528
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=529|end_char=532
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=533|end_char=536
+5	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=537|end_char=542
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=542|end_char=543
+
+# text = Die Antibabypille ist eine sehr sichere Verhütungs-Methode.
+# sent_id = 16
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=545|end_char=548
+2	Antibabypille	Antibabypille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=549|end_char=562
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=563|end_char=566
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=567|end_char=571
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	start_char=572|end_char=576
+6	sichere	sicher	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=577|end_char=584
+7	Verhütungs	Verhütungs	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	start_char=585|end_char=595
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=595|end_char=596
+9	Methode	Methode	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=596|end_char=603
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=603|end_char=604
+
+# text = Und sie ist sehr leicht zu bekommen.
+# sent_id = 17
+1	Und	und	CCONJ	KON	_	7	cc	_	start_char=605|end_char=608
+2	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	start_char=609|end_char=612
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	start_char=613|end_char=616
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	start_char=617|end_char=621
+5	leicht	leicht	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=622|end_char=628
+6	zu	zu	PART	PTKZU	_	7	mark	_	start_char=629|end_char=631
+7	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=632|end_char=640
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=640|end_char=641
+
+# text = Deshalb greifen viele Frauen zu der Pille.
+# sent_id = 18
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=642|end_char=649
+2	greifen	greifen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=650|end_char=657
+3	viele	viel	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	start_char=658|end_char=663
+4	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=664|end_char=670
+5	zu	zu	ADP	APPR	_	7	case	_	start_char=671|end_char=673
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=674|end_char=677
+7	Pille	Pille	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=678|end_char=683
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=683|end_char=684
+
+# text = Aber wie funktioniert die Pille?
+# sent_id = 19
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=685|end_char=689
+2	wie	wie	ADV	KOUS	_	3	advmod	_	start_char=690|end_char=693
+3	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=694|end_char=706
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=707|end_char=710
+5	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=711|end_char=716
+6	?	?	PUNCT	$.	_	3	punct	_	start_char=716|end_char=717
+
+# text = Und was ist ein natürlicher Zyklus?
+# sent_id = 20
+1	Und	und	CCONJ	KON	_	6	cc	_	start_char=718|end_char=721
+2	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=722|end_char=725
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=726|end_char=729
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=730|end_char=733
+5	natürlicher	natürlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=734|end_char=745
+6	Zyklus	Zyklus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=746|end_char=752
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=752|end_char=753
+
+# text = Ein natürlicher Zyklus ist der Vorgang im weiblichen Körper, bei dem ein Ei reif wird.
+# sent_id = 21
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=754|end_char=757
+2	natürlicher	natürlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=758|end_char=769
+3	Zyklus	Zyklus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=770|end_char=776
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=777|end_char=780
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=781|end_char=784
+6	Vorgang	Vorgang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=785|end_char=792
+7-8	im	_	_	_	_	_	_	_	start_char=793|end_char=795
+7	in	in	ADP	APPR	_	10	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	weiblichen	weiblich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=796|end_char=806
+10	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	start_char=807|end_char=813
+11	,	,	PUNCT	$,	_	17	punct	_	start_char=813|end_char=814
+12	bei	bei	ADP	APPR	_	13	case	_	start_char=815|end_char=818
+13	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem,Rel	16	nmod	_	start_char=819|end_char=822
+14	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=823|end_char=826
+15	Ei	Ei	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	start_char=827|end_char=829
+16	reif	reif	ADJ	ADJD	Degree=Pos	17	xcomp	_	start_char=830|end_char=834
+17	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	start_char=835|end_char=839
+18	.	.	PUNCT	$.	_	6	punct	_	start_char=839|end_char=840
+
+# text = Der natürliche Zyklus.
+# sent_id = 22
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=842|end_char=845
+2	natürliche	natürlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=846|end_char=856
+3	Zyklus	Zyklus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=857|end_char=863
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=863|end_char=864
+
+# text = Die Eierstöcke produzieren die weiblichen Geschlechts-Hormone.
+# sent_id = 23
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=866|end_char=869
+2	Eierstöcke	Eierstock	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=870|end_char=880
+3	produzieren	produzieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=881|end_char=892
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=893|end_char=896
+5	weiblichen	weiblich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=897|end_char=907
+6	Geschlechts	Geschlecht	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	compound	_	start_char=908|end_char=919
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=919|end_char=920
+8	Hormone	Hormone	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=920|end_char=927
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=927|end_char=928
+
+# text = Die weiblichen Geschlechts-Hormone heißen: Östrogene und Gestagene.
+# sent_id = 24
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=929|end_char=932
+2	weiblichen	weiblich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=933|end_char=943
+3	Geschlechts	Geschlecht	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	compound	_	start_char=944|end_char=955
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=955|end_char=956
+5	Hormone	Hormone	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=956|end_char=963
+6	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=964|end_char=970
+7	:	:	PUNCT	$.	_	8	punct	_	start_char=970|end_char=971
+8	Östrogene	Östrogene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	xcomp	_	start_char=972|end_char=981
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=982|end_char=985
+10	Gestagene	Gestagene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	conj	_	start_char=986|end_char=995
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=995|end_char=996
+
+# text = Östrogene regeln den Menstruationszyklus.
+# sent_id = 25
+1	Östrogene	Östrogene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=997|end_char=1006
+2	regeln	regeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1007|end_char=1013
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1014|end_char=1017
+4	Menstruationszyklus	Menstruationszyklus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=1018|end_char=1037
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=1037|end_char=1038
+
+# text = Gestagene beeinflussen viele andere Vorgänge im Körper der Frau.
+# sent_id = 26
+1	Gestagene	Gestagene	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1039|end_char=1048
+2	beeinflussen	beeinflussen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1049|end_char=1061
+3	viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=1062|end_char=1067
+4	andere	anderer	DET	ADJA	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=1068|end_char=1074
+5	Vorgänge	Vorgang	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	obj	_	start_char=1075|end_char=1083
+6-7	im	_	_	_	_	_	_	_	start_char=1084|end_char=1086
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	start_char=1087|end_char=1093
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1094|end_char=1097
+10	Frau	Frau	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=1098|end_char=1102
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=1102|end_char=1103
+
+# text = Die Eierstöcke produzieren auch das Hormon Progesteron.
+# sent_id = 27
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1104|end_char=1107
+2	Eierstöcke	Eierstock	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1108|end_char=1118
+3	produzieren	produzieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1119|end_char=1130
+4	auch	auch	ADV	ADV	_	3	advmod	_	start_char=1131|end_char=1135
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=1136|end_char=1139
+6	Hormon	Hormon	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=1140|end_char=1146
+7	Progesteron	Progesteron	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	appos	_	start_char=1147|end_char=1158
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=1158|end_char=1159
+
+# text = Progesteron entsteht nach dem Eisprung im Gelbkörper.
+# sent_id = 28
+1	Progesteron	Progesteron	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=1160|end_char=1171
+2	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1172|end_char=1180
+3	nach	nach	ADP	APPR	_	5	case	_	start_char=1181|end_char=1185
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1186|end_char=1189
+5	Eisprung	Eisprung	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=1190|end_char=1198
+6-7	im	_	_	_	_	_	_	_	start_char=1199|end_char=1201
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Gelbkörper	Gelbkörper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=1202|end_char=1212
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=1212|end_char=1213
+
+# text = Die Eierstöcke werden von Hormonen aus der Hirnanhangdrüse gesteuert.
+# sent_id = 29
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1215|end_char=1218
+2	Eierstöcke	Eierstock	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj:pass	_	start_char=1219|end_char=1229
+3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	aux:pass	_	start_char=1230|end_char=1236
+4	von	von	ADP	APPR	_	5	case	_	start_char=1237|end_char=1240
+5	Hormonen	Hormon	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl:agent	_	start_char=1241|end_char=1249
+6	aus	aus	ADP	APPR	_	8	case	_	start_char=1250|end_char=1253
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1254|end_char=1257
+8	Hirnanhangdrüse	Hirnanhangdrüse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	start_char=1258|end_char=1273
+9	gesteuert	steuern	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1274|end_char=1283
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1283|end_char=1284
+
+# text = Die Hormone heißen: FSH und LH.
+# sent_id = 30
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1285|end_char=1288
+2	Hormone	Hormone	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1289|end_char=1296
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1297|end_char=1303
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=1303|end_char=1304
+5	FSH	FSH	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	xcomp	_	start_char=1305|end_char=1308
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=1309|end_char=1312
+7	LH	LH	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	start_char=1313|end_char=1315
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=1315|end_char=1316
+
+# text = Das Gehirn gibt die Hormone an die Hirnanhangdrüse ab.
+# sent_id = 31
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1317|end_char=1320
+2	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=1321|end_char=1327
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1328|end_char=1332
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1333|end_char=1336
+5	Hormone	Hormone	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=1337|end_char=1344
+6	an	an	ADP	APPR	_	8	case	_	start_char=1345|end_char=1347
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1348|end_char=1351
+8	Hirnanhangdrüse	Hirnanhangdrüse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=1352|end_char=1367
+9	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	start_char=1368|end_char=1370
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=1370|end_char=1371
+
+# text = Die Hirnanhangdrüse gibt die Hormone dann an die Eierstöcke weiter.
+# sent_id = 32
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1372|end_char=1375
+2	Hirnanhangdrüse	Hirnanhangdrüse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1376|end_char=1391
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1392|end_char=1396
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1397|end_char=1400
+5	Hormone	Hormone	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=1401|end_char=1408
+6	dann	dann	ADV	ADV	_	3	advmod	_	start_char=1409|end_char=1413
+7	an	an	ADP	APPR	_	9	case	_	start_char=1414|end_char=1416
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=1417|end_char=1420
+9	Eierstöcke	Eierstock	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	start_char=1421|end_char=1431
+10	weiter	weiter	ADV	PTKVZ	_	3	compound:prt	_	start_char=1432|end_char=1438
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=1438|end_char=1439
+
+# text = In der ersten Zyklus-Hälfte bildet FSH Östrogen und reift das Eibläschen.
+# sent_id = 33
+1	In	in	ADP	APPR	_	6	case	_	start_char=1441|end_char=1443
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1444|end_char=1447
+3	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	6	amod	_	start_char=1448|end_char=1454
+4	Zyklus	Zyklus	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	compound	_	start_char=1455|end_char=1461
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1461|end_char=1462
+6	Hälfte	Hälfte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=1462|end_char=1468
+7	bildet	bilden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1469|end_char=1475
+8	FSH	FSH	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=1476|end_char=1479
+9	Östrogen	Östrogen	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	start_char=1480|end_char=1488
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=1489|end_char=1492
+11	reift	reifen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=1493|end_char=1498
+12	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	start_char=1499|end_char=1502
+13	Eibläschen	Eibläschen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=1503|end_char=1513
+14	.	.	PUNCT	$.	_	7	punct	_	start_char=1513|end_char=1514
+
+# text = Das Eibläschen heißt auch: Follikel.
+# sent_id = 34
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1515|end_char=1518
+2	Eibläschen	Eibläschen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=1519|end_char=1529
+3	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1530|end_char=1535
+4	auch	auch	ADV	ADV	_	3	advmod	_	start_char=1536|end_char=1540
+5	:	:	PUNCT	$.	_	6	punct	_	start_char=1540|end_char=1541
+6	Follikel	Follikel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	start_char=1542|end_char=1550
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1550|end_char=1551
+
+# text = In der zweiten Zyklus-Hälfte bildet der Körper dann noch mehr LH.
+# sent_id = 35
+1	In	in	ADP	APPR	_	6	case	_	start_char=1552|end_char=1554
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1555|end_char=1558
+3	zweiten	zweit	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	6	amod	_	start_char=1559|end_char=1566
+4	Zyklus	Zyklus	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	compound	_	start_char=1567|end_char=1573
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1573|end_char=1574
+6	Hälfte	Hälfte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=1574|end_char=1580
+7	bildet	bilden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1581|end_char=1587
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=1588|end_char=1591
+9	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=1592|end_char=1598
+10	dann	dann	ADV	ADV	_	7	advmod	_	start_char=1599|end_char=1603
+11	noch	noch	ADV	ADV	_	7	advmod	_	start_char=1604|end_char=1608
+12	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	13	det	_	start_char=1609|end_char=1613
+13	LH	LH	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	7	obj	_	start_char=1614|end_char=1616
+14	.	.	PUNCT	$.	_	7	punct	_	start_char=1616|end_char=1617
+
+# text = Der Körper bildet dann auch Progesteron.
+# sent_id = 36
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1618|end_char=1621
+2	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1622|end_char=1628
+3	bildet	bilden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1629|end_char=1635
+4	dann	dann	ADV	ADV	_	3	advmod	_	start_char=1636|end_char=1640
+5	auch	auch	ADV	ADV	_	3	advmod	_	start_char=1641|end_char=1645
+6	Progesteron	Progesteron	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	obj	_	start_char=1646|end_char=1657
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1657|end_char=1658
+
+# text = Progesteron ist ein Gelbkörperhormon.
+# sent_id = 37
+1	Progesteron	Progesteron	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=1659|end_char=1670
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1671|end_char=1674
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1675|end_char=1678
+4	Gelbkörperhormon	Gelbkörperhormon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1679|end_char=1695
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=1695|end_char=1696
+
+# text = Das Gelbkörperhormon bereitet die Gebärmutterschleimhaut auf eine mögliche Schwangerschaft vor.
+# sent_id = 38
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1697|end_char=1700
+2	Gelbkörperhormon	Gelbkörperhormon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=1701|end_char=1717
+3	bereitet	bereiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1718|end_char=1726
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1727|end_char=1730
+5	Gebärmutterschleimhaut	Gebärmutterschleimhaut	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=1731|end_char=1753
+6	auf	auf	ADP	APPR	_	9	case	_	start_char=1754|end_char=1757
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=1758|end_char=1762
+8	mögliche	möglich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=1763|end_char=1771
+9	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=1772|end_char=1787
+10	vor	vor	ADP	PTKVZ	_	3	compound:prt	_	start_char=1788|end_char=1791
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=1791|end_char=1792
+
+# text = Das Gelbkörperhormon hält den Eisprung in der zweiten Zyklus-Hälfte ab.
+# sent_id = 39
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1793|end_char=1796
+2	Gelbkörperhormon	Gelbkörperhormon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=1797|end_char=1813
+3	hält	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1814|end_char=1818
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1819|end_char=1822
+5	Eisprung	Eisprung	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=1823|end_char=1831
+6	in	in	ADP	APPR	_	11	case	_	start_char=1832|end_char=1834
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1835|end_char=1838
+8	zweiten	zweit	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	11	amod	_	start_char=1839|end_char=1846
+9	Zyklus	Zyklus	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	compound	_	start_char=1847|end_char=1853
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=1853|end_char=1854
+11	Hälfte	Hälfte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=1854|end_char=1860
+12	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	start_char=1861|end_char=1863
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=1863|end_char=1864
+
+# text = Das Ei ist befruchtet worden?
+# sent_id = 40
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1866|end_char=1869
+2	Ei	Ei	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	start_char=1870|end_char=1872
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1873|end_char=1876
+4	befruchtet	befruchten	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1877|end_char=1887
+5	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	4	aux:pass	_	start_char=1888|end_char=1894
+6	?	?	PUNCT	$.	_	4	punct	_	start_char=1894|end_char=1895
+
+# text = Dann produziert der Gelbkörper weiterhin Hormone.
+# sent_id = 41
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=1896|end_char=1900
+2	produziert	produzieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1901|end_char=1911
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1912|end_char=1915
+4	Gelbkörper	Gelbkörper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1916|end_char=1926
+5	weiterhin	weiterhin	ADV	ADV	_	2	advmod	_	start_char=1927|end_char=1936
+6	Hormone	Hormone	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=1937|end_char=1944
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=1944|end_char=1945
+
+# text = Diese Hormone braucht das Baby im Mutter-Kuchen.
+# sent_id = 42
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=1946|end_char=1951
+2	Hormone	Hormone	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=1952|end_char=1959
+3	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1960|end_char=1967
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1968|end_char=1971
+5	Baby	Baby	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	obj	_	start_char=1972|end_char=1976
+6-7	im	_	_	_	_	_	_	_	start_char=1977|end_char=1979
+6	in	in	ADP	APPR	_	10	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+8	Mutter	Mutter	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	compound	_	start_char=1980|end_char=1986
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=1986|end_char=1987
+10	Kuchen	Kuchen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=1987|end_char=1993
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=1993|end_char=1994
+
+# text = Gegen Ende des ersten Schwangerschafts-Drittels übernimmt die Plazenta diese Aufgabe.
+# sent_id = 43
+1	Gegen	gegen	ADP	APPR	_	2	case	_	start_char=1995|end_char=2000
+2	Ende	Ende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	start_char=2001|end_char=2005
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=2006|end_char=2009
+4	ersten	erst	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|NumType=Ord|Number=Sing	7	amod	_	start_char=2010|end_char=2016
+5	Schwangerschafts	Schwangerschafts	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	7	compound	_	start_char=2017|end_char=2033
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=2033|end_char=2034
+7	Drittels	Drittel	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	start_char=2034|end_char=2042
+8	übernimmt	übernehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2043|end_char=2052
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=2053|end_char=2056
+10	Plazenta	Plazenta	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=2057|end_char=2065
+11	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	start_char=2066|end_char=2071
+12	Aufgabe	Aufgabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=2072|end_char=2079
+13	.	.	PUNCT	$.	_	8	punct	_	start_char=2079|end_char=2080
+
+# text = Die Eizelle ist nicht befruchtet worden?
+# sent_id = 44
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2082|end_char=2085
+2	Eizelle	Eizelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	start_char=2086|end_char=2093
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2094|end_char=2097
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=2098|end_char=2103
+5	befruchtet	befruchten	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2104|end_char=2114
+6	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	5	aux:pass	_	start_char=2115|end_char=2121
+7	?	?	PUNCT	$.	_	5	punct	_	start_char=2121|end_char=2122
+
+# text = Dann bildet sich der Gelbkörper zurück.
+# sent_id = 45
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=2123|end_char=2127
+2	bildet	bilden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2128|end_char=2134
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=2135|end_char=2139
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=2140|end_char=2143
+5	Gelbkörper	Gelbkörper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=2144|end_char=2154
+6	zurück	zurück	ADV	PTKVZ	_	2	compound:prt	_	start_char=2155|end_char=2161
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=2161|end_char=2162
+
+# text = Die Hormone sinken.
+# sent_id = 46
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=2163|end_char=2166
+2	Hormone	Hormone	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=2167|end_char=2174
+3	sinken	sinken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2175|end_char=2181
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=2181|end_char=2182
+
+# text = Die Gebärmutterschleimhaut wird abgestoßen.
+# sent_id = 47
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2183|end_char=2186
+2	Gebärmutterschleimhaut	Gebärmutterschleimhaut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	start_char=2187|end_char=2209
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	aux:pass	_	start_char=2210|end_char=2214
+4	abgestoßen	abstoßen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2215|end_char=2225
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=2225|end_char=2226
+
+# text = Deshalb bekommen Sie eine Blutung.
+# sent_id = 48
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=2227|end_char=2234
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2235|end_char=2243
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2244|end_char=2247
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=2248|end_char=2252
+5	Blutung	Blutung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2253|end_char=2260
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=2260|end_char=2261
+
+# text = Und der neue Zyklus beginnt.
+# sent_id = 49
+1	Und	und	CCONJ	KON	_	5	cc	_	start_char=2262|end_char=2265
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=2266|end_char=2269
+3	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=2270|end_char=2274
+4	Zyklus	Zyklus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=2275|end_char=2281
+5	beginnt	beginnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2282|end_char=2289
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2289|end_char=2290
+
+# text = Die Pille verhindert die Einnistung der befruchteten Eizelle in der Gebärmutter.
+# sent_id = 50
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2292|end_char=2295
+2	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2296|end_char=2301
+3	verhindert	verhindern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2302|end_char=2312
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2313|end_char=2316
+5	Einnistung	Einnistung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=2317|end_char=2327
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=2328|end_char=2331
+7	befruchteten	befruchtet	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=2332|end_char=2344
+8	Eizelle	Eizelle	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=2345|end_char=2352
+9	in	in	ADP	APPR	_	11	case	_	start_char=2353|end_char=2355
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=2356|end_char=2359
+11	Gebärmutter	Gebärmutter	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	start_char=2360|end_char=2371
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=2371|end_char=2372
+
+# text = So kann eine Schwangerschaft nicht entstehen.
+# sent_id = 51
+1	So	so	ADV	ADV	_	6	advmod	_	start_char=2373|end_char=2375
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2376|end_char=2380
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=2381|end_char=2385
+4	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=2386|end_char=2401
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=2402|end_char=2407
+6	entstehen	entstehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2408|end_char=2417
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2417|end_char=2418
+
+# text = Die Pille enthält künstliche Hormone.
+# sent_id = 52
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2420|end_char=2423
+2	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2424|end_char=2429
+3	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2430|end_char=2437
+4	künstliche	künstlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=2438|end_char=2448
+5	Hormone	Hormone	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=2449|end_char=2456
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=2456|end_char=2457
+
+# text = Die künstlichen Hormone verändern die Hormon-Spiegel im Körper.
+# sent_id = 53
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=2458|end_char=2461
+2	künstlichen	künstlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=2462|end_char=2473
+3	Hormone	Hormone	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=2474|end_char=2481
+4	verändern	verändern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2482|end_char=2491
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=2492|end_char=2495
+6	Hormon	Hormon	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	compound	_	start_char=2496|end_char=2502
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2502|end_char=2503
+8	Spiegel	Spiegel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=2503|end_char=2510
+9-10	im	_	_	_	_	_	_	_	start_char=2511|end_char=2513
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=2514|end_char=2520
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=2520|end_char=2521
+
+# text = Deshalb kommt es nicht zu einer Eizellreifung.
+# sent_id = 54
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=2522|end_char=2529
+2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2530|end_char=2535
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2536|end_char=2538
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=2539|end_char=2544
+5	zu	zu	ADP	APPR	_	7	case	_	start_char=2545|end_char=2547
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=2548|end_char=2553
+7	Eizellreifung	Eizellreifung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=2554|end_char=2567
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=2567|end_char=2568
+
+# text = Die Eizellen reifen nicht, weil die Pille den Anstieg des LH-Hormons verhindert.
+# sent_id = 55
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=2569|end_char=2572
+2	Eizellen	Eizelle|Sizellen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=2573|end_char=2581
+3	reifen	reif	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2582|end_char=2588
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=2589|end_char=2594
+5	,	,	PUNCT	$,	_	15	punct	_	start_char=2594|end_char=2595
+6	weil	weil	SCONJ	KOUS	_	15	mark	_	start_char=2596|end_char=2600
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=2601|end_char=2604
+8	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=2605|end_char=2610
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=2611|end_char=2614
+10	Anstieg	Anstieg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=2615|end_char=2622
+11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=2623|end_char=2626
+12	LH	LH	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	start_char=2627|end_char=2629
+13	-	-	PUNCT	$(	_	14	punct	_	start_char=2629|end_char=2630
+14	Hormons	Hormon	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	12	flat	_	start_char=2630|end_char=2637
+15	verhindert	verhindern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=2638|end_char=2648
+16	.	.	PUNCT	$.	_	3	punct	_	start_char=2648|end_char=2649
+
+# text = Deshalb kommt es auch nicht zu einem Eisprung.
+# sent_id = 56
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=2650|end_char=2657
+2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2658|end_char=2663
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2664|end_char=2666
+4	auch	auch	ADV	ADV	_	5	advmod	_	start_char=2667|end_char=2671
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=2672|end_char=2677
+6	zu	zu	ADP	APPR	_	8	case	_	start_char=2678|end_char=2680
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=2681|end_char=2686
+8	Eisprung	Eisprung	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=2687|end_char=2695
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=2695|end_char=2696
+
+# text = Deshalb nennt man die Pille auch: Ovulationshemmer.
+# sent_id = 57
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=2697|end_char=2704
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2705|end_char=2710
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=2711|end_char=2714
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2715|end_char=2718
+5	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2719|end_char=2724
+6	auch	auch	ADV	ADV	_	2	advmod	_	start_char=2725|end_char=2729
+7	:	:	PUNCT	$.	_	8	punct	_	start_char=2729|end_char=2730
+8	Ovulationshemmer	Ovulationshemmer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	start_char=2731|end_char=2747
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=2747|end_char=2748
+
+# text = Die Gestagene in der Pille verändern den Schleim im Gebärmutterhals.
+# sent_id = 58
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=2750|end_char=2753
+2	Gestagene	Gestagene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=2754|end_char=2763
+3	in	in	ADP	APPR	_	5	case	_	start_char=2764|end_char=2766
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2767|end_char=2770
+5	Pille	Pille	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=2771|end_char=2776
+6	verändern	verändern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2777|end_char=2786
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=2787|end_char=2790
+8	Schleim	Schleim	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=2791|end_char=2798
+9-10	im	_	_	_	_	_	_	_	start_char=2799|end_char=2801
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Gebärmutterhals	Gebärmutterhals	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	start_char=2802|end_char=2817
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=2817|end_char=2818
+
+# text = Der Schleim wird dicker.
+# sent_id = 59
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=2819|end_char=2822
+2	Schleim	Schleim	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2823|end_char=2830
+3	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2831|end_char=2835
+4	dicker	dicker	ADJ	ADJD	Degree=Cmp	3	xcomp	_	start_char=2836|end_char=2842
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=2842|end_char=2843
+
+# text = Die Spermien können dann nicht mehr in die Gebärmutter gelangen.
+# sent_id = 60
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=2844|end_char=2847
+2	Spermien	Spermie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=2848|end_char=2856
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=2857|end_char=2863
+4	dann	dann	ADV	ADV	_	10	advmod	_	start_char=2864|end_char=2868
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=2869|end_char=2874
+6	mehr	mehr	ADV	ADV	_	10	advmod	_	start_char=2875|end_char=2879
+7	in	in	ADP	APPR	_	9	case	_	start_char=2880|end_char=2882
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=2883|end_char=2886
+9	Gebärmutter	Gebärmutter	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	start_char=2887|end_char=2898
+10	gelangen	gelangen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2899|end_char=2907
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=2907|end_char=2908
+
+# text = Und die Eileiter werden auch verklebt.
+# sent_id = 61
+1	Und	und	CCONJ	KON	_	6	cc	_	start_char=2909|end_char=2912
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=2913|end_char=2916
+3	Eileiter	Eileiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	start_char=2917|end_char=2925
+4	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	start_char=2926|end_char=2932
+5	auch	auch	ADV	ADV	_	6	advmod	_	start_char=2933|end_char=2937
+6	verklebt	verkleben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2938|end_char=2946
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2946|end_char=2947
+
+# text = So kann das befruchtete Ei nicht in die Gebärmutter gelangen.
+# sent_id = 62
+1	So	so	ADV	ADV	_	10	advmod	_	start_char=2948|end_char=2950
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=2951|end_char=2955
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=2956|end_char=2959
+4	befruchtete	befruchtet	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=2960|end_char=2971
+5	Ei	Ei	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=2972|end_char=2974
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=2975|end_char=2980
+7	in	in	ADP	APPR	_	9	case	_	start_char=2981|end_char=2983
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=2984|end_char=2987
+9	Gebärmutter	Gebärmutter	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	start_char=2988|end_char=2999
+10	gelangen	gelangen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3000|end_char=3008
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=3008|end_char=3009
+
+# text = Und die Gebärmutterschleimhaut wird abgebaut.
+# sent_id = 63
+1	Und	und	CCONJ	KON	_	5	cc	_	start_char=3010|end_char=3013
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3014|end_char=3017
+3	Gebärmutterschleimhaut	Gebärmutterschleimhaut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	start_char=3018|end_char=3040
+4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	start_char=3041|end_char=3045
+5	abgebaut	abbauen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3046|end_char=3054
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=3054|end_char=3055
+
+# text = So kann sich das befruchtete Ei nicht mehr einnisten.
+# sent_id = 64
+1	So	so	ADV	ADV	_	9	advmod	_	start_char=3056|end_char=3058
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=3059|end_char=3063
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	start_char=3064|end_char=3068
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=3069|end_char=3072
+5	befruchtete	befruchtet	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=3073|end_char=3084
+6	Ei	Ei	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=3085|end_char=3087
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=3088|end_char=3093
+8	mehr	mehr	ADV	ADV	_	9	advmod	_	start_char=3094|end_char=3098
+9	einnisten	einnisten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3099|end_char=3108
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3108|end_char=3109
+
+# text = Sie sprechen mit dem Arzt.
+# sent_id = 65
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=3111|end_char=3114
+2	sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3115|end_char=3123
+3	mit	mit	ADP	APPR	_	5	case	_	start_char=3124|end_char=3127
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=3128|end_char=3131
+5	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=3132|end_char=3136
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=3136|end_char=3137
+
+# text = Und der Arzt untersucht Sie.
+# sent_id = 66
+1	Und	und	CCONJ	KON	_	4	cc	_	start_char=3138|end_char=3141
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=3142|end_char=3145
+3	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3146|end_char=3150
+4	untersucht	untersuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3151|end_char=3161
+5	Sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	obj	_	start_char=3162|end_char=3165
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=3165|end_char=3166
+
+# text = Der Frauen-Arzt fragt die Frau vor der Verhütungs-Pille: - Hat die Frau schon einmal Krankheiten gehabt?
+# sent_id = 67
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=3168|end_char=3171
+2	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	start_char=3172|end_char=3178
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=3178|end_char=3179
+4	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=3179|end_char=3183
+5	fragt	fragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3184|end_char=3189
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=3190|end_char=3193
+7	Frau	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=3194|end_char=3198
+8	vor	vor	ADP	APPR	_	12	case	_	start_char=3199|end_char=3202
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=3203|end_char=3206
+10	Verhütungs	Verhütungs	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	compound	_	start_char=3207|end_char=3217
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=3217|end_char=3218
+12	Pille	Pille	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=3218|end_char=3223
+13	:	:	PUNCT	$.	_	21	punct	_	start_char=3223|end_char=3224
+14	-	-	PUNCT	$(	_	21	punct	_	start_char=3225|end_char=3226
+15	Hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=3227|end_char=3230
+16	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=3231|end_char=3234
+17	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	start_char=3235|end_char=3239
+18	schon	schon	ADV	ADV	_	19	advmod	_	start_char=3240|end_char=3245
+19	einmal	einmal	ADV	ADV	_	21	advmod	_	start_char=3246|end_char=3252
+20	Krankheiten	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	obj	_	start_char=3253|end_char=3264
+21	gehabt	haben	VERB	VAPP	VerbForm=Part	5	parataxis	_	start_char=3265|end_char=3271
+22	?	?	PUNCT	$.	_	21	punct	_	start_char=3271|end_char=3272
+
+# text = - Hat die Frau schon einmal schwere Erkrankungen gehabt?
+# sent_id = 68
+1	-	-	PUNCT	$(	_	9	punct	_	start_char=3273|end_char=3274
+2	Hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=3275|end_char=3278
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=3279|end_char=3282
+4	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=3283|end_char=3287
+5	schon	schon	ADV	ADV	_	6	advmod	_	start_char=3288|end_char=3293
+6	einmal	einmal	ADV	ADV	_	9	advmod	_	start_char=3294|end_char=3300
+7	schwere	schwer	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=3301|end_char=3308
+8	Erkrankungen	Erkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	start_char=3309|end_char=3321
+9	gehabt	haben	VERB	VAPP	VerbForm=Part	0	root	_	start_char=3322|end_char=3328
+10	?	?	PUNCT	$.	_	9	punct	_	start_char=3328|end_char=3329
+
+# text = - Hat die Frau schon einmal schwere Erkrankungen in der Familie gehabt?
+# sent_id = 69
+1	-	-	PUNCT	$(	_	12	punct	_	start_char=3330|end_char=3331
+2	Hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=3332|end_char=3335
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=3336|end_char=3339
+4	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=3340|end_char=3344
+5	schon	schon	ADV	ADV	_	6	advmod	_	start_char=3345|end_char=3350
+6	einmal	einmal	ADV	ADV	_	12	advmod	_	start_char=3351|end_char=3357
+7	schwere	schwer	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=3358|end_char=3365
+8	Erkrankungen	Erkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=3366|end_char=3378
+9	in	in	ADP	APPR	_	11	case	_	start_char=3379|end_char=3381
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=3382|end_char=3385
+11	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	start_char=3386|end_char=3393
+12	gehabt	haben	VERB	VAPP	VerbForm=Part	0	root	_	start_char=3394|end_char=3400
+13	?	?	PUNCT	$.	_	12	punct	_	start_char=3400|end_char=3401
+
+# text = - Hat die Frau einen hohen Blut-Druck? - Welchen Nutzen hat die Pille für die Frau? - Welche Risiken hat die Pille für die Frau? - Ist die Frau schwanger?
+# sent_id = 70
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=3402|end_char=3403
+2	Hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3404|end_char=3407
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=3408|end_char=3411
+4	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=3412|end_char=3416
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=3417|end_char=3422
+6	hohen	hoch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=3423|end_char=3428
+7	Blut	Blut	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	start_char=3429|end_char=3433
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=3433|end_char=3434
+9	Druck?	Druck?	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=3434|end_char=3440
+10	-	-	PUNCT	$(	_	13	punct	_	start_char=3441|end_char=3442
+11	Welchen	welcher	DET	PWAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	12	det	_	start_char=3443|end_char=3450
+12	Nutzen	Nutzen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=3451|end_char=3457
+13	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=3458|end_char=3461
+14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=3462|end_char=3465
+15	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	obj	_	start_char=3466|end_char=3471
+16	für	für	ADP	APPR	_	18	case	_	start_char=3472|end_char=3475
+17	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=3476|end_char=3479
+18	Frau?	Frau?	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	start_char=3480|end_char=3485
+19	-	-	PUNCT	$(	_	22	punct	_	start_char=3486|end_char=3487
+20	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	21	det	_	start_char=3488|end_char=3494
+21	Risiken	Risiko	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	22	obj	_	start_char=3495|end_char=3502
+22	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	start_char=3503|end_char=3506
+23	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=3507|end_char=3510
+24	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	start_char=3511|end_char=3516
+25	für	für	ADP	APPR	_	27	case	_	start_char=3517|end_char=3520
+26	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	start_char=3521|end_char=3524
+27	Frau?	Frau?	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	nmod	_	start_char=3525|end_char=3530
+28	-	-	PUNCT	$(	_	32	punct	_	start_char=3531|end_char=3532
+29	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	start_char=3533|end_char=3536
+30	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	start_char=3537|end_char=3540
+31	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	start_char=3541|end_char=3545
+32	schwanger	schwanger	ADJ	ADJD	Degree=Pos	2	parataxis	_	start_char=3546|end_char=3555
+33	?	?	PUNCT	$.	_	32	punct	_	start_char=3555|end_char=3556
+
+# text = Dann bekommt sie keine Pille.
+# sent_id = 71
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=3557|end_char=3561
+2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3562|end_char=3569
+3	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=3570|end_char=3573
+4	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	5	det	_	start_char=3574|end_char=3579
+5	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=3580|end_char=3585
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=3585|end_char=3586
+
+# text = Es gibt verschiedene Pillen-Arten.
+# sent_id = 72
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=3588|end_char=3590
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3591|end_char=3595
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=3596|end_char=3608
+4	Pillen	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	compound	_	start_char=3609|end_char=3615
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=3615|end_char=3616
+6	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=3616|end_char=3621
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=3621|end_char=3622
+
+# text = Es gibt viele verschiedene Verhütungs-Mittel.
+# sent_id = 73
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=3624|end_char=3626
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3627|end_char=3631
+3	viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	start_char=3632|end_char=3637
+4	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	start_char=3638|end_char=3650
+5	Verhütungs	Verhütungs	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	compound	_	start_char=3651|end_char=3661
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=3661|end_char=3662
+7	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=3662|end_char=3668
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=3668|end_char=3669
+
+# text = Die Verhütungs-Mittel unterscheiden sich in ihrer Zusammensetzung und Dosierung.
+# sent_id = 74
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=3670|end_char=3673
+2	Verhütungs	Verhütungs	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	compound	_	start_char=3674|end_char=3684
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=3684|end_char=3685
+4	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=3685|end_char=3691
+5	unterscheiden	unterscheiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3692|end_char=3705
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=3706|end_char=3710
+7	in	in	ADP	APPR	_	9	case	_	start_char=3711|end_char=3713
+8	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=3714|end_char=3719
+9	Zusammensetzung	Zusammensetzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=3720|end_char=3735
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=3736|end_char=3739
+11	Dosierung	Dosierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	conj	_	start_char=3740|end_char=3749
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=3749|end_char=3750
+
+# text = Die meisten Verhütungs-Mittel enthalten heute Östrogen und Gestagen.
+# sent_id = 75
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=3751|end_char=3754
+2	meisten	meist	DET	PIAT	Case=Nom|Degree=Sup|Gender=Neut|Number=Plur|PronType=Ind	5	det	_	start_char=3755|end_char=3762
+3	Verhütungs	Verhütungs	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	compound	_	start_char=3763|end_char=3773
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=3773|end_char=3774
+5	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=3774|end_char=3780
+6	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3781|end_char=3790
+7	heute	heute	ADV	ADV	_	6	advmod	_	start_char=3791|end_char=3796
+8	Östrogen	Östrog	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=3797|end_char=3805
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=3806|end_char=3809
+10	Gestagen	Gestage	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	conj	_	start_char=3810|end_char=3818
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=3818|end_char=3819
+
+# text = Gestagen ist ein Hormon.
+# sent_id = 76
+1	Gestagen	Gestage	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=3820|end_char=3828
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3829|end_char=3832
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=3833|end_char=3836
+4	Hormon	Hormon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=3837|end_char=3843
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=3843|end_char=3844
+
+# text = Gestagen verhindert die Einnistung der befruchteten Eizelle im Gebärmuttergewebe.
+# sent_id = 77
+1	Gestagen	Gestage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=3845|end_char=3853
+2	verhindert	verhindern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3854|end_char=3864
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=3865|end_char=3868
+4	Einnistung	Einnistung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	start_char=3869|end_char=3879
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=3880|end_char=3883
+6	befruchteten	befruchtet	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=3884|end_char=3896
+7	Eizelle	Eizelle	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=3897|end_char=3904
+8-9	im	_	_	_	_	_	_	_	start_char=3905|end_char=3907
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Gebärmuttergewebe	Gebärmuttergewebe	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=3908|end_char=3925
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=3925|end_char=3926
+
+# text = Es gibt auch Verhütungs-Mittel, die nur Gestagen enthalten.
+# sent_id = 78
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=3927|end_char=3929
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3930|end_char=3934
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=3935|end_char=3939
+4	Verhütungs	Verhütungs	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	compound	_	start_char=3940|end_char=3950
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=3950|end_char=3951
+6	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	nsubj	_	start_char=3951|end_char=3957
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=3957|end_char=3958
+8	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	nsubj	_	start_char=3959|end_char=3962
+9	nur	nur	ADV	ADV	_	11	advmod	_	start_char=3963|end_char=3966
+10	Gestagen	Gestage	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	start_char=3967|end_char=3975
+11	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=3976|end_char=3985
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=3985|end_char=3986
+
+# text = Diese Verhütungs-Mittel nennt man Minipillen.
+# sent_id = 79
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=3987|end_char=3992
+2	Verhütungs	Verhütungs	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	compound	_	start_char=3993|end_char=4003
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=4003|end_char=4004
+4	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	start_char=4004|end_char=4010
+5	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4011|end_char=4016
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=4017|end_char=4020
+7	Minipillen	Minipill	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=4021|end_char=4031
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=4031|end_char=4032
+
+# text = Die Mikropille ist eine kleine Pille.
+# sent_id = 80
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=4034|end_char=4037
+2	Mikropille	Mikropille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=4038|end_char=4048
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4049|end_char=4052
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=4053|end_char=4057
+5	kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=4058|end_char=4064
+6	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=4065|end_char=4070
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4070|end_char=4071
+
+# text = Sie enthält den Wirkstoff Östrogen.
+# sent_id = 81
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=4072|end_char=4075
+2	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4076|end_char=4083
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=4084|end_char=4087
+4	Wirkstoff	Wirkstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=4088|end_char=4097
+5	Östrogen	Östrogen	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	4	appos	_	start_char=4098|end_char=4106
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=4106|end_char=4107
+
+# text = Bei Einphasenpräparaten sind alle 21 Dragees in einer Packung gleich.
+# sent_id = 82
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=4109|end_char=4112
+2	Einphasenpräparaten	Einphasenpräparat	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	nmod	_	start_char=4113|end_char=4132
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=4133|end_char=4137
+4	alle	alle	DET	PIAT	Case=Nom|Number=Plur|PronType=Tot	6	det	_	start_char=4138|end_char=4142
+5	21	21	NUM	CARD	NumType=Card	6	nummod	_	start_char=4143|end_char=4145
+6	Dragees	Drage	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	start_char=4146|end_char=4153
+7	in	in	ADP	APPR	_	9	case	_	start_char=4154|end_char=4156
+8	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=4157|end_char=4162
+9	Packung	Packung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	start_char=4163|end_char=4170
+10	gleich	gleich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4171|end_char=4177
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=4177|end_char=4178
+
+# text = Die Dragees enthalten immer die gleichen Hormone.
+# sent_id = 83
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=4179|end_char=4182
+2	Dragees	Drage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=4183|end_char=4190
+3	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4191|end_char=4200
+4	immer	immer	ADV	ADV	_	3	advmod	_	start_char=4201|end_char=4206
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=4207|end_char=4210
+6	gleichen	gleich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	start_char=4211|end_char=4219
+7	Hormone	Hormone	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=4220|end_char=4227
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=4227|end_char=4228
+
+# text = Bei Mehr-Phasen-Präparaten sind die Dragees in einer Packung unterschiedlich.
+# sent_id = 84
+1	Bei	bei	ADP	APPR	_	6	case	_	start_char=4229|end_char=4232
+2	Mehr	mehr	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	compound	_	start_char=4233|end_char=4237
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=4237|end_char=4238
+4	Phasen	Phase	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	compound	_	start_char=4238|end_char=4244
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=4244|end_char=4245
+6	Präparaten	Präparat	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	nmod	_	start_char=4245|end_char=4255
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=4256|end_char=4260
+8	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=4261|end_char=4264
+9	Dragees	Drage	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=4265|end_char=4272
+10	in	in	ADP	APPR	_	12	case	_	start_char=4273|end_char=4275
+11	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=4276|end_char=4281
+12	Packung	Packung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	start_char=4282|end_char=4289
+13	unterschiedlich	unterschiedlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4290|end_char=4305
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=4305|end_char=4306
+
+# text = Die Dragees enthalten immer unterschiedliche Hormone.
+# sent_id = 85
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=4307|end_char=4310
+2	Dragees	Drage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=4311|end_char=4318
+3	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4319|end_char=4328
+4	immer	immer	ADV	ADV	_	5	advmod	_	start_char=4329|end_char=4334
+5	unterschiedliche	unterschiedlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=4335|end_char=4351
+6	Hormone	Hormone	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=4352|end_char=4359
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=4359|end_char=4360
+
+# text = Mehrphasige Präparate bestehen aus verschiedenen Tabletten.
+# sent_id = 86
+1	Mehrphasige	mehrphasig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	2	amod	_	start_char=4362|end_char=4373
+2	Präparate	Präparat	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=4374|end_char=4383
+3	bestehen	bestehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4384|end_char=4392
+4	aus	aus	ADP	APPR	_	6	case	_	start_char=4393|end_char=4396
+5	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=4397|end_char=4410
+6	Tabletten	Tablett	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	start_char=4411|end_char=4420
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=4420|end_char=4421
+
+# text = Die Tabletten enthalten unterschiedliche Hormone.
+# sent_id = 87
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=4422|end_char=4425
+2	Tabletten	Tablett	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=4426|end_char=4435
+3	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4436|end_char=4445
+4	unterschiedliche	unterschiedlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=4446|end_char=4462
+5	Hormone	Hormone	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=4463|end_char=4470
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=4470|end_char=4471
+
+# text = Die Hormone sind in den Tabletten genau aufeinander abgestimmt.
+# sent_id = 88
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=4472|end_char=4475
+2	Hormone	Hormone	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=4476|end_char=4483
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=4484|end_char=4488
+4	in	in	ADP	APPR	_	6	case	_	start_char=4489|end_char=4491
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=4492|end_char=4495
+6	Tabletten	Tablett	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	start_char=4496|end_char=4505
+7	genau	genau	ADV	ADV	_	8	advmod	_	start_char=4506|end_char=4511
+8	aufeinander	aufeinander	ADV	ADV	_	9	advmod	_	start_char=4512|end_char=4523
+9	abgestimmt	abstimmen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=4524|end_char=4534
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=4534|end_char=4535
+
+# text = So soll das Medikament dem natürlichen Zyklus der Frau ähnlich sein.
+# sent_id = 89
+1	So	so	ADV	ADV	_	10	advmod	_	start_char=4536|end_char=4538
+2	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=4539|end_char=4543
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=4544|end_char=4547
+4	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=4548|end_char=4558
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=4559|end_char=4562
+6	natürlichen	natürlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=4563|end_char=4574
+7	Zyklus	Zyklus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl:arg	_	start_char=4575|end_char=4581
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=4582|end_char=4585
+9	Frau	Frau	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=4586|end_char=4590
+10	ähnlich	ähnlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4591|end_char=4598
+11	sein	sein	AUX	VAINF	VerbForm=Inf	10	cop	_	start_char=4599|end_char=4603
+12	.	.	PUNCT	$.	_	10	punct	_	start_char=4603|end_char=4604
+
+# text = Sie müssen die Tabletten in der richtigen Reihen-Folge einnehmen.
+# sent_id = 90
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=4605|end_char=4608
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=4609|end_char=4615
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=4616|end_char=4619
+4	Tabletten	Tablett	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=4620|end_char=4629
+5	in	in	ADP	APPR	_	10	case	_	start_char=4630|end_char=4632
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=4633|end_char=4636
+7	richtigen	richtig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=4637|end_char=4646
+8	Reihen	Reihe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	compound	_	start_char=4647|end_char=4653
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=4653|end_char=4654
+10	Folge	Folge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	start_char=4654|end_char=4659
+11	einnehmen	einnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4660|end_char=4669
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=4669|end_char=4670
+
+# text = Die Mikropille enthält meistens 2 verschiedene Östrogene.
+# sent_id = 91
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=4672|end_char=4675
+2	Mikropille	Mikropille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=4676|end_char=4686
+3	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4687|end_char=4694
+4	meistens	meistens	ADV	ADV	_	3	advmod	_	start_char=4695|end_char=4703
+5	2	2	NUM	CARD	NumType=Card	7	nummod	_	start_char=4704|end_char=4705
+6	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=4706|end_char=4718
+7	Östrogene	Östrogene	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=4719|end_char=4728
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=4728|end_char=4729
+
+# text = Östrogene sind weibliche Geschlechts-Hormone.
+# sent_id = 92
+1	Östrogene	Östrogene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=4730|end_char=4739
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4740|end_char=4744
+3	weibliche	weiblich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=4745|end_char=4754
+4	Geschlechts	Geschlecht	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	compound	_	start_char=4755|end_char=4766
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=4766|end_char=4767
+6	Hormone	Hormone	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=4767|end_char=4774
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4774|end_char=4775
+
+# text = Die Östrogene in der Mikropille sind meistens: - Ethinylestradiol:
+# sent_id = 93
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=4776|end_char=4779
+2	Östrogene	Östrogene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=4780|end_char=4789
+3	in	in	ADP	APPR	_	5	case	_	start_char=4790|end_char=4792
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=4793|end_char=4796
+5	Mikropille	Mikropille	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=4797|end_char=4807
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=4808|end_char=4812
+7	meistens	meistens	ADV	ADV	_	10	advmod	_	start_char=4813|end_char=4821
+8	:	:	PUNCT	$.	_	10	punct	_	start_char=4821|end_char=4822
+9	-	-	PUNCT	$(	_	10	punct	_	start_char=4823|end_char=4824
+10	Ethinylestradiol	Ethinylestradiol	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=4825|end_char=4841
+11	:	:	PUNCT	$.	_	10	punct	_	start_char=4841|end_char=4842
+
+# text = Dieses Östrogen ist ein künstliches Östrogen.
+# sent_id = 94
+1	Dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	start_char=4843|end_char=4849
+2	Östrogen	Östrog	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=4850|end_char=4858
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4859|end_char=4862
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=4863|end_char=4866
+5	künstliches	künstlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=4867|end_char=4878
+6	Östrogen	Östrog	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4879|end_char=4887
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4887|end_char=4888
+
+# text = Ethinylestradiol ist ein Abkömmling von Estradiol.
+# sent_id = 95
+1	Ethinylestradiol	Ethinylestradiol	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=4889|end_char=4905
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4906|end_char=4909
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=4910|end_char=4913
+4	Abkömmling	Abkömmling	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=4914|end_char=4924
+5	von	von	ADP	APPR	_	6	case	_	start_char=4925|end_char=4928
+6	Estradiol	Estradiol	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=4929|end_char=4938
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=4938|end_char=4939
+
+# text = - Estradiol: Dieses Östrogen ist natürlich.
+# sent_id = 96
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=4940|end_char=4941
+2	Estradiol	Estradiol	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=4942|end_char=4951
+3	:	:	PUNCT	$.	_	7	punct	_	start_char=4951|end_char=4952
+4	Dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	start_char=4953|end_char=4959
+5	Östrogen	Östrog	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=4960|end_char=4968
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=4969|end_char=4972
+7	natürlich	natürlich	ADJ	ADV	Degree=Pos	2	amod	_	start_char=4973|end_char=4982
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=4982|end_char=4983
+
+# text = Zusätzlich enthält die Mikropille manchmal auch ein Gestagen.
+# sent_id = 97
+1	Zusätzlich	zusätzlich	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=4984|end_char=4994
+2	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4995|end_char=5002
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=5003|end_char=5006
+4	Mikropille	Mikropille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=5007|end_char=5017
+5	manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=5018|end_char=5026
+6	auch	auch	ADV	ADV	_	2	advmod	_	start_char=5027|end_char=5031
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=5032|end_char=5035
+8	Gestagen	Gestage	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	obj	_	start_char=5036|end_char=5044
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=5044|end_char=5045
+
+# text = Gestagene sind männliche Geschlechts-Hormone.
+# sent_id = 98
+1	Gestagene	Gestagene	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=5046|end_char=5055
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=5056|end_char=5060
+3	männliche	männlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=5061|end_char=5070
+4	Geschlechts	Geschlecht	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	compound	_	start_char=5071|end_char=5082
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=5082|end_char=5083
+6	Hormone	Hormone	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=5083|end_char=5090
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=5090|end_char=5091
+
+# text = Gestagene regulieren den Zyklus der Frau.
+# sent_id = 99
+1	Gestagene	Gestagene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=5092|end_char=5101
+2	regulieren	regulieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5102|end_char=5112
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=5113|end_char=5116
+4	Zyklus	Zyklus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=5117|end_char=5123
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=5124|end_char=5127
+6	Frau	Frau	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=5128|end_char=5132
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=5132|end_char=5133
+
+# text = Gestagene gibt es in verschiedenen Varianten.
+# sent_id = 100
+1	Gestagene	Gestagene	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=5134|end_char=5143
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5144|end_char=5148
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=5149|end_char=5151
+4	in	in	ADP	APPR	_	6	case	_	start_char=5152|end_char=5154
+5	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=5155|end_char=5168
+6	Varianten	Variante	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=5169|end_char=5178
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=5178|end_char=5179
+
+# text = Von der Minipille gibt es auch noch andere Medikamente.
+# sent_id = 101
+1	Von	von	ADP	APPR	_	3	case	_	start_char=5181|end_char=5184
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=5185|end_char=5188
+3	Minipille	Minipille	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=5189|end_char=5198
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5199|end_char=5203
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=5204|end_char=5206
+6	auch	auch	ADV	ADV	_	7	advmod	_	start_char=5207|end_char=5211
+7	noch	noch	ADV	ADV	_	4	advmod	_	start_char=5212|end_char=5216
+8	andere	anderer	DET	ADJA	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	9	det	_	start_char=5217|end_char=5223
+9	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nsubj	_	start_char=5224|end_char=5235
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=5235|end_char=5236
+
+# text = Diese Medikamente heißen: Ovulationshemmer.
+# sent_id = 102
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	start_char=5237|end_char=5242
+2	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=5243|end_char=5254
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5255|end_char=5261
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=5261|end_char=5262
+5	Ovulationshemmer	Ovulationshemmer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	start_char=5263|end_char=5279
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=5279|end_char=5280
+
+# text = Minipillen enthalten nur Gestagene.
+# sent_id = 103
+1	Minipillen	Minipill	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=5282|end_char=5292
+2	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5293|end_char=5302
+3	nur	nur	ADV	ADV	_	2	advmod	_	start_char=5303|end_char=5306
+4	Gestagene	Gestagene	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=5307|end_char=5316
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=5316|end_char=5317
+
+# text = Gestagene sind der weibliche Teil des Hormons.
+# sent_id = 104
+1	Gestagene	Gestagene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=5318|end_char=5327
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=5328|end_char=5332
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=5333|end_char=5336
+4	weibliche	weiblich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=5337|end_char=5346
+5	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=5347|end_char=5351
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=5352|end_char=5355
+7	Hormons	Hormon	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=5356|end_char=5363
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=5363|end_char=5364
+
+# text = Deshalb können bei der Minipille auch keine Nebenwirkungen von Östrogen auftreten.
+# sent_id = 105
+1	Deshalb	deshalb	ADV	PAV	_	11	advmod	_	start_char=5365|end_char=5372
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=5373|end_char=5379
+3	bei	bei	ADP	APPR	_	5	case	_	start_char=5380|end_char=5383
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=5384|end_char=5387
+5	Minipille	Minipille	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	start_char=5388|end_char=5397
+6	auch	auch	ADV	ADV	_	11	advmod	_	start_char=5398|end_char=5402
+7	keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Neg	8	det	_	start_char=5403|end_char=5408
+8	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=5409|end_char=5423
+9	von	von	ADP	APPR	_	10	case	_	start_char=5424|end_char=5427
+10	Östrogen	Östrog	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	start_char=5428|end_char=5436
+11	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5437|end_char=5446
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=5446|end_char=5447
+
+# text = Die Gestagene in der Minipille sind unterschiedlich stark.
+# sent_id = 106
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=5448|end_char=5451
+2	Gestagene	Gestagene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=5452|end_char=5461
+3	in	in	ADP	APPR	_	5	case	_	start_char=5462|end_char=5464
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=5465|end_char=5468
+5	Minipille	Minipille	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=5469|end_char=5478
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=5479|end_char=5483
+7	unterschiedlich	unterschiedlich	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=5484|end_char=5499
+8	stark	stark	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5500|end_char=5505
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=5505|end_char=5506
+
+# text = Die Gestagene in der Minipille heißen: Levonorgestrel und Desogestrel.
+# sent_id = 107
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=5507|end_char=5510
+2	Gestagene	Gestagene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=5511|end_char=5520
+3	in	in	ADP	APPR	_	5	case	_	start_char=5521|end_char=5523
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=5524|end_char=5527
+5	Minipille	Minipille	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=5528|end_char=5537
+6	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5538|end_char=5544
+7	:	:	PUNCT	$.	_	8	punct	_	start_char=5544|end_char=5545
+8	Levonorgestrel	Levonorgestrel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	xcomp	_	start_char=5546|end_char=5560
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=5561|end_char=5564
+10	Desogestrel	Desogestrel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	start_char=5565|end_char=5576
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=5576|end_char=5577
+
+# text = Desogestrel ist hierbei stärker als Levonorgestrel.
+# sent_id = 108
+1	Desogestrel	Desogestrel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=5578|end_char=5589
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=5590|end_char=5593
+3	hierbei	hierbei	ADV	PAV	_	4	advmod	_	start_char=5594|end_char=5601
+4	stärker	stark	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=5602|end_char=5609
+5	als	als	ADP	KOKOM	_	6	case	_	start_char=5610|end_char=5613
+6	Levonorgestrel	Levonorgestrel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	start_char=5614|end_char=5628
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=5628|end_char=5629
+
+# text = Die Wirkung der örtlichen Gestagene ist unterschiedlich: - Örtliche Gestagene wirken am Schleimpfropf.
+# sent_id = 109
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5631|end_char=5634
+2	Wirkung	Wirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=5635|end_char=5642
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=5643|end_char=5646
+4	örtlichen	örtlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=5647|end_char=5656
+5	Gestagene	Gestagene	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=5657|end_char=5666
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=5667|end_char=5670
+7	unterschiedlich	unterschiedlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5671|end_char=5686
+8	:	:	PUNCT	$.	_	12	punct	_	start_char=5686|end_char=5687
+9	-	-	PUNCT	$(	_	11	punct	_	start_char=5688|end_char=5689
+10	Örtliche	örtlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=5690|end_char=5698
+11	Gestagene	Gestagene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=5699|end_char=5708
+12	wirken	wirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	start_char=5709|end_char=5715
+13-14	am	_	_	_	_	_	_	_	start_char=5716|end_char=5718
+13	an	an	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Schleimpfropf	Schleimpfropf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=5719|end_char=5732
+16	.	.	PUNCT	$.	_	7	punct	_	start_char=5732|end_char=5733
+
+# text = Deshalb kann der Eizelltrichter sich öffnen.
+# sent_id = 110
+1	Deshalb	deshalb	ADV	PAV	_	6	advmod	_	start_char=5734|end_char=5741
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=5742|end_char=5746
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=5747|end_char=5750
+4	Eizelltrichter	Eizelltrichter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=5751|end_char=5765
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	start_char=5766|end_char=5770
+6	öffnen	öffnen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5771|end_char=5777
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=5777|end_char=5778
+
+# text = - Örtliche Gestagene wirken in der Gebärmutter.
+# sent_id = 111
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=5779|end_char=5780
+2	Örtliche	örtlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=5781|end_char=5789
+3	Gestagene	Gestagene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=5790|end_char=5799
+4	wirken	wirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5800|end_char=5806
+5	in	in	ADP	APPR	_	7	case	_	start_char=5807|end_char=5809
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=5810|end_char=5813
+7	Gebärmutter	Gebärmutter	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=5814|end_char=5825
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=5825|end_char=5826
+
+# text = Deshalb kann sich die Gebärmutterschleimhaut aufbauen.
+# sent_id = 112
+1	Deshalb	deshalb	ADV	PAV	_	6	advmod	_	start_char=5827|end_char=5834
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=5835|end_char=5839
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	start_char=5840|end_char=5844
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=5845|end_char=5848
+5	Gebärmutterschleimhaut	Gebärmutterschleimhaut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=5849|end_char=5871
+6	aufbauen	aufbauen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5872|end_char=5880
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=5880|end_char=5881
+
+# text = - Örtliche Gestagene wirken in den Eileitern.
+# sent_id = 113
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=5882|end_char=5883
+2	Örtliche	örtlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=5884|end_char=5892
+3	Gestagene	Gestagene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=5893|end_char=5902
+4	wirken	wirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5903|end_char=5909
+5	in	in	ADP	APPR	_	7	case	_	start_char=5910|end_char=5912
+6	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=5913|end_char=5916
+7	Eileitern	Eileiter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	start_char=5917|end_char=5926
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=5926|end_char=5927
+
+# text = Deshalb können die Eizellen den Samen erreichen.
+# sent_id = 114
+1	Deshalb	deshalb	ADV	PAV	_	7	advmod	_	start_char=5928|end_char=5935
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=5936|end_char=5942
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=5943|end_char=5946
+4	Eizellen	Eizelle|Sizellen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=5947|end_char=5955
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=5956|end_char=5959
+6	Samen	Same	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=5960|end_char=5965
+7	erreichen	erreichen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5966|end_char=5975
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=5975|end_char=5976
+
+# text = Desogestrel enthaltende Minipillen hemmen auch den Eisprung.
+# sent_id = 115
+1	Desogestrel	Desogestrel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	start_char=5977|end_char=5988
+2	enthaltende	enthaltend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=5989|end_char=6000
+3	Minipillen	Minipill	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=6001|end_char=6011
+4	hemmen	hemmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6012|end_char=6018
+5	auch	auch	ADV	ADV	_	4	advmod	_	start_char=6019|end_char=6023
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=6024|end_char=6027
+7	Eisprung	Eisprung	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=6028|end_char=6036
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=6036|end_char=6037
+
+# text = Die Wirkung von Desogestrel enthaltenden Minipillen ist also stärker.
+# sent_id = 116
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=6038|end_char=6041
+2	Wirkung	Wirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=6042|end_char=6049
+3	von	von	ADP	APPR	_	6	case	_	start_char=6050|end_char=6053
+4	Desogestrel	Desogestrel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obj	_	start_char=6054|end_char=6065
+5	enthaltenden	enthaltend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=6066|end_char=6078
+6	Minipillen	Minipill	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=6079|end_char=6089
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=6090|end_char=6093
+8	also	also	ADV	ADV	_	9	advmod	_	start_char=6094|end_char=6098
+9	stärker	stark	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=6099|end_char=6106
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=6106|end_char=6107
+
+# text = Die Pille: Was sind die Vorteile und was sind die Nachteile?
+# sent_id = 117
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=6109|end_char=6112
+2	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=6113|end_char=6118
+3	:	:	PUNCT	$.	_	7	punct	_	start_char=6118|end_char=6119
+4	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	7	nsubj	_	start_char=6120|end_char=6123
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=6124|end_char=6128
+6	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=6129|end_char=6132
+7	Vorteile	Vorteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=6133|end_char=6141
+8	und	und	CCONJ	KON	_	12	cc	_	start_char=6142|end_char=6145
+9	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	12	nsubj	_	start_char=6146|end_char=6149
+10	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=6150|end_char=6154
+11	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=6155|end_char=6158
+12	Nachteile	Nachteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	conj	_	start_char=6159|end_char=6168
+13	?	?	PUNCT	$.	_	7	punct	_	start_char=6168|end_char=6169
+
+# text = Die Vorteile der Mikropille sind: - Sie müssen die Pille nicht jeden Tag einnehmen.
+# sent_id = 118
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=6171|end_char=6174
+2	Vorteile	Vorteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	start_char=6175|end_char=6183
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=6184|end_char=6187
+4	Mikropille	Mikropille	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=6188|end_char=6198
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=6199|end_char=6203
+6	:	:	PUNCT	$.	_	15	punct	_	start_char=6203|end_char=6204
+7	-	-	PUNCT	$(	_	15	punct	_	start_char=6205|end_char=6206
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=6207|end_char=6210
+9	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=6211|end_char=6217
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=6218|end_char=6221
+11	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=6222|end_char=6227
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	start_char=6228|end_char=6233
+13	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	14	det	_	start_char=6234|end_char=6239
+14	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	start_char=6240|end_char=6243
+15	einnehmen	einnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6244|end_char=6253
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=6253|end_char=6254
+
+# text = - Die Pille schützt vor einer Schwangerschaft.
+# sent_id = 119
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=6255|end_char=6256
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=6257|end_char=6260
+3	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=6261|end_char=6266
+4	schützt	schützen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6267|end_char=6274
+5	vor	vor	ADP	APPR	_	7	case	_	start_char=6275|end_char=6278
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=6279|end_char=6284
+7	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=6285|end_char=6300
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=6300|end_char=6301
+
+# text = Viele Frauen verhüten mit der Pille.
+# sent_id = 120
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	start_char=6303|end_char=6308
+2	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=6309|end_char=6315
+3	verhüten	verhüten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6316|end_char=6324
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=6325|end_char=6328
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=6329|end_char=6332
+6	Pille	Pille	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=6333|end_char=6338
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=6338|end_char=6339
+
+# text = Die Pille ist eine sehr sichere Verhütungs-Methode.
+# sent_id = 121
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=6340|end_char=6343
+2	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=6344|end_char=6349
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=6350|end_char=6353
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=6354|end_char=6358
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	start_char=6359|end_char=6363
+6	sichere	sicher	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=6364|end_char=6371
+7	Verhütungs	Verhütungs	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	start_char=6372|end_char=6382
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=6382|end_char=6383
+9	Methode	Methode	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=6383|end_char=6390
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=6390|end_char=6391
+
+# text = Die Pille ist auch sehr bequem.
+# sent_id = 122
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=6392|end_char=6395
+2	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=6396|end_char=6401
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=6402|end_char=6405
+4	auch	auch	ADV	ADV	_	6	advmod	_	start_char=6406|end_char=6410
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	start_char=6411|end_char=6415
+6	bequem	bequem	ADJ	ADJD	Degree=Pos	0	root	_	start_char=6416|end_char=6422
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=6422|end_char=6423
+
+# text = Viele Frauen haben nach der Einnahme der Pille weniger starke Regelblutungen.
+# sent_id = 123
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	start_char=6424|end_char=6429
+2	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=6430|end_char=6436
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6437|end_char=6442
+4	nach	nach	ADP	APPR	_	6	case	_	start_char=6443|end_char=6447
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=6448|end_char=6451
+6	Einnahme	Einnahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=6452|end_char=6460
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=6461|end_char=6464
+8	Pille	Pille	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=6465|end_char=6470
+9	weniger	weniger	ADV	ADV	_	10	advmod	_	start_char=6471|end_char=6478
+10	starke	stark	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=6479|end_char=6485
+11	Regelblutungen	Regelblutung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=6486|end_char=6500
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=6500|end_char=6501
+
+# text = Manche Frauen haben nach der Einnahme der Pille auch weniger Pickel.
+# sent_id = 124
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	start_char=6502|end_char=6508
+2	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=6509|end_char=6515
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6516|end_char=6521
+4	nach	nach	ADP	APPR	_	6	case	_	start_char=6522|end_char=6526
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=6527|end_char=6530
+6	Einnahme	Einnahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=6531|end_char=6539
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=6540|end_char=6543
+8	Pille	Pille	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=6544|end_char=6549
+9	auch	auch	ADV	ADV	_	3	advmod	_	start_char=6550|end_char=6554
+10	weniger	wenig	DET	PIAT	PronType=Ind	11	det	_	start_char=6555|end_char=6562
+11	Pickel	Pickel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	start_char=6563|end_char=6569
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=6569|end_char=6570
+
+# text = Das ist aber keine zugelassene Nebenwirkung der Pille.
+# sent_id = 125
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	start_char=6571|end_char=6574
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=6575|end_char=6578
+3	aber	aber	ADV	ADV	_	6	advmod	_	start_char=6579|end_char=6583
+4	keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	6	det	_	start_char=6584|end_char=6589
+5	zugelassene	zugelassen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=6590|end_char=6601
+6	Nebenwirkung	Nebenwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=6602|end_char=6614
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=6615|end_char=6618
+8	Pille	Pille	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=6619|end_char=6624
+9	.	.	PUNCT	$.	_	6	punct	_	start_char=6624|end_char=6625
+
+# text = Manchmal hilft eine Hormon-Therapie gegen Akne.
+# sent_id = 126
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=6627|end_char=6635
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6636|end_char=6641
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=6642|end_char=6646
+4	Hormon	Hormon	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	start_char=6647|end_char=6653
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=6653|end_char=6654
+6	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=6654|end_char=6662
+7	gegen	gegen	ADP	APPR	_	8	case	_	start_char=6663|end_char=6668
+8	Akne	Akne	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	start_char=6669|end_char=6673
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=6673|end_char=6674
+
+# text = Die Hormon-Therapie ist auch eine Verhütungs-Methode.
+# sent_id = 127
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=6675|end_char=6678
+2	Hormon	Hormon	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	start_char=6679|end_char=6685
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=6685|end_char=6686
+4	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=6686|end_char=6694
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=6695|end_char=6698
+6	auch	auch	ADV	ADV	_	10	advmod	_	start_char=6699|end_char=6703
+7	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=6704|end_char=6708
+8	Verhütungs	Verhütungs	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	start_char=6709|end_char=6719
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=6719|end_char=6720
+10	Methode	Methode	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=6720|end_char=6727
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=6727|end_char=6728
+
+# text = Die Patientin soll die Hormon-Therapie nur dann anwenden, wenn andere Behandlungen nicht helfen.
+# sent_id = 128
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=6729|end_char=6732
+2	Patientin	Patientin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=6733|end_char=6742
+3	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=6743|end_char=6747
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=6748|end_char=6751
+5	Hormon	Hormon	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	compound	_	start_char=6752|end_char=6758
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=6758|end_char=6759
+7	Therapie	Therapie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=6759|end_char=6767
+8	nur	nur	ADV	ADV	_	9	advmod	_	start_char=6768|end_char=6771
+9	dann	dann	ADV	ADV	_	10	advmod	_	start_char=6772|end_char=6776
+10	anwenden	anwenden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6777|end_char=6785
+11	,	,	PUNCT	$,	_	16	punct	_	start_char=6785|end_char=6786
+12	wenn	wenn	SCONJ	KOUS	_	16	mark	_	start_char=6787|end_char=6791
+13	andere	anderer	DET	ADJA	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	14	det	_	start_char=6792|end_char=6798
+14	Behandlungen	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	start_char=6799|end_char=6811
+15	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	start_char=6812|end_char=6817
+16	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=6818|end_char=6824
+17	.	.	PUNCT	$.	_	10	punct	_	start_char=6824|end_char=6825
+
+# text = Die betroffene Person hat eine Thrombose?
+# sent_id = 129
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=6827|end_char=6830
+2	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=6831|end_char=6841
+3	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=6842|end_char=6848
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6849|end_char=6852
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=6853|end_char=6857
+6	Thrombose	Thrombose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=6858|end_char=6867
+7	?	?	PUNCT	$.	_	4	punct	_	start_char=6867|end_char=6868
+
+# text = Und die betroffene Person soll die Pille danach nehmen?
+# sent_id = 130
+1	Und	und	CCONJ	KON	_	9	cc	_	start_char=6869|end_char=6872
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=6873|end_char=6876
+3	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=6877|end_char=6887
+4	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=6888|end_char=6894
+5	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=6895|end_char=6899
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=6900|end_char=6903
+7	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=6904|end_char=6909
+8	danach	danach	ADV	PAV	_	9	advmod	_	start_char=6910|end_char=6916
+9	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6917|end_char=6923
+10	?	?	PUNCT	$.	_	9	punct	_	start_char=6923|end_char=6924
+
+# text = Dann prüfen die Ärzte: Hat die betroffene Person vielleicht ein erhöhtes Risiko für eine Thrombose?
+# sent_id = 131
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=6925|end_char=6929
+2	prüfen	prüfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6930|end_char=6936
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=6937|end_char=6940
+4	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=6941|end_char=6946
+5	:	:	PUNCT	$.	_	6	punct	_	start_char=6946|end_char=6947
+6	Hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=6948|end_char=6951
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=6952|end_char=6955
+8	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=6956|end_char=6966
+9	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=6967|end_char=6973
+10	vielleicht	vielleicht	ADV	ADV	_	6	advmod	_	start_char=6974|end_char=6984
+11	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	13	det	_	start_char=6985|end_char=6988
+12	erhöhtes	erhöht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=6989|end_char=6997
+13	Risiko	Risiko	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	obj	_	start_char=6998|end_char=7004
+14	für	für	ADP	APPR	_	16	case	_	start_char=7005|end_char=7008
+15	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	16	det	_	start_char=7009|end_char=7013
+16	Thrombose	Thrombose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	start_char=7014|end_char=7023
+17	?	?	PUNCT	$.	_	6	punct	_	start_char=7023|end_char=7024
+
+# text = Kombi-Nations-Pillen können das Risiko für Eierstockkrebs und Gebärmutterkörperkrebs senken.
+# sent_id = 132
+1	Kombi	Kombi	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	start_char=7026|end_char=7031
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=7031|end_char=7032
+3	Nations	Nation	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	compound	_	start_char=7032|end_char=7039
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=7039|end_char=7040
+5	Pillen	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	start_char=7040|end_char=7046
+6	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=7047|end_char=7053
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=7054|end_char=7057
+8	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=7058|end_char=7064
+9	für	für	ADP	APPR	_	10	case	_	start_char=7065|end_char=7068
+10	Eierstockkrebs	Eierstockkrebs	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	start_char=7069|end_char=7083
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=7084|end_char=7087
+12	Gebärmutterkörperkrebs	Gebärmutterkörperkrebs	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	start_char=7088|end_char=7110
+13	senken	senken	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7111|end_char=7117
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=7117|end_char=7118
+
+# text = Das gilt auch lange Zeit nach dem Absetzen der Pille.
+# sent_id = 133
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=7119|end_char=7122
+2	gilt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7123|end_char=7127
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=7128|end_char=7132
+4	lange	lang	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=7133|end_char=7138
+5	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=7139|end_char=7143
+6	nach	nach	ADP	APPR	_	8	case	_	start_char=7144|end_char=7148
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=7149|end_char=7152
+8	Absetzen	Absetzen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=7153|end_char=7161
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=7162|end_char=7165
+10	Pille	Pille	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=7166|end_char=7171
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=7171|end_char=7172
+
+# text = Für andere Krebs-Erkrankungen gibt es positive Daten in Studien.
+# sent_id = 134
+1	Für	für	ADP	APPR	_	5	case	_	start_char=7173|end_char=7176
+2	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	start_char=7177|end_char=7183
+3	Krebs	Krebs	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	compound	_	start_char=7184|end_char=7189
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=7189|end_char=7190
+5	Erkrankungen	Erkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	start_char=7190|end_char=7202
+6	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7203|end_char=7207
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	start_char=7208|end_char=7210
+8	positive	positiv	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	start_char=7211|end_char=7219
+9	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	nsubj	_	start_char=7220|end_char=7225
+10	in	in	ADP	APPR	_	11	case	_	start_char=7226|end_char=7228
+11	Studien	Studie|Studium	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	start_char=7229|end_char=7236
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=7236|end_char=7237
+
+# text = Aber es gibt noch keine gesicherten Erkenntnisse.
+# sent_id = 135
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=7238|end_char=7242
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=7243|end_char=7245
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7246|end_char=7250
+4	noch	noch	ADV	ADV	_	3	advmod	_	start_char=7251|end_char=7255
+5	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	7	det	_	start_char=7256|end_char=7261
+6	gesicherten	gesichert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	start_char=7262|end_char=7273
+7	Erkenntnisse	Erkenntnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	nsubj	_	start_char=7274|end_char=7286
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=7286|end_char=7287
+
+# text = Die Vorteile der Mikropille sind: - Sie müssen sich nicht mehr an den Zeit-Punkt zum Abnehmen der Pille erinnern.
+# sent_id = 136
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=7289|end_char=7292
+2	Vorteile	Vorteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	start_char=7293|end_char=7301
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=7302|end_char=7305
+4	Mikropille	Mikropille	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=7306|end_char=7316
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=7317|end_char=7321
+6	:	:	PUNCT	$.	_	23	punct	_	start_char=7321|end_char=7322
+7	-	-	PUNCT	$(	_	23	punct	_	start_char=7323|end_char=7324
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	start_char=7325|end_char=7328
+9	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=7329|end_char=7335
+10	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	23	obj	_	start_char=7336|end_char=7340
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=7341|end_char=7346
+12	mehr	mehr	ADV	ADV	_	23	advmod	_	start_char=7347|end_char=7351
+13	an	an	ADP	APPR	_	17	case	_	start_char=7352|end_char=7354
+14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=7355|end_char=7358
+15	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	compound	_	start_char=7359|end_char=7363
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=7363|end_char=7364
+17	Punkt	Punkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obl	_	start_char=7364|end_char=7369
+18-19	zum	_	_	_	_	_	_	_	start_char=7370|end_char=7373
+18	zu	zu	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Abnehmen	Abnehmen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	start_char=7374|end_char=7382
+21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=7383|end_char=7386
+22	Pille	Pille	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=7387|end_char=7392
+23	erinnern	erinnern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7393|end_char=7401
+24	.	.	PUNCT	$.	_	23	punct	_	start_char=7401|end_char=7402
+
+# text = - Die Pille ist sehr sicher.
+# sent_id = 137
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=7403|end_char=7404
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=7405|end_char=7408
+3	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=7409|end_char=7414
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=7415|end_char=7418
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	start_char=7419|end_char=7423
+6	sicher	sicher	ADJ	ADJD	Degree=Pos	0	root	_	start_char=7424|end_char=7430
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=7430|end_char=7431
+
+# text = Sie müssen sich nicht mehr an den richtigen Zeit-Punkt zum Abnehmen der Pille erinnern.
+# sent_id = 138
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	start_char=7432|end_char=7435
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=7436|end_char=7442
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	start_char=7443|end_char=7447
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=7448|end_char=7453
+5	mehr	mehr	ADV	ADV	_	17	advmod	_	start_char=7454|end_char=7458
+6	an	an	ADP	APPR	_	11	case	_	start_char=7459|end_char=7461
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=7462|end_char=7465
+8	richtigen	richtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=7466|end_char=7475
+9	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	compound	_	start_char=7476|end_char=7480
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=7480|end_char=7481
+11	Punkt	Punkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	start_char=7481|end_char=7486
+12-13	zum	_	_	_	_	_	_	_	start_char=7487|end_char=7490
+12	zu	zu	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Abnehmen	Abnehmen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	start_char=7491|end_char=7499
+15	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=7500|end_char=7503
+16	Pille	Pille	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=7504|end_char=7509
+17	erinnern	erinnern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7510|end_char=7518
+18	.	.	PUNCT	$.	_	17	punct	_	start_char=7518|end_char=7519
+
+# text = So können Sie die Pille auch mal vergessen.
+# sent_id = 139
+1	So	so	ADV	ADV	_	8	advmod	_	start_char=7520|end_char=7522
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=7523|end_char=7529
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=7530|end_char=7533
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=7534|end_char=7537
+5	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=7538|end_char=7543
+6	auch	auch	ADV	ADV	_	7	advmod	_	start_char=7544|end_char=7548
+7	mal	mal	ADV	ADV	_	8	advmod	_	start_char=7549|end_char=7552
+8	vergessen	vergessen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7553|end_char=7562
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=7562|end_char=7563
+
+# text = - Die Pille kann manchmal Nebenwirkungen haben.
+# sent_id = 140
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=7564|end_char=7565
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=7566|end_char=7569
+3	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=7570|end_char=7575
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=7576|end_char=7580
+5	manchmal	manchmal	ADV	ADV	_	7	advmod	_	start_char=7581|end_char=7589
+6	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=7590|end_char=7604
+7	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=7605|end_char=7610
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=7610|end_char=7611
+
+# text = Die Pille beeinflusst den Hormon-Haus-Halt der Frau.
+# sent_id = 141
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=7613|end_char=7616
+2	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=7617|end_char=7622
+3	beeinflusst	beeinflussen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7623|end_char=7634
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=7635|end_char=7638
+5	Hormon	Hormon	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	start_char=7639|end_char=7645
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=7645|end_char=7646
+7	Haus	Haus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	start_char=7646|end_char=7650
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=7650|end_char=7651
+9	Halt	Halt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=7651|end_char=7655
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=7656|end_char=7659
+11	Frau	Frau	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	start_char=7660|end_char=7664
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=7664|end_char=7665
+
+# text = Nach dem Absetzen der Pille dauert es bis zu einem halben Jahr, bis sich der natürliche Zyklus wieder einstellt.
+# sent_id = 142
+1	Nach	nach	ADP	APPR	_	3	case	_	start_char=7666|end_char=7670
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=7671|end_char=7674
+3	Absetzen	Absetzen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=7675|end_char=7683
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=7684|end_char=7687
+5	Pille	Pille	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=7688|end_char=7693
+6	dauert	dauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7694|end_char=7700
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=7701|end_char=7703
+8	bis	bis	ADP	APPR	_	12	case	_	start_char=7704|end_char=7707
+9	zu	zu	ADP	APPR	_	12	case	_	start_char=7708|end_char=7710
+10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=7711|end_char=7716
+11	halben	halb	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=7717|end_char=7723
+12	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=7724|end_char=7728
+13	,	,	PUNCT	$,	_	20	punct	_	start_char=7728|end_char=7729
+14	bis	bis	SCONJ	KOUS	_	20	mark	_	start_char=7730|end_char=7733
+15	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	20	obj	_	start_char=7734|end_char=7738
+16	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=7739|end_char=7742
+17	natürliche	natürlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=7743|end_char=7753
+18	Zyklus	Zyklus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	start_char=7754|end_char=7760
+19	wieder	wieder	ADV	ADV	_	20	advmod	_	start_char=7761|end_char=7767
+20	einstellt	einstellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=7768|end_char=7777
+21	.	.	PUNCT	$.	_	6	punct	_	start_char=7777|end_char=7778
+
+# text = In dieser Zeit kann eine Frau schwanger werden.
+# sent_id = 143
+1	In	in	ADP	APPR	_	3	case	_	start_char=7779|end_char=7781
+2	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=7782|end_char=7788
+3	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	start_char=7789|end_char=7793
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=7794|end_char=7798
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=7799|end_char=7803
+6	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=7804|end_char=7808
+7	schwanger	schwanger	ADJ	ADJD	Degree=Pos	8	xcomp	_	start_char=7809|end_char=7818
+8	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=7819|end_char=7825
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=7825|end_char=7826
+
+# text = Die Vorteile der Minipille sind: - Sie müssen die Pille nicht jeden Tag einnehmen.
+# sent_id = 144
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=7828|end_char=7831
+2	Vorteile	Vorteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	start_char=7832|end_char=7840
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=7841|end_char=7844
+4	Minipille	Minipille	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=7845|end_char=7854
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=7855|end_char=7859
+6	:	:	PUNCT	$.	_	15	punct	_	start_char=7859|end_char=7860
+7	-	-	PUNCT	$(	_	15	punct	_	start_char=7861|end_char=7862
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=7863|end_char=7866
+9	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=7867|end_char=7873
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=7874|end_char=7877
+11	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=7878|end_char=7883
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	start_char=7884|end_char=7889
+13	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	14	det	_	start_char=7890|end_char=7895
+14	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	start_char=7896|end_char=7899
+15	einnehmen	einnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7900|end_char=7909
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=7909|end_char=7910
+
+# text = - Sie können die Pille auch in der Stillzeit nehmen.
+# sent_id = 145
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=7911|end_char=7912
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=7913|end_char=7916
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=7917|end_char=7923
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=7924|end_char=7927
+5	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=7928|end_char=7933
+6	auch	auch	ADV	ADV	_	10	advmod	_	start_char=7934|end_char=7938
+7	in	in	ADP	APPR	_	9	case	_	start_char=7939|end_char=7941
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=7942|end_char=7945
+9	Stillzeit	Stillzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=7946|end_char=7955
+10	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7956|end_char=7962
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=7962|end_char=7963
+
+# text = Manche Frauen vertragen Östrogen nicht gut.
+# sent_id = 146
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	start_char=7965|end_char=7971
+2	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=7972|end_char=7978
+3	vertragen	vertragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7979|end_char=7988
+4	Östrogen	Östrog	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=7989|end_char=7997
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=7998|end_char=8003
+6	gut	gut	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=8004|end_char=8007
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=8007|end_char=8008
+
+# text = Deshalb bekommen sie eine Minipille mit Levonorgestrel.
+# sent_id = 147
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=8009|end_char=8016
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8017|end_char=8025
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=8026|end_char=8029
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=8030|end_char=8034
+5	Minipille	Minipille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=8035|end_char=8044
+6	mit	mit	ADP	APPR	_	7	case	_	start_char=8045|end_char=8048
+7	Levonorgestrel	Levonorgestrel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	start_char=8049|end_char=8063
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=8063|end_char=8064
+
+# text = Die Minipille mit Levonorgestrel ist auch in der Stillzeit geeignet.
+# sent_id = 148
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=8065|end_char=8068
+2	Minipille	Minipille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=8069|end_char=8078
+3	mit	mit	ADP	APPR	_	4	case	_	start_char=8079|end_char=8082
+4	Levonorgestrel	Levonorgestrel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	start_char=8083|end_char=8097
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=8098|end_char=8101
+6	auch	auch	ADV	ADV	_	10	advmod	_	start_char=8102|end_char=8106
+7	in	in	ADP	APPR	_	9	case	_	start_char=8107|end_char=8109
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=8110|end_char=8113
+9	Stillzeit	Stillzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	start_char=8114|end_char=8123
+10	geeignet	geeignet	ADJ	ADJD	Degree=Pos	0	root	_	start_char=8124|end_char=8132
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=8132|end_char=8133
+
+# text = Die Milch-Bildung und die Milch-Qualität werden durch die Pille nicht beeinflusst.
+# sent_id = 149
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=8134|end_char=8137
+2	Milch	Milch	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	start_char=8138|end_char=8143
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=8143|end_char=8144
+4	Bildung	Bildung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj:pass	_	start_char=8144|end_char=8151
+5	und	und	CCONJ	KON	_	9	cc	_	start_char=8152|end_char=8155
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=8156|end_char=8159
+7	Milch	Milch	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	start_char=8160|end_char=8165
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=8165|end_char=8166
+9	Qualität	Qualität	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	start_char=8166|end_char=8174
+10	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	aux:pass	_	start_char=8175|end_char=8181
+11	durch	durch	ADP	APPR	_	13	case	_	start_char=8182|end_char=8187
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=8188|end_char=8191
+13	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	start_char=8192|end_char=8197
+14	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	start_char=8198|end_char=8203
+15	beeinflusst	beeinflussen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=8204|end_char=8215
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=8215|end_char=8216
+
+# text = Der Säugling bekommt nur sehr wenig Wirkstoff.
+# sent_id = 150
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=8217|end_char=8220
+2	Säugling	Säugling	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=8221|end_char=8229
+3	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8230|end_char=8237
+4	nur	nur	ADV	ADV	_	3	advmod	_	start_char=8238|end_char=8241
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	start_char=8242|end_char=8246
+6	wenig	wenig	DET	PIAT	PronType=Ind	7	det	_	start_char=8247|end_char=8252
+7	Wirkstoff	Wirkstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=8253|end_char=8262
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=8262|end_char=8263
+
+# text = Deshalb sind die Nebenwirkungen für den Säugling gering.
+# sent_id = 151
+1	Deshalb	deshalb	ADV	PAV	_	8	advmod	_	start_char=8264|end_char=8271
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=8272|end_char=8276
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=8277|end_char=8280
+4	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=8281|end_char=8295
+5	für	für	ADP	APPR	_	7	case	_	start_char=8296|end_char=8299
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=8300|end_char=8303
+7	Säugling	Säugling	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	start_char=8304|end_char=8312
+8	gering	gering	ADJ	ADJD	Degree=Pos	0	root	_	start_char=8313|end_char=8319
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=8319|end_char=8320
+
+# text = Die Vorteile der Minipille sind: - Sie müssen sich nicht jeden Tag an die Einnahme erinnern.
+# sent_id = 152
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=8322|end_char=8325
+2	Vorteile	Vorteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	start_char=8326|end_char=8334
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=8335|end_char=8338
+4	Minipille	Minipille	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=8339|end_char=8348
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=8349|end_char=8353
+6	:	:	PUNCT	$.	_	17	punct	_	start_char=8353|end_char=8354
+7	-	-	PUNCT	$(	_	17	punct	_	start_char=8355|end_char=8356
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	start_char=8357|end_char=8360
+9	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=8361|end_char=8367
+10	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	start_char=8368|end_char=8372
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	start_char=8373|end_char=8378
+12	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	13	det	_	start_char=8379|end_char=8384
+13	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	start_char=8385|end_char=8388
+14	an	an	ADP	APPR	_	16	case	_	start_char=8389|end_char=8391
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=8392|end_char=8395
+16	Einnahme	Einnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	start_char=8396|end_char=8404
+17	erinnern	erinnern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8405|end_char=8413
+18	.	.	PUNCT	$.	_	17	punct	_	start_char=8413|end_char=8414
+
+# text = - Sie können die Pille auch in der Schwangerschaft nehmen.
+# sent_id = 153
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=8415|end_char=8416
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=8417|end_char=8420
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=8421|end_char=8427
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=8428|end_char=8431
+5	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=8432|end_char=8437
+6	auch	auch	ADV	ADV	_	10	advmod	_	start_char=8438|end_char=8442
+7	in	in	ADP	APPR	_	9	case	_	start_char=8443|end_char=8445
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=8446|end_char=8449
+9	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=8450|end_char=8465
+10	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8466|end_char=8472
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=8472|end_char=8473
+
+# text = - Sie können die Pille auch in der Stillzeit nehmen.
+# sent_id = 154
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=8474|end_char=8475
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=8476|end_char=8479
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=8480|end_char=8486
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=8487|end_char=8490
+5	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=8491|end_char=8496
+6	auch	auch	ADV	ADV	_	10	advmod	_	start_char=8497|end_char=8501
+7	in	in	ADP	APPR	_	9	case	_	start_char=8502|end_char=8504
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=8505|end_char=8508
+9	Stillzeit	Stillzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=8509|end_char=8518
+10	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8519|end_char=8525
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=8525|end_char=8526
+
+# text = - Die Pille kann bei manchen Frauen die Regelblutung schwächen.
+# sent_id = 155
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=8527|end_char=8528
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=8529|end_char=8532
+3	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=8533|end_char=8538
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=8539|end_char=8543
+5	bei	bei	ADP	APPR	_	7	case	_	start_char=8544|end_char=8547
+6	manchen	mancher	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	start_char=8548|end_char=8555
+7	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	start_char=8556|end_char=8562
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=8563|end_char=8566
+9	Regelblutung	Regelblutung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=8567|end_char=8579
+10	schwächen	schwächen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8580|end_char=8589
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=8589|end_char=8590
+
+# text = Bei manchen Frauen können die Minipillen auch Nachteile haben.
+# sent_id = 156
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=8592|end_char=8595
+2	manchen	mancher	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	3	det	_	start_char=8596|end_char=8603
+3	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	start_char=8604|end_char=8610
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=8611|end_char=8617
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=8618|end_char=8621
+6	Minipillen	Minipill	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=8622|end_char=8632
+7	auch	auch	ADV	ADV	_	9	advmod	_	start_char=8633|end_char=8637
+8	Nachteile	Nachteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=8638|end_char=8647
+9	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=8648|end_char=8653
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=8653|end_char=8654
+
+# text = Die Nachteile sind zum Beispiel: - unregelmäßige Blutungen - starke Blutungen
+# sent_id = 157
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=8655|end_char=8658
+2	Nachteile	Nachteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=8659|end_char=8668
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8669|end_char=8673
+4-5	zum	_	_	_	_	_	_	_	start_char=8674|end_char=8677
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	start_char=8678|end_char=8686
+7	:	:	PUNCT	$.	_	13	punct	_	start_char=8686|end_char=8687
+8	-	-	PUNCT	$(	_	10	punct	_	start_char=8688|end_char=8689
+9	unregelmäßige	unregelmäßig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=8690|end_char=8703
+10	Blutungen	Blutung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	compound	_	start_char=8704|end_char=8713
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=8714|end_char=8715
+12	starke	stark	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=8716|end_char=8722
+13	Blutungen	Blutung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	appos	_	start_char=8723|end_char=8732
+

@@ -1,0 +1,1232 @@
+# text = ﻿ Schwarzer Haut-Krebs.
+# sent_id = 0
+1	﻿	"	PUNCT	$(	_	3	punct	_	start_char=0|end_char=1
+2	Schwarzer	Schwarzer	PROPN	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	start_char=2|end_char=11
+3	Haut	Haut	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=12|end_char=16
+4	-	-	PUNCT	$(	_	5	punct	_	start_char=16|end_char=17
+5	Krebs	Krebs	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	start_char=17|end_char=22
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=22|end_char=23
+
+# text = Schwarzer Haut-Krebs ist ein bösartiger Tumor.
+# sent_id = 1
+1	Schwarzer	Schwarzer	PROPN	ADJA	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	start_char=25|end_char=34
+2	Haut	Haut	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=35|end_char=39
+3	-	-	PUNCT	$(	_	4	punct	_	start_char=39|end_char=40
+4	Krebs	Krebs	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	start_char=40|end_char=45
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=46|end_char=49
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=50|end_char=53
+7	bösartiger	bösartig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=54|end_char=64
+8	Tumor	Tumor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=65|end_char=70
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=70|end_char=71
+
+# text = Schwarzer Haut-Krebs tritt meist an der Haut auf.
+# sent_id = 2
+1	Schwarzer	Schwarzer	PROPN	ADJA	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	start_char=72|end_char=81
+2	Haut	Haut	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	start_char=82|end_char=86
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=86|end_char=87
+4	Krebs	Krebs	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=87|end_char=92
+5	tritt	treten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=93|end_char=98
+6	meist	meist	ADV	ADV	_	5	advmod	_	start_char=99|end_char=104
+7	an	an	ADP	APPR	_	9	case	_	start_char=105|end_char=107
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=108|end_char=111
+9	Haut	Haut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=112|end_char=116
+10	auf	auf	ADP	PTKVZ	_	5	compound:prt	_	start_char=117|end_char=120
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=120|end_char=121
+
+# text = Es gibt verschiedene Arten von schwarzen Haut-Krebs.
+# sent_id = 3
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=122|end_char=124
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=125|end_char=129
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=130|end_char=142
+4	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=143|end_char=148
+5	von	von	ADP	APPR	_	9	case	_	start_char=149|end_char=152
+6	schwarzen	schwarz	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=153|end_char=162
+7	Haut	Haut	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	compound	_	start_char=163|end_char=167
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=167|end_char=168
+9	Krebs	Krebs	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=168|end_char=173
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=173|end_char=174
+
+# text = Eine Art von schwarzen Haut-Krebs heißt: malignes Melanom.
+# sent_id = 4
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=175|end_char=179
+2	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=180|end_char=183
+3	von	von	ADP	APPR	_	7	case	_	start_char=184|end_char=187
+4	schwarzen	schwarz	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=188|end_char=197
+5	Haut	Haut	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	compound	_	start_char=198|end_char=202
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=202|end_char=203
+7	Krebs	Krebs	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	start_char=203|end_char=208
+8	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=209|end_char=214
+9	:	:	PUNCT	$.	_	11	punct	_	start_char=214|end_char=215
+10	malignes	malign	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=216|end_char=224
+11	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	xcomp	_	start_char=225|end_char=232
+12	.	.	PUNCT	$.	_	8	punct	_	start_char=232|end_char=233
+
+# text = Malignes Melanom ist der Fach-Begriff für schwarzen Haut-Krebs.
+# sent_id = 5
+1	Malignes	Malignes	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	start_char=234|end_char=242
+2	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=243|end_char=250
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=251|end_char=254
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=255|end_char=258
+5	Fach	Fach	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	start_char=259|end_char=263
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=263|end_char=264
+7	Begriff	Begriff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=264|end_char=271
+8	für	für	ADP	APPR	_	12	case	_	start_char=272|end_char=275
+9	schwarzen	schwarz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=276|end_char=285
+10	Haut	Haut	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	compound	_	start_char=286|end_char=290
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=290|end_char=291
+12	Krebs	Krebs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	start_char=291|end_char=296
+13	.	.	PUNCT	$.	_	7	punct	_	start_char=296|end_char=297
+
+# text = Unsere Inhalte sind von Apothekern und Ärzten geprüft.
+# sent_id = 6
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=299|end_char=305
+2	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=306|end_char=313
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=314|end_char=318
+4	von	von	ADP	APPR	_	5	case	_	start_char=319|end_char=322
+5	Apothekern	Apotheker	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	nmod	_	start_char=323|end_char=333
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=334|end_char=337
+7	Ärzten	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	start_char=338|end_char=344
+8	geprüft	prüfen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=345|end_char=352
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=352|end_char=353
+
+# text = Was ist ein Melanom?
+# sent_id = 7
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=355|end_char=358
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=359|end_char=362
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=363|end_char=366
+4	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=367|end_char=374
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=374|end_char=375
+
+# text = - Was ist ein Melanom?
+# sent_id = 8
+1	-	-	PUNCT	$(	_	5	punct	_	start_char=376|end_char=377
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=378|end_char=381
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=382|end_char=385
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=386|end_char=389
+5	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=390|end_char=397
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=397|end_char=398
+
+# text = - Wie häufig ist ein Melanom?
+# sent_id = 9
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=399|end_char=400
+2	Wie	wie	ADV	KOUS	PronType=Int	3	advmod	_	start_char=401|end_char=404
+3	häufig	häufig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=405|end_char=411
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=412|end_char=415
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=416|end_char=419
+6	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=420|end_char=427
+7	?	?	PUNCT	$.	_	3	punct	_	start_char=427|end_char=428
+
+# text = - Welche Ursachen gibt es für ein Melanom? - Welche Risiko-Faktoren gibt es für ein Melanom? - Welche Anzeichen kann man bei einem Melanom erkennen?
+# sent_id = 10
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=429|end_char=430
+2	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	3	det	_	start_char=431|end_char=437
+3	Ursachen	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=438|end_char=446
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=447|end_char=451
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=452|end_char=454
+6	für	für	ADP	APPR	_	8	case	_	start_char=455|end_char=458
+7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=459|end_char=462
+8	Melanom	Melanom	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=463|end_char=470
+9	?	?	PUNCT	$.	_	15	punct	_	start_char=470|end_char=471
+10	-	-	PUNCT	$(	_	15	punct	_	start_char=472|end_char=473
+11	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	14	det	_	start_char=474|end_char=480
+12	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	compound	_	start_char=481|end_char=487
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=487|end_char=488
+14	Faktoren	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	nsubj	_	start_char=488|end_char=496
+15	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=497|end_char=501
+16	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=502|end_char=504
+17	für	für	ADP	APPR	_	19	case	_	start_char=505|end_char=508
+18	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	19	det	_	start_char=509|end_char=512
+19	Melanom	Melanom	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	start_char=513|end_char=520
+20	?	?	PUNCT	$.	_	15	punct	_	start_char=520|end_char=521
+21	-	-	PUNCT	$(	_	29	punct	_	start_char=522|end_char=523
+22	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	23	det	_	start_char=524|end_char=530
+23	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	29	obj	_	start_char=531|end_char=540
+24	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	start_char=541|end_char=545
+25	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	29	nsubj	_	start_char=546|end_char=549
+26	bei	bei	ADP	APPR	_	28	case	_	start_char=550|end_char=553
+27	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	28	det	_	start_char=554|end_char=559
+28	Melanom	Melanom	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	29	obl	_	start_char=560|end_char=567
+29	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	4	parataxis	_	start_char=568|end_char=576
+30	?	?	PUNCT	$.	_	15	punct	_	start_char=576|end_char=577
+
+# text = - Wie wird ein Melanom behandelt?
+# sent_id = 11
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=578|end_char=579
+2	Wie	wie	ADV	PWAV	PronType=Int	6	advmod	_	start_char=580|end_char=583
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	start_char=584|end_char=588
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=589|end_char=592
+5	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	start_char=593|end_char=600
+6	behandelt	behandeln	VERB	VVPP	VerbForm=Part	0	root	_	start_char=601|end_char=610
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=610|end_char=611
+
+# text = - Wie lange kann man nach einer Behandlung mit einem Melanom leben?
+# sent_id = 12
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=612|end_char=613
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	start_char=614|end_char=617
+3	lange	lange	ADV	ADV	_	12	advmod	_	start_char=618|end_char=623
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=624|end_char=628
+5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=629|end_char=632
+6	nach	nach	ADP	APPR	_	8	case	_	start_char=633|end_char=637
+7	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=638|end_char=643
+8	Behandlung	Behandlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	start_char=644|end_char=654
+9	mit	mit	ADP	APPR	_	11	case	_	start_char=655|end_char=658
+10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=659|end_char=664
+11	Melanom	Melanom	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	start_char=665|end_char=672
+12	leben	leben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=673|end_char=678
+13	?	?	PUNCT	$.	_	12	punct	_	start_char=678|end_char=679
+
+# text = - Wie kann man ein Melanom vermeiden?
+# sent_id = 13
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=680|end_char=681
+2	Wie	wie	ADV	PWAV	PronType=Int	7	advmod	_	start_char=682|end_char=685
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=686|end_char=690
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=691|end_char=694
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=695|end_char=698
+6	Melanom	Melanom	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=699|end_char=706
+7	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=707|end_char=716
+8	?	?	PUNCT	$.	_	7	punct	_	start_char=716|end_char=717
+
+# text = - Wie kann man frühzeitig einen Haut-Krebs erkennen?
+# sent_id = 14
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=718|end_char=719
+2	Wie	wie	ADV	PWAV	PronType=Int	10	advmod	_	start_char=720|end_char=723
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=724|end_char=728
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=729|end_char=732
+5	frühzeitig	frühzeitig	ADV	ADJD	_	10	advmod	_	start_char=733|end_char=743
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=744|end_char=749
+7	Haut	Haut	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	start_char=750|end_char=754
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=754|end_char=755
+9	Krebs	Krebs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=755|end_char=760
+10	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=761|end_char=769
+11	?	?	PUNCT	$.	_	10	punct	_	start_char=769|end_char=770
+
+# text = Was ist ein Melanom?
+# sent_id = 15
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=772|end_char=775
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=776|end_char=779
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=780|end_char=783
+4	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=784|end_char=791
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=791|end_char=792
+
+# text = Das maligne Melanom ist ein bösartiger Haut-Krebs.
+# sent_id = 16
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=794|end_char=797
+2	maligne	malign	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=798|end_char=805
+3	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=806|end_char=813
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=814|end_char=817
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=818|end_char=821
+6	bösartiger	bösartig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=822|end_char=832
+7	Haut	Haut	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	start_char=833|end_char=837
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=837|end_char=838
+9	Krebs	Krebs	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=838|end_char=843
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=843|end_char=844
+
+# text = Das heißt: Das Melanom ist gefährlich.
+# sent_id = 17
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=845|end_char=848
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=849|end_char=854
+3	:	:	PUNCT	$.	_	7	punct	_	start_char=854|end_char=855
+4	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=856|end_char=859
+5	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=860|end_char=867
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=868|end_char=871
+7	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	2	parataxis	_	start_char=872|end_char=882
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=882|end_char=883
+
+# text = Das Melanom kann überall auf der Haut auftreten.
+# sent_id = 18
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=884|end_char=887
+2	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=888|end_char=895
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=896|end_char=900
+4	überall	überall	ADV	ADV	_	8	advmod	_	start_char=901|end_char=908
+5	auf	auf	ADP	APPR	_	7	case	_	start_char=909|end_char=912
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=913|end_char=916
+7	Haut	Haut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=917|end_char=921
+8	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=922|end_char=931
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=931|end_char=932
+
+# text = Aber: Die Sonne kann das maligne Melanom begünstigen.
+# sent_id = 19
+1	Aber	aber	CCONJ	KON	_	9	cc	_	start_char=933|end_char=937
+2	:	:	PUNCT	$.	_	9	punct	_	start_char=937|end_char=938
+3	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=939|end_char=942
+4	Sonne	Sonne	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=943|end_char=948
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=949|end_char=953
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=954|end_char=957
+7	maligne	malign	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=958|end_char=965
+8	Melanom	Melanom	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=966|end_char=973
+9	begünstigen	begünstigen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=974|end_char=985
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=985|end_char=986
+
+# text = Das maligne Melanom wächst in verschiedenen Ge-Schwindigkeiten und in verschiedene Richtungen: - Seitlich auf der Haut - in die Tiefe
+# sent_id = 20
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=987|end_char=990
+2	maligne	malign	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=991|end_char=998
+3	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=999|end_char=1006
+4	wächst	wachsen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1007|end_char=1013
+5	in	in	ADP	APPR	_	9	case	_	start_char=1014|end_char=1016
+6	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=1017|end_char=1030
+7	Ge	Ge	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	compound	_	start_char=1031|end_char=1033
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=1033|end_char=1034
+9	Schwindigkeiten	Schwindigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=1034|end_char=1049
+10	und	und	CCONJ	KON	_	13	cc	_	start_char=1050|end_char=1053
+11	in	in	ADP	APPR	_	13	case	_	start_char=1054|end_char=1056
+12	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=1057|end_char=1069
+13	Richtungen	Richtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	conj	_	start_char=1070|end_char=1080
+14	:	:	PUNCT	$.	_	16	punct	_	start_char=1080|end_char=1081
+15	-	-	PUNCT	$(	_	16	punct	_	start_char=1082|end_char=1083
+16	Seitlich	seitlich	ADJ	ADJD	Degree=Pos	13	parataxis	_	start_char=1084|end_char=1092
+17	auf	auf	ADP	APPR	_	19	case	_	start_char=1093|end_char=1096
+18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=1097|end_char=1100
+19	Haut	Haut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	start_char=1101|end_char=1105
+20	-	-	PUNCT	$(	_	23	punct	_	start_char=1106|end_char=1107
+21	in	in	ADP	APPR	_	23	case	_	start_char=1108|end_char=1110
+22	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=1111|end_char=1114
+23	Tiefe	Tiefe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	start_char=1115|end_char=1120
+
+# text = Sie haben einen Verdacht auf Haut-Krebs?
+# sent_id = 21
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1122|end_char=1125
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1126|end_char=1131
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1132|end_char=1137
+4	Verdacht	Verdacht	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=1138|end_char=1146
+5	auf	auf	ADP	APPR	_	8	case	_	start_char=1147|end_char=1150
+6	Haut	Haut	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=1151|end_char=1155
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=1155|end_char=1156
+8	Krebs	Krebs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	start_char=1156|end_char=1161
+9	?	?	PUNCT	$.	_	2	punct	_	start_char=1161|end_char=1162
+
+# text = Dann wird die betroffene Haut-Stelle entfernt.
+# sent_id = 22
+1	Dann	dann	ADV	ADV	_	8	advmod	_	start_char=1163|end_char=1167
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=1168|end_char=1172
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1173|end_char=1176
+4	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=1177|end_char=1187
+5	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	compound	_	start_char=1188|end_char=1192
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=1192|end_char=1193
+7	Stelle	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	start_char=1193|end_char=1199
+8	entfernt	entfernen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1200|end_char=1208
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=1208|end_char=1209
+
+# text = Die betroffene Haut-Stelle wird in einer Operation entfernt.
+# sent_id = 23
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1210|end_char=1213
+2	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=1214|end_char=1224
+3	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	start_char=1225|end_char=1229
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=1229|end_char=1230
+5	Stelle	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	start_char=1230|end_char=1236
+6	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=1237|end_char=1241
+7	in	in	ADP	APPR	_	9	case	_	start_char=1242|end_char=1244
+8	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=1245|end_char=1250
+9	Operation	Operation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=1251|end_char=1260
+10	entfernt	entfernen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1261|end_char=1269
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1269|end_char=1270
+
+# text = Die meisten Melanome können so geheilt werden.
+# sent_id = 24
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=1271|end_char=1274
+2	meisten	meist	DET	PIAT	Case=Nom|Degree=Sup|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=1275|end_char=1282
+3	Melanome	Melanome	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	start_char=1283|end_char=1291
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1292|end_char=1298
+5	so	so	ADV	ADV	_	6	advmod	_	start_char=1299|end_char=1301
+6	geheilt	heilen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1302|end_char=1309
+7	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	6	aux:pass	_	start_char=1310|end_char=1316
+8	.	.	PUNCT	$.	_	6	punct	_	start_char=1316|end_char=1317
+
+# text = Sie entdecken den Haut-Krebs früh?
+# sent_id = 25
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1319|end_char=1322
+2	entdecken	entdecken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1323|end_char=1332
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=1333|end_char=1336
+4	Haut	Haut	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	compound	_	start_char=1337|end_char=1341
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1341|end_char=1342
+6	Krebs	Krebs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=1342|end_char=1347
+7	früh	früh	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=1348|end_char=1352
+8	?	?	PUNCT	$.	_	2	punct	_	start_char=1352|end_char=1353
+
+# text = Dann haben Sie gute Heilungs-Chancen.
+# sent_id = 26
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=1354|end_char=1358
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1359|end_char=1364
+3	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1365|end_char=1368
+4	gute	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=1369|end_char=1373
+5	Heilungs	Heilungs	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	compound	_	start_char=1374|end_char=1382
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=1382|end_char=1383
+7	Chancen	Chance	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=1383|end_char=1390
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=1390|end_char=1391
+
+# text = Bei allen Patienten mit einem Melanom im ersten Stadium ist die 5-Jahres-Überlebens-rate mehr als 95 Prozent.
+# sent_id = 27
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=1392|end_char=1395
+2	allen	alle	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	3	det	_	start_char=1396|end_char=1401
+3	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	20	nmod	_	start_char=1402|end_char=1411
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=1412|end_char=1415
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=1416|end_char=1421
+6	Melanom	Melanom	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	start_char=1422|end_char=1429
+7-8	im	_	_	_	_	_	_	_	start_char=1430|end_char=1432
+7	in	in	ADP	APPR	_	10	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+9	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|NumType=Ord|Number=Sing	10	amod	_	start_char=1433|end_char=1439
+10	Stadium	Stadium	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=1440|end_char=1447
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=1448|end_char=1451
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=1452|end_char=1455
+13	5	5	NUM	NN	Case=Nom|Gender=Fem|NumType=Card|Number=Sing	15	compound	_	start_char=1456|end_char=1457
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=1457|end_char=1458
+15	Jahres	Jahr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	compound	_	start_char=1458|end_char=1464
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=1464|end_char=1465
+17	Überlebens	Überleben	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	compound	_	start_char=1465|end_char=1475
+18	-	-	PUNCT	$(	_	17	punct	_	start_char=1475|end_char=1476
+19	rate	rat	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1476|end_char=1480
+20	mehr	mehr	ADV	ADV	_	19	advmod	_	start_char=1481|end_char=1485
+21	als	als	ADP	KOKOM	_	23	case	_	start_char=1486|end_char=1489
+22	95	95	NUM	CARD	NumType=Card	23	nummod	_	start_char=1490|end_char=1492
+23	Prozent	Prozent	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	nmod	_	start_char=1493|end_char=1500
+24	.	.	PUNCT	$.	_	20	punct	_	start_char=1500|end_char=1501
+
+# text = Sie haben eine veränderte Haut-Stelle?
+# sent_id = 28
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1503|end_char=1506
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1507|end_char=1512
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=1513|end_char=1517
+4	veränderte	verändert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=1518|end_char=1528
+5	Haut	Haut	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	compound	_	start_char=1529|end_char=1533
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=1533|end_char=1534
+7	Stelle	Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=1534|end_char=1540
+8	?	?	PUNCT	$.	_	2	punct	_	start_char=1540|end_char=1541
+
+# text = Dann gehen Sie zum Arzt.
+# sent_id = 29
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=1542|end_char=1546
+2	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1547|end_char=1552
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1553|end_char=1556
+4-5	zum	_	_	_	_	_	_	_	start_char=1557|end_char=1560
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=1561|end_char=1565
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=1565|end_char=1566
+
+# text = Der Arzt kann dann feststellen: Ist die veränderte Haut-Stelle gefährlich?
+# sent_id = 30
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1567|end_char=1570
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1571|end_char=1575
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1576|end_char=1580
+4	dann	dann	ADV	ADV	_	5	advmod	_	start_char=1581|end_char=1585
+5	feststellen	feststellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1586|end_char=1597
+6	:	:	PUNCT	$.	_	13	punct	_	start_char=1597|end_char=1598
+7	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=1599|end_char=1602
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=1603|end_char=1606
+9	veränderte	verändert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=1607|end_char=1617
+10	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	compound	_	start_char=1618|end_char=1622
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=1622|end_char=1623
+12	Stelle	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=1623|end_char=1629
+13	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	5	ccomp	_	start_char=1630|end_char=1640
+14	?	?	PUNCT	$.	_	13	punct	_	start_char=1640|end_char=1641
+
+# text = Und ab einem Alter von 35 Jahren bekommen Sie alle 2 Jahre eine Früherkennungsuntersuchung.
+# sent_id = 31
+1	Und	und	CCONJ	KON	_	8	cc	_	start_char=1642|end_char=1645
+2	ab	ab	ADP	APPR	_	4	case	_	start_char=1646|end_char=1648
+3	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1649|end_char=1654
+4	Alter	Alter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=1655|end_char=1660
+5	von	von	ADP	APPR	_	7	case	_	start_char=1661|end_char=1664
+6	35	35	NUM	CARD	NumType=Card	7	nummod	_	start_char=1665|end_char=1667
+7	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	nmod	_	start_char=1668|end_char=1674
+8	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1675|end_char=1683
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=1684|end_char=1687
+10	alle	alle	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Tot	12	det	_	start_char=1688|end_char=1692
+11	2	2	NUM	CARD	NumType=Card	12	nummod	_	start_char=1693|end_char=1694
+12	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	start_char=1695|end_char=1700
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	14	det	_	start_char=1701|end_char=1705
+14	Früherkennungsuntersuchung	Früherkennungsuntersuchung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=1706|end_char=1732
+15	.	.	PUNCT	$.	_	8	punct	_	start_char=1732|end_char=1733
+
+# text = Die Untersuchung zahlen die Kranken-Kassen.
+# sent_id = 32
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1734|end_char=1737
+2	Untersuchung	Untersuchung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1738|end_char=1750
+3	zahlen	zahlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1751|end_char=1757
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=1758|end_char=1761
+5	Kranken	Kranke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	compound	_	start_char=1762|end_char=1769
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=1769|end_char=1770
+7	Kassen	Kasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	obj	_	start_char=1770|end_char=1776
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=1776|end_char=1777
+
+# text = Melanome sind bösartige Haut-Tumore.
+# sent_id = 33
+1	Melanome	Melanome	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=1779|end_char=1787
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1788|end_char=1792
+3	bösartige	bösartig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=1793|end_char=1802
+4	Haut	Haut	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	compound	_	start_char=1803|end_char=1807
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1807|end_char=1808
+6	Tumore	Tumore	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=1808|end_char=1814
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1814|end_char=1815
+
+# text = Melanome entstehen aus den Zellen der Haut.
+# sent_id = 34
+1	Melanome	Melanome	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=1816|end_char=1824
+2	entstehen	entstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1825|end_char=1834
+3	aus	aus	ADP	APPR	_	5	case	_	start_char=1835|end_char=1838
+4	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1839|end_char=1842
+5	Zellen	Zelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=1843|end_char=1849
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1850|end_char=1853
+7	Haut	Haut	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=1854|end_char=1858
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=1858|end_char=1859
+
+# text = Bei manchen Menschen entsteht ein bösartiger Tumor.
+# sent_id = 35
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=1861|end_char=1864
+2	manchen	mancher	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=1865|end_char=1872
+3	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	start_char=1873|end_char=1881
+4	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1882|end_char=1890
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=1891|end_char=1894
+6	bösartiger	bösartig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=1895|end_char=1905
+7	Tumor	Tumor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1906|end_char=1911
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=1911|end_char=1912
+
+# text = Das ist die medizinische Fach-Bezeichnung für Melanom: Melanom.
+# sent_id = 36
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	start_char=1913|end_char=1916
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1917|end_char=1920
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1921|end_char=1924
+4	medizinische	medizinisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=1925|end_char=1937
+5	Fach	Fach	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	compound	_	start_char=1938|end_char=1942
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=1942|end_char=1943
+7	Bezeichnung	Bezeichnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1943|end_char=1954
+8	für	für	ADP	APPR	_	9	case	_	start_char=1955|end_char=1958
+9	Melanom	Melanom	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	start_char=1959|end_char=1966
+10	:	:	PUNCT	$.	_	11	punct	_	start_char=1966|end_char=1967
+11	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	appos	_	start_char=1968|end_char=1975
+12	.	.	PUNCT	$.	_	7	punct	_	start_char=1975|end_char=1976
+
+# text = Bei einem Melanom entstehen die Zellen falsch.
+# sent_id = 37
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=1977|end_char=1980
+2	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=1981|end_char=1986
+3	Melanom	Melanom	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=1987|end_char=1994
+4	entstehen	entstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1995|end_char=2004
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=2005|end_char=2008
+6	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=2009|end_char=2015
+7	falsch	falsch	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=2016|end_char=2022
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=2022|end_char=2023
+
+# text = Die Zellen heißen: Pigmentzellen oder Melanozyten.
+# sent_id = 38
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=2024|end_char=2027
+2	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=2028|end_char=2034
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2035|end_char=2041
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=2041|end_char=2042
+5	Pigmentzellen	Pigmentzelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	xcomp	_	start_char=2043|end_char=2056
+6	oder	oder	CCONJ	KON	_	7	cc	_	start_char=2057|end_char=2061
+7	Melanozyten	Melanozyten	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	start_char=2062|end_char=2073
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=2073|end_char=2074
+
+# text = Diese Zellen produzieren das Farbpigment.
+# sent_id = 39
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=2075|end_char=2080
+2	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=2081|end_char=2087
+3	produzieren	produzieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2088|end_char=2099
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=2100|end_char=2103
+5	Farbpigment	Farbpigment	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=2104|end_char=2115
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=2115|end_char=2116
+
+# text = Die Pigmentzellen oder Melanozyten verändern sich.
+# sent_id = 40
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=2117|end_char=2120
+2	Pigmentzellen	Pigmentzelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=2121|end_char=2134
+3	oder	oder	CCONJ	KON	_	4	cc	_	start_char=2135|end_char=2139
+4	Melanozyten	Melanozyten	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	start_char=2140|end_char=2151
+5	verändern	verändern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2152|end_char=2161
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=2162|end_char=2166
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=2166|end_char=2167
+
+# text = Deshalb produziert die Haut zu viele Pigmente.
+# sent_id = 41
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=2168|end_char=2175
+2	produziert	produzieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2176|end_char=2186
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2187|end_char=2190
+4	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=2191|end_char=2195
+5	zu	zu	ADV	PTKA	_	6	advmod	_	start_char=2196|end_char=2198
+6	viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	start_char=2199|end_char=2204
+7	Pigmente	Pigment	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=2205|end_char=2213
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=2213|end_char=2214
+
+# text = Das kann zu einem bösartigen Tumor führen.
+# sent_id = 42
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	start_char=2215|end_char=2218
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=2219|end_char=2223
+3	zu	zu	ADP	APPR	_	6	case	_	start_char=2224|end_char=2226
+4	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=2227|end_char=2232
+5	bösartigen	bösartig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=2233|end_char=2243
+6	Tumor	Tumor	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=2244|end_char=2249
+7	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2250|end_char=2256
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=2256|end_char=2257
+
+# text = Der Tumor entsteht auf gesunder Haut.
+# sent_id = 43
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=2259|end_char=2262
+2	Tumor	Tumor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2263|end_char=2268
+3	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2269|end_char=2277
+4	auf	auf	ADP	APPR	_	6	case	_	start_char=2278|end_char=2281
+5	gesunder	gesund	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=2282|end_char=2290
+6	Haut	Haut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=2291|end_char=2295
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=2295|end_char=2296
+
+# text = Oder der Tumor entsteht auf veränderten Hautarealen?
+# sent_id = 44
+1	Oder	Oder	CCONJ	KON	_	4	cc	_	start_char=2297|end_char=2301
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=2302|end_char=2305
+3	Tumor	Tumor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=2306|end_char=2311
+4	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2312|end_char=2320
+5	auf	auf	ADP	APPR	_	7	case	_	start_char=2321|end_char=2324
+6	veränderten	verändert	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=2325|end_char=2336
+7	Hautarealen	Hautareal	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=2337|end_char=2348
+8	?	?	PUNCT	$.	_	4	punct	_	start_char=2348|end_char=2349
+
+# text = Veränderte Haut-Areale sind zum Beispiel Leber-Flecken oder gutartige Haut-Tumore.
+# sent_id = 45
+1	Veränderte	verändert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=2350|end_char=2360
+2	Haut	Haut	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	start_char=2361|end_char=2365
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=2365|end_char=2366
+4	Areale	Areale	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	start_char=2366|end_char=2372
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=2373|end_char=2377
+6-7	zum	_	_	_	_	_	_	_	start_char=2378|end_char=2381
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	start_char=2382|end_char=2390
+9	Leber	Leber	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	compound	_	start_char=2391|end_char=2396
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=2396|end_char=2397
+11	Flecken	Flecken	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=2397|end_char=2404
+12	oder	oder	CCONJ	KON	_	16	cc	_	start_char=2405|end_char=2409
+13	gutartige	gutartig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	start_char=2410|end_char=2419
+14	Haut	Haut	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	compound	_	start_char=2420|end_char=2424
+15	-	-	PUNCT	$(	_	14	punct	_	start_char=2424|end_char=2425
+16	Tumore	Tumore	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	conj	_	start_char=2425|end_char=2431
+17	.	.	PUNCT	$.	_	11	punct	_	start_char=2431|end_char=2432
+
+# text = Melanome können auch an den Schleimhäuten von der Nase, dem Mund, dem Genitalbereich oder dem Analbereich auftreten.
+# sent_id = 46
+1	Melanome	Melanome	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	start_char=2434|end_char=2442
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=2443|end_char=2449
+3	auch	auch	ADV	ADV	_	19	advmod	_	start_char=2450|end_char=2454
+4	an	an	ADP	APPR	_	6	case	_	start_char=2455|end_char=2457
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=2458|end_char=2461
+6	Schleimhäuten	Schleimhaut	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	19	obl	_	start_char=2462|end_char=2475
+7	von	von	ADP	APPR	_	9	case	_	start_char=2476|end_char=2479
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=2480|end_char=2483
+9	Nase	Nase	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	start_char=2484|end_char=2488
+10	,	,	PUNCT	$,	_	12	punct	_	start_char=2488|end_char=2489
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=2490|end_char=2493
+12	Mund	Mund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	conj	_	start_char=2494|end_char=2498
+13	,	,	PUNCT	$,	_	15	punct	_	start_char=2498|end_char=2499
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=2500|end_char=2503
+15	Genitalbereich	Genitalbereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	conj	_	start_char=2504|end_char=2518
+16	oder	oder	CCONJ	KON	_	18	cc	_	start_char=2519|end_char=2523
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=2524|end_char=2527
+18	Analbereich	Analbereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	conj	_	start_char=2528|end_char=2539
+19	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2540|end_char=2549
+20	.	.	PUNCT	$.	_	19	punct	_	start_char=2549|end_char=2550
+
+# text = Das passiert aber sehr selten.
+# sent_id = 47
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=2551|end_char=2554
+2	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2555|end_char=2563
+3	aber	aber	ADV	ADV	_	2	advmod	_	start_char=2564|end_char=2568
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	start_char=2569|end_char=2573
+5	selten	selten	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=2574|end_char=2580
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=2580|end_char=2581
+
+# text = Schwarzer Haut-Krebs heißt: Melanom.
+# sent_id = 48
+1	Schwarzer	Schwarzer	PROPN	ADJA	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	start_char=2583|end_char=2592
+2	Haut	Haut	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=2593|end_char=2597
+3	-	-	PUNCT	$(	_	4	punct	_	start_char=2597|end_char=2598
+4	Krebs	Krebs	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	start_char=2598|end_char=2603
+5	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2604|end_char=2609
+6	:	:	PUNCT	$.	_	7	punct	_	start_char=2609|end_char=2610
+7	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	xcomp	_	start_char=2611|end_char=2618
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=2618|end_char=2619
+
+# text = Melanom ist eine Art von Haut-Krebs.
+# sent_id = 49
+1	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=2620|end_char=2627
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2628|end_char=2631
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=2632|end_char=2636
+4	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2637|end_char=2640
+5	von	von	ADP	APPR	_	8	case	_	start_char=2641|end_char=2644
+6	Haut	Haut	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	compound	_	start_char=2645|end_char=2649
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2649|end_char=2650
+8	Krebs	Krebs	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=2650|end_char=2655
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=2655|end_char=2656
+
+# text = Es gibt aber auch andere Arten von Haut-Krebs.
+# sent_id = 50
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=2657|end_char=2659
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2660|end_char=2664
+3	aber	aber	ADV	ADV	_	2	advmod	_	start_char=2665|end_char=2669
+4	auch	auch	ADV	ADV	_	2	advmod	_	start_char=2670|end_char=2674
+5	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	start_char=2675|end_char=2681
+6	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2682|end_char=2687
+7	von	von	ADP	APPR	_	10	case	_	start_char=2688|end_char=2691
+8	Haut	Haut	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	compound	_	start_char=2692|end_char=2696
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=2696|end_char=2697
+10	Krebs	Krebs	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	start_char=2697|end_char=2702
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=2702|end_char=2703
+
+# text = Diese Arten heißen: heller Haut-Krebs.
+# sent_id = 51
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=2704|end_char=2709
+2	Arten	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=2710|end_char=2715
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2716|end_char=2722
+4	:	:	PUNCT	$.	_	8	punct	_	start_char=2722|end_char=2723
+5	heller	hell	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=2724|end_char=2730
+6	Haut	Haut	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	start_char=2731|end_char=2735
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2735|end_char=2736
+8	Krebs	Krebs	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	start_char=2736|end_char=2741
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=2741|end_char=2742
+
+# text = Wie häufig ist eine Nierenbeckenentzündung?
+# sent_id = 52
+1	Wie	wie	ADV	KOUS	PronType=Int	2	advmod	_	start_char=2744|end_char=2747
+2	häufig	häufig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2748|end_char=2754
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=2755|end_char=2758
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=2759|end_char=2763
+5	Nierenbeckenentzündung	Nierenbeckenentzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=2764|end_char=2786
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=2786|end_char=2787
+
+# text = Eine Nierenbeckenentzündung kommt relativ häufig vor.
+# sent_id = 53
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=2788|end_char=2792
+2	Nierenbeckenentzündung	Nierenbeckenentzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2793|end_char=2815
+3	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2816|end_char=2821
+4	relativ	relativ	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=2822|end_char=2829
+5	häufig	häufig	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=2830|end_char=2836
+6	vor	vor	ADP	PTKVZ	_	3	compound:prt	_	start_char=2837|end_char=2840
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=2840|end_char=2841
+
+# text = Die genaue Häufigkeit ist nicht bekannt.
+# sent_id = 54
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=2842|end_char=2845
+2	genaue	genau	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=2846|end_char=2852
+3	Häufigkeit	Häufigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=2853|end_char=2863
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2864|end_char=2867
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=2868|end_char=2873
+6	bekannt	bekennen	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2874|end_char=2881
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2881|end_char=2882
+
+# text = Was sind die Ursachen einer Nierenbeckenentzündung?
+# sent_id = 55
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obj	_	start_char=2883|end_char=2886
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2887|end_char=2891
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=2892|end_char=2895
+4	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2896|end_char=2904
+5	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=2905|end_char=2910
+6	Nierenbeckenentzündung	Nierenbeckenentzündung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=2911|end_char=2933
+7	?	?	PUNCT	$.	_	2	punct	_	start_char=2933|end_char=2934
+
+# text = Eine Nierenbeckenentzündung kann verschiedene Ursachen haben.
+# sent_id = 56
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=2935|end_char=2939
+2	Nierenbeckenentzündung	Nierenbeckenentzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=2940|end_char=2962
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2963|end_char=2967
+4	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=2968|end_char=2980
+5	Ursachen	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=2981|end_char=2989
+6	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=2990|end_char=2995
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2995|end_char=2996
+
+# text = Zu den Ursachen gehören zum Beispiel: - eine Blasenentzündung - eine Verletzung der Harnwege - ein Fremdkörper in den Harnwegen - bestimmte Medikamente - manche Krankheiten wie zum Beispiel Diabetes oder eine Immunschwäche - manchmal ist auch die Veranlagung für eine Nierenbeckenentzündung verantwortlich.
+# sent_id = 57
+1	Zu	zu	ADP	APPR	_	3	case	_	start_char=2997|end_char=2999
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=3000|end_char=3003
+3	Ursachen	Ursache	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=3004|end_char=3012
+4	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3013|end_char=3020
+5-6	zum	_	_	_	_	_	_	_	start_char=3021|end_char=3024
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=3025|end_char=3033
+8	:	:	PUNCT	$.	_	11	punct	_	start_char=3033|end_char=3034
+9	-	-	PUNCT	$(	_	11	punct	_	start_char=3035|end_char=3036
+10	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=3037|end_char=3041
+11	Blasenentzündung	Blasenentzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=3042|end_char=3058
+12	-	-	PUNCT	$(	_	14	punct	_	start_char=3059|end_char=3060
+13	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	14	det	_	start_char=3061|end_char=3065
+14	Verletzung	Verletzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	start_char=3066|end_char=3076
+15	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	16	det	_	start_char=3077|end_char=3080
+16	Harnwege	Harnwege	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	start_char=3081|end_char=3089
+17	-	-	PUNCT	$(	_	19	punct	_	start_char=3090|end_char=3091
+18	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	19	det	_	start_char=3092|end_char=3095
+19	Fremdkörper	Fremdkörper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	start_char=3096|end_char=3107
+20	in	in	ADP	APPR	_	22	case	_	start_char=3108|end_char=3110
+21	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	22	det	_	start_char=3111|end_char=3114
+22	Harnwegen	Harnwegen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	nmod	_	start_char=3115|end_char=3124
+23	-	-	PUNCT	$(	_	25	punct	_	start_char=3125|end_char=3126
+24	bestimmte	bestimmt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	25	amod	_	start_char=3127|end_char=3136
+25	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	19	conj	_	start_char=3137|end_char=3148
+26	-	-	PUNCT	$(	_	28	punct	_	start_char=3149|end_char=3150
+27	manche	mancher	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	28	det	_	start_char=3151|end_char=3157
+28	Krankheiten	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	25	conj	_	start_char=3158|end_char=3169
+29	wie	wie	ADP	KOKOM	_	33	case	_	start_char=3170|end_char=3173
+30-31	zum	_	_	_	_	_	_	_	start_char=3174|end_char=3177
+30	zu	zu	ADP	APPR	_	32	case	_	_
+31	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	32	det	_	_
+32	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	33	nmod	_	start_char=3178|end_char=3186
+33	Diabetes	Diabet	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	28	nmod	_	start_char=3187|end_char=3195
+34	oder	oder	CCONJ	KON	_	36	cc	_	start_char=3196|end_char=3200
+35	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	36	det	_	start_char=3201|end_char=3205
+36	Immunschwäche	Immunschwäche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	33	conj	_	start_char=3206|end_char=3219
+37	-	-	PUNCT	$(	_	46	punct	_	start_char=3220|end_char=3221
+38	manchmal	manchmal	ADV	ADV	_	46	advmod	_	start_char=3222|end_char=3230
+39	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	start_char=3231|end_char=3234
+40	auch	auch	ADV	ADV	_	46	advmod	_	start_char=3235|end_char=3239
+41	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	start_char=3240|end_char=3243
+42	Veranlagung	Veranlagung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	46	nsubj	_	start_char=3244|end_char=3255
+43	für	für	ADP	APPR	_	45	case	_	start_char=3256|end_char=3259
+44	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	45	det	_	start_char=3260|end_char=3264
+45	Nierenbeckenentzündung	Nierenbeckenentzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	42	nmod	_	start_char=3265|end_char=3287
+46	verantwortlich	verantwortlich	ADJ	ADJD	Degree=Pos	4	parataxis	_	start_char=3288|end_char=3302
+47	.	.	PUNCT	$.	_	4	punct	_	start_char=3302|end_char=3303
+
+# text = In Deutschland bekommt 19 von 100.000 Menschen jährlich ein Malignes Melanom.
+# sent_id = 58
+1	In	in	ADP	APPR	_	2	case	_	start_char=3305|end_char=3307
+2	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=3308|end_char=3319
+3	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3320|end_char=3327
+4	19	19	NUM	CARD	NumType=Card	7	nummod	_	start_char=3328|end_char=3330
+5	von	von	ADP	APPR	_	6	case	_	start_char=3331|end_char=3334
+6	100.000	100.000	NUM	CARD	NumType=Card	7	nummod	_	start_char=3335|end_char=3342
+7	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	start_char=3343|end_char=3351
+8	jährlich	jährlich	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=3352|end_char=3360
+9	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=3361|end_char=3364
+10	Malignes	Malign	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=3365|end_char=3373
+11	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=3374|end_char=3381
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=3381|end_char=3382
+
+# text = 2 von 100.000 Menschen sterben jedes Jahr an einem Melanom.
+# sent_id = 59
+1	2	2	NUM	CARD	NumType=Card	5	nsubj	_	start_char=3383|end_char=3384
+2	von	von	ADP	APPR	_	4	case	_	start_char=3385|end_char=3388
+3	100.000	100.000	NUM	CARD	NumType=Card	4	nummod	_	start_char=3389|end_char=3396
+4	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	1	nmod	_	start_char=3397|end_char=3405
+5	sterben	sterben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3406|end_char=3413
+6	jedes	jeder	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	7	det	_	start_char=3414|end_char=3419
+7	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	start_char=3420|end_char=3424
+8	an	an	ADP	APPR	_	10	case	_	start_char=3425|end_char=3427
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=3428|end_char=3433
+10	Melanom	Melanom	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=3434|end_char=3441
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=3441|end_char=3442
+
+# text = Frauen und Männer sind gleich häufig betroffen.
+# sent_id = 60
+1	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=3443|end_char=3449
+2	und	und	CCONJ	KON	_	3	cc	_	start_char=3450|end_char=3453
+3	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=3454|end_char=3460
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=3461|end_char=3465
+5	gleich	gleich	ADV	ADV	_	6	advmod	_	start_char=3466|end_char=3472
+6	häufig	häufig	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=3473|end_char=3479
+7	betroffen	betreffen	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3480|end_char=3489
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=3489|end_char=3490
+
+# text = In den 1970er Jahren gab es in Deutschland etwa 10 neue Fälle von bösartigem Haut-Krebs pro 100.000 Einwohner.
+# sent_id = 61
+1	In	in	ADP	APPR	_	4	case	_	start_char=3492|end_char=3494
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=3495|end_char=3498
+3	1970er	1970er	ADJ	ADJA	Case=Dat|Degree=Pos	4	amod	_	start_char=3499|end_char=3505
+4	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	start_char=3506|end_char=3512
+5	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3513|end_char=3516
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=3517|end_char=3519
+7	in	in	ADP	APPR	_	8	case	_	start_char=3520|end_char=3522
+8	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=3523|end_char=3534
+9	etwa	etwa	ADV	ADV	_	10	advmod	_	start_char=3535|end_char=3539
+10	10	10	NUM	CARD	NumType=Card	12	nummod	_	start_char=3540|end_char=3542
+11	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	start_char=3543|end_char=3547
+12	Fälle	Fall	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=3548|end_char=3553
+13	von	von	ADP	APPR	_	17	case	_	start_char=3554|end_char=3557
+14	bösartigem	bösartig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=3558|end_char=3568
+15	Haut	Haut	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	compound	_	start_char=3569|end_char=3573
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=3573|end_char=3574
+17	Krebs	Krebs	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	start_char=3574|end_char=3579
+18	pro	pro	ADP	APPR	_	20	case	_	start_char=3580|end_char=3583
+19	100.000	100.000	NUM	CARD	NumType=Card	20	nummod	_	start_char=3584|end_char=3591
+20	Einwohner	Einwohner	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	nmod	_	start_char=3592|end_char=3601
+21	.	.	PUNCT	$.	_	5	punct	_	start_char=3601|end_char=3602
+
+# text = In den 2000er Jahren gab es etwa 50 neue Fälle pro 100.000 Einwohner.
+# sent_id = 62
+1	In	in	ADP	APPR	_	4	case	_	start_char=3603|end_char=3605
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=3606|end_char=3609
+3	2000er	2000er	ADJ	ADJA	Case=Dat|Degree=Pos	4	amod	_	start_char=3610|end_char=3616
+4	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	start_char=3617|end_char=3623
+5	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3624|end_char=3627
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=3628|end_char=3630
+7	etwa	etwa	ADV	ADV	_	8	advmod	_	start_char=3631|end_char=3635
+8	50	50	NUM	CARD	NumType=Card	10	nummod	_	start_char=3636|end_char=3638
+9	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=3639|end_char=3643
+10	Fälle	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	start_char=3644|end_char=3649
+11	pro	pro	ADP	APPR	_	13	case	_	start_char=3650|end_char=3653
+12	100.000	100.000	NUM	CARD	NumType=Card	13	nummod	_	start_char=3654|end_char=3661
+13	Einwohner	Einwohner	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	start_char=3662|end_char=3671
+14	.	.	PUNCT	$.	_	5	punct	_	start_char=3671|end_char=3672
+
+# text = Auch weltweit steigt die Zahl der Menschen mit bösartigem Haut-Krebs.
+# sent_id = 63
+1	Auch	auch	ADV	ADV	_	2	advmod	_	start_char=3673|end_char=3677
+2	weltweit	weltweit	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=3678|end_char=3686
+3	steigt	steigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3687|end_char=3693
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=3694|end_char=3697
+5	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=3698|end_char=3702
+6	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=3703|end_char=3706
+7	Menschen	Mensch	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=3707|end_char=3715
+8	mit	mit	ADP	APPR	_	12	case	_	start_char=3716|end_char=3719
+9	bösartigem	bösartig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=3720|end_char=3730
+10	Haut	Haut	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	compound	_	start_char=3731|end_char=3735
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=3735|end_char=3736
+12	Krebs	Krebs	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	start_char=3736|end_char=3741
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=3741|end_char=3742
+
+# text = Die Sonne ist die Haupt-Ursache für das Haut-Krebs-Risiko.
+# sent_id = 64
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=3743|end_char=3746
+2	Sonne	Sonne	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=3747|end_char=3752
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=3753|end_char=3756
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=3757|end_char=3760
+5	Haupt	Haupt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	compound	_	start_char=3761|end_char=3766
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=3766|end_char=3767
+7	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=3767|end_char=3774
+8	für	für	ADP	APPR	_	14	case	_	start_char=3775|end_char=3778
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	start_char=3779|end_char=3782
+10	Haut	Haut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	compound	_	start_char=3783|end_char=3787
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=3787|end_char=3788
+12	Krebs	Krebs	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	compound	_	start_char=3788|end_char=3793
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=3793|end_char=3794
+14	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	start_char=3794|end_char=3800
+15	.	.	PUNCT	$.	_	7	punct	_	start_char=3800|end_char=3801
+
+# text = Professorin Wiebke Ludwig-Peitsch ist Chef-Ärztin der Klinik für Dermatologie und Phlebologie am Berliner Vivantes Klinikum im Friedrichshain.
+# sent_id = 65
+1	Professorin	Professorin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	start_char=3802|end_char=3813
+2	Wiebke	Wiebke	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=3814|end_char=3820
+3	Ludwig	Ludwig	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	start_char=3821|end_char=3827
+4	-	-	PUNCT	$(	_	5	punct	_	start_char=3827|end_char=3828
+5	Peitsch	Peitsch	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	start_char=3828|end_char=3835
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=3836|end_char=3839
+7	Chef	Chef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	start_char=3840|end_char=3844
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=3844|end_char=3845
+9	Ärztin	Ärztin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=3845|end_char=3851
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=3852|end_char=3855
+11	Klinik	Klinik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	start_char=3856|end_char=3862
+12	für	für	ADP	APPR	_	13	case	_	start_char=3863|end_char=3866
+13	Dermatologie	Dermatologie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	start_char=3867|end_char=3879
+14	und	und	CCONJ	KON	_	15	cc	_	start_char=3880|end_char=3883
+15	Phlebologie	Phlebologie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	start_char=3884|end_char=3895
+16-17	am	_	_	_	_	_	_	_	start_char=3896|end_char=3898
+16	an	an	ADP	APPR	_	19	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+18	Berliner	Berliner	PROPN	ADJA	Case=Dat	19	amod	_	start_char=3899|end_char=3907
+19	Vivantes	Vivantes	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	start_char=3908|end_char=3916
+20	Klinikum	Klinikum	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	19	flat	_	start_char=3917|end_char=3925
+21-22	im	_	_	_	_	_	_	_	start_char=3926|end_char=3928
+21	in	in	ADP	APPR	_	23	case	_	_
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+23	Friedrichshain	Friedrichshain	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	start_char=3929|end_char=3943
+24	.	.	PUNCT	$.	_	9	punct	_	start_char=3943|end_char=3944
+
+# text = Sie sagt: „ Die Sonne ist die Haupt-Ursache für das Haut-Krebs-Risiko.
+# sent_id = 66
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=3945|end_char=3948
+2	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3949|end_char=3953
+3	:	:	PUNCT	$.	_	11	punct	_	start_char=3953|end_char=3954
+4	„	"	PUNCT	$(	_	11	punct	_	start_char=3955|end_char=3956
+5	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3957|end_char=3960
+6	Sonne	Sonne	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=3961|end_char=3966
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=3967|end_char=3970
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=3971|end_char=3974
+9	Haupt	Haupt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	compound	_	start_char=3975|end_char=3980
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=3980|end_char=3981
+11	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	start_char=3981|end_char=3988
+12	für	für	ADP	APPR	_	18	case	_	start_char=3989|end_char=3992
+13	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	start_char=3993|end_char=3996
+14	Haut	Haut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	compound	_	start_char=3997|end_char=4001
+15	-	-	PUNCT	$(	_	14	punct	_	start_char=4001|end_char=4002
+16	Krebs	Krebs	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	compound	_	start_char=4002|end_char=4007
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=4007|end_char=4008
+18	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	start_char=4008|end_char=4014
+19	.	.	PUNCT	$.	_	2	punct	_	start_char=4014|end_char=4015
+
+# text = Die UV-Strahlung im Sonnen-Licht verursacht in den allermeisten Fällen den Tumor.
+# sent_id = 67
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=4016|end_char=4019
+2	UV	UV	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=4020|end_char=4022
+3	-	-	PUNCT	$(	_	4	punct	_	start_char=4022|end_char=4023
+4	Strahlung	Strahlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	start_char=4023|end_char=4032
+5-6	im	_	_	_	_	_	_	_	start_char=4033|end_char=4035
+5	in	in	ADP	APPR	_	9	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+7	Sonnen	Sonne	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	compound	_	start_char=4036|end_char=4042
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=4042|end_char=4043
+9	Licht	Licht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	start_char=4043|end_char=4048
+10	verursacht	verursachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4049|end_char=4059
+11	in	in	ADP	APPR	_	14	case	_	start_char=4060|end_char=4062
+12	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	14	det	_	start_char=4063|end_char=4066
+13	allermeisten	allermeister	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Masc|Number=Plur	14	amod	_	start_char=4067|end_char=4079
+14	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	start_char=4080|end_char=4086
+15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=4087|end_char=4090
+16	Tumor	Tumor	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=4091|end_char=4096
+17	.	.	PUNCT	$.	_	10	punct	_	start_char=4096|end_char=4097
+
+# text = “
+# sent_id = 68
+1	“	"	PUNCT	$(	_	0	root	_	start_char=4098|end_char=4099
+
+# text = Ein Melanom kann vor allem durch kurze, starke Sonnen-Strahlung entstehen.
+# sent_id = 69
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=4101|end_char=4104
+2	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	start_char=4105|end_char=4112
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=4113|end_char=4117
+4	vor	vor	ADP	APPR	_	5	case	_	start_char=4118|end_char=4121
+5	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	13	obl	_	start_char=4122|end_char=4127
+6	durch	durch	ADP	APPR	_	12	case	_	start_char=4128|end_char=4133
+7	kurze	kurz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=4134|end_char=4139
+8	,	,	PUNCT	$,	_	7	punct	_	start_char=4139|end_char=4140
+9	starke	stark	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=4141|end_char=4147
+10	Sonnen	Sonne	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	compound	_	start_char=4148|end_char=4154
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=4154|end_char=4155
+12	Strahlung	Strahlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	start_char=4155|end_char=4164
+13	entstehen	entstehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4165|end_char=4174
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=4174|end_char=4175
+
+# text = Das passiert an nicht dauerhaft lichtexponierten Körper-Stellen.
+# sent_id = 70
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=4176|end_char=4179
+2	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4180|end_char=4188
+3	an	an	ADP	APPR	_	9	case	_	start_char=4189|end_char=4191
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=4192|end_char=4197
+5	dauerhaft	dauerhaft	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=4198|end_char=4207
+6	lichtexponierten	lichtexponiert	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=4208|end_char=4224
+7	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	compound	_	start_char=4225|end_char=4231
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=4231|end_char=4232
+9	Stellen	Stelle|Stellen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=4232|end_char=4239
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=4239|end_char=4240
+
+# text = Dazu gehören zum Beispiel: - der Körper-Stamm - die Beine Aber auch schwere Sonnen-Brände in der frühen Kindheit können ein Melanom begünstigen.
+# sent_id = 71
+1	Dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	start_char=4241|end_char=4245
+2	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4246|end_char=4253
+3-4	zum	_	_	_	_	_	_	_	start_char=4254|end_char=4257
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=4258|end_char=4266
+6	:	:	PUNCT	$.	_	28	punct	_	start_char=4266|end_char=4267
+7	-	-	PUNCT	$(	_	11	punct	_	start_char=4268|end_char=4269
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=4270|end_char=4273
+9	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	compound	_	start_char=4274|end_char=4280
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=4280|end_char=4281
+11	Stamm	Stamm	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	compound	_	start_char=4281|end_char=4286
+12	-	-	PUNCT	$(	_	14	punct	_	start_char=4287|end_char=4288
+13	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	14	det	_	start_char=4289|end_char=4292
+14	Beine	Bein	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	appos	_	start_char=4293|end_char=4298
+15	Aber	aber	CCONJ	KON	_	28	cc	_	start_char=4299|end_char=4303
+16	auch	auch	ADV	ADV	_	20	advmod	_	start_char=4304|end_char=4308
+17	schwere	schwer	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	start_char=4309|end_char=4316
+18	Sonnen	Sonne	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	compound	_	start_char=4317|end_char=4323
+19	-	-	PUNCT	$(	_	18	punct	_	start_char=4323|end_char=4324
+20	Brände	Brand	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	start_char=4324|end_char=4330
+21	in	in	ADP	APPR	_	24	case	_	start_char=4331|end_char=4333
+22	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=4334|end_char=4337
+23	frühen	früh	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=4338|end_char=4344
+24	Kindheit	Kindheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	start_char=4345|end_char=4353
+25	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	start_char=4354|end_char=4360
+26	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	27	det	_	start_char=4361|end_char=4364
+27	Melanom	Melanom	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	28	obj	_	start_char=4365|end_char=4372
+28	begünstigen	begünstigen	VERB	VVINF	VerbForm=Inf	2	conj	_	start_char=4373|end_char=4384
+29	.	.	PUNCT	$.	_	2	punct	_	start_char=4384|end_char=4385
+
+# text = Manche Sonnen-Strahlen können aber auch langfristig gefährlich sein.
+# sent_id = 72
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	start_char=4386|end_char=4392
+2	Sonnen	Sonne	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	compound	_	start_char=4393|end_char=4399
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=4399|end_char=4400
+4	Strahlen	Strahl|Strahlen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=4400|end_char=4408
+5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=4409|end_char=4415
+6	aber	aber	ADV	ADV	_	9	advmod	_	start_char=4416|end_char=4420
+7	auch	auch	ADV	ADV	_	9	advmod	_	start_char=4421|end_char=4425
+8	langfristig	langfristig	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=4426|end_char=4437
+9	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4438|end_char=4448
+10	sein	sein	AUX	VAINF	VerbForm=Inf	9	cop	_	start_char=4449|end_char=4453
+11	.	.	PUNCT	$.	_	9	punct	_	start_char=4453|end_char=4454
+
+# text = Diese Strahlen können nämlich ein Lentigo maligna-Melanom verursachen.
+# sent_id = 73
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=4455|end_char=4460
+2	Strahlen	Strahl|Strahlen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=4461|end_char=4469
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=4470|end_char=4476
+4	nämlich	nämlich	ADV	ADV	_	10	advmod	_	start_char=4477|end_char=4484
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=4485|end_char=4488
+6	Lentigo	Lentigo	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=4489|end_char=4496
+7	maligna	maligna	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	6	flat	_	start_char=4497|end_char=4504
+8	-	-	PUNCT	$(	_	9	punct	_	start_char=4504|end_char=4505
+9	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	flat	_	start_char=4505|end_char=4512
+10	verursachen	verursechen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4513|end_char=4524
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=4524|end_char=4525
+
+# text = Ein Lentigo maligna-Melanom ist eine Art von Melanom.
+# sent_id = 74
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=4526|end_char=4529
+2	Lentigo	Lentigo	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=4530|end_char=4537
+3	maligna	maligna	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	2	flat	_	start_char=4538|end_char=4545
+4	-	-	PUNCT	$(	_	5	punct	_	start_char=4545|end_char=4546
+5	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	flat	_	start_char=4546|end_char=4553
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=4554|end_char=4557
+7	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=4558|end_char=4562
+8	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=4563|end_char=4566
+9	von	von	ADP	APPR	_	10	case	_	start_char=4567|end_char=4570
+10	Melanom	Melanom	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=4571|end_char=4578
+11	.	.	PUNCT	$.	_	8	punct	_	start_char=4578|end_char=4579
+
+# text = Und es tritt vor allem im Gesicht auf.
+# sent_id = 75
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=4580|end_char=4583
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=4584|end_char=4586
+3	tritt	treten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4587|end_char=4592
+4	vor	vor	ADP	APPR	_	5	case	_	start_char=4593|end_char=4596
+5	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	3	obl	_	start_char=4597|end_char=4602
+6-7	im	_	_	_	_	_	_	_	start_char=4603|end_char=4605
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Gesicht	Gesicht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=4606|end_char=4613
+9	auf	auf	ADP	PTKVZ	_	3	compound:prt	_	start_char=4614|end_char=4617
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=4617|end_char=4618
+
+# text = - UV-Licht - Sonnen-Brand - viele Sonnen-Bäder - viele Jahre in der Sonne verbringen
+# sent_id = 76
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=4620|end_char=4621
+2	UV	UV	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	start_char=4622|end_char=4624
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=4624|end_char=4625
+4	Licht	Licht	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	start_char=4625|end_char=4630
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=4631|end_char=4632
+6	Sonnen	Sonne	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	start_char=4633|end_char=4639
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=4639|end_char=4640
+8	Brand	Brand	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	start_char=4640|end_char=4645
+9	-	-	PUNCT	$(	_	13	punct	_	start_char=4646|end_char=4647
+10	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	13	det	_	start_char=4648|end_char=4653
+11	Sonnen	Sonne	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	compound	_	start_char=4654|end_char=4660
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=4660|end_char=4661
+13	Bäder	Bad	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	conj	_	start_char=4661|end_char=4666
+14	-	-	PUNCT	$(	_	16	punct	_	start_char=4667|end_char=4668
+15	viele	viel	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	16	det	_	start_char=4669|end_char=4674
+16	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	obl	_	start_char=4675|end_char=4680
+17	in	in	ADP	APPR	_	19	case	_	start_char=4681|end_char=4683
+18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=4684|end_char=4687
+19	Sonne	Sonne	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	start_char=4688|end_char=4693
+20	verbringen	verbringen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4694|end_char=4704
+
+# text = Zu den Risiko-Faktoren gehören zum Beispiel: - Sie haben einen hellen Haut-Typ. - Ihre Mutter-Male sind länger als 20 Zentimeter.
+# sent_id = 77
+1	Zu	zu	ADP	APPR	_	5	case	_	start_char=4706|end_char=4708
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=4709|end_char=4712
+3	Risiko	Risiko	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	compound	_	start_char=4713|end_char=4719
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=4719|end_char=4720
+5	Faktoren	Faktor	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	start_char=4720|end_char=4728
+6	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4729|end_char=4736
+7-8	zum	_	_	_	_	_	_	_	start_char=4737|end_char=4740
+7	zu	zu	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=4741|end_char=4749
+10	:	:	PUNCT	$.	_	13	punct	_	start_char=4749|end_char=4750
+11	-	-	PUNCT	$(	_	13	punct	_	start_char=4751|end_char=4752
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=4753|end_char=4756
+13	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=4757|end_char=4762
+14	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	18	det	_	start_char=4763|end_char=4768
+15	hellen	hell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=4769|end_char=4775
+16	Haut	Haut	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	compound	_	start_char=4776|end_char=4780
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=4780|end_char=4781
+18	Typ.	Typ.	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=4781|end_char=4785
+19	-	-	PUNCT	$(	_	25	punct	_	start_char=4786|end_char=4787
+20	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	det:poss	_	start_char=4788|end_char=4792
+21	Mutter	Mutter	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	23	compound	_	start_char=4793|end_char=4799
+22	-	-	PUNCT	$(	_	21	punct	_	start_char=4799|end_char=4800
+23	Male	Mal	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	25	nsubj	_	start_char=4800|end_char=4804
+24	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	start_char=4805|end_char=4809
+25	länger	lang	ADJ	ADJD	Degree=Cmp	6	parataxis	_	start_char=4810|end_char=4816
+26	als	als	ADP	KOKOM	_	28	case	_	start_char=4817|end_char=4820
+27	20	20	NUM	CARD	NumType=Card	28	nummod	_	start_char=4821|end_char=4823
+28	Zentimeter	Zentimeter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	nmod	_	start_char=4824|end_char=4834
+29	.	.	PUNCT	$.	_	6	punct	_	start_char=4834|end_char=4835
+
+# text = - Sie haben Haut-Tumore.
+# sent_id = 78
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=4836|end_char=4837
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=4838|end_char=4841
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4842|end_char=4847
+4	Haut	Haut	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	compound	_	start_char=4848|end_char=4852
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=4852|end_char=4853
+6	Tumore	Tumore	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=4853|end_char=4859
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=4859|end_char=4860
+
+# text = Und Haut-Tumore haben Verwandte von Ihnen?
+# sent_id = 79
+1	Und	und	CCONJ	KON	_	5	cc	_	start_char=4861|end_char=4864
+2	Haut	Haut	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	start_char=4865|end_char=4869
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=4869|end_char=4870
+4	Tumore	Tumore	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=4870|end_char=4876
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4877|end_char=4882
+6	Verwandte	Verwandte|Verwandter	NOUN	NN	Case=Acc|Number=Plur	5	obj	_	start_char=4883|end_char=4892
+7	von	von	ADP	APPR	_	8	case	_	start_char=4893|end_char=4896
+8	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nmod	_	start_char=4897|end_char=4902
+9	?	?	PUNCT	$.	_	5	punct	_	start_char=4902|end_char=4903
+
+# text = Dann ist das Haut-Krebs-Risiko erhöht.
+# sent_id = 80
+1	Dann	dann	ADV	ADV	_	9	advmod	_	start_char=4904|end_char=4908
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=4909|end_char=4912
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=4913|end_char=4916
+4	Haut	Haut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	compound	_	start_char=4917|end_char=4921
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=4921|end_char=4922
+6	Krebs	Krebs	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	compound	_	start_char=4922|end_char=4927
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=4927|end_char=4928
+8	Risiko	Risiko	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=4928|end_char=4934
+9	erhöht	erhöhen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=4935|end_char=4941
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=4941|end_char=4942
+
+# text = - Sie haben viele Leber-Flecken.
+# sent_id = 81
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=4943|end_char=4944
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=4945|end_char=4948
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4949|end_char=4954
+4	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	start_char=4955|end_char=4960
+5	Leber	Leber	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	compound	_	start_char=4961|end_char=4966
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=4966|end_char=4967
+7	Flecken	Flecken	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=4967|end_char=4974
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=4974|end_char=4975
+
+# text = Eine Leber-Flecken-Regel lautet: Sind mehr als 50 Leber-Flecken vorhanden?
+# sent_id = 82
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=4976|end_char=4980
+2	Leber	Leber	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	start_char=4981|end_char=4986
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=4986|end_char=4987
+4	Flecken	Flecken	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	start_char=4987|end_char=4994
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=4994|end_char=4995
+6	Regel	Regel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=4995|end_char=5000
+7	lautet	lauten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5001|end_char=5007
+8	:	:	PUNCT	$.	_	16	punct	_	start_char=5007|end_char=5008
+9	Sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=5009|end_char=5013
+10	mehr	mehr	ADV	ADV	_	16	advmod	_	start_char=5014|end_char=5018
+11	als	als	ADP	KOKOM	_	10	fixed	_	start_char=5019|end_char=5022
+12	50	50	NUM	CARD	NumType=Card	15	nummod	_	start_char=5023|end_char=5025
+13	Leber	Leber	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	compound	_	start_char=5026|end_char=5031
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=5031|end_char=5032
+15	Flecken	Flecken	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	start_char=5032|end_char=5039
+16	vorhanden	vorhanden	ADJ	ADJD	Degree=Pos	7	parataxis	_	start_char=5040|end_char=5049
+17	?	?	PUNCT	$.	_	16	punct	_	start_char=5049|end_char=5050
+
+# text = Dann ist das Haut-Krebs-Risiko etwas erhöht.
+# sent_id = 83
+1	Dann	dann	ADV	ADV	_	10	advmod	_	start_char=5051|end_char=5055
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=5056|end_char=5059
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=5060|end_char=5063
+4	Haut	Haut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	compound	_	start_char=5064|end_char=5068
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=5068|end_char=5069
+6	Krebs	Krebs	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	compound	_	start_char=5069|end_char=5074
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=5074|end_char=5075
+8	Risiko	Risiko	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=5075|end_char=5081
+9	etwas	etwas	ADV	ADV	PronType=Ind	10	advmod	_	start_char=5082|end_char=5087
+10	erhöht	erhöhen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=5088|end_char=5094
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=5094|end_char=5095
+

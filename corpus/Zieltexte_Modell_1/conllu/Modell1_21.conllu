@@ -1,0 +1,2054 @@
+# text = ﻿
+# sent_id = 0
+1	﻿	"	PUNCT	$(	_	0	root	_	start_char=0|end_char=1
+
+# text = Ein Schlag-Anfall ist ein Schlag-Anfall.
+# sent_id = 1
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=3|end_char=6
+2	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	start_char=7|end_char=13
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=13|end_char=14
+4	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=14|end_char=20
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=21|end_char=24
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=25|end_char=28
+7	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	start_char=29|end_char=35
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=35|end_char=36
+9	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=36|end_char=42
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=42|end_char=43
+
+# text = Was ist ein Schlag-Anfall?
+# sent_id = 2
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=45|end_char=48
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=49|end_char=52
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=53|end_char=56
+4	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	start_char=57|end_char=63
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=63|end_char=64
+6	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=64|end_char=70
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=70|end_char=71
+
+# text = Ein Schlag-Anfall ist eine Erkrankung des Gehirns.
+# sent_id = 3
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=72|end_char=75
+2	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	start_char=76|end_char=82
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=82|end_char=83
+4	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=83|end_char=89
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=90|end_char=93
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=94|end_char=98
+7	Erkrankung	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=99|end_char=109
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=110|end_char=113
+9	Gehirns	Gehirn	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=114|end_char=121
+10	.	.	PUNCT	$.	_	7	punct	_	start_char=121|end_char=122
+
+# text = Bei einem Schlag-Anfall wird das Gehirn plötzlich nicht mehr ausreichend mit Blut versorgt.
+# sent_id = 4
+1	Bei	bei	ADP	APPR	_	5	case	_	start_char=123|end_char=126
+2	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=127|end_char=132
+3	Schlag	Schlag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	compound	_	start_char=133|end_char=139
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=139|end_char=140
+5	Anfall	Anfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	start_char=140|end_char=146
+6	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	aux:pass	_	start_char=147|end_char=151
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=152|end_char=155
+8	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj:pass	_	start_char=156|end_char=162
+9	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	15	advmod	_	start_char=163|end_char=172
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	start_char=173|end_char=178
+11	mehr	mehr	ADV	ADV	_	10	advmod	_	start_char=179|end_char=183
+12	ausreichend	ausreichend	ADV	ADJD	_	15	advmod	_	start_char=184|end_char=195
+13	mit	mit	ADP	APPR	_	14	case	_	start_char=196|end_char=199
+14	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	start_char=200|end_char=204
+15	versorgt	versorgen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=205|end_char=213
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=213|end_char=214
+
+# text = Das Gehirn bekommt dann nicht mehr genug Sauerstoff.
+# sent_id = 5
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=215|end_char=218
+2	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=219|end_char=225
+3	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=226|end_char=233
+4	dann	dann	ADV	ADV	_	3	advmod	_	start_char=234|end_char=238
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=239|end_char=244
+6	mehr	mehr	ADV	ADV	_	3	advmod	_	start_char=245|end_char=249
+7	genug	genug	ADV	PIAT	PronType=Ind	8	advmod	_	start_char=250|end_char=255
+8	Sauerstoff	Sauerstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=256|end_char=266
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=266|end_char=267
+
+# text = Deshalb stirbt ein Teil des Gehirns ab.
+# sent_id = 6
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=268|end_char=275
+2	stirbt	sterben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=276|end_char=282
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=283|end_char=286
+4	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=287|end_char=291
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=292|end_char=295
+6	Gehirns	Gehirn	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=296|end_char=303
+7	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=304|end_char=306
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=306|end_char=307
+
+# text = Ein Schlag-Anfall kann verschiedene Ursachen haben.
+# sent_id = 7
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=308|end_char=311
+2	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	start_char=312|end_char=318
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=318|end_char=319
+4	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=319|end_char=325
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=326|end_char=330
+6	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=331|end_char=343
+7	Ursachen	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=344|end_char=352
+8	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=353|end_char=358
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=358|end_char=359
+
+# text = Zu den häufigsten Ursachen gehören: - Blut-Hoch-Druck - Rauchen - Übergewicht - Bewegungs-Mangel - schlechte Ernährung Ein Schlag-Anfall kann auch vererbt sein.
+# sent_id = 8
+1	Zu	zu	ADP	APPR	_	4	case	_	start_char=360|end_char=362
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=363|end_char=366
+3	häufigsten	häufig	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Fem|Number=Plur	4	amod	_	start_char=367|end_char=377
+4	Ursachen	Ursache	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	start_char=378|end_char=386
+5	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=387|end_char=394
+6	:	:	PUNCT	$.	_	5	punct	_	start_char=394|end_char=395
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=396|end_char=397
+8	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	compound	_	start_char=398|end_char=402
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=402|end_char=403
+10	Hoch	Hoch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	compound	_	start_char=403|end_char=407
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=407|end_char=408
+12	Druck	Druck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	compound	_	start_char=408|end_char=413
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=414|end_char=415
+14	Rauchen	Rauchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	23	compound	_	start_char=416|end_char=423
+15	-	-	PUNCT	$(	_	14	punct	_	start_char=424|end_char=425
+16	Übergewicht	Übergewicht	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	compound	_	start_char=426|end_char=437
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=438|end_char=439
+18	Bewegungs	Bewegungs	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	compound	_	start_char=440|end_char=449
+19	-	-	PUNCT	$(	_	18	punct	_	start_char=449|end_char=450
+20	Mangel	Mangel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	compound	_	start_char=450|end_char=456
+21	-	-	PUNCT	$(	_	20	punct	_	start_char=457|end_char=458
+22	schlechte	schlecht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=459|end_char=468
+23	Ernährung	Ernährung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	30	nsubj:pass	_	start_char=469|end_char=478
+24	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	27	det	_	start_char=479|end_char=482
+25	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	compound	_	start_char=483|end_char=489
+26	-	-	PUNCT	$(	_	25	punct	_	start_char=489|end_char=490
+27	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	30	nsubj:pass	_	start_char=490|end_char=496
+28	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	start_char=497|end_char=501
+29	auch	auch	ADV	ADV	_	30	advmod	_	start_char=502|end_char=506
+30	vererbt	vererben	VERB	VVPP	VerbForm=Part	5	parataxis	_	start_char=507|end_char=514
+31	sein	sein	AUX	VAINF	VerbForm=Inf	30	aux:pass	_	start_char=515|end_char=519
+32	.	.	PUNCT	$.	_	5	punct	_	start_char=519|end_char=520
+
+# text = Unsere Inhalte sind von Apothekern und Ärzten geprüft.
+# sent_id = 9
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=522|end_char=528
+2	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=529|end_char=536
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=537|end_char=541
+4	von	von	ADP	APPR	_	5	case	_	start_char=542|end_char=545
+5	Apothekern	Apotheker	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	nmod	_	start_char=546|end_char=556
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=557|end_char=560
+7	Ärzten	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	start_char=561|end_char=567
+8	geprüft	prüfen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=568|end_char=575
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=575|end_char=576
+
+# text = Was können Sie bei einem Schlag-Anfall tun? - Welche Risiko-Faktoren gibt es für einen Schlag-Anfall?
+# sent_id = 10
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	9	obj	_	start_char=578|end_char=581
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=582|end_char=588
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=589|end_char=592
+4	bei	bei	ADP	APPR	_	8	case	_	start_char=593|end_char=596
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=597|end_char=602
+6	Schlag	Schlag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	compound	_	start_char=603|end_char=609
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=609|end_char=610
+8	Anfall	Anfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	start_char=610|end_char=616
+9	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=617|end_char=620
+10	?	?	PUNCT	$.	_	9	punct	_	start_char=620|end_char=621
+11	-	-	PUNCT	$(	_	16	punct	_	start_char=622|end_char=623
+12	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	15	det	_	start_char=624|end_char=630
+13	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	compound	_	start_char=631|end_char=637
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=637|end_char=638
+15	Faktoren	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	nsubj	_	start_char=638|end_char=646
+16	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	start_char=647|end_char=651
+17	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=652|end_char=654
+18	für	für	ADP	APPR	_	22	case	_	start_char=655|end_char=658
+19	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	22	det	_	start_char=659|end_char=664
+20	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	compound	_	start_char=665|end_char=671
+21	-	-	PUNCT	$(	_	20	punct	_	start_char=671|end_char=672
+22	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	start_char=672|end_char=678
+23	?	?	PUNCT	$.	_	16	punct	_	start_char=678|end_char=679
+
+# text = - Was sind die Ursachen eines Schlag-Anfalls? - Welche Anzeichen gibt es für einen Schlag-Anfall? - Wie wird ein Schlag-Anfall diagnostiziert?
+# sent_id = 11
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=680|end_char=681
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	3	obj	_	start_char=682|end_char=685
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=686|end_char=690
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=691|end_char=694
+5	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=695|end_char=703
+6	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=704|end_char=709
+7	Schlag	Schlag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	compound	_	start_char=710|end_char=716
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=716|end_char=717
+9	Anfalls	Anfall	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=717|end_char=724
+10	?	?	PUNCT	$.	_	14	punct	_	start_char=724|end_char=725
+11	-	-	PUNCT	$(	_	14	punct	_	start_char=726|end_char=727
+12	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	13	det	_	start_char=728|end_char=734
+13	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	nsubj	_	start_char=735|end_char=744
+14	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=745|end_char=749
+15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=750|end_char=752
+16	für	für	ADP	APPR	_	20	case	_	start_char=753|end_char=756
+17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	20	det	_	start_char=757|end_char=762
+18	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	compound	_	start_char=763|end_char=769
+19	-	-	PUNCT	$(	_	18	punct	_	start_char=769|end_char=770
+20	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	start_char=770|end_char=776
+21	?	?	PUNCT	$.	_	29	punct	_	start_char=776|end_char=777
+22	-	-	PUNCT	$(	_	29	punct	_	start_char=778|end_char=779
+23	Wie	wie	ADV	PWAV	PronType=Int	29	advmod	_	start_char=780|end_char=783
+24	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	29	aux:pass	_	start_char=784|end_char=788
+25	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	28	det	_	start_char=789|end_char=792
+26	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	compound	_	start_char=793|end_char=799
+27	-	-	PUNCT	$(	_	26	punct	_	start_char=799|end_char=800
+28	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nsubj:pass	_	start_char=800|end_char=806
+29	diagnostiziert	diagnostizieren	VERB	VVPP	VerbForm=Part	14	parataxis	_	start_char=807|end_char=821
+30	?	?	PUNCT	$.	_	29	punct	_	start_char=821|end_char=822
+
+# text = - Wie wird ein Schlag-Anfall behandelt?
+# sent_id = 12
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=823|end_char=824
+2	Wie	wie	ADV	PWAV	PronType=Int	8	advmod	_	start_char=825|end_char=828
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=829|end_char=833
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=834|end_char=837
+5	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	start_char=838|end_char=844
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=844|end_char=845
+7	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	start_char=845|end_char=851
+8	behandelt	behandeln	VERB	VVPP	VerbForm=Part	0	root	_	start_char=852|end_char=861
+9	?	?	PUNCT	$.	_	8	punct	_	start_char=861|end_char=862
+
+# text = - Wie kann man nach einem Schlag-Anfall wieder gesund werden? - Was können Sie tun, um einen Schlag-Anfall zu vermeiden? - Wer kann Sie beraten?
+# sent_id = 13
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=863|end_char=864
+2	Wie	wie	ADV	PWAV	PronType=Int	12	advmod	_	start_char=865|end_char=868
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=869|end_char=873
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=874|end_char=877
+5	nach	nach	ADP	APPR	_	9	case	_	start_char=878|end_char=882
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=883|end_char=888
+7	Schlag	Schlag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	compound	_	start_char=889|end_char=895
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=895|end_char=896
+9	Anfall	Anfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	start_char=896|end_char=902
+10	wieder	wieder	ADV	ADV	_	12	advmod	_	start_char=903|end_char=909
+11	gesund	gesund	ADJ	ADJD	Degree=Pos	12	xcomp	_	start_char=910|end_char=916
+12	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=917|end_char=923
+13	?	?	PUNCT	$.	_	12	punct	_	start_char=923|end_char=924
+14	-	-	PUNCT	$(	_	18	punct	_	start_char=925|end_char=926
+15	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	18	obj	_	start_char=927|end_char=930
+16	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=931|end_char=937
+17	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	18	nsubj	_	start_char=938|end_char=941
+18	tun	tun	VERB	VVINF	VerbForm=Inf	12	parataxis	_	start_char=942|end_char=945
+19	,	,	PUNCT	$,	_	26	punct	_	start_char=945|end_char=946
+20	um	um	ADP	KOUI	_	26	mark	_	start_char=947|end_char=949
+21	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	24	det	_	start_char=950|end_char=955
+22	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	compound	_	start_char=956|end_char=962
+23	-	-	PUNCT	$(	_	22	punct	_	start_char=962|end_char=963
+24	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	26	obj	_	start_char=963|end_char=969
+25	zu	zu	PART	PTKZU	_	26	mark	_	start_char=970|end_char=972
+26	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	18	advcl	_	start_char=973|end_char=982
+27	?	?	PUNCT	$.	_	18	punct	_	start_char=982|end_char=983
+28	-	-	PUNCT	$(	_	32	punct	_	start_char=984|end_char=985
+29	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	32	obj	_	start_char=986|end_char=989
+30	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	start_char=990|end_char=994
+31	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	32	nsubj	_	start_char=995|end_char=998
+32	beraten	beraten	VERB	VVINF	VerbForm=Inf	18	ccomp	_	start_char=999|end_char=1006
+33	?	?	PUNCT	$.	_	18	punct	_	start_char=1006|end_char=1007
+
+# text = Sie haben einen Angehörigen mit einem Schlag-Anfall?
+# sent_id = 14
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1008|end_char=1011
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1012|end_char=1017
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1018|end_char=1023
+4	Angehörigen	Angehörige	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=1024|end_char=1035
+5	mit	mit	ADP	APPR	_	9	case	_	start_char=1036|end_char=1039
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=1040|end_char=1045
+7	Schlag	Schlag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	compound	_	start_char=1046|end_char=1052
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=1052|end_char=1053
+9	Anfall	Anfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=1053|end_char=1059
+10	?	?	PUNCT	$.	_	2	punct	_	start_char=1059|end_char=1060
+
+# text = Dann können Sie sich hier informieren.
+# sent_id = 15
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=1061|end_char=1065
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1066|end_char=1072
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=1073|end_char=1076
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	start_char=1077|end_char=1081
+5	hier	hier	ADV	ADV	_	6	advmod	_	start_char=1082|end_char=1086
+6	informieren	informieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1087|end_char=1098
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1098|end_char=1099
+
+# text = Definition: Was ist ein Schlag-Anfall?
+# sent_id = 16
+1	Definition	Definition	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1101|end_char=1111
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=1111|end_char=1112
+3	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	8	nsubj	_	start_char=1113|end_char=1116
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1117|end_char=1120
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=1121|end_char=1124
+6	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	start_char=1125|end_char=1131
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=1131|end_char=1132
+8	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	start_char=1132|end_char=1138
+9	?	?	PUNCT	$.	_	8	punct	_	start_char=1138|end_char=1139
+
+# text = Sie haben Anzeichen für einen Schlag-Anfall?
+# sent_id = 17
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1141|end_char=1144
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1145|end_char=1150
+3	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=1151|end_char=1160
+4	für	für	ADP	APPR	_	8	case	_	start_char=1161|end_char=1164
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=1165|end_char=1170
+6	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=1171|end_char=1177
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=1177|end_char=1178
+8	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	start_char=1178|end_char=1184
+9	?	?	PUNCT	$.	_	2	punct	_	start_char=1184|end_char=1185
+
+# text = Oder eine andere Person hat Anzeichen für einen Schlag-Anfall?
+# sent_id = 18
+1	Oder	Oder	CCONJ	KON	_	5	cc	_	start_char=1186|end_char=1190
+2	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1191|end_char=1195
+3	andere	anderer	DET	ADJA	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	4	det	_	start_char=1196|end_char=1202
+4	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=1203|end_char=1209
+5	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1210|end_char=1213
+6	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=1214|end_char=1223
+7	für	für	ADP	APPR	_	11	case	_	start_char=1224|end_char=1227
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=1228|end_char=1233
+9	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	compound	_	start_char=1234|end_char=1240
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=1240|end_char=1241
+11	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	start_char=1241|end_char=1247
+12	?	?	PUNCT	$.	_	5	punct	_	start_char=1247|end_char=1248
+
+# text = Dann rufen Sie sofort den Rettungs-Dienst.
+# sent_id = 19
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=1249|end_char=1253
+2	rufen	rufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1254|end_char=1259
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1260|end_char=1263
+4	sofort	sofort	ADV	ADV	_	2	advmod	_	start_char=1264|end_char=1270
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=1271|end_char=1274
+6	Rettungs	Rettungs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=1275|end_char=1283
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=1283|end_char=1284
+8	Dienst	Dienst	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=1284|end_char=1290
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=1290|end_char=1291
+
+# text = Die Nummer ist: 112.
+# sent_id = 20
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1292|end_char=1295
+2	Nummer	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1296|end_char=1302
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1303|end_char=1306
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=1306|end_char=1307
+5	112	112	NUM	CARD	NumType=Card	0	root	_	start_char=1308|end_char=1311
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1311|end_char=1312
+
+# text = Ein Schlag-Anfall ist ein Not-Fall.
+# sent_id = 21
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1313|end_char=1316
+2	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	start_char=1317|end_char=1323
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=1323|end_char=1324
+4	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=1324|end_char=1330
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=1331|end_char=1334
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=1335|end_char=1338
+7	Not	Not	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	start_char=1339|end_char=1342
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=1342|end_char=1343
+9	Fall	Fall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=1343|end_char=1347
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1347|end_char=1348
+
+# text = Jeder Schlag-Anfall und jede Durchblutungsstörung im Gehirn sind ein Not-Fall.
+# sent_id = 22
+1	Jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	4	det	_	start_char=1349|end_char=1354
+2	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	start_char=1355|end_char=1361
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=1361|end_char=1362
+4	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=1362|end_char=1368
+5	und	und	CCONJ	KON	_	7	cc	_	start_char=1369|end_char=1372
+6	jede	jeder	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	7	det	_	start_char=1373|end_char=1377
+7	Durchblutungsstörung	Durchblutungsstörung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	start_char=1378|end_char=1398
+8-9	im	_	_	_	_	_	_	_	start_char=1399|end_char=1401
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=1402|end_char=1408
+11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=1409|end_char=1413
+12	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=1414|end_char=1417
+13	Not	Not	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	compound	_	start_char=1418|end_char=1421
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=1421|end_char=1422
+15	Fall	Fall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=1422|end_char=1426
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=1426|end_char=1427
+
+# text = Deshalb heißt es: "Zeit ist Hirn".
+# sent_id = 23
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=1428|end_char=1435
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1436|end_char=1441
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1442|end_char=1444
+4	:	:	PUNCT	$.	_	8	punct	_	start_char=1444|end_char=1445
+5	"	"	PUNCT	$(	_	8	punct	_	start_char=1446|end_char=1447
+6	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=1447|end_char=1451
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1452|end_char=1455
+8	Hirn	Hirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	start_char=1456|end_char=1460
+9	"	"	PUNCT	$(	_	8	punct	_	start_char=1460|end_char=1461
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=1461|end_char=1462
+
+# text = Das bedeutet: Je schneller die betroffene Person Hilfe bekommt, desto geringer ist der Schaden im Gehirn.
+# sent_id = 24
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=1463|end_char=1466
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1467|end_char=1475
+3	:	:	PUNCT	$.	_	10	punct	_	start_char=1475|end_char=1476
+4	Je	je	SCONJ	KOUS	_	10	mark	_	start_char=1477|end_char=1479
+5	schneller	schnell	ADJ	ADJD	Degree=Cmp	10	advmod	_	start_char=1480|end_char=1489
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1490|end_char=1493
+7	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=1494|end_char=1504
+8	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1505|end_char=1511
+9	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=1512|end_char=1517
+10	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=1518|end_char=1525
+11	,	,	PUNCT	$,	_	13	punct	_	start_char=1525|end_char=1526
+12	desto	desto	CCONJ	KON	_	13	cc	_	start_char=1527|end_char=1532
+13	geringer	gering	ADJ	ADJD	Degree=Cmp	2	conj	_	start_char=1533|end_char=1541
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=1542|end_char=1545
+15	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=1546|end_char=1549
+16	Schaden	Schaden	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=1550|end_char=1557
+17-18	im	_	_	_	_	_	_	_	start_char=1558|end_char=1560
+17	in	in	ADP	APPR	_	19	case	_	_
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	start_char=1561|end_char=1567
+20	.	.	PUNCT	$.	_	2	punct	_	start_char=1567|end_char=1568
+
+# text = Bei einem Schlag-Anfall wird das Gehirn nicht mehr ausreichend mit Sauerstoff und Nährstoffen versorgt.
+# sent_id = 25
+1	Bei	bei	ADP	APPR	_	5	case	_	start_char=1570|end_char=1573
+2	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=1574|end_char=1579
+3	Schlag	Schlag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	compound	_	start_char=1580|end_char=1586
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=1586|end_char=1587
+5	Anfall	Anfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	start_char=1587|end_char=1593
+6	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	aux:pass	_	start_char=1594|end_char=1598
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=1599|end_char=1602
+8	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	16	nsubj:pass	_	start_char=1603|end_char=1609
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	start_char=1610|end_char=1615
+10	mehr	mehr	ADV	ADV	_	11	advmod	_	start_char=1616|end_char=1620
+11	ausreichend	ausreichend	ADJ	ADJD	Degree=Pos	16	advmod	_	start_char=1621|end_char=1632
+12	mit	mit	ADP	APPR	_	13	case	_	start_char=1633|end_char=1636
+13	Sauerstoff	Sauerstoff	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	start_char=1637|end_char=1647
+14	und	und	CCONJ	KON	_	15	cc	_	start_char=1648|end_char=1651
+15	Nährstoffen	Nährstoff	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	conj	_	start_char=1652|end_char=1663
+16	versorgt	versorgen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1664|end_char=1672
+17	.	.	PUNCT	$.	_	16	punct	_	start_char=1672|end_char=1673
+
+# text = Deshalb sterben die Nerven-Zellen im Gehirn ab.
+# sent_id = 26
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=1674|end_char=1681
+2	sterben	sterben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1682|end_char=1689
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=1690|end_char=1693
+4	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	compound	_	start_char=1694|end_char=1700
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1700|end_char=1701
+6	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1701|end_char=1707
+7-8	im	_	_	_	_	_	_	_	start_char=1708|end_char=1710
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=1711|end_char=1717
+10	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=1718|end_char=1720
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=1720|end_char=1721
+
+# text = Das betroffene Gehirn-Areal kann seine Aufgabe dann nicht mehr erfüllen.
+# sent_id = 27
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1722|end_char=1725
+2	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=1726|end_char=1736
+3	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	compound	_	start_char=1737|end_char=1743
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=1743|end_char=1744
+5	Areal	Areal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	start_char=1744|end_char=1749
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=1750|end_char=1754
+7	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=1755|end_char=1760
+8	Aufgabe	Aufgabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=1761|end_char=1768
+9	dann	dann	ADV	ADV	_	12	advmod	_	start_char=1769|end_char=1773
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=1774|end_char=1779
+11	mehr	mehr	ADV	ADV	_	10	advmod	_	start_char=1780|end_char=1784
+12	erfüllen	erfüllen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1785|end_char=1793
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=1793|end_char=1794
+
+# text = Die Folgen sind zum Beispiel: - Probleme beim Sprechen - Lähmungen - Gefühls-Störungen in den Glied-Maßen - hängender Mund-Winkel - Sehstörungen
+# sent_id = 28
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1795|end_char=1798
+2	Folgen	Folge	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=1799|end_char=1805
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=1806|end_char=1810
+4-5	zum	_	_	_	_	_	_	_	start_char=1811|end_char=1814
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	start_char=1815|end_char=1823
+7	:	:	PUNCT	$.	_	9	punct	_	start_char=1823|end_char=1824
+8	-	-	PUNCT	$(	_	9	punct	_	start_char=1825|end_char=1826
+9	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=1827|end_char=1835
+10-11	beim	_	_	_	_	_	_	_	start_char=1836|end_char=1840
+10	bei	bei	ADP	APPR	_	18	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+12	Sprechen	Spreche	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	compound	_	start_char=1841|end_char=1849
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=1850|end_char=1851
+14	Lähmungen	Lähmung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	compound	_	start_char=1852|end_char=1861
+15	-	-	PUNCT	$(	_	14	punct	_	start_char=1862|end_char=1863
+16	Gefühls	Gefühl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	compound	_	start_char=1864|end_char=1871
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=1871|end_char=1872
+18	Störungen	Störung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nmod	_	start_char=1872|end_char=1881
+19	in	in	ADP	APPR	_	30	case	_	start_char=1882|end_char=1884
+20	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	30	det	_	start_char=1885|end_char=1888
+21	Glied	Glied	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	compound	_	start_char=1889|end_char=1894
+22	-	-	PUNCT	$(	_	21	punct	_	start_char=1894|end_char=1895
+23	Maßen	Maß	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	30	compound	_	start_char=1895|end_char=1900
+24	-	-	PUNCT	$(	_	26	punct	_	start_char=1901|end_char=1902
+25	hängender	hangend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	start_char=1903|end_char=1912
+26	Mund	Mund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	30	compound	_	start_char=1913|end_char=1917
+27	-	-	PUNCT	$(	_	26	punct	_	start_char=1917|end_char=1918
+28	Winkel	Winkel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	30	compound	_	start_char=1918|end_char=1924
+29	-	-	PUNCT	$(	_	28	punct	_	start_char=1925|end_char=1926
+30	Sehstörungen	Sehstörung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	start_char=1927|end_char=1939
+
+# text = Die Anzeichen für einen Schlag-Anfall verschwinden innerhalb von 24 Stunden?
+# sent_id = 29
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1941|end_char=1944
+2	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	start_char=1945|end_char=1954
+3	für	für	ADP	APPR	_	7	case	_	start_char=1955|end_char=1958
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=1959|end_char=1964
+5	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	compound	_	start_char=1965|end_char=1971
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=1971|end_char=1972
+7	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	start_char=1972|end_char=1978
+8	verschwinden	verschwinden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1979|end_char=1991
+9	innerhalb	innerhalb	ADP	ADV	_	8	advmod	_	start_char=1992|end_char=2001
+10	von	von	ADP	APPR	_	12	case	_	start_char=2002|end_char=2005
+11	24	24	NUM	CARD	NumType=Card	12	nummod	_	start_char=2006|end_char=2008
+12	Stunden	Stunde|Stunden	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	start_char=2009|end_char=2016
+13	?	?	PUNCT	$.	_	8	punct	_	start_char=2016|end_char=2017
+
+# text = Dann spricht der Arzt von einer vorübergehenden ischämischen Attacke.
+# sent_id = 30
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=2018|end_char=2022
+2	spricht	sprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2023|end_char=2030
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=2031|end_char=2034
+4	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=2035|end_char=2039
+5	von	von	ADP	APPR	_	9	case	_	start_char=2040|end_char=2043
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=2044|end_char=2049
+7	vorübergehenden	vorübergehend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=2050|end_char=2065
+8	ischämischen	ischämischen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=2066|end_char=2078
+9	Attacke	Attacke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=2079|end_char=2086
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=2086|end_char=2087
+
+# text = Das ist ein Fach-Begriff für eine TIA.
+# sent_id = 31
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	start_char=2088|end_char=2091
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2092|end_char=2095
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=2096|end_char=2099
+4	Fach	Fach	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	start_char=2100|end_char=2104
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=2104|end_char=2105
+6	Begriff	Begriff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=2105|end_char=2112
+7	für	für	ADP	APPR	_	9	case	_	start_char=2113|end_char=2116
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=2117|end_char=2121
+9	TIA	TIA	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	start_char=2122|end_char=2125
+10	.	.	PUNCT	$.	_	6	punct	_	start_char=2125|end_char=2126
+
+# text = Manche Menschen sagen auch: Mini-Schlag-Anfall.
+# sent_id = 32
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=2127|end_char=2133
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=2134|end_char=2142
+3	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2143|end_char=2148
+4	auch	auch	ADV	ADV	_	3	advmod	_	start_char=2149|end_char=2153
+5	:	:	PUNCT	$.	_	10	punct	_	start_char=2153|end_char=2154
+6	Mini	Mini	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	10	compound	_	start_char=2155|end_char=2159
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=2159|end_char=2160
+8	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	compound	_	start_char=2160|end_char=2166
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=2166|end_char=2167
+10	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2167|end_char=2173
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=2173|end_char=2174
+
+# text = Aber das ist nicht richtig.
+# sent_id = 33
+1	Aber	aber	CCONJ	KON	_	5	cc	_	start_char=2175|end_char=2179
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=2180|end_char=2183
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2184|end_char=2187
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=2188|end_char=2193
+5	richtig	richtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2194|end_char=2201
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2201|end_char=2202
+
+# text = Eine TIA kann nämlich auch ein Anzeichen für einen Schlag-Anfall sein.
+# sent_id = 34
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=2203|end_char=2207
+2	TIA	TIA	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=2208|end_char=2211
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=2212|end_char=2216
+4	nämlich	nämlich	ADV	ADV	_	7	advmod	_	start_char=2217|end_char=2224
+5	auch	auch	ADV	ADV	_	7	advmod	_	start_char=2225|end_char=2229
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=2230|end_char=2233
+7	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=2234|end_char=2243
+8	für	für	ADP	APPR	_	12	case	_	start_char=2244|end_char=2247
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=2248|end_char=2253
+10	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	compound	_	start_char=2254|end_char=2260
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=2260|end_char=2261
+12	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	start_char=2261|end_char=2267
+13	sein	sein	AUX	VAINF	VerbForm=Inf	7	cop	_	start_char=2268|end_char=2272
+14	.	.	PUNCT	$.	_	7	punct	_	start_char=2272|end_char=2273
+
+# text = Deshalb sollten Sie bei Anzeichen für einen Schlag-Anfall sofort die 112 anrufen.
+# sent_id = 35
+1	Deshalb	deshalb	ADV	PAV	_	14	advmod	_	start_char=2274|end_char=2281
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	start_char=2282|end_char=2289
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	14	nsubj	_	start_char=2290|end_char=2293
+4	bei	bei	ADP	APPR	_	5	case	_	start_char=2294|end_char=2297
+5	Anzeichen	Anzeichen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	obl	_	start_char=2298|end_char=2307
+6	für	für	ADP	APPR	_	10	case	_	start_char=2308|end_char=2311
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=2312|end_char=2317
+8	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	compound	_	start_char=2318|end_char=2324
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=2324|end_char=2325
+10	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	start_char=2325|end_char=2331
+11	sofort	sofort	ADV	ADV	_	14	advmod	_	start_char=2332|end_char=2338
+12	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=2339|end_char=2342
+13	112	112	NUM	CARD	NumType=Card	14	obj	_	start_char=2343|end_char=2346
+14	anrufen	anrufen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2347|end_char=2354
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=2354|end_char=2355
+
+# text = Und Sie sollten sich sofort ärztliche Hilfe holen.
+# sent_id = 36
+1	Und	und	CCONJ	KON	_	8	cc	_	start_char=2356|end_char=2359
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=2360|end_char=2363
+3	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=2364|end_char=2371
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	start_char=2372|end_char=2376
+5	sofort	sofort	ADV	ADV	_	8	advmod	_	start_char=2377|end_char=2383
+6	ärztliche	ärztlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=2384|end_char=2393
+7	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=2394|end_char=2399
+8	holen	holen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2400|end_char=2405
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=2405|end_char=2406
+
+# text = Es gibt Zahlen und Fakten.
+# sent_id = 37
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2408|end_char=2410
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2411|end_char=2415
+3	Zahlen	Zahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=2416|end_char=2422
+4	und	und	CCONJ	KON	_	5	cc	_	start_char=2423|end_char=2426
+5	Fakten	Faktum	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	conj	_	start_char=2427|end_char=2433
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=2433|end_char=2434
+
+# text = In Deutschland erleiden etwa 270.000 Menschen pro Jahr einen Schlag-Anfall.
+# sent_id = 38
+1	In	in	ADP	APPR	_	2	case	_	start_char=2436|end_char=2438
+2	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=2439|end_char=2450
+3	erleiden	erleiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2451|end_char=2459
+4	etwa	etwa	ADV	ADV	_	5	advmod	_	start_char=2460|end_char=2464
+5	270.000	270.000	NUM	CARD	NumType=Card	6	nummod	_	start_char=2465|end_char=2472
+6	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=2473|end_char=2481
+7	pro	pro	ADP	APPR	_	8	case	_	start_char=2482|end_char=2485
+8	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	start_char=2486|end_char=2490
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=2491|end_char=2496
+10	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	compound	_	start_char=2497|end_char=2503
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=2503|end_char=2504
+12	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=2504|end_char=2510
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=2510|end_char=2511
+
+# text = Mehr als 80 Prozent der Betroffenen sind über 60 Jahre alt.
+# sent_id = 39
+1	Mehr	mehr	ADV	ADV	_	3	advmod	_	start_char=2512|end_char=2516
+2	als	als	ADP	KOKOM	_	1	fixed	_	start_char=2517|end_char=2520
+3	80	80	NUM	CARD	NumType=Card	4	nummod	_	start_char=2521|end_char=2523
+4	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	start_char=2524|end_char=2531
+5	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=2532|end_char=2535
+6	Betroffenen	Betroffene	NOUN	NN	Case=Gen|Number=Plur	4	nmod	_	start_char=2536|end_char=2547
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=2548|end_char=2552
+8	über	über	ADP	ADV	_	9	advmod	_	start_char=2553|end_char=2557
+9	60	60	NUM	CARD	NumType=Card	10	nummod	_	start_char=2558|end_char=2560
+10	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	nmod	_	start_char=2561|end_char=2566
+11	alt	alt	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2567|end_char=2570
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=2570|end_char=2571
+
+# text = Aber auch Jüngere können einen Schlag-Anfall bekommen: Laut Schätzung bekommen 5 bis 10 Prozent der Schlaganfälle bei unter 50-Jährigen.
+# sent_id = 40
+1	Aber	aber	CCONJ	KON	_	9	cc	_	start_char=2572|end_char=2576
+2	auch	auch	ADV	ADV	_	9	advmod	_	start_char=2577|end_char=2581
+3	Jüngere	Jüngere	NOUN	NN	Case=Nom|Number=Plur	9	nsubj	_	start_char=2582|end_char=2589
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=2590|end_char=2596
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=2597|end_char=2602
+6	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=2603|end_char=2609
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2609|end_char=2610
+8	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=2610|end_char=2616
+9	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2617|end_char=2625
+10	:	:	PUNCT	$.	_	13	punct	_	start_char=2625|end_char=2626
+11	Laut	laut	ADP	APPR	_	12	case	_	start_char=2627|end_char=2631
+12	Schätzung	Schätzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	start_char=2632|end_char=2641
+13	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	start_char=2642|end_char=2650
+14	5	5	NUM	CARD	NumType=Card	17	nummod	_	start_char=2651|end_char=2652
+15	bis	bis	ADP	KON	_	16	case	_	start_char=2653|end_char=2656
+16	10	10	NUM	CARD	NumType=Card	14	nmod	_	start_char=2657|end_char=2659
+17	Prozent	Prozent	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	nsubj	_	start_char=2660|end_char=2667
+18	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	19	det	_	start_char=2668|end_char=2671
+19	Schlaganfälle	Schlaganfall	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	start_char=2672|end_char=2685
+20	bei	bei	ADP	APPR	_	24	case	_	start_char=2686|end_char=2689
+21	unter	unter	ADP	APPR	_	24	case	_	start_char=2690|end_char=2695
+22	50	50	NUM	NN	Case=Dat|Gender=Neut|NumType=Card|Number=Sing	24	nummod	_	start_char=2696|end_char=2698
+23	-	-	PUNCT	$(	_	22	punct	_	start_char=2698|end_char=2699
+24	Jährigen	Jährige	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	obl	_	start_char=2699|end_char=2707
+25	.	.	PUNCT	$.	_	9	punct	_	start_char=2707|end_char=2708
+
+# text = Auch Neugeborene und Kinder können einen Schlag-Anfall bekommen.
+# sent_id = 41
+1	Auch	auch	ADV	ADV	_	2	advmod	_	start_char=2709|end_char=2713
+2	Neugeborene	Neugeborene	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	start_char=2714|end_char=2725
+3	und	und	CCONJ	KON	_	4	cc	_	start_char=2726|end_char=2729
+4	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	conj	_	start_char=2730|end_char=2736
+5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=2737|end_char=2743
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=2744|end_char=2749
+7	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	start_char=2750|end_char=2756
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=2756|end_char=2757
+9	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=2757|end_char=2763
+10	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2764|end_char=2772
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=2772|end_char=2773
+
+# text = Mehr als die Hälfte aller Schlaganfälle passieren bei Frauen.
+# sent_id = 42
+1	Mehr	mehr	ADV	ADV	_	7	advmod	_	start_char=2775|end_char=2779
+2	als	als	ADP	KOKOM	_	4	case	_	start_char=2780|end_char=2783
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2784|end_char=2787
+4	Hälfte	Hälfte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	start_char=2788|end_char=2794
+5	aller	alle	DET	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	6	det	_	start_char=2795|end_char=2800
+6	Schlaganfälle	Schlaganfall	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=2801|end_char=2814
+7	passieren	passieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2815|end_char=2824
+8	bei	bei	ADP	APPR	_	9	case	_	start_char=2825|end_char=2828
+9	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	start_char=2829|end_char=2835
+10	.	.	PUNCT	$.	_	7	punct	_	start_char=2835|end_char=2836
+
+# text = Das hat verschiedene Gründe: - Frauen werden im Durchschnitt älter als Männer.
+# sent_id = 43
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=2837|end_char=2840
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2841|end_char=2844
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=2845|end_char=2857
+4	Gründe	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=2858|end_char=2864
+5	:	:	PUNCT	$.	_	8	punct	_	start_char=2864|end_char=2865
+6	-	-	PUNCT	$(	_	7	punct	_	start_char=2866|end_char=2867
+7	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=2868|end_char=2874
+8	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=2875|end_char=2881
+9-10	im	_	_	_	_	_	_	_	start_char=2882|end_char=2884
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Durchschnitt	Durchschnitt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	start_char=2885|end_char=2897
+12	älter	alt	ADJ	ADJD	Degree=Cmp	8	xcomp	_	start_char=2898|end_char=2903
+13	als	als	ADP	KOKOM	_	14	case	_	start_char=2904|end_char=2907
+14	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nmod	_	start_char=2908|end_char=2914
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=2914|end_char=2915
+
+# text = - Bei Frauen wirken sich manche Risiko-Faktoren stärker aus.
+# sent_id = 44
+1	-	-	PUNCT	$(	_	4	punct	_	start_char=2916|end_char=2917
+2	Bei	bei	ADP	APPR	_	3	case	_	start_char=2918|end_char=2921
+3	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=2922|end_char=2928
+4	wirken	wirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2929|end_char=2935
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=2936|end_char=2940
+6	manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	9	det	_	start_char=2941|end_char=2947
+7	Risiko	Risiko	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	compound	_	start_char=2948|end_char=2954
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=2954|end_char=2955
+9	Faktoren	Faktor	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=2955|end_char=2963
+10	stärker	stark	ADJ	ADJD	Degree=Cmp	4	advmod	_	start_char=2964|end_char=2971
+11	aus	aus	ADP	PTKVZ	_	4	compound:prt	_	start_char=2972|end_char=2975
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=2975|end_char=2976
+
+# text = Frauen haben manchmal andere Anzeichen für einen Schlag-Anfall.
+# sent_id = 45
+1	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2977|end_char=2983
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2984|end_char=2989
+3	manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=2990|end_char=2998
+4	andere	anderer	DET	ADJA	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	5	det	_	start_char=2999|end_char=3005
+5	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=3006|end_char=3015
+6	für	für	ADP	APPR	_	10	case	_	start_char=3016|end_char=3019
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=3020|end_char=3025
+8	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	compound	_	start_char=3026|end_char=3032
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=3032|end_char=3033
+10	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	start_char=3033|end_char=3039
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=3039|end_char=3040
+
+# text = Deshalb erkennen Ärzte einen Schlag-Anfall bei Frauen manchmal später.
+# sent_id = 46
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=3041|end_char=3048
+2	erkennen	erkennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3049|end_char=3057
+3	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=3058|end_char=3063
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=3064|end_char=3069
+5	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	compound	_	start_char=3070|end_char=3076
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=3076|end_char=3077
+7	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=3077|end_char=3083
+8	bei	bei	ADP	APPR	_	9	case	_	start_char=3084|end_char=3087
+9	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	start_char=3088|end_char=3094
+10	manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=3095|end_char=3103
+11	später	spät	ADJ	ADJD	Degree=Cmp	2	advmod	_	start_char=3104|end_char=3110
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=3110|end_char=3111
+
+# text = Viele ältere Frauen leben allein.
+# sent_id = 47
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	3	det	_	start_char=3112|end_char=3117
+2	ältere	alt	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	3	amod	_	start_char=3118|end_char=3124
+3	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=3125|end_char=3131
+4	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3132|end_char=3137
+5	allein	allein	ADJ	ADV	Degree=Pos	4	advmod	_	start_char=3138|end_char=3144
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=3144|end_char=3145
+
+# text = Deshalb bemerken sie einen Schlag-Anfall vielleicht nicht sofort.
+# sent_id = 48
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=3146|end_char=3153
+2	bemerken	bemerken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3154|end_char=3162
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=3163|end_char=3166
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=3167|end_char=3172
+5	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	compound	_	start_char=3173|end_char=3179
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=3179|end_char=3180
+7	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=3180|end_char=3186
+8	vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	start_char=3187|end_char=3197
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=3198|end_char=3203
+10	sofort	sofort	ADV	ADV	_	2	advmod	_	start_char=3204|end_char=3210
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=3210|end_char=3211
+
+# text = Deshalb werden nach einem Schlag-Anfall vielleicht mehr Frauen pflegebedürftig als Männer.
+# sent_id = 49
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=3212|end_char=3219
+2	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3220|end_char=3226
+3	nach	nach	ADP	APPR	_	7	case	_	start_char=3227|end_char=3231
+4	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=3232|end_char=3237
+5	Schlag	Schlag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	compound	_	start_char=3238|end_char=3244
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=3244|end_char=3245
+7	Anfall	Anfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	start_char=3245|end_char=3251
+8	vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	start_char=3252|end_char=3262
+9	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	10	det	_	start_char=3263|end_char=3267
+10	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=3268|end_char=3274
+11	pflegebedürftig	pflegebedürftig	ADJ	ADJD	Degree=Pos	2	xcomp	_	start_char=3275|end_char=3290
+12	als	als	ADP	KOKOM	_	13	case	_	start_char=3291|end_char=3294
+13	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nmod	_	start_char=3295|end_char=3301
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=3301|end_char=3302
+
+# text = Ein Schlag-Anfall kann tödlich sein.
+# sent_id = 50
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=3304|end_char=3307
+2	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	start_char=3308|end_char=3314
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=3314|end_char=3315
+4	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=3315|end_char=3321
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=3322|end_char=3326
+6	tödlich	tödlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3327|end_char=3334
+7	sein	sein	AUX	VAINF	VerbForm=Inf	6	cop	_	start_char=3335|end_char=3339
+8	.	.	PUNCT	$.	_	6	punct	_	start_char=3339|end_char=3340
+
+# text = Deshalb muss man bei einem Schlag-Anfall sofort zum Arzt.
+# sent_id = 51
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=3341|end_char=3348
+2	muss	müssen	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3349|end_char=3353
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=3354|end_char=3357
+4	bei	bei	ADP	APPR	_	8	case	_	start_char=3358|end_char=3361
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=3362|end_char=3367
+6	Schlag	Schlag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	compound	_	start_char=3368|end_char=3374
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=3374|end_char=3375
+8	Anfall	Anfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=3375|end_char=3381
+9	sofort	sofort	ADV	ADV	_	2	advmod	_	start_char=3382|end_char=3388
+10-11	zum	_	_	_	_	_	_	_	start_char=3389|end_char=3392
+10	zu	zu	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=3393|end_char=3397
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=3397|end_char=3398
+
+# text = Sie haben eine Uhr?
+# sent_id = 52
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=3400|end_char=3403
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3404|end_char=3409
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=3410|end_char=3414
+4	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=3415|end_char=3418
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=3418|end_char=3419
+
+# text = Dann notieren Sie sich den Zeit-Punkt, zu dem die Anzeichen begonnen haben.
+# sent_id = 53
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=3420|end_char=3424
+2	notieren	notieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3425|end_char=3433
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=3434|end_char=3437
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=3438|end_char=3442
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=3443|end_char=3446
+6	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=3447|end_char=3451
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=3451|end_char=3452
+8	Punkt	Punkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=3452|end_char=3457
+9	,	,	PUNCT	$,	_	14	punct	_	start_char=3457|end_char=3458
+10	zu	zu	ADP	APPR	_	11	case	_	start_char=3459|end_char=3461
+11	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem,Rel	14	obl	_	start_char=3462|end_char=3465
+12	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=3466|end_char=3469
+13	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	start_char=3470|end_char=3479
+14	begonnen	beginnen	VERB	VVPP	VerbForm=Part	8	acl	_	start_char=3480|end_char=3488
+15	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=3489|end_char=3494
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=3494|end_char=3495
+
+# text = Der Zeit-Punkt ist wichtig für den Rettungs-Dienst.
+# sent_id = 54
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=3496|end_char=3499
+2	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	start_char=3500|end_char=3504
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=3504|end_char=3505
+4	Punkt	Punkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=3505|end_char=3510
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=3511|end_char=3514
+6	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3515|end_char=3522
+7	für	für	ADP	APPR	_	11	case	_	start_char=3523|end_char=3526
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=3527|end_char=3530
+9	Rettungs	Rettungs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	compound	_	start_char=3531|end_char=3539
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=3539|end_char=3540
+11	Dienst	Dienst	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	start_char=3540|end_char=3546
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=3546|end_char=3547
+
+# text = So kann der Rettungs-Dienst schnell reagieren.
+# sent_id = 55
+1	So	so	ADV	ADV	_	8	advmod	_	start_char=3548|end_char=3550
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=3551|end_char=3555
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=3556|end_char=3559
+4	Rettungs	Rettungs	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	start_char=3560|end_char=3568
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=3568|end_char=3569
+6	Dienst	Dienst	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=3569|end_char=3575
+7	schnell	schnell	ADV	ADJD	_	8	advmod	_	start_char=3576|end_char=3583
+8	reagieren	reagieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3584|end_char=3593
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=3593|end_char=3594
+
+# text = Und der Zeit-Punkt ist wichtig für die weitere Behandlung.
+# sent_id = 56
+1	Und	und	CCONJ	KON	_	7	cc	_	start_char=3595|end_char=3598
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=3599|end_char=3602
+3	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	start_char=3603|end_char=3607
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=3607|end_char=3608
+5	Punkt	Punkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=3608|end_char=3613
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=3614|end_char=3617
+7	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3618|end_char=3625
+8	für	für	ADP	APPR	_	11	case	_	start_char=3626|end_char=3629
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=3630|end_char=3633
+10	weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	11	amod	_	start_char=3634|end_char=3641
+11	Behandlung	Behandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	start_char=3642|end_char=3652
+12	.	.	PUNCT	$.	_	7	punct	_	start_char=3652|end_char=3653
+
+# text = Sie glauben: Diese Person hat einen Schlag-Anfall?
+# sent_id = 57
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=3655|end_char=3658
+2	glauben	glauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3659|end_char=3666
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=3666|end_char=3667
+4	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=3668|end_char=3673
+5	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=3674|end_char=3680
+6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=3681|end_char=3684
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=3685|end_char=3690
+8	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	compound	_	start_char=3691|end_char=3697
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=3697|end_char=3698
+10	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=3698|end_char=3704
+11	?	?	PUNCT	$.	_	6	punct	_	start_char=3704|end_char=3705
+
+# text = Dann rufen Sie sofort die Not-Ruf-Nummer 112.
+# sent_id = 58
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=3706|end_char=3710
+2	rufen	rufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3711|end_char=3716
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=3717|end_char=3720
+4	sofort	sofort	ADV	ADV	_	2	advmod	_	start_char=3721|end_char=3727
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=3728|end_char=3731
+6	Not	Not	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	compound	_	start_char=3732|end_char=3735
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=3735|end_char=3736
+8	Ruf	Ruf	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=3736|end_char=3739
+9	-	-	PUNCT	$(	_	10	punct	_	start_char=3739|end_char=3740
+10	Nummer	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	flat	_	start_char=3740|end_char=3746
+11	112	112	NUM	CARD	NumType=Card	10	appos	_	start_char=3747|end_char=3750
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=3750|end_char=3751
+
+# text = Sie sind bei der betroffenen Person?
+# sent_id = 59
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=3752|end_char=3755
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3756|end_char=3760
+3	bei	bei	ADP	APPR	_	6	case	_	start_char=3761|end_char=3764
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3765|end_char=3768
+5	betroffenen	betroffen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=3769|end_char=3780
+6	Person	Person	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=3781|end_char=3787
+7	?	?	PUNCT	$.	_	2	punct	_	start_char=3787|end_char=3788
+
+# text = Dann beantworten Sie die Fragen der Leitstelle.
+# sent_id = 60
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=3789|end_char=3793
+2	beantworten	beantworten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3794|end_char=3805
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=3806|end_char=3809
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=3810|end_char=3813
+5	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=3814|end_char=3820
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=3821|end_char=3824
+7	Leitstelle	Leitstelle	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=3825|end_char=3835
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=3835|end_char=3836
+
+# text = Und warten Sie, bis das Gespräch vorbei ist.
+# sent_id = 61
+1	Und	und	CCONJ	KON	_	2	cc	_	start_char=3837|end_char=3840
+2	warten	warten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3841|end_char=3847
+3	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=3848|end_char=3851
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=3851|end_char=3852
+5	bis	bis	SCONJ	KOUS	_	9	mark	_	start_char=3853|end_char=3856
+6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=3857|end_char=3860
+7	Gespräch	Gespräch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=3861|end_char=3869
+8	vorbei	vorbei	ADV	ADV	_	9	mark	_	start_char=3870|end_char=3876
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=3877|end_char=3880
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=3880|end_char=3881
+
+# text = Sie sind nicht allein?
+# sent_id = 62
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=3882|end_char=3885
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3886|end_char=3890
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=3891|end_char=3896
+4	allein	allein	ADJ	ADV	Degree=Pos	0	root	_	start_char=3897|end_char=3903
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=3903|end_char=3904
+
+# text = Dann kann eine andere Person den Not-Ruf wählen.
+# sent_id = 63
+1	Dann	dann	ADV	ADV	_	10	advmod	_	start_char=3905|end_char=3909
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=3910|end_char=3914
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=3915|end_char=3919
+4	andere	anderer	DET	ADJA	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	5	det	_	start_char=3920|end_char=3926
+5	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=3927|end_char=3933
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=3934|end_char=3937
+7	Not	Not	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	start_char=3938|end_char=3941
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=3941|end_char=3942
+9	Ruf	Ruf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=3942|end_char=3945
+10	wählen	wählen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3946|end_char=3952
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=3952|end_char=3953
+
+# text = Und die andere Person kann mit der Ersten Hilfe beginnen.
+# sent_id = 64
+1	Und	und	CCONJ	KON	_	10	cc	_	start_char=3954|end_char=3957
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=3958|end_char=3961
+3	andere	anderer	DET	ADJA	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	4	det	_	start_char=3962|end_char=3968
+4	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=3969|end_char=3975
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=3976|end_char=3980
+6	mit	mit	ADP	APPR	_	9	case	_	start_char=3981|end_char=3984
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=3985|end_char=3988
+8	Ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	9	amod	_	start_char=3989|end_char=3995
+9	Hilfe	Hilfe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=3996|end_char=4001
+10	beginnen	beginnen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4002|end_char=4010
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=4010|end_char=4011
+
+# text = - Beobachten Sie die betroffene Person. - Lassen
+# sent_id = 65
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=4012|end_char=4013
+2	Beobachten	beobachten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4014|end_char=4024
+3	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=4025|end_char=4028
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=4029|end_char=4032
+5	betroffene	betroffen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=4033|end_char=4043
+6	Person.	Person.	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=4044|end_char=4051
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=4052|end_char=4053
+8	Lassen	lassen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	start_char=4054|end_char=4060
+
+# text = Sie die betroffene Person nicht allein. - Sprechen Sie mit der betroffenen Person beruhigend.
+# sent_id = 66
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	9	nsubj	_	start_char=4061|end_char=4064
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=4065|end_char=4068
+3	betroffene	betroffen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=4069|end_char=4079
+4	Person	Person	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=4080|end_char=4086
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=4087|end_char=4092
+6	allein	allein	ADV	ADV	_	9	advmod	_	start_char=4093|end_char=4099
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4099|end_char=4100
+8	-	-	PUNCT	$(	_	9	punct	_	start_char=4101|end_char=4102
+9	Sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4103|end_char=4111
+10	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=4112|end_char=4115
+11	mit	mit	ADP	APPR	_	14	case	_	start_char=4116|end_char=4119
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=4120|end_char=4123
+13	betroffenen	betroffen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=4124|end_char=4135
+14	Person	Person	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=4136|end_char=4142
+15	beruhigend	beruhigend	ADJ	ADJD	Degree=Pos	9	xcomp	_	start_char=4143|end_char=4153
+16	.	.	PUNCT	$.	_	9	punct	_	start_char=4153|end_char=4154
+
+# text = Geben Sie der betroffenen Person nichts zu Essen oder zu Trinken.
+# sent_id = 67
+1	Geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4155|end_char=4160
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=4161|end_char=4164
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=4165|end_char=4168
+4	betroffenen	betroffen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=4169|end_char=4180
+5	Person	Person	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	obl:arg	_	start_char=4181|end_char=4187
+6	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	1	obj	_	start_char=4188|end_char=4194
+7	zu	zu	ADP	APPR	_	8	case	_	start_char=4195|end_char=4197
+8	Essen	Essen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=4198|end_char=4203
+9	oder	oder	CCONJ	KON	_	11	cc	_	start_char=4204|end_char=4208
+10	zu	zu	ADP	APPR	_	11	case	_	start_char=4209|end_char=4211
+11	Trinken	Trinken	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	conj	_	start_char=4212|end_char=4219
+12	.	.	PUNCT	$.	_	1	punct	_	start_char=4219|end_char=4220
+
+# text = Das Schlucken könnte gestört sein. - Lockern Sie beengende Kleidung. - Entfernen Sie Zahnprothesen.
+# sent_id = 68
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=4221|end_char=4224
+2	Schlucken	Schluck	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	start_char=4225|end_char=4234
+3	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=4235|end_char=4241
+4	gestört	stören	VERB	VVPP	VerbForm=Part	0	root	_	start_char=4242|end_char=4249
+5	sein	sein	AUX	VAINF	VerbForm=Inf	4	aux:pass	_	start_char=4250|end_char=4254
+6	.	.	PUNCT	$.	_	8	punct	_	start_char=4254|end_char=4255
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=4256|end_char=4257
+8	Lockern	lockern	VERB	VVFIN	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=4258|end_char=4265
+9	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=4266|end_char=4269
+10	beengende	beengend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=4270|end_char=4279
+11	Kleidung.	Kleidung.	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	start_char=4280|end_char=4289
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=4290|end_char=4291
+13	Entfernen	entfernen	VERB	VVFIN	Number=Plur|VerbForm=Fin	8	ccomp	_	start_char=4292|end_char=4301
+14	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	13	nsubj	_	start_char=4302|end_char=4305
+15	Zahnprothesen	Zahnprothese	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	start_char=4306|end_char=4319
+16	.	.	PUNCT	$.	_	4	punct	_	start_char=4319|end_char=4320
+
+# text = Ist die betroffene Person bei Bewusstsein?
+# sent_id = 69
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4321|end_char=4324
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=4325|end_char=4328
+3	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=4329|end_char=4339
+4	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	start_char=4340|end_char=4346
+5	bei	bei	ADP	APPR	_	6	case	_	start_char=4347|end_char=4350
+6	Bewusstsein	Bewußtsein	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	start_char=4351|end_char=4362
+7	?	?	PUNCT	$.	_	1	punct	_	start_char=4362|end_char=4363
+
+# text = Legen Sie sie mit etwa 30 Grad erhöhtem Ober-Körper hin.
+# sent_id = 70
+1	Legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4364|end_char=4369
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=4370|end_char=4373
+3	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	start_char=4374|end_char=4377
+4	mit	mit	ADP	APPR	_	11	case	_	start_char=4378|end_char=4381
+5	etwa	etwa	ADV	ADV	_	6	advmod	_	start_char=4382|end_char=4386
+6	30	30	NUM	CARD	NumType=Card	7	nummod	_	start_char=4387|end_char=4389
+7	Grad	Grad	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	nmod	_	start_char=4390|end_char=4394
+8	erhöhtem	erhöht	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=4395|end_char=4403
+9	Ober	Ober	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	compound	_	start_char=4404|end_char=4408
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=4408|end_char=4409
+11	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	start_char=4409|end_char=4415
+12	hin	hin	ADV	PTKVZ	_	1	compound:prt	_	start_char=4416|end_char=4419
+13	.	.	PUNCT	$.	_	1	punct	_	start_char=4419|end_char=4420
+
+# text = Legen Sie zum Beispiel ein Kissen unter den Rücken.
+# sent_id = 71
+1	Legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4421|end_char=4426
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=4427|end_char=4430
+3-4	zum	_	_	_	_	_	_	_	start_char=4431|end_char=4434
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	start_char=4435|end_char=4443
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=4444|end_char=4447
+7	Kissen	Kissen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	start_char=4448|end_char=4454
+8	unter	unter	ADP	APPR	_	10	case	_	start_char=4455|end_char=4460
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=4461|end_char=4464
+10	Rücken	Rücken	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	start_char=4465|end_char=4471
+11	.	.	PUNCT	$.	_	1	punct	_	start_char=4471|end_char=4472
+
+# text = - Legen Sie die betroffene Person in die stabile Seiten-Lage. - Kontrollieren Sie regelmäßig den Puls und die Atmung.
+# sent_id = 72
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=4473|end_char=4474
+2	Legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4475|end_char=4480
+3	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=4481|end_char=4484
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=4485|end_char=4488
+5	betroffene	betroffen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=4489|end_char=4499
+6	Person	Person	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=4500|end_char=4506
+7	in	in	ADP	APPR	_	12	case	_	start_char=4507|end_char=4509
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=4510|end_char=4513
+9	stabile	stabil	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=4514|end_char=4521
+10	Seiten	Seite	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	compound	_	start_char=4522|end_char=4528
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=4528|end_char=4529
+12	Lage.	Lage.	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=4529|end_char=4534
+13	-	-	PUNCT	$(	_	14	punct	_	start_char=4535|end_char=4536
+14	Kontrollieren	Kontrollieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=4537|end_char=4550
+15	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	14	nsubj	_	start_char=4551|end_char=4554
+16	regelmäßig	regelmäßig	ADV	ADJD	_	14	advmod	_	start_char=4555|end_char=4565
+17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=4566|end_char=4569
+18	Puls	Pul	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=4570|end_char=4574
+19	und	und	CCONJ	KON	_	21	cc	_	start_char=4575|end_char=4578
+20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=4579|end_char=4582
+21	Atmung	Atmung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	conj	_	start_char=4583|end_char=4589
+22	.	.	PUNCT	$.	_	2	punct	_	start_char=4589|end_char=4590
+
+# text = Die betroffene Person erbricht oder wird bewusstlos?
+# sent_id = 73
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=4591|end_char=4594
+2	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=4595|end_char=4605
+3	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=4606|end_char=4612
+4	erbricht	erbrechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4613|end_char=4621
+5	oder	oder	CCONJ	KON	_	6	cc	_	start_char=4622|end_char=4626
+6	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=4627|end_char=4631
+7	bewusstlos	bewußtlos	ADJ	ADJD	Degree=Pos	6	xcomp	_	start_char=4632|end_char=4642
+8	?	?	PUNCT	$.	_	4	punct	_	start_char=4642|end_char=4643
+
+# text = Legen Sie sie in die stabile Seiten-Lage.
+# sent_id = 74
+1	Legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4644|end_char=4649
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=4650|end_char=4653
+3	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	start_char=4654|end_char=4657
+4	in	in	ADP	APPR	_	9	case	_	start_char=4658|end_char=4660
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=4661|end_char=4664
+6	stabile	stabil	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=4665|end_char=4672
+7	Seiten	Seite	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	compound	_	start_char=4673|end_char=4679
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=4679|end_char=4680
+9	Lage	Lage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	start_char=4680|end_char=4684
+10	.	.	PUNCT	$.	_	1	punct	_	start_char=4684|end_char=4685
+
+# text = Kontrollieren Sie regelmäßig den Puls und die Atmung.
+# sent_id = 75
+1	Kontrollieren	Kontrollieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4686|end_char=4699
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=4700|end_char=4703
+3	regelmäßig	regelmäßig	ADV	ADJD	_	1	advmod	_	start_char=4704|end_char=4714
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=4715|end_char=4718
+5	Puls	Pul	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=4719|end_char=4723
+6	und	und	CCONJ	KON	_	8	cc	_	start_char=4724|end_char=4727
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=4728|end_char=4731
+8	Atmung	Atmung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	start_char=4732|end_char=4738
+9	.	.	PUNCT	$.	_	1	punct	_	start_char=4738|end_char=4739
+
+# text = Sie können keinen Puls oder keine Atmung feststellen?
+# sent_id = 76
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=4740|end_char=4743
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=4744|end_char=4750
+3	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	4	det	_	start_char=4751|end_char=4757
+4	Puls	Pul	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=4758|end_char=4762
+5	oder	oder	CCONJ	KON	_	7	cc	_	start_char=4763|end_char=4767
+6	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	7	det	_	start_char=4768|end_char=4773
+7	Atmung	Atmung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	start_char=4774|end_char=4780
+8	feststellen	feststellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4781|end_char=4792
+9	?	?	PUNCT	$.	_	8	punct	_	start_char=4792|end_char=4793
+
+# text = Legen Sie die betroffene Person auf den Rücken auf eine harte Unterlage (zum Beispiel den Boden).
+# sent_id = 77
+1	Legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4794|end_char=4799
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=4800|end_char=4803
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=4804|end_char=4807
+4	betroffene	betroffen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=4808|end_char=4818
+5	Person	Person	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=4819|end_char=4825
+6	auf	auf	ADP	APPR	_	8	case	_	start_char=4826|end_char=4829
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=4830|end_char=4833
+8	Rücken	Rücken	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	start_char=4834|end_char=4840
+9	auf	auf	ADP	APPR	_	12	case	_	start_char=4841|end_char=4844
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=4845|end_char=4849
+11	harte	hart	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=4850|end_char=4855
+12	Unterlage	Unterlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	start_char=4856|end_char=4865
+13	(	(	PUNCT	$(	_	18	punct	_	start_char=4866|end_char=4867
+14-15	zum	_	_	_	_	_	_	_	start_char=4867|end_char=4870
+14	zu	zu	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	start_char=4871|end_char=4879
+17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=4880|end_char=4883
+18	Boden	Boden	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	appos	_	start_char=4884|end_char=4889
+19	)	)	PUNCT	$(	_	18	punct	_	start_char=4889|end_char=4890
+20	.	.	PUNCT	$.	_	1	punct	_	start_char=4890|end_char=4891
+
+# text = Und beginnen Sie sofort mit den Wiederbelebungs-Maßnahmen.
+# sent_id = 78
+1	Und	und	CCONJ	KON	_	2	cc	_	start_char=4892|end_char=4895
+2	beginnen	beginnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4896|end_char=4904
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=4905|end_char=4908
+4	sofort	sofort	ADV	ADV	_	2	advmod	_	start_char=4909|end_char=4915
+5	mit	mit	ADP	APPR	_	9	case	_	start_char=4916|end_char=4919
+6	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=4920|end_char=4923
+7	Wiederbelebungs	Wiederbelebungs	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	compound	_	start_char=4924|end_char=4939
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=4939|end_char=4940
+9	Maßnahmen	Maßnahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=4940|end_char=4949
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=4949|end_char=4950
+
+# text = Geben Sie auch eine Liste der Medikamente mit.
+# sent_id = 79
+1	Geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4952|end_char=4957
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=4958|end_char=4961
+3	auch	auch	ADV	ADV	_	1	advmod	_	start_char=4962|end_char=4966
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=4967|end_char=4971
+5	Liste	Liste	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=4972|end_char=4977
+6	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=4978|end_char=4981
+7	Medikamente	Medikament	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	start_char=4982|end_char=4993
+8	mit	mit	ADP	PTKVZ	_	1	compound:prt	_	start_char=4994|end_char=4997
+9	.	.	PUNCT	$.	_	1	punct	_	start_char=4997|end_char=4998
+
+# text = Die Person hat Medikamente gegen Gerinnung?
+# sent_id = 80
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=4999|end_char=5002
+2	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5003|end_char=5009
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5010|end_char=5013
+4	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=5014|end_char=5025
+5	gegen	gegen	ADP	APPR	_	6	case	_	start_char=5026|end_char=5031
+6	Gerinnung	Gerinnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	start_char=5032|end_char=5041
+7	?	?	PUNCT	$.	_	3	punct	_	start_char=5041|end_char=5042
+
+# text = Dann sagen Sie das auch.
+# sent_id = 81
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5043|end_char=5047
+2	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5048|end_char=5053
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=5054|end_char=5057
+4	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=5058|end_char=5061
+5	auch	auch	ADV	ADV	_	2	advmod	_	start_char=5062|end_char=5066
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=5066|end_char=5067
+
+# text = Die Person nimmt Medikamente gegen Gerinnung?
+# sent_id = 82
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5068|end_char=5071
+2	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5072|end_char=5078
+3	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5079|end_char=5084
+4	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=5085|end_char=5096
+5	gegen	gegen	ADP	APPR	_	6	case	_	start_char=5097|end_char=5102
+6	Gerinnung	Gerinnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=5103|end_char=5112
+7	?	?	PUNCT	$.	_	3	punct	_	start_char=5112|end_char=5113
+
+# text = Dann sagen Sie das auch.
+# sent_id = 83
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5114|end_char=5118
+2	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5119|end_char=5124
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=5125|end_char=5128
+4	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=5129|end_char=5132
+5	auch	auch	ADV	ADV	_	2	advmod	_	start_char=5133|end_char=5137
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=5137|end_char=5138
+
+# text = Die Person nimmt diese Medikamente?
+# sent_id = 84
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5139|end_char=5142
+2	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5143|end_char=5149
+3	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5150|end_char=5155
+4	diese	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	5	det	_	start_char=5156|end_char=5161
+5	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=5162|end_char=5173
+6	?	?	PUNCT	$.	_	3	punct	_	start_char=5173|end_char=5174
+
+# text = Dann kann die Person vielleicht nicht so viel Blut verlieren.
+# sent_id = 85
+1	Dann	dann	ADV	ADV	_	10	advmod	_	start_char=5175|end_char=5179
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=5180|end_char=5184
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=5185|end_char=5188
+4	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=5189|end_char=5195
+5	vielleicht	vielleicht	ADV	ADV	_	10	advmod	_	start_char=5196|end_char=5206
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=5207|end_char=5212
+7	so	so	ADV	ADV	_	8	advmod	_	start_char=5213|end_char=5215
+8	viel	viel	DET	PIAT	PronType=Ind	9	det	_	start_char=5216|end_char=5220
+9	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=5221|end_char=5225
+10	verlieren	verlieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5226|end_char=5235
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=5235|end_char=5236
+
+# text = Und die Person muss vielleicht nicht so viel Blut verlieren.
+# sent_id = 86
+1	Und	und	CCONJ	KON	_	10	cc	_	start_char=5237|end_char=5240
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=5241|end_char=5244
+3	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=5245|end_char=5251
+4	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=5252|end_char=5256
+5	vielleicht	vielleicht	ADV	ADV	_	10	advmod	_	start_char=5257|end_char=5267
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=5268|end_char=5273
+7	so	so	ADV	ADV	_	8	advmod	_	start_char=5274|end_char=5276
+8	viel	viel	DET	PIAT	PronType=Ind	9	det	_	start_char=5277|end_char=5281
+9	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=5282|end_char=5286
+10	verlieren	verlieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5287|end_char=5296
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=5296|end_char=5297
+
+# text = Geben Sie auch die Telefon-Nummer von nahen Angehörigen an.
+# sent_id = 87
+1	Geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5298|end_char=5303
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=5304|end_char=5307
+3	auch	auch	ADV	ADV	_	1	advmod	_	start_char=5308|end_char=5312
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=5313|end_char=5316
+5	Telefon	Telefon	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	compound	_	start_char=5317|end_char=5324
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=5324|end_char=5325
+7	Nummer	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	obj	_	start_char=5325|end_char=5331
+8	von	von	ADP	APPR	_	10	case	_	start_char=5332|end_char=5335
+9	nahen	nah	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=5336|end_char=5341
+10	Angehörigen	Angehörige	NOUN	NN	Case=Dat|Number=Plur	7	nmod	_	start_char=5342|end_char=5353
+11	an	an	ADP	PTKVZ	_	1	compound:prt	_	start_char=5354|end_char=5356
+12	.	.	PUNCT	$.	_	1	punct	_	start_char=5356|end_char=5357
+
+# text = Die Ärzte und Pflege-Kräfte können dann bei Fragen an die nahen Angehörigen anrufen.
+# sent_id = 88
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=5358|end_char=5361
+2	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	start_char=5362|end_char=5367
+3	und	und	CCONJ	KON	_	6	cc	_	start_char=5368|end_char=5371
+4	Pflege	Pflege	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	compound	_	start_char=5372|end_char=5378
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=5378|end_char=5379
+6	Kräfte	Kraft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	start_char=5379|end_char=5385
+7	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=5386|end_char=5392
+8	dann	dann	ADV	ADV	_	15	advmod	_	start_char=5393|end_char=5397
+9	bei	bei	ADP	APPR	_	10	case	_	start_char=5398|end_char=5401
+10	Fragen	Frage	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	15	obl	_	start_char=5402|end_char=5408
+11	an	an	ADP	APPR	_	14	case	_	start_char=5409|end_char=5411
+12	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	14	det	_	start_char=5412|end_char=5415
+13	nahen	nah	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=5416|end_char=5421
+14	Angehörigen	Angehörige	NOUN	NN	Case=Acc|Number=Plur	10	nmod	_	start_char=5422|end_char=5433
+15	anrufen	anrufen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5434|end_char=5441
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=5441|end_char=5442
+
+# text = Der Rettungs-Dienst ist da?
+# sent_id = 89
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=5444|end_char=5447
+2	Rettungs	Rettungs	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	start_char=5448|end_char=5456
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=5456|end_char=5457
+4	Dienst	Dienst	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=5457|end_char=5463
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5464|end_char=5467
+6	da	da	ADV	ADV	_	5	advmod	_	start_char=5468|end_char=5470
+7	?	?	PUNCT	$.	_	5	punct	_	start_char=5470|end_char=5471
+
+# text = Dann kümmert sich der Rettungs-Dienst um den Patienten oder die Patientin.
+# sent_id = 90
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5472|end_char=5476
+2	kümmert	kümmern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5477|end_char=5484
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=5485|end_char=5489
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=5490|end_char=5493
+5	Rettungs	Rettungs	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	start_char=5494|end_char=5502
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=5502|end_char=5503
+7	Dienst	Dienst	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=5503|end_char=5509
+8	um	um	ADP	APPR	_	10	case	_	start_char=5510|end_char=5512
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=5513|end_char=5516
+10	Patienten	Patient	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	start_char=5517|end_char=5526
+11	oder	oder	CCONJ	KON	_	13	cc	_	start_char=5527|end_char=5531
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=5532|end_char=5535
+13	Patientin	Patientin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	start_char=5536|end_char=5545
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=5545|end_char=5546
+
+# text = Vielleicht hat der Patient oder die Patientin einen Schlag-Anfall?
+# sent_id = 91
+1	Vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	start_char=5547|end_char=5557
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5558|end_char=5561
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=5562|end_char=5565
+4	Patient	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=5566|end_char=5573
+5	oder	oder	CCONJ	KON	_	7	cc	_	start_char=5574|end_char=5578
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=5579|end_char=5582
+7	Patientin	Patientin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	start_char=5583|end_char=5592
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=5593|end_char=5598
+9	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	compound	_	start_char=5599|end_char=5605
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=5605|end_char=5606
+11	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=5606|end_char=5612
+12	?	?	PUNCT	$.	_	2	punct	_	start_char=5612|end_char=5613
+
+# text = Dann bringen die Helfer den Patienten oder die Patientin in die Klinik.
+# sent_id = 92
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5614|end_char=5618
+2	bringen	bringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5619|end_char=5626
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=5627|end_char=5630
+4	Helfer	Helfer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=5631|end_char=5637
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=5638|end_char=5641
+6	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl:arg	_	start_char=5642|end_char=5651
+7	oder	oder	CCONJ	KON	_	9	cc	_	start_char=5652|end_char=5656
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=5657|end_char=5660
+9	Patientin	Patientin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	start_char=5661|end_char=5670
+10	in	in	ADP	APPR	_	12	case	_	start_char=5671|end_char=5673
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=5674|end_char=5677
+12	Klinik	Klinik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=5678|end_char=5684
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=5684|end_char=5685
+
+# text = Dort wird der Patient oder die Patientin behandelt.
+# sent_id = 93
+1	Dort	dort	ADV	ADV	_	8	advmod	_	start_char=5686|end_char=5690
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=5691|end_char=5695
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=5696|end_char=5699
+4	Patient	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	start_char=5700|end_char=5707
+5	oder	oder	CCONJ	KON	_	7	cc	_	start_char=5708|end_char=5712
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=5713|end_char=5716
+7	Patientin	Patientin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	start_char=5717|end_char=5726
+8	behandelt	behandeln	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5727|end_char=5736
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=5736|end_char=5737
+
+# text = Herz-Infarkt und Schlag-Anfall.
+# sent_id = 94
+1	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	compound	_	start_char=5739|end_char=5743
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=5743|end_char=5744
+3	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=5744|end_char=5751
+4	und	und	CCONJ	KON	_	7	cc	_	start_char=5752|end_char=5755
+5	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	compound	_	start_char=5756|end_char=5762
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=5762|end_char=5763
+7	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	start_char=5763|end_char=5769
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=5769|end_char=5770
+
+# text = Sie haben eine Vergiftung?
+# sent_id = 95
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=5772|end_char=5775
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5776|end_char=5781
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=5782|end_char=5786
+4	Vergiftung	Vergiftung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=5787|end_char=5797
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=5797|end_char=5798
+
+# text = Dann rufen Sie den Rettungs-Dienst. Rufen Sie die Not-Ruf-Nummer 112.
+# sent_id = 96
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5799|end_char=5803
+2	rufen	rufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5804|end_char=5809
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=5810|end_char=5813
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=5814|end_char=5817
+5	Rettungs	Rettungs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	compound	_	start_char=5818|end_char=5826
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=5826|end_char=5827
+7	Dienst.	Dienst.	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=5827|end_char=5834
+8	Rufen	Rufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=5835|end_char=5840
+9	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=5841|end_char=5844
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=5845|end_char=5848
+11	Not	Not	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	compound	_	start_char=5849|end_char=5852
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=5852|end_char=5853
+13	Ruf	Ruf	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=5853|end_char=5856
+14	-	-	PUNCT	$(	_	15	punct	_	start_char=5856|end_char=5857
+15	Nummer	Nummer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	flat	_	start_char=5857|end_char=5863
+16	112	112	NUM	CARD	NumType=Card	15	appos	_	start_char=5864|end_char=5867
+17	.	.	PUNCT	$.	_	2	punct	_	start_char=5867|end_char=5868
+
+# text = Was sind die Anzeichen für einen Schlag-Anfall?
+# sent_id = 97
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obj	_	start_char=5870|end_char=5873
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5874|end_char=5878
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=5879|end_char=5882
+4	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	start_char=5883|end_char=5892
+5	für	für	ADP	APPR	_	9	case	_	start_char=5893|end_char=5896
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=5897|end_char=5902
+7	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	start_char=5903|end_char=5909
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=5909|end_char=5910
+9	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	start_char=5910|end_char=5916
+10	?	?	PUNCT	$.	_	2	punct	_	start_char=5916|end_char=5917
+
+# text = Sie haben einen Schlag-Anfall?
+# sent_id = 98
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=5919|end_char=5922
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5923|end_char=5928
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=5929|end_char=5934
+4	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	compound	_	start_char=5935|end_char=5941
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=5941|end_char=5942
+6	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=5942|end_char=5948
+7	?	?	PUNCT	$.	_	2	punct	_	start_char=5948|end_char=5949
+
+# text = Dann sollten Sie so schnell wie möglich ärztliche Hilfe suchen.
+# sent_id = 99
+1	Dann	dann	ADV	ADV	_	10	advmod	_	start_char=5950|end_char=5954
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	start_char=5955|end_char=5962
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	start_char=5963|end_char=5966
+4	so	so	ADV	ADV	_	5	advmod	_	start_char=5967|end_char=5969
+5	schnell	schnell	ADV	ADJD	_	10	advmod	_	start_char=5970|end_char=5977
+6	wie	wie	CCONJ	KOKOM	_	7	case	_	start_char=5978|end_char=5981
+7	möglich	möglich	ADV	ADJD	_	8	advmod	_	start_char=5982|end_char=5989
+8	ärztliche	ärztlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=5990|end_char=5999
+9	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=6000|end_char=6005
+10	suchen	suchen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6006|end_char=6012
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=6012|end_char=6013
+
+# text = Nur so kann der Schlag-Anfall behandelt werden.
+# sent_id = 100
+1	Nur	nur	ADV	ADV	_	2	advmod	_	start_char=6014|end_char=6017
+2	so	so	ADV	ADV	_	8	advmod	_	start_char=6018|end_char=6020
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=6021|end_char=6025
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=6026|end_char=6029
+5	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	start_char=6030|end_char=6036
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=6036|end_char=6037
+7	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	start_char=6037|end_char=6043
+8	behandelt	behandeln	VERB	VVPP	VerbForm=Part	0	root	_	start_char=6044|end_char=6053
+9	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	8	aux:pass	_	start_char=6054|end_char=6060
+10	.	.	PUNCT	$.	_	8	punct	_	start_char=6060|end_char=6061
+
+# text = Nach einem Jahr sind bei vielen Betroffenen noch Spuren des Schlag-Anfalls zu sehen.
+# sent_id = 101
+1	Nach	nach	ADP	APPR	_	3	case	_	start_char=6062|end_char=6066
+2	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=6067|end_char=6072
+3	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	start_char=6073|end_char=6077
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	start_char=6078|end_char=6082
+5	bei	bei	ADP	APPR	_	7	case	_	start_char=6083|end_char=6086
+6	vielen	viel	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	start_char=6087|end_char=6093
+7	Betroffenen	Betroffene	NOUN	NN	Case=Dat|Number=Plur	15	obl	_	start_char=6094|end_char=6105
+8	noch	noch	ADV	ADV	_	15	advmod	_	start_char=6106|end_char=6110
+9	Spuren	Spur|Spuren	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj:pass	_	start_char=6111|end_char=6117
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=6118|end_char=6121
+11	Schlag	Schlag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	13	compound	_	start_char=6122|end_char=6128
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=6128|end_char=6129
+13	Anfalls	Anfall	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=6129|end_char=6136
+14	zu	zu	PART	PTKZU	_	15	mark	_	start_char=6137|end_char=6139
+15	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6140|end_char=6145
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=6145|end_char=6146
+
+# text = Die Spuren können unterschiedlich stark sein.
+# sent_id = 102
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=6147|end_char=6150
+2	Spuren	Spur|Spuren	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=6151|end_char=6157
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=6158|end_char=6164
+4	unterschiedlich	unterschiedlich	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=6165|end_char=6180
+5	stark	stark	ADJ	ADJD	Degree=Pos	0	root	_	start_char=6181|end_char=6186
+6	sein	sein	AUX	VAINF	VerbForm=Inf	5	cop	_	start_char=6187|end_char=6191
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=6191|end_char=6192
+
+# text = Nach der akuten Behandlung im Krankenhaus, brauchen viele Schlag-Anfall-Patienten und Schlaganfallpatientinnen eine Rehabilitation.
+# sent_id = 103
+1	Nach	nach	ADP	APPR	_	4	case	_	start_char=6194|end_char=6198
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=6199|end_char=6202
+3	akuten	akut	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=6203|end_char=6209
+4	Behandlung	Behandlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=6210|end_char=6220
+5-6	im	_	_	_	_	_	_	_	start_char=6221|end_char=6223
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Krankenhaus	Krankenhaus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=6224|end_char=6235
+8	,	,	PUNCT	$,	_	4	punct	_	start_char=6235|end_char=6236
+9	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6237|end_char=6245
+10	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	15	det	_	start_char=6246|end_char=6251
+11	Schlag	Schlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	compound	_	start_char=6252|end_char=6258
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=6258|end_char=6259
+13	Anfall	Anfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	compound	_	start_char=6259|end_char=6265
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=6265|end_char=6266
+15	Patienten	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=6266|end_char=6275
+16	und	und	CCONJ	KON	_	17	cc	_	start_char=6276|end_char=6279
+17	Schlaganfallpatientinnen	Schlaganfallpatientin	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	conj	_	start_char=6280|end_char=6304
+18	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	19	det	_	start_char=6305|end_char=6309
+19	Rehabilitation	Rehabilitation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=6310|end_char=6324
+20	.	.	PUNCT	$.	_	9	punct	_	start_char=6324|end_char=6325
+
+# text = In der Rehabilitation lernen die Patienten und Patientinnen wieder, mit den Folgen des Schlag-Anfalls umzugehen.
+# sent_id = 104
+1	In	in	ADP	APPR	_	3	case	_	start_char=6326|end_char=6328
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=6329|end_char=6332
+3	Rehabilitation	Rehabilitation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=6333|end_char=6347
+4	lernen	lernen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6348|end_char=6354
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=6355|end_char=6358
+6	Patienten	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=6359|end_char=6368
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=6369|end_char=6372
+8	Patientinnen	Patientin	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	start_char=6373|end_char=6385
+9	wieder	wieder	ADV	ADV	_	4	advmod	_	start_char=6386|end_char=6392
+10	,	,	PUNCT	$,	_	18	punct	_	start_char=6392|end_char=6393
+11	mit	mit	ADP	APPR	_	13	case	_	start_char=6394|end_char=6397
+12	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=6398|end_char=6401
+13	Folgen	Folge	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	obl	_	start_char=6402|end_char=6408
+14	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=6409|end_char=6412
+15	Schlag	Schlag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	17	compound	_	start_char=6413|end_char=6419
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=6419|end_char=6420
+17	Anfalls	Anfall	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=6420|end_char=6427
+18	umzugehen	umgehen	VERB	VVIZU	VerbForm=Inf	4	xcomp	_	start_char=6428|end_char=6437
+19	.	.	PUNCT	$.	_	4	punct	_	start_char=6437|end_char=6438
+
+# text = Das Gehirn von Erwachsenen kann sich auch nach einem Schlag-Anfall noch verändern.
+# sent_id = 105
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=6439|end_char=6442
+2	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	start_char=6443|end_char=6449
+3	von	von	ADP	APPR	_	4	case	_	start_char=6450|end_char=6453
+4	Erwachsenen	Erwachsene	NOUN	NN	Case=Dat|Number=Plur	2	nmod	_	start_char=6454|end_char=6465
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=6466|end_char=6470
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	start_char=6471|end_char=6475
+7	auch	auch	ADV	ADV	_	14	advmod	_	start_char=6476|end_char=6480
+8	nach	nach	ADP	APPR	_	12	case	_	start_char=6481|end_char=6485
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=6486|end_char=6491
+10	Schlag	Schlag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	compound	_	start_char=6492|end_char=6498
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=6498|end_char=6499
+12	Anfall	Anfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	start_char=6499|end_char=6505
+13	noch	noch	ADV	ADV	_	14	advmod	_	start_char=6506|end_char=6510
+14	verändern	verändern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6511|end_char=6520
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=6520|end_char=6521
+
+# text = Deshalb können sich die Folgen des Schlag-Anfalls auch nach Monaten bessern.
+# sent_id = 106
+1	Deshalb	deshalb	ADV	PAV	_	13	advmod	_	start_char=6522|end_char=6529
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=6530|end_char=6536
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	start_char=6537|end_char=6541
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=6542|end_char=6545
+5	Folgen	Folge	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	start_char=6546|end_char=6552
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=6553|end_char=6556
+7	Schlag	Schlag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	compound	_	start_char=6557|end_char=6563
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=6563|end_char=6564
+9	Anfalls	Anfall	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=6564|end_char=6571
+10	auch	auch	ADV	ADV	_	13	advmod	_	start_char=6572|end_char=6576
+11	nach	nach	ADP	APPR	_	12	case	_	start_char=6577|end_char=6581
+12	Monaten	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	start_char=6582|end_char=6589
+13	bessern	bessern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6590|end_char=6597
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=6597|end_char=6598
+
+# text = Manchmal kann sich das Gehirn auch nach einem halben Jahr noch verändern.
+# sent_id = 107
+1	Manchmal	manchmal	ADV	ADV	_	12	advmod	_	start_char=6599|end_char=6607
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=6608|end_char=6612
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	start_char=6613|end_char=6617
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=6618|end_char=6621
+5	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	start_char=6622|end_char=6628
+6	auch	auch	ADV	ADV	_	12	advmod	_	start_char=6629|end_char=6633
+7	nach	nach	ADP	APPR	_	10	case	_	start_char=6634|end_char=6638
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=6639|end_char=6644
+9	halben	halb	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=6645|end_char=6651
+10	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	start_char=6652|end_char=6656
+11	noch	noch	ADV	ADV	_	12	advmod	_	start_char=6657|end_char=6661
+12	verändern	verändern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6662|end_char=6671
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=6671|end_char=6672
+
+# text = Eine Depression ist oft eine Folge von einem Schlag-Anfall.
+# sent_id = 108
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=6674|end_char=6678
+2	Depression	Depression	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=6679|end_char=6689
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=6690|end_char=6693
+4	oft	oft	ADV	ADV	_	6	advmod	_	start_char=6694|end_char=6697
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=6698|end_char=6702
+6	Folge	Folge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=6703|end_char=6708
+7	von	von	ADP	APPR	_	11	case	_	start_char=6709|end_char=6712
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=6713|end_char=6718
+9	Schlag	Schlag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	compound	_	start_char=6719|end_char=6725
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=6725|end_char=6726
+11	Anfall	Anfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	start_char=6726|end_char=6732
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=6732|end_char=6733
+
+# text = Bei einer Depression helfen Medikamente.
+# sent_id = 109
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=6734|end_char=6737
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=6738|end_char=6743
+3	Depression	Depression	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=6744|end_char=6754
+4	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6755|end_char=6761
+5	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=6762|end_char=6773
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=6773|end_char=6774
+
+# text = Die Medikamente heißen: Antidepressiva.
+# sent_id = 110
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=6775|end_char=6778
+2	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=6779|end_char=6790
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6791|end_char=6797
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=6797|end_char=6798
+5	Antidepressiva	Antidepressiva	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	xcomp	_	start_char=6799|end_char=6813
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=6813|end_char=6814
+
+# text = Antidepressiva helfen gegen die Anzeichen einer Depression.
+# sent_id = 111
+1	Antidepressiva	Antidepressiva	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=6815|end_char=6829
+2	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6830|end_char=6836
+3	gegen	gegen	ADP	APPR	_	5	case	_	start_char=6837|end_char=6842
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=6843|end_char=6846
+5	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	start_char=6847|end_char=6856
+6	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=6857|end_char=6862
+7	Depression	Depression	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=6863|end_char=6873
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=6873|end_char=6874
+
+# text = Eine Behandlung mit Antidepressiva kann die Rehabilitation verbessern.
+# sent_id = 112
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=6875|end_char=6879
+2	Behandlung	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=6880|end_char=6890
+3	mit	mit	ADP	APPR	_	4	case	_	start_char=6891|end_char=6894
+4	Antidepressiva	Antidepressiva	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	nmod	_	start_char=6895|end_char=6909
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=6910|end_char=6914
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=6915|end_char=6918
+7	Rehabilitation	Rehabilitation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	start_char=6919|end_char=6933
+8	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6934|end_char=6944
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=6944|end_char=6945
+
+# text = Das bedeutet: Die betroffene Person kann nach dem Schlag-Anfall schneller wieder gesund werden.
+# sent_id = 113
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=6946|end_char=6949
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6950|end_char=6958
+3	:	:	PUNCT	$.	_	16	punct	_	start_char=6958|end_char=6959
+4	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=6960|end_char=6963
+5	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=6964|end_char=6974
+6	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	start_char=6975|end_char=6981
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=6982|end_char=6986
+8	nach	nach	ADP	APPR	_	12	case	_	start_char=6987|end_char=6991
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=6992|end_char=6995
+10	Schlag	Schlag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	compound	_	start_char=6996|end_char=7002
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=7002|end_char=7003
+12	Anfall	Anfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	start_char=7003|end_char=7009
+13	schneller	schnell	ADJ	ADJD	Degree=Cmp	16	xcomp	_	start_char=7010|end_char=7019
+14	wieder	wieder	ADV	ADV	_	16	advmod	_	start_char=7020|end_char=7026
+15	gesund	gesund	ADJ	ADJD	Degree=Pos	16	xcomp	_	start_char=7027|end_char=7033
+16	werden	werden	VERB	VAINF	VerbForm=Inf	2	ccomp	_	start_char=7034|end_char=7040
+17	.	.	PUNCT	$.	_	2	punct	_	start_char=7040|end_char=7041
+
+# text = Es gibt Risiko-Faktoren für eine Nierenbeckenentzündung.
+# sent_id = 114
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=7043|end_char=7045
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7046|end_char=7050
+3	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	compound	_	start_char=7051|end_char=7057
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=7057|end_char=7058
+5	Faktoren	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=7058|end_char=7066
+6	für	für	ADP	APPR	_	8	case	_	start_char=7067|end_char=7070
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=7071|end_char=7075
+8	Nierenbeckenentzündung	Nierenbeckenentzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=7076|end_char=7098
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=7098|end_char=7099
+
+# text = Das bedeutet: Manche Menschen haben ein höheres Risiko, eine Nierenbeckenentzündung zu bekommen.
+# sent_id = 115
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=7100|end_char=7103
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7104|end_char=7112
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=7112|end_char=7113
+4	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=7114|end_char=7120
+5	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=7121|end_char=7129
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=7130|end_char=7135
+7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=7136|end_char=7139
+8	höheres	hoch	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	9	amod	_	start_char=7140|end_char=7147
+9	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=7148|end_char=7154
+10	,	,	PUNCT	$,	_	14	punct	_	start_char=7154|end_char=7155
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=7156|end_char=7160
+12	Nierenbeckenentzündung	Nierenbeckenentzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=7161|end_char=7183
+13	zu	zu	PART	PTKZU	_	14	mark	_	start_char=7184|end_char=7186
+14	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	9	xcomp	_	start_char=7187|end_char=7195
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=7195|end_char=7196
+
+# text = Zu den Risiko-Faktoren gehören zum Beispiel: - Diabetes - Blasensteine - Geschlechts-Krankheiten
+# sent_id = 116
+1	Zu	zu	ADP	APPR	_	5	case	_	start_char=7197|end_char=7199
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=7200|end_char=7203
+3	Risiko	Risiko	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	compound	_	start_char=7204|end_char=7210
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=7210|end_char=7211
+5	Faktoren	Faktor	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	start_char=7211|end_char=7219
+6	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7220|end_char=7227
+7-8	zum	_	_	_	_	_	_	_	start_char=7228|end_char=7231
+7	zu	zu	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=7232|end_char=7240
+10	:	:	PUNCT	$.	_	18	punct	_	start_char=7240|end_char=7241
+11	-	-	PUNCT	$(	_	12	punct	_	start_char=7242|end_char=7243
+12	Diabetes	Diabet	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	compound	_	start_char=7244|end_char=7252
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=7253|end_char=7254
+14	Blasensteine	Blasensteine	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	compound	_	start_char=7255|end_char=7267
+15	-	-	PUNCT	$(	_	14	punct	_	start_char=7268|end_char=7269
+16	Geschlechts	Geschlecht	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	compound	_	start_char=7270|end_char=7281
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=7281|end_char=7282
+18	Krankheiten	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=7282|end_char=7293
+
+# text = Einige Dinge kann man nicht beeinflussen.
+# sent_id = 117
+1	Einige	einige	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	2	det	_	start_char=7295|end_char=7301
+2	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=7302|end_char=7307
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=7308|end_char=7312
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=7313|end_char=7316
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=7317|end_char=7322
+6	beeinflussen	beeinflussen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7323|end_char=7335
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=7335|end_char=7336
+
+# text = Aber viele Dinge kann man beeinflussen.
+# sent_id = 118
+1	Aber	aber	CCONJ	KON	_	6	cc	_	start_char=7337|end_char=7341
+2	viele	viel	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	3	det	_	start_char=7342|end_char=7347
+3	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=7348|end_char=7353
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=7354|end_char=7358
+5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=7359|end_char=7362
+6	beeinflussen	beeinflussen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7363|end_char=7375
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=7375|end_char=7376
+
+# text = So kann man das Risiko für einen Schlag-Anfall senken: - Alter: Mehr als 80 Prozent der Schlag-Anfall-Patienten sind älter als 60 Jahre.
+# sent_id = 119
+1	So	so	ADV	ADV	_	11	advmod	_	start_char=7377|end_char=7379
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=7380|end_char=7384
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=7385|end_char=7388
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=7389|end_char=7392
+5	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=7393|end_char=7399
+6	für	für	ADP	APPR	_	10	case	_	start_char=7400|end_char=7403
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=7404|end_char=7409
+8	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	compound	_	start_char=7410|end_char=7416
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=7416|end_char=7417
+10	Anfall	Anfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	start_char=7417|end_char=7423
+11	senken	senken	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7424|end_char=7430
+12	:	:	PUNCT	$.	_	14	punct	_	start_char=7430|end_char=7431
+13	-	-	PUNCT	$(	_	14	punct	_	start_char=7432|end_char=7433
+14	Alter	Alter	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	start_char=7434|end_char=7439
+15	:	:	PUNCT	$.	_	27	punct	_	start_char=7439|end_char=7440
+16	Mehr	mehr	ADV	ADV	_	27	advmod	_	start_char=7441|end_char=7445
+17	als	als	ADP	KOKOM	_	16	fixed	_	start_char=7446|end_char=7449
+18	80	80	NUM	CARD	NumType=Card	19	nummod	_	start_char=7450|end_char=7452
+19	Prozent	Prozent	NOUN	NN	Gender=Neut|Number=Plur	16	nmod	_	start_char=7453|end_char=7460
+20	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	25	det	_	start_char=7461|end_char=7464
+21	Schlag	Schlag	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	23	compound	_	start_char=7465|end_char=7471
+22	-	-	PUNCT	$(	_	21	punct	_	start_char=7471|end_char=7472
+23	Anfall	Anfall	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	25	compound	_	start_char=7472|end_char=7478
+24	-	-	PUNCT	$(	_	23	punct	_	start_char=7478|end_char=7479
+25	Patienten	Patient	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	start_char=7479|end_char=7488
+26	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	start_char=7489|end_char=7493
+27	älter	alt	ADJ	ADJD	Degree=Cmp	11	parataxis	_	start_char=7494|end_char=7499
+28	als	als	ADP	KOKOM	_	30	case	_	start_char=7500|end_char=7503
+29	60	60	NUM	CARD	NumType=Card	30	nummod	_	start_char=7504|end_char=7506
+30	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	27	nmod	_	start_char=7507|end_char=7512
+31	.	.	PUNCT	$.	_	11	punct	_	start_char=7512|end_char=7513
+
+# text = - Veranlagung - Diabetes mellitus - Blut-Hoch-Druck - erhöhte Cholesterin-Werte - Rauchen begünstigen eine Arteriosklerose.
+# sent_id = 120
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=7514|end_char=7515
+2	Veranlagung	Veranlagung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	start_char=7516|end_char=7527
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=7528|end_char=7529
+4	Diabetes	Diabet	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	compound	_	start_char=7530|end_char=7538
+5	mellitus	mellitus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	compound	_	start_char=7539|end_char=7547
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=7548|end_char=7549
+7	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	compound	_	start_char=7550|end_char=7554
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=7554|end_char=7555
+9	Hoch	Hoch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	compound	_	start_char=7555|end_char=7559
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=7559|end_char=7560
+11	Druck	Druck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	compound	_	start_char=7560|end_char=7565
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=7566|end_char=7567
+13	erhöhte	erhöht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=7568|end_char=7575
+14	Cholesterin	Cholesterin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	compound	_	start_char=7576|end_char=7587
+15	-	-	PUNCT	$(	_	14	punct	_	start_char=7587|end_char=7588
+16	Werte	Wert	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	compound	_	start_char=7588|end_char=7593
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=7594|end_char=7595
+18	Rauchen	Rauchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	19	nsubj	_	start_char=7596|end_char=7603
+19	begünstigen	begünstigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7604|end_char=7615
+20	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	21	det	_	start_char=7616|end_char=7620
+21	Arteriosklerose	Arteriosklerose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	start_char=7621|end_char=7636
+22	.	.	PUNCT	$.	_	19	punct	_	start_char=7636|end_char=7637
+
+# text = Bei einer Arteriosklerose verhärten die Arterien-Wände.
+# sent_id = 121
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=7638|end_char=7641
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=7642|end_char=7647
+3	Arteriosklerose	Arteriosklerose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=7648|end_char=7663
+4	verhärten	verharten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7664|end_char=7673
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=7674|end_char=7677
+6	Arterien	Arterie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	compound	_	start_char=7678|end_char=7686
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=7686|end_char=7687
+8	Wände	Wand	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=7687|end_char=7692
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=7692|end_char=7693
+
+# text = Deshalb kann das Blut schlechter durch die Gefäße fließen.
+# sent_id = 122
+1	Deshalb	deshalb	ADV	PAV	_	9	advmod	_	start_char=7694|end_char=7701
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=7702|end_char=7706
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=7707|end_char=7710
+4	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=7711|end_char=7715
+5	schlechter	schlecht	ADJ	ADJD	Degree=Cmp	9	advmod	_	start_char=7716|end_char=7726
+6	durch	durch	ADP	APPR	_	8	case	_	start_char=7727|end_char=7732
+7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=7733|end_char=7736
+8	Gefäße	Gefäß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obl	_	start_char=7737|end_char=7743
+9	fließen	fließen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7744|end_char=7751
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=7751|end_char=7752
+
+# text = - Herz-Krankheiten: Herz-Krankheiten können zum Beispiel zu einer Arteriosklerose führen.
+# sent_id = 123
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=7753|end_char=7754
+2	Herz	Herz	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	compound	_	start_char=7755|end_char=7759
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=7759|end_char=7760
+4	Krankheiten	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	dep	_	start_char=7760|end_char=7771
+5	:	:	PUNCT	$.	_	16	punct	_	start_char=7771|end_char=7772
+6	Herz	Herz	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	compound	_	start_char=7773|end_char=7777
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=7777|end_char=7778
+8	Krankheiten	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	start_char=7778|end_char=7789
+9	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=7790|end_char=7796
+10-11	zum	_	_	_	_	_	_	_	start_char=7797|end_char=7800
+10	zu	zu	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	start_char=7801|end_char=7809
+13	zu	zu	ADP	APPR	_	15	case	_	start_char=7810|end_char=7812
+14	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=7813|end_char=7818
+15	Arteriosklerose	Arteriosklerose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	start_char=7819|end_char=7834
+16	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7835|end_char=7841
+17	.	.	PUNCT	$.	_	16	punct	_	start_char=7841|end_char=7842
+
+# text = Zu den Herz-Krankheiten gehören zum Beispiel: Vorhofflimmern und Herzklappenerkrankungen.
+# sent_id = 124
+1	Zu	zu	ADP	APPR	_	5	case	_	start_char=7843|end_char=7845
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=7846|end_char=7849
+3	Herz	Herz	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	compound	_	start_char=7850|end_char=7854
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=7854|end_char=7855
+5	Krankheiten	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	start_char=7855|end_char=7866
+6	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7867|end_char=7874
+7-8	zum	_	_	_	_	_	_	_	start_char=7875|end_char=7878
+7	zu	zu	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=7879|end_char=7887
+10	:	:	PUNCT	$.	_	11	punct	_	start_char=7887|end_char=7888
+11	Vorhofflimmern	Vorhofflimmer	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=7889|end_char=7903
+12	und	und	CCONJ	KON	_	13	cc	_	start_char=7904|end_char=7907
+13	Herzklappenerkrankungen	Herzklappenerkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	conj	_	start_char=7908|end_char=7931
+14	.	.	PUNCT	$.	_	6	punct	_	start_char=7931|end_char=7932
+
+# text = Bei diesen Erkrankungen strömt das Blut nicht richtig durch das Herz.
+# sent_id = 125
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=7933|end_char=7936
+2	diesen	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	start_char=7937|end_char=7943
+3	Erkrankungen	Erkrankung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=7944|end_char=7956
+4	strömt	strömen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7957|end_char=7963
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=7964|end_char=7967
+6	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=7968|end_char=7972
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=7973|end_char=7978
+8	richtig	richtig	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=7979|end_char=7986
+9	durch	durch	ADP	APPR	_	11	case	_	start_char=7987|end_char=7992
+10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=7993|end_char=7996
+11	Herz	Herz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=7997|end_char=8001
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=8001|end_char=8002
+
+# text = Dadurch können sich Blutgerinnsel bilden.
+# sent_id = 126
+1	Dadurch	dadurch	ADV	PAV	PronType=Dem	5	advmod	_	start_char=8003|end_char=8010
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=8011|end_char=8017
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=8018|end_char=8022
+4	Blutgerinnsel	Blutgerinnsel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=8023|end_char=8036
+5	bilden	bilden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8037|end_char=8043
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=8043|end_char=8044
+
+# text = Diese Blutgerinnsel können in die Gehirn-Gefäße gelangen und dort den Gefäßverschluss verursachen.
+# sent_id = 127
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	start_char=8045|end_char=8050
+2	Blutgerinnsel	Blutgerinnsel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	start_char=8051|end_char=8064
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=8065|end_char=8071
+4	in	in	ADP	APPR	_	8	case	_	start_char=8072|end_char=8074
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=8075|end_char=8078
+6	Gehirn	Gehirn	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	compound	_	start_char=8079|end_char=8085
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=8085|end_char=8086
+8	Gefäße	Gefäß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obl	_	start_char=8086|end_char=8092
+9	gelangen	gelangen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8093|end_char=8101
+10	und	und	CCONJ	KON	_	14	cc	_	start_char=8102|end_char=8105
+11	dort	dort	ADV	ADV	_	14	advmod	_	start_char=8106|end_char=8110
+12	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=8111|end_char=8114
+13	Gefäßverschluss	Gefäßverschluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=8115|end_char=8130
+14	verursachen	verursechen	VERB	VVINF	VerbForm=Inf	9	conj	_	start_char=8131|end_char=8142
+15	.	.	PUNCT	$.	_	9	punct	_	start_char=8142|end_char=8143
+
+# text = - Übergewicht und Bewegungs-Mangel - zu viel Alkohol
+# sent_id = 128
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=8144|end_char=8145
+2	Übergewicht	Übergewicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=8146|end_char=8157
+3	und	und	CCONJ	KON	_	6	cc	_	start_char=8158|end_char=8161
+4	Bewegungs	Bewegungs	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	start_char=8162|end_char=8171
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=8171|end_char=8172
+6	Mangel	Mangel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=8172|end_char=8178
+7	-	-	PUNCT	$(	_	10	punct	_	start_char=8179|end_char=8180
+8	zu	zu	ADV	PTKA	_	9	advmod	_	start_char=8181|end_char=8183
+9	viel	viel	DET	PIAT	PronType=Ind	10	det	_	start_char=8184|end_char=8188
+10	Alkohol	Alkohol	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	conj	_	start_char=8189|end_char=8196
+
+# text = Was sind die Ursachen?
+# sent_id = 129
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obj	_	start_char=8198|end_char=8201
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8202|end_char=8206
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=8207|end_char=8210
+4	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=8211|end_char=8219
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=8219|end_char=8220
+
+# text = Das Gehirn muss immer mit Blut versorgt werden.
+# sent_id = 130
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=8222|end_char=8225
+2	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	start_char=8226|end_char=8232
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=8233|end_char=8237
+4	immer	immer	ADV	ADV	_	7	advmod	_	start_char=8238|end_char=8243
+5	mit	mit	ADP	APPR	_	6	case	_	start_char=8244|end_char=8247
+6	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=8248|end_char=8252
+7	versorgt	versorgen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=8253|end_char=8261
+8	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	7	aux:pass	_	start_char=8262|end_char=8268
+9	.	.	PUNCT	$.	_	7	punct	_	start_char=8268|end_char=8269
+
+# text = Nur so bekommt das Gehirn Sauerstoff und Nährstoffe.
+# sent_id = 131
+1	Nur	nur	ADV	ADV	_	2	advmod	_	start_char=8270|end_char=8273
+2	so	so	ADV	ADV	_	3	advmod	_	start_char=8274|end_char=8276
+3	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8277|end_char=8284
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=8285|end_char=8288
+5	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=8289|end_char=8295
+6	Sauerstoff	Sauerstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=8296|end_char=8306
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=8307|end_char=8310
+8	Nährstoffe	Nährstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	start_char=8311|end_char=8321
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=8321|end_char=8322
+
+# text = Ist das Gehirn nicht mehr richtig durchblutet?
+# sent_id = 132
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=8323|end_char=8326
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=8327|end_char=8330
+3	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=8331|end_char=8337
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=8338|end_char=8343
+5	mehr	mehr	ADV	ADV	_	7	advmod	_	start_char=8344|end_char=8348
+6	richtig	richtig	ADV	ADJD	_	7	advmod	_	start_char=8349|end_char=8356
+7	durchblutet	durchbluten	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=8357|end_char=8368
+8	?	?	PUNCT	$.	_	7	punct	_	start_char=8368|end_char=8369
+
+# text = Dann können die Nerven-Zellen im betroffenen Bereich nicht mehr richtig arbeiten.
+# sent_id = 133
+1	Dann	dann	ADV	ADV	_	14	advmod	_	start_char=8370|end_char=8374
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=8375|end_char=8381
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=8382|end_char=8385
+4	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	compound	_	start_char=8386|end_char=8392
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=8392|end_char=8393
+6	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	start_char=8393|end_char=8399
+7-8	im	_	_	_	_	_	_	_	start_char=8400|end_char=8402
+7	in	in	ADP	APPR	_	10	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	betroffenen	betroffen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=8403|end_char=8414
+10	Bereich	Bereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	start_char=8415|end_char=8422
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	start_char=8423|end_char=8428
+12	mehr	mehr	ADV	ADV	_	14	advmod	_	start_char=8429|end_char=8433
+13	richtig	richtig	ADV	ADJD	_	14	advmod	_	start_char=8434|end_char=8441
+14	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8442|end_char=8450
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=8450|end_char=8451
+
+# text = Die Nerven-Zellen sterben vielleicht sogar ab.
+# sent_id = 134
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=8452|end_char=8455
+2	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	compound	_	start_char=8456|end_char=8462
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=8462|end_char=8463
+4	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=8463|end_char=8469
+5	sterben	sterben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8470|end_char=8477
+6	vielleicht	vielleicht	ADV	ADV	_	5	advmod	_	start_char=8478|end_char=8488
+7	sogar	sogar	ADV	ADV	_	5	advmod	_	start_char=8489|end_char=8494
+8	ab	ab	ADP	PTKVZ	_	5	compound:prt	_	start_char=8495|end_char=8497
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=8497|end_char=8498
+
+# text = Deshalb hängt die Schwere eines Schlag-Anfalls auch von der Dauer der Unterversorgung ab.
+# sent_id = 135
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=8499|end_char=8506
+2	hängt	hängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8507|end_char=8512
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=8513|end_char=8516
+4	Schwere	Schwere	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=8517|end_char=8524
+5	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=8525|end_char=8530
+6	Schlag	Schlag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	8	compound	_	start_char=8531|end_char=8537
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=8537|end_char=8538
+8	Anfalls	Anfall	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=8538|end_char=8545
+9	auch	auch	ADV	ADV	_	12	advmod	_	start_char=8546|end_char=8550
+10	von	von	ADP	APPR	_	12	case	_	start_char=8551|end_char=8554
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=8555|end_char=8558
+12	Dauer	Dauer	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=8559|end_char=8564
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=8565|end_char=8568
+14	Unterversorgung	Unterversorgung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=8569|end_char=8584
+15	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=8585|end_char=8587
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=8587|end_char=8588
+
+# text = Und die Schwere hängt auch von der Größe und der Lage des betroffenen Gehirn-Bereichs ab.
+# sent_id = 136
+1	Und	und	CCONJ	KON	_	4	cc	_	start_char=8589|end_char=8592
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=8593|end_char=8596
+3	Schwere	Schwere	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=8597|end_char=8604
+4	hängt	hängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8605|end_char=8610
+5	auch	auch	ADV	ADV	_	4	advmod	_	start_char=8611|end_char=8615
+6	von	von	ADP	APPR	_	8	case	_	start_char=8616|end_char=8619
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=8620|end_char=8623
+8	Größe	Größe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=8624|end_char=8629
+9	und	und	CCONJ	KON	_	11	cc	_	start_char=8630|end_char=8633
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=8634|end_char=8637
+11	Lage	Lage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	conj	_	start_char=8638|end_char=8642
+12	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	start_char=8643|end_char=8646
+13	betroffenen	betroffen	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	start_char=8647|end_char=8658
+14	Gehirn	Gehirn	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	16	compound	_	start_char=8659|end_char=8665
+15	-	-	PUNCT	$(	_	14	punct	_	start_char=8665|end_char=8666
+16	Bereichs	Bereich	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	start_char=8666|end_char=8674
+17	ab	ab	ADP	PTKVZ	_	4	compound:prt	_	start_char=8675|end_char=8677
+18	.	.	PUNCT	$.	_	4	punct	_	start_char=8677|end_char=8678
+

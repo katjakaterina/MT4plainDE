@@ -1,0 +1,2172 @@
+# text = ﻿
+# sent_id = 0
+1	﻿	"	PUNCT	$(	_	0	root	_	start_char=0|end_char=1
+
+# text = Was hilft gegen Krampf-Adern? - Bewegen Sie sich viel. - Legen Sie die Beine hoch. - Tragen Sie Kompressionsstrümpfe. - Lassen Sie sich vom Arzt beraten.
+# sent_id = 1
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	nsubj	_	start_char=2|end_char=5
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6|end_char=11
+3	gegen	gegen	ADP	APPR	_	6	case	_	start_char=12|end_char=17
+4	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	compound	_	start_char=18|end_char=24
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=24|end_char=25
+6	Adern?	Adern?	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=25|end_char=31
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=32|end_char=33
+8	Bewegen	bewegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=34|end_char=41
+9	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=42|end_char=45
+10	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	start_char=46|end_char=50
+11	viel.	viel.	ADV	ADV	_	8	advmod	_	start_char=51|end_char=56
+12	-	-	PUNCT	$(	_	13	punct	_	start_char=57|end_char=58
+13	Legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	start_char=59|end_char=64
+14	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	13	nsubj	_	start_char=65|end_char=68
+15	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	16	det	_	start_char=69|end_char=72
+16	Beine	Bein	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	start_char=73|end_char=78
+17	hoch.	hoch.	ADV	ADV	_	19	advmod	_	start_char=79|end_char=84
+18	-	-	PUNCT	$(	_	19	punct	_	start_char=85|end_char=86
+19	Tragen	Trage|Tragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	start_char=87|end_char=93
+20	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	19	nsubj	_	start_char=94|end_char=97
+21	Kompressionsstrümpfe.	Kompressionsstrümpfe.	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	start_char=98|end_char=119
+22	-	-	PUNCT	$(	_	23	punct	_	start_char=120|end_char=121
+23	Lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	start_char=122|end_char=128
+24	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	23	nsubj	_	start_char=129|end_char=132
+25	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	29	obj	_	start_char=133|end_char=137
+26-27	vom	_	_	_	_	_	_	_	start_char=138|end_char=141
+26	von	von	ADP	APPR	_	28	case	_	_
+27	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	29	obl	_	start_char=142|end_char=146
+29	beraten	beraten	VERB	VVINF	VerbForm=Inf	23	xcomp	_	start_char=147|end_char=154
+30	.	.	PUNCT	$.	_	2	punct	_	start_char=154|end_char=155
+
+# text = Krampf-Adern sind oft an den Beinen.
+# sent_id = 2
+1	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	start_char=157|end_char=163
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=163|end_char=164
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=164|end_char=169
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=170|end_char=174
+5	oft	oft	ADV	ADV	_	4	advmod	_	start_char=175|end_char=178
+6	an	an	ADP	APPR	_	8	case	_	start_char=179|end_char=181
+7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=182|end_char=185
+8	Beinen	Bein|Reinen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	start_char=186|end_char=192
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=192|end_char=193
+
+# text = Sie sind nahe unter der Haut.
+# sent_id = 3
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=194|end_char=197
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=198|end_char=202
+3	nahe	nah	ADJ	ADJD	Degree=Pos	0	root	_	start_char=203|end_char=207
+4	unter	unter	ADP	APPR	_	6	case	_	start_char=208|end_char=213
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=214|end_char=217
+6	Haut	Haut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	start_char=218|end_char=222
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=222|end_char=223
+
+# text = Behandeln Sie Krampf-Adern früh.
+# sent_id = 4
+1	Behandeln	behandeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=224|end_char=233
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=234|end_char=237
+3	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	start_char=238|end_char=244
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=244|end_char=245
+5	Adern	Ader	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=245|end_char=250
+6	früh	früh	ADJ	ADJD	Degree=Pos	1	advmod	_	start_char=251|end_char=255
+7	.	.	PUNCT	$.	_	1	punct	_	start_char=255|end_char=256
+
+# text = Dann können Sie Probleme verhindern.
+# sent_id = 5
+1	Dann	dann	ADV	ADV	_	5	advmod	_	start_char=257|end_char=261
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=262|end_char=268
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=269|end_char=272
+4	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	start_char=273|end_char=281
+5	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=282|end_char=292
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=292|end_char=293
+
+# text = Unsere Texte sind von Apothekern und Ärzten geprüft.
+# sent_id = 6
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=295|end_char=301
+2	Texte	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	start_char=302|end_char=307
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	start_char=308|end_char=312
+4	von	von	ADP	APPR	_	5	case	_	start_char=313|end_char=316
+5	Apothekern	Apotheker	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl:agent	_	start_char=317|end_char=327
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=328|end_char=331
+7	Ärzten	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	start_char=332|end_char=338
+8	geprüft	prüfen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=339|end_char=346
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=346|end_char=347
+
+# text = Dieser Text handelt von Krampf-Adern.
+# sent_id = 7
+1	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=349|end_char=355
+2	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=356|end_char=360
+3	handelt	handeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=361|end_char=368
+4	von	von	ADP	APPR	_	7	case	_	start_char=369|end_char=372
+5	Krampf	Krampf	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	compound	_	start_char=373|end_char=379
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=379|end_char=380
+7	Adern	Ader	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	start_char=380|end_char=385
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=385|end_char=386
+
+# text = Es geht um: - Was sind Krampf-Adern? - Warum bekommt man Krampf-Adern? - Wie fühlen sich Krampf-Adern an? - Was sind die Risiken bei Krampf-Adern? - Wann sollte man zum Arzt gehen?
+# sent_id = 8
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=387|end_char=389
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=390|end_char=394
+3	um	um	ADP	PTKVZ	_	2	compound:prt	_	start_char=395|end_char=397
+4	:	:	PUNCT	$.	_	10	punct	_	start_char=397|end_char=398
+5	-	-	PUNCT	$(	_	10	punct	_	start_char=399|end_char=400
+6	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	10	nsubj	_	start_char=401|end_char=404
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=405|end_char=409
+8	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	compound	_	start_char=410|end_char=416
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=416|end_char=417
+10	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	parataxis	_	start_char=417|end_char=422
+11	?	?	PUNCT	$.	_	14	punct	_	start_char=422|end_char=423
+12	-	-	PUNCT	$(	_	14	punct	_	start_char=424|end_char=425
+13	Warum	warum	ADV	PWAV	PronType=Int	14	advmod	_	start_char=426|end_char=431
+14	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	start_char=432|end_char=439
+15	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	start_char=440|end_char=443
+16	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	compound	_	start_char=444|end_char=450
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=450|end_char=451
+18	Adern	Ader	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	start_char=451|end_char=456
+19	?	?	PUNCT	$.	_	22	punct	_	start_char=456|end_char=457
+20	-	-	PUNCT	$(	_	22	punct	_	start_char=458|end_char=459
+21	Wie	wie	ADV	PWAV	_	22	advmod	_	start_char=460|end_char=463
+22	fühlen	fühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	start_char=464|end_char=470
+23	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	start_char=471|end_char=475
+24	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	compound	_	start_char=476|end_char=482
+25	-	-	PUNCT	$(	_	24	punct	_	start_char=482|end_char=483
+26	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	start_char=483|end_char=488
+27	an	an	ADP	PTKVZ	_	22	compound:prt	_	start_char=489|end_char=491
+28	?	?	PUNCT	$.	_	22	punct	_	start_char=491|end_char=492
+29	-	-	PUNCT	$(	_	33	punct	_	start_char=493|end_char=494
+30	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	33	nsubj	_	start_char=495|end_char=498
+31	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	start_char=499|end_char=503
+32	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	33	det	_	start_char=504|end_char=507
+33	Risiken	Risiko	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	ccomp	_	start_char=508|end_char=515
+34	bei	bei	ADP	APPR	_	37	case	_	start_char=516|end_char=519
+35	Krampf	Krampf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	37	compound	_	start_char=520|end_char=526
+36	-	-	PUNCT	$(	_	35	punct	_	start_char=526|end_char=527
+37	Adern	Ader	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	33	nmod	_	start_char=527|end_char=532
+38	?	?	PUNCT	$.	_	33	punct	_	start_char=532|end_char=533
+39	-	-	PUNCT	$(	_	46	punct	_	start_char=534|end_char=535
+40	Wann	wann	ADV	PWAV	PronType=Int	46	advmod	_	start_char=536|end_char=540
+41	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	46	aux	_	start_char=541|end_char=547
+42	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	46	nsubj	_	start_char=548|end_char=551
+43-44	zum	_	_	_	_	_	_	_	start_char=552|end_char=555
+43	zu	zu	ADP	APPR	_	45	case	_	_
+44	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	46	obl	_	start_char=556|end_char=560
+46	gehen	gehen	VERB	VVINF	VerbForm=Inf	22	ccomp	_	start_char=561|end_char=566
+47	?	?	PUNCT	$.	_	14	punct	_	start_char=566|end_char=567
+
+# text = - Wie stellt der Arzt die Diagnose? - Wie kann man Krampf-Adern verhindern?
+# sent_id = 9
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=568|end_char=569
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	start_char=570|end_char=573
+3	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=574|end_char=580
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=581|end_char=584
+5	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=585|end_char=589
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=590|end_char=593
+7	Diagnose	Diagnose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=594|end_char=602
+8	?	?	PUNCT	$.	_	16	punct	_	start_char=602|end_char=603
+9	-	-	PUNCT	$(	_	16	punct	_	start_char=604|end_char=605
+10	Wie	wie	ADV	PWAV	PronType=Int	16	advmod	_	start_char=606|end_char=609
+11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=610|end_char=614
+12	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	16	nsubj	_	start_char=615|end_char=618
+13	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	compound	_	start_char=619|end_char=625
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=625|end_char=626
+15	Adern	Ader	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	start_char=626|end_char=631
+16	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	3	parataxis	_	start_char=632|end_char=642
+17	?	?	PUNCT	$.	_	16	punct	_	start_char=642|end_char=643
+
+# text = - Was kann man gegen Krampf-Adern tun? - Wie gut kann man Krampf-Adern heilen? - Wie behandelt man Komplikationen bei Krampf-Adern?
+# sent_id = 10
+1	-	-	PUNCT	$(	_	9	punct	_	start_char=644|end_char=645
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	9	obj	_	start_char=646|end_char=649
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=650|end_char=654
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=655|end_char=658
+5	gegen	gegen	ADP	APPR	_	6	case	_	start_char=659|end_char=664
+6	Krampf	Krampf	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	start_char=665|end_char=671
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=671|end_char=672
+8	Adern	Ader	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	flat	_	start_char=672|end_char=677
+9	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=678|end_char=681
+10	?	?	PUNCT	$.	_	13	punct	_	start_char=681|end_char=682
+11	-	-	PUNCT	$(	_	13	punct	_	start_char=683|end_char=684
+12	Wie	wie	ADV	PWAV	PronType=Int	13	advmod	_	start_char=685|end_char=688
+13	gut	gut	ADJ	ADJD	Degree=Pos	9	parataxis	_	start_char=689|end_char=692
+14	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=693|end_char=697
+15	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	19	nsubj	_	start_char=698|end_char=701
+16	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	18	compound	_	start_char=702|end_char=708
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=708|end_char=709
+18	Adern	Ader	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obj	_	start_char=709|end_char=714
+19	heilen	heilen	VERB	VVINF	VerbForm=Inf	9	parataxis	_	start_char=715|end_char=721
+20	?	?	PUNCT	$.	_	19	punct	_	start_char=721|end_char=722
+21	-	-	PUNCT	$(	_	23	punct	_	start_char=723|end_char=724
+22	Wie	wie	ADV	PWAV	_	23	advmod	_	start_char=725|end_char=728
+23	behandelt	behandeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	start_char=729|end_char=738
+24	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	23	nsubj	_	start_char=739|end_char=742
+25	Komplikationen	Komplikation	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	23	obj	_	start_char=743|end_char=757
+26	bei	bei	ADP	APPR	_	29	case	_	start_char=758|end_char=761
+27	Krampf	Krampf	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	29	compound	_	start_char=762|end_char=768
+28	-	-	PUNCT	$(	_	27	punct	_	start_char=768|end_char=769
+29	Adern	Ader	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	23	obl	_	start_char=769|end_char=774
+30	?	?	PUNCT	$.	_	23	punct	_	start_char=774|end_char=775
+
+# text = Krampf-Adern sind dicke, blaue Adern.
+# sent_id = 11
+1	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	start_char=777|end_char=783
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=783|end_char=784
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=784|end_char=789
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=790|end_char=794
+5	dicke	dick	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=795|end_char=800
+6	,	,	PUNCT	$,	_	7	punct	_	start_char=800|end_char=801
+7	blaue	blau	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	conj	_	start_char=802|end_char=807
+8	Adern	Ader	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=808|end_char=813
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=813|end_char=814
+
+# text = Sie kommen oft an den Beinen vor.
+# sent_id = 12
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=815|end_char=818
+2	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=819|end_char=825
+3	oft	oft	ADV	ADV	_	2	advmod	_	start_char=826|end_char=829
+4	an	an	ADP	APPR	_	6	case	_	start_char=830|end_char=832
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=833|end_char=836
+6	Beinen	Bein|Reinen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	start_char=837|end_char=843
+7	vor	vor	ADP	PTKVZ	_	2	compound:prt	_	start_char=844|end_char=847
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=847|end_char=848
+
+# text = Krampf-Adern können wehtun.
+# sent_id = 13
+1	Krampf	Krampf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=849|end_char=855
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=855|end_char=856
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	start_char=856|end_char=861
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=862|end_char=868
+5	wehtun	wehtun	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=869|end_char=875
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=875|end_char=876
+
+# text = Krampf-Adern sind dicke, gewundene Venen.
+# sent_id = 14
+1	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	start_char=878|end_char=884
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=884|end_char=885
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=885|end_char=890
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=891|end_char=895
+5	dicke	dick	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=896|end_char=901
+6	,	,	PUNCT	$,	_	7	punct	_	start_char=901|end_char=902
+7	gewundene	gewunden	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	conj	_	start_char=903|end_char=912
+8	Venen	Venen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=913|end_char=918
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=918|end_char=919
+
+# text = Krampf-Adern können ein Problem sein.
+# sent_id = 15
+1	Krampf	Krampf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=920|end_char=926
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=926|end_char=927
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	start_char=927|end_char=932
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=933|end_char=939
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=940|end_char=943
+6	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=944|end_char=951
+7	sein	sein	AUX	VAINF	VerbForm=Inf	6	cop	_	start_char=952|end_char=956
+8	.	.	PUNCT	$.	_	6	punct	_	start_char=956|end_char=957
+
+# text = Sie können zu einer Venenthrombose führen.
+# sent_id = 16
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=958|end_char=961
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=962|end_char=968
+3	zu	zu	ADP	APPR	_	5	case	_	start_char=969|end_char=971
+4	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=972|end_char=977
+5	Venenthrombose	Venenthrombose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=978|end_char=992
+6	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=993|end_char=999
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=999|end_char=1000
+
+# text = Das ist ein Blutgerinnsel in einer Vene.
+# sent_id = 17
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=1001|end_char=1004
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1005|end_char=1008
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1009|end_char=1012
+4	Blutgerinnsel	Blutgerinnsel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1013|end_char=1026
+5	in	in	ADP	APPR	_	7	case	_	start_char=1027|end_char=1029
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=1030|end_char=1035
+7	Vene	Vene	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	start_char=1036|end_char=1040
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=1040|end_char=1041
+
+# text = Haben Sie Krampf-Adern?
+# sent_id = 18
+1	Haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1042|end_char=1047
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=1048|end_char=1051
+3	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	compound	_	start_char=1052|end_char=1058
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=1058|end_char=1059
+5	Adern	Ader	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	start_char=1059|end_char=1064
+6	?	?	PUNCT	$.	_	1	punct	_	start_char=1064|end_char=1065
+
+# text = Dann gehen Sie zu einem Arzt.
+# sent_id = 19
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=1066|end_char=1070
+2	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1071|end_char=1076
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1077|end_char=1080
+4	zu	zu	ADP	APPR	_	6	case	_	start_char=1081|end_char=1083
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=1084|end_char=1089
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=1090|end_char=1094
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=1094|end_char=1095
+
+# text = Der Arzt kann sagen, ob Sie eine Behandlung brauchen.
+# sent_id = 20
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1096|end_char=1099
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1100|end_char=1104
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1105|end_char=1109
+4	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1110|end_char=1115
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=1115|end_char=1116
+6	ob	ob	SCONJ	KOUS	_	10	mark	_	start_char=1117|end_char=1119
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	start_char=1120|end_char=1123
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=1124|end_char=1128
+9	Behandlung	Behandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=1129|end_char=1139
+10	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=1140|end_char=1148
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=1148|end_char=1149
+
+# text = Es gibt verschiedene Behandlungen für Krampf-Adern.
+# sent_id = 21
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1150|end_char=1152
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1153|end_char=1157
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=1158|end_char=1170
+4	Behandlungen	Behandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=1171|end_char=1183
+5	für	für	ADP	APPR	_	8	case	_	start_char=1184|end_char=1187
+6	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	compound	_	start_char=1188|end_char=1194
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=1194|end_char=1195
+8	Adern	Ader	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	start_char=1195|end_char=1200
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=1200|end_char=1201
+
+# text = Zum Beispiel: - eine Operation - eine Behandlung mit Wärme - eine Verödung - eine Kompressionsbehandlung.
+# sent_id = 22
+1-2	Zum	_	_	_	_	_	_	_	start_char=1202|end_char=1205
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=1206|end_char=1214
+4	:	:	PUNCT	$.	_	7	punct	_	start_char=1214|end_char=1215
+5	-	-	PUNCT	$(	_	7	punct	_	start_char=1216|end_char=1217
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=1218|end_char=1222
+7	Operation	Operation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1223|end_char=1232
+8	-	-	PUNCT	$(	_	10	punct	_	start_char=1233|end_char=1234
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=1235|end_char=1239
+10	Behandlung	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	appos	_	start_char=1240|end_char=1250
+11	mit	mit	ADP	APPR	_	12	case	_	start_char=1251|end_char=1254
+12	Wärme	Wärme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	start_char=1255|end_char=1260
+13	-	-	PUNCT	$(	_	15	punct	_	start_char=1261|end_char=1262
+14	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=1263|end_char=1267
+15	Verödung	Verödung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	start_char=1268|end_char=1276
+16	-	-	PUNCT	$(	_	18	punct	_	start_char=1277|end_char=1278
+17	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	18	det	_	start_char=1279|end_char=1283
+18	Kompressionsbehandlung	Kompressionsbehandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	appos	_	start_char=1284|end_char=1306
+19	.	.	PUNCT	$.	_	7	punct	_	start_char=1306|end_char=1307
+
+# text = Was sind Krampf-Adern?
+# sent_id = 23
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=1309|end_char=1312
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1313|end_char=1317
+3	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	compound	_	start_char=1318|end_char=1324
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=1324|end_char=1325
+5	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=1325|end_char=1330
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=1330|end_char=1331
+
+# text = Krampf-Adern sind Venen, die größer und unregelmäßig geformt sind.
+# sent_id = 24
+1	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	start_char=1332|end_char=1338
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=1338|end_char=1339
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=1339|end_char=1344
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1345|end_char=1349
+5	Venen	Venen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=1350|end_char=1355
+6	,	,	PUNCT	$,	_	8	punct	_	start_char=1355|end_char=1356
+7	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	8	nsubj	_	start_char=1357|end_char=1360
+8	größer	groß	ADJ	ADJD	Degree=Cmp	5	acl	_	start_char=1361|end_char=1367
+9	und	und	CCONJ	KON	_	11	cc	_	start_char=1368|end_char=1371
+10	unregelmäßig	unregelmäßig	ADJ	ADJD	Degree=Pos	11	advmod	_	start_char=1372|end_char=1384
+11	geformt	formen	ADJ	VVPP	Degree=Pos|VerbForm=Part	8	conj	_	start_char=1385|end_char=1392
+12	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1393|end_char=1397
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=1397|end_char=1398
+
+# text = Krampf-Adern sind meistens an den Beinen.
+# sent_id = 25
+1	Krampf	Krampf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1399|end_char=1405
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=1405|end_char=1406
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	start_char=1406|end_char=1411
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1412|end_char=1416
+5	meistens	meistens	ADV	ADV	_	8	advmod	_	start_char=1417|end_char=1425
+6	an	an	ADP	APPR	_	8	case	_	start_char=1426|end_char=1428
+7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=1429|end_char=1432
+8	Beinen	Bein|Reinen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	start_char=1433|end_char=1439
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=1439|end_char=1440
+
+# text = Manchmal sind sie auch im Becken.
+# sent_id = 26
+1	Manchmal	manchmal	ADV	ADV	_	7	advmod	_	start_char=1441|end_char=1449
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1450|end_char=1454
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1455|end_char=1458
+4	auch	auch	ADV	ADV	_	7	advmod	_	start_char=1459|end_char=1463
+5-6	im	_	_	_	_	_	_	_	start_char=1464|end_char=1466
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Becken	Becken	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	start_char=1467|end_char=1473
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1473|end_char=1474
+
+# text = Es gibt auch kleine Krampf-Adern.
+# sent_id = 27
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1475|end_char=1477
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1478|end_char=1482
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=1483|end_char=1487
+4	kleine	klein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=1488|end_char=1494
+5	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	compound	_	start_char=1495|end_char=1501
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=1501|end_char=1502
+7	Adern	Ader	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1502|end_char=1507
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=1507|end_char=1508
+
+# text = Diese kleinen Krampf-Adern nennt man Besenreiser.
+# sent_id = 28
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	start_char=1509|end_char=1514
+2	kleinen	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=1515|end_char=1522
+3	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	compound	_	start_char=1523|end_char=1529
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=1529|end_char=1530
+5	Adern	Ader	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=1530|end_char=1535
+6	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1536|end_char=1541
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=1542|end_char=1545
+8	Besenreiser	Besenreiser	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	xcomp	_	start_char=1546|end_char=1557
+9	.	.	PUNCT	$.	_	6	punct	_	start_char=1557|end_char=1558
+
+# text = Besenreiser sind blau oder violett und man sieht sie durch die Haut.
+# sent_id = 29
+1	Besenreiser	Besenreiser	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1559|end_char=1570
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1571|end_char=1575
+3	blau	blau	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1576|end_char=1580
+4	oder	oder	CCONJ	KON	_	5	cc	_	start_char=1581|end_char=1585
+5	violett	violett	ADJ	ADJD	Degree=Pos	3	conj	_	start_char=1586|end_char=1593
+6	und	und	CCONJ	KON	_	8	cc	_	start_char=1594|end_char=1597
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=1598|end_char=1601
+8	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=1602|end_char=1607
+9	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	start_char=1608|end_char=1611
+10	durch	durch	ADP	APPR	_	12	case	_	start_char=1612|end_char=1617
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=1618|end_char=1621
+12	Haut	Haut	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	start_char=1622|end_char=1626
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=1626|end_char=1627
+
+# text = Manche Menschen finden Besenreiser nicht schön.
+# sent_id = 30
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=1628|end_char=1634
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1635|end_char=1643
+3	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1644|end_char=1650
+4	Besenreiser	Besenreiser	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=1651|end_char=1662
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=1663|end_char=1668
+6	schön	schön	ADJ	ADJD	Degree=Pos	3	xcomp	_	start_char=1669|end_char=1674
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1674|end_char=1675
+
+# text = Besenreiser können auch wehtun.
+# sent_id = 31
+1	Besenreiser	Besenreiser	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=1676|end_char=1687
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1688|end_char=1694
+3	auch	auch	ADV	ADV	_	4	advmod	_	start_char=1695|end_char=1699
+4	wehtun	wehtun	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1700|end_char=1706
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=1706|end_char=1707
+
+# text = Es gibt Behandlungen gegen Besenreiser.
+# sent_id = 32
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=1708|end_char=1710
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1711|end_char=1715
+3	Behandlungen	Behandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=1716|end_char=1728
+4	gegen	gegen	ADP	APPR	_	5	case	_	start_char=1729|end_char=1734
+5	Besenreiser	Besenreiser	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	start_char=1735|end_char=1746
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=1746|end_char=1747
+
+# text = Zum Beispiel eine Verödungsbehandlung oder eine Lasertherapie.
+# sent_id = 33
+1-2	Zum	_	_	_	_	_	_	_	start_char=1748|end_char=1751
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=1752|end_char=1760
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=1761|end_char=1765
+5	Verödungsbehandlung	Verödungsbehandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1766|end_char=1785
+6	oder	oder	CCONJ	KON	_	8	cc	_	start_char=1786|end_char=1790
+7	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=1791|end_char=1795
+8	Lasertherapie	Lasertherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	start_char=1796|end_char=1809
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=1809|end_char=1810
+
+# text = Diese Behandlungen machen die Haut schöner.
+# sent_id = 34
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=1811|end_char=1816
+2	Behandlungen	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=1817|end_char=1829
+3	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1830|end_char=1836
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1837|end_char=1840
+5	Haut	Haut	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nsubj	_	start_char=1841|end_char=1845
+6	schöner	schön	ADJ	ADJD	Degree=Cmp	3	xcomp	_	start_char=1846|end_char=1853
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1853|end_char=1854
+
+# text = Krampf-Adern sind nicht nur ein Schönheits-Problem.
+# sent_id = 35
+1	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	start_char=1856|end_char=1862
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=1862|end_char=1863
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=1863|end_char=1868
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=1869|end_char=1873
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=1874|end_char=1879
+6	nur	nur	ADV	ADV	_	10	advmod	_	start_char=1880|end_char=1883
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=1884|end_char=1887
+8	Schönheits	Schönheit	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	compound	_	start_char=1888|end_char=1898
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=1898|end_char=1899
+10	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1899|end_char=1906
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1906|end_char=1907
+
+# text = Krampf-Adern können auch gesundheitliche Probleme machen.
+# sent_id = 36
+1	Krampf	Krampf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=1908|end_char=1914
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=1914|end_char=1915
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	start_char=1915|end_char=1920
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1921|end_char=1927
+5	auch	auch	ADV	ADV	_	8	advmod	_	start_char=1928|end_char=1932
+6	gesundheitliche	gesundheitlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	start_char=1933|end_char=1948
+7	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	start_char=1949|end_char=1957
+8	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1958|end_char=1964
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=1964|end_char=1965
+
+# text = Zum Beispiel: - Die Beine tun weh oder schwellen an.
+# sent_id = 37
+1-2	Zum	_	_	_	_	_	_	_	start_char=1966|end_char=1969
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=1970|end_char=1978
+4	:	:	PUNCT	$.	_	8	punct	_	start_char=1978|end_char=1979
+5	-	-	PUNCT	$(	_	8	punct	_	start_char=1980|end_char=1981
+6	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=1982|end_char=1985
+7	Beine	Bein	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	start_char=1986|end_char=1991
+8	tun	tun	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1992|end_char=1995
+9	weh	weh	ADV	PTKVZ	_	8	mark	_	start_char=1996|end_char=1999
+10	oder	oder	CCONJ	KON	_	11	cc	_	start_char=2000|end_char=2004
+11	schwellen	schwellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=2005|end_char=2014
+12	an	an	ADP	PTKVZ	_	11	compound:prt	_	start_char=2015|end_char=2017
+13	.	.	PUNCT	$.	_	8	punct	_	start_char=2017|end_char=2018
+
+# text = - Die Haut verändert sich dauerhaft.
+# sent_id = 38
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2019|end_char=2020
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=2021|end_char=2024
+3	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=2025|end_char=2029
+4	verändert	verändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2030|end_char=2039
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=2040|end_char=2044
+6	dauerhaft	dauerhaft	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=2045|end_char=2054
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=2054|end_char=2055
+
+# text = - Es entstehen hartnäckige Geschwüre.
+# sent_id = 39
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2056|end_char=2057
+2	Es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=2058|end_char=2060
+3	entstehen	entstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2061|end_char=2070
+4	hartnäckige	hartnäckig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=2071|end_char=2082
+5	Geschwüre	Geschwür	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=2083|end_char=2092
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=2092|end_char=2093
+
+# text = - Es kann eine Venenthrombose entstehen.
+# sent_id = 40
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2094|end_char=2095
+2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	start_char=2096|end_char=2098
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2099|end_char=2103
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=2104|end_char=2108
+5	Venenthrombose	Venenthrombose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=2109|end_char=2123
+6	entstehen	entstehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2124|end_char=2133
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2133|end_char=2134
+
+# text = Was sind Venen?
+# sent_id = 41
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obj	_	start_char=2136|end_char=2139
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2140|end_char=2144
+3	Venen	Venen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2145|end_char=2150
+4	?	?	PUNCT	$.	_	2	punct	_	start_char=2150|end_char=2151
+
+# text = Venen sind Blut-Gefäße.
+# sent_id = 42
+1	Venen	Venen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=2152|end_char=2157
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2158|end_char=2162
+3	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	compound	_	start_char=2163|end_char=2167
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=2167|end_char=2168
+5	Gefäße	Gefäß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=2168|end_char=2174
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2174|end_char=2175
+
+# text = Sie transportieren das Blut zum Herzen zurück.
+# sent_id = 43
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=2176|end_char=2179
+2	transportieren	transportieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2180|end_char=2194
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=2195|end_char=2198
+4	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=2199|end_char=2203
+5-6	zum	_	_	_	_	_	_	_	start_char=2204|end_char=2207
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Herzen	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=2208|end_char=2214
+8	zurück	zurück	ADV	PTKVZ	_	2	compound:prt	_	start_char=2215|end_char=2221
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=2221|end_char=2222
+
+# text = Venen bringen Blut zum Herzen.
+# sent_id = 44
+1	Venen	Venen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=2224|end_char=2229
+2	bringen	bringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2230|end_char=2237
+3	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=2238|end_char=2242
+4-5	zum	_	_	_	_	_	_	_	start_char=2243|end_char=2246
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Herzen	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=2247|end_char=2253
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=2253|end_char=2254
+
+# text = Das ist schwer, weil sie gegen die Schwer-Kraft arbeiten müssen.
+# sent_id = 45
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=2255|end_char=2258
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=2259|end_char=2262
+3	schwer	schwer	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2263|end_char=2269
+4	,	,	PUNCT	$,	_	12	punct	_	start_char=2269|end_char=2270
+5	weil	weil	SCONJ	KOUS	_	12	mark	_	start_char=2271|end_char=2275
+6	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=2276|end_char=2279
+7	gegen	gegen	ADP	APPR	_	11	case	_	start_char=2280|end_char=2285
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=2286|end_char=2289
+9	Schwer	schwer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	compound	_	start_char=2290|end_char=2296
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=2296|end_char=2297
+11	Kraft	Kraft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	start_char=2297|end_char=2302
+12	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	3	advcl	_	start_char=2303|end_char=2311
+13	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=2312|end_char=2318
+14	.	.	PUNCT	$.	_	3	punct	_	start_char=2318|end_char=2319
+
+# text = Aber die Bein-Muskeln helfen den Venen.
+# sent_id = 46
+1	Aber	aber	CCONJ	KON	_	6	cc	_	start_char=2320|end_char=2324
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=2325|end_char=2328
+3	Bein	Bein	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	compound	_	start_char=2329|end_char=2333
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=2333|end_char=2334
+5	Muskeln	Muskel	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=2334|end_char=2341
+6	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2342|end_char=2348
+7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=2349|end_char=2352
+8	Venen	Venen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	obl:arg	_	start_char=2353|end_char=2358
+9	.	.	PUNCT	$.	_	6	punct	_	start_char=2358|end_char=2359
+
+# text = Wenn die Bein-Muskeln sich zusammenziehen, drücken sie das Blut nach oben.
+# sent_id = 47
+1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=2360|end_char=2364
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=2365|end_char=2368
+3	Bein	Bein	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	compound	_	start_char=2369|end_char=2373
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=2373|end_char=2374
+5	Muskeln	Muskel	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=2374|end_char=2381
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=2382|end_char=2386
+7	zusammenziehen	zusammenziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=2387|end_char=2401
+8	,	,	PUNCT	$,	_	7	punct	_	start_char=2401|end_char=2402
+9	drücken	drücken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2403|end_char=2410
+10	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=2411|end_char=2414
+11	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=2415|end_char=2418
+12	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=2419|end_char=2423
+13	nach	nach	ADP	APPR	_	14	case	_	start_char=2424|end_char=2428
+14	oben	oben	ADV	ADV	_	9	advmod	_	start_char=2429|end_char=2433
+15	.	.	PUNCT	$.	_	9	punct	_	start_char=2433|end_char=2434
+
+# text = So kommt das Blut zum Herzen.
+# sent_id = 48
+1	So	so	ADV	ADV	_	2	advmod	_	start_char=2435|end_char=2437
+2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2438|end_char=2443
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=2444|end_char=2447
+4	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=2448|end_char=2452
+5-6	zum	_	_	_	_	_	_	_	start_char=2453|end_char=2456
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Herzen	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=2457|end_char=2463
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=2463|end_char=2464
+
+# text = Die tiefen Beinvenen sammeln Blut.
+# sent_id = 49
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=2466|end_char=2469
+2	tiefen	tief	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=2470|end_char=2476
+3	Beinvenen	Beinven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=2477|end_char=2486
+4	sammeln	sammeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2487|end_char=2494
+5	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=2495|end_char=2499
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=2499|end_char=2500
+
+# text = Das Blut kommt aus den oberflächlichen Beinvenen.
+# sent_id = 50
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=2501|end_char=2504
+2	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=2505|end_char=2509
+3	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2510|end_char=2515
+4	aus	aus	ADP	APPR	_	7	case	_	start_char=2516|end_char=2519
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=2520|end_char=2523
+6	oberflächlichen	oberflächlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=2524|end_char=2539
+7	Beinvenen	Beinven	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	start_char=2540|end_char=2549
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=2549|end_char=2550
+
+# text = In den Venen gibt es Klappen.
+# sent_id = 51
+1	In	in	ADP	APPR	_	3	case	_	start_char=2551|end_char=2553
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=2554|end_char=2557
+3	Venen	Venen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=2558|end_char=2563
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2564|end_char=2568
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=2569|end_char=2571
+6	Klappen	Klappe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=2572|end_char=2579
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=2579|end_char=2580
+
+# text = Diese Klappen lassen das Blut nur in eine Richtung fließen.
+# sent_id = 52
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=2581|end_char=2586
+2	Klappen	Klappe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=2587|end_char=2594
+3	lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2595|end_char=2601
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=2602|end_char=2605
+5	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=2606|end_char=2610
+6	nur	nur	ADV	ADV	_	3	advmod	_	start_char=2611|end_char=2614
+7	in	in	ADP	APPR	_	9	case	_	start_char=2615|end_char=2617
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=2618|end_char=2622
+9	Richtung	Richtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	start_char=2623|end_char=2631
+10	fließen	fließen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	start_char=2632|end_char=2639
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=2639|end_char=2640
+
+# text = So kann das Blut nicht zurückfließen.
+# sent_id = 53
+1	So	so	ADV	ADV	_	6	advmod	_	start_char=2641|end_char=2643
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2644|end_char=2648
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=2649|end_char=2652
+4	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=2653|end_char=2657
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=2658|end_char=2663
+6	zurückfließen	zurückfließen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2664|end_char=2677
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2677|end_char=2678
+
+# text = Das Herz hilft auch dabei, das Blut zu transportieren.
+# sent_id = 54
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=2679|end_char=2682
+2	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=2683|end_char=2687
+3	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2688|end_char=2693
+4	auch	auch	ADV	ADV	_	3	advmod	_	start_char=2694|end_char=2698
+5	dabei	dabei	ADV	PAV	_	3	advmod	_	start_char=2699|end_char=2704
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=2704|end_char=2705
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=2706|end_char=2709
+8	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=2710|end_char=2714
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=2715|end_char=2717
+10	transportieren	transportieren	VERB	VVINF	VerbForm=Inf	3	xcomp	_	start_char=2718|end_char=2732
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=2732|end_char=2733
+
+# text = Und auch das Atmen hilft dabei.
+# sent_id = 55
+1	Und	und	CCONJ	KON	_	5	cc	_	start_char=2734|end_char=2737
+2	auch	auch	ADV	ADV	_	5	advmod	_	start_char=2738|end_char=2742
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=2743|end_char=2746
+4	Atmen	Atme	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=2747|end_char=2752
+5	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2753|end_char=2758
+6	dabei	dabei	ADV	PAV	_	5	advmod	_	start_char=2759|end_char=2764
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=2764|end_char=2765
+
+# text = Es gibt Verbindungen zwischen den oberflächlichen und tiefen Venen.
+# sent_id = 56
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=2767|end_char=2769
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2770|end_char=2774
+3	Verbindungen	Verbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=2775|end_char=2787
+4	zwischen	zwischen	ADP	APPR	_	9	case	_	start_char=2788|end_char=2796
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=2797|end_char=2800
+6	oberflächlichen	oberflächlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=2801|end_char=2816
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=2817|end_char=2820
+8	tiefen	tief	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	6	conj	_	start_char=2821|end_char=2827
+9	Venen	Venen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	start_char=2828|end_char=2833
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=2833|end_char=2834
+
+# text = Diese Verbindungen heißen Perforansvenen.
+# sent_id = 57
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=2835|end_char=2840
+2	Verbindungen	Verbindung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=2841|end_char=2853
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2854|end_char=2860
+4	Perforansvenen	Perforansvene	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	xcomp	_	start_char=2861|end_char=2875
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=2875|end_char=2876
+
+# text = Viele Menschen haben Krampf-Adern.
+# sent_id = 58
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=2878|end_char=2883
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=2884|end_char=2892
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2893|end_char=2898
+4	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	compound	_	start_char=2899|end_char=2905
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=2905|end_char=2906
+6	Adern	Ader	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=2906|end_char=2911
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=2911|end_char=2912
+
+# text = Krampf-Adern sind ein häufiges Problem.
+# sent_id = 59
+1	Krampf	Krampf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=2914|end_char=2920
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=2920|end_char=2921
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	start_char=2921|end_char=2926
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=2927|end_char=2931
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=2932|end_char=2935
+6	häufiges	häufig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=2936|end_char=2944
+7	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=2945|end_char=2952
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=2952|end_char=2953
+
+# text = Viele Menschen in Deutschland haben Krampf-Adern.
+# sent_id = 60
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=2954|end_char=2959
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=2960|end_char=2968
+3	in	in	ADP	APPR	_	4	case	_	start_char=2969|end_char=2971
+4	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	start_char=2972|end_char=2983
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2984|end_char=2989
+6	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	start_char=2990|end_char=2996
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2996|end_char=2997
+8	Adern	Ader	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	obj	_	start_char=2997|end_char=3002
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=3002|end_char=3003
+
+# text = In einer Studie aus dem Jahr 2003 waren es 14 Prozent.
+# sent_id = 61
+1	In	in	ADP	APPR	_	3	case	_	start_char=3004|end_char=3006
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=3007|end_char=3012
+3	Studie	Studie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=3013|end_char=3019
+4	aus	aus	ADP	APPR	_	6	case	_	start_char=3020|end_char=3023
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=3024|end_char=3027
+6	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	start_char=3028|end_char=3032
+7	2003	2003	NUM	CARD	NumType=Card	6	nmod	_	start_char=3033|end_char=3037
+8	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3038|end_char=3043
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=3044|end_char=3046
+10	14	14	NUM	CARD	NumType=Card	11	nummod	_	start_char=3047|end_char=3049
+11	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	start_char=3050|end_char=3057
+12	.	.	PUNCT	$.	_	8	punct	_	start_char=3057|end_char=3058
+
+# text = Die Zahl der Menschen mit Krampf-Adern steigt.
+# sent_id = 62
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=3059|end_char=3062
+2	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=3063|end_char=3067
+3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=3068|end_char=3071
+4	Menschen	Mensch	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=3072|end_char=3080
+5	mit	mit	ADP	APPR	_	8	case	_	start_char=3081|end_char=3084
+6	Krampf	Krampf	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	compound	_	start_char=3085|end_char=3091
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=3091|end_char=3092
+8	Adern	Ader	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	start_char=3092|end_char=3097
+9	steigt	steigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3098|end_char=3104
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3104|end_char=3105
+
+# text = Das liegt auch daran, dass die Menschen immer älter werden.
+# sent_id = 63
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=3106|end_char=3109
+2	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3110|end_char=3115
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=3116|end_char=3120
+4	daran	daran	ADV	PAV	PronType=Dem	2	advmod	_	start_char=3121|end_char=3126
+5	,	,	PUNCT	$,	_	11	punct	_	start_char=3126|end_char=3127
+6	dass	dass	SCONJ	KOUS	_	11	mark	_	start_char=3128|end_char=3132
+7	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=3133|end_char=3136
+8	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	start_char=3137|end_char=3145
+9	immer	immer	ADV	ADV	_	11	advmod	_	start_char=3146|end_char=3151
+10	älter	alt	ADJ	ADJD	Degree=Cmp	11	xcomp	_	start_char=3152|end_char=3157
+11	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=3158|end_char=3164
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=3164|end_char=3165
+
+# text = Die meisten Menschen in Deutschland haben Probleme mit ihren Venen.
+# sent_id = 64
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=3166|end_char=3169
+2	meisten	meist	DET	PIAT	Case=Nom|Degree=Sup|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=3170|end_char=3177
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=3178|end_char=3186
+4	in	in	ADP	APPR	_	5	case	_	start_char=3187|end_char=3189
+5	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	start_char=3190|end_char=3201
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3202|end_char=3207
+7	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=3208|end_char=3216
+8	mit	mit	ADP	APPR	_	10	case	_	start_char=3217|end_char=3220
+9	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=3221|end_char=3226
+10	Venen	Venen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	start_char=3227|end_char=3232
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=3232|end_char=3233
+
+# text = Der Name "Krampf-Ader" kommt aus dem Althochdeutschen.
+# sent_id = 65
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=3235|end_char=3238
+2	Name	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=3239|end_char=3243
+3	"	"	PUNCT	$(	_	4	punct	_	start_char=3244|end_char=3245
+4	Krampf	Krampf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=3245|end_char=3251
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=3251|end_char=3252
+6	Ader	Ader	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	flat	_	start_char=3252|end_char=3256
+7	"	"	PUNCT	$(	_	4	punct	_	start_char=3256|end_char=3257
+8	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3258|end_char=3263
+9	aus	aus	ADP	APPR	_	11	case	_	start_char=3264|end_char=3267
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=3268|end_char=3271
+11	Althochdeutschen	Althochdeutschen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=3272|end_char=3288
+12	.	.	PUNCT	$.	_	8	punct	_	start_char=3288|end_char=3289
+
+# text = "Krampf" bedeutet "krumm".
+# sent_id = 66
+1	"	"	PUNCT	$(	_	2	punct	_	start_char=3290|end_char=3291
+2	Krampf	Krampf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3291|end_char=3297
+3	"	"	PUNCT	$(	_	2	punct	_	start_char=3297|end_char=3298
+4	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3299|end_char=3307
+5	"	"	PUNCT	$(	_	6	punct	_	start_char=3308|end_char=3309
+6	krumm	krumm	ADJ	ADJD	Degree=Pos	4	xcomp	_	start_char=3309|end_char=3314
+7	"	"	PUNCT	$(	_	6	punct	_	start_char=3314|end_char=3315
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=3315|end_char=3316
+
+# text = "Vader" bedeutet "Ader".
+# sent_id = 67
+1	"	"	PUNCT	$(	_	2	punct	_	start_char=3317|end_char=3318
+2	Vader	Vader	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3318|end_char=3323
+3	"	"	PUNCT	$(	_	2	punct	_	start_char=3323|end_char=3324
+4	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3325|end_char=3333
+5	"	"	PUNCT	$(	_	6	punct	_	start_char=3334|end_char=3335
+6	Ader	Ader	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	xcomp	_	start_char=3335|end_char=3339
+7	"	"	PUNCT	$(	_	6	punct	_	start_char=3339|end_char=3340
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=3340|end_char=3341
+
+# text = Also ist eine Krampf-Ader eine krumme Ader.
+# sent_id = 68
+1	Also	also	ADV	ADV	_	9	advmod	_	start_char=3342|end_char=3346
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=3347|end_char=3350
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=3351|end_char=3355
+4	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	start_char=3356|end_char=3362
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=3362|end_char=3363
+6	Ader	Ader	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=3363|end_char=3367
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=3368|end_char=3372
+8	krumme	krumm	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=3373|end_char=3379
+9	Ader	Ader	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	start_char=3380|end_char=3384
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3384|end_char=3385
+
+# text = Viele Menschen denken, Krampf-Adern verursachen Krämpfe.
+# sent_id = 69
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=3387|end_char=3392
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3393|end_char=3401
+3	denken	denken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3402|end_char=3408
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=3408|end_char=3409
+5	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	compound	_	start_char=3410|end_char=3416
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=3416|end_char=3417
+7	Adern	Ader	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nsubj	_	start_char=3417|end_char=3422
+8	verursachen	verursechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=3423|end_char=3434
+9	Krämpfe	Krampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	start_char=3435|end_char=3442
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=3442|end_char=3443
+
+# text = Das ist aber falsch.
+# sent_id = 70
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=3444|end_char=3447
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3448|end_char=3451
+3	aber	aber	ADV	ADV	_	4	advmod	_	start_char=3452|end_char=3456
+4	falsch	falsch	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3457|end_char=3463
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=3463|end_char=3464
+
+# text = Der Name "Krampf-Ader" kommt aus dem Althochdeutschen.
+# sent_id = 71
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=3465|end_char=3468
+2	Name	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=3469|end_char=3473
+3	"	"	PUNCT	$(	_	4	punct	_	start_char=3474|end_char=3475
+4	Krampf	Krampf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=3475|end_char=3481
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=3481|end_char=3482
+6	Ader	Ader	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	flat	_	start_char=3482|end_char=3486
+7	"	"	PUNCT	$(	_	4	punct	_	start_char=3486|end_char=3487
+8	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3488|end_char=3493
+9	aus	aus	ADP	APPR	_	11	case	_	start_char=3494|end_char=3497
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=3498|end_char=3501
+11	Althochdeutschen	Althochdeutschen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=3502|end_char=3518
+12	.	.	PUNCT	$.	_	8	punct	_	start_char=3518|end_char=3519
+
+# text = Früher nannte man Krampf-Adern "Krummadern".
+# sent_id = 72
+1	Früher	früher	ADJ	ADV	Degree=Cmp	2	advmod	_	start_char=3520|end_char=3526
+2	nannte	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3527|end_char=3533
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=3534|end_char=3537
+4	Krampf	Krampf	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	6	compound	_	start_char=3538|end_char=3544
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=3544|end_char=3545
+6	Adern	Ader	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=3545|end_char=3550
+7	"	"	PUNCT	$(	_	8	punct	_	start_char=3551|end_char=3552
+8	Krummadern	Krummadern	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	2	xcomp	_	start_char=3552|end_char=3562
+9	"	"	PUNCT	$(	_	8	punct	_	start_char=3562|end_char=3563
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=3563|end_char=3564
+
+# text = Mit der Zeit wurde aus "Krummadern" das Wort "Krampf-Ader".
+# sent_id = 73
+1	Mit	mit	ADP	APPR	_	3	case	_	start_char=3565|end_char=3568
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3569|end_char=3572
+3	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=3573|end_char=3577
+4	wurde	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=3578|end_char=3583
+5	aus	aus	ADP	APPR	_	7	case	_	start_char=3584|end_char=3587
+6	"	"	PUNCT	$(	_	7	punct	_	start_char=3588|end_char=3589
+7	Krummadern	Krummader	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	start_char=3589|end_char=3599
+8	"	"	PUNCT	$(	_	7	punct	_	start_char=3599|end_char=3600
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=3601|end_char=3604
+10	Wort	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	nsubj	_	start_char=3605|end_char=3609
+11	"	"	PUNCT	$(	_	12	punct	_	start_char=3610|end_char=3611
+12	Krampf	Krampf	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	10	appos	_	start_char=3611|end_char=3617
+13	-	-	PUNCT	$(	_	14	punct	_	start_char=3617|end_char=3618
+14	Ader	Ader	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	12	flat	_	start_char=3618|end_char=3622
+15	"	"	PUNCT	$(	_	12	punct	_	start_char=3622|end_char=3623
+16	.	.	PUNCT	$.	_	4	punct	_	start_char=3623|end_char=3624
+
+# text = Warum bekommt man Krampf-Adern?
+# sent_id = 74
+1	Warum	warum	ADV	PWAV	PronType=Int	2	advmod	_	start_char=3626|end_char=3631
+2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3632|end_char=3639
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=3640|end_char=3643
+4	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	compound	_	start_char=3644|end_char=3650
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=3650|end_char=3651
+6	Adern	Ader	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=3651|end_char=3656
+7	?	?	PUNCT	$.	_	2	punct	_	start_char=3656|end_char=3657
+
+# text = Krampf-Adern entstehen, wenn die Venen nicht mehr richtig arbeiten.
+# sent_id = 75
+1	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	start_char=3658|end_char=3664
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=3664|end_char=3665
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=3665|end_char=3670
+4	entstehen	entstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3671|end_char=3680
+5	,	,	PUNCT	$,	_	12	punct	_	start_char=3680|end_char=3681
+6	wenn	wenn	SCONJ	KOUS	_	12	mark	_	start_char=3682|end_char=3686
+7	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=3687|end_char=3690
+8	Venen	Venen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	start_char=3691|end_char=3696
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=3697|end_char=3702
+10	mehr	mehr	ADV	ADV	_	12	advmod	_	start_char=3703|end_char=3707
+11	richtig	richtig	ADV	ADJD	_	12	advmod	_	start_char=3708|end_char=3715
+12	arbeiten	arbeiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=3716|end_char=3724
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=3724|end_char=3725
+
+# text = Dann staut sich das Blut in den Venen.
+# sent_id = 76
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=3726|end_char=3730
+2	staut	stauen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3731|end_char=3736
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=3737|end_char=3741
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=3742|end_char=3745
+5	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=3746|end_char=3750
+6	in	in	ADP	APPR	_	8	case	_	start_char=3751|end_char=3753
+7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=3754|end_char=3757
+8	Venen	Venen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=3758|end_char=3763
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=3763|end_char=3764
+
+# text = Das kann verschiedene Gründe haben.
+# sent_id = 77
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=3765|end_char=3768
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3769|end_char=3773
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=3774|end_char=3786
+4	Gründe	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=3787|end_char=3793
+5	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=3794|end_char=3799
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=3799|end_char=3800
+
+# text = Es gibt 2 Arten von Krampf-Adern.
+# sent_id = 78
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=3802|end_char=3804
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3805|end_char=3809
+3	2	2	NUM	CARD	NumType=Card	4	nummod	_	start_char=3810|end_char=3811
+4	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=3812|end_char=3817
+5	von	von	ADP	APPR	_	8	case	_	start_char=3818|end_char=3821
+6	Krampf	Krampf	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	compound	_	start_char=3822|end_char=3828
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=3828|end_char=3829
+8	Adern	Ader	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	start_char=3829|end_char=3834
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=3834|end_char=3835
+
+# text = Die erste Art heißt primäre Varikose.
+# sent_id = 79
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3836|end_char=3839
+2	erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	3	amod	_	start_char=3840|end_char=3845
+3	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=3846|end_char=3849
+4	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3850|end_char=3855
+5	primäre	primär	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=3856|end_char=3863
+6	Varikose	Varikose	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	xcomp	_	start_char=3864|end_char=3872
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=3872|end_char=3873
+
+# text = Die zweite Art heißt sekundäre Varikose.
+# sent_id = 80
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3874|end_char=3877
+2	zweite	zweit	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	3	amod	_	start_char=3878|end_char=3884
+3	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=3885|end_char=3888
+4	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3889|end_char=3894
+5	sekundäre	sekundär	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=3895|end_char=3904
+6	Varikose	Varikose	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=3905|end_char=3913
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=3913|end_char=3914
+
+# text = Primäre Varikose bedeutet: Krampf-Adern ohne bekannte Ursache.
+# sent_id = 81
+1	Primäre	primär	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=3916|end_char=3923
+2	Varikose	Varikose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=3924|end_char=3932
+3	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3933|end_char=3941
+4	:	:	PUNCT	$.	_	7	punct	_	start_char=3941|end_char=3942
+5	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	compound	_	start_char=3943|end_char=3949
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=3949|end_char=3950
+7	Adern	Ader	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=3950|end_char=3955
+8	ohne	ohne	ADP	APPR	_	10	case	_	start_char=3956|end_char=3960
+9	bekannte	bekannt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=3961|end_char=3969
+10	Ursache	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	start_char=3970|end_char=3977
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=3977|end_char=3978
+
+# text = Krampf-Adern können viele Ursachen haben.
+# sent_id = 82
+1	Krampf	Krampf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=3980|end_char=3986
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=3986|end_char=3987
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	start_char=3987|end_char=3992
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=3993|end_char=3999
+5	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	start_char=4000|end_char=4005
+6	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	obj	_	start_char=4006|end_char=4014
+7	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=4015|end_char=4020
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=4020|end_char=4021
+
+# text = Manche Ursachen sind noch nicht bekannt.
+# sent_id = 83
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	start_char=4022|end_char=4028
+2	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=4029|end_char=4037
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4038|end_char=4042
+4	noch	noch	ADV	ADV	_	5	advmod	_	start_char=4043|end_char=4047
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=4048|end_char=4053
+6	bekannt	bekennen	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4054|end_char=4061
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4061|end_char=4062
+
+# text = Es gibt aber Risiko-Faktoren für Krampf-Adern.
+# sent_id = 84
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=4063|end_char=4065
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4066|end_char=4070
+3	aber	aber	ADV	ADV	_	2	advmod	_	start_char=4071|end_char=4075
+4	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	compound	_	start_char=4076|end_char=4082
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=4082|end_char=4083
+6	Faktoren	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	start_char=4083|end_char=4091
+7	für	für	ADP	APPR	_	10	case	_	start_char=4092|end_char=4095
+8	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	compound	_	start_char=4096|end_char=4102
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=4102|end_char=4103
+10	Adern	Ader	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	start_char=4103|end_char=4108
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=4108|end_char=4109
+
+# text = Zu diesen Risiko-Faktoren gehören: - Schwäche des Bindegewebes in der Familie - Schwäche der Venen in der Familie - weibliches Geschlecht - Hormone in der Schwangerschaft - wenig Bewegung - viel Stehen bei der Arbeit - Arbeit bei Wärme (zum Beispiel Verkäuferin in einer Bäckerei) - Übergewicht.
+# sent_id = 85
+1	Zu	zu	ADP	APPR	_	5	case	_	start_char=4110|end_char=4112
+2	diesen	dieser	DET	PDAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	start_char=4113|end_char=4119
+3	Risiko	Risiko	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	compound	_	start_char=4120|end_char=4126
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=4126|end_char=4127
+5	Faktoren	Faktor	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	start_char=4127|end_char=4135
+6	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4136|end_char=4143
+7	:	:	PUNCT	$.	_	9	punct	_	start_char=4143|end_char=4144
+8	-	-	PUNCT	$(	_	9	punct	_	start_char=4145|end_char=4146
+9	Schwäche	Schwäche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=4147|end_char=4155
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=4156|end_char=4159
+11	Bindegewebes	Bindegewebes	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=4160|end_char=4172
+12	in	in	ADP	APPR	_	16	case	_	start_char=4173|end_char=4175
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=4176|end_char=4179
+14	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	compound	_	start_char=4180|end_char=4187
+15	-	-	PUNCT	$(	_	14	punct	_	start_char=4188|end_char=4189
+16	Schwäche	Schwäche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	start_char=4190|end_char=4198
+17	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	18	det	_	start_char=4199|end_char=4202
+18	Venen	Venen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	start_char=4203|end_char=4208
+19	in	in	ADP	APPR	_	26	case	_	start_char=4209|end_char=4211
+20	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=4212|end_char=4215
+21	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	compound	_	start_char=4216|end_char=4223
+22	-	-	PUNCT	$(	_	21	punct	_	start_char=4224|end_char=4225
+23	weibliches	weiblich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	start_char=4226|end_char=4236
+24	Geschlecht	Geschlecht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	26	compound	_	start_char=4237|end_char=4247
+25	-	-	PUNCT	$(	_	24	punct	_	start_char=4248|end_char=4249
+26	Hormone	Hormone	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	16	nmod	_	start_char=4250|end_char=4257
+27	in	in	ADP	APPR	_	29	case	_	start_char=4258|end_char=4260
+28	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	start_char=4261|end_char=4264
+29	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	nmod	_	start_char=4265|end_char=4280
+30	-	-	PUNCT	$(	_	32	punct	_	start_char=4281|end_char=4282
+31	wenig	wenig	DET	PIAT	PronType=Ind	32	det	_	start_char=4283|end_char=4288
+32	Bewegung	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	conj	_	start_char=4289|end_char=4297
+33	-	-	PUNCT	$(	_	35	punct	_	start_char=4298|end_char=4299
+34	viel	viel	DET	PIAT	PronType=Ind	35	det	_	start_char=4300|end_char=4304
+35	Stehen	Stehen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	26	conj	_	start_char=4305|end_char=4311
+36	bei	bei	ADP	APPR	_	40	case	_	start_char=4312|end_char=4315
+37	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	start_char=4316|end_char=4319
+38	Arbeit	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	40	compound	_	start_char=4320|end_char=4326
+39	-	-	PUNCT	$(	_	38	punct	_	start_char=4327|end_char=4328
+40	Arbeit	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	35	nmod	_	start_char=4329|end_char=4335
+41	bei	bei	ADP	APPR	_	42	case	_	start_char=4336|end_char=4339
+42	Wärme	Wärme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	35	nmod	_	start_char=4340|end_char=4345
+43	(	(	PUNCT	$(	_	47	punct	_	start_char=4346|end_char=4347
+44-45	zum	_	_	_	_	_	_	_	start_char=4347|end_char=4350
+44	zu	zu	ADP	APPR	_	46	case	_	_
+45	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	46	det	_	_
+46	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	47	nmod	_	start_char=4351|end_char=4359
+47	Verkäuferin	Verkäuferin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	42	appos	_	start_char=4360|end_char=4371
+48	in	in	ADP	APPR	_	50	case	_	start_char=4372|end_char=4374
+49	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	50	det	_	start_char=4375|end_char=4380
+50	Bäckerei	Bäckerei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	47	nmod	_	start_char=4381|end_char=4389
+51	)	)	PUNCT	$(	_	47	punct	_	start_char=4389|end_char=4390
+52	-	-	PUNCT	$(	_	53	punct	_	start_char=4391|end_char=4392
+53	Übergewicht	Übergewicht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	42	nmod	_	start_char=4393|end_char=4404
+54	.	.	PUNCT	$.	_	6	punct	_	start_char=4404|end_char=4405
+
+# text = Manche Menschen erben eine Schwäche.
+# sent_id = 86
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=4407|end_char=4413
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=4414|end_char=4422
+3	erben	erben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4423|end_char=4428
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=4429|end_char=4433
+5	Schwäche	Schwäche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=4434|end_char=4442
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=4442|end_char=4443
+
+# text = Diese Schwäche betrifft das Bindegewebe und die Venen.
+# sent_id = 87
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=4444|end_char=4449
+2	Schwäche	Schwäche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=4450|end_char=4458
+3	betrifft	betreffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4459|end_char=4467
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=4468|end_char=4471
+5	Bindegewebe	Bindegewebe	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=4472|end_char=4483
+6	und	und	CCONJ	KON	_	8	cc	_	start_char=4484|end_char=4487
+7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=4488|end_char=4491
+8	Venen	Venen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	start_char=4492|end_char=4497
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=4497|end_char=4498
+
+# text = Diese Schwäche ist ein großes Risiko.
+# sent_id = 88
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=4499|end_char=4504
+2	Schwäche	Schwäche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=4505|end_char=4513
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4514|end_char=4517
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=4518|end_char=4521
+5	großes	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=4522|end_char=4528
+6	Risiko	Risiko	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4529|end_char=4535
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4535|end_char=4536
+
+# text = Mehr Frauen als Männer haben Krampf-Adern.
+# sent_id = 89
+1	Mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	2	det	_	start_char=4538|end_char=4542
+2	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=4543|end_char=4549
+3	als	als	ADP	KOKOM	_	4	case	_	start_char=4550|end_char=4553
+4	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nmod	_	start_char=4554|end_char=4560
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4561|end_char=4566
+6	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=4567|end_char=4573
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=4573|end_char=4574
+8	Adern	Ader	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=4574|end_char=4579
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=4579|end_char=4580
+
+# text = Etwa 15 Prozent der Frauen und 11 Prozent der Männer sind betroffen.
+# sent_id = 90
+1	Etwa	etwa	ADV	ADV	_	2	advmod	_	start_char=4581|end_char=4585
+2	15	15	NUM	CARD	NumType=Card	3	nummod	_	start_char=4586|end_char=4588
+3	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	start_char=4589|end_char=4596
+4	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=4597|end_char=4600
+5	Frauen	Frau	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	start_char=4601|end_char=4607
+6	und	und	CCONJ	KON	_	8	cc	_	start_char=4608|end_char=4611
+7	11	11	NUM	CARD	NumType=Card	8	nummod	_	start_char=4612|end_char=4614
+8	Prozent	Prozent	NOUN	NN	Gender=Neut|Number=Plur	3	conj	_	start_char=4615|end_char=4622
+9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=4623|end_char=4626
+10	Männer	Mann	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=4627|end_char=4633
+11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=4634|end_char=4638
+12	betroffen	betreffen	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4639|end_char=4648
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=4648|end_char=4649
+
+# text = Frauen haben oft Krampf-Adern, weil ihre Hormone die Venen beeinflussen.
+# sent_id = 91
+1	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=4650|end_char=4656
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4657|end_char=4662
+3	oft	oft	ADV	ADV	_	2	advmod	_	start_char=4663|end_char=4666
+4	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	compound	_	start_char=4667|end_char=4673
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=4673|end_char=4674
+6	Adern	Ader	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=4674|end_char=4679
+7	,	,	PUNCT	$,	_	13	punct	_	start_char=4679|end_char=4680
+8	weil	weil	SCONJ	KOUS	_	13	mark	_	start_char=4681|end_char=4685
+9	ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=4686|end_char=4690
+10	Hormone	Hormone	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	start_char=4691|end_char=4698
+11	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=4699|end_char=4702
+12	Venen	Venen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	start_char=4703|end_char=4708
+13	beeinflussen	beeinflussen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=4709|end_char=4721
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=4721|end_char=4722
+
+# text = In der Schwangerschaft können Krampf-Adern häufiger auftreten.
+# sent_id = 92
+1	In	in	ADP	APPR	_	3	case	_	start_char=4723|end_char=4725
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=4726|end_char=4729
+3	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=4730|end_char=4745
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=4746|end_char=4752
+5	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	compound	_	start_char=4753|end_char=4759
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=4759|end_char=4760
+7	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=4760|end_char=4765
+8	häufiger	häufig	ADJ	ADJD	Degree=Cmp	9	advmod	_	start_char=4766|end_char=4774
+9	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4775|end_char=4784
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=4784|end_char=4785
+
+# text = Das liegt an den Hormonen und der wachsenden Gebärmutter.
+# sent_id = 93
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=4786|end_char=4789
+2	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4790|end_char=4795
+3	an	an	ADP	APPR	_	5	case	_	start_char=4796|end_char=4798
+4	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=4799|end_char=4802
+5	Hormonen	Hormon	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	start_char=4803|end_char=4811
+6	und	und	CCONJ	KON	_	9	cc	_	start_char=4812|end_char=4815
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=4816|end_char=4819
+8	wachsenden	wachsend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=4820|end_char=4830
+9	Gebärmutter	Gebärmutter	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	conj	_	start_char=4831|end_char=4842
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=4842|end_char=4843
+
+# text = Die Haut wird im Alter schlaffer.
+# sent_id = 94
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=4845|end_char=4848
+2	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=4849|end_char=4853
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	cop	_	start_char=4854|end_char=4858
+4-5	im	_	_	_	_	_	_	_	start_char=4859|end_char=4861
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Alter	Alter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=4862|end_char=4867
+7	schlaffer	schlaff	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4868|end_char=4877
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=4877|end_char=4878
+
+# text = Auch die Venen werden im Alter schlaffer.
+# sent_id = 95
+1	Auch	auch	ADV	ADV	_	3	advmod	_	start_char=4879|end_char=4883
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=4884|end_char=4887
+3	Venen	Venen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=4888|end_char=4893
+4	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	cop	_	start_char=4894|end_char=4900
+5-6	im	_	_	_	_	_	_	_	start_char=4901|end_char=4903
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Alter	Alter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=4904|end_char=4909
+8	schlaffer	schlaff	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4910|end_char=4919
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=4919|end_char=4920
+
+# text = Das merken Sie vor allem in der zweiten Lebens-Hälfte.
+# sent_id = 96
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=4921|end_char=4924
+2	merken	merken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4925|end_char=4931
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=4932|end_char=4935
+4	vor	vor	ADP	APPR	_	5	case	_	start_char=4936|end_char=4939
+5	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	2	obl	_	start_char=4940|end_char=4945
+6	in	in	ADP	APPR	_	11	case	_	start_char=4946|end_char=4948
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=4949|end_char=4952
+8	zweiten	zweit	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	11	amod	_	start_char=4953|end_char=4960
+9	Lebens	Leben	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	compound	_	start_char=4961|end_char=4967
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=4967|end_char=4968
+11	Hälfte	Hälfte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=4968|end_char=4974
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=4974|end_char=4975
+
+# text = Manchmal sind Krampf-Adern angeboren.
+# sent_id = 97
+1	Manchmal	manchmal	ADV	ADV	_	6	advmod	_	start_char=4976|end_char=4984
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4985|end_char=4989
+3	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	compound	_	start_char=4990|end_char=4996
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=4996|end_char=4997
+5	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=4997|end_char=5002
+6	angeboren	angebor	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=5003|end_char=5012
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=5012|end_char=5013
+
+# text = Dann fehlen die Venen-Klappen.
+# sent_id = 98
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5014|end_char=5018
+2	fehlen	fehlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5019|end_char=5025
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=5026|end_char=5029
+4	Venen	Venen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	compound	_	start_char=5030|end_char=5035
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=5035|end_char=5036
+6	Klappen	Klappe	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=5036|end_char=5043
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=5043|end_char=5044
+
+# text = Sekundäre Varikose bedeutet: Krampf-Adern sind da, weil eine Krankheit sie verursacht hat.
+# sent_id = 99
+1	Sekundäre	sekundär	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=5046|end_char=5055
+2	Varikose	Varikose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5056|end_char=5064
+3	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5065|end_char=5073
+4	:	:	PUNCT	$.	_	8	punct	_	start_char=5073|end_char=5074
+5	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	compound	_	start_char=5075|end_char=5081
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=5081|end_char=5082
+7	Adern	Ader	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=5082|end_char=5087
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=5088|end_char=5092
+9	da	da	ADV	ADV	_	3	advmod	_	start_char=5093|end_char=5095
+10	,	,	PUNCT	$,	_	15	punct	_	start_char=5095|end_char=5096
+11	weil	weil	SCONJ	KOUS	_	15	mark	_	start_char=5097|end_char=5101
+12	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	13	det	_	start_char=5102|end_char=5106
+13	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=5107|end_char=5116
+14	sie	sie	PRON	PPER	Case=Acc|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=5117|end_char=5120
+15	verursacht	verursachen	VERB	VVPP	VerbForm=Part	8	advcl	_	start_char=5121|end_char=5131
+16	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=5132|end_char=5135
+17	.	.	PUNCT	$.	_	3	punct	_	start_char=5135|end_char=5136
+
+# text = Krampf-Adern können durch eine andere Krankheit entstehen.
+# sent_id = 100
+1	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	compound	_	start_char=5138|end_char=5144
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=5144|end_char=5145
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=5145|end_char=5150
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=5151|end_char=5157
+5	durch	durch	ADP	APPR	_	8	case	_	start_char=5158|end_char=5163
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=5164|end_char=5168
+7	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	8	det	_	start_char=5169|end_char=5175
+8	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	start_char=5176|end_char=5185
+9	entstehen	entstehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5186|end_char=5195
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=5195|end_char=5196
+
+# text = Das nennt man sekundäre Varikose.
+# sent_id = 101
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=5197|end_char=5200
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5201|end_char=5206
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=5207|end_char=5210
+4	sekundäre	sekundär	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=5211|end_char=5220
+5	Varikose	Varikose	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=5221|end_char=5229
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=5229|end_char=5230
+
+# text = Eine mögliche Ursache sind tiefe Beinvenenthrombosen.
+# sent_id = 102
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=5231|end_char=5235
+2	mögliche	möglich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=5236|end_char=5244
+3	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=5245|end_char=5252
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=5253|end_char=5257
+5	tiefe	tief	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=5258|end_char=5263
+6	Beinvenenthrombosen	Beinvenenthrombosen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=5264|end_char=5283
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=5283|end_char=5284
+
+# text = Bei einer Thrombose ist eine tiefe Beinvene verstopft.
+# sent_id = 103
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=5285|end_char=5288
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=5289|end_char=5294
+3	Thrombose	Thrombose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	start_char=5295|end_char=5304
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=5305|end_char=5308
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=5309|end_char=5313
+6	tiefe	tief	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=5314|end_char=5319
+7	Beinvene	Beinvene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=5320|end_char=5328
+8	verstopft	verstopfen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=5329|end_char=5338
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=5338|end_char=5339
+
+# text = Dann muss das Blut über die oberflächlichen Venen fließen.
+# sent_id = 104
+1	Dann	dann	ADV	ADV	_	9	advmod	_	start_char=5340|end_char=5344
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=5345|end_char=5349
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=5350|end_char=5353
+4	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=5354|end_char=5358
+5	über	über	ADP	APPR	_	8	case	_	start_char=5359|end_char=5363
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=5364|end_char=5367
+7	oberflächlichen	oberflächlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=5368|end_char=5383
+8	Venen	Venen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	start_char=5384|end_char=5389
+9	fließen	fließen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5390|end_char=5397
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=5397|end_char=5398
+
+# text = Die oberflächlichen Venen können das viele Blut nicht lange transportieren.
+# sent_id = 105
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=5399|end_char=5402
+2	oberflächlichen	oberflächlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=5403|end_char=5418
+3	Venen	Venen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=5419|end_char=5424
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=5425|end_char=5431
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=5432|end_char=5435
+6	viele	viel	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	7	det	_	start_char=5436|end_char=5441
+7	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=5442|end_char=5446
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=5447|end_char=5452
+9	lange	lange	ADV	ADV	_	10	advmod	_	start_char=5453|end_char=5458
+10	transportieren	transportieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5459|end_char=5473
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=5473|end_char=5474
+
+# text = Dann werden die oberflächlichen Venen schwach und bilden Krampf-Adern.
+# sent_id = 106
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=5475|end_char=5479
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	start_char=5480|end_char=5486
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=5487|end_char=5490
+4	oberflächlichen	oberflächlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=5491|end_char=5506
+5	Venen	Venen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=5507|end_char=5512
+6	schwach	schwach	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5513|end_char=5520
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=5521|end_char=5524
+8	bilden	bilden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=5525|end_char=5531
+9	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	compound	_	start_char=5532|end_char=5538
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=5538|end_char=5539
+11	Adern	Ader	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=5539|end_char=5544
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=5544|end_char=5545
+
+# text = Krampf-Adern können durch Herz-Schwäche entstehen.
+# sent_id = 107
+1	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	compound	_	start_char=5547|end_char=5553
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=5553|end_char=5554
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=5554|end_char=5559
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=5560|end_char=5566
+5	durch	durch	ADP	APPR	_	8	case	_	start_char=5567|end_char=5572
+6	Herz	Herz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	compound	_	start_char=5573|end_char=5577
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=5577|end_char=5578
+8	Schwäche	Schwäche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	start_char=5578|end_char=5586
+9	entstehen	entstehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5587|end_char=5596
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=5596|end_char=5597
+
+# text = Besonders wenn die rechte Seite des Herzens schwach ist.
+# sent_id = 108
+1	Besonders	besonders	ADV	ADV	_	8	advmod	_	start_char=5598|end_char=5607
+2	wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=5608|end_char=5612
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=5613|end_char=5616
+4	rechte	recht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=5617|end_char=5623
+5	Seite	Seite	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=5624|end_char=5629
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=5630|end_char=5633
+7	Herzens	Herz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=5634|end_char=5641
+8	schwach	schwach	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5642|end_char=5649
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=5650|end_char=5653
+10	.	.	PUNCT	$.	_	8	punct	_	start_char=5653|end_char=5654
+
+# text = Dann steigt der Druck in den Beinvenen.
+# sent_id = 109
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5655|end_char=5659
+2	steigt	steigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5660|end_char=5666
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=5667|end_char=5670
+4	Druck	Druck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=5671|end_char=5676
+5	in	in	ADP	APPR	_	7	case	_	start_char=5677|end_char=5679
+6	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=5680|end_char=5683
+7	Beinvenen	Beinven	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=5684|end_char=5693
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=5693|end_char=5694
+
+# text = Die Beine schwellen an und die Beinvenen erweitern sich.
+# sent_id = 110
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=5695|end_char=5698
+2	Beine	Bein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=5699|end_char=5704
+3	schwellen	schwellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5705|end_char=5714
+4	an	an	ADP	PTKVZ	_	3	compound:prt	_	start_char=5715|end_char=5717
+5	und	und	CCONJ	KON	_	8	cc	_	start_char=5718|end_char=5721
+6	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=5722|end_char=5725
+7	Beinvenen	Beinven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=5726|end_char=5735
+8	erweitern	erweitern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=5736|end_char=5745
+9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	start_char=5746|end_char=5750
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=5750|end_char=5751
+
+# text = Was ist der Unterschied zwischen primärer und sekundärer Varikose?
+# sent_id = 111
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=5753|end_char=5756
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=5757|end_char=5760
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=5761|end_char=5764
+4	Unterschied	Unterschied	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=5765|end_char=5776
+5	zwischen	zwischen	ADP	APPR	_	9	case	_	start_char=5777|end_char=5785
+6	primärer	primär	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=5786|end_char=5794
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=5795|end_char=5798
+8	sekundärer	sekundär	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	start_char=5799|end_char=5809
+9	Varikose	Varikose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	start_char=5810|end_char=5818
+10	?	?	PUNCT	$.	_	4	punct	_	start_char=5818|end_char=5819
+
+# text = Primäre Varikose entsteht von selbst.
+# sent_id = 112
+1	Primäre	primär	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=5820|end_char=5827
+2	Varikose	Varikose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5828|end_char=5836
+3	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5837|end_char=5845
+4	von	von	ADP	APPR	_	5	case	_	start_char=5846|end_char=5849
+5	selbst	selbst	ADV	ADV	_	3	advmod	_	start_char=5850|end_char=5856
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=5856|end_char=5857
+
+# text = Sekundäre Varikose entsteht durch eine andere Krankheit.
+# sent_id = 113
+1	Sekundäre	sekundär	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=5858|end_char=5867
+2	Varikose	Varikose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5868|end_char=5876
+3	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5877|end_char=5885
+4	durch	durch	ADP	APPR	_	7	case	_	start_char=5886|end_char=5891
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=5892|end_char=5896
+6	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	start_char=5897|end_char=5903
+7	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=5904|end_char=5913
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=5913|end_char=5914
+
+# text = Es gibt verschiedene Arten von Krampf-Adern.
+# sent_id = 114
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=5916|end_char=5918
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5919|end_char=5923
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=5924|end_char=5936
+4	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=5937|end_char=5942
+5	von	von	ADP	APPR	_	8	case	_	start_char=5943|end_char=5946
+6	Krampf	Krampf	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	compound	_	start_char=5947|end_char=5953
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=5953|end_char=5954
+8	Adern	Ader	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	start_char=5954|end_char=5959
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=5959|end_char=5960
+
+# text = Manchmal ist es schwer zu sagen, welche Art von Krampf-Adern Sie haben.
+# sent_id = 115
+1	Manchmal	manchmal	ADV	ADV	_	6	advmod	_	start_char=5961|end_char=5969
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	start_char=5970|end_char=5973
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	start_char=5974|end_char=5976
+4	schwer	schwer	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=5977|end_char=5983
+5	zu	zu	PART	PTKZU	_	6	mark	_	start_char=5984|end_char=5986
+6	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5987|end_char=5992
+7	,	,	PUNCT	$,	_	14	punct	_	start_char=5992|end_char=5993
+8	welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	9	det	_	start_char=5994|end_char=6000
+9	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=6001|end_char=6004
+10	von	von	ADP	APPR	_	13	case	_	start_char=6005|end_char=6008
+11	Krampf	Krampf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	compound	_	start_char=6009|end_char=6015
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=6015|end_char=6016
+13	Adern	Ader	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	start_char=6016|end_char=6021
+14	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	6	ccomp	_	start_char=6022|end_char=6025
+15	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=6026|end_char=6031
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=6031|end_char=6032
+
+# text = Das liegt daran, dass die verschiedenen Arten von Krampf-Adern oft ähnliche Symptome haben.
+# sent_id = 116
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=6033|end_char=6036
+2	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6037|end_char=6042
+3	daran	daran	ADV	PAV	PronType=Dem	2	advmod	_	start_char=6043|end_char=6048
+4	,	,	PUNCT	$,	_	16	punct	_	start_char=6048|end_char=6049
+5	dass	dass	SCONJ	KOUS	_	16	mark	_	start_char=6050|end_char=6054
+6	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=6055|end_char=6058
+7	verschiedenen	verschieden	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=6059|end_char=6072
+8	Arten	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	start_char=6073|end_char=6078
+9	von	von	ADP	APPR	_	12	case	_	start_char=6079|end_char=6082
+10	Krampf	Krampf	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	compound	_	start_char=6083|end_char=6089
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=6089|end_char=6090
+12	Adern	Ader	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	nmod	_	start_char=6090|end_char=6095
+13	oft	oft	ADV	ADV	_	16	advmod	_	start_char=6096|end_char=6099
+14	ähnliche	ähnlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	start_char=6100|end_char=6108
+15	Symptome	Symptom	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	obj	_	start_char=6109|end_char=6117
+16	haben	haben	VERB	VAINF	Number=Plur|VerbForm=Inf	3	acl	_	start_char=6118|end_char=6123
+17	.	.	PUNCT	$.	_	2	punct	_	start_char=6123|end_char=6124
+
+# text = Aber es ist wichtig zu wissen, welche Art von Krampf-Adern Sie haben.
+# sent_id = 117
+1	Aber	aber	CCONJ	KON	_	4	cc	_	start_char=6125|end_char=6129
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=6130|end_char=6132
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=6133|end_char=6136
+4	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=6137|end_char=6144
+5	zu	zu	PART	PTKZU	_	6	mark	_	start_char=6145|end_char=6147
+6	wissen	wissen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	start_char=6148|end_char=6154
+7	,	,	PUNCT	$,	_	14	punct	_	start_char=6154|end_char=6155
+8	welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	9	det	_	start_char=6156|end_char=6162
+9	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	start_char=6163|end_char=6166
+10	von	von	ADP	APPR	_	13	case	_	start_char=6167|end_char=6170
+11	Krampf	Krampf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	compound	_	start_char=6171|end_char=6177
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=6177|end_char=6178
+13	Adern	Ader	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	start_char=6178|end_char=6183
+14	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=6184|end_char=6187
+15	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=6188|end_char=6193
+16	.	.	PUNCT	$.	_	4	punct	_	start_char=6193|end_char=6194
+
+# text = Denn dann kann der Arzt Sie besser beraten und behandeln.
+# sent_id = 118
+1	Denn	denn	CCONJ	KON	_	8	cc	_	start_char=6195|end_char=6199
+2	dann	dann	ADV	ADV	_	8	advmod	_	start_char=6200|end_char=6204
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=6205|end_char=6209
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=6210|end_char=6213
+5	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=6214|end_char=6218
+6	Sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	obj	_	start_char=6219|end_char=6222
+7	besser	gut	ADV	ADJD	_	8	advmod	_	start_char=6223|end_char=6229
+8	beraten	beraten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6230|end_char=6237
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=6238|end_char=6241
+10	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	8	conj	_	start_char=6242|end_char=6251
+11	.	.	PUNCT	$.	_	8	punct	_	start_char=6251|end_char=6252
+
+# text = Deshalb sollten Sie zu einem Venenspezialisten gehen.
+# sent_id = 119
+1	Deshalb	deshalb	ADV	PAV	_	7	advmod	_	start_char=6253|end_char=6260
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=6261|end_char=6268
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	start_char=6269|end_char=6272
+4	zu	zu	ADP	APPR	_	6	case	_	start_char=6273|end_char=6275
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=6276|end_char=6281
+6	Venenspezialisten	Venenspezialist	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=6282|end_char=6299
+7	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6300|end_char=6305
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=6305|end_char=6306
+
+# text = Ein Venenspezialist heißt auch Phlebologe.
+# sent_id = 120
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=6307|end_char=6310
+2	Venenspezialist	Venenspezialist	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=6311|end_char=6326
+3	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6327|end_char=6332
+4	auch	auch	ADV	ADV	_	3	advmod	_	start_char=6333|end_char=6337
+5	Phlebologe	Phlebologe	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	start_char=6338|end_char=6348
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=6348|end_char=6349
+
+# text = Krampf-Adern können sich so anfühlen: - Die Beine sind schwer.
+# sent_id = 121
+1	Krampf	Krampf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=6351|end_char=6357
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=6357|end_char=6358
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	start_char=6358|end_char=6363
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=6364|end_char=6370
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=6371|end_char=6375
+6	so	so	ADV	ADV	_	7	advmod	_	start_char=6376|end_char=6378
+7	anfühlen	anfühlen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6379|end_char=6387
+8	:	:	PUNCT	$.	_	13	punct	_	start_char=6387|end_char=6388
+9	-	-	PUNCT	$(	_	13	punct	_	start_char=6389|end_char=6390
+10	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=6391|end_char=6394
+11	Beine	Bein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=6395|end_char=6400
+12	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=6401|end_char=6405
+13	schwer	schwer	ADJ	ADJD	Degree=Pos	7	parataxis	_	start_char=6406|end_char=6412
+14	.	.	PUNCT	$.	_	7	punct	_	start_char=6412|end_char=6413
+
+# text = - Die Beine sind geschwollen.
+# sent_id = 122
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=6414|end_char=6415
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=6416|end_char=6419
+3	Beine	Bein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=6420|end_char=6425
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=6426|end_char=6430
+5	geschwollen	geschwoll	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=6431|end_char=6442
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=6442|end_char=6443
+
+# text = - Die Beine schmerzen. - Die Beine jucken.
+# sent_id = 123
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=6444|end_char=6445
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=6446|end_char=6449
+3	Beine	Bein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=6450|end_char=6455
+4	schmerzen.	schmerzen	VERB	VVFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6456|end_char=6466
+5	-	-	PUNCT	$(	_	7	punct	_	start_char=6467|end_char=6468
+6	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=6469|end_char=6472
+7	Beine	Bein	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	start_char=6473|end_char=6478
+8	jucken	jucken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=6479|end_char=6485
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=6485|end_char=6486
+
+# text = Krampf-Adern können schon bei jungen Menschen auftreten.
+# sent_id = 124
+1	Krampf	Krampf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=6488|end_char=6494
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=6494|end_char=6495
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	start_char=6495|end_char=6500
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=6501|end_char=6507
+5	schon	schon	ADV	ADV	_	9	advmod	_	start_char=6508|end_char=6513
+6	bei	bei	ADP	APPR	_	8	case	_	start_char=6514|end_char=6517
+7	jungen	jung	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=6518|end_char=6524
+8	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	start_char=6525|end_char=6533
+9	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6534|end_char=6543
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=6543|end_char=6544
+
+# text = Mit der Zeit sieht man die Krampf-Adern immer besser.
+# sent_id = 125
+1	Mit	mit	ADP	APPR	_	3	case	_	start_char=6545|end_char=6548
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=6549|end_char=6552
+3	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=6553|end_char=6557
+4	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6558|end_char=6563
+5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=6564|end_char=6567
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=6568|end_char=6571
+7	Krampf	Krampf	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	compound	_	start_char=6572|end_char=6578
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=6578|end_char=6579
+9	Adern	Ader	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=6579|end_char=6584
+10	immer	immer	ADV	ADV	_	11	advmod	_	start_char=6585|end_char=6590
+11	besser	gut	ADJ	ADJD	Degree=Cmp	4	advmod	_	start_char=6591|end_char=6597
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=6597|end_char=6598
+
+# text = Die Krampf-Adern sehen aus wie blaue, dicke Adern.
+# sent_id = 126
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=6599|end_char=6602
+2	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	start_char=6603|end_char=6609
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=6609|end_char=6610
+4	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=6610|end_char=6615
+5	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6616|end_char=6621
+6	aus	aus	ADP	PTKVZ	_	5	compound:prt	_	start_char=6622|end_char=6625
+7	wie	wie	ADP	KOKOM	_	11	case	_	start_char=6626|end_char=6629
+8	blaue	blau	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=6630|end_char=6635
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=6635|end_char=6636
+10	dicke	dick	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	conj	_	start_char=6637|end_char=6642
+11	Adern	Ader	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	obl	_	start_char=6643|end_char=6648
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=6648|end_char=6649
+
+# text = Manchmal sehen die Krampf-Adern auch aus wie dicke Stränge oder Knoten.
+# sent_id = 127
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=6650|end_char=6658
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6659|end_char=6664
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=6665|end_char=6668
+4	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	compound	_	start_char=6669|end_char=6675
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=6675|end_char=6676
+6	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=6676|end_char=6681
+7	auch	auch	ADV	ADV	_	2	advmod	_	start_char=6682|end_char=6686
+8	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	start_char=6687|end_char=6690
+9	wie	wie	ADP	KOKOM	_	11	case	_	start_char=6691|end_char=6694
+10	dicke	dick	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=6695|end_char=6700
+11	Stränge	Stränge	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	obl	_	start_char=6701|end_char=6708
+12	oder	oder	CCONJ	KON	_	13	cc	_	start_char=6709|end_char=6713
+13	Knoten	Knoten	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	conj	_	start_char=6714|end_char=6720
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=6720|end_char=6721
+
+# text = Die Krampf-Adern können an verschiedenen Stellen auftreten.
+# sent_id = 128
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=6722|end_char=6725
+2	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	compound	_	start_char=6726|end_char=6732
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=6732|end_char=6733
+4	Adern	Ader	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=6733|end_char=6738
+5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=6739|end_char=6745
+6	an	an	ADP	APPR	_	8	case	_	start_char=6746|end_char=6748
+7	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=6749|end_char=6762
+8	Stellen	Stelle|Stellen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	start_char=6763|end_char=6770
+9	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6771|end_char=6780
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=6780|end_char=6781
+
+# text = Zum Beispiel an den großen und kleinen Rosenvenen.
+# sent_id = 129
+1-2	Zum	_	_	_	_	_	_	_	start_char=6782|end_char=6785
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	start_char=6786|end_char=6794
+4	an	an	ADP	APPR	_	9	case	_	start_char=6795|end_char=6797
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=6798|end_char=6801
+6	großen	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=6802|end_char=6808
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=6809|end_char=6812
+8	kleinen	klein	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	6	conj	_	start_char=6813|end_char=6820
+9	Rosenvenen	Rosenvene	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	0	root	_	start_char=6821|end_char=6831
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=6831|end_char=6832
+
+# text = Große Krampf-Adern können weh tun.
+# sent_id = 130
+1	Große	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=6834|end_char=6839
+2	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	start_char=6840|end_char=6846
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=6846|end_char=6847
+4	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=6847|end_char=6852
+5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=6853|end_char=6859
+6	weh	weh	ADV	ADV	_	7	advmod	_	start_char=6860|end_char=6863
+7	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6864|end_char=6867
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=6867|end_char=6868
+
+# text = Besenreiser tun meistens nicht weh.
+# sent_id = 131
+1	Besenreiser	Besenreiser	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=6869|end_char=6880
+2	tun	tun	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6881|end_char=6884
+3	meistens	meistens	ADV	ADV	_	2	advmod	_	start_char=6885|end_char=6893
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=6894|end_char=6899
+5	weh	weh	ADV	PTKVZ	_	2	compound:prt	_	start_char=6900|end_char=6903
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=6903|end_char=6904
+
+# text = Krampf-Adern können zum Beispiel diese Beschwerden machen: - Die Beine fühlen sich schwer an. - Die Beine spannen. - Die Beine tun weh, wenn man lange steht oder sitzt.
+# sent_id = 132
+1	Krampf	Krampf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=6905|end_char=6911
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=6911|end_char=6912
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	start_char=6912|end_char=6917
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=6918|end_char=6924
+5-6	zum	_	_	_	_	_	_	_	start_char=6925|end_char=6928
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=6929|end_char=6937
+8	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	start_char=6938|end_char=6943
+9	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=6944|end_char=6955
+10	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6956|end_char=6962
+11	:	:	PUNCT	$.	_	15	punct	_	start_char=6962|end_char=6963
+12	-	-	PUNCT	$(	_	15	punct	_	start_char=6964|end_char=6965
+13	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	14	det	_	start_char=6966|end_char=6969
+14	Beine	Bein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	start_char=6970|end_char=6975
+15	fühlen	fühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	start_char=6976|end_char=6982
+16	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	15	obj	_	start_char=6983|end_char=6987
+17	schwer	schwer	ADJ	ADJD	Degree=Pos	15	advmod	_	start_char=6988|end_char=6994
+18	an	an	ADP	PTKVZ	_	15	compound:prt	_	start_char=6995|end_char=6997
+19	.	.	PUNCT	$.	_	23	punct	_	start_char=6997|end_char=6998
+20	-	-	PUNCT	$(	_	23	punct	_	start_char=6999|end_char=7000
+21	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	22	det	_	start_char=7001|end_char=7004
+22	Beine	Bein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	start_char=7005|end_char=7010
+23	spannen	spannen|spinnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	start_char=7011|end_char=7018
+24	.	.	PUNCT	$.	_	28	punct	_	start_char=7018|end_char=7019
+25	-	-	PUNCT	$(	_	28	punct	_	start_char=7020|end_char=7021
+26	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	27	det	_	start_char=7022|end_char=7025
+27	Beine	Bein	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	28	nsubj	_	start_char=7026|end_char=7031
+28	tun	tun	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	start_char=7032|end_char=7035
+29	weh	weh	ADV	PTKVZ	_	28	compound:prt	_	start_char=7036|end_char=7039
+30	,	,	PUNCT	$,	_	34	punct	_	start_char=7039|end_char=7040
+31	wenn	wenn	SCONJ	KOUS	_	34	mark	_	start_char=7041|end_char=7045
+32	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	34	nsubj	_	start_char=7046|end_char=7049
+33	lange	lange	ADV	ADV	_	34	advmod	_	start_char=7050|end_char=7055
+34	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	start_char=7056|end_char=7061
+35	oder	oder	CCONJ	KON	_	36	cc	_	start_char=7062|end_char=7066
+36	sitzt	sitzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	conj	_	start_char=7067|end_char=7072
+37	.	.	PUNCT	$.	_	10	punct	_	start_char=7072|end_char=7073
+
+# text = Die Beschwerden werden schlimmer: - im Laufe des Tages - bei warmem Wetter - bei Frauen kurz vor der Regel Was hilft gegen die Beschwerden? - Die Beine hochlegen - Die Beine kühlen
+# sent_id = 133
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=7074|end_char=7077
+2	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=7078|end_char=7089
+3	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7090|end_char=7096
+4	schlimmer	schlimm	ADJ	ADJD	Degree=Cmp	3	xcomp	_	start_char=7097|end_char=7106
+5	:	:	PUNCT	$.	_	9	punct	_	start_char=7106|end_char=7107
+6	-	-	PUNCT	$(	_	9	punct	_	start_char=7108|end_char=7109
+7-8	im	_	_	_	_	_	_	_	start_char=7110|end_char=7112
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Laufe	Lauf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=7113|end_char=7118
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=7119|end_char=7122
+11	Tages	Tag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=7123|end_char=7128
+12	-	-	PUNCT	$(	_	15	punct	_	start_char=7129|end_char=7130
+13	bei	bei	ADP	APPR	_	15	case	_	start_char=7131|end_char=7134
+14	warmem	warm	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	start_char=7135|end_char=7141
+15	Wetter	Wetter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	start_char=7142|end_char=7148
+16	-	-	PUNCT	$(	_	24	punct	_	start_char=7149|end_char=7150
+17	bei	bei	ADP	APPR	_	18	case	_	start_char=7151|end_char=7154
+18	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	24	obl	_	start_char=7155|end_char=7161
+19	kurz	kurz	ADV	ADJD	_	22	advmod	_	start_char=7162|end_char=7166
+20	vor	vor	ADP	APPR	_	22	case	_	start_char=7167|end_char=7170
+21	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=7171|end_char=7174
+22	Regel	Regel	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	obl	_	start_char=7175|end_char=7180
+23	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	24	nsubj	_	start_char=7181|end_char=7184
+24	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=7185|end_char=7190
+25	gegen	gegen	ADP	APPR	_	27	case	_	start_char=7191|end_char=7196
+26	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	27	det	_	start_char=7197|end_char=7200
+27	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obl	_	start_char=7201|end_char=7212
+28	?	?	PUNCT	$.	_	32	punct	_	start_char=7212|end_char=7213
+29	-	-	PUNCT	$(	_	32	punct	_	start_char=7214|end_char=7215
+30	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	31	det	_	start_char=7216|end_char=7219
+31	Beine	Bein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	start_char=7220|end_char=7225
+32	hochlegen	hochlegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	parataxis	_	start_char=7226|end_char=7235
+33	-	-	PUNCT	$(	_	36	punct	_	start_char=7236|end_char=7237
+34	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	35	det	_	start_char=7238|end_char=7241
+35	Beine	Bein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	36	nsubj	_	start_char=7242|end_char=7247
+36	kühlen	kühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	conj	_	start_char=7248|end_char=7254
+
+# text = Manche Menschen haben Probleme mit ihren Beinen.
+# sent_id = 134
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=7256|end_char=7262
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=7263|end_char=7271
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7272|end_char=7277
+4	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=7278|end_char=7286
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=7287|end_char=7290
+6	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=7291|end_char=7296
+7	Beinen	Bein|Reinen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	start_char=7297|end_char=7303
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=7303|end_char=7304
+
+# text = Diese Probleme sind zum Beispiel: - komische Gefühle in den Beinen - die Beine fühlen sich warm an - die Beine sind unruhig - Krämpfe in den Waden, besonders nachts.
+# sent_id = 135
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	start_char=7305|end_char=7310
+2	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	start_char=7311|end_char=7319
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=7320|end_char=7324
+4-5	zum	_	_	_	_	_	_	_	start_char=7325|end_char=7328
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	start_char=7329|end_char=7337
+7	:	:	PUNCT	$.	_	10	punct	_	start_char=7337|end_char=7338
+8	-	-	PUNCT	$(	_	6	punct	_	start_char=7339|end_char=7340
+9	komische	komisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	start_char=7341|end_char=7349
+10	Gefühle	Gefühl	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=7350|end_char=7357
+11	in	in	ADP	APPR	_	13	case	_	start_char=7358|end_char=7360
+12	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=7361|end_char=7364
+13	Beinen	Bein|Reinen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	nmod	_	start_char=7365|end_char=7371
+14	-	-	PUNCT	$(	_	17	punct	_	start_char=7372|end_char=7373
+15	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	16	det	_	start_char=7374|end_char=7377
+16	Beine	Bein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	start_char=7378|end_char=7383
+17	fühlen	fühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	start_char=7384|end_char=7390
+18	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	start_char=7391|end_char=7395
+19	warm	warm	ADJ	ADJD	Degree=Pos	17	advmod	_	start_char=7396|end_char=7400
+20	an	an	ADP	PTKVZ	_	17	compound:prt	_	start_char=7401|end_char=7403
+21	-	-	PUNCT	$(	_	27	punct	_	start_char=7404|end_char=7405
+22	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	23	det	_	start_char=7406|end_char=7409
+23	Beine	Bein	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	25	nsubj	_	start_char=7410|end_char=7415
+24	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	start_char=7416|end_char=7420
+25	unruhig	unruhig	ADJ	ADJD	Degree=Pos	27	compound	_	start_char=7421|end_char=7428
+26	-	-	PUNCT	$(	_	25	punct	_	start_char=7429|end_char=7430
+27	Krämpfe	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	conj	_	start_char=7431|end_char=7438
+28	in	in	ADP	APPR	_	30	case	_	start_char=7439|end_char=7441
+29	den	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	30	det	_	start_char=7442|end_char=7445
+30	Waden	Waden	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	27	nmod	_	start_char=7446|end_char=7451
+31	,	,	PUNCT	$,	_	33	punct	_	start_char=7451|end_char=7452
+32	besonders	besonders	ADV	ADV	_	33	advmod	_	start_char=7453|end_char=7462
+33	nachts	nachts	ADV	ADV	_	27	conj	_	start_char=7463|end_char=7469
+34	.	.	PUNCT	$.	_	10	punct	_	start_char=7469|end_char=7470
+
+# text = Die Krämpfe kommen aber nicht von Krampf-Adern.
+# sent_id = 136
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=7471|end_char=7474
+2	Krämpfe	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=7475|end_char=7482
+3	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7483|end_char=7489
+4	aber	aber	ADV	ADV	_	3	advmod	_	start_char=7490|end_char=7494
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=7495|end_char=7500
+6	von	von	ADP	APPR	_	9	case	_	start_char=7501|end_char=7504
+7	Krampf	Krampf	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	compound	_	start_char=7505|end_char=7511
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=7511|end_char=7512
+9	Adern	Ader	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	start_char=7512|end_char=7517
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=7517|end_char=7518
+
+# text = Die Krämpfe kommen meistens von anderen Problemen.
+# sent_id = 137
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=7519|end_char=7522
+2	Krämpfe	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=7523|end_char=7530
+3	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7531|end_char=7537
+4	meistens	meistens	ADV	ADV	_	3	advmod	_	start_char=7538|end_char=7546
+5	von	von	ADP	APPR	_	7	case	_	start_char=7547|end_char=7550
+6	anderen	anderer	DET	ADJA	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	7	det	_	start_char=7551|end_char=7558
+7	Problemen	Problem	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	start_char=7559|end_char=7568
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=7568|end_char=7569
+
+# text = Diese Probleme sind zum Beispiel: - zu viel Belastung auf den Gelenken - zu hartes Training.
+# sent_id = 138
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	start_char=7570|end_char=7575
+2	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	start_char=7576|end_char=7584
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=7585|end_char=7589
+4-5	zum	_	_	_	_	_	_	_	start_char=7590|end_char=7593
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	start_char=7594|end_char=7602
+7	:	:	PUNCT	$.	_	11	punct	_	start_char=7602|end_char=7603
+8	-	-	PUNCT	$(	_	11	punct	_	start_char=7604|end_char=7605
+9	zu	zu	ADV	PTKA	_	10	advmod	_	start_char=7606|end_char=7608
+10	viel	viel	DET	PIAT	PronType=Ind	11	det	_	start_char=7609|end_char=7613
+11	Belastung	Belastung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7614|end_char=7623
+12	auf	auf	ADP	APPR	_	14	case	_	start_char=7624|end_char=7627
+13	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	14	det	_	start_char=7628|end_char=7631
+14	Gelenken	Gelenk	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	18	compound	_	start_char=7632|end_char=7640
+15	-	-	PUNCT	$(	_	17	punct	_	start_char=7641|end_char=7642
+16	zu	zu	ADV	PTKA	_	17	advmod	_	start_char=7643|end_char=7645
+17	hartes	hart	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=7646|end_char=7652
+18	Training	Training	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nmod	_	start_char=7653|end_char=7661
+19	.	.	PUNCT	$.	_	3	punct	_	start_char=7661|end_char=7662
+
+# text = Manchmal schwellen Körper-Teile an.
+# sent_id = 139
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=7664|end_char=7672
+2	schwellen	schwellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7673|end_char=7682
+3	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	compound	_	start_char=7683|end_char=7689
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=7689|end_char=7690
+5	Teile	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=7690|end_char=7695
+6	an	an	ADP	PTKVZ	_	2	compound:prt	_	start_char=7696|end_char=7698
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=7698|end_char=7699
+
+# text = Das nennt man Ödeme.
+# sent_id = 140
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=7700|end_char=7703
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7704|end_char=7709
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=7710|end_char=7713
+4	Ödeme	Ödeme	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=7714|end_char=7719
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=7719|end_char=7720
+
+# text = Ödeme können schlimmer werden.
+# sent_id = 141
+1	Ödeme	Ödeme	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=7721|end_char=7726
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=7727|end_char=7733
+3	schlimmer	schlimm	ADJ	ADJD	Degree=Cmp	4	xcomp	_	start_char=7734|end_char=7743
+4	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=7744|end_char=7750
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=7750|end_char=7751
+
+# text = Das passiert, wenn die Venen krank sind.
+# sent_id = 142
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=7752|end_char=7755
+2	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7756|end_char=7764
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=7764|end_char=7765
+4	wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=7766|end_char=7770
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=7771|end_char=7774
+6	Venen	Venen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=7775|end_char=7780
+7	krank	krank	ADJ	ADJD	Degree=Pos	2	advcl	_	start_char=7781|end_char=7786
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=7787|end_char=7791
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=7791|end_char=7792
+
+# text = Dann ist zu viel Blut in den Venen.
+# sent_id = 143
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=7793|end_char=7797
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7798|end_char=7801
+3	zu	zu	ADV	PTKA	_	4	advmod	_	start_char=7802|end_char=7804
+4	viel	viel	DET	PIAT	PronType=Ind	5	det	_	start_char=7805|end_char=7809
+5	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	nsubj	_	start_char=7810|end_char=7814
+6	in	in	ADP	APPR	_	8	case	_	start_char=7815|end_char=7817
+7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=7818|end_char=7821
+8	Venen	Venen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	start_char=7822|end_char=7827
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=7827|end_char=7828
+
+# text = Das Blut drückt dann Flüssigkeit in das Gewebe drumherum.
+# sent_id = 144
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=7829|end_char=7832
+2	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=7833|end_char=7837
+3	drückt	drücken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7838|end_char=7844
+4	dann	dann	ADV	ADV	_	3	advmod	_	start_char=7845|end_char=7849
+5	Flüssigkeit	Flüssigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=7850|end_char=7861
+6	in	in	ADP	APPR	_	8	case	_	start_char=7862|end_char=7864
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=7865|end_char=7868
+8	Gewebe	Gewebe	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	start_char=7869|end_char=7875
+9	drumherum	drumherum	ADV	PTKVZ	_	3	compound:prt	_	start_char=7876|end_char=7885
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=7885|end_char=7886
+
+# text = Krampf-Adern können Probleme machen.
+# sent_id = 145
+1	Krampf	Krampf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=7888|end_char=7894
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=7894|end_char=7895
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	start_char=7895|end_char=7900
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=7901|end_char=7907
+5	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=7908|end_char=7916
+6	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7917|end_char=7923
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=7923|end_char=7924
+
+# text = Zum Beispiel: - Haut-Veränderungen - Blutungen - Thrombosen - Entzündungen.
+# sent_id = 146
+1-2	Zum	_	_	_	_	_	_	_	start_char=7925|end_char=7928
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	start_char=7929|end_char=7937
+4	:	:	PUNCT	$.	_	8	punct	_	start_char=7937|end_char=7938
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=7939|end_char=7940
+6	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	compound	_	start_char=7941|end_char=7945
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=7945|end_char=7946
+8	Veränderungen	Veränderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	compound	_	start_char=7946|end_char=7959
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=7960|end_char=7961
+10	Blutungen	Blutung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	compound	_	start_char=7962|end_char=7971
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=7972|end_char=7973
+12	Thrombosen	Thrombose	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	compound	_	start_char=7974|end_char=7984
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=7985|end_char=7986
+14	Entzündungen	Entzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=7987|end_char=7999
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=7999|end_char=8000
+
+# text = Krampf-Adern können Probleme machen.
+# sent_id = 147
+1	Krampf	Krampf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=8002|end_char=8008
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=8008|end_char=8009
+3	Adern	Ader	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	start_char=8009|end_char=8014
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=8015|end_char=8021
+5	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=8022|end_char=8030
+6	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8031|end_char=8037
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=8037|end_char=8038
+
+# text = Zum Beispiel:
+# sent_id = 148
+1-2	Zum	_	_	_	_	_	_	_	start_char=8039|end_char=8042
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	start_char=8043|end_char=8051
+4	:	:	PUNCT	$.	_	3	punct	_	start_char=8051|end_char=8052
+
+# text = Es gibt verschiedene Probleme mit den Venen.
+# sent_id = 149
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=8054|end_char=8056
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8057|end_char=8061
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	start_char=8062|end_char=8074
+4	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=8075|end_char=8083
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=8084|end_char=8087
+6	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=8088|end_char=8091
+7	Venen	Venen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	start_char=8092|end_char=8097
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=8097|end_char=8098
+
+# text = Zum Beispiel: - Entzündung der Venen - Thrombose (Blutgerinnsel in den Venen) - Lungenembolie - chronisch-venöse Insuffizienz - Blutung aus Krampf-Adern
+# sent_id = 150
+1-2	Zum	_	_	_	_	_	_	_	start_char=8099|end_char=8102
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=8103|end_char=8111
+4	:	:	PUNCT	$.	_	6	punct	_	start_char=8111|end_char=8112
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=8113|end_char=8114
+6	Entzündung	Entzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=8115|end_char=8125
+7	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=8126|end_char=8129
+8	Venen	Venen	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	compound	_	start_char=8130|end_char=8135
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=8136|end_char=8137
+10	Thrombose	Thrombose	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=8138|end_char=8147
+11	(	(	PUNCT	$(	_	12	punct	_	start_char=8148|end_char=8149
+12	Blutgerinnsel	Blutgerinnsel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	start_char=8149|end_char=8162
+13	in	in	ADP	APPR	_	15	case	_	start_char=8163|end_char=8165
+14	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=8166|end_char=8169
+15	Venen	Venen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	nmod	_	start_char=8170|end_char=8175
+16	)	)	PUNCT	$(	_	12	punct	_	start_char=8175|end_char=8176
+17	-	-	PUNCT	$(	_	20	punct	_	start_char=8177|end_char=8178
+18	Lungenembolie	Lungenembolie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	compound	_	start_char=8179|end_char=8192
+19	-	-	PUNCT	$(	_	20	punct	_	start_char=8193|end_char=8194
+20	chronisch	chronisch	ADJ	ADJA	Degree=Pos	22	compound	_	start_char=8195|end_char=8204
+21	-	-	PUNCT	$(	_	20	punct	_	start_char=8204|end_char=8205
+22	venöse	venös	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=8205|end_char=8211
+23	Insuffizienz	Insuffizienz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	compound	_	start_char=8212|end_char=8224
+24	-	-	PUNCT	$(	_	23	punct	_	start_char=8225|end_char=8226
+25	Blutung	Blutung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	start_char=8227|end_char=8234
+26	aus	aus	ADP	APPR	_	29	case	_	start_char=8235|end_char=8238
+27	Krampf	Krampf	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	29	compound	_	start_char=8239|end_char=8245
+28	-	-	PUNCT	$(	_	27	punct	_	start_char=8245|end_char=8246
+29	Adern	Ader	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	start_char=8246|end_char=8251
+
+# text = Achtung: Sie haben plötzlich Schmerzen oder Schwellungen im Bein?
+# sent_id = 151
+1	Achtung	Achtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=8253|end_char=8260
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=8260|end_char=8261
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=8262|end_char=8265
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	appos	_	start_char=8266|end_char=8271
+5	plötzlich	plötzlich	ADV	ADJD	_	4	advmod	_	start_char=8272|end_char=8281
+6	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=8282|end_char=8291
+7	oder	oder	CCONJ	KON	_	8	cc	_	start_char=8292|end_char=8296
+8	Schwellungen	Schwellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	start_char=8297|end_char=8309
+9-10	im	_	_	_	_	_	_	_	start_char=8310|end_char=8312
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Bein	Bein	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=8313|end_char=8317
+12	?	?	PUNCT	$.	_	4	punct	_	start_char=8317|end_char=8318
+
+# text = Dann gehen Sie sofort zum Arzt.
+# sent_id = 152
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=8319|end_char=8323
+2	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8324|end_char=8329
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=8330|end_char=8333
+4	sofort	sofort	ADV	ADV	_	2	advmod	_	start_char=8334|end_char=8340
+5-6	zum	_	_	_	_	_	_	_	start_char=8341|end_char=8344
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=8345|end_char=8349
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=8349|end_char=8350
+
+# text = Sie haben plötzlich Atem-Not und Brust-Schmerzen?
+# sent_id = 153
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=8351|end_char=8354
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8355|end_char=8360
+3	plötzlich	plötzlich	ADV	ADJD	_	2	advmod	_	start_char=8361|end_char=8370
+4	Atem	Atem	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	compound	_	start_char=8371|end_char=8375
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=8375|end_char=8376
+6	Not	Not	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=8376|end_char=8379
+7	und	und	CCONJ	KON	_	10	cc	_	start_char=8380|end_char=8383
+8	Brust	Brust	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	compound	_	start_char=8384|end_char=8389
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=8389|end_char=8390
+10	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	start_char=8390|end_char=8399
+11	?	?	PUNCT	$.	_	2	punct	_	start_char=8399|end_char=8400
+
+# text = Dann rufen Sie sofort den Not-Arzt.
+# sent_id = 154
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=8401|end_char=8405
+2	rufen	rufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8406|end_char=8411
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=8412|end_char=8415
+4	sofort	sofort	ADV	ADV	_	2	advmod	_	start_char=8416|end_char=8422
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=8423|end_char=8426
+6	Not	Not	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=8427|end_char=8430
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=8430|end_char=8431
+8	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=8431|end_char=8435
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=8435|end_char=8436
+
+# text = Die Not-Ruf-Nummer ist 112.
+# sent_id = 155
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=8437|end_char=8440
+2	Not	Not	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	start_char=8441|end_char=8444
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=8444|end_char=8445
+4	Ruf	Ruf	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=8445|end_char=8448
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=8448|end_char=8449
+6	Nummer	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	flat	_	start_char=8449|end_char=8455
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=8456|end_char=8459
+8	112	112	NUM	CARD	NumType=Card	0	root	_	start_char=8460|end_char=8463
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=8463|end_char=8464
+
+# text = Vielleicht haben Sie eine Thrombose im Bein.
+# sent_id = 156
+1	Vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	start_char=8465|end_char=8475
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8476|end_char=8481
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=8482|end_char=8485
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=8486|end_char=8490
+5	Thrombose	Thrombose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=8491|end_char=8500
+6-7	im	_	_	_	_	_	_	_	start_char=8501|end_char=8503
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Bein	Bein	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=8504|end_char=8508
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=8508|end_char=8509
+
+# text = Oder vielleicht haben Sie eine Lungenembolie.
+# sent_id = 157
+1	Oder	Oder	CCONJ	KON	_	3	cc	_	start_char=8510|end_char=8514
+2	vielleicht	vielleicht	ADV	ADV	_	3	advmod	_	start_char=8515|end_char=8525
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8526|end_char=8531
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=8532|end_char=8535
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=8536|end_char=8540
+6	Lungenembolie	Lungenembolie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=8541|end_char=8554
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=8554|end_char=8555
+

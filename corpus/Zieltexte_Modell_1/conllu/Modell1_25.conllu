@@ -1,0 +1,661 @@
+# text = ﻿
+# sent_id = 0
+1	﻿	"	PUNCT	$(	_	0	root	_	start_char=0|end_char=1
+
+# text = Sie nehmen Medikamente ein?
+# sent_id = 1
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=3|end_char=6
+2	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7|end_char=13
+3	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=14|end_char=25
+4	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	start_char=26|end_char=29
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=29|end_char=30
+
+# text = Dann lesen Sie immer den Beipackzettel.
+# sent_id = 2
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=31|end_char=35
+2	lesen	lesen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=36|end_char=41
+3	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=42|end_char=45
+4	immer	immer	ADV	ADV	_	2	advmod	_	start_char=46|end_char=51
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=52|end_char=55
+6	Beipackzettel	Beipackzettel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=56|end_char=69
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=69|end_char=70
+
+# text = Auf dem Beipackzettel steht, wie Sie das Medikament richtig anwenden.
+# sent_id = 3
+1	Auf	auf	ADP	APPR	_	3	case	_	start_char=71|end_char=74
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=75|end_char=78
+3	Beipackzettel	Beipackzettel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=79|end_char=92
+4	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=93|end_char=98
+5	,	,	PUNCT	$,	_	11	punct	_	start_char=98|end_char=99
+6	wie	wie	ADV	KOUS	PronType=Int	11	advmod	_	start_char=100|end_char=103
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=104|end_char=107
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=108|end_char=111
+9	Medikament	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=112|end_char=122
+10	richtig	richtig	ADV	ADJD	_	11	advmod	_	start_char=123|end_char=130
+11	anwenden	anwenden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=131|end_char=139
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=139|end_char=140
+
+# text = Und auf dem Beipackzettel steht, welche Nebenwirkungen das Medikament haben kann.
+# sent_id = 4
+1	Und	und	CCONJ	KON	_	5	cc	_	start_char=141|end_char=144
+2	auf	auf	ADP	APPR	_	4	case	_	start_char=145|end_char=148
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=149|end_char=152
+4	Beipackzettel	Beipackzettel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	start_char=153|end_char=166
+5	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=167|end_char=172
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=172|end_char=173
+7	welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	8	det	_	start_char=174|end_char=180
+8	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=181|end_char=195
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=196|end_char=199
+10	Medikament	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=200|end_char=210
+11	haben	haben	VERB	VAINF	VerbForm=Inf	5	ccomp	_	start_char=211|end_char=216
+12	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=217|end_char=221
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=221|end_char=222
+
+# text = Häufig oder selten, Einnahme-Hin-Weise, Wechsel-Wirkungen: Die wichtigsten Informationen aus der Packungs-Beilage kurz erklärt.
+# sent_id = 5
+1	Häufig	häufig	ADJ	ADJD	Degree=Pos	24	advmod	_	start_char=224|end_char=230
+2	oder	oder	CCONJ	KON	_	3	cc	_	start_char=231|end_char=235
+3	selten	selten	ADJ	ADJD	Degree=Pos	1	conj	_	start_char=236|end_char=242
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=242|end_char=243
+5	Einnahme	Einnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	start_char=244|end_char=252
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=252|end_char=253
+7	Hin	hin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	start_char=253|end_char=256
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=256|end_char=257
+9	Weise	Weise	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=257|end_char=262
+10	,	,	PUNCT	$,	_	13	punct	_	start_char=262|end_char=263
+11	Wechsel	Wechsel	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	compound	_	start_char=264|end_char=271
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=271|end_char=272
+13	Wirkungen	Wirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	conj	_	start_char=272|end_char=281
+14	:	:	PUNCT	$.	_	24	punct	_	start_char=281|end_char=282
+15	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	17	det	_	start_char=283|end_char=286
+16	wichtigsten	wichtig	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur	17	amod	_	start_char=287|end_char=298
+17	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	24	nsubj:pass	_	start_char=299|end_char=312
+18	aus	aus	ADP	APPR	_	22	case	_	start_char=313|end_char=316
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=317|end_char=320
+20	Packungs	Packungs	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	compound	_	start_char=321|end_char=329
+21	-	-	PUNCT	$(	_	20	punct	_	start_char=329|end_char=330
+22	Beilage	Beilage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	start_char=330|end_char=337
+23	kurz	kurz	ADV	ADJD	_	24	advmod	_	start_char=338|end_char=342
+24	erklärt	erklären	VERB	VVPP	VerbForm=Part	0	root	_	start_char=343|end_char=350
+25	.	.	PUNCT	$.	_	24	punct	_	start_char=350|end_char=351
+
+# text = Von: Nadja Katzenberger Datum: 21. April 2022.
+# sent_id = 6
+1	Von	von	ADP	APPR	_	3	case	_	start_char=353|end_char=356
+2	:	:	PUNCT	$.	_	3	punct	_	start_char=356|end_char=357
+3	Nadja	Nadja	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=358|end_char=363
+4	Katzenberger	Katzenberger	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	flat	_	start_char=364|end_char=376
+5	Datum	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	flat	_	start_char=377|end_char=382
+6	:	:	PUNCT	$.	_	9	punct	_	start_char=382|end_char=383
+7	21	21	NUM	CARD	NumType=Card	3	appos	_	start_char=384|end_char=386
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=386|end_char=387
+9	April	April	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	start_char=388|end_char=393
+10	2022	2022	NUM	CARD	NumType=Card	9	nmod	_	start_char=394|end_char=398
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=398|end_char=399
+
+# text = Wie oft kommt eine Nierenbeckenentzündung vor?
+# sent_id = 7
+1	Wie	wie	ADV	KOUS	_	3	advmod	_	start_char=401|end_char=404
+2	oft	oft	ADV	ADV	_	3	advmod	_	start_char=405|end_char=408
+3	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=409|end_char=414
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=415|end_char=419
+5	Nierenbeckenentzündung	Nierenbeckenentzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=420|end_char=442
+6	vor	vor	ADP	PTKVZ	_	3	compound:prt	_	start_char=443|end_char=446
+7	?	?	PUNCT	$.	_	3	punct	_	start_char=446|end_char=447
+
+# text = Welche Nebenwirkungen sind möglich?
+# sent_id = 8
+1	Welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	2	det	_	start_char=449|end_char=455
+2	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=456|end_char=470
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=471|end_char=475
+4	möglich	möglich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=476|end_char=483
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=483|end_char=484
+
+# text = Bei manchen Patienten kann es Nebenwirkungen geben.
+# sent_id = 9
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=485|end_char=488
+2	manchen	mancher	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=489|end_char=496
+3	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	start_char=497|end_char=506
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=507|end_char=511
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=512|end_char=514
+6	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=515|end_char=529
+7	geben	geben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=530|end_char=535
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=535|end_char=536
+
+# text = Die Nebenwirkungen sind in verschiedene Häufigkeiten eingeteilt: - Sehr häufig: Mehr als 1 von 10 Patienten bekommen diese Nebenwirkung.
+# sent_id = 10
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=537|end_char=540
+2	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=541|end_char=555
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=556|end_char=560
+4	in	in	ADP	APPR	_	6	case	_	start_char=561|end_char=563
+5	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=564|end_char=576
+6	Häufigkeiten	Häufigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	nmod	_	start_char=577|end_char=589
+7	eingeteilt	einteilen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=590|end_char=600
+8	:	:	PUNCT	$.	_	11	punct	_	start_char=600|end_char=601
+9	-	-	PUNCT	$(	_	11	punct	_	start_char=602|end_char=603
+10	Sehr	sehr	ADV	ADV	_	11	advmod	_	start_char=604|end_char=608
+11	häufig	häufig	ADJ	ADJD	Degree=Pos	7	appos	_	start_char=609|end_char=615
+12	:	:	PUNCT	$.	_	19	punct	_	start_char=615|end_char=616
+13	Mehr	mehr	ADV	ADV	_	19	advmod	_	start_char=617|end_char=621
+14	als	als	ADP	KOKOM	_	18	case	_	start_char=622|end_char=625
+15	1	1	NUM	CARD	NumType=Card	18	nummod	_	start_char=626|end_char=627
+16	von	von	ADP	APPR	_	17	case	_	start_char=628|end_char=631
+17	10	10	NUM	CARD	NumType=Card	18	nummod	_	start_char=632|end_char=634
+18	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	start_char=635|end_char=644
+19	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	start_char=645|end_char=653
+20	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	21	det	_	start_char=654|end_char=659
+21	Nebenwirkung	Nebenwirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	start_char=660|end_char=672
+22	.	.	PUNCT	$.	_	7	punct	_	start_char=672|end_char=673
+
+# text = - Häufig: 1 bis 10 von 100 Patienten bekommen diese Nebenwirkung.
+# sent_id = 11
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=674|end_char=675
+2	Häufig	häufig	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=676|end_char=682
+3	:	:	PUNCT	$.	_	2	punct	_	start_char=682|end_char=683
+4	1	1	NUM	CARD	NumType=Card	9	nummod	_	start_char=684|end_char=685
+5	bis	bis	ADP	KON	_	6	case	_	start_char=686|end_char=689
+6	10	10	NUM	CARD	NumType=Card	4	nmod	_	start_char=690|end_char=692
+7	von	von	ADP	APPR	_	8	case	_	start_char=693|end_char=696
+8	100	100	NUM	CARD	NumType=Card	9	nmod	_	start_char=697|end_char=700
+9	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nsubj	_	start_char=701|end_char=710
+10	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=711|end_char=719
+11	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	start_char=720|end_char=725
+12	Nebenwirkung	Nebenwirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=726|end_char=738
+13	.	.	PUNCT	$.	_	10	punct	_	start_char=738|end_char=739
+
+# text = - Gelegentlich: 1 bis 10 von 1000 Patienten bekommen diese Nebenwirkung.
+# sent_id = 12
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=740|end_char=741
+2	Gelegentlich	gelegentlich	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=742|end_char=754
+3	:	:	PUNCT	$.	_	2	punct	_	start_char=754|end_char=755
+4	1	1	NUM	CARD	NumType=Card	9	nummod	_	start_char=756|end_char=757
+5	bis	bis	ADP	KON	_	6	case	_	start_char=758|end_char=761
+6	10	10	NUM	CARD	NumType=Card	4	nmod	_	start_char=762|end_char=764
+7	von	von	ADP	APPR	_	8	case	_	start_char=765|end_char=768
+8	1000	1000	NUM	CARD	NumType=Card	9	nmod	_	start_char=769|end_char=773
+9	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nsubj	_	start_char=774|end_char=783
+10	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=784|end_char=792
+11	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	start_char=793|end_char=798
+12	Nebenwirkung	Nebenwirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=799|end_char=811
+13	.	.	PUNCT	$.	_	10	punct	_	start_char=811|end_char=812
+
+# text = - Selten: 1 bis 10 von 10000 Patienten bekommen diese Nebwirkung.
+# sent_id = 13
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=813|end_char=814
+2	Selten	selten	ADJ	ADJD	Degree=Pos	0	root	_	start_char=815|end_char=821
+3	:	:	PUNCT	$.	_	10	punct	_	start_char=821|end_char=822
+4	1	1	NUM	CARD	NumType=Card	9	nummod	_	start_char=823|end_char=824
+5	bis	bis	ADP	KON	_	6	case	_	start_char=825|end_char=828
+6	10	10	NUM	CARD	NumType=Card	4	nmod	_	start_char=829|end_char=831
+7	von	von	ADP	APPR	_	8	case	_	start_char=832|end_char=835
+8	10000	10000	NUM	CARD	NumType=Card	9	nmod	_	start_char=836|end_char=841
+9	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nsubj	_	start_char=842|end_char=851
+10	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=852|end_char=860
+11	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	start_char=861|end_char=866
+12	Nebwirkung	Nebwirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=867|end_char=877
+13	.	.	PUNCT	$.	_	10	punct	_	start_char=877|end_char=878
+
+# text = - Sehr selten: Weniger als 1 von 10000 Patienten bekommen diese Nebenwirkung.
+# sent_id = 14
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=879|end_char=880
+2	Sehr	sehr	ADV	ADV	_	3	advmod	_	start_char=881|end_char=885
+3	selten	selten	ADJ	ADJD	Degree=Pos	0	root	_	start_char=886|end_char=892
+4	:	:	PUNCT	$.	_	11	punct	_	start_char=892|end_char=893
+5	Weniger	weniger	ADV	ADV	_	11	advmod	_	start_char=894|end_char=901
+6	als	als	ADP	KOKOM	_	7	case	_	start_char=902|end_char=905
+7	1	1	NUM	CARD	NumType=Card	10	nummod	_	start_char=906|end_char=907
+8	von	von	ADP	APPR	_	9	case	_	start_char=908|end_char=911
+9	10000	10000	NUM	CARD	NumType=Card	10	nummod	_	start_char=912|end_char=917
+10	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	start_char=918|end_char=927
+11	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=928|end_char=936
+12	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	start_char=937|end_char=942
+13	Nebenwirkung	Nebenwirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=943|end_char=955
+14	.	.	PUNCT	$.	_	3	punct	_	start_char=955|end_char=956
+
+# text = Das schwarze Dreieck.
+# sent_id = 15
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=958|end_char=961
+2	schwarze	schwarz	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=962|end_char=970
+3	Dreieck	Dreieck	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=971|end_char=978
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=978|end_char=979
+
+# text = Seit 2013 müssen die Hers-Teller von verschreibungspflichtigen Medikamenten in der Packungs-Beilage schreiben: - Das Medikament ist neu zugelassen.
+# sent_id = 16
+1	Seit	seit	ADP	APPR	_	2	case	_	start_char=981|end_char=985
+2	2013	2013	NUM	CARD	NumType=Card	16	obl	_	start_char=986|end_char=990
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=991|end_char=997
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=998|end_char=1001
+5	Hers	Hers	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	start_char=1002|end_char=1006
+6	-	-	PUNCT	$(	_	7	punct	_	start_char=1006|end_char=1007
+7	Teller	Teller	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	flat	_	start_char=1007|end_char=1013
+8	von	von	ADP	APPR	_	10	case	_	start_char=1014|end_char=1017
+9	verschreibungspflichtigen	verschreibungspflichtig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	start_char=1018|end_char=1043
+10	Medikamenten	Medikament	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	16	obl	_	start_char=1044|end_char=1056
+11	in	in	ADP	APPR	_	15	case	_	start_char=1057|end_char=1059
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=1060|end_char=1063
+13	Packungs	Packungs	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	compound	_	start_char=1064|end_char=1072
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=1072|end_char=1073
+15	Beilage	Beilage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	start_char=1073|end_char=1080
+16	schreiben	schreiben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1081|end_char=1090
+17	:	:	PUNCT	$.	_	23	punct	_	start_char=1090|end_char=1091
+18	-	-	PUNCT	$(	_	23	punct	_	start_char=1092|end_char=1093
+19	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	start_char=1094|end_char=1097
+20	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	start_char=1098|end_char=1108
+21	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	start_char=1109|end_char=1112
+22	neu	neu	ADJ	ADJD	Degree=Pos	23	advmod	_	start_char=1113|end_char=1116
+23	zugelassen	zulassen	ADJ	VVPP	Degree=Pos|VerbForm=Part	16	parataxis	_	start_char=1117|end_char=1127
+24	.	.	PUNCT	$.	_	16	punct	_	start_char=1127|end_char=1128
+
+# text = - Wir wissen noch nicht, wie lange die Wirkung des Medikaments anhält.
+# sent_id = 17
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1129|end_char=1130
+2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=1131|end_char=1134
+3	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1135|end_char=1141
+4	noch	noch	ADV	ADV	_	5	advmod	_	start_char=1142|end_char=1146
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=1147|end_char=1152
+6	,	,	PUNCT	$,	_	13	punct	_	start_char=1152|end_char=1153
+7	wie	wie	ADV	PWAV	PronType=Int	13	advmod	_	start_char=1154|end_char=1157
+8	lange	lange	ADV	ADV	_	13	advmod	_	start_char=1158|end_char=1163
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1164|end_char=1167
+10	Wirkung	Wirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=1168|end_char=1175
+11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=1176|end_char=1179
+12	Medikaments	Medikament	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	start_char=1180|end_char=1191
+13	anhält	anhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=1192|end_char=1198
+14	.	.	PUNCT	$.	_	3	punct	_	start_char=1198|end_char=1199
+
+# text = Dann muss das Medikament besonders genau beobachtet werden.
+# sent_id = 18
+1	Dann	dann	ADV	ADV	_	7	advmod	_	start_char=1200|end_char=1204
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1205|end_char=1209
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=1210|end_char=1213
+4	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	start_char=1214|end_char=1224
+5	besonders	besonders	ADV	ADV	_	6	advmod	_	start_char=1225|end_char=1234
+6	genau	genau	ADV	ADJD	_	7	advmod	_	start_char=1235|end_char=1240
+7	beobachtet	beobachten	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1241|end_char=1251
+8	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	7	aux:pass	_	start_char=1252|end_char=1258
+9	.	.	PUNCT	$.	_	7	punct	_	start_char=1258|end_char=1259
+
+# text = Jeder Verdacht auf eine Nebenwirkung muss gemeldet werden.
+# sent_id = 19
+1	Jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	2	det	_	start_char=1260|end_char=1265
+2	Verdacht	Verdacht	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	start_char=1266|end_char=1274
+3	auf	auf	ADP	APPR	_	5	case	_	start_char=1275|end_char=1278
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=1279|end_char=1283
+5	Nebenwirkung	Nebenwirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=1284|end_char=1296
+6	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1297|end_char=1301
+7	gemeldet	melden	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1302|end_char=1310
+8	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	7	aux:pass	_	start_char=1311|end_char=1317
+9	.	.	PUNCT	$.	_	7	punct	_	start_char=1317|end_char=1318
+
+# text = Das können Sie zum Beispiel bei Ihrem Arzt oder in der Apotheke tun.
+# sent_id = 20
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	14	obj	_	start_char=1319|end_char=1322
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=1323|end_char=1329
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	14	nsubj	_	start_char=1330|end_char=1333
+4-5	zum	_	_	_	_	_	_	_	start_char=1334|end_char=1337
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	start_char=1338|end_char=1346
+7	bei	bei	ADP	APPR	_	9	case	_	start_char=1347|end_char=1350
+8	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=1351|end_char=1356
+9	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	start_char=1357|end_char=1361
+10	oder	oder	CCONJ	KON	_	13	cc	_	start_char=1362|end_char=1366
+11	in	in	ADP	APPR	_	13	case	_	start_char=1367|end_char=1369
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=1370|end_char=1373
+13	Apotheke	Apotheke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	conj	_	start_char=1374|end_char=1382
+14	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1383|end_char=1386
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=1386|end_char=1387
+
+# text = Die Nebenwirkungen können nicht rückgängig gemacht werden.
+# sent_id = 21
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1389|end_char=1392
+2	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj:pass	_	start_char=1393|end_char=1407
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1408|end_char=1414
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=1415|end_char=1420
+5	rückgängig	rückgängig	ADJ	ADJD	Degree=Pos	6	xcomp	_	start_char=1421|end_char=1431
+6	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1432|end_char=1439
+7	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	6	aux:pass	_	start_char=1440|end_char=1446
+8	.	.	PUNCT	$.	_	6	punct	_	start_char=1446|end_char=1447
+
+# text = Manche Nebenwirkungen treten am Anfang häufiger auf.
+# sent_id = 22
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	start_char=1449|end_char=1455
+2	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=1456|end_char=1470
+3	treten	treten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1471|end_char=1477
+4-5	am	_	_	_	_	_	_	_	start_char=1478|end_char=1480
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Anfang	Anfang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=1481|end_char=1487
+7	häufiger	häufig	ADJ	ADJD	Degree=Cmp	3	advmod	_	start_char=1488|end_char=1496
+8	auf	auf	ADP	PTKVZ	_	3	compound:prt	_	start_char=1497|end_char=1500
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=1500|end_char=1501
+
+# text = Später haben Sie vielleicht gar keine Nebenwirkungen mehr.
+# sent_id = 23
+1	Später	spät	ADJ	ADJD	Degree=Cmp	2	advmod	_	start_char=1502|end_char=1508
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1509|end_char=1514
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1515|end_char=1518
+4	vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	start_char=1519|end_char=1529
+5	gar	gar	ADV	ADV	_	6	advmod	_	start_char=1530|end_char=1533
+6	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	7	det	_	start_char=1534|end_char=1539
+7	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=1540|end_char=1554
+8	mehr	mehr	ADV	ADV	_	2	advmod	_	start_char=1555|end_char=1559
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=1559|end_char=1560
+
+# text = Manche Nebenwirkungen sind häufig.
+# sent_id = 24
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	start_char=1561|end_char=1567
+2	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=1568|end_char=1582
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1583|end_char=1587
+4	häufig	häufig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1588|end_char=1594
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=1594|end_char=1595
+
+# text = Dann hat fast jeder Patient diese Nebenwirkung.
+# sent_id = 25
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=1596|end_char=1600
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1601|end_char=1604
+3	fast	fast	ADV	ADV	_	4	advmod	_	start_char=1605|end_char=1609
+4	jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	5	det	_	start_char=1610|end_char=1615
+5	Patient	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1616|end_char=1623
+6	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=1624|end_char=1629
+7	Nebenwirkung	Nebenwirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=1630|end_char=1642
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=1642|end_char=1643
+
+# text = Miriam Oster ist Apothekerin aus Oberursel.
+# sent_id = 26
+1	Miriam	Miriam	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1644|end_char=1650
+2	Oster	Oster	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	start_char=1651|end_char=1656
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1657|end_char=1660
+4	Apothekerin	Apothekerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1661|end_char=1672
+5	aus	aus	ADP	APPR	_	6	case	_	start_char=1673|end_char=1676
+6	Oberursel	Oberursel	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=1677|end_char=1686
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=1686|end_char=1687
+
+# text = Sie sagt: „ Sie haben Nebenwirkungen?
+# sent_id = 27
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=1688|end_char=1691
+2	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1692|end_char=1696
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=1696|end_char=1697
+4	„	"	PUNCT	$(	_	6	punct	_	start_char=1698|end_char=1699
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	nsubj	_	start_char=1700|end_char=1703
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=1704|end_char=1709
+7	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=1710|end_char=1724
+8	?	?	PUNCT	$.	_	6	punct	_	start_char=1724|end_char=1725
+
+# text = Dann fragen Sie immer Ihren Arzt oder Apotheker nach.
+# sent_id = 28
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=1726|end_char=1730
+2	fragen	fragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1731|end_char=1737
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1738|end_char=1741
+4	immer	immer	ADV	ADV	_	2	advmod	_	start_char=1742|end_char=1747
+5	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=1748|end_char=1753
+6	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=1754|end_char=1758
+7	oder	oder	CCONJ	KON	_	8	cc	_	start_char=1759|end_char=1763
+8	Apotheker	Apotheker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	start_char=1764|end_char=1773
+9	nach	nach	ADP	PTKVZ	_	2	compound:prt	_	start_char=1774|end_char=1778
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=1778|end_char=1779
+
+# text = “
+# sent_id = 29
+1	“	"	PUNCT	$(	_	0	root	_	start_char=1780|end_char=1781
+
+# text = Welche Wechsel-Wirkungen sind möglich?
+# sent_id = 30
+1	Welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	4	det	_	start_char=1783|end_char=1789
+2	Wechsel	Wechsel	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	compound	_	start_char=1790|end_char=1797
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=1797|end_char=1798
+4	Wirkungen	Wirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=1798|end_char=1807
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1808|end_char=1812
+6	möglich	möglich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1813|end_char=1820
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=1820|end_char=1821
+
+# text = Manche Medikamente beeinflussen die Wirkung anderer Medikamente.
+# sent_id = 31
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	2	det	_	start_char=1823|end_char=1829
+2	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=1830|end_char=1841
+3	beeinflussen	beeinflussen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1842|end_char=1854
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1855|end_char=1858
+5	Wirkung	Wirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=1859|end_char=1866
+6	anderer	anderer	DET	ADJA	Case=Gen|Gender=Neut|Number=Plur|PronType=Ind	7	det	_	start_char=1867|end_char=1874
+7	Medikamente	Medikament	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	start_char=1875|end_char=1886
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=1886|end_char=1887
+
+# text = Nehmen Sie Medikamente immer genau nach Anweisung des Arztes ein.
+# sent_id = 32
+1	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1888|end_char=1894
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=1895|end_char=1898
+3	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	start_char=1899|end_char=1910
+4	immer	immer	ADV	ADV	_	5	advmod	_	start_char=1911|end_char=1916
+5	genau	genau	ADV	ADV	_	1	advmod	_	start_char=1917|end_char=1922
+6	nach	nach	ADP	APPR	_	7	case	_	start_char=1923|end_char=1927
+7	Anweisung	Anweisung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	start_char=1928|end_char=1937
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=1938|end_char=1941
+9	Arztes	Arzt	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=1942|end_char=1948
+10	ein	ein	ADV	PTKVZ	_	1	compound:prt	_	start_char=1949|end_char=1952
+11	.	.	PUNCT	$.	_	1	punct	_	start_char=1952|end_char=1953
+
+# text = Nehmen Sie rezeptfreie Medikamente nur nach Rück-Sprache mit dem Arzt ein.
+# sent_id = 33
+1	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1954|end_char=1960
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=1961|end_char=1964
+3	rezeptfreie	rezeptfrei	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	start_char=1965|end_char=1976
+4	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	start_char=1977|end_char=1988
+5	nur	nur	ADV	ADV	_	9	advmod	_	start_char=1989|end_char=1992
+6	nach	nach	ADP	APPR	_	9	case	_	start_char=1993|end_char=1997
+7	Rück	Rück	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	compound	_	start_char=1998|end_char=2002
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=2002|end_char=2003
+9	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	start_char=2003|end_char=2010
+10	mit	mit	ADP	APPR	_	12	case	_	start_char=2011|end_char=2014
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=2015|end_char=2018
+12	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	start_char=2019|end_char=2023
+13	ein	ein	ADV	PTKVZ	_	1	compound:prt	_	start_char=2024|end_char=2027
+14	.	.	PUNCT	$.	_	1	punct	_	start_char=2027|end_char=2028
+
+# text = Fragen Sie in Ihrer Apotheke nach.
+# sent_id = 34
+1	Fragen	Frage	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2030|end_char=2036
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=2037|end_char=2040
+3	in	in	ADP	APPR	_	5	case	_	start_char=2041|end_char=2043
+4	Ihrer	Ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=2044|end_char=2049
+5	Apotheke	Apotheke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	start_char=2050|end_char=2058
+6	nach	nach	ADP	PTKVZ	_	1	compound:prt	_	start_char=2059|end_char=2063
+7	.	.	PUNCT	$.	_	1	punct	_	start_char=2063|end_char=2064
+
+# text = Sie haben Angst vor Nebenwirkungen?
+# sent_id = 35
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=2066|end_char=2069
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2070|end_char=2075
+3	Angst	Angst	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2076|end_char=2081
+4	vor	vor	ADP	APPR	_	5	case	_	start_char=2082|end_char=2085
+5	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	start_char=2086|end_char=2100
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=2100|end_char=2101
+
+# text = Dann lassen Sie sich in Ihrer Apotheke beraten.
+# sent_id = 36
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=2102|end_char=2106
+2	lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2107|end_char=2113
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2114|end_char=2117
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=2118|end_char=2122
+5	in	in	ADP	APPR	_	7	case	_	start_char=2123|end_char=2125
+6	Ihrer	Ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=2126|end_char=2131
+7	Apotheke	Apotheke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=2132|end_char=2140
+8	beraten	beraten	VERB	VVINF	VerbForm=Inf	2	xcomp	_	start_char=2141|end_char=2148
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=2148|end_char=2149
+
+# text = Die Apothekerin oder der Apotheker kann Ihnen helfen.
+# sent_id = 37
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2150|end_char=2153
+2	Apothekerin	Apothekerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=2154|end_char=2165
+3	oder	oder	CCONJ	KON	_	5	cc	_	start_char=2166|end_char=2170
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=2171|end_char=2174
+5	Apotheker	Apotheker	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=2175|end_char=2184
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=2185|end_char=2189
+7	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	obl:arg	_	start_char=2190|end_char=2195
+8	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2196|end_char=2202
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=2202|end_char=2203
+
+# text = Sie haben eine Apotheke, die Sie immer besuchen?
+# sent_id = 38
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=2204|end_char=2207
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2208|end_char=2213
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=2214|end_char=2218
+4	Apotheke	Apotheke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2219|end_char=2227
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=2227|end_char=2228
+6	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	9	obj	_	start_char=2229|end_char=2232
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=2233|end_char=2236
+8	immer	immer	ADV	ADV	_	9	advmod	_	start_char=2237|end_char=2242
+9	besuchen	besuchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=2243|end_char=2251
+10	?	?	PUNCT	$.	_	2	punct	_	start_char=2251|end_char=2252
+
+# text = Dann können die Apothekerin oder der Apotheker Ihre Gesundheits-Daten sehen.
+# sent_id = 39
+1	Dann	dann	ADV	ADV	_	12	advmod	_	start_char=2253|end_char=2257
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=2258|end_char=2264
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2265|end_char=2268
+4	Apothekerin	Apothekerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=2269|end_char=2280
+5	oder	oder	CCONJ	KON	_	7	cc	_	start_char=2281|end_char=2285
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=2286|end_char=2289
+7	Apotheker	Apotheker	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	start_char=2290|end_char=2299
+8	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	det:poss	_	start_char=2300|end_char=2304
+9	Gesundheits	Gesundheit	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	compound	_	start_char=2305|end_char=2316
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=2316|end_char=2317
+11	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	start_char=2317|end_char=2322
+12	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2323|end_char=2328
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=2328|end_char=2329
+
+# text = So können sie besser beraten.
+# sent_id = 40
+1	So	so	ADV	ADV	_	5	advmod	_	start_char=2330|end_char=2332
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2333|end_char=2339
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=2340|end_char=2343
+4	besser	gut	ADJ	ADJD	Degree=Cmp	5	advmod	_	start_char=2344|end_char=2350
+5	beraten	beraten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2351|end_char=2358
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2358|end_char=2359
+
+# text = Und sie können besser aufpassen, ob Medikamente zusammen passen.
+# sent_id = 41
+1	Und	und	CCONJ	KON	_	5	cc	_	start_char=2360|end_char=2363
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=2364|end_char=2367
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2368|end_char=2374
+4	besser	gut	ADJ	ADJD	Degree=Cmp	5	advmod	_	start_char=2375|end_char=2381
+5	aufpassen	aufpassen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2382|end_char=2391
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=2391|end_char=2392
+7	ob	ob	SCONJ	KOUS	_	10	mark	_	start_char=2393|end_char=2395
+8	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	start_char=2396|end_char=2407
+9	zusammen	zusammen	ADV	ADV	_	10	advmod	_	start_char=2408|end_char=2416
+10	passen	passen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	start_char=2417|end_char=2423
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=2423|end_char=2424
+
+# text = Wie nehmen Sie Sulfasalazin ein?
+# sent_id = 42
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	start_char=2426|end_char=2429
+2	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2430|end_char=2436
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2437|end_char=2440
+4	Sulfasalazin	Sulfasalazin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=2441|end_char=2453
+5	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	start_char=2454|end_char=2457
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=2457|end_char=2458
+
+# text = Wie sollten Sie das Medikament einnehmen?
+# sent_id = 43
+1	Wie	wie	ADV	PWAV	PronType=Int	6	advmod	_	start_char=2460|end_char=2463
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	start_char=2464|end_char=2471
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=2472|end_char=2475
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=2476|end_char=2479
+5	Medikament	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=2480|end_char=2490
+6	einnehmen	einnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2491|end_char=2500
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=2500|end_char=2501
+
+# text = Nehmen Sie die Hinweise immer genau ernst.
+# sent_id = 44
+1	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2502|end_char=2508
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=2509|end_char=2512
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=2513|end_char=2516
+4	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=2517|end_char=2525
+5	immer	immer	ADV	ADV	_	6	advmod	_	start_char=2526|end_char=2531
+6	genau	genau	ADV	ADV	_	7	advmod	_	start_char=2532|end_char=2537
+7	ernst	ernst	ADV	PTKVZ	_	1	mark	_	start_char=2538|end_char=2543
+8	.	.	PUNCT	$.	_	1	punct	_	start_char=2543|end_char=2544
+
+# text = Dann kann das Medikament seine volle Wirkung entfalten.
+# sent_id = 45
+1	Dann	dann	ADV	ADV	_	8	advmod	_	start_char=2545|end_char=2549
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=2550|end_char=2554
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=2555|end_char=2558
+4	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=2559|end_char=2569
+5	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=2570|end_char=2575
+6	volle	voll	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=2576|end_char=2581
+7	Wirkung	Wirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=2582|end_char=2589
+8	entfalten	entfalten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2590|end_char=2599
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=2599|end_char=2600
+
+# text = Sie nehmen Alendronsäure ein?
+# sent_id = 46
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=2601|end_char=2604
+2	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2605|end_char=2611
+3	Alendronsäure	Alendronsäure	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2612|end_char=2625
+4	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	start_char=2626|end_char=2629
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=2629|end_char=2630
+
+# text = Dann beachten Sie diese Hinweise: - Nehmen
+# sent_id = 47
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=2631|end_char=2635
+2	beachten	beachen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2636|end_char=2644
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2645|end_char=2648
+4	diese	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	start_char=2649|end_char=2654
+5	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=2655|end_char=2663
+6	:	:	PUNCT	$.	_	8	punct	_	start_char=2663|end_char=2664
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=2665|end_char=2666
+8	Nehmen	nehmen	VERB	VVINF	VerbForm=Inf	2	parataxis	_	start_char=2667|end_char=2673
+
+# text = Sie Alendronsäure immer aufrecht ein.
+# sent_id = 48
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=2674|end_char=2677
+2	Alendronsäure	Alendronsäure	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=2678|end_char=2691
+3	immer	immer	ADV	ADV	_	4	advmod	_	start_char=2692|end_char=2697
+4	aufrecht	aufrecht	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2698|end_char=2706
+5	ein	ein	ADV	PTKVZ	_	4	compound:prt	_	start_char=2707|end_char=2710
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=2710|end_char=2711
+
+# text = - Nehmen Sie Alendronsäure nicht nüchtern, zu einer Mahlzeit oder nur am Abend ein.
+# sent_id = 49
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2712|end_char=2713
+2	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2714|end_char=2720
+3	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2721|end_char=2724
+4	Alendronsäure	Alendronsäure	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2725|end_char=2738
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=2739|end_char=2744
+6	nüchtern	nüchtern	ADV	PTKVZ	_	2	advmod	_	start_char=2745|end_char=2753
+7	,	,	PUNCT	$,	_	10	punct	_	start_char=2753|end_char=2754
+8	zu	zu	ADP	APPR	_	10	case	_	start_char=2755|end_char=2757
+9	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=2758|end_char=2763
+10	Mahlzeit	Mahlzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=2764|end_char=2772
+11	oder	oder	CCONJ	KON	_	15	cc	_	start_char=2773|end_char=2777
+12	nur	nur	ADV	ADV	_	15	advmod	_	start_char=2778|end_char=2781
+13-14	am	_	_	_	_	_	_	_	start_char=2782|end_char=2784
+13	an	an	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Abend	Abend	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	conj	_	start_char=2785|end_char=2790
+16	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	start_char=2791|end_char=2794
+17	.	.	PUNCT	$.	_	2	punct	_	start_char=2794|end_char=2795
+
+# text = Sie nehmen Alendronsäure nüchtern ein?
+# sent_id = 50
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=2796|end_char=2799
+2	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2800|end_char=2806
+3	Alendronsäure	Alendronsäure	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2807|end_char=2820
+4	nüchtern	nüchtern	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=2821|end_char=2829
+5	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	start_char=2830|end_char=2833
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=2833|end_char=2834
+
+# text = Dann kann die Säure die Speise-Röhre schädigen.
+# sent_id = 51
+1	Dann	dann	ADV	ADV	_	9	advmod	_	start_char=2835|end_char=2839
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=2840|end_char=2844
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2845|end_char=2848
+4	Säure	Säure	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=2849|end_char=2854
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=2855|end_char=2858
+6	Speise	Speise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	compound	_	start_char=2859|end_char=2865
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2865|end_char=2866
+8	Röhre	Röhre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=2866|end_char=2871
+9	schädigen	schädigen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2872|end_char=2881
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=2881|end_char=2882
+

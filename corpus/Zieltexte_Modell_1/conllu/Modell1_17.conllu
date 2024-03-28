@@ -1,0 +1,2033 @@
+# text = ﻿
+# sent_id = 0
+1	﻿	"	PUNCT	$(	_	0	root	_	start_char=0|end_char=1
+
+# text = Sie haben einen Herz-Infarkt?
+# sent_id = 1
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=9|end_char=12
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=13|end_char=18
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=19|end_char=24
+4	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	compound	_	start_char=25|end_char=29
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=29|end_char=30
+6	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=30|end_char=37
+7	?	?	PUNCT	$.	_	2	punct	_	start_char=37|end_char=38
+
+# text = Dann müssen Sie sofort zum Arzt.
+# sent_id = 2
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=39|end_char=43
+2	müssen	müssen	VERB	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=44|end_char=50
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=51|end_char=54
+4	sofort	sofort	ADV	ADV	_	2	advmod	_	start_char=55|end_char=61
+5-6	zum	_	_	_	_	_	_	_	start_char=62|end_char=65
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=66|end_char=70
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=70|end_char=71
+
+# text = Der Arzt muss den Herz-Infarkt behandeln.
+# sent_id = 3
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=72|end_char=75
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=76|end_char=80
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=81|end_char=85
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=86|end_char=89
+5	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	compound	_	start_char=90|end_char=94
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=94|end_char=95
+7	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=95|end_char=102
+8	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=103|end_char=112
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=112|end_char=113
+
+# text = Ein Herz-Infarkt ist lebensgefährlich.
+# sent_id = 4
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=127|end_char=130
+2	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	start_char=131|end_char=135
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=135|end_char=136
+4	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=136|end_char=143
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=144|end_char=147
+6	lebensgefährlich	lebensgefährlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=148|end_char=164
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=164|end_char=165
+
+# text = Ein Herz-Infarkt kann verschiedene Anzeichen haben.
+# sent_id = 5
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=166|end_char=169
+2	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	start_char=170|end_char=174
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=174|end_char=175
+4	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=175|end_char=182
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=183|end_char=187
+6	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=188|end_char=200
+7	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=201|end_char=210
+8	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=211|end_char=216
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=216|end_char=217
+
+# text = Mögliche Anzeichen für einen Herz-Infarkt sind zum Beispiel: - Schmerzen in der Brust - Schmerzen im Ober-Körper - Schmerzen im linken Arm - Schwindel - Übelkeit - Atem-Not - Angst Ein Herz-Infarkt kann verschiedene Ursachen haben.
+# sent_id = 6
+1	Mögliche	möglich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=218|end_char=226
+2	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	start_char=227|end_char=236
+3	für	für	ADP	APPR	_	7	case	_	start_char=237|end_char=240
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=241|end_char=246
+5	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	compound	_	start_char=247|end_char=251
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=251|end_char=252
+7	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	start_char=252|end_char=259
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=260|end_char=264
+9-10	zum	_	_	_	_	_	_	_	start_char=265|end_char=268
+9	zu	zu	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	start_char=269|end_char=277
+12	:	:	PUNCT	$.	_	14	punct	_	start_char=277|end_char=278
+13	-	-	PUNCT	$(	_	14	punct	_	start_char=285|end_char=286
+14	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=287|end_char=296
+15	in	in	ADP	APPR	_	19	case	_	start_char=297|end_char=299
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=300|end_char=303
+17	Brust	Brust	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	compound	_	start_char=304|end_char=309
+18	-	-	PUNCT	$(	_	17	punct	_	start_char=316|end_char=317
+19	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nmod	_	start_char=318|end_char=327
+20-21	im	_	_	_	_	_	_	_	start_char=328|end_char=330
+20	in	in	ADP	APPR	_	26	case	_	_
+21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
+22	Ober	Ober	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	24	compound	_	start_char=331|end_char=335
+23	-	-	PUNCT	$(	_	22	punct	_	start_char=335|end_char=336
+24	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	26	compound	_	start_char=336|end_char=342
+25	-	-	PUNCT	$(	_	24	punct	_	start_char=349|end_char=350
+26	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nmod	_	start_char=351|end_char=360
+27-28	im	_	_	_	_	_	_	_	start_char=361|end_char=363
+27	in	in	ADP	APPR	_	40	case	_	_
+28	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+29	linken	link	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	start_char=364|end_char=370
+30	Arm	Arm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	32	compound	_	start_char=371|end_char=374
+31	-	-	PUNCT	$(	_	30	punct	_	start_char=381|end_char=382
+32	Schwindel	Schwindel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	40	compound	_	start_char=383|end_char=392
+33	-	-	PUNCT	$(	_	32	punct	_	start_char=399|end_char=400
+34	Übelkeit	Übelkeit	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	40	compound	_	start_char=401|end_char=409
+35	-	-	PUNCT	$(	_	34	punct	_	start_char=416|end_char=417
+36	Atem	Atem	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	40	compound	_	start_char=418|end_char=422
+37	-	-	PUNCT	$(	_	36	punct	_	start_char=422|end_char=423
+38	Not	Not	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	40	compound	_	start_char=423|end_char=426
+39	-	-	PUNCT	$(	_	38	punct	_	start_char=433|end_char=434
+40	Angst	Angst	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nmod	_	start_char=435|end_char=440
+41	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	44	det	_	start_char=447|end_char=450
+42	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	44	compound	_	start_char=451|end_char=455
+43	-	-	PUNCT	$(	_	42	punct	_	start_char=455|end_char=456
+44	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	48	nsubj	_	start_char=456|end_char=463
+45	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux	_	start_char=464|end_char=468
+46	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	47	amod	_	start_char=469|end_char=481
+47	Ursachen	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	48	obj	_	start_char=482|end_char=490
+48	haben	haben	VERB	VAINF	VerbForm=Inf	14	parataxis	_	start_char=491|end_char=496
+49	.	.	PUNCT	$.	_	14	punct	_	start_char=496|end_char=497
+
+# text = Die wichtigsten Ursachen für einen Herz-Infarkt sind: - Rauchen - hoher Blut-Druck - hohe Cholesterin-Werte - Bewegungs-Mangel
+# sent_id = 7
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=498|end_char=501
+2	wichtigsten	wichtig	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur	3	amod	_	start_char=502|end_char=513
+3	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	start_char=514|end_char=522
+4	für	für	ADP	APPR	_	8	case	_	start_char=523|end_char=526
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=527|end_char=532
+6	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=533|end_char=537
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=537|end_char=538
+8	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	start_char=538|end_char=545
+9	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=546|end_char=550
+10	:	:	PUNCT	$.	_	12	punct	_	start_char=550|end_char=551
+11	-	-	PUNCT	$(	_	12	punct	_	start_char=558|end_char=559
+12	Rauchen	Rauchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=560|end_char=567
+13	-	-	PUNCT	$(	_	17	punct	_	start_char=574|end_char=575
+14	hoher	hoch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=576|end_char=581
+15	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	17	compound	_	start_char=582|end_char=586
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=586|end_char=587
+17	Druck	Druck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	compound	_	start_char=587|end_char=592
+18	-	-	PUNCT	$(	_	20	punct	_	start_char=599|end_char=600
+19	hohe	hoch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=601|end_char=605
+20	Cholesterin	Cholesterin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	compound	_	start_char=606|end_char=617
+21	-	-	PUNCT	$(	_	20	punct	_	start_char=617|end_char=618
+22	Werte	Wert	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	compound	_	start_char=618|end_char=623
+23	-	-	PUNCT	$(	_	24	punct	_	start_char=630|end_char=631
+24	Bewegungs	Bewegungs	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	compound	_	start_char=632|end_char=641
+25	-	-	PUNCT	$(	_	24	punct	_	start_char=641|end_char=642
+26	Mangel	Mangel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	start_char=642|end_char=648
+
+# text = Unsere Inhalte sind von Apothekern und Ärzten geprüft.
+# sent_id = 8
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=662|end_char=668
+2	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=669|end_char=676
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=677|end_char=681
+4	von	von	ADP	APPR	_	5	case	_	start_char=682|end_char=685
+5	Apothekern	Apotheker	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	nmod	_	start_char=686|end_char=696
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=697|end_char=700
+7	Ärzten	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	start_char=701|end_char=707
+8	geprüft	prüfen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=708|end_char=715
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=715|end_char=716
+
+# text = Was ist ein Herz-Infarkt?
+# sent_id = 9
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=730|end_char=733
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=734|end_char=737
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=738|end_char=741
+4	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	compound	_	start_char=742|end_char=746
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=746|end_char=747
+6	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=747|end_char=754
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=754|end_char=755
+
+# text = Und was passiert bei einem Herz-Infarkt?
+# sent_id = 10
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=756|end_char=759
+2	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=760|end_char=763
+3	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=764|end_char=772
+4	bei	bei	ADP	APPR	_	8	case	_	start_char=773|end_char=776
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=777|end_char=782
+6	Herz	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	compound	_	start_char=783|end_char=787
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=787|end_char=788
+8	Infarkt	Infarkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=788|end_char=795
+9	?	?	PUNCT	$.	_	3	punct	_	start_char=795|end_char=796
+
+# text = Hier finden Sie Informationen zu: - Was ist ein Herz-Infarkt?
+# sent_id = 11
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=797|end_char=801
+2	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=802|end_char=808
+3	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=809|end_char=812
+4	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=813|end_char=826
+5	zu	zu	ADP	PTKVZ	_	2	compound:prt	_	start_char=827|end_char=829
+6	:	:	PUNCT	$.	_	13	punct	_	start_char=829|end_char=830
+7	-	-	PUNCT	$(	_	13	punct	_	start_char=837|end_char=838
+8	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	13	nsubj	_	start_char=839|end_char=842
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=843|end_char=846
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	13	det	_	start_char=847|end_char=850
+11	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	compound	_	start_char=851|end_char=855
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=855|end_char=856
+13	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	start_char=856|end_char=863
+14	?	?	PUNCT	$.	_	13	punct	_	start_char=863|end_char=864
+
+# text = - Was passiert bei einem Herz-Infarkt?
+# sent_id = 12
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=871|end_char=872
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=873|end_char=876
+3	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=877|end_char=885
+4	bei	bei	ADP	APPR	_	8	case	_	start_char=886|end_char=889
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=890|end_char=895
+6	Herz	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	compound	_	start_char=896|end_char=900
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=900|end_char=901
+8	Infarkt	Infarkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=901|end_char=908
+9	?	?	PUNCT	$.	_	3	punct	_	start_char=908|end_char=909
+
+# text = - Welche Ursachen gibt es für einen Herz-Infarkt?
+# sent_id = 13
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=916|end_char=917
+2	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	3	det	_	start_char=918|end_char=924
+3	Ursachen	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=925|end_char=933
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=934|end_char=938
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=939|end_char=941
+6	für	für	ADP	APPR	_	10	case	_	start_char=942|end_char=945
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=946|end_char=951
+8	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	compound	_	start_char=952|end_char=956
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=956|end_char=957
+10	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	start_char=957|end_char=964
+11	?	?	PUNCT	$.	_	4	punct	_	start_char=964|end_char=965
+
+# text = - Welche Risiko-Faktoren gibt es für einen Herz-Infarkt?
+# sent_id = 14
+1	-	-	PUNCT	$(	_	6	punct	_	start_char=972|end_char=973
+2	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	5	det	_	start_char=974|end_char=980
+3	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	compound	_	start_char=981|end_char=987
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=987|end_char=988
+5	Faktoren	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=988|end_char=996
+6	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=997|end_char=1001
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	start_char=1002|end_char=1004
+8	für	für	ADP	APPR	_	12	case	_	start_char=1005|end_char=1008
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=1009|end_char=1014
+10	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	compound	_	start_char=1015|end_char=1019
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=1019|end_char=1020
+12	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	start_char=1020|end_char=1027
+13	?	?	PUNCT	$.	_	6	punct	_	start_char=1027|end_char=1028
+
+# text = - Welche Anzeichen gibt es für einen Herz-Infarkt?
+# sent_id = 15
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1035|end_char=1036
+2	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	3	det	_	start_char=1037|end_char=1043
+3	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=1044|end_char=1053
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1054|end_char=1058
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=1059|end_char=1061
+6	für	für	ADP	APPR	_	10	case	_	start_char=1062|end_char=1065
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=1066|end_char=1071
+8	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	compound	_	start_char=1072|end_char=1076
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=1076|end_char=1077
+10	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	start_char=1077|end_char=1084
+11	?	?	PUNCT	$.	_	4	punct	_	start_char=1084|end_char=1085
+
+# text = - Wie wird ein Herz-Infarkt festgestellt?
+# sent_id = 16
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1092|end_char=1093
+2	Wie	wie	ADV	PWAV	PronType=Int	8	advmod	_	start_char=1094|end_char=1097
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=1098|end_char=1102
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=1103|end_char=1106
+5	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	compound	_	start_char=1107|end_char=1111
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=1111|end_char=1112
+7	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	start_char=1112|end_char=1119
+8	festgestellt	feststellen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1120|end_char=1132
+9	?	?	PUNCT	$.	_	8	punct	_	start_char=1132|end_char=1133
+
+# text = - Was kann man gegen einen Herz-Infarkt tun? - Welche Folgen kann ein Herz-Infarkt haben?
+# sent_id = 17
+1	-	-	PUNCT	$(	_	10	punct	_	start_char=1140|end_char=1141
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	10	obj	_	start_char=1142|end_char=1145
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1146|end_char=1150
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=1151|end_char=1154
+5	gegen	gegen	ADP	APPR	_	9	case	_	start_char=1155|end_char=1160
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=1161|end_char=1166
+7	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	start_char=1167|end_char=1171
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=1171|end_char=1172
+9	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	start_char=1172|end_char=1179
+10	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1180|end_char=1183
+11	?	?	PUNCT	$.	_	10	punct	_	start_char=1183|end_char=1184
+12	-	-	PUNCT	$(	_	20	punct	_	start_char=1191|end_char=1192
+13	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	14	det	_	start_char=1193|end_char=1199
+14	Folgen	Folge	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	start_char=1200|end_char=1206
+15	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=1207|end_char=1211
+16	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	19	det	_	start_char=1212|end_char=1215
+17	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	19	compound	_	start_char=1216|end_char=1220
+18	-	-	PUNCT	$(	_	17	punct	_	start_char=1220|end_char=1221
+19	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	start_char=1221|end_char=1228
+20	haben	haben	VERB	VAINF	VerbForm=Inf	10	parataxis	_	start_char=1229|end_char=1234
+21	?	?	PUNCT	$.	_	10	punct	_	start_char=1234|end_char=1235
+
+# text = - Wie kann man einen Herz-Infarkt vermeiden? - Wer berätelt Sie?
+# sent_id = 18
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1242|end_char=1243
+2	Wie	wie	ADV	PWAV	PronType=Int	9	advmod	_	start_char=1244|end_char=1247
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1248|end_char=1252
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=1253|end_char=1256
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=1257|end_char=1262
+6	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=1263|end_char=1267
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=1267|end_char=1268
+8	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=1268|end_char=1275
+9	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1276|end_char=1285
+10	?	?	PUNCT	$.	_	9	punct	_	start_char=1285|end_char=1286
+11	-	-	PUNCT	$(	_	13	punct	_	start_char=1293|end_char=1294
+12	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	13	nsubj	_	start_char=1295|end_char=1298
+13	berätelt	beräteln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	start_char=1299|end_char=1307
+14	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	13	nsubj	_	start_char=1308|end_char=1311
+15	?	?	PUNCT	$.	_	13	punct	_	start_char=1311|end_char=1312
+
+# text = Was ist ein Herz-Infarkt?
+# sent_id = 19
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=1326|end_char=1329
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1330|end_char=1333
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=1334|end_char=1337
+4	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	compound	_	start_char=1338|end_char=1342
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1342|end_char=1343
+6	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=1343|end_char=1350
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=1350|end_char=1351
+
+# text = Ein Herz-Infarkt ist eine gefährliche Herz-Erkrankung.
+# sent_id = 20
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1352|end_char=1355
+2	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	start_char=1356|end_char=1360
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=1360|end_char=1361
+4	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=1361|end_char=1368
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=1369|end_char=1372
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=1373|end_char=1377
+7	gefährliche	gefährlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=1378|end_char=1389
+8	Herz	Herz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	start_char=1390|end_char=1394
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=1394|end_char=1395
+10	Erkrankung	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1395|end_char=1405
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1405|end_char=1406
+
+# text = Bei einem Herz-Infarkt stirbt ein Teil des Herz-Muskels ab.
+# sent_id = 21
+1	Bei	bei	ADP	APPR	_	5	case	_	start_char=1407|end_char=1410
+2	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=1411|end_char=1416
+3	Herz	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	compound	_	start_char=1417|end_char=1421
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=1421|end_char=1422
+5	Infarkt	Infarkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	start_char=1422|end_char=1429
+6	stirbt	sterben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1430|end_char=1436
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=1437|end_char=1440
+8	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=1441|end_char=1445
+9	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=1446|end_char=1449
+10	Herz	Herz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	12	compound	_	start_char=1450|end_char=1454
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=1454|end_char=1455
+12	Muskels	Muskel	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	start_char=1455|end_char=1462
+13	ab	ab	ADP	PTKVZ	_	6	compound:prt	_	start_char=1463|end_char=1465
+14	.	.	PUNCT	$.	_	6	punct	_	start_char=1465|end_char=1466
+
+# text = Ein Herz-Infarkt entsteht oft durch eine koronare Herz-Krankheit.
+# sent_id = 22
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1480|end_char=1483
+2	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	start_char=1484|end_char=1488
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=1488|end_char=1489
+4	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1489|end_char=1496
+5	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1497|end_char=1505
+6	oft	oft	ADV	ADV	_	5	advmod	_	start_char=1506|end_char=1509
+7	durch	durch	ADP	APPR	_	12	case	_	start_char=1510|end_char=1515
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=1516|end_char=1520
+9	koronare	koronar	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=1521|end_char=1529
+10	Herz	Herz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	compound	_	start_char=1530|end_char=1534
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=1534|end_char=1535
+12	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	start_char=1535|end_char=1544
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=1544|end_char=1545
+
+# text = Bei einer koronaren Herz-Krankheit sind die Herz-Kranz-Gefäße verengt.
+# sent_id = 23
+1	Bei	bei	ADP	APPR	_	6	case	_	start_char=1546|end_char=1549
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=1550|end_char=1555
+3	koronaren	koronar	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=1556|end_char=1565
+4	Herz	Herz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	compound	_	start_char=1566|end_char=1570
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1570|end_char=1571
+6	Krankheit	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	start_char=1571|end_char=1580
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=1581|end_char=1585
+8	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=1586|end_char=1589
+9	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	compound	_	start_char=1590|end_char=1594
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=1594|end_char=1595
+11	Kranz	Kranz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	compound	_	start_char=1595|end_char=1600
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=1600|end_char=1601
+13	Gefäße	Gefäß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=1601|end_char=1607
+14	verengt	verengen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=1608|end_char=1615
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=1615|end_char=1616
+
+# text = Deshalb kann Sauerstoff nicht mehr richtig zum Herz-Muskel gelangen.
+# sent_id = 24
+1	Deshalb	deshalb	ADV	PAV	_	12	advmod	_	start_char=1617|end_char=1624
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=1625|end_char=1629
+3	Sauerstoff	Sauerstoff	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=1630|end_char=1640
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=1641|end_char=1646
+5	mehr	mehr	ADV	ADV	_	6	advmod	_	start_char=1647|end_char=1651
+6	richtig	richtig	ADV	ADJD	_	12	advmod	_	start_char=1652|end_char=1659
+7-8	zum	_	_	_	_	_	_	_	start_char=1660|end_char=1663
+7	zu	zu	ADP	APPR	_	11	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+9	Herz	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	compound	_	start_char=1664|end_char=1668
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=1668|end_char=1669
+11	Muskel	Muskel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=1669|end_char=1675
+12	gelangen	gelangen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1676|end_char=1684
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=1684|end_char=1685
+
+# text = Deshalb bekommt der Herz-Muskel nicht genug Sauerstoff.
+# sent_id = 25
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=1686|end_char=1693
+2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1694|end_char=1701
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=1702|end_char=1705
+4	Herz	Herz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	start_char=1706|end_char=1710
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1710|end_char=1711
+6	Muskel	Muskel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1711|end_char=1717
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=1718|end_char=1723
+8	genug	genug	ADV	PIAT	PronType=Ind	9	det	_	start_char=1724|end_char=1729
+9	Sauerstoff	Sauerstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=1730|end_char=1740
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=1740|end_char=1741
+
+# text = Das Herzmuskelgewebe stirbt ab.
+# sent_id = 26
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1742|end_char=1745
+2	Herzmuskelgewebe	Herzmuskelgewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=1746|end_char=1762
+3	stirbt	sterben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1763|end_char=1769
+4	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	start_char=1770|end_char=1772
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=1772|end_char=1773
+
+# text = Der Patient hat dann typische Anzeichen wie zum Beispiel: - starke Schmerzen hinter dem Brust-Bein - Enge-Gefühl in der Brust - Atem-Not - Übelkeit
+# sent_id = 27
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1774|end_char=1777
+2	Patient	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1778|end_char=1785
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1786|end_char=1789
+4	dann	dann	ADV	ADV	_	3	advmod	_	start_char=1790|end_char=1794
+5	typische	typisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=1795|end_char=1803
+6	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=1804|end_char=1813
+7	wie	wie	ADP	KOKOM	_	10	case	_	start_char=1814|end_char=1817
+8-9	zum	_	_	_	_	_	_	_	start_char=1818|end_char=1821
+8	zu	zu	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=1822|end_char=1830
+11	:	:	PUNCT	$.	_	14	punct	_	start_char=1830|end_char=1831
+12	-	-	PUNCT	$(	_	14	punct	_	start_char=1838|end_char=1839
+13	starke	stark	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=1840|end_char=1846
+14	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	appos	_	start_char=1847|end_char=1856
+15	hinter	hinter	ADP	APPR	_	23	case	_	start_char=1857|end_char=1863
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	start_char=1864|end_char=1867
+17	Brust	Brust	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	compound	_	start_char=1868|end_char=1873
+18	-	-	PUNCT	$(	_	17	punct	_	start_char=1873|end_char=1874
+19	Bein	Bein	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	compound	_	start_char=1874|end_char=1878
+20	-	-	PUNCT	$(	_	19	punct	_	start_char=1885|end_char=1886
+21	Enge	Enge	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	compound	_	start_char=1887|end_char=1891
+22	-	-	PUNCT	$(	_	21	punct	_	start_char=1891|end_char=1892
+23	Gefühl	Gefühl	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	start_char=1892|end_char=1898
+24	in	in	ADP	APPR	_	32	case	_	start_char=1899|end_char=1901
+25	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	start_char=1902|end_char=1905
+26	Brust	Brust	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	compound	_	start_char=1906|end_char=1911
+27	-	-	PUNCT	$(	_	26	punct	_	start_char=1918|end_char=1919
+28	Atem	Atem	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	compound	_	start_char=1920|end_char=1924
+29	-	-	PUNCT	$(	_	28	punct	_	start_char=1924|end_char=1925
+30	Not	Not	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	compound	_	start_char=1925|end_char=1928
+31	-	-	PUNCT	$(	_	30	punct	_	start_char=1935|end_char=1936
+32	Übelkeit	Übelkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	start_char=1937|end_char=1945
+
+# text = Der Patient hat diese Anzeichen?
+# sent_id = 28
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1952|end_char=1955
+2	Patient	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1956|end_char=1963
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1964|end_char=1967
+4	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	start_char=1968|end_char=1973
+5	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=1974|end_char=1983
+6	?	?	PUNCT	$.	_	3	punct	_	start_char=1983|end_char=1984
+
+# text = Dann rufen Sie sofort den Not-Ruf 112.
+# sent_id = 29
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=1985|end_char=1989
+2	rufen	rufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1990|end_char=1995
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1996|end_char=1999
+4	sofort	sofort	ADV	ADV	_	2	advmod	_	start_char=2000|end_char=2006
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=2007|end_char=2010
+6	Not	Not	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=2011|end_char=2014
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2014|end_char=2015
+8	Ruf	Ruf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=2015|end_char=2018
+9	112	112	NUM	CARD	NumType=Card	8	appos	_	start_char=2019|end_char=2022
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=2022|end_char=2023
+
+# text = Definition: Was ist ein Herz-Infarkt?
+# sent_id = 30
+1	Definition	Definition	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2037|end_char=2047
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=2047|end_char=2048
+3	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	8	nsubj	_	start_char=2049|end_char=2052
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=2053|end_char=2056
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=2057|end_char=2060
+6	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	compound	_	start_char=2061|end_char=2065
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2065|end_char=2066
+8	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=2066|end_char=2073
+9	?	?	PUNCT	$.	_	8	punct	_	start_char=2073|end_char=2074
+
+# text = Bei einem Herz-Infarkt stirbt Herzmuskelgewebe ab.
+# sent_id = 31
+1	Bei	bei	ADP	APPR	_	5	case	_	start_char=2088|end_char=2091
+2	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=2092|end_char=2097
+3	Herz	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	compound	_	start_char=2098|end_char=2102
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=2102|end_char=2103
+5	Infarkt	Infarkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	start_char=2103|end_char=2110
+6	stirbt	sterben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2111|end_char=2117
+7	Herzmuskelgewebe	Herzmuskelgewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=2118|end_char=2134
+8	ab	ab	ADP	PTKVZ	_	6	compound:prt	_	start_char=2135|end_char=2137
+9	.	.	PUNCT	$.	_	6	punct	_	start_char=2137|end_char=2138
+
+# text = Das passiert, weil ein Herz-Kranz-Gefäß verstopft ist.
+# sent_id = 32
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=2139|end_char=2142
+2	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2143|end_char=2151
+3	,	,	PUNCT	$,	_	11	punct	_	start_char=2151|end_char=2152
+4	weil	weil	SCONJ	KOUS	_	11	mark	_	start_char=2153|end_char=2157
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=2158|end_char=2161
+6	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	compound	_	start_char=2162|end_char=2166
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2166|end_char=2167
+8	Kranz	Kranz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	compound	_	start_char=2167|end_char=2172
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=2172|end_char=2173
+10	Gefäß	Gefäß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=2173|end_char=2178
+11	verstopft	verstopfen	ADJ	VVPP	Degree=Pos|VerbForm=Part	2	advcl	_	start_char=2179|end_char=2188
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=2189|end_char=2192
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=2192|end_char=2193
+
+# text = Ein Herz-Kranz-Gefäß ist eine Arterie.
+# sent_id = 33
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=2194|end_char=2197
+2	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	compound	_	start_char=2198|end_char=2202
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=2202|end_char=2203
+4	Kranz	Kranz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	compound	_	start_char=2203|end_char=2208
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=2208|end_char=2209
+6	Gefäß	Gefäß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=2209|end_char=2214
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=2215|end_char=2218
+8	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=2219|end_char=2223
+9	Arterie	Arterie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2224|end_char=2231
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=2231|end_char=2232
+
+# text = Eine Arterie ist ein Blut-Gefäß.
+# sent_id = 34
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=2233|end_char=2237
+2	Arterie	Arterie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=2238|end_char=2245
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=2246|end_char=2249
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=2250|end_char=2253
+5	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	compound	_	start_char=2254|end_char=2258
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=2258|end_char=2259
+7	Gefäß	Gefäß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=2259|end_char=2264
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=2264|end_char=2265
+
+# text = Die Herz-Kranz-Gefäße sind: Die Koronararterien.
+# sent_id = 35
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=2266|end_char=2269
+2	Herz	Herz	PROPN	NN	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	start_char=2270|end_char=2274
+3	-	-	PUNCT	$(	_	4	punct	_	start_char=2274|end_char=2275
+4	Kranz	Kranz	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	start_char=2275|end_char=2280
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=2280|end_char=2281
+6	Gefäße	Gefäß	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	flat	_	start_char=2281|end_char=2287
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=2288|end_char=2292
+8	:	:	PUNCT	$.	_	10	punct	_	start_char=2292|end_char=2293
+9	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=2294|end_char=2297
+10	Koronararterien	Koronararterien	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=2298|end_char=2313
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=2313|end_char=2314
+
+# text = Die Koronararterien versorgen die Vorderwand, die Seiten-Wand und die Rück-Wand des Herzens mit Blut.
+# sent_id = 36
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=2315|end_char=2318
+2	Koronararterien	Koronararterien	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=2319|end_char=2334
+3	versorgen	versorgen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2335|end_char=2344
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2345|end_char=2348
+5	Vorderwand	Vorderwand	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=2349|end_char=2359
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=2359|end_char=2360
+7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=2361|end_char=2364
+8	Seiten	Seite	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	compound	_	start_char=2365|end_char=2371
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=2371|end_char=2372
+10	Wand	Wand	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	start_char=2372|end_char=2376
+11	und	und	CCONJ	KON	_	15	cc	_	start_char=2377|end_char=2380
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=2381|end_char=2384
+13	Rück	Rück	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	compound	_	start_char=2385|end_char=2389
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=2389|end_char=2390
+15	Wand	Wand	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	start_char=2390|end_char=2394
+16	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	start_char=2395|end_char=2398
+17	Herzens	Herz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	start_char=2399|end_char=2406
+18	mit	mit	ADP	APPR	_	19	case	_	start_char=2407|end_char=2410
+19	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	nmod	_	start_char=2411|end_char=2415
+20	.	.	PUNCT	$.	_	3	punct	_	start_char=2415|end_char=2416
+
+# text = Ist das Gefäß verstopft?
+# sent_id = 37
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2417|end_char=2420
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=2421|end_char=2424
+3	Gefäß	Gefäß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=2425|end_char=2430
+4	verstopft	verstopfen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=2431|end_char=2440
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=2440|end_char=2441
+
+# text = Dann bekommt der betroffene Bereich des Herzens nicht mehr genug Sauerstoff.
+# sent_id = 38
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=2442|end_char=2446
+2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2447|end_char=2454
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=2455|end_char=2458
+4	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=2459|end_char=2469
+5	Bereich	Bereich	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=2470|end_char=2477
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=2478|end_char=2481
+7	Herzens	Herz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=2482|end_char=2489
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=2490|end_char=2495
+9	mehr	mehr	ADV	ADV	_	2	advmod	_	start_char=2496|end_char=2500
+10	genug	genug	ADV	PIAT	PronType=Ind	11	det	_	start_char=2501|end_char=2506
+11	Sauerstoff	Sauerstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	start_char=2507|end_char=2517
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=2517|end_char=2518
+
+# text = Dann stirbt das Gewebe ab.
+# sent_id = 39
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=2519|end_char=2523
+2	stirbt	sterben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2524|end_char=2530
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=2531|end_char=2534
+4	Gewebe	Gewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=2535|end_char=2541
+5	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=2542|end_char=2544
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=2544|end_char=2545
+
+# text = Nach spätestens 2 bis 4 Stunden stirbt das Gewebe ab.
+# sent_id = 40
+1	Nach	nach	ADP	APPR	_	6	case	_	start_char=2546|end_char=2550
+2	spätestens	spätestens	ADV	ADV	_	3	advmod	_	start_char=2551|end_char=2561
+3	2	2	NUM	CARD	NumType=Card	6	nummod	_	start_char=2562|end_char=2563
+4	bis	bis	ADP	KON	_	5	case	_	start_char=2564|end_char=2567
+5	4	4	NUM	CARD	NumType=Card	3	nmod	_	start_char=2568|end_char=2569
+6	Stunden	Stunde|Stunden	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	start_char=2570|end_char=2577
+7	stirbt	sterben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2578|end_char=2584
+8	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=2585|end_char=2588
+9	Gewebe	Gewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=2589|end_char=2595
+10	ab	ab	ADP	PTKVZ	_	7	compound:prt	_	start_char=2596|end_char=2598
+11	.	.	PUNCT	$.	_	7	punct	_	start_char=2598|end_char=2599
+
+# text = Herz-Infarkte sind die häufigste Todes-Ursache in Europa.
+# sent_id = 41
+1	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	compound	_	start_char=2613|end_char=2617
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=2617|end_char=2618
+3	Infarkte	Infarkt	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	start_char=2618|end_char=2626
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=2627|end_char=2631
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=2632|end_char=2635
+6	häufigste	häufig	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	9	amod	_	start_char=2636|end_char=2645
+7	Todes	Tod	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	start_char=2646|end_char=2651
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=2651|end_char=2652
+9	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2652|end_char=2659
+10	in	in	ADP	APPR	_	11	case	_	start_char=2660|end_char=2662
+11	Europa	Europa	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	start_char=2663|end_char=2669
+12	.	.	PUNCT	$.	_	9	punct	_	start_char=2669|end_char=2670
+
+# text = 20 Prozent aller Todes-Fälle sind auf einen Herz-Infarkt zurückzuführen.
+# sent_id = 42
+1	20	20	NUM	CARD	NumType=Card	2	nummod	_	start_char=2671|end_char=2673
+2	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	nsubj:pass	_	start_char=2674|end_char=2681
+3	aller	alle	DET	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	6	det	_	start_char=2682|end_char=2687
+4	Todes	Tod	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	compound	_	start_char=2688|end_char=2693
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=2693|end_char=2694
+6	Fälle	Fall	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=2694|end_char=2699
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	start_char=2700|end_char=2704
+8	auf	auf	ADP	APPR	_	12	case	_	start_char=2705|end_char=2708
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=2709|end_char=2714
+10	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	compound	_	start_char=2715|end_char=2719
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=2719|end_char=2720
+12	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	start_char=2720|end_char=2727
+13	zurückzuführen	zurückführen	VERB	VVIZU	VerbForm=Inf	0	root	_	start_char=2728|end_char=2742
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=2742|end_char=2743
+
+# text = In den letzten Jahren ist die Wahrscheinlichkeit für einen Herz-Infarkt in Deutschland gesunken.
+# sent_id = 43
+1	In	in	ADP	APPR	_	4	case	_	start_char=2744|end_char=2746
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=2747|end_char=2750
+3	letzten	letzt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	start_char=2751|end_char=2758
+4	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	15	nmod	_	start_char=2759|end_char=2765
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=2766|end_char=2769
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2770|end_char=2773
+7	Wahrscheinlichkeit	Wahrscheinlichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=2774|end_char=2792
+8	für	für	ADP	APPR	_	12	case	_	start_char=2793|end_char=2796
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=2797|end_char=2802
+10	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	compound	_	start_char=2803|end_char=2807
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=2807|end_char=2808
+12	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	start_char=2808|end_char=2815
+13	in	in	ADP	APPR	_	14	case	_	start_char=2816|end_char=2818
+14	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	start_char=2819|end_char=2830
+15	gesunken	sinken	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=2831|end_char=2839
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=2839|end_char=2840
+
+# text = Aber immer noch sterben 6 bis 10 Prozent an einem Herz-Infarkt.
+# sent_id = 44
+1	Aber	aber	CCONJ	KON	_	4	cc	_	start_char=2841|end_char=2845
+2	immer	immer	ADV	ADV	_	3	advmod	_	start_char=2846|end_char=2851
+3	noch	noch	ADV	ADV	_	4	advmod	_	start_char=2852|end_char=2856
+4	sterben	sterben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2857|end_char=2864
+5	6	6	NUM	CARD	NumType=Card	8	nummod	_	start_char=2865|end_char=2866
+6	bis	bis	ADP	KON	_	7	case	_	start_char=2867|end_char=2870
+7	10	10	NUM	CARD	NumType=Card	5	nmod	_	start_char=2871|end_char=2873
+8	Prozent	Prozent	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nsubj	_	start_char=2874|end_char=2881
+9	an	an	ADP	APPR	_	13	case	_	start_char=2882|end_char=2884
+10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	13	det	_	start_char=2885|end_char=2890
+11	Herz	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	compound	_	start_char=2891|end_char=2895
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=2895|end_char=2896
+13	Infarkt	Infarkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=2896|end_char=2903
+14	.	.	PUNCT	$.	_	4	punct	_	start_char=2903|end_char=2904
+
+# text = Was sind die Ursachen eines Herz-Infarkts?
+# sent_id = 45
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obj	_	start_char=2918|end_char=2921
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2922|end_char=2926
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=2927|end_char=2930
+4	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2931|end_char=2939
+5	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=2940|end_char=2945
+6	Herz	Herz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	8	compound	_	start_char=2946|end_char=2950
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2950|end_char=2951
+8	Infarkts	Infarkt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=2951|end_char=2959
+9	?	?	PUNCT	$.	_	2	punct	_	start_char=2959|end_char=2960
+
+# text = Die Ursache eines Herz-Infarkts ist meist eine Arteriosklerose.
+# sent_id = 46
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2961|end_char=2964
+2	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=2965|end_char=2972
+3	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=2973|end_char=2978
+4	Herz	Herz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	6	compound	_	start_char=2979|end_char=2983
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=2983|end_char=2984
+6	Infarkts	Infarkt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=2984|end_char=2992
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=2993|end_char=2996
+8	meist	meist	ADV	ADV	_	10	advmod	_	start_char=2997|end_char=3002
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=3003|end_char=3007
+10	Arteriosklerose	Arteriosklerose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=3008|end_char=3023
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=3023|end_char=3024
+
+# text = Arteriosklerose bedeutet: Die Herz-Kranz-Gefäße sind verengt.
+# sent_id = 47
+1	Arteriosklerose	Arteriosklerose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=3025|end_char=3040
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3041|end_char=3049
+3	:	:	PUNCT	$.	_	11	punct	_	start_char=3049|end_char=3050
+4	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=3051|end_char=3054
+5	Herz	Herz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	start_char=3055|end_char=3059
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=3059|end_char=3060
+7	Kranz	Kranz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	start_char=3060|end_char=3065
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=3065|end_char=3066
+9	Gefäße	Gefäß	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=3066|end_char=3072
+10	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=3073|end_char=3077
+11	verengt	verengen	ADJ	VVPP	Degree=Pos|VerbForm=Part	2	parataxis	_	start_char=3078|end_char=3085
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=3085|end_char=3086
+
+# text = Die Herz-Kranz-Gefäße versorgen das Herz mit Blut.
+# sent_id = 48
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=3087|end_char=3090
+2	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	compound	_	start_char=3091|end_char=3095
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=3095|end_char=3096
+4	Kranz	Kranz	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=3096|end_char=3101
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=3101|end_char=3102
+6	Gefäße	Gefäß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=3102|end_char=3108
+7	versorgen	versorgen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3109|end_char=3118
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=3119|end_char=3122
+9	Herz	Herz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=3123|end_char=3127
+10	mit	mit	ADP	APPR	_	11	case	_	start_char=3128|end_char=3131
+11	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	start_char=3132|end_char=3136
+12	.	.	PUNCT	$.	_	7	punct	_	start_char=3136|end_char=3137
+
+# text = Ist das Herz nicht mehr ausreichend mit Blut versorgt?
+# sent_id = 49
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	start_char=3138|end_char=3141
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=3142|end_char=3145
+3	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	start_char=3146|end_char=3150
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=3151|end_char=3156
+5	mehr	mehr	ADV	ADV	_	6	advmod	_	start_char=3157|end_char=3161
+6	ausreichend	ausreichend	ADV	ADJD	_	9	advmod	_	start_char=3162|end_char=3173
+7	mit	mit	ADP	APPR	_	8	case	_	start_char=3174|end_char=3177
+8	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=3178|end_char=3182
+9	versorgt	versorgen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3183|end_char=3191
+10	?	?	PUNCT	$.	_	9	punct	_	start_char=3191|end_char=3192
+
+# text = Dann kann der Patient einen Herz-Infarkt bekommen.
+# sent_id = 50
+1	Dann	dann	ADV	ADV	_	9	advmod	_	start_char=3193|end_char=3197
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=3198|end_char=3202
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=3203|end_char=3206
+4	Patient	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=3207|end_char=3214
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=3215|end_char=3220
+6	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=3221|end_char=3225
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=3225|end_char=3226
+8	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=3226|end_char=3233
+9	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3234|end_char=3242
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3242|end_char=3243
+
+# text = Die Arteriosklerose heißt deshalb auch: Gefäßverkalkung.
+# sent_id = 51
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=3244|end_char=3247
+2	Arteriosklerose	Arteriosklerose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=3248|end_char=3263
+3	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3264|end_char=3269
+4	deshalb	deshalb	ADV	PAV	_	3	advmod	_	start_char=3270|end_char=3277
+5	auch	auch	ADV	ADV	_	3	advmod	_	start_char=3278|end_char=3282
+6	:	:	PUNCT	$.	_	7	punct	_	start_char=3282|end_char=3283
+7	Gefäßverkalkung	Gefäßverkalkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	xcomp	_	start_char=3284|end_char=3299
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=3299|end_char=3300
+
+# text = Die Herz-Kranz-Gefäße sind die Blut-Gefäße, die das Herz mit Blut versorgen.
+# sent_id = 52
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=3314|end_char=3317
+2	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	compound	_	start_char=3318|end_char=3322
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=3322|end_char=3323
+4	Kranz	Kranz	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=3323|end_char=3328
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=3328|end_char=3329
+6	Gefäße	Gefäß	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	flat	_	start_char=3329|end_char=3335
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=3336|end_char=3340
+8	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=3341|end_char=3344
+9	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	compound	_	start_char=3345|end_char=3349
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=3349|end_char=3350
+11	Gefäße	Gefäß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=3350|end_char=3356
+12	,	,	PUNCT	$,	_	18	punct	_	start_char=3356|end_char=3357
+13	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	18	nsubj	_	start_char=3358|end_char=3361
+14	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	start_char=3362|end_char=3365
+15	Herz	Herz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	start_char=3366|end_char=3370
+16	mit	mit	ADP	APPR	_	17	case	_	start_char=3371|end_char=3374
+17	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	start_char=3375|end_char=3379
+18	versorgen	versorgen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	start_char=3380|end_char=3389
+19	.	.	PUNCT	$.	_	11	punct	_	start_char=3389|end_char=3390
+
+# text = Bei einer koronaren Herz-Krankheit schädigen bestimmte Risiko-Faktoren die Herz-Kranz-Gefäße.
+# sent_id = 53
+1	Bei	bei	ADP	APPR	_	6	case	_	start_char=3391|end_char=3394
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=3395|end_char=3400
+3	koronaren	koronar	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=3401|end_char=3410
+4	Herz	Herz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	compound	_	start_char=3411|end_char=3415
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=3415|end_char=3416
+6	Krankheit	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=3416|end_char=3425
+7	schädigen	schädigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3426|end_char=3435
+8	bestimmte	bestimmt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=3436|end_char=3445
+9	Risiko	Risiko	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	compound	_	start_char=3446|end_char=3452
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=3452|end_char=3453
+11	Faktoren	Faktor	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=3453|end_char=3461
+12	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	17	det	_	start_char=3462|end_char=3465
+13	Herz	Herz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	compound	_	start_char=3466|end_char=3470
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=3470|end_char=3471
+15	Kranz	Kranz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	compound	_	start_char=3471|end_char=3476
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=3476|end_char=3477
+17	Gefäße	Gefäß	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=3477|end_char=3483
+18	.	.	PUNCT	$.	_	7	punct	_	start_char=3483|end_char=3484
+
+# text = Zu den Risiko-Faktoren gehören zum Beispiel: - erhöhte Blutfette - Rauchen - Diabetes - Blut-Hoch-Druck Durch die Risiko-Faktoren entstehen in den Herzkranzgefäßen Ablagerungen.
+# sent_id = 54
+1	Zu	zu	ADP	APPR	_	5	case	_	start_char=3485|end_char=3487
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=3488|end_char=3491
+3	Risiko	Risiko	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	compound	_	start_char=3492|end_char=3498
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=3498|end_char=3499
+5	Faktoren	Faktor	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	start_char=3499|end_char=3507
+6	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3508|end_char=3515
+7-8	zum	_	_	_	_	_	_	_	start_char=3516|end_char=3519
+7	zu	zu	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=3520|end_char=3528
+10	:	:	PUNCT	$.	_	23	punct	_	start_char=3528|end_char=3529
+11	-	-	PUNCT	$(	_	13	punct	_	start_char=3536|end_char=3537
+12	erhöhte	erhöht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=3538|end_char=3545
+13	Blutfette	Blutfette	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	23	compound	_	start_char=3546|end_char=3555
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=3562|end_char=3563
+15	Rauchen	Rauchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	23	compound	_	start_char=3564|end_char=3571
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=3578|end_char=3579
+17	Diabetes	Diabet	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	compound	_	start_char=3580|end_char=3588
+18	-	-	PUNCT	$(	_	17	punct	_	start_char=3595|end_char=3596
+19	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	23	compound	_	start_char=3597|end_char=3601
+20	-	-	PUNCT	$(	_	21	punct	_	start_char=3601|end_char=3602
+21	Hoch	Hoch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	compound	_	start_char=3602|end_char=3606
+22	-	-	PUNCT	$(	_	21	punct	_	start_char=3606|end_char=3607
+23	Druck	Druck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nsubj	_	start_char=3607|end_char=3612
+24	Durch	durch	ADP	APPR	_	28	case	_	start_char=3619|end_char=3624
+25	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	28	det	_	start_char=3625|end_char=3628
+26	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	28	compound	_	start_char=3629|end_char=3635
+27	-	-	PUNCT	$(	_	26	punct	_	start_char=3635|end_char=3636
+28	Faktoren	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	23	nmod	_	start_char=3636|end_char=3644
+29	entstehen	entstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=3645|end_char=3654
+30	in	in	ADP	APPR	_	32	case	_	start_char=3655|end_char=3657
+31	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	32	det	_	start_char=3658|end_char=3661
+32	Herzkranzgefäßen	Herzkranzgefäß	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	29	obl	_	start_char=3662|end_char=3678
+33	Ablagerungen	Ablagerung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	29	obj	_	start_char=3679|end_char=3691
+34	.	.	PUNCT	$.	_	6	punct	_	start_char=3691|end_char=3692
+
+# text = Die Ablagerungen heißen Plaques.
+# sent_id = 55
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=3693|end_char=3696
+2	Ablagerungen	Ablagerung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=3697|end_char=3709
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3710|end_char=3716
+4	Plaques	Plaques	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	3	xcomp	_	start_char=3717|end_char=3724
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=3724|end_char=3725
+
+# text = Plaques bestehen aus Cholesterin, Kalk und Entzündungszellen.
+# sent_id = 56
+1	Plaques	Plaque	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=3726|end_char=3733
+2	bestehen	bestehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3734|end_char=3742
+3	aus	aus	ADP	APPR	_	4	case	_	start_char=3743|end_char=3746
+4	Cholesterin	Cholesterin	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=3747|end_char=3758
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=3758|end_char=3759
+6	Kalk	Kalk	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	conj	_	start_char=3760|end_char=3764
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=3765|end_char=3768
+8	Entzündungszellen	Entzündungszelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	conj	_	start_char=3769|end_char=3786
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=3786|end_char=3787
+
+# text = Die Plaques sind wie eine Kappe um die Gefäße herum.
+# sent_id = 57
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=3788|end_char=3791
+2	Plaques	Plaque	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3792|end_char=3799
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3800|end_char=3804
+4	wie	wie	ADP	KOKOM	_	6	case	_	start_char=3805|end_char=3808
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=3809|end_char=3813
+6	Kappe	Kappe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	start_char=3814|end_char=3819
+7	um	um	ADP	APPR	_	9	case	_	start_char=3820|end_char=3822
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=3823|end_char=3826
+9	Gefäße	Gefäß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	start_char=3827|end_char=3833
+10	herum	herum	ADV	PTKVZ	_	3	mark	_	start_char=3834|end_char=3839
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=3839|end_char=3840
+
+# text = Bei einer Plaqueruptur reißt die Plaque.
+# sent_id = 58
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=3854|end_char=3857
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=3858|end_char=3863
+3	Plaqueruptur	Plaqueruptur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=3864|end_char=3876
+4	reißt	reißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3877|end_char=3882
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3883|end_char=3886
+6	Plaque	Plaque	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=3887|end_char=3893
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=3893|end_char=3894
+
+# text = Die Plaque ist ein Blutgerinnsel.
+# sent_id = 59
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=3895|end_char=3898
+2	Plaque	Plaque	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=3899|end_char=3905
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=3906|end_char=3909
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=3910|end_char=3913
+5	Blutgerinnsel	Blutgerinnsel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=3914|end_char=3927
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=3927|end_char=3928
+
+# text = Das Blutgerinnsel verstopft das Herz-Kranz-Gefäß.
+# sent_id = 60
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=3929|end_char=3932
+2	Blutgerinnsel	Blutgerinnsel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=3933|end_char=3946
+3	verstopft	verstopfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3947|end_char=3956
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=3957|end_char=3960
+5	Herz	Herz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	compound	_	start_char=3961|end_char=3965
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=3965|end_char=3966
+7	Kranz	Kranz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	compound	_	start_char=3966|end_char=3971
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=3971|end_char=3972
+9	Gefäß	Gefäß	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=3972|end_char=3977
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=3977|end_char=3978
+
+# text = Was sind die Ursachen einer Plaqueruptur?
+# sent_id = 61
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obj	_	start_char=3992|end_char=3995
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3996|end_char=4000
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=4001|end_char=4004
+4	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=4005|end_char=4013
+5	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=4014|end_char=4019
+6	Plaqueruptur	Plaqueruptur	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=4020|end_char=4032
+7	?	?	PUNCT	$.	_	2	punct	_	start_char=4032|end_char=4033
+
+# text = Eine Plaqueruptur ist der häufigste Grund für einen Gefäßverschluss.
+# sent_id = 62
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=4034|end_char=4038
+2	Plaqueruptur	Plaqueruptur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=4039|end_char=4051
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4052|end_char=4055
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=4056|end_char=4059
+5	häufigste	häufig	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	6	amod	_	start_char=4060|end_char=4069
+6	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=4070|end_char=4075
+7	für	für	ADP	APPR	_	9	case	_	start_char=4076|end_char=4079
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=4080|end_char=4085
+9	Gefäßverschluss	Gefäßverschluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	start_char=4086|end_char=4101
+10	.	.	PUNCT	$.	_	6	punct	_	start_char=4101|end_char=4102
+
+# text = Bei einer Plaqueruptur reißt die Bindegewebskappe.
+# sent_id = 63
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=4103|end_char=4106
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=4107|end_char=4112
+3	Plaqueruptur	Plaqueruptur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=4113|end_char=4125
+4	reißt	reißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4126|end_char=4131
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=4132|end_char=4135
+6	Bindegewebskappe	Bindegewebskappe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=4136|end_char=4152
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=4152|end_char=4153
+
+# text = Die Bindegewebskappe hält die Plaque an der Gefäß-Wand fest.
+# sent_id = 64
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=4154|end_char=4157
+2	Bindegewebskappe	Bindegewebskappe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=4158|end_char=4174
+3	hält	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4175|end_char=4179
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=4180|end_char=4183
+5	Plaque	Plaque	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=4184|end_char=4190
+6	an	an	ADP	APPR	_	10	case	_	start_char=4191|end_char=4193
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=4194|end_char=4197
+8	Gefäß	Gefäß	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	compound	_	start_char=4198|end_char=4203
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=4203|end_char=4204
+10	Wand	Wand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=4204|end_char=4208
+11	fest	fest	ADV	PTKVZ	_	3	compound:prt	_	start_char=4209|end_char=4213
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=4213|end_char=4214
+
+# text = Die Bindegewebskappe reißt durch Entzündungen.
+# sent_id = 65
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=4215|end_char=4218
+2	Bindegewebskappe	Bindegewebskappe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=4219|end_char=4235
+3	reißt	reißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4236|end_char=4241
+4	durch	durch	ADP	APPR	_	5	case	_	start_char=4242|end_char=4247
+5	Entzündungen	Entzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	start_char=4248|end_char=4260
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=4260|end_char=4261
+
+# text = Dann strömen Blutplättchen in das Blut-Gefäß.
+# sent_id = 66
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=4262|end_char=4266
+2	strömen	strömen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4267|end_char=4274
+3	Blutplättchen	Blutplättchen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=4275|end_char=4288
+4	in	in	ADP	APPR	_	8	case	_	start_char=4289|end_char=4291
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=4292|end_char=4295
+6	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	compound	_	start_char=4296|end_char=4300
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=4300|end_char=4301
+8	Gefäß	Gefäß	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	start_char=4301|end_char=4306
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=4306|end_char=4307
+
+# text = Die Blutplättchen erkennen den Riss und decken ihn zu.
+# sent_id = 67
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=4308|end_char=4311
+2	Blutplättchen	Blutplättchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=4312|end_char=4325
+3	erkennen	erkennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4326|end_char=4334
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=4335|end_char=4338
+5	Riss	Riß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=4339|end_char=4343
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=4344|end_char=4347
+7	decken	decken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=4348|end_char=4354
+8	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=4355|end_char=4358
+9	zu	zu	ADP	PTKVZ	_	7	compound:prt	_	start_char=4359|end_char=4361
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=4361|end_char=4362
+
+# text = So entsteht ein Blutgerinnsel.
+# sent_id = 68
+1	So	so	ADV	ADV	_	2	advmod	_	start_char=4363|end_char=4365
+2	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4366|end_char=4374
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=4375|end_char=4378
+4	Blutgerinnsel	Blutgerinnsel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=4379|end_char=4392
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=4392|end_char=4393
+
+# text = Das Blutgerinnsel verstopft das Blut-Gefäß.
+# sent_id = 69
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=4394|end_char=4397
+2	Blutgerinnsel	Blutgerinnsel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=4398|end_char=4411
+3	verstopft	verstopfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4412|end_char=4421
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=4422|end_char=4425
+5	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	compound	_	start_char=4426|end_char=4430
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=4430|end_char=4431
+7	Gefäß	Gefäß	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=4431|end_char=4436
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=4436|end_char=4437
+
+# text = Bei etwa einem Drittel der Betroffenen ist die Plaque nur angerissen.
+# sent_id = 70
+1	Bei	bei	ADP	APPR	_	4	case	_	start_char=4451|end_char=4454
+2	etwa	etwa	ADV	ADV	_	3	advmod	_	start_char=4455|end_char=4459
+3	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=4460|end_char=4465
+4	Drittel	Drittel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	start_char=4466|end_char=4473
+5	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=4474|end_char=4477
+6	Betroffenen	Betroffene	NOUN	NN	Case=Gen|Number=Plur	4	nmod	_	start_char=4478|end_char=4489
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=4490|end_char=4493
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=4494|end_char=4497
+9	Plaque	Plaque	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=4498|end_char=4504
+10	nur	nur	ADV	ADV	_	11	advmod	_	start_char=4505|end_char=4508
+11	angerissen	anrißeißen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=4509|end_char=4519
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=4519|end_char=4520
+
+# text = Die Plaque ist aber nicht gerissen?
+# sent_id = 71
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=4521|end_char=4524
+2	Plaque	Plaque	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=4525|end_char=4531
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4532|end_char=4535
+4	aber	aber	ADV	ADV	_	6	advmod	_	start_char=4536|end_char=4540
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=4541|end_char=4546
+6	gerissen	reißen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=4547|end_char=4555
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=4555|end_char=4556
+
+# text = Dann lagert sich ein Blutgerinnsel auf der Ober-Fläche der Plaque ab.
+# sent_id = 72
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=4557|end_char=4561
+2	lagert	lagern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4562|end_char=4568
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=4569|end_char=4573
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=4574|end_char=4577
+5	Blutgerinnsel	Blutgerinnsel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=4578|end_char=4591
+6	auf	auf	ADP	APPR	_	10	case	_	start_char=4592|end_char=4595
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=4596|end_char=4599
+8	Ober	Ober	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	compound	_	start_char=4600|end_char=4604
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=4604|end_char=4605
+10	Fläche	Fläche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=4605|end_char=4611
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=4612|end_char=4615
+12	Plaque	Plaque	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=4616|end_char=4622
+13	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=4623|end_char=4625
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=4625|end_char=4626
+
+# text = Das führt zu einem Gefäßverschluss und zu einem Herz-Infarkt.
+# sent_id = 73
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=4627|end_char=4630
+2	führt	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4631|end_char=4636
+3	zu	zu	ADP	APPR	_	5	case	_	start_char=4637|end_char=4639
+4	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=4640|end_char=4645
+5	Gefäßverschluss	Gefäßverschluß	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=4646|end_char=4661
+6	und	und	CCONJ	KON	_	11	cc	_	start_char=4662|end_char=4665
+7	zu	zu	ADP	APPR	_	11	case	_	start_char=4666|end_char=4668
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=4669|end_char=4674
+9	Herz	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	compound	_	start_char=4675|end_char=4679
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=4679|end_char=4680
+11	Infarkt	Infarkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	conj	_	start_char=4680|end_char=4687
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=4687|end_char=4688
+
+# text = Bei etwa 14 Prozent der Patienten mit Herzinfarkttypischen Veränderungen im EKG und den typischen Anzeichen für einen Herz-Infarkt, ist die Herz-Kranz-Gefäße verengt.
+# sent_id = 74
+1	Bei	bei	ADP	APPR	_	4	case	_	start_char=4702|end_char=4705
+2	etwa	etwa	ADV	ADV	_	3	advmod	_	start_char=4706|end_char=4710
+3	14	14	NUM	CARD	NumType=Card	4	nummod	_	start_char=4711|end_char=4713
+4	Prozent	Prozent	NOUN	NN	Gender=Neut	30	nmod	_	start_char=4714|end_char=4721
+5	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=4722|end_char=4725
+6	Patienten	Patient	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=4726|end_char=4735
+7	mit	mit	ADP	APPR	_	9	case	_	start_char=4736|end_char=4739
+8	Herzinfarkttypischen	herzinfarkttypisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=4740|end_char=4760
+9	Veränderungen	Veränderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	start_char=4761|end_char=4774
+10-11	im	_	_	_	_	_	_	_	start_char=4775|end_char=4777
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	EKG	EKG	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	start_char=4778|end_char=4781
+13	und	und	CCONJ	KON	_	16	cc	_	start_char=4782|end_char=4785
+14	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	16	det	_	start_char=4786|end_char=4789
+15	typischen	typisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=4790|end_char=4799
+16	Anzeichen	Anzeichen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	conj	_	start_char=4800|end_char=4809
+17	für	für	ADP	APPR	_	21	case	_	start_char=4810|end_char=4813
+18	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	21	det	_	start_char=4814|end_char=4819
+19	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	compound	_	start_char=4820|end_char=4824
+20	-	-	PUNCT	$(	_	19	punct	_	start_char=4824|end_char=4825
+21	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	start_char=4825|end_char=4832
+22	,	,	PUNCT	$,	_	4	punct	_	start_char=4832|end_char=4833
+23	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	start_char=4834|end_char=4837
+24	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	start_char=4838|end_char=4841
+25	Herz	Herz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	compound	_	start_char=4842|end_char=4846
+26	-	-	PUNCT	$(	_	25	punct	_	start_char=4846|end_char=4847
+27	Kranz	Kranz	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	start_char=4847|end_char=4852
+28	-	-	PUNCT	$(	_	29	punct	_	start_char=4852|end_char=4853
+29	Gefäße	Gefäß	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	27	flat	_	start_char=4853|end_char=4859
+30	verengt	verengen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=4860|end_char=4867
+31	.	.	PUNCT	$.	_	30	punct	_	start_char=4867|end_char=4868
+
+# text = Trotzdem haben diese Patienten einen Herz-Infarkt?
+# sent_id = 75
+1	Trotzdem	trotzdem	ADV	PAV	_	2	advmod	_	start_char=4869|end_char=4877
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4878|end_char=4883
+3	diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	start_char=4884|end_char=4889
+4	Patienten	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=4890|end_char=4899
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=4900|end_char=4905
+6	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=4906|end_char=4910
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=4910|end_char=4911
+8	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=4911|end_char=4918
+9	?	?	PUNCT	$.	_	2	punct	_	start_char=4918|end_char=4919
+
+# text = Dann spricht man von einem Myokardinfarkt mit nicht obstruktiven Koronararterien.
+# sent_id = 76
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=4920|end_char=4924
+2	spricht	sprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4925|end_char=4932
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=4933|end_char=4936
+4	von	von	ADP	APPR	_	6	case	_	start_char=4937|end_char=4940
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=4941|end_char=4946
+6	Myokardinfarkt	Myokardinfarkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=4947|end_char=4961
+7	mit	mit	ADP	APPR	_	10	case	_	start_char=4962|end_char=4965
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=4966|end_char=4971
+9	obstruktiven	obstruktiv	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=4972|end_char=4984
+10	Koronararterien	Koronararterien	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	start_char=4985|end_char=5000
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=5000|end_char=5001
+
+# text = Das heißt: Die Herz-Kranz-Gefäße sind nicht verengt.
+# sent_id = 77
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=5002|end_char=5005
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5006|end_char=5011
+3	:	:	PUNCT	$.	_	12	punct	_	start_char=5011|end_char=5012
+4	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=5013|end_char=5016
+5	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	compound	_	start_char=5017|end_char=5021
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=5021|end_char=5022
+7	Kranz	Kranz	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=5022|end_char=5027
+8	-	-	PUNCT	$(	_	9	punct	_	start_char=5027|end_char=5028
+9	Gefäße	Gefäß	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	flat	_	start_char=5028|end_char=5034
+10	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=5035|end_char=5039
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=5040|end_char=5045
+12	verengt	verengen	ADJ	VVPP	Degree=Pos|VerbForm=Part	2	parataxis	_	start_char=5046|end_char=5053
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=5053|end_char=5054
+
+# text = Aber die Herz-Kranz-Gefäße sind trotzdem verursacht den Herz-Infarkt?
+# sent_id = 78
+1	Aber	aber	CCONJ	KON	_	10	cc	_	start_char=5055|end_char=5059
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=5060|end_char=5063
+3	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	compound	_	start_char=5064|end_char=5068
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=5068|end_char=5069
+5	Kranz	Kranz	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	compound	_	start_char=5069|end_char=5074
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=5074|end_char=5075
+7	Gefäße	Gefäß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=5075|end_char=5081
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=5082|end_char=5086
+9	trotzdem	trotzdem	ADV	PAV	_	10	advmod	_	start_char=5087|end_char=5095
+10	verursacht	verursachen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5096|end_char=5106
+11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=5107|end_char=5110
+12	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	compound	_	start_char=5111|end_char=5115
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=5115|end_char=5116
+14	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=5116|end_char=5123
+15	?	?	PUNCT	$.	_	10	punct	_	start_char=5123|end_char=5124
+
+# text = Dann gibt es verschiedene Ursachen.
+# sent_id = 79
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5125|end_char=5129
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5130|end_char=5134
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=5135|end_char=5137
+4	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=5138|end_char=5150
+5	Ursachen	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=5151|end_char=5159
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=5159|end_char=5160
+
+# text = Zum Beispiel: - ein Krampf in den Herzkranzgefäßen - ein verschlepptes Blutgerinnsel in den Herzkranzgefäßen
+# sent_id = 80
+1-2	Zum	_	_	_	_	_	_	_	start_char=5161|end_char=5164
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=5165|end_char=5173
+4	:	:	PUNCT	$.	_	7	punct	_	start_char=5173|end_char=5174
+5	-	-	PUNCT	$(	_	7	punct	_	start_char=5181|end_char=5182
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=5183|end_char=5186
+7	Krampf	Krampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=5187|end_char=5193
+8	in	in	ADP	APPR	_	10	case	_	start_char=5194|end_char=5196
+9	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=5197|end_char=5200
+10	Herzkranzgefäßen	Herzkranzgefäß	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	nmod	_	start_char=5201|end_char=5217
+11	-	-	PUNCT	$(	_	14	punct	_	start_char=5224|end_char=5225
+12	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	14	det	_	start_char=5226|end_char=5229
+13	verschlepptes	verschleppt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=5230|end_char=5243
+14	Blutgerinnsel	Blutgerinnsel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	start_char=5244|end_char=5257
+15	in	in	ADP	APPR	_	17	case	_	start_char=5258|end_char=5260
+16	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	17	det	_	start_char=5261|end_char=5264
+17	Herzkranzgefäßen	Herzkranzgefäß	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	14	nmod	_	start_char=5265|end_char=5281
+
+# text = Wie gefährlich ist ein verschlossenes Herz-Kranz-Gefäß?
+# sent_id = 81
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	start_char=5295|end_char=5298
+2	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5299|end_char=5309
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=5310|end_char=5313
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=5314|end_char=5317
+5	verschlossenes	verschließen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=5318|end_char=5332
+6	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	compound	_	start_char=5333|end_char=5337
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=5337|end_char=5338
+8	Kranz	Kranz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	compound	_	start_char=5338|end_char=5343
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=5343|end_char=5344
+10	Gefäß	Gefäß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=5344|end_char=5349
+11	?	?	PUNCT	$.	_	2	punct	_	start_char=5349|end_char=5350
+
+# text = Das hängt davon ab: Ist das Herz-Kranz-Gefäß groß oder klein?
+# sent_id = 82
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=5351|end_char=5354
+2	hängt	hängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5355|end_char=5360
+3	davon	davon	ADV	PAV	PronType=Dem	2	advmod	_	start_char=5361|end_char=5366
+4	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=5367|end_char=5369
+5	:	:	PUNCT	$.	_	13	punct	_	start_char=5369|end_char=5370
+6	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=5371|end_char=5374
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=5375|end_char=5378
+8	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	compound	_	start_char=5379|end_char=5383
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=5383|end_char=5384
+10	Kranz	Kranz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	compound	_	start_char=5384|end_char=5389
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=5389|end_char=5390
+12	Gefäß	Gefäß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	start_char=5390|end_char=5395
+13	groß	groß	ADJ	ADJD	Degree=Pos	2	parataxis	_	start_char=5396|end_char=5400
+14	oder	oder	CCONJ	KON	_	15	cc	_	start_char=5401|end_char=5405
+15	klein	klein	ADJ	ADJD	Degree=Pos	13	conj	_	start_char=5406|end_char=5411
+16	?	?	PUNCT	$.	_	13	punct	_	start_char=5411|end_char=5412
+
+# text = Ist das Herz-Kranz-Gefäß groß?
+# sent_id = 83
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=5413|end_char=5416
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=5417|end_char=5420
+3	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	compound	_	start_char=5421|end_char=5425
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=5425|end_char=5426
+5	Kranz	Kranz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	compound	_	start_char=5426|end_char=5431
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=5431|end_char=5432
+7	Gefäß	Gefäß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=5432|end_char=5437
+8	groß	groß	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5438|end_char=5442
+9	?	?	PUNCT	$.	_	8	punct	_	start_char=5442|end_char=5443
+
+# text = Dann ist die Gefahr für den Patienten höher.
+# sent_id = 84
+1	Dann	dann	ADV	ADV	_	8	advmod	_	start_char=5444|end_char=5448
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=5449|end_char=5452
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=5453|end_char=5456
+4	Gefahr	Gefahr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=5457|end_char=5463
+5	für	für	ADP	APPR	_	7	case	_	start_char=5464|end_char=5467
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=5468|end_char=5471
+7	Patienten	Patient	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	start_char=5472|end_char=5481
+8	höher	hoch	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=5482|end_char=5487
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=5487|end_char=5488
+
+# text = Das Herz-Kranz-Gefäß ist nämlich größer.
+# sent_id = 85
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=5489|end_char=5492
+2	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	compound	_	start_char=5493|end_char=5497
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=5497|end_char=5498
+4	Kranz	Kranz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	compound	_	start_char=5498|end_char=5503
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=5503|end_char=5504
+6	Gefäß	Gefäß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=5504|end_char=5509
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=5510|end_char=5513
+8	nämlich	nämlich	ADV	ADV	_	9	advmod	_	start_char=5514|end_char=5521
+9	größer	groß	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=5522|end_char=5528
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=5528|end_char=5529
+
+# text = Dann kann mehr Gewebe absterben.
+# sent_id = 86
+1	Dann	dann	ADV	ADV	_	5	advmod	_	start_char=5530|end_char=5534
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=5535|end_char=5539
+3	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	4	det	_	start_char=5540|end_char=5544
+4	Gewebe	Gewebe	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	nsubj	_	start_char=5545|end_char=5551
+5	absterben	absterben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5552|end_char=5561
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=5561|end_char=5562
+
+# text = Ist das Herz-Kranz-Gefäß klein?
+# sent_id = 87
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=5563|end_char=5566
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=5567|end_char=5570
+3	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	compound	_	start_char=5571|end_char=5575
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=5575|end_char=5576
+5	Kranz	Kranz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	compound	_	start_char=5576|end_char=5581
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=5581|end_char=5582
+7	Gefäß	Gefäß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=5582|end_char=5587
+8	klein	klein	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5588|end_char=5593
+9	?	?	PUNCT	$.	_	8	punct	_	start_char=5593|end_char=5594
+
+# text = Dann kann nur wenig Gewebe absterben.
+# sent_id = 88
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=5595|end_char=5599
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=5600|end_char=5604
+3	nur	nur	ADV	ADV	_	6	advmod	_	start_char=5605|end_char=5608
+4	wenig	wenig	DET	PIAT	PronType=Ind	5	det	_	start_char=5609|end_char=5614
+5	Gewebe	Gewebe	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	nsubj	_	start_char=5615|end_char=5621
+6	absterben	absterben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5622|end_char=5631
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=5631|end_char=5632
+
+# text = Ist das abgestorbene Gewebe durch Narbengewebe ersetzt?
+# sent_id = 89
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	start_char=5633|end_char=5636
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=5637|end_char=5640
+3	abgestorbene	abgestorben	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=5641|end_char=5653
+4	Gewebe	Gewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	start_char=5654|end_char=5660
+5	durch	durch	ADP	APPR	_	6	case	_	start_char=5661|end_char=5666
+6	Narbengewebe	Narbengewebe	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	start_char=5667|end_char=5679
+7	ersetzt	ersetzen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5680|end_char=5687
+8	?	?	PUNCT	$.	_	7	punct	_	start_char=5687|end_char=5688
+
+# text = Dann kann das Herz noch normal arbeiten.
+# sent_id = 90
+1	Dann	dann	ADV	ADV	_	7	advmod	_	start_char=5689|end_char=5693
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=5694|end_char=5698
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=5699|end_char=5702
+4	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=5703|end_char=5707
+5	noch	noch	ADV	ADV	_	6	advmod	_	start_char=5708|end_char=5712
+6	normal	normal	ADV	ADJD	_	7	advmod	_	start_char=5713|end_char=5719
+7	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5720|end_char=5728
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=5728|end_char=5729
+
+# text = Aber die Narben verändern den Herz-Muskel.
+# sent_id = 91
+1	Aber	aber	CCONJ	KON	_	4	cc	_	start_char=5730|end_char=5734
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=5735|end_char=5738
+3	Narben	Narbe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=5739|end_char=5745
+4	verändern	verändern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5746|end_char=5755
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=5756|end_char=5759
+6	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=5760|end_char=5764
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=5764|end_char=5765
+8	Muskel	Muskel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=5765|end_char=5771
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=5771|end_char=5772
+
+# text = Deshalb kann das Herz nicht mehr richtig arbeiten.
+# sent_id = 92
+1	Deshalb	deshalb	ADV	PAV	_	8	advmod	_	start_char=5773|end_char=5780
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=5781|end_char=5785
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=5786|end_char=5789
+4	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=5790|end_char=5794
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=5795|end_char=5800
+6	mehr	mehr	ADV	ADV	_	8	advmod	_	start_char=5801|end_char=5805
+7	richtig	richtig	ADV	ADJD	_	8	advmod	_	start_char=5806|end_char=5813
+8	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5814|end_char=5822
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=5822|end_char=5823
+
+# text = Das nennt man: Herz-Schwäche.
+# sent_id = 93
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=5824|end_char=5827
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5828|end_char=5833
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=5834|end_char=5837
+4	:	:	PUNCT	$.	_	7	punct	_	start_char=5837|end_char=5838
+5	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	compound	_	start_char=5839|end_char=5843
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=5843|end_char=5844
+7	Schwäche	Schwäche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	xcomp	_	start_char=5844|end_char=5852
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=5852|end_char=5853
+
+# text = Die Narben können auch zu unregelmäßigen Herz-Schlägen führen.
+# sent_id = 94
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=5854|end_char=5857
+2	Narben	Narbe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=5858|end_char=5864
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=5865|end_char=5871
+4	auch	auch	ADV	ADV	_	10	advmod	_	start_char=5872|end_char=5876
+5	zu	zu	ADP	APPR	_	9	case	_	start_char=5877|end_char=5879
+6	unregelmäßigen	unregelmäßig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=5880|end_char=5894
+7	Herz	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	compound	_	start_char=5895|end_char=5899
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=5899|end_char=5900
+9	Schlägen	Schlag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	start_char=5900|end_char=5908
+10	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5909|end_char=5915
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=5915|end_char=5916
+
+# text = Welche Faktoren erhöhen das Risiko für eine koronare Herz-Krankheit?
+# sent_id = 95
+1	Welche	welcher	DET	PWAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	2	det	_	start_char=5930|end_char=5936
+2	Faktoren	Faktor	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=5937|end_char=5945
+3	erhöhen	erhöhen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5946|end_char=5953
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=5954|end_char=5957
+5	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=5958|end_char=5964
+6	für	für	ADP	APPR	_	11	case	_	start_char=5965|end_char=5968
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=5969|end_char=5973
+8	koronare	koronar	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=5974|end_char=5982
+9	Herz	Herz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	compound	_	start_char=5983|end_char=5987
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=5987|end_char=5988
+11	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=5988|end_char=5997
+12	?	?	PUNCT	$.	_	3	punct	_	start_char=5997|end_char=5998
+
+# text = Manche Dinge erhöhen das Risiko für eine koronare Herz-Krankheit.
+# sent_id = 96
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	2	det	_	start_char=5999|end_char=6005
+2	Dinge	Ding	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=6006|end_char=6011
+3	erhöhen	erhöhen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6012|end_char=6019
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=6020|end_char=6023
+5	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=6024|end_char=6030
+6	für	für	ADP	APPR	_	11	case	_	start_char=6031|end_char=6034
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=6035|end_char=6039
+8	koronare	koronar	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=6040|end_char=6048
+9	Herz	Herz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	compound	_	start_char=6049|end_char=6053
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=6053|end_char=6054
+11	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=6054|end_char=6063
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=6063|end_char=6064
+
+# text = Zu diesen Dingen gehören zum Beispiel: - erhöhte Blutfette.
+# sent_id = 97
+1	Zu	zu	ADP	APPR	_	3	case	_	start_char=6065|end_char=6067
+2	diesen	dieser	DET	PDAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Dem	3	det	_	start_char=6068|end_char=6074
+3	Dingen	Ding	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	obl	_	start_char=6075|end_char=6081
+4	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6082|end_char=6089
+5-6	zum	_	_	_	_	_	_	_	start_char=6090|end_char=6093
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=6094|end_char=6102
+8	:	:	PUNCT	$.	_	11	punct	_	start_char=6102|end_char=6103
+9	-	-	PUNCT	$(	_	10	punct	_	start_char=6110|end_char=6111
+10	erhöhte	erhöht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=6112|end_char=6119
+11	Blutfette	Blutfette	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=6120|end_char=6129
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=6129|end_char=6130
+
+# text = Zu den Blutfetten gehören zum Beispiel: LDL-Cholesterin und Lipoprotein (a). - Blut-Hoch-Druck - Diabetes - Rauchen - ungesunde Ernährung - Übergewicht - Bewegungs-Mangel - Stress
+# sent_id = 98
+1	Zu	zu	ADP	APPR	_	3	case	_	start_char=6131|end_char=6133
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=6134|end_char=6137
+3	Blutfetten	Blutfette	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=6138|end_char=6148
+4	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6149|end_char=6156
+5-6	zum	_	_	_	_	_	_	_	start_char=6157|end_char=6160
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=6161|end_char=6169
+8	:	:	PUNCT	$.	_	11	punct	_	start_char=6169|end_char=6170
+9	LDL	LDL	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	compound	_	start_char=6171|end_char=6174
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=6174|end_char=6175
+11	Cholesterin	Cholesterin	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=6175|end_char=6186
+12	und	und	CCONJ	KON	_	13	cc	_	start_char=6187|end_char=6190
+13	Lipoprotein	Lipoprotein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	conj	_	start_char=6191|end_char=6202
+14	(	(	PUNCT	$(	_	15	punct	_	start_char=6203|end_char=6204
+15	a	a	X	XY	_	11	appos	_	start_char=6204|end_char=6205
+16	)	)	PUNCT	$(	_	15	punct	_	start_char=6205|end_char=6206
+17	.	.	PUNCT	$.	_	11	compound	_	start_char=6206|end_char=6207
+18	-	-	PUNCT	$(	_	21	punct	_	start_char=6214|end_char=6215
+19	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	23	compound	_	start_char=6216|end_char=6220
+20	-	-	PUNCT	$(	_	19	punct	_	start_char=6220|end_char=6221
+21	Hoch	Hoch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	compound	_	start_char=6221|end_char=6225
+22	-	-	PUNCT	$(	_	21	punct	_	start_char=6225|end_char=6226
+23	Druck	Druck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	compound	_	start_char=6226|end_char=6231
+24	-	-	PUNCT	$(	_	23	punct	_	start_char=6238|end_char=6239
+25	Diabetes	Diabet	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	27	compound	_	start_char=6240|end_char=6248
+26	-	-	PUNCT	$(	_	25	punct	_	start_char=6255|end_char=6256
+27	Rauchen	Rauchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	38	compound	_	start_char=6257|end_char=6264
+28	-	-	PUNCT	$(	_	30	punct	_	start_char=6271|end_char=6272
+29	ungesunde	ungesund	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	start_char=6273|end_char=6282
+30	Ernährung	Ernährung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	compound	_	start_char=6283|end_char=6292
+31	-	-	PUNCT	$(	_	30	punct	_	start_char=6299|end_char=6300
+32	Übergewicht	Übergewicht	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	38	compound	_	start_char=6301|end_char=6312
+33	-	-	PUNCT	$(	_	34	punct	_	start_char=6319|end_char=6320
+34	Bewegungs	Bewegungs	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	38	compound	_	start_char=6321|end_char=6330
+35	-	-	PUNCT	$(	_	34	punct	_	start_char=6330|end_char=6331
+36	Mangel	Mangel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	38	compound	_	start_char=6331|end_char=6337
+37	-	-	PUNCT	$(	_	34	punct	_	start_char=6344|end_char=6345
+38	Stress	Streß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	start_char=6346|end_char=6352
+
+# text = Zu den nicht beeinflussbaren Risiken gehören zum Beispiel: - eine familiäre Veranlagung: Das bedeutet: Verwandte hatten schon einen Herz-Infarkt oder eine Bypass-Operation an den Herzkranzgefäßen.
+# sent_id = 99
+1	Zu	zu	ADP	APPR	_	5	case	_	start_char=6366|end_char=6368
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=6369|end_char=6372
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=6373|end_char=6378
+4	beeinflussbaren	beeinflußbar	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=6379|end_char=6394
+5	Risiken	Risiko	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	start_char=6395|end_char=6402
+6	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6403|end_char=6410
+7-8	zum	_	_	_	_	_	_	_	start_char=6411|end_char=6414
+7	zu	zu	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=6415|end_char=6423
+10	:	:	PUNCT	$.	_	14	punct	_	start_char=6423|end_char=6424
+11	-	-	PUNCT	$(	_	14	punct	_	start_char=6431|end_char=6432
+12	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	14	det	_	start_char=6433|end_char=6437
+13	familiäre	familiär	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=6438|end_char=6447
+14	Veranlagung	Veranlagung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=6448|end_char=6459
+15	:	:	PUNCT	$.	_	17	punct	_	start_char=6459|end_char=6460
+16	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	17	nsubj	_	start_char=6461|end_char=6464
+17	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=6465|end_char=6473
+18	:	:	PUNCT	$.	_	20	punct	_	start_char=6473|end_char=6474
+19	Verwandte	Verwandte|Verwandter	NOUN	NN	Case=Nom|Number=Plur	20	nsubj	_	start_char=6475|end_char=6484
+20	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	parataxis	_	start_char=6485|end_char=6491
+21	schon	schon	ADV	ADV	_	20	advmod	_	start_char=6492|end_char=6497
+22	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	25	det	_	start_char=6498|end_char=6503
+23	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	compound	_	start_char=6504|end_char=6508
+24	-	-	PUNCT	$(	_	23	punct	_	start_char=6508|end_char=6509
+25	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	start_char=6509|end_char=6516
+26	oder	oder	CCONJ	KON	_	30	cc	_	start_char=6517|end_char=6521
+27	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	30	det	_	start_char=6522|end_char=6526
+28	Bypass	Bypaß	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	compound	_	start_char=6527|end_char=6533
+29	-	-	PUNCT	$(	_	28	punct	_	start_char=6533|end_char=6534
+30	Operation	Operation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	conj	_	start_char=6534|end_char=6543
+31	an	an	ADP	APPR	_	33	case	_	start_char=6544|end_char=6546
+32	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	33	det	_	start_char=6547|end_char=6550
+33	Herzkranzgefäßen	Herzkranzgefäß	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	30	nmod	_	start_char=6551|end_char=6567
+34	.	.	PUNCT	$.	_	6	punct	_	start_char=6567|end_char=6568
+
+# text = Dann haben Sie ein erhöhtes Risiko für einen Herz-Infarkt.
+# sent_id = 100
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=6569|end_char=6573
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6574|end_char=6579
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=6580|end_char=6583
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=6584|end_char=6587
+5	erhöhtes	erhöht	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=6588|end_char=6596
+6	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=6597|end_char=6603
+7	für	für	ADP	APPR	_	11	case	_	start_char=6604|end_char=6607
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=6608|end_char=6613
+9	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	compound	_	start_char=6614|end_char=6618
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=6618|end_char=6619
+11	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	start_char=6619|end_char=6626
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=6626|end_char=6627
+
+# text = Die Anzeichen für eine Nierenbeckenentzündung sind: - Schmerzen im Rücken - Schmerzen beim Wasserlassen - häufiger Harndrang - Fieber - Schüttelfrost
+# sent_id = 101
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=6641|end_char=6644
+2	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=6645|end_char=6654
+3	für	für	ADP	APPR	_	5	case	_	start_char=6655|end_char=6658
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=6659|end_char=6663
+5	Nierenbeckenentzündung	Nierenbeckenentzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=6664|end_char=6686
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=6687|end_char=6691
+7	:	:	PUNCT	$.	_	9	punct	_	start_char=6691|end_char=6692
+8	-	-	PUNCT	$(	_	9	punct	_	start_char=6699|end_char=6700
+9	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=6701|end_char=6710
+10-11	im	_	_	_	_	_	_	_	start_char=6711|end_char=6713
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Rücken	Rücken	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	compound	_	start_char=6714|end_char=6720
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=6727|end_char=6728
+14	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nmod	_	start_char=6729|end_char=6738
+15-16	beim	_	_	_	_	_	_	_	start_char=6739|end_char=6743
+15	bei	bei	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Wasserlassen	Wasserlassen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	compound	_	start_char=6744|end_char=6756
+18	-	-	PUNCT	$(	_	24	punct	_	start_char=6763|end_char=6764
+19	häufiger	häufig	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	24	amod	_	start_char=6765|end_char=6773
+20	Harndrang	Harndrang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	compound	_	start_char=6774|end_char=6783
+21	-	-	PUNCT	$(	_	20	punct	_	start_char=6790|end_char=6791
+22	Fieber	Fieber	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	compound	_	start_char=6792|end_char=6798
+23	-	-	PUNCT	$(	_	22	punct	_	start_char=6805|end_char=6806
+24	Schüttelfrost	Schüttelfrost	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	start_char=6807|end_char=6820
+
+# text = Typische Anzeichen eines Herz-Infarktes sind: - plötzlich auftretende starke Schmerzen im Brust-Korb.
+# sent_id = 102
+1	Typische	typisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=6834|end_char=6842
+2	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	start_char=6843|end_char=6852
+3	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=6853|end_char=6858
+4	Herz	Herz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	6	compound	_	start_char=6859|end_char=6863
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=6863|end_char=6864
+6	Infarktes	Infarkt	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	start_char=6864|end_char=6873
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=6874|end_char=6878
+8	:	:	PUNCT	$.	_	13	punct	_	start_char=6878|end_char=6879
+9	-	-	PUNCT	$(	_	11	punct	_	start_char=6886|end_char=6887
+10	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	11	advmod	_	start_char=6888|end_char=6897
+11	auftretende	auftretend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	start_char=6898|end_char=6909
+12	starke	stark	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	start_char=6910|end_char=6916
+13	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=6917|end_char=6926
+14-15	im	_	_	_	_	_	_	_	start_char=6927|end_char=6929
+14	in	in	ADP	APPR	_	18	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+16	Brust	Brust	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	compound	_	start_char=6930|end_char=6935
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=6935|end_char=6936
+18	Korb	Korb	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	start_char=6936|end_char=6940
+19	.	.	PUNCT	$.	_	13	punct	_	start_char=6940|end_char=6941
+
+# text = Die Schmerzen dauern länger als 5 Minuten an. - Druck-Gefühl oder Schwere-Gefühl hinter dem Brust-Bein - Schmerzen in den linken Arm.
+# sent_id = 103
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=6942|end_char=6945
+2	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=6946|end_char=6955
+3	dauern	dauern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6956|end_char=6962
+4	länger	lang	ADJ	ADJD	Degree=Cmp	3	advmod	_	start_char=6963|end_char=6969
+5	als	als	ADP	KOKOM	_	7	case	_	start_char=6970|end_char=6973
+6	5	5	NUM	CARD	NumType=Card	7	nummod	_	start_char=6974|end_char=6975
+7	Minuten	Minute	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	start_char=6976|end_char=6983
+8	an	an	ADP	PTKVZ	_	3	compound:prt	_	start_char=6984|end_char=6986
+9	.	.	PUNCT	$.	_	13	punct	_	start_char=6986|end_char=6987
+10	-	-	PUNCT	$(	_	11	punct	_	start_char=6994|end_char=6995
+11	Druck	Druck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	compound	_	start_char=6996|end_char=7001
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=7001|end_char=7002
+13	Gefühl	Gefühl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	obj	_	start_char=7002|end_char=7008
+14	oder	oder	CCONJ	KON	_	17	cc	_	start_char=7009|end_char=7013
+15	Schwere	Schwere	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	17	compound	_	start_char=7014|end_char=7021
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=7021|end_char=7022
+17	Gefühl	Gefühl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	conj	_	start_char=7022|end_char=7028
+18	hinter	hinter	ADP	APPR	_	24	case	_	start_char=7029|end_char=7035
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=7036|end_char=7039
+20	Brust	Brust	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	24	compound	_	start_char=7040|end_char=7045
+21	-	-	PUNCT	$(	_	20	punct	_	start_char=7045|end_char=7046
+22	Bein	Bein	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	24	compound	_	start_char=7046|end_char=7050
+23	-	-	PUNCT	$(	_	22	punct	_	start_char=7057|end_char=7058
+24	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	17	nmod	_	start_char=7059|end_char=7068
+25	in	in	ADP	APPR	_	28	case	_	start_char=7069|end_char=7071
+26	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	start_char=7072|end_char=7075
+27	linken	link	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=7076|end_char=7082
+28	Arm	Arm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=7083|end_char=7086
+29	.	.	PUNCT	$.	_	3	punct	_	start_char=7086|end_char=7087
+
+# text = Manchmal auch in beide Arme oder in den rechten Arm.
+# sent_id = 104
+1	Manchmal	manchmal	ADV	ADV	_	5	advmod	_	start_char=7088|end_char=7096
+2	auch	auch	ADV	ADV	_	5	advmod	_	start_char=7097|end_char=7101
+3	in	in	ADP	APPR	_	5	case	_	start_char=7102|end_char=7104
+4	beide	beide	DET	PIAT	Case=Acc|Gender=Masc|NumType=Card|Number=Plur|PronType=Tot	5	det	_	start_char=7105|end_char=7110
+5	Arme	Arm|Arme	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	0	root	_	start_char=7111|end_char=7115
+6	oder	oder	CCONJ	KON	_	10	cc	_	start_char=7116|end_char=7120
+7	in	in	ADP	APPR	_	10	case	_	start_char=7121|end_char=7123
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=7124|end_char=7127
+9	rechten	recht	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=7128|end_char=7135
+10	Arm	Arm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	conj	_	start_char=7136|end_char=7139
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=7139|end_char=7140
+
+# text = Die Schmerzen können auch im Hals oder Kiefer auftreten.
+# sent_id = 105
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=7141|end_char=7144
+2	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=7145|end_char=7154
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=7155|end_char=7161
+4	auch	auch	ADV	ADV	_	10	advmod	_	start_char=7162|end_char=7166
+5-6	im	_	_	_	_	_	_	_	start_char=7167|end_char=7169
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Hals	Hals	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=7170|end_char=7174
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=7175|end_char=7179
+9	Kiefer	Kiefer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	conj	_	start_char=7180|end_char=7186
+10	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7187|end_char=7196
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=7196|end_char=7197
+
+# text = - kalter Schweiß - Blässe - Enge-Gefühl in der Brust - Übelkeit - Atem-Not - Unruhe - Angst
+# sent_id = 106
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=7204|end_char=7205
+2	kalter	kalt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=7206|end_char=7212
+3	Schweiß	Schweiß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	compound	_	start_char=7213|end_char=7220
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=7227|end_char=7228
+5	Blässe	Bluß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	start_char=7229|end_char=7235
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=7242|end_char=7243
+7	Enge	Enge	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	compound	_	start_char=7244|end_char=7248
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=7248|end_char=7249
+9	Gefühl	Gefühl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=7249|end_char=7255
+10	in	in	ADP	APPR	_	22	case	_	start_char=7256|end_char=7258
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=7259|end_char=7262
+12	Brust	Brust	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	compound	_	start_char=7263|end_char=7268
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=7275|end_char=7276
+14	Übelkeit	Übelkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	compound	_	start_char=7277|end_char=7285
+15	-	-	PUNCT	$(	_	14	punct	_	start_char=7292|end_char=7293
+16	Atem	Atem	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	compound	_	start_char=7294|end_char=7298
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=7298|end_char=7299
+18	Not	Not	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	compound	_	start_char=7299|end_char=7302
+19	-	-	PUNCT	$(	_	20	punct	_	start_char=7309|end_char=7310
+20	Unruhe	Unruhe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	compound	_	start_char=7311|end_char=7317
+21	-	-	PUNCT	$(	_	20	punct	_	start_char=7324|end_char=7325
+22	Angst	Angst	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	start_char=7326|end_char=7331
+
+# text = Sie haben Anzeichen für einen Herz-Infarkt?
+# sent_id = 107
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=7345|end_char=7348
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7349|end_char=7354
+3	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=7355|end_char=7364
+4	für	für	ADP	APPR	_	8	case	_	start_char=7365|end_char=7368
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=7369|end_char=7374
+6	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=7375|end_char=7379
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=7379|end_char=7380
+8	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	start_char=7380|end_char=7387
+9	?	?	PUNCT	$.	_	2	punct	_	start_char=7387|end_char=7388
+
+# text = Dann rufen Sie sofort die 112.
+# sent_id = 108
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=7389|end_char=7393
+2	rufen	rufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7394|end_char=7399
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=7400|end_char=7403
+4	sofort	sofort	ADV	ADV	_	2	advmod	_	start_char=7404|end_char=7410
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=7411|end_char=7414
+6	112	112	NUM	CARD	NumType=Card	2	dep	_	start_char=7415|end_char=7418
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=7418|end_char=7419
+
+# text = Das ist die Not-Ruf-Nummer für den Not-Arzt.
+# sent_id = 109
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	start_char=7420|end_char=7423
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=7424|end_char=7427
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=7428|end_char=7431
+4	Not	Not	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	start_char=7432|end_char=7435
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=7435|end_char=7436
+6	Ruf	Ruf	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7436|end_char=7439
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=7439|end_char=7440
+8	Nummer	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	flat	_	start_char=7440|end_char=7446
+9	für	für	ADP	APPR	_	13	case	_	start_char=7447|end_char=7450
+10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=7451|end_char=7454
+11	Not	Not	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	compound	_	start_char=7455|end_char=7458
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=7458|end_char=7459
+13	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	start_char=7459|end_char=7463
+14	.	.	PUNCT	$.	_	6	punct	_	start_char=7463|end_char=7464
+
+# text = Aber: Die Anzeichen für einen Herz-Infarkt sind nicht immer eindeutig.
+# sent_id = 110
+1	Aber	aber	CCONJ	KON	_	13	cc	_	start_char=7465|end_char=7469
+2	:	:	PUNCT	$.	_	13	punct	_	start_char=7469|end_char=7470
+3	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=7471|end_char=7474
+4	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	start_char=7475|end_char=7484
+5	für	für	ADP	APPR	_	9	case	_	start_char=7485|end_char=7488
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=7489|end_char=7494
+7	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	start_char=7495|end_char=7499
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=7499|end_char=7500
+9	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	start_char=7500|end_char=7507
+10	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=7508|end_char=7512
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	start_char=7513|end_char=7518
+12	immer	immer	ADV	ADV	_	13	advmod	_	start_char=7519|end_char=7524
+13	eindeutig	eindeutig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=7525|end_char=7534
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=7534|end_char=7535
+
+# text = Die Anzeichen können zum Beispiel auch so sein: - Schmerzen im Hals - Schmerzen im Kiefer - Schmerzen im Rücken - Schmerzen im Ober-Bauch Frauen haben manchmal andere Anzeichen für einen Herz-Infarkt.
+# sent_id = 111
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=7536|end_char=7539
+2	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=7540|end_char=7549
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=7550|end_char=7556
+4-5	zum	_	_	_	_	_	_	_	start_char=7557|end_char=7560
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=7561|end_char=7569
+7	auch	auch	ADV	ADV	_	8	advmod	_	start_char=7570|end_char=7574
+8	so	so	ADV	ADV	_	9	advmod	_	start_char=7575|end_char=7577
+9	sein	sein	AUX	VAINF	VerbForm=Inf	0	root	_	start_char=7578|end_char=7582
+10	:	:	PUNCT	$.	_	12	punct	_	start_char=7582|end_char=7583
+11	-	-	PUNCT	$(	_	12	punct	_	start_char=7590|end_char=7591
+12	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	34	nsubj	_	start_char=7592|end_char=7601
+13-14	im	_	_	_	_	_	_	_	start_char=7602|end_char=7604
+13	in	in	ADP	APPR	_	17	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	Hals	Hals	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	compound	_	start_char=7605|end_char=7609
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=7616|end_char=7617
+17	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nmod	_	start_char=7618|end_char=7627
+18-19	im	_	_	_	_	_	_	_	start_char=7628|end_char=7630
+18	in	in	ADP	APPR	_	22	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
+20	Kiefer	Kiefer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	compound	_	start_char=7631|end_char=7637
+21	-	-	PUNCT	$(	_	20	punct	_	start_char=7644|end_char=7645
+22	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	start_char=7646|end_char=7655
+23-24	im	_	_	_	_	_	_	_	start_char=7656|end_char=7658
+23	in	in	ADP	APPR	_	25	case	_	_
+24	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Rücken	Rücken	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	nmod	_	start_char=7659|end_char=7665
+26	-	-	PUNCT	$(	_	27	punct	_	start_char=7672|end_char=7673
+27	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nmod	_	start_char=7674|end_char=7683
+28-29	im	_	_	_	_	_	_	_	start_char=7684|end_char=7686
+28	in	in	ADP	APPR	_	32	case	_	_
+29	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	32	det	_	_
+30	Ober	Ober	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	32	compound	_	start_char=7687|end_char=7691
+31	-	-	PUNCT	$(	_	30	punct	_	start_char=7691|end_char=7692
+32	Bauch	Bauch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	27	nmod	_	start_char=7692|end_char=7697
+33	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	34	nsubj	_	start_char=7704|end_char=7710
+34	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	start_char=7711|end_char=7716
+35	manchmal	manchmal	ADV	ADV	_	34	advmod	_	start_char=7717|end_char=7725
+36	andere	anderer	DET	ADJA	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	37	det	_	start_char=7726|end_char=7732
+37	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	34	obj	_	start_char=7733|end_char=7742
+38	für	für	ADP	APPR	_	42	case	_	start_char=7743|end_char=7746
+39	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	42	det	_	start_char=7747|end_char=7752
+40	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	42	compound	_	start_char=7753|end_char=7757
+41	-	-	PUNCT	$(	_	40	punct	_	start_char=7757|end_char=7758
+42	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	37	nmod	_	start_char=7758|end_char=7765
+43	.	.	PUNCT	$.	_	9	punct	_	start_char=7765|end_char=7766
+
+# text = Sie haben zum Beispiel Übelkeit oder Bauch-Schmerzen?
+# sent_id = 112
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=7767|end_char=7770
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7771|end_char=7776
+3-4	zum	_	_	_	_	_	_	_	start_char=7777|end_char=7780
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=7781|end_char=7789
+6	Übelkeit	Übelkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	start_char=7790|end_char=7798
+7	oder	oder	CCONJ	KON	_	10	cc	_	start_char=7799|end_char=7803
+8	Bauch	Bauch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	compound	_	start_char=7804|end_char=7809
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=7809|end_char=7810
+10	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	start_char=7810|end_char=7819
+11	?	?	PUNCT	$.	_	2	punct	_	start_char=7819|end_char=7820
+
+# text = Dann rufen Sie trotzdem den Not-Arzt!
+# sent_id = 113
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=7821|end_char=7825
+2	rufen	rufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7826|end_char=7831
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=7832|end_char=7835
+4	trotzdem	trotzdem	ADV	PAV	_	2	advmod	_	start_char=7836|end_char=7844
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=7845|end_char=7848
+6	Not	Not	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=7849|end_char=7852
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=7852|end_char=7853
+8	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=7853|end_char=7857
+9	!	!	PUNCT	$.	_	2	punct	_	start_char=7857|end_char=7858
+
+# text = Der Herz-Infarkt tut nicht weh.
+# sent_id = 114
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=7872|end_char=7875
+2	Herz	Herz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	start_char=7876|end_char=7880
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=7880|end_char=7881
+4	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=7881|end_char=7888
+5	tut	tun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7889|end_char=7892
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=7893|end_char=7898
+7	weh	weh	ADV	PTKVZ	_	5	compound:prt	_	start_char=7899|end_char=7902
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=7902|end_char=7903
+
+# text = Manchmal haben betroffene Personen keinen Schmerz.
+# sent_id = 115
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=7917|end_char=7925
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7926|end_char=7931
+3	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=7932|end_char=7942
+4	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=7943|end_char=7951
+5	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	6	det	_	start_char=7952|end_char=7958
+6	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=7959|end_char=7966
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=7966|end_char=7967
+
+# text = Das nennt man: stummer Herz-Infarkt.
+# sent_id = 116
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=7968|end_char=7971
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7972|end_char=7977
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=7978|end_char=7981
+4	:	:	PUNCT	$.	_	8	punct	_	start_char=7981|end_char=7982
+5	stummer	stumm	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=7983|end_char=7990
+6	Herz	Herz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	start_char=7991|end_char=7995
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=7995|end_char=7996
+8	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	start_char=7996|end_char=8003
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=8003|end_char=8004
+
+# text = Der Schmerz ist bei Diabetikern manchmal schwach.
+# sent_id = 117
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=8005|end_char=8008
+2	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=8009|end_char=8016
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=8017|end_char=8020
+4	bei	bei	ADP	APPR	_	5	case	_	start_char=8021|end_char=8024
+5	Diabetikern	Diabetiker	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	start_char=8025|end_char=8036
+6	manchmal	manchmal	ADV	ADV	_	7	advmod	_	start_char=8037|end_char=8045
+7	schwach	schwach	ADJ	ADJD	Degree=Pos	0	root	_	start_char=8046|end_char=8053
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=8053|end_char=8054
+
+# text = Deshalb spüren sie den Herz-Infarkt nicht.
+# sent_id = 118
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=8055|end_char=8062
+2	spüren	spüren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8063|end_char=8069
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=8070|end_char=8073
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=8074|end_char=8077
+5	Herz	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	compound	_	start_char=8078|end_char=8082
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=8082|end_char=8083
+7	Infarkt	Infarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=8083|end_char=8090
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=8091|end_char=8096
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=8096|end_char=8097
+
+# text = Auch andere lebensbedrohliche Erkrankungen im Brust-Bereich können Beschwerden wie beim Herz-Infarkt verursachen.
+# sent_id = 119
+1	Auch	auch	ADV	ADV	_	4	advmod	_	start_char=8111|end_char=8115
+2	andere	anderer	DET	ADJA	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	start_char=8116|end_char=8122
+3	lebensbedrohliche	lebensbedrohlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=8123|end_char=8140
+4	Erkrankungen	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	start_char=8141|end_char=8153
+5-6	im	_	_	_	_	_	_	_	start_char=8154|end_char=8156
+5	in	in	ADP	APPR	_	9	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+7	Brust	Brust	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	compound	_	start_char=8157|end_char=8162
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=8162|end_char=8163
+9	Bereich	Bereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=8163|end_char=8170
+10	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=8171|end_char=8177
+11	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	obj	_	start_char=8178|end_char=8189
+12	wie	wie	ADP	KOKOM	_	17	case	_	start_char=8190|end_char=8193
+13-14	beim	_	_	_	_	_	_	_	start_char=8194|end_char=8198
+13	bei	bei	ADP	APPR	_	17	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+15	Herz	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	compound	_	start_char=8199|end_char=8203
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=8203|end_char=8204
+17	Infarkt	Infarkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	start_char=8204|end_char=8211
+18	verursachen	verursechen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8212|end_char=8223
+19	.	.	PUNCT	$.	_	18	punct	_	start_char=8223|end_char=8224
+
+# text = Zu diesen Erkrankungen gehören zum Beispiel: - Einriss der großen Körper-Schlag-Ader - Luft im Pleuraspalt mit Kollaps einer Lunge - Lungenembolie
+# sent_id = 120
+1	Zu	zu	ADP	APPR	_	3	case	_	start_char=8225|end_char=8227
+2	diesen	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	start_char=8228|end_char=8234
+3	Erkrankungen	Erkrankung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=8235|end_char=8247
+4	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8248|end_char=8255
+5-6	zum	_	_	_	_	_	_	_	start_char=8256|end_char=8259
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=8260|end_char=8268
+8	:	:	PUNCT	$.	_	10	punct	_	start_char=8268|end_char=8269
+9	-	-	PUNCT	$(	_	10	punct	_	start_char=8276|end_char=8277
+10	Einriss	Einriß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=8278|end_char=8285
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=8286|end_char=8289
+12	großen	groß	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=8290|end_char=8296
+13	Körper	Körper	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	19	compound	_	start_char=8297|end_char=8303
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=8303|end_char=8304
+15	Schlag	Schlag	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	compound	_	start_char=8304|end_char=8310
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=8310|end_char=8311
+17	Ader	Ader	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	compound	_	start_char=8311|end_char=8315
+18	-	-	PUNCT	$(	_	17	punct	_	start_char=8322|end_char=8323
+19	Luft	Luft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=8324|end_char=8328
+20-21	im	_	_	_	_	_	_	_	start_char=8329|end_char=8331
+20	in	in	ADP	APPR	_	22	case	_	_
+21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Pleuraspalt	Pleuraspalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	start_char=8332|end_char=8343
+23	mit	mit	ADP	APPR	_	24	case	_	start_char=8344|end_char=8347
+24	Kollaps	Kollap	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	start_char=8348|end_char=8355
+25	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	28	det	_	start_char=8356|end_char=8361
+26	Lunge	Lunge	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	28	compound	_	start_char=8362|end_char=8367
+27	-	-	PUNCT	$(	_	26	punct	_	start_char=8374|end_char=8375
+28	Lungenembolie	Lungenembolie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	start_char=8376|end_char=8389
+
+# text = Ein Herz-Infarkt kann auch Anzeichen haben.
+# sent_id = 121
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=8403|end_char=8406
+2	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	start_char=8407|end_char=8411
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=8411|end_char=8412
+4	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=8412|end_char=8419
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=8420|end_char=8424
+6	auch	auch	ADV	ADV	_	8	advmod	_	start_char=8425|end_char=8429
+7	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=8430|end_char=8439
+8	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=8440|end_char=8445
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=8445|end_char=8446
+
+# text = Ein Herz-Infarkt kann sich ankündigen.
+# sent_id = 122
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=8460|end_char=8463
+2	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	start_char=8464|end_char=8468
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=8468|end_char=8469
+4	Infarkt	Infarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=8469|end_char=8476
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=8477|end_char=8481
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=8482|end_char=8486
+7	ankündigen	ankündigen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8487|end_char=8497
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=8497|end_char=8498
+
+# text = Dazu gehören zum Beispiel: - Schmerzen hinter dem Brust-Bein - Die Schmerzen treten bei Belastung oder psychischem Stress auf. - Die Schmerzen verschwinden wieder.
+# sent_id = 123
+1	Dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	start_char=8499|end_char=8503
+2	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8504|end_char=8511
+3-4	zum	_	_	_	_	_	_	_	start_char=8512|end_char=8515
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=8516|end_char=8524
+6	:	:	PUNCT	$.	_	8	punct	_	start_char=8524|end_char=8525
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=8532|end_char=8533
+8	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=8534|end_char=8543
+9	hinter	hinter	ADP	APPR	_	13	case	_	start_char=8544|end_char=8550
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	start_char=8551|end_char=8554
+11	Brust	Brust	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	compound	_	start_char=8555|end_char=8560
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=8560|end_char=8561
+13	Bein	Bein	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=8561|end_char=8565
+14	-	-	PUNCT	$(	_	17	punct	_	start_char=8572|end_char=8573
+15	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	16	det	_	start_char=8574|end_char=8577
+16	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	start_char=8578|end_char=8587
+17	treten	treten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=8588|end_char=8594
+18	bei	bei	ADP	APPR	_	19	case	_	start_char=8595|end_char=8598
+19	Belastung	Belastung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	start_char=8599|end_char=8608
+20	oder	oder	CCONJ	KON	_	22	cc	_	start_char=8609|end_char=8613
+21	psychischem	psychisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=8614|end_char=8625
+22	Stress	Streß	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	conj	_	start_char=8626|end_char=8632
+23	auf	auf	ADP	PTKVZ	_	17	compound:prt	_	start_char=8633|end_char=8636
+24	.	.	PUNCT	$.	_	28	punct	_	start_char=8636|end_char=8637
+25	-	-	PUNCT	$(	_	28	punct	_	start_char=8644|end_char=8645
+26	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	27	det	_	start_char=8646|end_char=8649
+27	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	start_char=8650|end_char=8659
+28	verschwinden	verschwinden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=8660|end_char=8672
+29	wieder	wieder	ADV	ADV	_	28	advmod	_	start_char=8673|end_char=8679
+30	.	.	PUNCT	$.	_	2	punct	_	start_char=8679|end_char=8680
+
+# text = Sie haben diese Anzeichen?
+# sent_id = 124
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=8687|end_char=8690
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8691|end_char=8696
+3	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=8697|end_char=8702
+4	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=8703|end_char=8712
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=8712|end_char=8713
+
+# text = Dann sprechen Sie mit Ihrem Arzt.
+# sent_id = 125
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=8714|end_char=8718
+2	sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8719|end_char=8727
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=8728|end_char=8731
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=8732|end_char=8735
+5	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=8736|end_char=8741
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=8742|end_char=8746
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=8746|end_char=8747
+
+# text = Nicht bei allen Patienten gibt es Vorboten.
+# sent_id = 126
+1	Nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=8761|end_char=8766
+2	bei	bei	ADP	APPR	_	4	case	_	start_char=8767|end_char=8770
+3	allen	alle	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	4	det	_	start_char=8771|end_char=8776
+4	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	start_char=8777|end_char=8786
+5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8787|end_char=8791
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=8792|end_char=8794
+7	Vorboten	Vorbot	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	start_char=8795|end_char=8803
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=8803|end_char=8804
+
+# text = Deshalb sollten Sie regelmäßig zum Arzt gehen.
+# sent_id = 127
+1	Deshalb	deshalb	ADV	PAV	_	8	advmod	_	start_char=8805|end_char=8812
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=8813|end_char=8820
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=8821|end_char=8824
+4	regelmäßig	regelmäßig	ADV	ADJD	_	8	advmod	_	start_char=8825|end_char=8835
+5-6	zum	_	_	_	_	_	_	_	start_char=8836|end_char=8839
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=8840|end_char=8844
+8	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8845|end_char=8850
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=8850|end_char=8851
+
+# text = Zum Beispiel können Sie beim Check-up 35 einen Arzt-Termin machen.
+# sent_id = 128
+1-2	Zum	_	_	_	_	_	_	_	start_char=8852|end_char=8855
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	start_char=8856|end_char=8864
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=8865|end_char=8871
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	16	nsubj	_	start_char=8872|end_char=8875
+6-7	beim	_	_	_	_	_	_	_	start_char=8876|end_char=8880
+6	bei	bei	ADP	APPR	_	10	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+8	Check	checken	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	compound	_	start_char=8881|end_char=8886
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=8886|end_char=8887
+10	up	up	NOUN	NN	Foreign=Yes	16	obl	_	start_char=8887|end_char=8889
+11	35	35	NUM	CARD	NumType=Card	10	appos	_	start_char=8890|end_char=8892
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=8893|end_char=8898
+13	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	compound	_	start_char=8899|end_char=8903
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=8903|end_char=8904
+15	Termin	Termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=8904|end_char=8910
+16	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8911|end_char=8917
+17	.	.	PUNCT	$.	_	16	punct	_	start_char=8917|end_char=8918
+

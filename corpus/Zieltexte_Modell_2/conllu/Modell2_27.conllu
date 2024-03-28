@@ -1,0 +1,1458 @@
+# text = ﻿ Haben Sie Husten?
+# sent_id = 0
+1	﻿	"	PUNCT	$(	_	2	punct	_	start_char=0|end_char=1
+2	Haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2|end_char=7
+3	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=8|end_char=11
+4	Husten	Huste	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=12|end_char=18
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=18|end_char=19
+
+# text = Dann können diese Haus-Mittel helfen: - Trinken Sie viel Tee. - Essen Sie Honig. - Atmen Sie Dampf ein. - Machen Sie eine Wärm-Flasche auf die Brust.
+# sent_id = 1
+1	Dann	dann	ADV	ADV	_	7	advmod	_	start_char=20|end_char=24
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=25|end_char=31
+3	diese	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	6	det	_	start_char=32|end_char=37
+4	Haus	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	compound	_	start_char=38|end_char=42
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=42|end_char=43
+6	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	start_char=43|end_char=49
+7	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=50|end_char=56
+8	:	:	PUNCT	$.	_	15	punct	_	start_char=56|end_char=57
+9	-	-	PUNCT	$(	_	10	punct	_	start_char=58|end_char=59
+10	Trinken	Trinken	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=60|end_char=67
+11	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	start_char=68|end_char=71
+12	viel	viel	DET	PIAT	PronType=Ind	15	det	_	start_char=72|end_char=76
+13	Tee.	Tee.	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	compound	_	start_char=77|end_char=81
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=82|end_char=83
+15	Essen	Essen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=84|end_char=89
+16	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	19	nsubj	_	start_char=90|end_char=93
+17	Honig.	Honig.	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	start_char=94|end_char=100
+18	-	-	PUNCT	$(	_	17	punct	_	start_char=101|end_char=102
+19	Atmen	atmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis	_	start_char=103|end_char=108
+20	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	19	nsubj	_	start_char=109|end_char=112
+21	Dampf	Dampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	start_char=113|end_char=118
+22	ein.	ein.	PUNCT	$(	_	24	punct	_	start_char=119|end_char=123
+23	-	-	PUNCT	$(	_	24	punct	_	start_char=124|end_char=125
+24	Machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	start_char=126|end_char=132
+25	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	24	nsubj	_	start_char=133|end_char=136
+26	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	29	det	_	start_char=137|end_char=141
+27	Wärm	Wärm	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	compound	_	start_char=142|end_char=146
+28	-	-	PUNCT	$(	_	27	punct	_	start_char=146|end_char=147
+29	Flasche	Flasche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	start_char=147|end_char=154
+30	auf	auf	ADP	APPR	_	32	case	_	start_char=155|end_char=158
+31	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	start_char=159|end_char=162
+32	Brust	Brust	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	start_char=163|end_char=168
+33	.	.	PUNCT	$.	_	7	punct	_	start_char=168|end_char=169
+
+# text = Es gibt viele alte Haus-Mittel gegen Husten.
+# sent_id = 2
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=171|end_char=173
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=174|end_char=178
+3	viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	start_char=179|end_char=184
+4	alte	alt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	start_char=185|end_char=189
+5	Haus	Haus	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	compound	_	start_char=190|end_char=194
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=194|end_char=195
+7	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=195|end_char=201
+8	gegen	gegen	ADP	APPR	_	9	case	_	start_char=202|end_char=207
+9	Husten	Huste	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	start_char=208|end_char=214
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=214|end_char=215
+
+# text = Zum Beispiel: - Inhalieren - Zwiebeln - Honig Diese Mittel können helfen, wenn Sie husten.
+# sent_id = 3
+1-2	Zum	_	_	_	_	_	_	_	start_char=216|end_char=219
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	start_char=220|end_char=228
+4	:	:	PUNCT	$.	_	10	punct	_	start_char=228|end_char=229
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=230|end_char=231
+6	Inhalieren	Inhalieren	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	compound	_	start_char=232|end_char=242
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=243|end_char=244
+8	Zwiebeln	Zwiebel|Zwiebeln	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	compound	_	start_char=245|end_char=253
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=254|end_char=255
+10	Honig	Honig	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=256|end_char=261
+11	Diese	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	12	det	_	start_char=262|end_char=267
+12	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	start_char=268|end_char=274
+13	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=275|end_char=281
+14	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=282|end_char=288
+15	,	,	PUNCT	$,	_	18	punct	_	start_char=288|end_char=289
+16	wenn	wenn	SCONJ	KOUS	_	18	mark	_	start_char=290|end_char=294
+17	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	18	nsubj	_	start_char=295|end_char=298
+18	husten	hesten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=299|end_char=305
+19	.	.	PUNCT	$.	_	14	punct	_	start_char=305|end_char=306
+
+# text = Aber Sie müssen bei der Anwendung aufpassen.
+# sent_id = 4
+1	Aber	aber	CCONJ	KON	_	7	cc	_	start_char=307|end_char=311
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=312|end_char=315
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=316|end_char=322
+4	bei	bei	ADP	APPR	_	6	case	_	start_char=323|end_char=326
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=327|end_char=330
+6	Anwendung	Anwendung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=331|end_char=340
+7	aufpassen	aufpassen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=341|end_char=350
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=350|end_char=351
+
+# text = Ulrich Kraft hat den Text geschrieben.
+# sent_id = 5
+1	Ulrich	Ulrich	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=353|end_char=359
+2	Kraft	Kraft	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	start_char=360|end_char=365
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=366|end_char=369
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=370|end_char=373
+5	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=374|end_char=378
+6	geschrieben	schreiben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=379|end_char=390
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=390|end_char=391
+
+# text = Er hat den Text am 25.
+# sent_id = 6
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=392|end_char=394
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=395|end_char=398
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=399|end_char=402
+4	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=403|end_char=407
+5-6	am	_	_	_	_	_	_	_	start_char=408|end_char=410
+5	an	an	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+7	25	25	NUM	CARD	NumType=Card	2	obl	_	start_char=411|end_char=413
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=413|end_char=414
+
+# text = April 2022 aktualisiert.
+# sent_id = 7
+1	April	April	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	dep	_	start_char=415|end_char=420
+2	2022	2022	NUM	CARD	NumType=Card	1	nmod	_	start_char=421|end_char=425
+3	aktualisiert	aktualisieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=426|end_char=438
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=438|end_char=439
+
+# text = Haben Sie Husten und Schleim?
+# sent_id = 8
+1	Haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=441|end_char=446
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=447|end_char=450
+3	Husten	Huste	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=451|end_char=457
+4	und	und	CCONJ	KON	_	5	cc	_	start_char=458|end_char=461
+5	Schleim	Schleim	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	start_char=462|end_char=469
+6	?	?	PUNCT	$.	_	1	punct	_	start_char=469|end_char=470
+
+# text = Dann können Sie inhalieren.
+# sent_id = 9
+1	Dann	dann	ADV	ADV	_	4	advmod	_	start_char=471|end_char=475
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=476|end_char=482
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=483|end_char=486
+4	inhalieren	inhalieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=487|end_char=497
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=497|end_char=498
+
+# text = Zwiebelsaft und Honig können auch helfen.
+# sent_id = 10
+1	Zwiebelsaft	Zwiebelsaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=499|end_char=510
+2	und	und	CCONJ	KON	_	3	cc	_	start_char=511|end_char=514
+3	Honig	Honig	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=515|end_char=520
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=521|end_char=527
+5	auch	auch	ADV	ADV	_	6	advmod	_	start_char=528|end_char=532
+6	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=533|end_char=539
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=539|end_char=540
+
+# text = Trinken Sie genug Wasser.
+# sent_id = 11
+1	Trinken	Trinken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=541|end_char=548
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=549|end_char=552
+3	genug	genug	ADV	PIAT	PronType=Ind	4	det	_	start_char=553|end_char=558
+4	Wasser	Wasser	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	start_char=559|end_char=565
+5	.	.	PUNCT	$.	_	1	punct	_	start_char=565|end_char=566
+
+# text = Ein Kartoffelwickel kann auch helfen.
+# sent_id = 12
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=567|end_char=570
+2	Kartoffelwickel	Kartoffelwickel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=571|end_char=586
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=587|end_char=591
+4	auch	auch	ADV	ADV	_	5	advmod	_	start_char=592|end_char=596
+5	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=597|end_char=603
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=603|end_char=604
+
+# text = Viele Haus-Mittel gegen Husten sind nicht wissenschaftlich getestet.
+# sent_id = 13
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	4	det	_	start_char=606|end_char=611
+2	Haus	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	compound	_	start_char=612|end_char=616
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=616|end_char=617
+4	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	start_char=617|end_char=623
+5	gegen	gegen	ADP	APPR	_	6	case	_	start_char=624|end_char=629
+6	Husten	Huste	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	start_char=630|end_char=636
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=637|end_char=641
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=642|end_char=647
+9	wissenschaftlich	wissenschaftlich	ADV	ADJD	_	10	advmod	_	start_char=648|end_char=664
+10	getestet	testen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=665|end_char=673
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=673|end_char=674
+
+# text = Es gibt oft keine Studien dazu.
+# sent_id = 14
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=675|end_char=677
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=678|end_char=682
+3	oft	oft	ADV	ADV	_	2	advmod	_	start_char=683|end_char=686
+4	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	5	det	_	start_char=687|end_char=692
+5	Studien	Studie|Studium	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=693|end_char=700
+6	dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	start_char=701|end_char=705
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=705|end_char=706
+
+# text = Aber Dr. Hans-Michael Mühlen-Feld sagt, dass sie trotzdem helfen können.
+# sent_id = 15
+1	Aber	aber	CCONJ	KON	_	9	cc	_	start_char=707|end_char=711
+2	Dr.	Dr.	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	start_char=712|end_char=715
+3	Hans	Hans	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=716|end_char=720
+4	-	-	PUNCT	$(	_	5	punct	_	start_char=720|end_char=721
+5	Michael	Michael	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	start_char=721|end_char=728
+6	Mühlen	Mühle	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	start_char=729|end_char=735
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=735|end_char=736
+8	Feld	Feld	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	3	flat	_	start_char=736|end_char=740
+9	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=741|end_char=745
+10	,	,	PUNCT	$,	_	14	punct	_	start_char=745|end_char=746
+11	dass	dass	SCONJ	KOUS	_	14	mark	_	start_char=747|end_char=751
+12	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=752|end_char=755
+13	trotzdem	trotzdem	ADV	PAV	_	14	advmod	_	start_char=756|end_char=764
+14	helfen	helfen	VERB	VVINF	VerbForm=Inf	9	ccomp	_	start_char=765|end_char=771
+15	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=772|end_char=778
+16	.	.	PUNCT	$.	_	9	punct	_	start_char=778|end_char=779
+
+# text = Er ist ein Arzt aus Bremen.
+# sent_id = 16
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=780|end_char=782
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=783|end_char=786
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=787|end_char=790
+4	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=791|end_char=795
+5	aus	aus	ADP	APPR	_	6	case	_	start_char=796|end_char=799
+6	Bremen	Bremen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=800|end_char=806
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=806|end_char=807
+
+# text = Husten ist keine Krankheit.
+# sent_id = 17
+1	Husten	Huste	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=808|end_char=814
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=815|end_char=818
+3	keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	4	det	_	start_char=819|end_char=824
+4	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=825|end_char=834
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=834|end_char=835
+
+# text = Husten hilft dem Körper, gesund zu werden.
+# sent_id = 18
+1	Husten	Huste	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=836|end_char=842
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=843|end_char=848
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=849|end_char=852
+4	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl:arg	_	start_char=853|end_char=859
+5	,	,	PUNCT	$,	_	8	punct	_	start_char=859|end_char=860
+6	gesund	gesund	ADJ	ADJD	Degree=Pos	8	xcomp	_	start_char=861|end_char=867
+7	zu	zu	PART	PTKZU	_	8	mark	_	start_char=868|end_char=870
+8	werden	werden	VERB	VAINF	VerbForm=Inf	2	xcomp	_	start_char=871|end_char=877
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=877|end_char=878
+
+# text = Denn beim Husten entfernt der Körper Krankheits-Erreger aus den Atem-Wegen.
+# sent_id = 19
+1	Denn	denn	ADV	KON	_	5	advmod	_	start_char=879|end_char=883
+2-3	beim	_	_	_	_	_	_	_	start_char=884|end_char=888
+2	bei	bei	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Husten	Huste	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=889|end_char=895
+5	entfernt	entfernen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=896|end_char=904
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=905|end_char=908
+7	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=909|end_char=915
+8	Krankheits	Krankheit	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	compound	_	start_char=916|end_char=926
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=926|end_char=927
+10	Erreger	Erreger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	start_char=927|end_char=934
+11	aus	aus	ADP	APPR	_	15	case	_	start_char=935|end_char=938
+12	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=939|end_char=942
+13	Atem	Atem	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	compound	_	start_char=943|end_char=947
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=947|end_char=948
+15	Wegen	Weg	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	start_char=948|end_char=953
+16	.	.	PUNCT	$.	_	5	punct	_	start_char=953|end_char=954
+
+# text = Das ist zum Beispiel bei einer Erkältung wichtig.
+# sent_id = 20
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	nsubj	_	start_char=955|end_char=958
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=959|end_char=962
+3-4	zum	_	_	_	_	_	_	_	start_char=963|end_char=966
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	start_char=967|end_char=975
+6	bei	bei	ADP	APPR	_	8	case	_	start_char=976|end_char=979
+7	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=980|end_char=985
+8	Erkältung	Erkältung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	start_char=986|end_char=995
+9	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=996|end_char=1003
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1003|end_char=1004
+
+# text = Haus-Mittel können helfen, besser mit dem Husten umzugehen.
+# sent_id = 21
+1	Haus	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	compound	_	start_char=1005|end_char=1009
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=1009|end_char=1010
+3	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=1010|end_char=1016
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1017|end_char=1023
+5	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1024|end_char=1030
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=1030|end_char=1031
+7	besser	gut	ADJ	ADJD	Degree=Cmp	11	advmod	_	start_char=1032|end_char=1038
+8	mit	mit	ADP	APPR	_	10	case	_	start_char=1039|end_char=1042
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=1043|end_char=1046
+10	Husten	Huste	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=1047|end_char=1053
+11	umzugehen	umgehen	VERB	VVIZU	VerbForm=Inf	5	xcomp	_	start_char=1054|end_char=1063
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=1063|end_char=1064
+
+# text = Inhalieren hilft gegen Husten und Schleim.
+# sent_id = 22
+1	Inhalieren	Inhalieren	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	start_char=1066|end_char=1076
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1077|end_char=1082
+3	gegen	gegen	ADP	APPR	_	4	case	_	start_char=1083|end_char=1088
+4	Husten	Huste	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=1089|end_char=1095
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=1096|end_char=1099
+6	Schleim	Schleim	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	conj	_	start_char=1100|end_char=1107
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=1107|end_char=1108
+
+# text = Es macht die Atem-Wege frei.
+# sent_id = 23
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=1109|end_char=1111
+2	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1112|end_char=1117
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=1118|end_char=1121
+4	Atem	Atem	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	compound	_	start_char=1122|end_char=1126
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1126|end_char=1127
+6	Wege	Weg	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=1127|end_char=1131
+7	frei	frei	ADV	PTKVZ	_	2	compound:prt	_	start_char=1132|end_char=1136
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=1136|end_char=1137
+
+# text = So können Sie besser atmen.
+# sent_id = 24
+1	So	so	ADV	ADV	_	5	advmod	_	start_char=1138|end_char=1140
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1141|end_char=1147
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=1148|end_char=1151
+4	besser	gut	ADJ	ADJD	Degree=Cmp	5	advmod	_	start_char=1152|end_char=1158
+5	atmen	atmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1159|end_char=1164
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1164|end_char=1165
+
+# text = Haben Sie Husten?
+# sent_id = 25
+1	Haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1167|end_char=1172
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=1173|end_char=1176
+3	Husten	Huste	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=1177|end_char=1183
+4	?	?	PUNCT	$.	_	1	punct	_	start_char=1183|end_char=1184
+
+# text = Dann sollten Sie inhalieren.
+# sent_id = 26
+1	Dann	dann	ADV	ADV	_	4	advmod	_	start_char=1185|end_char=1189
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=1190|end_char=1197
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=1198|end_char=1201
+4	inhalieren	inhalieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1202|end_char=1212
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=1212|end_char=1213
+
+# text = So geht das: - Füllen Sie heißes Wasser in einen Inhalator. - Atmen Sie ruhig und tief ein und aus. - Wiederholen Sie das alle 3 Stunden.
+# sent_id = 27
+1	So	so	ADV	ADV	_	2	advmod	_	start_char=1214|end_char=1216
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1217|end_char=1221
+3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=1222|end_char=1225
+4	:	:	PUNCT	$.	_	6	punct	_	start_char=1225|end_char=1226
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=1227|end_char=1228
+6	Füllen	füllen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=1229|end_char=1235
+7	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=1236|end_char=1239
+8	heißes	heiß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=1240|end_char=1246
+9	Wasser	Wasser	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=1247|end_char=1253
+10	in	in	ADP	APPR	_	12	case	_	start_char=1254|end_char=1256
+11	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=1257|end_char=1262
+12	Inhalator	Inhalator	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	start_char=1263|end_char=1272
+13	.	.	PUNCT	$.	_	15	punct	_	start_char=1272|end_char=1273
+14	-	-	PUNCT	$(	_	15	punct	_	start_char=1274|end_char=1275
+15	Atmen	atmen	VERB	VVIMP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=1276|end_char=1281
+16	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	15	nsubj	_	start_char=1282|end_char=1285
+17	ruhig	ruhig	ADV	ADJD	_	15	advmod	_	start_char=1286|end_char=1291
+18	und	und	CCONJ	KON	_	19	cc	_	start_char=1292|end_char=1295
+19	tief	tief	ADV	ADJD	_	17	conj	_	start_char=1296|end_char=1300
+20	ein	ein	ADV	PTKVZ	_	15	compound:prt	_	start_char=1301|end_char=1304
+21	und	und	CCONJ	KON	_	24	cc	_	start_char=1305|end_char=1308
+22	aus.	aus.	ADV	ADV	_	24	advmod	_	start_char=1309|end_char=1313
+23	-	-	PUNCT	$(	_	22	punct	_	start_char=1314|end_char=1315
+24	Wiederholen	wiederholen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=1316|end_char=1327
+25	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	24	nsubj	_	start_char=1328|end_char=1331
+26	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	24	obj	_	start_char=1332|end_char=1335
+27	alle	alle	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	29	det	_	start_char=1336|end_char=1340
+28	3	3	NUM	CARD	NumType=Card	29	nummod	_	start_char=1341|end_char=1342
+29	Stunden	Stunde|Stunden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obj	_	start_char=1343|end_char=1350
+30	.	.	PUNCT	$.	_	2	punct	_	start_char=1350|end_char=1351
+
+# text = Haben Sie keinen Inhalator?
+# sent_id = 28
+1	Haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1352|end_char=1357
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=1358|end_char=1361
+3	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	4	det	_	start_char=1362|end_char=1368
+4	Inhalator	Inhalator	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=1369|end_char=1378
+5	?	?	PUNCT	$.	_	1	punct	_	start_char=1378|end_char=1379
+
+# text = Dann nehmen Sie eine Schüssel und ein Hand-Tuch.
+# sent_id = 29
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=1380|end_char=1384
+2	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1385|end_char=1391
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1392|end_char=1395
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=1396|end_char=1400
+5	Schüssel	Schüssel	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=1401|end_char=1409
+6	und	und	CCONJ	KON	_	10	cc	_	start_char=1410|end_char=1413
+7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=1414|end_char=1417
+8	Hand	Hand	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	compound	_	start_char=1418|end_char=1422
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=1422|end_char=1423
+10	Tuch	Tuch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	conj	_	start_char=1423|end_char=1427
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=1427|end_char=1428
+
+# text = Aber passen Sie auf, dass Sie sich nicht verbrennen.
+# sent_id = 30
+1	Aber	aber	CCONJ	KON	_	2	cc	_	start_char=1429|end_char=1433
+2	passen	passen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1434|end_char=1440
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1441|end_char=1444
+4	auf	auf	ADP	PTKVZ	_	2	compound:prt	_	start_char=1445|end_char=1448
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=1448|end_char=1449
+6	dass	dass	SCONJ	KOUS	_	10	mark	_	start_char=1450|end_char=1454
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	start_char=1455|end_char=1458
+8	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	start_char=1459|end_char=1463
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=1464|end_char=1469
+10	verbrennen	verbrennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=1470|end_char=1480
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=1480|end_char=1481
+
+# text = Halten Sie Kinder von der heißen Schüssel fern.
+# sent_id = 31
+1	Halten	halten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1482|end_char=1488
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=1489|end_char=1492
+3	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	start_char=1493|end_char=1499
+4	von	von	ADP	APPR	_	7	case	_	start_char=1500|end_char=1503
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1504|end_char=1507
+6	heißen	heißen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=1508|end_char=1514
+7	Schüssel	Schüssel	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	start_char=1515|end_char=1523
+8	fern	fern	ADV	PTKVZ	_	1	compound:prt	_	start_char=1524|end_char=1528
+9	.	.	PUNCT	$.	_	1	punct	_	start_char=1528|end_char=1529
+
+# text = Warten Sie, bis das Wasser etwas abgekühlt ist.
+# sent_id = 32
+1	Warten	warten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1530|end_char=1536
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=1537|end_char=1540
+3	,	,	PUNCT	$,	_	8	punct	_	start_char=1540|end_char=1541
+4	bis	bis	SCONJ	KOUS	_	8	mark	_	start_char=1542|end_char=1545
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=1546|end_char=1549
+6	Wasser	Wasser	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=1550|end_char=1556
+7	etwas	etwas	ADV	ADV	PronType=Ind	8	advmod	_	start_char=1557|end_char=1562
+8	abgekühlt	abkühlen	ADJ	VVPP	Degree=Pos|VerbForm=Part	1	advcl	_	start_char=1563|end_char=1572
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1573|end_char=1576
+10	.	.	PUNCT	$.	_	1	punct	_	start_char=1576|end_char=1577
+
+# text = Haben Sie Husten mit Auswurf?
+# sent_id = 33
+1	Haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1579|end_char=1584
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=1585|end_char=1588
+3	Husten	Huste	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	start_char=1589|end_char=1595
+4	mit	mit	ADP	APPR	_	5	case	_	start_char=1596|end_char=1599
+5	Auswurf	Auswurf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	start_char=1600|end_char=1607
+6	?	?	PUNCT	$.	_	1	punct	_	start_char=1607|end_char=1608
+
+# text = Dann kann Inhalieren helfen.
+# sent_id = 34
+1	Dann	dann	ADV	ADV	_	4	advmod	_	start_char=1609|end_char=1613
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1614|end_char=1618
+3	Inhalieren	Inhalieren	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=1619|end_char=1629
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1630|end_char=1636
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=1636|end_char=1637
+
+# text = Heißes Wasser macht den Schleim flüssiger.
+# sent_id = 35
+1	Heißes	heiß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=1638|end_char=1644
+2	Wasser	Wasser	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=1645|end_char=1651
+3	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1652|end_char=1657
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1658|end_char=1661
+5	Schleim	Schleim	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nsubj	_	start_char=1662|end_char=1669
+6	flüssiger	flüssig	ADJ	ADJD	Degree=Cmp	3	xcomp	_	start_char=1670|end_char=1679
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1679|end_char=1680
+
+# text = Menthol ist ein ätherisches Öl.
+# sent_id = 36
+1	Menthol	Menthol	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1682|end_char=1689
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1690|end_char=1693
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=1694|end_char=1697
+4	ätherisches	ätherisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=1698|end_char=1709
+5	Öl	Öl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1710|end_char=1712
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1712|end_char=1713
+
+# text = Es hilft bei Schnupfen und Nasennebenhöhlenentzündungen.
+# sent_id = 37
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=1714|end_char=1716
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1717|end_char=1722
+3	bei	bei	ADP	APPR	_	4	case	_	start_char=1723|end_char=1726
+4	Schnupfen	Schnupf	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=1727|end_char=1736
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=1737|end_char=1740
+6	Nasennebenhöhlenentzündungen	Nasennebenhöhlentzündung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	conj	_	start_char=1741|end_char=1769
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=1769|end_char=1770
+
+# text = Es kann auch helfen, Schleim bei Husten zu lösen.
+# sent_id = 38
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=1771|end_char=1773
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1774|end_char=1778
+3	auch	auch	ADV	ADV	_	4	advmod	_	start_char=1779|end_char=1783
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1784|end_char=1790
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=1790|end_char=1791
+6	Schleim	Schleim	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=1792|end_char=1799
+7	bei	bei	ADP	APPR	_	8	case	_	start_char=1800|end_char=1803
+8	Husten	Huste	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	start_char=1804|end_char=1810
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=1811|end_char=1813
+10	lösen	lösen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	start_char=1814|end_char=1819
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=1819|end_char=1820
+
+# text = Aber Vorsicht: - Kleine Kinder dürfen nicht mit Menthol inhalieren.
+# sent_id = 39
+1	Aber	aber	CCONJ	KON	_	2	cc	_	start_char=1821|end_char=1825
+2	Vorsicht	Vorsicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1826|end_char=1834
+3	:	:	PUNCT	$.	_	11	punct	_	start_char=1834|end_char=1835
+4	-	-	PUNCT	$(	_	6	punct	_	start_char=1836|end_char=1837
+5	Kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	start_char=1838|end_char=1844
+6	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	start_char=1845|end_char=1851
+7	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=1852|end_char=1858
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=1859|end_char=1864
+9	mit	mit	ADP	APPR	_	10	case	_	start_char=1865|end_char=1868
+10	Menthol	Menthol	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=1869|end_char=1876
+11	inhalieren	inhalieren	VERB	VVINF	VerbForm=Inf	2	parataxis	_	start_char=1877|end_char=1887
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=1887|end_char=1888
+
+# text = - Das kann nämlich einen Atem-Stillstand auslösen.
+# sent_id = 40
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1889|end_char=1890
+2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	nsubj	_	start_char=1891|end_char=1894
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1895|end_char=1899
+4	nämlich	nämlich	ADV	ADV	_	9	advmod	_	start_char=1900|end_char=1907
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=1908|end_char=1913
+6	Atem	Atem	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=1914|end_char=1918
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=1918|end_char=1919
+8	Stillstand	Stillstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=1919|end_char=1929
+9	auslösen	auslösen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1930|end_char=1938
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1938|end_char=1939
+
+# text = - Auch Menschen mit Asthma müssen vorsichtig sein.
+# sent_id = 41
+1	-	-	PUNCT	$(	_	7	punct	_	start_char=1940|end_char=1941
+2	Auch	auch	ADV	ADV	_	7	advmod	_	start_char=1942|end_char=1946
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=1947|end_char=1955
+4	mit	mit	ADP	APPR	_	5	case	_	start_char=1956|end_char=1959
+5	Asthma	Asthma	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	start_char=1960|end_char=1966
+6	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1967|end_char=1973
+7	vorsichtig	vorsichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1974|end_char=1984
+8	sein	sein	AUX	VAINF	VerbForm=Inf	7	cop	_	start_char=1985|end_char=1989
+9	.	.	PUNCT	$.	_	7	punct	_	start_char=1989|end_char=1990
+
+# text = Sie sind sich nicht sicher?
+# sent_id = 42
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=1991|end_char=1994
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1995|end_char=1999
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=2000|end_char=2004
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=2005|end_char=2010
+5	sicher	sicher	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2011|end_char=2017
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=2017|end_char=2018
+
+# text = Dann fragen Sie Ihren Arzt oder Ihre Ärztin.
+# sent_id = 43
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=2019|end_char=2023
+2	fragen	fragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2024|end_char=2030
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2031|end_char=2034
+4	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=2035|end_char=2040
+5	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=2041|end_char=2045
+6	oder	oder	CCONJ	KON	_	8	cc	_	start_char=2046|end_char=2050
+7	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=2051|end_char=2055
+8	Ärztin	Ärztin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	start_char=2056|end_char=2062
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=2062|end_char=2063
+
+# text = Zwiebelsaft und Honig sind 2 verschiedene Dinge.
+# sent_id = 44
+1	Zwiebelsaft	Zwiebelsaft	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=2065|end_char=2076
+2	und	und	CCONJ	KON	_	3	cc	_	start_char=2077|end_char=2080
+3	Honig	Honig	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=2081|end_char=2086
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=2087|end_char=2091
+5	2	2	NUM	CARD	NumType=Card	7	nummod	_	start_char=2092|end_char=2093
+6	verschiedene	verschieden	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	start_char=2094|end_char=2106
+7	Dinge	Ding	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=2107|end_char=2112
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=2112|end_char=2113
+
+# text = Zwiebelsaft kommt aus Zwiebeln.
+# sent_id = 45
+1	Zwiebelsaft	Zwiebelsaft	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=2114|end_char=2125
+2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2126|end_char=2131
+3	aus	aus	ADP	APPR	_	4	case	_	start_char=2132|end_char=2135
+4	Zwiebeln	Zwiebel|Zwiebeln	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=2136|end_char=2144
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=2144|end_char=2145
+
+# text = Honig kommt von Bienen.
+# sent_id = 46
+1	Honig	Honig	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=2146|end_char=2151
+2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2152|end_char=2157
+3	von	von	ADP	APPR	_	4	case	_	start_char=2158|end_char=2161
+4	Bienen	Biene	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=2162|end_char=2168
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=2168|end_char=2169
+
+# text = Ein altes Haus-Mittel gegen Husten ist Zwiebelsaft mit Kandiszucker.
+# sent_id = 47
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=2171|end_char=2174
+2	altes	alt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=2175|end_char=2180
+3	Haus	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	compound	_	start_char=2181|end_char=2185
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=2185|end_char=2186
+5	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=2186|end_char=2192
+6	gegen	gegen	ADP	APPR	_	7	case	_	start_char=2193|end_char=2198
+7	Husten	Huste	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	start_char=2199|end_char=2205
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=2206|end_char=2209
+9	Zwiebelsaft	Zwiebelsaft	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=2210|end_char=2221
+10	mit	mit	ADP	APPR	_	11	case	_	start_char=2222|end_char=2225
+11	Kandiszucker	Kandiszucker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	start_char=2226|end_char=2238
+12	.	.	PUNCT	$.	_	9	punct	_	start_char=2238|end_char=2239
+
+# text = So machen Sie das: 1. Schneiden Sie eine Zwiebel in Würfel.
+# sent_id = 48
+1	So	so	ADV	ADV	_	2	advmod	_	start_char=2240|end_char=2242
+2	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2243|end_char=2249
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2250|end_char=2253
+4	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=2254|end_char=2257
+5	:	:	PUNCT	$.	_	7	punct	_	start_char=2257|end_char=2258
+6	1.	1.	ADJ	ADJA	Degree=Pos|NumType=Ord	7	advmod	_	start_char=2259|end_char=2261
+7	Schneiden	Schneide|Schneiden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=2262|end_char=2271
+8	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	start_char=2272|end_char=2275
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=2276|end_char=2280
+10	Zwiebel	Zwiebel	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=2281|end_char=2288
+11	in	in	ADP	APPR	_	12	case	_	start_char=2289|end_char=2291
+12	Würfel	Würfel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	start_char=2292|end_char=2298
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=2298|end_char=2299
+
+# text = 2. Kochen Sie die Zwiebelwürfel mit Kandiszucker.
+# sent_id = 49
+1	2.	2.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=2300|end_char=2302
+2	Kochen	Kochen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2303|end_char=2309
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2310|end_char=2313
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=2314|end_char=2317
+5	Zwiebelwürfel	Zwiebelwürfel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=2318|end_char=2331
+6	mit	mit	ADP	APPR	_	7	case	_	start_char=2332|end_char=2335
+7	Kandiszucker	Kandiszucker	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	start_char=2336|end_char=2348
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=2348|end_char=2349
+
+# text = 3. Lassen Sie das Ganze stehen.
+# sent_id = 50
+1	3.	3.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=2350|end_char=2352
+2	Lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2353|end_char=2359
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2360|end_char=2363
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=2364|end_char=2367
+5	Ganze	Ganze	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=2368|end_char=2373
+6	stehen	stehen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	start_char=2374|end_char=2380
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=2380|end_char=2381
+
+# text = 4. Dann 7 Sie den Saft durch ein Tuch oder einen Kaffeefilter.
+# sent_id = 51
+1	4.	4.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=2382|end_char=2384
+2	Dann	dann	ADV	ADV	_	3	advmod	_	start_char=2385|end_char=2389
+3	7	7	NUM	CARD	NumType=Card	0	root	_	start_char=2390|end_char=2391
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=2392|end_char=2395
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=2396|end_char=2399
+6	Saft	Saft	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=2400|end_char=2404
+7	durch	durch	ADP	APPR	_	9	case	_	start_char=2405|end_char=2410
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=2411|end_char=2414
+9	Tuch	Tuch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	start_char=2415|end_char=2419
+10	oder	oder	CCONJ	KON	_	12	cc	_	start_char=2420|end_char=2424
+11	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=2425|end_char=2430
+12	Kaffeefilter	Kaffeefilter	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	conj	_	start_char=2431|end_char=2443
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=2443|end_char=2444
+
+# text = 5. Nehmen Sie den Saft teelöffelweise ein.
+# sent_id = 52
+1	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=2445|end_char=2447
+2	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2448|end_char=2454
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2455|end_char=2458
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=2459|end_char=2462
+5	Saft	Saft	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=2463|end_char=2467
+6	teelöffelweise	teelöffelweise	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=2468|end_char=2482
+7	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	start_char=2483|end_char=2486
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=2486|end_char=2487
+
+# text = Zwiebeln enthalten Stoffe, die gegen Keime helfen und Entzündungen lindern können.
+# sent_id = 53
+1	Zwiebeln	Zwiebel|Zwiebeln	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2488|end_char=2496
+2	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2497|end_char=2506
+3	Stoffe	Stoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=2507|end_char=2513
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=2513|end_char=2514
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	8	nsubj	_	start_char=2515|end_char=2518
+6	gegen	gegen	ADP	APPR	_	7	case	_	start_char=2519|end_char=2524
+7	Keime	Keim	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	start_char=2525|end_char=2530
+8	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	start_char=2531|end_char=2537
+9	und	und	CCONJ	KON	_	11	cc	_	start_char=2538|end_char=2541
+10	Entzündungen	Entzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=2542|end_char=2554
+11	lindern	lindern	VERB	VVINF	VerbForm=Inf	8	conj	_	start_char=2555|end_char=2562
+12	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=2563|end_char=2569
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=2569|end_char=2570
+
+# text = Diese Stoffe können auch den Husten-Reiz lindern.
+# sent_id = 54
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	start_char=2571|end_char=2576
+2	Stoffe	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=2577|end_char=2583
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=2584|end_char=2590
+4	auch	auch	ADV	ADV	_	9	advmod	_	start_char=2591|end_char=2595
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=2596|end_char=2599
+6	Husten	Huste	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=2600|end_char=2606
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2606|end_char=2607
+8	Reiz	Reiz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=2607|end_char=2611
+9	lindern	lindern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2612|end_char=2619
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=2619|end_char=2620
+
+# text = Aber das ist nicht bewiesen.
+# sent_id = 55
+1	Aber	aber	CCONJ	KON	_	5	cc	_	start_char=2621|end_char=2625
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=2626|end_char=2629
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2630|end_char=2633
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=2634|end_char=2639
+5	bewiesen	beweisen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=2640|end_char=2648
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2648|end_char=2649
+
+# text = Sie können Zwiebeln mit Honig mischen.
+# sent_id = 56
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=2651|end_char=2654
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2655|end_char=2661
+3	Zwiebeln	Zwiebel|Zwiebeln	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=2662|end_char=2670
+4	mit	mit	ADP	APPR	_	5	case	_	start_char=2671|end_char=2674
+5	Honig	Honig	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	start_char=2675|end_char=2680
+6	mischen	mischen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2681|end_char=2688
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2688|end_char=2689
+
+# text = Dann entsteht ein Sirup.
+# sent_id = 57
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=2690|end_char=2694
+2	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2695|end_char=2703
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=2704|end_char=2707
+4	Sirup	Sirup	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=2708|end_char=2713
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=2713|end_char=2714
+
+# text = Diesen Sirup können Sie löffeln.
+# sent_id = 58
+1	Diesen	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=2715|end_char=2721
+2	Sirup	Sirup	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=2722|end_char=2727
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2728|end_char=2734
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=2735|end_char=2738
+5	löffeln	löffeln	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2739|end_char=2746
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2746|end_char=2747
+
+# text = Forscher haben den Honig untersucht.
+# sent_id = 59
+1	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=2748|end_char=2756
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2757|end_char=2762
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=2763|end_char=2766
+4	Honig	Honig	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=2767|end_char=2772
+5	untersucht	untersuchen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2773|end_char=2783
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2783|end_char=2784
+
+# text = Kinder, die abends Honig essen, husten nachts weniger.
+# sent_id = 60
+1	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	start_char=2785|end_char=2791
+2	,	,	PUNCT	$,	_	6	punct	_	start_char=2791|end_char=2792
+3	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	6	nsubj	_	start_char=2793|end_char=2796
+4	abends	abends	ADV	ADV	_	6	advmod	_	start_char=2797|end_char=2803
+5	Honig	Honig	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=2804|end_char=2809
+6	essen	essen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	start_char=2810|end_char=2815
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=2815|end_char=2816
+8	husten	hesten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2817|end_char=2823
+9	nachts	nachts	ADV	ADV	_	8	advmod	_	start_char=2824|end_char=2830
+10	weniger	wenig	DET	PIS	Degree=Cmp|PronType=Ind	8	obj	_	start_char=2831|end_char=2838
+11	.	.	PUNCT	$.	_	8	punct	_	start_char=2838|end_char=2839
+
+# text = Das haben die Forscher in einer Studie herausgefunden.
+# sent_id = 61
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	obj	_	start_char=2840|end_char=2843
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=2844|end_char=2849
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=2850|end_char=2853
+4	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=2854|end_char=2862
+5	in	in	ADP	APPR	_	7	case	_	start_char=2863|end_char=2865
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=2866|end_char=2871
+7	Studie	Studie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=2872|end_char=2878
+8	herausgefunden	herausfinden	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2879|end_char=2893
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=2893|end_char=2894
+
+# text = Ein Experte ist vorsichtig mit diesen Ergebnissen.
+# sent_id = 62
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=2895|end_char=2898
+2	Experte	Experte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=2899|end_char=2906
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2907|end_char=2910
+4	vorsichtig	vorsichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2911|end_char=2921
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=2922|end_char=2925
+6	diesen	dieser	DET	PDAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Dem	7	det	_	start_char=2926|end_char=2932
+7	Ergebnissen	Ergebnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	nmod	_	start_char=2933|end_char=2944
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=2944|end_char=2945
+
+# text = Aber auch er sagt: Honig kann gegen Husten helfen.
+# sent_id = 63
+1	Aber	aber	CCONJ	KON	_	4	cc	_	start_char=2946|end_char=2950
+2	auch	auch	ADV	ADV	_	4	advmod	_	start_char=2951|end_char=2955
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=2956|end_char=2958
+4	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2959|end_char=2963
+5	:	:	PUNCT	$.	_	10	punct	_	start_char=2963|end_char=2964
+6	Honig	Honig	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=2965|end_char=2970
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=2971|end_char=2975
+8	gegen	gegen	ADP	APPR	_	9	case	_	start_char=2976|end_char=2981
+9	Husten	Huste	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	start_char=2982|end_char=2988
+10	helfen	helfen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	start_char=2989|end_char=2995
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=2995|end_char=2996
+
+# text = Aber Vorsicht: Babys dürfen keinen Honig essen.
+# sent_id = 64
+1	Aber	aber	CCONJ	KON	_	2	cc	_	start_char=2997|end_char=3001
+2	Vorsicht	Vorsicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=3002|end_char=3010
+3	:	:	PUNCT	$.	_	8	punct	_	start_char=3010|end_char=3011
+4	Babys	Babys	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=3012|end_char=3017
+5	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=3018|end_char=3024
+6	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	7	det	_	start_char=3025|end_char=3031
+7	Honig	Honig	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=3032|end_char=3037
+8	essen	essen	VERB	VVINF	VerbForm=Inf	2	parataxis	_	start_char=3038|end_char=3043
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=3043|end_char=3044
+
+# text = Im Honig können Bakterien sein.
+# sent_id = 65
+1-2	Im	_	_	_	_	_	_	_	start_char=3045|end_char=3047
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Honig	Honig	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	start_char=3048|end_char=3053
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=3054|end_char=3060
+5	Bakterien	Bakterium	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=3061|end_char=3070
+6	sein	sein	AUX	VAINF	VerbForm=Inf	0	root	_	start_char=3071|end_char=3075
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=3075|end_char=3076
+
+# text = Diese Bakterien können bei Babys eine sehr gefährliche Krankheit auslösen.
+# sent_id = 66
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=3077|end_char=3082
+2	Bakterien	Bakterium	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=3083|end_char=3092
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=3093|end_char=3099
+4	bei	bei	ADP	APPR	_	5	case	_	start_char=3100|end_char=3103
+5	Babys	Babys	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	start_char=3104|end_char=3109
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=3110|end_char=3114
+7	sehr	sehr	ADV	ADV	_	8	advmod	_	start_char=3115|end_char=3119
+8	gefährliche	gefährlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=3120|end_char=3131
+9	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=3132|end_char=3141
+10	auslösen	auslösen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3142|end_char=3150
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=3150|end_char=3151
+
+# text = Die Krankheit heißt Säuglingsbotulismus.
+# sent_id = 67
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=3152|end_char=3155
+2	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=3156|end_char=3165
+3	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3166|end_char=3171
+4	Säuglingsbotulismus	Säuglingsbotulismus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	xcomp	_	start_char=3172|end_char=3191
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=3191|end_char=3192
+
+# text = Die Husten-Mittel enthalten Zucker.
+# sent_id = 68
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=3194|end_char=3197
+2	Husten	Huste	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	compound	_	start_char=3198|end_char=3204
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=3204|end_char=3205
+4	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=3205|end_char=3211
+5	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3212|end_char=3221
+6	Zucker	Zucker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=3222|end_char=3228
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=3228|end_char=3229
+
+# text = Sie sollten Zucker nur in Maßen essen.
+# sent_id = 69
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=3230|end_char=3233
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=3234|end_char=3241
+3	Zucker	Zucker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=3242|end_char=3248
+4	nur	nur	ADV	ADV	_	7	advmod	_	start_char=3249|end_char=3252
+5	in	in	ADP	APPR	_	6	case	_	start_char=3253|end_char=3255
+6	Maßen	Maß	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	start_char=3256|end_char=3261
+7	essen	essen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3262|end_char=3267
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=3267|end_char=3268
+
+# text = Ein Haus-Mittel ist viel trinken.
+# sent_id = 70
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=3270|end_char=3273
+2	Haus	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	start_char=3274|end_char=3278
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=3278|end_char=3279
+4	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=3279|end_char=3285
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=3286|end_char=3289
+6	viel	viel	DET	PIS	PronType=Ind	7	obj	_	start_char=3290|end_char=3294
+7	trinken	trinken	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3295|end_char=3302
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=3302|end_char=3303
+
+# text = Husten-Tee ist ein altes Haus-Mittel.
+# sent_id = 71
+1	Husten	Husten	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=3305|end_char=3311
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=3311|end_char=3312
+3	Tee	Tee	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=3312|end_char=3315
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=3316|end_char=3319
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=3320|end_char=3323
+6	altes	alt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=3324|end_char=3329
+7	Haus	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	compound	_	start_char=3330|end_char=3334
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=3334|end_char=3335
+9	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=3335|end_char=3341
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3341|end_char=3342
+
+# text = In der Apotheke gibt es Husten-Tee mit Heil-Pflanzen.
+# sent_id = 72
+1	In	in	ADP	APPR	_	3	case	_	start_char=3343|end_char=3345
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3346|end_char=3349
+3	Apotheke	Apotheke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=3350|end_char=3358
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3359|end_char=3363
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=3364|end_char=3366
+6	Husten	Huste	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	compound	_	start_char=3367|end_char=3373
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=3373|end_char=3374
+8	Tee	Tee	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=3374|end_char=3377
+9	mit	mit	ADP	APPR	_	12	case	_	start_char=3378|end_char=3381
+10	Heil	Heil	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	compound	_	start_char=3382|end_char=3386
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=3386|end_char=3387
+12	Pflanzen	Pflanze|Pflanzen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	start_char=3387|end_char=3395
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=3395|end_char=3396
+
+# text = Diese Pflanzen helfen gegen den Husten: - Thymian - Schlüssel-Blume - Efeu
+# sent_id = 73
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=3397|end_char=3402
+2	Pflanzen	Pflanze|Pflanzen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=3403|end_char=3411
+3	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3412|end_char=3418
+4	gegen	gegen	ADP	APPR	_	6	case	_	start_char=3419|end_char=3424
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=3425|end_char=3428
+6	Husten	Huste	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=3429|end_char=3435
+7	:	:	PUNCT	$.	_	9	punct	_	start_char=3435|end_char=3436
+8	-	-	PUNCT	$(	_	9	punct	_	start_char=3437|end_char=3438
+9	Thymian	Thymian	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	start_char=3439|end_char=3446
+10	-	-	PUNCT	$(	_	11	punct	_	start_char=3447|end_char=3448
+11	Schlüssel	Schlüssel	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	start_char=3449|end_char=3458
+12	-	-	PUNCT	$(	_	13	punct	_	start_char=3458|end_char=3459
+13	Blume	Blume	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	9	flat	_	start_char=3459|end_char=3464
+14	-	-	PUNCT	$(	_	15	punct	_	start_char=3465|end_char=3466
+15	Efeu	Efeu	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	start_char=3467|end_char=3471
+
+# text = Die Apotheke hilft Ihnen, den richtigen Tee zu finden.
+# sent_id = 74
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=3472|end_char=3475
+2	Apotheke	Apotheke	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=3476|end_char=3484
+3	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3485|end_char=3490
+4	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	obl:arg	_	start_char=3491|end_char=3496
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=3496|end_char=3497
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=3498|end_char=3501
+7	richtigen	richtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=3502|end_char=3511
+8	Tee	Tee	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=3512|end_char=3515
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=3516|end_char=3518
+10	finden	finden	VERB	VVINF	VerbForm=Inf	3	xcomp	_	start_char=3519|end_char=3525
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=3525|end_char=3526
+
+# text = Viel Tee trinken ist gut bei Husten.
+# sent_id = 75
+1	Viel	viel	DET	PIAT	PronType=Ind	2	det	_	start_char=3527|end_char=3531
+2	Tee	Tee	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=3532|end_char=3535
+3	trinken	trinken	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3536|end_char=3543
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=3544|end_char=3547
+5	gut	gut	ADV	ADJD	_	3	advmod	_	start_char=3548|end_char=3551
+6	bei	bei	ADP	APPR	_	7	case	_	start_char=3552|end_char=3555
+7	Husten	Huste	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	start_char=3556|end_char=3562
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=3562|end_char=3563
+
+# text = Denn der Tee macht den Schleim in den Atem-Wegen flüssiger.
+# sent_id = 76
+1	Denn	denn	CCONJ	KON	_	4	cc	_	start_char=3564|end_char=3568
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=3569|end_char=3572
+3	Tee	Tee	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3573|end_char=3576
+4	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3577|end_char=3582
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=3583|end_char=3586
+6	Schleim	Schleim	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=3587|end_char=3594
+7	in	in	ADP	APPR	_	11	case	_	start_char=3595|end_char=3597
+8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=3598|end_char=3601
+9	Atem	Atem	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	compound	_	start_char=3602|end_char=3606
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=3606|end_char=3607
+11	Wegen	Weg	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	start_char=3607|end_char=3612
+12	flüssiger	flüssig	ADJ	ADJD	Degree=Cmp	4	xcomp	_	start_char=3613|end_char=3622
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=3622|end_char=3623
+
+# text = Und der Tee befeuchtet die Schleimhäute.
+# sent_id = 77
+1	Und	und	CCONJ	KON	_	4	cc	_	start_char=3624|end_char=3627
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=3628|end_char=3631
+3	Tee	Tee	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3632|end_char=3635
+4	befeuchtet	befeuchten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3636|end_char=3646
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=3647|end_char=3650
+6	Schleimhäute	Schleimhäute	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=3651|end_char=3663
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=3663|end_char=3664
+
+# text = Aber Vorsicht: Manche Menschen dürfen nicht so viel trinken.
+# sent_id = 78
+1	Aber	aber	CCONJ	KON	_	2	cc	_	start_char=3665|end_char=3669
+2	Vorsicht	Vorsicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=3670|end_char=3678
+3	:	:	PUNCT	$.	_	10	punct	_	start_char=3678|end_char=3679
+4	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=3680|end_char=3686
+5	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=3687|end_char=3695
+6	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=3696|end_char=3702
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=3703|end_char=3708
+8	so	so	ADV	ADV	_	9	advmod	_	start_char=3709|end_char=3711
+9	viel	viel	DET	PIS	PronType=Ind	10	obj	_	start_char=3712|end_char=3716
+10	trinken	trinken	VERB	VVINF	VerbForm=Inf	2	parataxis	_	start_char=3717|end_char=3724
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=3724|end_char=3725
+
+# text = Zum Beispiel Menschen mit Nieren- oder Herz-Krankheiten.
+# sent_id = 79
+1-2	Zum	_	_	_	_	_	_	_	start_char=3726|end_char=3729
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=3730|end_char=3738
+4	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=3739|end_char=3747
+5	mit	mit	ADP	APPR	_	11	case	_	start_char=3748|end_char=3751
+6	Nieren	Niere	NOUN	TRUNC	Case=Dat|Gender=Fem	11	compound	_	start_char=3752|end_char=3758
+7	-	-	PUNCT	$(	_	9	punct	_	start_char=3758|end_char=3759
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=3760|end_char=3764
+9	Herz	Herz	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	conj	_	start_char=3765|end_char=3769
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=3769|end_char=3770
+11	Krankheiten	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	start_char=3770|end_char=3781
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=3781|end_char=3782
+
+# text = Diese Menschen sollten ihren Arzt fragen, wie viel sie trinken dürfen.
+# sent_id = 80
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	start_char=3783|end_char=3788
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=3789|end_char=3797
+3	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	start_char=3798|end_char=3805
+4	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=3806|end_char=3811
+5	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=3812|end_char=3816
+6	fragen	fragen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3817|end_char=3823
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=3823|end_char=3824
+8	wie	wie	ADV	PWAV	PronType=Int	11	advmod	_	start_char=3825|end_char=3828
+9	viel	viel	DET	PIS	PronType=Ind	11	obj	_	start_char=3829|end_char=3833
+10	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=3834|end_char=3837
+11	trinken	trinken	VERB	VVINF	VerbForm=Inf	6	ccomp	_	start_char=3838|end_char=3845
+12	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=3846|end_char=3852
+13	.	.	PUNCT	$.	_	6	punct	_	start_char=3852|end_char=3853
+
+# text = Kartoffelwickel: Wenn Sie daran glauben, kann es helfen.
+# sent_id = 81
+1	Kartoffelwickel	Kartoffelwickel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	start_char=3855|end_char=3870
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=3870|end_char=3871
+3	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=3872|end_char=3876
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=3877|end_char=3880
+5	daran	daran	ADV	PAV	PronType=Dem	6	advmod	_	start_char=3881|end_char=3886
+6	glauben	glauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	start_char=3887|end_char=3894
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=3894|end_char=3895
+8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=3896|end_char=3900
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=3901|end_char=3903
+10	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3904|end_char=3910
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=3910|end_char=3911
+
+# text = Einige Menschen benutzen warme Kartoffelwickel gegen Husten.
+# sent_id = 82
+1	Einige	einige	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=3913|end_char=3919
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3920|end_char=3928
+3	benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3929|end_char=3937
+4	warme	warm	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=3938|end_char=3943
+5	Kartoffelwickel	Kartoffelwickel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=3944|end_char=3959
+6	gegen	gegen	ADP	APPR	_	7	case	_	start_char=3960|end_char=3965
+7	Husten	Huste	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	start_char=3966|end_char=3972
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=3972|end_char=3973
+
+# text = Haben Sie eine Krankheit wie Diabetes?
+# sent_id = 83
+1	Haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3974|end_char=3979
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=3980|end_char=3983
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=3984|end_char=3988
+4	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=3989|end_char=3998
+5	wie	wie	ADP	KOKOM	_	6	case	_	start_char=3999|end_char=4002
+6	Diabetes	Diabet	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	start_char=4003|end_char=4011
+7	?	?	PUNCT	$.	_	1	punct	_	start_char=4011|end_char=4012
+
+# text = Dann sprechen Sie mit Ihrem Arzt, bevor Sie Kartoffelwickel benutzen.
+# sent_id = 84
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=4013|end_char=4017
+2	sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4018|end_char=4026
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=4027|end_char=4030
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=4031|end_char=4034
+5	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=4035|end_char=4040
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=4041|end_char=4045
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=4045|end_char=4046
+8	bevor	bevor	SCONJ	KOUS	_	11	mark	_	start_char=4047|end_char=4052
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=4053|end_char=4056
+10	Kartoffelwickel	Kartoffelwickel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=4057|end_char=4072
+11	benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=4073|end_char=4081
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=4081|end_char=4082
+
+# text = So machen Sie einen Kartoffelwickel: 1. Kochen Sie 4 bis 6 mittlere Kartoffeln weich.
+# sent_id = 85
+1	So	so	ADV	ADV	_	2	advmod	_	start_char=4083|end_char=4085
+2	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4086|end_char=4092
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=4093|end_char=4096
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=4097|end_char=4102
+5	Kartoffelwickel	Kartoffelwickel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=4103|end_char=4118
+6	:	:	PUNCT	$.	_	15	punct	_	start_char=4118|end_char=4119
+7	1.	1.	ADJ	ADJA	Degree=Pos|NumType=Ord	8	amod	_	start_char=4120|end_char=4122
+8	Kochen	Kochen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=4123|end_char=4129
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	15	nsubj	_	start_char=4130|end_char=4133
+10	4	4	NUM	CARD	NumType=Card	14	nummod	_	start_char=4134|end_char=4135
+11	bis	bis	ADP	KON	_	12	case	_	start_char=4136|end_char=4139
+12	6	6	NUM	CARD	NumType=Card	10	nmod	_	start_char=4140|end_char=4141
+13	mittlere	mittler	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=4142|end_char=4150
+14	Kartoffeln	Kartoffel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	nsubj	_	start_char=4151|end_char=4161
+15	weich	weich	ADJ	ADJD	Degree=Pos	5	acl	_	start_char=4162|end_char=4167
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=4167|end_char=4168
+
+# text = 2. Legen Sie die Kartoffeln in ein Geschirr-Tuch.
+# sent_id = 86
+1	2.	2.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=4169|end_char=4171
+2	Legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4172|end_char=4177
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=4178|end_char=4181
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=4182|end_char=4185
+5	Kartoffeln	Kartoffel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=4186|end_char=4196
+6	in	in	ADP	APPR	_	10	case	_	start_char=4197|end_char=4199
+7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=4200|end_char=4203
+8	Geschirr	Geschirr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	compound	_	start_char=4204|end_char=4212
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=4212|end_char=4213
+10	Tuch	Tuch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	start_char=4213|end_char=4217
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=4217|end_char=4218
+
+# text = 3. Zerdrücken Sie die Kartoffeln.
+# sent_id = 87
+1	3.	3.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=4219|end_char=4221
+2	Zerdrücken	zerdrücken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4222|end_char=4232
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=4233|end_char=4236
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=4237|end_char=4240
+5	Kartoffeln	Kartoffel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=4241|end_char=4251
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=4251|end_char=4252
+
+# text = 4. Warten Sie, bis der Wickel nicht mehr heiß ist.
+# sent_id = 88
+1	4.	4.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=4253|end_char=4255
+2	Warten	warten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4256|end_char=4262
+3	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=4263|end_char=4266
+4	,	,	PUNCT	$,	_	10	punct	_	start_char=4266|end_char=4267
+5	bis	bis	SCONJ	KOUS	_	10	mark	_	start_char=4268|end_char=4271
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=4272|end_char=4275
+7	Wickel	Wickel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=4276|end_char=4282
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=4283|end_char=4288
+9	mehr	mehr	ADV	ADV	_	10	advmod	_	start_char=4289|end_char=4293
+10	heiß	heiß	ADJ	ADJD	Degree=Pos	2	advcl	_	start_char=4294|end_char=4298
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=4299|end_char=4302
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=4302|end_char=4303
+
+# text = 5. Legen Sie den Wickel auf Ihre Brust.
+# sent_id = 89
+1	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=4304|end_char=4306
+2	Legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4307|end_char=4312
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=4313|end_char=4316
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=4317|end_char=4320
+5	Wickel	Wickel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=4321|end_char=4327
+6	auf	auf	ADP	APPR	_	8	case	_	start_char=4328|end_char=4331
+7	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=4332|end_char=4336
+8	Brust	Brust	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=4337|end_char=4342
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=4342|end_char=4343
+
+# text = 6. Lassen Sie den Wickel auf Ihrer Brust, bis er kalt ist.
+# sent_id = 90
+1	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=4344|end_char=4346
+2	Lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4347|end_char=4353
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=4354|end_char=4357
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=4358|end_char=4361
+5	Wickel	Wickel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=4362|end_char=4368
+6	auf	auf	ADP	APPR	_	8	case	_	start_char=4369|end_char=4372
+7	Ihrer	Ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=4373|end_char=4378
+8	Brust	Brust	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=4379|end_char=4384
+9	,	,	PUNCT	$,	_	12	punct	_	start_char=4384|end_char=4385
+10	bis	bis	SCONJ	KOUS	_	12	mark	_	start_char=4386|end_char=4389
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=4390|end_char=4392
+12	kalt	kalt	ADJ	ADJD	Degree=Pos	2	advcl	_	start_char=4393|end_char=4397
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=4398|end_char=4401
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=4401|end_char=4402
+
+# text = Ein Arzt aus Bremen sagt: Wenn ein Haus-Mittel Ihnen gut tut, dann benutzen Sie es.
+# sent_id = 91
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=4403|end_char=4406
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=4407|end_char=4411
+3	aus	aus	ADP	APPR	_	4	case	_	start_char=4412|end_char=4415
+4	Bremen	Bremen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	start_char=4416|end_char=4422
+5	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4423|end_char=4427
+6	:	:	PUNCT	$.	_	17	punct	_	start_char=4427|end_char=4428
+7	Wenn	wenn	SCONJ	KOUS	_	14	mark	_	start_char=4429|end_char=4433
+8	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=4434|end_char=4437
+9	Haus	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	compound	_	start_char=4438|end_char=4442
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=4442|end_char=4443
+11	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	start_char=4443|end_char=4449
+12	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	14	obl:arg	_	start_char=4450|end_char=4455
+13	gut	gut	ADV	ADJD	_	14	advmod	_	start_char=4456|end_char=4459
+14	tut	tun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=4460|end_char=4463
+15	,	,	PUNCT	$,	_	14	punct	_	start_char=4463|end_char=4464
+16	dann	dann	ADV	ADV	_	17	advmod	_	start_char=4465|end_char=4469
+17	benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=4470|end_char=4478
+18	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	17	nsubj	_	start_char=4479|end_char=4482
+19	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	start_char=4483|end_char=4485
+20	.	.	PUNCT	$.	_	5	punct	_	start_char=4485|end_char=4486
+
+# text = Es kann helfen, wenn Sie glauben, dass es hilft.
+# sent_id = 92
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=4487|end_char=4489
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=4490|end_char=4494
+3	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4495|end_char=4501
+4	,	,	PUNCT	$,	_	7	punct	_	start_char=4501|end_char=4502
+5	wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=4503|end_char=4507
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	start_char=4508|end_char=4511
+7	glauben	glauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=4512|end_char=4519
+8	,	,	PUNCT	$,	_	11	punct	_	start_char=4519|end_char=4520
+9	dass	dass	SCONJ	KOUS	_	11	mark	_	start_char=4521|end_char=4525
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=4526|end_char=4528
+11	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	start_char=4529|end_char=4534
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=4534|end_char=4535
+
+# text = Das nennt man den Placebo-Effekt.
+# sent_id = 93
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=4536|end_char=4539
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4540|end_char=4545
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=4546|end_char=4549
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=4550|end_char=4553
+5	Placebo	Placebo	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	compound	_	start_char=4554|end_char=4561
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=4561|end_char=4562
+7	Effekt	Effekt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=4562|end_char=4568
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=4568|end_char=4569
+
+# text = Es kann auch helfen, wenn jemand anders für Sie sorgt.
+# sent_id = 94
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=4570|end_char=4572
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=4573|end_char=4577
+3	auch	auch	ADV	ADV	_	4	advmod	_	start_char=4578|end_char=4582
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4583|end_char=4589
+5	,	,	PUNCT	$,	_	11	punct	_	start_char=4589|end_char=4590
+6	wenn	wenn	SCONJ	KOUS	_	11	mark	_	start_char=4591|end_char=4595
+7	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=4596|end_char=4602
+8	anders	anders	ADV	ADV	_	11	advmod	_	start_char=4603|end_char=4609
+9	für	für	ADP	APPR	_	10	case	_	start_char=4610|end_char=4613
+10	Sie	sie	PRON	PPER	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	obl	_	start_char=4614|end_char=4617
+11	sorgt	sorgen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=4618|end_char=4623
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=4623|end_char=4624
+
+# text = Zum Beispiel, wenn jemand Tee für Sie kocht.
+# sent_id = 95
+1-2	Zum	_	_	_	_	_	_	_	start_char=4625|end_char=4628
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	start_char=4629|end_char=4637
+4	,	,	PUNCT	$,	_	10	punct	_	start_char=4637|end_char=4638
+5	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=4639|end_char=4643
+6	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=4644|end_char=4650
+7	Tee	Tee	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	start_char=4651|end_char=4654
+8	für	für	ADP	APPR	_	9	case	_	start_char=4655|end_char=4658
+9	Sie	sie	PRON	PPER	Case=Acc|Number=Sing|Person=2|PronType=Prs	10	obl	_	start_char=4659|end_char=4662
+10	kocht	kochen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=4663|end_char=4668
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=4668|end_char=4669
+
+# text = Oder wenn jemand Zwiebelsaft für Sie macht.
+# sent_id = 96
+1	Oder	Oder	CCONJ	KON	_	7	cc	_	start_char=4670|end_char=4674
+2	wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=4675|end_char=4679
+3	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=4680|end_char=4686
+4	Zwiebelsaft	Zwiebelsaft	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=4687|end_char=4698
+5	für	für	ADP	APPR	_	6	case	_	start_char=4699|end_char=4702
+6	Sie	sie	PRON	PPER	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	obl	_	start_char=4703|end_char=4706
+7	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4707|end_char=4712
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=4712|end_char=4713
+
+# text = Das nennt man Zuwendung.
+# sent_id = 97
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=4714|end_char=4717
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4718|end_char=4723
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=4724|end_char=4727
+4	Zuwendung	Zuwendung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=4728|end_char=4737
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=4737|end_char=4738
+
+# text = Husten ist nicht immer harmlos.
+# sent_id = 98
+1	Husten	Huste	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=4740|end_char=4746
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=4747|end_char=4750
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=4751|end_char=4756
+4	immer	immer	ADV	ADV	_	5	advmod	_	start_char=4757|end_char=4762
+5	harmlos	harmlos	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4763|end_char=4770
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=4770|end_char=4771
+
+# text = Manchmal ist Husten ein Zeichen für eine Krankheit.
+# sent_id = 99
+1	Manchmal	manchmal	ADV	ADV	_	5	advmod	_	start_char=4772|end_char=4780
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=4781|end_char=4784
+3	Husten	Huste	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=4785|end_char=4791
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=4792|end_char=4795
+5	Zeichen	Zeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4796|end_char=4803
+6	für	für	ADP	APPR	_	8	case	_	start_char=4804|end_char=4807
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=4808|end_char=4812
+8	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=4813|end_char=4822
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=4822|end_char=4823
+
+# text = Zum Beispiel für eine Infektion mit dem Corona-Virus.
+# sent_id = 100
+1-2	Zum	_	_	_	_	_	_	_	start_char=4824|end_char=4827
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=4828|end_char=4836
+4	für	für	ADP	APPR	_	6	case	_	start_char=4837|end_char=4840
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=4841|end_char=4845
+6	Infektion	Infektion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	start_char=4846|end_char=4855
+7	mit	mit	ADP	APPR	_	9	case	_	start_char=4856|end_char=4859
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=4860|end_char=4863
+9	Corona	Corona	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=4864|end_char=4870
+10	-	-	PUNCT	$(	_	11	punct	_	start_char=4870|end_char=4871
+11	Virus	Virus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	flat	_	start_char=4871|end_char=4876
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=4876|end_char=4877
+
+# text = Sie haben Husten und dazu noch andere Beschwerden?
+# sent_id = 101
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=4878|end_char=4881
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4882|end_char=4887
+3	Husten	Huste	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=4888|end_char=4894
+4	und	und	CCONJ	KON	_	8	cc	_	start_char=4895|end_char=4898
+5	dazu	dazu	ADV	PAV	PronType=Dem	8	advmod	_	start_char=4899|end_char=4903
+6	noch	noch	ADV	ADV	_	8	advmod	_	start_char=4904|end_char=4908
+7	andere	anderer	DET	ADJA	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	8	det	_	start_char=4909|end_char=4915
+8	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	conj	_	start_char=4916|end_char=4927
+9	?	?	PUNCT	$.	_	2	punct	_	start_char=4927|end_char=4928
+
+# text = Zum Beispiel Fieber oder Nacht-Schweiß?
+# sent_id = 102
+1-2	Zum	_	_	_	_	_	_	_	start_char=4929|end_char=4932
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=4933|end_char=4941
+4	Fieber	Fieber	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4942|end_char=4948
+5	oder	oder	CCONJ	KON	_	8	cc	_	start_char=4949|end_char=4953
+6	Nacht	Nacht	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	start_char=4954|end_char=4959
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=4959|end_char=4960
+8	Schweiß	Schweiß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	start_char=4960|end_char=4967
+9	?	?	PUNCT	$.	_	4	punct	_	start_char=4967|end_char=4968
+
+# text = Dann gehen Sie zum Arzt.
+# sent_id = 103
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=4969|end_char=4973
+2	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4974|end_char=4979
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=4980|end_char=4983
+4-5	zum	_	_	_	_	_	_	_	start_char=4984|end_char=4987
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=4988|end_char=4992
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=4992|end_char=4993
+
+# text = Sie fühlen sich sehr krank?
+# sent_id = 104
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=4994|end_char=4997
+2	fühlen	fühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4998|end_char=5004
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=5005|end_char=5009
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	start_char=5010|end_char=5014
+5	krank	krank	ADJ	ADJD	Degree=Pos	2	xcomp	_	start_char=5015|end_char=5020
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=5020|end_char=5021
+
+# text = Oder Sie husten Schleim aus, der anders aussieht als sonst?
+# sent_id = 105
+1	Oder	Oder	CCONJ	KON	_	3	cc	_	start_char=5022|end_char=5026
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=5027|end_char=5030
+3	husten	hesten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5031|end_char=5037
+4	Schleim	Schleim	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=5038|end_char=5045
+5	aus	aus	ADP	PTKVZ	_	3	compound:prt	_	start_char=5046|end_char=5049
+6	,	,	PUNCT	$,	_	9	punct	_	start_char=5049|end_char=5050
+7	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	9	nsubj	_	start_char=5051|end_char=5054
+8	anders	anders	ADV	ADV	_	9	advmod	_	start_char=5055|end_char=5061
+9	aussieht	aussehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=5062|end_char=5070
+10	als	als	ADP	KOKOM	_	11	case	_	start_char=5071|end_char=5074
+11	sonst	sonst	ADV	ADV	_	9	advmod	_	start_char=5075|end_char=5080
+12	?	?	PUNCT	$.	_	9	punct	_	start_char=5080|end_char=5081
+
+# text = Oder Sie sind schon krank oder schwanger?
+# sent_id = 106
+1	Oder	Oder	CCONJ	KON	_	5	cc	_	start_char=5082|end_char=5086
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=5087|end_char=5090
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=5091|end_char=5095
+4	schon	schon	ADV	ADV	_	5	advmod	_	start_char=5096|end_char=5101
+5	krank	krank	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5102|end_char=5107
+6	oder	oder	CCONJ	KON	_	7	cc	_	start_char=5108|end_char=5112
+7	schwanger	schwanger	ADJ	ADJD	Degree=Pos	5	conj	_	start_char=5113|end_char=5122
+8	?	?	PUNCT	$.	_	5	punct	_	start_char=5122|end_char=5123
+
+# text = Oder Sie haben gehustet, nachdem Sie einen Unfall hatten?
+# sent_id = 107
+1	Oder	Oder	CCONJ	KON	_	4	cc	_	start_char=5124|end_char=5128
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=5129|end_char=5132
+3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=5133|end_char=5138
+4	gehustet	husten	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5139|end_char=5147
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=5147|end_char=5148
+6	nachdem	nachdem	SCONJ	KOUS	_	10	mark	_	start_char=5149|end_char=5156
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	start_char=5157|end_char=5160
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=5161|end_char=5166
+9	Unfall	Unfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=5167|end_char=5173
+10	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	start_char=5174|end_char=5180
+11	?	?	PUNCT	$.	_	4	punct	_	start_char=5180|end_char=5181
+
+# text = Oder Sie haben gehustet, nachdem Sie Rauch oder Dampf eingeatmet haben?
+# sent_id = 108
+1	Oder	Oder	CCONJ	KON	_	4	cc	_	start_char=5182|end_char=5186
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=5187|end_char=5190
+3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=5191|end_char=5196
+4	gehustet	husten	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5197|end_char=5205
+5	,	,	PUNCT	$,	_	11	punct	_	start_char=5205|end_char=5206
+6	nachdem	nachdem	SCONJ	KOUS	_	11	mark	_	start_char=5207|end_char=5214
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=5215|end_char=5218
+8	Rauch	Rauch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=5219|end_char=5224
+9	oder	oder	CCONJ	KON	_	10	cc	_	start_char=5225|end_char=5229
+10	Dampf	Dampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	conj	_	start_char=5230|end_char=5235
+11	eingeatmet	einatmmen	VERB	VVPP	VerbForm=Part	4	advcl	_	start_char=5236|end_char=5246
+12	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=5247|end_char=5252
+13	?	?	PUNCT	$.	_	4	punct	_	start_char=5252|end_char=5253
+
+# text = Oder Ihr Husten geht nach einer Woche nicht weg?
+# sent_id = 109
+1	Oder	Oder	CCONJ	KON	_	4	cc	_	start_char=5254|end_char=5258
+2	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	start_char=5259|end_char=5262
+3	Husten	Huste	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=5263|end_char=5269
+4	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5270|end_char=5274
+5	nach	nach	ADP	APPR	_	7	case	_	start_char=5275|end_char=5279
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=5280|end_char=5285
+7	Woche	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=5286|end_char=5291
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=5292|end_char=5297
+9	weg	weg	ADV	PTKVZ	_	4	compound:prt	_	start_char=5298|end_char=5301
+10	?	?	PUNCT	$.	_	4	punct	_	start_char=5301|end_char=5302
+
+# text = Dann gehen Sie zum Arzt.
+# sent_id = 110
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5303|end_char=5307
+2	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5308|end_char=5313
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=5314|end_char=5317
+4-5	zum	_	_	_	_	_	_	_	start_char=5318|end_char=5321
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=5322|end_char=5326
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=5326|end_char=5327
+
+# text = Ein Baby hat Husten?
+# sent_id = 111
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=5328|end_char=5331
+2	Baby	Baby	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=5332|end_char=5336
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5337|end_char=5340
+4	Husten	Huste	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=5341|end_char=5347
+5	?	?	PUNCT	$.	_	3	punct	_	start_char=5347|end_char=5348
+
+# text = Dann sollten die Eltern sofort den Kinder-Arzt anrufen.
+# sent_id = 112
+1	Dann	dann	ADV	ADV	_	10	advmod	_	start_char=5349|end_char=5353
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	start_char=5354|end_char=5361
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=5362|end_char=5365
+4	Eltern	Eltern	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	start_char=5366|end_char=5372
+5	sofort	sofort	ADV	ADV	_	10	advmod	_	start_char=5373|end_char=5379
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=5380|end_char=5383
+7	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	start_char=5384|end_char=5390
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=5390|end_char=5391
+9	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=5391|end_char=5395
+10	anrufen	anrufen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5396|end_char=5403
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=5403|end_char=5404
+
+# text = Ein Kind hat Husten?
+# sent_id = 113
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=5405|end_char=5408
+2	Kind	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=5409|end_char=5413
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5414|end_char=5417
+4	Husten	Huste	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=5418|end_char=5424
+5	?	?	PUNCT	$.	_	3	punct	_	start_char=5424|end_char=5425
+
+# text = Dann sollten die Eltern schnell den Kinder-Arzt anrufen.
+# sent_id = 114
+1	Dann	dann	ADV	ADV	_	10	advmod	_	start_char=5426|end_char=5430
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	start_char=5431|end_char=5438
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=5439|end_char=5442
+4	Eltern	Eltern	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	start_char=5443|end_char=5449
+5	schnell	schnell	ADV	ADJD	_	10	advmod	_	start_char=5450|end_char=5457
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=5458|end_char=5461
+7	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	start_char=5462|end_char=5468
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=5468|end_char=5469
+9	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=5469|end_char=5473
+10	anrufen	anrufen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5474|end_char=5481
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=5481|end_char=5482
+
+# text = Sie bekommen schlecht Luft?
+# sent_id = 115
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=5483|end_char=5486
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5487|end_char=5495
+3	schlecht	schlecht	ADV	ADJD	_	2	advmod	_	start_char=5496|end_char=5504
+4	Luft	Luft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=5505|end_char=5509
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=5509|end_char=5510
+
+# text = Dann rufen Sie sofort den Rettungs-Dienst.
+# sent_id = 116
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5511|end_char=5515
+2	rufen	rufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5516|end_char=5521
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=5522|end_char=5525
+4	sofort	sofort	ADV	ADV	_	2	advmod	_	start_char=5526|end_char=5532
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=5533|end_char=5536
+6	Rettungs	Rettungs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	start_char=5537|end_char=5545
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=5545|end_char=5546
+8	Dienst	Dienst	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=5546|end_char=5552
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=5552|end_char=5553
+

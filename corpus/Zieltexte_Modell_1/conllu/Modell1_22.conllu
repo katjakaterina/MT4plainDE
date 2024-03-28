@@ -1,0 +1,2360 @@
+# text = ﻿
+# sent_id = 0
+1	﻿	"	PUNCT	$(	_	0	root	_	start_char=0|end_char=1
+
+# text = Alzheimer-Krankheit.
+# sent_id = 1
+1	Alzheimer	Alzheimer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	compound	_	start_char=3|end_char=12
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=12|end_char=13
+3	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=13|end_char=22
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=22|end_char=23
+
+# text = Alzheimer ist die häufigste Ursache von Demenz.
+# sent_id = 2
+1	Alzheimer	Alzheimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=25|end_char=34
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=35|end_char=38
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=39|end_char=42
+4	häufigste	häufig	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	5	amod	_	start_char=43|end_char=52
+5	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=53|end_char=60
+6	von	von	ADP	APPR	_	7	case	_	start_char=61|end_char=64
+7	Demenz	Demenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	start_char=65|end_char=71
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=71|end_char=72
+
+# text = Bei Alzheimer werden die Nerven-Zellen im Gehirn abgestorben.
+# sent_id = 3
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=73|end_char=76
+2	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=77|end_char=86
+3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	aux:pass	_	start_char=87|end_char=93
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=94|end_char=97
+5	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	compound	_	start_char=98|end_char=104
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=104|end_char=105
+7	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	start_char=105|end_char=111
+8-9	im	_	_	_	_	_	_	_	start_char=112|end_char=114
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=115|end_char=121
+11	abgestorben	absterben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=122|end_char=133
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=133|end_char=134
+
+# text = Deshalb kann die betroffene Person sich nicht mehr gut erinnern.
+# sent_id = 4
+1	Deshalb	deshalb	ADV	PAV	_	10	advmod	_	start_char=135|end_char=142
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=143|end_char=147
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=148|end_char=151
+4	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=152|end_char=162
+5	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=163|end_char=169
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	start_char=170|end_char=174
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=175|end_char=180
+8	mehr	mehr	ADV	ADV	_	7	advmod	_	start_char=181|end_char=185
+9	gut	gut	ADV	ADJD	_	10	advmod	_	start_char=186|end_char=189
+10	erinnern	erinnern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=190|end_char=198
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=198|end_char=199
+
+# text = Und die betroffene Person kann sich nicht mehr gut orientieren.
+# sent_id = 5
+1	Und	und	CCONJ	KON	_	10	cc	_	start_char=200|end_char=203
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=204|end_char=207
+3	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=208|end_char=218
+4	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=219|end_char=225
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=226|end_char=230
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	start_char=231|end_char=235
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=236|end_char=241
+8	mehr	mehr	ADV	ADV	_	7	advmod	_	start_char=242|end_char=246
+9	gut	gut	ADV	ADJD	_	10	advmod	_	start_char=247|end_char=250
+10	orientieren	orientieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=251|end_char=262
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=262|end_char=263
+
+# text = Alzheimer hat verschiedene Anzeichen.
+# sent_id = 6
+1	Alzheimer	Alzheimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=264|end_char=273
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=274|end_char=277
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=278|end_char=290
+4	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=291|end_char=300
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=300|end_char=301
+
+# text = Die Anzeichen sind zum Beispiel: - Gedächtnis-Verlust - Orientierungs-Probleme Mehr zu den Anzeichen, der Diagnose und der Therapie von Alzheimer lesen Sie hier.
+# sent_id = 7
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=302|end_char=305
+2	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	start_char=306|end_char=315
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=316|end_char=320
+4-5	zum	_	_	_	_	_	_	_	start_char=321|end_char=324
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	nmod	_	start_char=325|end_char=333
+7	:	:	PUNCT	$.	_	15	punct	_	start_char=333|end_char=334
+8	-	-	PUNCT	$(	_	9	punct	_	start_char=335|end_char=336
+9	Gedächtnis	Gedächtnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	compound	_	start_char=337|end_char=347
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=347|end_char=348
+11	Verlust	Verlust	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	compound	_	start_char=348|end_char=355
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=356|end_char=357
+13	Orientierungs	Orientierungs	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	compound	_	start_char=358|end_char=371
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=371|end_char=372
+15	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	28	nsubj	_	start_char=372|end_char=380
+16	Mehr	mehr	ADV	ADV	_	28	advmod	_	start_char=381|end_char=385
+17	zu	zu	ADP	APPR	_	19	case	_	start_char=386|end_char=388
+18	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	19	det	_	start_char=389|end_char=392
+19	Anzeichen	Anzeichen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	15	nmod	_	start_char=393|end_char=402
+20	,	,	PUNCT	$,	_	22	punct	_	start_char=402|end_char=403
+21	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=404|end_char=407
+22	Diagnose	Diagnose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	conj	_	start_char=408|end_char=416
+23	und	und	CCONJ	KON	_	25	cc	_	start_char=417|end_char=420
+24	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=421|end_char=424
+25	Therapie	Therapie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	conj	_	start_char=425|end_char=433
+26	von	von	ADP	APPR	_	27	case	_	start_char=434|end_char=437
+27	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	start_char=438|end_char=447
+28	lesen	lesen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=448|end_char=453
+29	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	28	nsubj	_	start_char=454|end_char=457
+30	hier	hier	ADV	ADV	_	28	advmod	_	start_char=458|end_char=462
+31	.	.	PUNCT	$.	_	3	punct	_	start_char=462|end_char=463
+
+# text = Unsere Inhalte sind von Apothekern und Ärzten geprüft.
+# sent_id = 8
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=465|end_char=471
+2	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=472|end_char=479
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=480|end_char=484
+4	von	von	ADP	APPR	_	5	case	_	start_char=485|end_char=488
+5	Apothekern	Apotheker	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	nmod	_	start_char=489|end_char=499
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=500|end_char=503
+7	Ärzten	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	start_char=504|end_char=510
+8	geprüft	prüfen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=511|end_char=518
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=518|end_char=519
+
+# text = Von Dr. med. Carolin Collin (Redaktion), Aktualisiert am 28.
+# sent_id = 9
+1	Von	von	ADP	APPR	_	3	case	_	start_char=521|end_char=524
+2	Dr.	Dr.	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	compound	_	start_char=525|end_char=528
+3	med.	med.	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	0	root	_	start_char=529|end_char=533
+4	Carolin	Carolin	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	3	flat	_	start_char=534|end_char=541
+5	Collin	Collin	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	2	flat	_	start_char=542|end_char=548
+6	(	(	PUNCT	$(	_	7	punct	_	start_char=549|end_char=550
+7	Redaktion	Redaktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	appos	_	start_char=550|end_char=559
+8	)	)	PUNCT	$(	_	7	punct	_	start_char=559|end_char=560
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=560|end_char=561
+10	Aktualisiert	aktualisieren	VERB	VVPP	VerbForm=Part	3	acl	_	start_char=562|end_char=574
+11-12	am	_	_	_	_	_	_	_	start_char=575|end_char=577
+11	an	an	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+13	28	28	NUM	CARD	NumType=Card	10	obl	_	start_char=578|end_char=580
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=580|end_char=581
+
+# text = Mai 2020.
+# sent_id = 10
+1	Mai	Mai	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=582|end_char=585
+2	2020	2020	NUM	CARD	NumType=Card	1	nmod	_	start_char=586|end_char=590
+3	.	.	PUNCT	$.	_	1	punct	_	start_char=590|end_char=591
+
+# text = Was ist Morbus Alzheimer?
+# sent_id = 11
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=593|end_char=596
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=597|end_char=600
+3	Morbus	Morbus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=601|end_char=607
+4	Alzheimer	Alzheimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	start_char=608|end_char=617
+5	?	?	PUNCT	$.	_	3	punct	_	start_char=617|end_char=618
+
+# text = Was sind die Ursachen von Morbus Alzheimer?
+# sent_id = 12
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obj	_	start_char=619|end_char=622
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=623|end_char=627
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=628|end_char=631
+4	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=632|end_char=640
+5	von	von	ADP	APPR	_	6	case	_	start_char=641|end_char=644
+6	Morbus	Morbus	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=645|end_char=651
+7	Alzheimer	Alzheimer	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	6	flat	_	start_char=652|end_char=661
+8	?	?	PUNCT	$.	_	2	punct	_	start_char=661|end_char=662
+
+# text = Was sind die Anzeichen von Morbus Alzheimer?
+# sent_id = 13
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obj	_	start_char=663|end_char=666
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=667|end_char=671
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=672|end_char=675
+4	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	start_char=676|end_char=685
+5	von	von	ADP	APPR	_	6	case	_	start_char=686|end_char=689
+6	Morbus	Morbus	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=690|end_char=696
+7	Alzheimer	Alzheimer	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	6	flat	_	start_char=697|end_char=706
+8	?	?	PUNCT	$.	_	2	punct	_	start_char=706|end_char=707
+
+# text = Wie wird Morbus Alzheimer festgestellt?
+# sent_id = 14
+1	Wie	wie	ADV	PWAV	PronType=Int	5	advmod	_	start_char=708|end_char=711
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	start_char=712|end_char=716
+3	Morbus	Morbus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	start_char=717|end_char=723
+4	Alzheimer	Alzheimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	start_char=724|end_char=733
+5	festgestellt	feststellen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=734|end_char=746
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=746|end_char=747
+
+# text = Wie kann man Morbus Alzheimer behandeln?
+# sent_id = 15
+1	Wie	wie	ADV	PWAV	PronType=Int	6	advmod	_	start_char=748|end_char=751
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=752|end_char=756
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=757|end_char=760
+4	Morbus	Morbus	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=761|end_char=767
+5	Alzheimer	Alzheimer	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=768|end_char=777
+6	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=778|end_char=787
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=787|end_char=788
+
+# text = Wie kann man eine Erkrankung an Morbus Alzheimer vermeiden?
+# sent_id = 16
+1	Wie	wie	ADV	PWAV	PronType=Int	9	advmod	_	start_char=789|end_char=792
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=793|end_char=797
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=798|end_char=801
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=802|end_char=806
+5	Erkrankung	Erkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=807|end_char=817
+6	an	an	ADP	APPR	_	7	case	_	start_char=818|end_char=820
+7	Morbus	Morbus	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	start_char=821|end_char=827
+8	Alzheimer	Alzheimer	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	7	flat	_	start_char=828|end_char=837
+9	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=838|end_char=847
+10	?	?	PUNCT	$.	_	9	punct	_	start_char=847|end_char=848
+
+# text = Wer kann Sie beraten?
+# sent_id = 17
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	4	obj	_	start_char=849|end_char=852
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=853|end_char=857
+3	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=858|end_char=861
+4	beraten	beraten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=862|end_char=869
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=869|end_char=870
+
+# text = Was ist Morbus Alzheimer?
+# sent_id = 18
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=872|end_char=875
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=876|end_char=879
+3	Morbus	Morbus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=880|end_char=886
+4	Alzheimer	Alzheimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	start_char=887|end_char=896
+5	?	?	PUNCT	$.	_	3	punct	_	start_char=896|end_char=897
+
+# text = Die Alzheimer-Krankheit ist die häufigste Ursache für Demenz.
+# sent_id = 19
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=899|end_char=902
+2	Alzheimer	Alzheimer	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=903|end_char=912
+3	-	-	PUNCT	$(	_	4	punct	_	start_char=912|end_char=913
+4	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	start_char=913|end_char=922
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=923|end_char=926
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=927|end_char=930
+7	häufigste	häufig	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	8	amod	_	start_char=931|end_char=940
+8	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=941|end_char=948
+9	für	für	ADP	APPR	_	10	case	_	start_char=949|end_char=952
+10	Demenz	Demenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	start_char=953|end_char=959
+11	.	.	PUNCT	$.	_	8	punct	_	start_char=959|end_char=960
+
+# text = Bei der Alzheimer-Krankheit stirbt das Gehirn ab.
+# sent_id = 20
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=961|end_char=964
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=965|end_char=968
+3	Alzheimer	Alzheimer	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=969|end_char=978
+4	-	-	PUNCT	$(	_	5	punct	_	start_char=978|end_char=979
+5	Krankheit	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	flat	_	start_char=979|end_char=988
+6	stirbt	sterben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=989|end_char=995
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=996|end_char=999
+8	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=1000|end_char=1006
+9	ab	ab	ADP	PTKVZ	_	6	compound:prt	_	start_char=1007|end_char=1009
+10	.	.	PUNCT	$.	_	6	punct	_	start_char=1009|end_char=1010
+
+# text = Deshalb werden immer mehr geistige Fähigkeiten verloren.
+# sent_id = 21
+1	Deshalb	deshalb	ADV	PAV	_	7	advmod	_	start_char=1011|end_char=1018
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	aux:pass	_	start_char=1019|end_char=1025
+3	immer	immer	ADV	ADV	_	4	advmod	_	start_char=1026|end_char=1031
+4	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	6	det	_	start_char=1032|end_char=1036
+5	geistige	geistig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=1037|end_char=1045
+6	Fähigkeiten	Fähigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj:pass	_	start_char=1046|end_char=1057
+7	verloren	verlieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1058|end_char=1066
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1066|end_char=1067
+
+# text = Betroffene Personen vergessen zum Beispiel immer mehr.
+# sent_id = 22
+1	Betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=1068|end_char=1078
+2	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=1079|end_char=1087
+3	vergessen	vergessen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1088|end_char=1097
+4-5	zum	_	_	_	_	_	_	_	start_char=1098|end_char=1101
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=1102|end_char=1110
+7	immer	immer	ADV	ADV	_	8	advmod	_	start_char=1111|end_char=1116
+8	mehr	mehr	ADV	ADV	_	3	advmod	_	start_char=1117|end_char=1121
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=1121|end_char=1122
+
+# text = Sie können sich nicht mehr gut orientieren.
+# sent_id = 23
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=1123|end_char=1126
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1127|end_char=1133
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=1134|end_char=1138
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=1139|end_char=1144
+5	mehr	mehr	ADV	ADV	_	4	advmod	_	start_char=1145|end_char=1149
+6	gut	gut	ADV	ADJD	_	7	advmod	_	start_char=1150|end_char=1153
+7	orientieren	orientieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1154|end_char=1165
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1165|end_char=1166
+
+# text = Sie verstehen andere Menschen nicht mehr gut.
+# sent_id = 24
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1167|end_char=1170
+2	verstehen	verstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1171|end_char=1180
+3	andere	anderer	DET	ADJA	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	start_char=1181|end_char=1187
+4	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=1188|end_char=1196
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=1197|end_char=1202
+6	mehr	mehr	ADV	ADV	_	2	advmod	_	start_char=1203|end_char=1207
+7	gut	gut	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=1208|end_char=1211
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=1211|end_char=1212
+
+# text = Und ihre Persönlichkeit verändert sich.
+# sent_id = 25
+1	Und	und	CCONJ	KON	_	4	cc	_	start_char=1213|end_char=1216
+2	ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	start_char=1217|end_char=1221
+3	Persönlichkeit	Persönlichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1222|end_char=1236
+4	verändert	verändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1237|end_char=1246
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=1247|end_char=1251
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=1251|end_char=1252
+
+# text = Im Gehirn von betroffenen Personen lagern sich bestimmte Eiweiße ab.
+# sent_id = 26
+1-2	Im	_	_	_	_	_	_	_	start_char=1253|end_char=1255
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=1256|end_char=1262
+4	von	von	ADP	APPR	_	6	case	_	start_char=1263|end_char=1266
+5	betroffenen	betroffen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=1267|end_char=1278
+6	Personen	Person	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	start_char=1279|end_char=1287
+7	lagern	lagern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1288|end_char=1294
+8	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=1295|end_char=1299
+9	bestimmte	bestimmt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=1300|end_char=1309
+10	Eiweiße	Eiweiß	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	start_char=1310|end_char=1317
+11	ab	ab	ADP	PTKVZ	_	7	compound:prt	_	start_char=1318|end_char=1320
+12	.	.	PUNCT	$.	_	7	punct	_	start_char=1320|end_char=1321
+
+# text = Diese Eiweiße heißen: Beta-Amyloid und Tau-Protein.
+# sent_id = 27
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=1322|end_char=1327
+2	Eiweiße	Eiweiß	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=1328|end_char=1335
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1336|end_char=1342
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=1342|end_char=1343
+5	Beta	Beta	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	xcomp	_	start_char=1344|end_char=1348
+6	-	-	PUNCT	$(	_	7	punct	_	start_char=1348|end_char=1349
+7	Amyloid	Amyloid	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	flat	_	start_char=1349|end_char=1356
+8	und	und	CCONJ	KON	_	11	cc	_	start_char=1357|end_char=1360
+9	Tau	Tau	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	compound	_	start_char=1361|end_char=1364
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=1364|end_char=1365
+11	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	start_char=1365|end_char=1372
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=1372|end_char=1373
+
+# text = Außerdem reagiert das Immun-System im Gehirn falsch.
+# sent_id = 28
+1	Außerdem	außerdem	ADV	PAV	_	2	advmod	_	start_char=1374|end_char=1382
+2	reagiert	reagieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1383|end_char=1391
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=1392|end_char=1395
+4	Immun	Immun	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	compound	_	start_char=1396|end_char=1401
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1401|end_char=1402
+6	System	System	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=1402|end_char=1408
+7-8	im	_	_	_	_	_	_	_	start_char=1409|end_char=1411
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=1412|end_char=1418
+10	falsch	falsch	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=1419|end_char=1425
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=1425|end_char=1426
+
+# text = Deshalb sterben Nerven-Zellen im Gehirn ab.
+# sent_id = 29
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=1427|end_char=1434
+2	sterben	sterben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1435|end_char=1442
+3	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	compound	_	start_char=1443|end_char=1449
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=1449|end_char=1450
+5	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1450|end_char=1456
+6-7	im	_	_	_	_	_	_	_	start_char=1457|end_char=1459
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=1460|end_char=1466
+9	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=1467|end_char=1469
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=1469|end_char=1470
+
+# text = Die Forscher wissen noch nicht genau:
+# sent_id = 30
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1471|end_char=1474
+2	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1475|end_char=1483
+3	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1484|end_char=1490
+4	noch	noch	ADV	ADV	_	5	advmod	_	start_char=1491|end_char=1495
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=1496|end_char=1501
+6	genau	genau	ADV	ADJD	_	3	advmod	_	start_char=1502|end_char=1507
+7	:	:	PUNCT	$.	_	3	punct	_	start_char=1507|end_char=1508
+
+# text = Was verursacht die Veränderung der Eiweiße im Gehirn?
+# sent_id = 31
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	nsubj	_	start_char=1509|end_char=1512
+2	verursacht	verursachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1513|end_char=1523
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1524|end_char=1527
+4	Veränderung	Veränderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	start_char=1528|end_char=1539
+5	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=1540|end_char=1543
+6	Eiweiße	Eiweiß	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=1544|end_char=1551
+7-8	im	_	_	_	_	_	_	_	start_char=1552|end_char=1554
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=1555|end_char=1561
+10	?	?	PUNCT	$.	_	2	punct	_	start_char=1561|end_char=1562
+
+# text = Alzheimer ist eine Krankheit.
+# sent_id = 32
+1	Alzheimer	Alzheimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1564|end_char=1573
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1574|end_char=1577
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1578|end_char=1582
+4	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1583|end_char=1592
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=1592|end_char=1593
+
+# text = Bei Alzheimer werden Nerven-Zellen im Gehirn abgestorben.
+# sent_id = 33
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=1594|end_char=1597
+2	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=1598|end_char=1607
+3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=1608|end_char=1614
+4	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	compound	_	start_char=1615|end_char=1621
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1621|end_char=1622
+6	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj:pass	_	start_char=1622|end_char=1628
+7-8	im	_	_	_	_	_	_	_	start_char=1629|end_char=1631
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=1632|end_char=1638
+10	abgestorben	absterben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1639|end_char=1650
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1650|end_char=1651
+
+# text = Das Gehirn kann dann nicht mehr richtig arbeiten.
+# sent_id = 34
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1652|end_char=1655
+2	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=1656|end_char=1662
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1663|end_char=1667
+4	dann	dann	ADV	ADV	_	8	advmod	_	start_char=1668|end_char=1672
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=1673|end_char=1678
+6	mehr	mehr	ADV	ADV	_	5	advmod	_	start_char=1679|end_char=1683
+7	richtig	richtig	ADV	ADJD	_	8	advmod	_	start_char=1684|end_char=1691
+8	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1692|end_char=1700
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=1700|end_char=1701
+
+# text = Die häufigste Form von Demenz ist die Alzheimer-Demenz.
+# sent_id = 35
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=1703|end_char=1706
+2	häufigste	häufig	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	3	amod	_	start_char=1707|end_char=1716
+3	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1717|end_char=1721
+4	von	von	ADP	APPR	_	5	case	_	start_char=1722|end_char=1725
+5	Demenz	Demenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	start_char=1726|end_char=1732
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=1733|end_char=1736
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1737|end_char=1740
+8	Alzheimer	Alzheimer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	start_char=1741|end_char=1750
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=1750|end_char=1751
+10	Demenz	Demenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1751|end_char=1757
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1757|end_char=1758
+
+# text = Alzheimer-Demenz heißt wörtlich übersetzt: Morbus Alzheimer.
+# sent_id = 36
+1	Alzheimer	Alzheimer	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1759|end_char=1768
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=1768|end_char=1769
+3	Demenz	Demenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	start_char=1769|end_char=1775
+4	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1776|end_char=1781
+5	wörtlich	wörtlich	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=1782|end_char=1790
+6	übersetzt	übersetzen	VERB	VVPP	VerbForm=Part	4	xcomp	_	start_char=1791|end_char=1800
+7	:	:	PUNCT	$.	_	8	punct	_	start_char=1800|end_char=1801
+8	Morbus	Morbus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	start_char=1802|end_char=1808
+9	Alzheimer	Alzheimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	start_char=1809|end_char=1818
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=1818|end_char=1819
+
+# text = Bei der Alzheimer-Demenz werden Teile des Gehirns zerstört.
+# sent_id = 37
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=1820|end_char=1823
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=1824|end_char=1827
+3	Alzheimer	Alzheimer	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=1828|end_char=1837
+4	-	-	PUNCT	$(	_	5	punct	_	start_char=1837|end_char=1838
+5	Demenz	Demenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	flat	_	start_char=1838|end_char=1844
+6	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=1845|end_char=1851
+7	Teile	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj:pass	_	start_char=1852|end_char=1857
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=1858|end_char=1861
+9	Gehirns	Gehirn	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=1862|end_char=1869
+10	zerstört	zerstören	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1870|end_char=1878
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1878|end_char=1879
+
+# text = Deshalb kann die betroffene Person sich nicht mehr gut erinnern.
+# sent_id = 38
+1	Deshalb	deshalb	ADV	PAV	_	10	advmod	_	start_char=1880|end_char=1887
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1888|end_char=1892
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1893|end_char=1896
+4	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=1897|end_char=1907
+5	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1908|end_char=1914
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	start_char=1915|end_char=1919
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=1920|end_char=1925
+8	mehr	mehr	ADV	ADV	_	7	advmod	_	start_char=1926|end_char=1930
+9	gut	gut	ADV	ADJD	_	10	advmod	_	start_char=1931|end_char=1934
+10	erinnern	erinnern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1935|end_char=1943
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1943|end_char=1944
+
+# text = Und die betroffene Person kann nicht mehr gut denken.
+# sent_id = 39
+1	Und	und	CCONJ	KON	_	9	cc	_	start_char=1945|end_char=1948
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1949|end_char=1952
+3	betroffene	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=1953|end_char=1963
+4	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=1964|end_char=1970
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1971|end_char=1975
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=1976|end_char=1981
+7	mehr	mehr	ADV	ADV	_	9	advmod	_	start_char=1982|end_char=1986
+8	gut	gut	ADV	ADJD	_	9	advmod	_	start_char=1987|end_char=1990
+9	denken	denken	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1991|end_char=1997
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1997|end_char=1998
+
+# text = Die Alzheimer-Demenz ist eine Krankheit.
+# sent_id = 40
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1999|end_char=2002
+2	Alzheimer	Alzheimer	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	start_char=2003|end_char=2012
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=2012|end_char=2013
+4	Demenz	Demenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=2013|end_char=2019
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=2020|end_char=2023
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=2024|end_char=2028
+7	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2029|end_char=2038
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=2038|end_char=2039
+
+# text = Die Krankheit heißt: Die Erkrankung ist länger als 6 Monate vorhanden.
+# sent_id = 41
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2040|end_char=2043
+2	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2044|end_char=2053
+3	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2054|end_char=2059
+4	:	:	PUNCT	$.	_	8	punct	_	start_char=2059|end_char=2060
+5	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=2061|end_char=2064
+6	Erkrankung	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=2065|end_char=2075
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=2076|end_char=2079
+8	länger	lang	ADJ	ADJD	Degree=Cmp	3	parataxis	_	start_char=2080|end_char=2086
+9	als	als	ADP	KOKOM	_	11	case	_	start_char=2087|end_char=2090
+10	6	6	NUM	CARD	NumType=Card	11	nummod	_	start_char=2091|end_char=2092
+11	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	nmod	_	start_char=2093|end_char=2099
+12	vorhanden	vorhanden	ADJ	ADJD	Degree=Pos	8	conj	_	start_char=2100|end_char=2109
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=2109|end_char=2110
+
+# text = Und die Erkrankung beeinträchtigt das tägliche Leben.
+# sent_id = 42
+1	Und	und	CCONJ	KON	_	4	cc	_	start_char=2111|end_char=2114
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=2115|end_char=2118
+3	Erkrankung	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=2119|end_char=2129
+4	beeinträchtigt	beeinträchtigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2130|end_char=2144
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=2145|end_char=2148
+6	tägliche	täglich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=2149|end_char=2157
+7	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=2158|end_char=2163
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=2163|end_char=2164
+
+# text = In Deutschland leiden etwa 1 Million Menschen an Demenz.
+# sent_id = 43
+1	In	in	ADP	APPR	_	2	case	_	start_char=2166|end_char=2168
+2	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=2169|end_char=2180
+3	leiden	leiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2181|end_char=2187
+4	etwa	etwa	ADV	ADV	_	5	advmod	_	start_char=2188|end_char=2192
+5	1	1	NUM	CARD	NumType=Card	6	nummod	_	start_char=2193|end_char=2194
+6	Million	Million	NUM	NN	Case=Nom|Gender=Fem|NumType=Card|Number=Plur	7	nummod	_	start_char=2195|end_char=2202
+7	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=2203|end_char=2211
+8	an	an	ADP	APPR	_	9	case	_	start_char=2212|end_char=2214
+9	Demenz	Demenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=2215|end_char=2221
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=2221|end_char=2222
+
+# text = Weltweit sind es 47 Millionen Menschen.
+# sent_id = 44
+1	Weltweit	weltweit	ADJ	ADJD	Degree=Pos	6	amod	_	start_char=2223|end_char=2231
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2232|end_char=2236
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=2237|end_char=2239
+4	47	47	NUM	CARD	NumType=Card	5	nummod	_	start_char=2240|end_char=2242
+5	Millionen	Million	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nmod	_	start_char=2243|end_char=2252
+6	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=2253|end_char=2261
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2261|end_char=2262
+
+# text = 2 Drittel der Demenzerkrankten haben Morbus Alzheimer.
+# sent_id = 45
+1	2	2	NUM	CARD	NumType=Card	2	nummod	_	start_char=2263|end_char=2264
+2	Drittel	Drittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=2265|end_char=2272
+3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=2273|end_char=2276
+4	Demenzerkrankten	Demenzerkrankt	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=2277|end_char=2293
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2294|end_char=2299
+6	Morbus	Morbus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	start_char=2300|end_char=2306
+7	Alzheimer	Alzheimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	start_char=2307|end_char=2316
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=2316|end_char=2317
+
+# text = Das sind ungefähr 700.000 Menschen.
+# sent_id = 46
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=2318|end_char=2321
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2322|end_char=2326
+3	ungefähr	ungefähr	ADV	ADV	_	4	advmod	_	start_char=2327|end_char=2335
+4	700.000	700.000	NUM	CARD	NumType=Card	5	nummod	_	start_char=2336|end_char=2343
+5	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=2344|end_char=2352
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2352|end_char=2353
+
+# text = Beide Geschlechter können an Morbus Alzheimer erkranken.
+# sent_id = 47
+1	Beide	beide	DET	PIAT	Case=Nom|Gender=Neut|NumType=Card|Number=Plur|PronType=Tot	2	det	_	start_char=2354|end_char=2359
+2	Geschlechter	Geschlecht	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	start_char=2360|end_char=2372
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=2373|end_char=2379
+4	an	an	ADP	APPR	_	5	case	_	start_char=2380|end_char=2382
+5	Morbus	Morbus	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=2383|end_char=2389
+6	Alzheimer	Alzheimer	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	5	flat	_	start_char=2390|end_char=2399
+7	erkranken	erkranken	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2400|end_char=2409
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=2409|end_char=2410
+
+# text = Aber 70 Prozent der Alzheimer-Erkrankten sind Frauen.
+# sent_id = 48
+1	Aber	aber	CCONJ	KON	_	9	cc	_	start_char=2411|end_char=2415
+2	70	70	NUM	CARD	NumType=Card	3	nummod	_	start_char=2416|end_char=2418
+3	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	start_char=2419|end_char=2426
+4	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=2427|end_char=2430
+5	Alzheimer	Alzheimer	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=2431|end_char=2440
+6	-	-	PUNCT	$(	_	7	punct	_	start_char=2440|end_char=2441
+7	Erkrankten	Erkrankt	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	flat	_	start_char=2441|end_char=2451
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=2452|end_char=2456
+9	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=2457|end_char=2463
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=2463|end_char=2464
+
+# text = Das liegt daran, dass Frauen länger leben als Männer.
+# sent_id = 49
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=2465|end_char=2468
+2	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2469|end_char=2474
+3	daran	daran	ADV	PAV	PronType=Dem	2	advmod	_	start_char=2475|end_char=2480
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=2480|end_char=2481
+5	dass	dass	SCONJ	KOUS	_	8	mark	_	start_char=2482|end_char=2486
+6	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=2487|end_char=2493
+7	länger	lang	ADJ	ADJD	Degree=Cmp	8	advmod	_	start_char=2494|end_char=2500
+8	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=2501|end_char=2506
+9	als	als	ADP	KOKOM	_	10	case	_	start_char=2507|end_char=2510
+10	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	obl	_	start_char=2511|end_char=2517
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=2517|end_char=2518
+
+# text = Experten sagen, das liegt daran, dass die Wahrscheinlichkeit steigt, wenn man älter wird.
+# sent_id = 50
+1	Experten	Experte	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=2519|end_char=2527
+2	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2528|end_char=2533
+3	,	,	PUNCT	$,	_	5	punct	_	start_char=2533|end_char=2534
+4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=2535|end_char=2538
+5	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=2539|end_char=2544
+6	daran	daran	ADV	PAV	PronType=Dem	5	advmod	_	start_char=2545|end_char=2550
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=2550|end_char=2551
+8	dass	dass	SCONJ	KOUS	_	11	mark	_	start_char=2552|end_char=2556
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=2557|end_char=2560
+10	Wahrscheinlichkeit	Wahrscheinlichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=2561|end_char=2579
+11	steigt	steigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=2580|end_char=2586
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=2586|end_char=2587
+13	wenn	wenn	SCONJ	KOUS	_	16	mark	_	start_char=2588|end_char=2592
+14	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	16	nsubj	_	start_char=2593|end_char=2596
+15	älter	alt	ADJ	ADJD	Degree=Cmp	16	xcomp	_	start_char=2597|end_char=2602
+16	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=2603|end_char=2607
+17	.	.	PUNCT	$.	_	2	punct	_	start_char=2607|end_char=2608
+
+# text = Frauen leben im Durchschnitt 6 Jahre länger als Männer.
+# sent_id = 51
+1	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2609|end_char=2615
+2	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2616|end_char=2621
+3-4	im	_	_	_	_	_	_	_	start_char=2622|end_char=2624
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Durchschnitt	Durchschnitt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=2625|end_char=2637
+6	6	6	NUM	CARD	NumType=Card	7	nummod	_	start_char=2638|end_char=2639
+7	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	nmod	_	start_char=2640|end_char=2645
+8	länger	lang	ADJ	ADJD	Degree=Cmp	2	xcomp	_	start_char=2646|end_char=2652
+9	als	als	ADP	KOKOM	_	10	case	_	start_char=2653|end_char=2656
+10	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nmod	_	start_char=2657|end_char=2663
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=2663|end_char=2664
+
+# text = Deshalb leben auch mehr Frauen länger mit Alzheimer.
+# sent_id = 52
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=2665|end_char=2672
+2	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2673|end_char=2678
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=2679|end_char=2683
+4	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	5	det	_	start_char=2684|end_char=2688
+5	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2689|end_char=2695
+6	länger	lang	ADJ	ADJD	Degree=Cmp	2	advmod	_	start_char=2696|end_char=2702
+7	mit	mit	ADP	APPR	_	8	case	_	start_char=2703|end_char=2706
+8	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=2707|end_char=2716
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=2716|end_char=2717
+
+# text = Etwa 1 Prozent der über 65-Jährigen haben Alzheimer.
+# sent_id = 53
+1	Etwa	etwa	ADV	ADV	_	2	advmod	_	start_char=2718|end_char=2722
+2	1	1	NUM	CARD	NumType=Card	3	nummod	_	start_char=2723|end_char=2724
+3	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	start_char=2725|end_char=2732
+4	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=2733|end_char=2736
+5	über	über	ADV	ADV	_	6	advmod	_	start_char=2737|end_char=2741
+6	65	65	NUM	NN	Case=Acc|Gender=Neut|NumType=Card|Number=Plur	8	nummod	_	start_char=2742|end_char=2744
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2744|end_char=2745
+8	Jährigen	Jährige	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	start_char=2745|end_char=2753
+9	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2754|end_char=2759
+10	Alzheimer	Alzheimer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	start_char=2760|end_char=2769
+11	.	.	PUNCT	$.	_	9	punct	_	start_char=2769|end_char=2770
+
+# text = Bei den über 80-Jährigen sind es etwa 15 Prozent.
+# sent_id = 54
+1	Bei	bei	ADP	APPR	_	6	case	_	start_char=2771|end_char=2774
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=2775|end_char=2778
+3	über	über	ADV	ADV	_	4	advmod	_	start_char=2779|end_char=2783
+4	80	80	NUM	NN	Case=Dat|Gender=Neut|NumType=Card|Number=Plur	6	nummod	_	start_char=2784|end_char=2786
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=2786|end_char=2787
+6	Jährigen	Jährige	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	nmod	_	start_char=2787|end_char=2795
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=2796|end_char=2800
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=2801|end_char=2803
+9	etwa	etwa	ADV	ADV	_	10	advmod	_	start_char=2804|end_char=2808
+10	15	15	NUM	CARD	NumType=Card	11	nummod	_	start_char=2809|end_char=2811
+11	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=2812|end_char=2819
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=2819|end_char=2820
+
+# text = Bei den über 90-Jährigen ist es fast jeder Dritte.
+# sent_id = 55
+1	Bei	bei	ADP	APPR	_	6	case	_	start_char=2821|end_char=2824
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=2825|end_char=2828
+3	über	über	ADV	ADV	_	4	advmod	_	start_char=2829|end_char=2833
+4	90	90	NUM	NN	Case=Dat|Gender=Neut|NumType=Card|Number=Plur	6	nummod	_	start_char=2834|end_char=2836
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=2836|end_char=2837
+6	Jährigen	Jährige	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	start_char=2837|end_char=2845
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=2846|end_char=2849
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=2850|end_char=2852
+9	fast	fast	ADV	ADV	_	10	advmod	_	start_char=2853|end_char=2857
+10	jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	11	det	_	start_char=2858|end_char=2863
+11	Dritte	dritt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=2864|end_char=2870
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=2870|end_char=2871
+
+# text = In den neuesten Studien gibt es Hinweise:
+# sent_id = 56
+1	In	in	ADP	APPR	_	4	case	_	start_char=2873|end_char=2875
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=2876|end_char=2879
+3	neuesten	neu	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Fem|Number=Plur	4	amod	_	start_char=2880|end_char=2888
+4	Studien	Studie|Studium	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	start_char=2889|end_char=2896
+5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2897|end_char=2901
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=2902|end_char=2904
+7	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	start_char=2905|end_char=2913
+8	:	:	PUNCT	$.	_	5	punct	_	start_char=2913|end_char=2914
+
+# text = Die Zahl der Demenzkranken ist in den letzten Jahren weltweit gesunken.
+# sent_id = 57
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2915|end_char=2918
+2	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=2919|end_char=2923
+3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=2924|end_char=2927
+4	Demenzkranken	Demenzkranken	NOUN	NN	Case=Gen|Number=Plur	2	nmod	_	start_char=2928|end_char=2941
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=2942|end_char=2945
+6	in	in	ADP	APPR	_	9	case	_	start_char=2946|end_char=2948
+7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=2949|end_char=2952
+8	letzten	letzt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	start_char=2953|end_char=2960
+9	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	start_char=2961|end_char=2967
+10	weltweit	weltweit	ADV	ADJD	_	11	advmod	_	start_char=2968|end_char=2976
+11	gesunken	sinken	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2977|end_char=2985
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=2985|end_char=2986
+
+# text = Auch in Deutschland ist die Zahl der Demenzkranken gesunken.
+# sent_id = 58
+1	Auch	auch	ADV	ADV	_	3	advmod	_	start_char=2987|end_char=2991
+2	in	in	ADP	APPR	_	3	case	_	start_char=2992|end_char=2994
+3	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	start_char=2995|end_char=3006
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=3007|end_char=3010
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3011|end_char=3014
+6	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=3015|end_char=3019
+7	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=3020|end_char=3023
+8	Demenzkranken	Demenzkranken	NOUN	NN	Case=Gen|Number=Plur	6	nmod	_	start_char=3024|end_char=3037
+9	gesunken	sinken	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=3038|end_char=3046
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3046|end_char=3047
+
+# text = Aber die Lebens-Erwartung steigt.
+# sent_id = 59
+1	Aber	aber	CCONJ	KON	_	6	cc	_	start_char=3048|end_char=3052
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=3053|end_char=3056
+3	Lebens	Leben	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	start_char=3057|end_char=3063
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=3063|end_char=3064
+5	Erwartung	Erwartung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=3064|end_char=3073
+6	steigt	steigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3074|end_char=3080
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=3080|end_char=3081
+
+# text = Deshalb wird die Zahl der Demenzkranken wahrscheinlich weiter steigen.
+# sent_id = 60
+1	Deshalb	deshalb	ADV	PAV	_	9	advmod	_	start_char=3082|end_char=3089
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	aux	_	start_char=3090|end_char=3094
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=3095|end_char=3098
+4	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=3099|end_char=3103
+5	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=3104|end_char=3107
+6	Demenzkranken	Demenzkranken	NOUN	NN	Case=Gen|Number=Plur	4	nmod	_	start_char=3108|end_char=3121
+7	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	9	advmod	_	start_char=3122|end_char=3136
+8	weiter	weit	ADJ	ADV	Degree=Cmp	9	advmod	_	start_char=3137|end_char=3143
+9	steigen	steigen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3144|end_char=3151
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3151|end_char=3152
+
+# text = Was ist die Geschichte der Alzheimer-Krankheit?
+# sent_id = 61
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=3154|end_char=3157
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3158|end_char=3161
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=3162|end_char=3165
+4	Geschichte	Geschichte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=3166|end_char=3176
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3177|end_char=3180
+6	Alzheimer	Alzheimer	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=3181|end_char=3190
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=3190|end_char=3191
+8	Krankheit	Krankheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	flat	_	start_char=3191|end_char=3200
+9	?	?	PUNCT	$.	_	4	punct	_	start_char=3200|end_char=3201
+
+# text = Die Alzheimer-Krankheit wurde Anfang des 20.
+# sent_id = 62
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=3203|end_char=3206
+2	Alzheimer	Alzheimer	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=3207|end_char=3216
+3	-	-	PUNCT	$(	_	4	punct	_	start_char=3216|end_char=3217
+4	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	start_char=3217|end_char=3226
+5	wurde	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=3227|end_char=3232
+6	Anfang	Anfang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	start_char=3233|end_char=3239
+7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=3240|end_char=3243
+8	20	20	NUM	CARD	NumType=Card	6	dep	_	start_char=3244|end_char=3246
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=3246|end_char=3247
+
+# text = Jahr-Hunderts entdeckt.
+# sent_id = 63
+1	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	compound	_	start_char=3248|end_char=3252
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=3252|end_char=3253
+3	Hunderts	Hundert	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	dep	_	start_char=3253|end_char=3261
+4	entdeckt	entdecken	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3262|end_char=3270
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=3270|end_char=3271
+
+# text = Alois Alzheimer war ein bayerischer Nerven-Arzt.
+# sent_id = 64
+1	Alois	Alois	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=3272|end_char=3277
+2	Alzheimer	Alzheimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=3278|end_char=3287
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=3288|end_char=3291
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=3292|end_char=3295
+5	bayerischer	bayerisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=3296|end_char=3307
+6	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	start_char=3308|end_char=3314
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=3314|end_char=3315
+8	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=3315|end_char=3319
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=3319|end_char=3320
+
+# text = Er lebte von 1864 bis 1915.
+# sent_id = 65
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=3321|end_char=3323
+2	lebte	leben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3324|end_char=3329
+3	von	von	ADP	APPR	_	4	case	_	start_char=3330|end_char=3333
+4	1864	1864	NUM	CARD	NumType=Card	2	obl	_	start_char=3334|end_char=3338
+5	bis	bis	ADP	APPR	_	6	case	_	start_char=3339|end_char=3342
+6	1915	1915	NUM	CARD	NumType=Card	2	obl	_	start_char=3343|end_char=3347
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=3347|end_char=3348
+
+# text = Alois Alzheimer hat Patienten mit dieser Krankheit untersucht.
+# sent_id = 66
+1	Alois	Alois	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=3349|end_char=3354
+2	Alzheimer	Alzheimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=3355|end_char=3364
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=3365|end_char=3368
+4	Patienten	Patient	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	start_char=3369|end_char=3378
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=3379|end_char=3382
+6	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=3383|end_char=3389
+7	Krankheit	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=3390|end_char=3399
+8	untersucht	untersuchen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3400|end_char=3410
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=3410|end_char=3411
+
+# text = Die Patienten hatten auffälliges Verhalten und Probleme im Denken.
+# sent_id = 67
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=3412|end_char=3415
+2	Patienten	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3416|end_char=3425
+3	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3426|end_char=3432
+4	auffälliges	auffällig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=3433|end_char=3444
+5	Verhalten	Verhalten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=3445|end_char=3454
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=3455|end_char=3458
+7	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	conj	_	start_char=3459|end_char=3467
+8-9	im	_	_	_	_	_	_	_	start_char=3468|end_char=3470
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Denken	Denken	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=3471|end_char=3477
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=3477|end_char=3478
+
+# text = Alois Alzheimer hat die Gehirne der Patienten nach dem Tod untersucht.
+# sent_id = 68
+1	Alois	Alois	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=3479|end_char=3484
+2	Alzheimer	Alzheimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=3485|end_char=3494
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=3495|end_char=3498
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=3499|end_char=3502
+5	Gehirne	Gehirn	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	start_char=3503|end_char=3510
+6	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=3511|end_char=3514
+7	Patienten	Patient	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=3515|end_char=3524
+8	nach	nach	ADP	APPR	_	10	case	_	start_char=3525|end_char=3529
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=3530|end_char=3533
+10	Tod	Tod	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=3534|end_char=3537
+11	untersucht	untersuchen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3538|end_char=3548
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=3548|end_char=3549
+
+# text = Und er hat die Gehirne mit den Untersuchungen der Patienten verglichen.
+# sent_id = 69
+1	Und	und	CCONJ	KON	_	11	cc	_	start_char=3550|end_char=3553
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=3554|end_char=3556
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=3557|end_char=3560
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=3561|end_char=3564
+5	Gehirne	Gehirn	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=3565|end_char=3572
+6	mit	mit	ADP	APPR	_	8	case	_	start_char=3573|end_char=3576
+7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=3577|end_char=3580
+8	Untersuchungen	Untersuchung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	start_char=3581|end_char=3595
+9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=3596|end_char=3599
+10	Patienten	Patient	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=3600|end_char=3609
+11	verglichen	vergleichen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3610|end_char=3620
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=3620|end_char=3621
+
+# text = Er hat festgestellt:
+# sent_id = 70
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=3622|end_char=3624
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=3625|end_char=3628
+3	festgestellt	feststellen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3629|end_char=3641
+4	:	:	PUNCT	$.	_	3	punct	_	start_char=3641|end_char=3642
+
+# text = Diese Gehirne sind anders als die von gesunden Menschen.
+# sent_id = 71
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	start_char=3643|end_char=3648
+2	Gehirne	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=3649|end_char=3656
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3657|end_char=3661
+4	anders	anders	ADV	ADV	_	0	root	_	start_char=3662|end_char=3668
+5	als	als	ADP	KOKOM	_	6	case	_	start_char=3669|end_char=3672
+6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	4	nmod	_	start_char=3673|end_char=3676
+7	von	von	ADP	APPR	_	9	case	_	start_char=3677|end_char=3680
+8	gesunden	gesund	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=3681|end_char=3689
+9	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	start_char=3690|end_char=3698
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=3698|end_char=3699
+
+# text = Er hat seine Ergebnisse 1906 veröffentlicht.
+# sent_id = 72
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=3700|end_char=3702
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=3703|end_char=3706
+3	seine	sein	DET	PPOSAT	Case=Acc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=3707|end_char=3712
+4	Ergebnisse	Ergebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=3713|end_char=3723
+5	1906	1906	NUM	CARD	NumType=Card	6	obl	_	start_char=3724|end_char=3728
+6	veröffentlicht	veröffentlichen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3729|end_char=3743
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=3743|end_char=3744
+
+# text = Das war eine wichtige Arbeit für die Wissen-Schaft.
+# sent_id = 73
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=3745|end_char=3748
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=3749|end_char=3752
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=3753|end_char=3757
+4	wichtige	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=3758|end_char=3766
+5	Arbeit	Arbeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=3767|end_char=3773
+6	für	für	ADP	APPR	_	10	case	_	start_char=3774|end_char=3777
+7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=3778|end_char=3781
+8	Wissen	Wissen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	compound	_	start_char=3782|end_char=3788
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=3788|end_char=3789
+10	Schaft	Schaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=3789|end_char=3795
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=3795|end_char=3796
+
+# text = Die Arbeit von Alois Alzheimer wurde erst später weltweit bekannt.
+# sent_id = 74
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=3797|end_char=3800
+2	Arbeit	Arbeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=3801|end_char=3807
+3	von	von	ADP	APPR	_	4	case	_	start_char=3808|end_char=3811
+4	Alois	Alois	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	start_char=3812|end_char=3817
+5	Alzheimer	Alzheimer	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	4	flat	_	start_char=3818|end_char=3827
+6	wurde	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=3828|end_char=3833
+7	erst	erst	ADV	ADV	_	8	advmod	_	start_char=3834|end_char=3838
+8	später	spät	ADJ	ADJD	Degree=Cmp	10	advmod	_	start_char=3839|end_char=3845
+9	weltweit	weltweit	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=3846|end_char=3854
+10	bekannt	bekennen	ADJ	ADJD	Degree=Pos	6	xcomp	_	start_char=3855|end_char=3862
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=3862|end_char=3863
+
+# text = Die Ursachen von Morbus Alzheimer sind noch nicht vollständig bekannt.
+# sent_id = 75
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=3865|end_char=3868
+2	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=3869|end_char=3877
+3	von	von	ADP	APPR	_	4	case	_	start_char=3878|end_char=3881
+4	Morbus	Morbus	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	start_char=3882|end_char=3888
+5	Alzheimer	Alzheimer	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	4	flat	_	start_char=3889|end_char=3898
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=3899|end_char=3903
+7	noch	noch	ADV	ADV	_	8	advmod	_	start_char=3904|end_char=3908
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=3909|end_char=3914
+9	vollständig	vollständig	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=3915|end_char=3926
+10	bekannt	bekennen	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3927|end_char=3934
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=3934|end_char=3935
+
+# text = Forscher vermuten aber, dass verschiedene Faktoren bei der Entstehung von Alzheimer beteiligt sind.
+# sent_id = 76
+1	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=3936|end_char=3944
+2	vermuten	vermuten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3945|end_char=3953
+3	aber	aber	ADV	ADV	_	2	advmod	_	start_char=3954|end_char=3958
+4	,	,	PUNCT	$,	_	13	punct	_	start_char=3958|end_char=3959
+5	dass	dass	SCONJ	KOUS	_	13	mark	_	start_char=3960|end_char=3964
+6	verschiedene	verschieden	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=3965|end_char=3977
+7	Faktoren	Faktor	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=3978|end_char=3986
+8	bei	bei	ADP	APPR	_	10	case	_	start_char=3987|end_char=3990
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=3991|end_char=3994
+10	Entstehung	Entstehung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	start_char=3995|end_char=4005
+11	von	von	ADP	APPR	_	12	case	_	start_char=4006|end_char=4009
+12	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	start_char=4010|end_char=4019
+13	beteiligt	beteiligen	ADJ	VVPP	Degree=Pos|VerbForm=Part	2	ccomp	_	start_char=4020|end_char=4029
+14	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=4030|end_char=4034
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=4034|end_char=4035
+
+# text = Die Ursache der Alzheimer-Krankheit ist noch nicht bekannt.
+# sent_id = 77
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=4037|end_char=4040
+2	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=4041|end_char=4048
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=4049|end_char=4052
+4	Alzheimer	Alzheimer	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	compound	_	start_char=4053|end_char=4062
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=4062|end_char=4063
+6	Krankheit	Krankheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=4063|end_char=4072
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=4073|end_char=4076
+8	noch	noch	ADV	ADV	_	9	advmod	_	start_char=4077|end_char=4081
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=4082|end_char=4087
+10	bekannt	bekennen	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4088|end_char=4095
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=4095|end_char=4096
+
+# text = Bei Alzheimer-Patienten lagern sich Eiweiße im Gehirn ab.
+# sent_id = 78
+1	Bei	bei	ADP	APPR	_	4	case	_	start_char=4097|end_char=4100
+2	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	compound	_	start_char=4101|end_char=4110
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=4110|end_char=4111
+4	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	start_char=4111|end_char=4120
+5	lagern	lagern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4121|end_char=4127
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=4128|end_char=4132
+7	Eiweiße	Eiweiß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=4133|end_char=4140
+8-9	im	_	_	_	_	_	_	_	start_char=4141|end_char=4143
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=4144|end_char=4150
+11	ab	ab	ADP	PTKVZ	_	5	compound:prt	_	start_char=4151|end_char=4153
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=4153|end_char=4154
+
+# text = Diese Eiweiße heißen: Beta-Amyloid und Tau-Protein.
+# sent_id = 79
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=4155|end_char=4160
+2	Eiweiße	Eiweiß	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=4161|end_char=4168
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4169|end_char=4175
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=4175|end_char=4176
+5	Beta	Beta	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	xcomp	_	start_char=4177|end_char=4181
+6	-	-	PUNCT	$(	_	7	punct	_	start_char=4181|end_char=4182
+7	Amyloid	Amyloid	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	flat	_	start_char=4182|end_char=4189
+8	und	und	CCONJ	KON	_	11	cc	_	start_char=4190|end_char=4193
+9	Tau	Tau	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	compound	_	start_char=4194|end_char=4197
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=4197|end_char=4198
+11	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	start_char=4198|end_char=4205
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=4205|end_char=4206
+
+# text = Beta-Amyloid ist ein Eiweißbruchstück.
+# sent_id = 80
+1	Beta	Beta	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=4207|end_char=4211
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=4211|end_char=4212
+3	Amyloid	Amyloid	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	start_char=4212|end_char=4219
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4220|end_char=4223
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=4224|end_char=4227
+6	Eiweißbruchstück	Eiweißbruchstück	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4228|end_char=4244
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4244|end_char=4245
+
+# text = Tau-Protein ist ein Eiweiß.
+# sent_id = 81
+1	Tau	Tau	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=4246|end_char=4249
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=4249|end_char=4250
+3	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	start_char=4250|end_char=4257
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4258|end_char=4261
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=4262|end_char=4265
+6	Eiweiß	Eiweiß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4266|end_char=4272
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4272|end_char=4273
+
+# text = Bei Alzheimer-Patienten lagern sich diese Eiweiße falsch im Gehirn ab.
+# sent_id = 82
+1	Bei	bei	ADP	APPR	_	4	case	_	start_char=4274|end_char=4277
+2	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	compound	_	start_char=4278|end_char=4287
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=4287|end_char=4288
+4	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	start_char=4288|end_char=4297
+5	lagern	lagern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4298|end_char=4304
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=4305|end_char=4309
+7	diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	start_char=4310|end_char=4315
+8	Eiweiße	Eiweiß	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=4316|end_char=4323
+9	falsch	falsch	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=4324|end_char=4330
+10-11	im	_	_	_	_	_	_	_	start_char=4331|end_char=4333
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=4334|end_char=4340
+13	ab	ab	ADP	PTKVZ	_	5	compound:prt	_	start_char=4341|end_char=4343
+14	.	.	PUNCT	$.	_	5	punct	_	start_char=4343|end_char=4344
+
+# text = Deshalb werden die Nerven-Zellen im Gehirn beschädigt.
+# sent_id = 83
+1	Deshalb	deshalb	ADV	PAV	_	10	advmod	_	start_char=4345|end_char=4352
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=4353|end_char=4359
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=4360|end_char=4363
+4	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	compound	_	start_char=4364|end_char=4370
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=4370|end_char=4371
+6	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj:pass	_	start_char=4371|end_char=4377
+7-8	im	_	_	_	_	_	_	_	start_char=4378|end_char=4380
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=4381|end_char=4387
+10	beschädigt	beschädigen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=4388|end_char=4398
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=4398|end_char=4399
+
+# text = Die Boten-Stoffe im Gehirn verändern sich bei Alzheimer-Patienten auch.
+# sent_id = 84
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=4400|end_char=4403
+2	Boten	Bote	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	compound	_	start_char=4404|end_char=4409
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=4409|end_char=4410
+4	Stoffe	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=4410|end_char=4416
+5-6	im	_	_	_	_	_	_	_	start_char=4417|end_char=4419
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=4420|end_char=4426
+8	verändern	verändern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4427|end_char=4436
+9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	start_char=4437|end_char=4441
+10	bei	bei	ADP	APPR	_	13	case	_	start_char=4442|end_char=4445
+11	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	compound	_	start_char=4446|end_char=4455
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=4455|end_char=4456
+13	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	start_char=4456|end_char=4465
+14	auch	auch	ADV	ADV	_	8	advmod	_	start_char=4466|end_char=4470
+15	.	.	PUNCT	$.	_	8	punct	_	start_char=4470|end_char=4471
+
+# text = Botschaften im Gehirn sind zum Beispiel: Glücks-Hormone oder Stresshormone.
+# sent_id = 85
+1	Botschaften	Botschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	start_char=4472|end_char=4483
+2-3	im	_	_	_	_	_	_	_	start_char=4484|end_char=4486
+2	in	in	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	start_char=4487|end_char=4493
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=4494|end_char=4498
+6-7	zum	_	_	_	_	_	_	_	start_char=4499|end_char=4502
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	start_char=4503|end_char=4511
+9	:	:	PUNCT	$.	_	12	punct	_	start_char=4511|end_char=4512
+10	Glücks	Glück	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	compound	_	start_char=4513|end_char=4519
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=4519|end_char=4520
+12	Hormone	Hormone	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=4520|end_char=4527
+13	oder	oder	CCONJ	KON	_	14	cc	_	start_char=4528|end_char=4532
+14	Stresshormone	Stresshormone	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	conj	_	start_char=4533|end_char=4546
+15	.	.	PUNCT	$.	_	12	punct	_	start_char=4546|end_char=4547
+
+# text = Bei Alzheimer-Patienten gibt es auch Entzündungen im Nerven-System.
+# sent_id = 86
+1	Bei	bei	ADP	APPR	_	4	case	_	start_char=4548|end_char=4551
+2	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	compound	_	start_char=4552|end_char=4561
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=4561|end_char=4562
+4	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	start_char=4562|end_char=4571
+5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4572|end_char=4576
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=4577|end_char=4579
+7	auch	auch	ADV	ADV	_	5	advmod	_	start_char=4580|end_char=4584
+8	Entzündungen	Entzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	nsubj	_	start_char=4585|end_char=4597
+9-10	im	_	_	_	_	_	_	_	start_char=4598|end_char=4600
+9	in	in	ADP	APPR	_	13	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+11	Nerven	Nerv|Nerven	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	compound	_	start_char=4601|end_char=4607
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=4607|end_char=4608
+13	System	System	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=4608|end_char=4614
+14	.	.	PUNCT	$.	_	5	punct	_	start_char=4614|end_char=4615
+
+# text = Diese Entzündungen heißen: Neuroinflammation.
+# sent_id = 87
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=4616|end_char=4621
+2	Entzündungen	Entzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=4622|end_char=4634
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4635|end_char=4641
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=4641|end_char=4642
+5	Neuroinflammation	Neuroinflammation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	xcomp	_	start_char=4643|end_char=4660
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=4660|end_char=4661
+
+# text = Forscher glauben: Die Neuroinflammation kann die Alzheimer-Krankheit auslösen.
+# sent_id = 88
+1	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=4662|end_char=4670
+2	glauben	glauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4671|end_char=4678
+3	:	:	PUNCT	$.	_	11	punct	_	start_char=4678|end_char=4679
+4	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=4680|end_char=4683
+5	Neuroinflammation	Neuroinflammation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=4684|end_char=4701
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=4702|end_char=4706
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=4707|end_char=4710
+8	Alzheimer	Alzheimer	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=4711|end_char=4720
+9	-	-	PUNCT	$(	_	10	punct	_	start_char=4720|end_char=4721
+10	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	flat	_	start_char=4721|end_char=4730
+11	auslösen	auslösen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	start_char=4731|end_char=4739
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=4739|end_char=4740
+
+# text = Beta-Amyloid und Tau-Protein.
+# sent_id = 89
+1	Beta	Beta	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4742|end_char=4746
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=4746|end_char=4747
+3	Amyloid	Amyloid	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	start_char=4747|end_char=4754
+4	und	und	CCONJ	KON	_	7	cc	_	start_char=4755|end_char=4758
+5	Tau	Tau	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	compound	_	start_char=4759|end_char=4762
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=4762|end_char=4763
+7	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	start_char=4763|end_char=4770
+8	.	.	PUNCT	$.	_	1	punct	_	start_char=4770|end_char=4771
+
+# text = Experten glauben: Beta-Amyloid ist ein Eiweiß.
+# sent_id = 90
+1	Experten	Experte	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=4773|end_char=4781
+2	glauben	glauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4782|end_char=4789
+3	:	:	PUNCT	$.	_	9	punct	_	start_char=4789|end_char=4790
+4	Beta	Beta	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=4791|end_char=4795
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=4795|end_char=4796
+6	Amyloid	Amyloid	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	flat	_	start_char=4796|end_char=4803
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=4804|end_char=4807
+8	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=4808|end_char=4811
+9	Eiweiß	Eiweiß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	start_char=4812|end_char=4818
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=4818|end_char=4819
+
+# text = Beta-Amyloid entsteht aus einem anderen Eiweiß.
+# sent_id = 91
+1	Beta	Beta	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=4820|end_char=4824
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=4824|end_char=4825
+3	Amyloid	Amyloid	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	start_char=4825|end_char=4832
+4	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4833|end_char=4841
+5	aus	aus	ADP	APPR	_	8	case	_	start_char=4842|end_char=4845
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=4846|end_char=4851
+7	anderen	anderer	DET	ADJA	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	8	det	_	start_char=4852|end_char=4859
+8	Eiweiß	Eiweiß	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=4860|end_char=4866
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=4866|end_char=4867
+
+# text = Das andere Eiweiß ist noch nicht genau erforscht.
+# sent_id = 92
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=4868|end_char=4871
+2	andere	anderer	DET	ADJA	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	3	det	_	start_char=4872|end_char=4878
+3	Eiweiß	Eiweiß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=4879|end_char=4885
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=4886|end_char=4889
+5	noch	noch	ADV	ADV	_	6	advmod	_	start_char=4890|end_char=4894
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=4895|end_char=4900
+7	genau	genau	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=4901|end_char=4906
+8	erforscht	erforschen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=4907|end_char=4916
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=4916|end_char=4917
+
+# text = Beta-Amyloid lagert sich in der grauen Gehirn-Substanz von Alzheimer-Patienten ab.
+# sent_id = 93
+1	Beta	Beta	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=4918|end_char=4922
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=4922|end_char=4923
+3	Amyloid	Amyloid	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	start_char=4923|end_char=4930
+4	lagert	lagern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4931|end_char=4937
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=4938|end_char=4942
+6	in	in	ADP	APPR	_	11	case	_	start_char=4943|end_char=4945
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=4946|end_char=4949
+8	grauen	grau	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=4950|end_char=4956
+9	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	compound	_	start_char=4957|end_char=4963
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=4963|end_char=4964
+11	Substanz	Substanz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=4964|end_char=4972
+12	von	von	ADP	APPR	_	15	case	_	start_char=4973|end_char=4976
+13	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	compound	_	start_char=4977|end_char=4986
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=4986|end_char=4987
+15	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	start_char=4987|end_char=4996
+16	ab	ab	ADP	PTKVZ	_	4	compound:prt	_	start_char=4997|end_char=4999
+17	.	.	PUNCT	$.	_	4	punct	_	start_char=4999|end_char=5000
+
+# text = Dort lagern sich besonders viele Beta-Amyloid-Moleküle ab.
+# sent_id = 94
+1	Dort	dort	ADV	ADV	_	2	advmod	_	start_char=5001|end_char=5005
+2	lagern	lagern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5006|end_char=5012
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=5013|end_char=5017
+4	besonders	besonders	ADV	ADV	_	2	advmod	_	start_char=5018|end_char=5027
+5	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	6	det	_	start_char=5028|end_char=5033
+6	Beta	Beta	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	10	compound	_	start_char=5034|end_char=5038
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=5038|end_char=5039
+8	Amyloid	Amyloid	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	flat	_	start_char=5039|end_char=5046
+9	-	-	PUNCT	$(	_	10	punct	_	start_char=5046|end_char=5047
+10	Moleküle	Molekül	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=5047|end_char=5055
+11	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=5056|end_char=5058
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=5058|end_char=5059
+
+# text = Experten nennen diese Ablagerungen senile Plaques.
+# sent_id = 95
+1	Experten	Experte	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=5060|end_char=5068
+2	nennen	nennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5069|end_char=5075
+3	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=5076|end_char=5081
+4	Ablagerungen	Ablagerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=5082|end_char=5094
+5	senile	senil	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=5095|end_char=5101
+6	Plaques	Plaque	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=5102|end_char=5109
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=5109|end_char=5110
+
+# text = Bei Patienten mit Alzheimer lagern sich bestimmte Stoffe im Gehirn ab.
+# sent_id = 96
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=5112|end_char=5115
+2	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	start_char=5116|end_char=5125
+3	mit	mit	ADP	APPR	_	4	case	_	start_char=5126|end_char=5129
+4	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	start_char=5130|end_char=5139
+5	lagern	lagern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5140|end_char=5146
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=5147|end_char=5151
+7	bestimmte	bestimmt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=5152|end_char=5161
+8	Stoffe	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=5162|end_char=5168
+9-10	im	_	_	_	_	_	_	_	start_char=5169|end_char=5171
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=5172|end_char=5178
+12	ab	ab	ADP	PTKVZ	_	5	compound:prt	_	start_char=5179|end_char=5181
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=5181|end_char=5182
+
+# text = Die betroffenen Stoffe sind zum Beispiel: - Amyloid-Kern - veränderte Nerven-Zellen - weniger Synapsen - veränderte Astrozyten
+# sent_id = 97
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=5183|end_char=5186
+2	betroffenen	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=5187|end_char=5198
+3	Stoffe	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=5199|end_char=5205
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=5206|end_char=5210
+5-6	zum	_	_	_	_	_	_	_	start_char=5211|end_char=5214
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	start_char=5215|end_char=5223
+8	:	:	PUNCT	$.	_	12	punct	_	start_char=5223|end_char=5224
+9	-	-	PUNCT	$(	_	12	punct	_	start_char=5225|end_char=5226
+10	Amyloid	Amyloid	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	compound	_	start_char=5227|end_char=5234
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=5234|end_char=5235
+12	Kern	Kern	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=5235|end_char=5239
+13	-	-	PUNCT	$(	_	17	punct	_	start_char=5240|end_char=5241
+14	veränderte	verändert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=5242|end_char=5252
+15	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	compound	_	start_char=5253|end_char=5259
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=5259|end_char=5260
+17	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	conj	_	start_char=5260|end_char=5266
+18	-	-	PUNCT	$(	_	23	punct	_	start_char=5267|end_char=5268
+19	weniger	wenig	DET	PIAT	PronType=Ind	23	det	_	start_char=5269|end_char=5276
+20	Synapsen	Synapsen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	22	compound	_	start_char=5277|end_char=5285
+21	-	-	PUNCT	$(	_	20	punct	_	start_char=5286|end_char=5287
+22	veränderte	verändert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=5288|end_char=5298
+23	Astrozyten	Astrozyte	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	appos	_	start_char=5299|end_char=5309
+
+# text = Bei vielen Patienten lagert sich das Amyloid auch in der Blut-Gefäß-Wand ab.
+# sent_id = 98
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=5310|end_char=5313
+2	vielen	viel	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=5314|end_char=5320
+3	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	start_char=5321|end_char=5330
+4	lagert	lagern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5331|end_char=5337
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=5338|end_char=5342
+6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=5343|end_char=5346
+7	Amyloid	Amyloid	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=5347|end_char=5354
+8	auch	auch	ADV	ADV	_	4	advmod	_	start_char=5355|end_char=5359
+9	in	in	ADP	APPR	_	15	case	_	start_char=5360|end_char=5362
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=5363|end_char=5366
+11	Blut	Blut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	compound	_	start_char=5367|end_char=5371
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=5371|end_char=5372
+13	Gefäß	Gefäß	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	compound	_	start_char=5372|end_char=5377
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=5377|end_char=5378
+15	Wand	Wand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=5378|end_char=5382
+16	ab	ab	ADP	PTKVZ	_	4	compound:prt	_	start_char=5383|end_char=5385
+17	.	.	PUNCT	$.	_	4	punct	_	start_char=5385|end_char=5386
+
+# text = Das kann die Blut-Gefäße verstopfen.
+# sent_id = 99
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	start_char=5387|end_char=5390
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=5391|end_char=5395
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=5396|end_char=5399
+4	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	compound	_	start_char=5400|end_char=5404
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=5404|end_char=5405
+6	Gefäße	Gefäß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=5405|end_char=5411
+7	verstopfen	verstopfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5412|end_char=5422
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=5422|end_char=5423
+
+# text = Dann bekommt das Gehirn nicht mehr genug Sauerstoff und Energie.
+# sent_id = 100
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5424|end_char=5428
+2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5429|end_char=5436
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=5437|end_char=5440
+4	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=5441|end_char=5447
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=5448|end_char=5453
+6	mehr	mehr	ADV	ADV	_	2	advmod	_	start_char=5454|end_char=5458
+7	genug	genug	ADV	PIAT	PronType=Ind	2	advmod	_	start_char=5459|end_char=5464
+8	Sauerstoff	Sauerstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	start_char=5465|end_char=5475
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=5476|end_char=5479
+10	Energie	Energie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	start_char=5480|end_char=5487
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=5487|end_char=5488
+
+# text = Beta-Amyloid wird im ganzen Körper produziert.
+# sent_id = 101
+1	Beta	Beta	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	start_char=5490|end_char=5494
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=5494|end_char=5495
+3	Amyloid	Amyloid	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	start_char=5495|end_char=5502
+4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	aux:pass	_	start_char=5503|end_char=5507
+5-6	im	_	_	_	_	_	_	_	start_char=5508|end_char=5510
+5	in	in	ADP	APPR	_	8	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	ganzen	ganz	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=5511|end_char=5517
+8	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	start_char=5518|end_char=5524
+9	produziert	produzieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5525|end_char=5535
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=5535|end_char=5536
+
+# text = Beta-Amyloid ist ein Eiweiß.
+# sent_id = 102
+1	Beta	Beta	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=5537|end_char=5541
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=5541|end_char=5542
+3	Amyloid	Amyloid	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	start_char=5542|end_char=5549
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=5550|end_char=5553
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=5554|end_char=5557
+6	Eiweiß	Eiweiß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=5558|end_char=5564
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=5564|end_char=5565
+
+# text = Beta-Amyloid entsteht bei einem normalen Stoff-Wechsel.
+# sent_id = 103
+1	Beta	Beta	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	compound	_	start_char=5566|end_char=5570
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=5570|end_char=5571
+3	Amyloid	Amyloid	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=5571|end_char=5578
+4	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5579|end_char=5587
+5	bei	bei	ADP	APPR	_	10	case	_	start_char=5588|end_char=5591
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=5592|end_char=5597
+7	normalen	normal	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=5598|end_char=5606
+8	Stoff	Stoff	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	compound	_	start_char=5607|end_char=5612
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=5612|end_char=5613
+10	Wechsel	Wechsel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=5613|end_char=5620
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=5620|end_char=5621
+
+# text = Beta-Amyloid kommt vor allem in den Nerven-Zellen vor.
+# sent_id = 104
+1	Beta	Beta	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=5622|end_char=5626
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=5626|end_char=5627
+3	Amyloid	Amyloid	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	start_char=5627|end_char=5634
+4	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5635|end_char=5640
+5	vor	vor	ADP	APPR	_	6	case	_	start_char=5641|end_char=5644
+6	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	4	obl	_	start_char=5645|end_char=5650
+7	in	in	ADP	APPR	_	11	case	_	start_char=5651|end_char=5653
+8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=5654|end_char=5657
+9	Nerven	Nerv|Nerven	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	compound	_	start_char=5658|end_char=5664
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=5664|end_char=5665
+11	Zellen	Zelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=5665|end_char=5671
+12	vor	vor	ADP	PTKVZ	_	4	compound:prt	_	start_char=5672|end_char=5675
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=5675|end_char=5676
+
+# text = Dort lagert sich das Beta-Amyloid ab.
+# sent_id = 105
+1	Dort	dort	ADV	ADV	_	2	advmod	_	start_char=5677|end_char=5681
+2	lagert	lagern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5682|end_char=5688
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=5689|end_char=5693
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=5694|end_char=5697
+5	Beta	Beta	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=5698|end_char=5702
+6	-	-	PUNCT	$(	_	7	punct	_	start_char=5702|end_char=5703
+7	Amyloid	Amyloid	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	flat	_	start_char=5703|end_char=5710
+8	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=5711|end_char=5713
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=5713|end_char=5714
+
+# text = Die Nerven-Zellen brauchen das Beta-Amyloid nicht.
+# sent_id = 106
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=5715|end_char=5718
+2	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	compound	_	start_char=5719|end_char=5725
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=5725|end_char=5726
+4	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=5726|end_char=5732
+5	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5733|end_char=5741
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=5742|end_char=5745
+7	Beta	Beta	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	compound	_	start_char=5746|end_char=5750
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=5750|end_char=5751
+9	Amyloid	Amyloid	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=5751|end_char=5758
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=5759|end_char=5764
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=5764|end_char=5765
+
+# text = Deshalb ist die Anhäufung von Beta-Amyloid nicht schädlich.
+# sent_id = 107
+1	Deshalb	deshalb	ADV	PAV	_	10	advmod	_	start_char=5766|end_char=5773
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=5774|end_char=5777
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=5778|end_char=5781
+4	Anhäufung	Anhäufung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=5782|end_char=5791
+5	von	von	ADP	APPR	_	6	case	_	start_char=5792|end_char=5795
+6	Beta	Beta	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=5796|end_char=5800
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=5800|end_char=5801
+8	Amyloid	Amyloid	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	flat	_	start_char=5801|end_char=5808
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=5809|end_char=5814
+10	schädlich	schädlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5815|end_char=5824
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=5824|end_char=5825
+
+# text = Manchmal lagern sich die Nerven-Zellen mit dem Beta-Amyloid ab.
+# sent_id = 108
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=5826|end_char=5834
+2	lagern	lagern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5835|end_char=5841
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=5842|end_char=5846
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=5847|end_char=5850
+5	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	compound	_	start_char=5851|end_char=5857
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=5857|end_char=5858
+7	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=5858|end_char=5864
+8	mit	mit	ADP	APPR	_	10	case	_	start_char=5865|end_char=5868
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=5869|end_char=5872
+10	Beta	Beta	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=5873|end_char=5877
+11	-	-	PUNCT	$(	_	12	punct	_	start_char=5877|end_char=5878
+12	Amyloid	Amyloid	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	flat	_	start_char=5878|end_char=5885
+13	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=5886|end_char=5888
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=5888|end_char=5889
+
+# text = Dann nennt man das: Amyloidplaque.
+# sent_id = 109
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5890|end_char=5894
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5895|end_char=5900
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=5901|end_char=5904
+4	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=5905|end_char=5908
+5	:	:	PUNCT	$.	_	6	punct	_	start_char=5908|end_char=5909
+6	Amyloidplaque	Amyloidplaque	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	xcomp	_	start_char=5910|end_char=5923
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=5923|end_char=5924
+
+# text = Die Amyloidplaque ist ein Anzeichen für Alzheimer.
+# sent_id = 110
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5925|end_char=5928
+2	Amyloidplaque	Amyloidplaque	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=5929|end_char=5942
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=5943|end_char=5946
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=5947|end_char=5950
+5	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=5951|end_char=5960
+6	für	für	ADP	APPR	_	7	case	_	start_char=5961|end_char=5964
+7	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	start_char=5965|end_char=5974
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=5974|end_char=5975
+
+# text = Aber die Amyloidplaque allein reicht nicht aus, um Alzheimer zu erkennen.
+# sent_id = 111
+1	Aber	aber	CCONJ	KON	_	5	cc	_	start_char=5976|end_char=5980
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=5981|end_char=5984
+3	Amyloidplaque	Amyloidplaque	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=5985|end_char=5998
+4	allein	allein	ADV	ADV	_	3	advmod	_	start_char=5999|end_char=6005
+5	reicht	reichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6006|end_char=6012
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=6013|end_char=6018
+7	aus	aus	ADP	PTKVZ	_	5	compound:prt	_	start_char=6019|end_char=6022
+8	,	,	PUNCT	$,	_	12	punct	_	start_char=6022|end_char=6023
+9	um	um	ADP	KOUI	_	12	mark	_	start_char=6024|end_char=6026
+10	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=6027|end_char=6036
+11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=6037|end_char=6039
+12	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	5	advcl	_	start_char=6040|end_char=6048
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=6048|end_char=6049
+
+# text = Man findet die Amyloidplaque auch bei Menschen ohne Alzheimer.
+# sent_id = 112
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=6050|end_char=6053
+2	findet	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6054|end_char=6060
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=6061|end_char=6064
+4	Amyloidplaque	Amyloidplaque	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=6065|end_char=6078
+5	auch	auch	ADV	ADV	_	2	advmod	_	start_char=6079|end_char=6083
+6	bei	bei	ADP	APPR	_	7	case	_	start_char=6084|end_char=6087
+7	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	start_char=6088|end_char=6096
+8	ohne	ohne	ADP	APPR	_	9	case	_	start_char=6097|end_char=6101
+9	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	start_char=6102|end_char=6111
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=6111|end_char=6112
+
+# text = Die Forscher wissen noch nicht genau: Was verursacht die Amyloidplaque?
+# sent_id = 113
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=6113|end_char=6116
+2	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=6117|end_char=6125
+3	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6126|end_char=6132
+4	noch	noch	ADV	ADV	_	5	advmod	_	start_char=6133|end_char=6137
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=6138|end_char=6143
+6	genau	genau	ADV	ADJD	_	3	advmod	_	start_char=6144|end_char=6149
+7	:	:	PUNCT	$.	_	9	punct	_	start_char=6149|end_char=6150
+8	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	9	obj	_	start_char=6151|end_char=6154
+9	verursacht	verursachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=6155|end_char=6165
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=6166|end_char=6169
+11	Amyloidplaque	Amyloidplaque	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=6170|end_char=6183
+12	?	?	PUNCT	$.	_	9	punct	_	start_char=6183|end_char=6184
+
+# text = Die Forscher vermuten: Die Amyloidplaque verändert sich im Körper.
+# sent_id = 114
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=6185|end_char=6188
+2	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=6189|end_char=6197
+3	vermuten	vermuten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6198|end_char=6206
+4	:	:	PUNCT	$.	_	7	punct	_	start_char=6206|end_char=6207
+5	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=6208|end_char=6211
+6	Amyloidplaque	Amyloidplaque	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=6212|end_char=6225
+7	verändert	verändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=6226|end_char=6235
+8	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=6236|end_char=6240
+9-10	im	_	_	_	_	_	_	_	start_char=6241|end_char=6243
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=6244|end_char=6250
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=6250|end_char=6251
+
+# text = Dann kann die Amyloidplaque schädlich sein.
+# sent_id = 115
+1	Dann	dann	ADV	ADV	_	5	advmod	_	start_char=6252|end_char=6256
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=6257|end_char=6261
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=6262|end_char=6265
+4	Amyloidplaque	Amyloidplaque	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=6266|end_char=6279
+5	schädlich	schädlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=6280|end_char=6289
+6	sein	sein	AUX	VAINF	VerbForm=Inf	5	cop	_	start_char=6290|end_char=6294
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=6294|end_char=6295
+
+# text = Bei Alzheimer stirbt das Nervengewebe im Gehirn ab.
+# sent_id = 116
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=6297|end_char=6300
+2	Alzheimer	Alzheimer	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=6301|end_char=6310
+3	stirbt	sterben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6311|end_char=6317
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=6318|end_char=6321
+5	Nervengewebe	Nervengewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=6322|end_char=6334
+6-7	im	_	_	_	_	_	_	_	start_char=6335|end_char=6337
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=6338|end_char=6344
+9	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	start_char=6345|end_char=6347
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=6347|end_char=6348
+
+# text = Deshalb werden weniger Synapsen gebildet.
+# sent_id = 117
+1	Deshalb	deshalb	ADV	PAV	_	5	advmod	_	start_char=6349|end_char=6356
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	start_char=6357|end_char=6363
+3	weniger	wenig	DET	PIAT	PronType=Ind	4	det	_	start_char=6364|end_char=6371
+4	Synapsen	Synapsen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	start_char=6372|end_char=6380
+5	gebildet	bilden	VERB	VVPP	VerbForm=Part	0	root	_	start_char=6381|end_char=6389
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=6389|end_char=6390
+
+# text = Die Nerven-Zellen sterben ab.
+# sent_id = 118
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=6391|end_char=6394
+2	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	compound	_	start_char=6395|end_char=6401
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=6401|end_char=6402
+4	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=6402|end_char=6408
+5	sterben	sterben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6409|end_char=6416
+6	ab	ab	ADP	PTKVZ	_	5	compound:prt	_	start_char=6417|end_char=6419
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=6419|end_char=6420
+
+# text = Im Gehirn lagern sich Fasern ab.
+# sent_id = 119
+1-2	Im	_	_	_	_	_	_	_	start_char=6421|end_char=6423
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=6424|end_char=6430
+4	lagern	lagern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6431|end_char=6437
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=6438|end_char=6442
+6	Fasern	Faser	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=6443|end_char=6449
+7	ab	ab	ADP	PTKVZ	_	4	compound:prt	_	start_char=6450|end_char=6452
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=6452|end_char=6453
+
+# text = Diese Fasern heißen: Tau-Peptide.
+# sent_id = 120
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=6454|end_char=6459
+2	Fasern	Faser	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=6460|end_char=6466
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6467|end_char=6473
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=6473|end_char=6474
+5	Tau	Tau	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	start_char=6475|end_char=6478
+6	-	-	PUNCT	$(	_	7	punct	_	start_char=6478|end_char=6479
+7	Peptide	Peptide	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	flat	_	start_char=6479|end_char=6486
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=6486|end_char=6487
+
+# text = Tau-Peptide sind Eiweiße.
+# sent_id = 121
+1	Tau	Tau	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=6488|end_char=6491
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=6491|end_char=6492
+3	Peptide	Peptide	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	start_char=6492|end_char=6499
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=6500|end_char=6504
+5	Eiweiße	Eiweiß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=6505|end_char=6512
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=6512|end_char=6513
+
+# text = Tau-Peptide verändern sich und lagern sich im Gehirn ab.
+# sent_id = 122
+1	Tau	Tau	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=6514|end_char=6517
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=6517|end_char=6518
+3	Peptide	Peptide	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	start_char=6518|end_char=6525
+4	verändern	verändern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6526|end_char=6535
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=6536|end_char=6540
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=6541|end_char=6544
+7	lagern	lagern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=6545|end_char=6551
+8	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=6552|end_char=6556
+9-10	im	_	_	_	_	_	_	_	start_char=6557|end_char=6559
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=6560|end_char=6566
+12	ab	ab	ADP	PTKVZ	_	7	compound:prt	_	start_char=6567|end_char=6569
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=6569|end_char=6570
+
+# text = Tau-Peptide bilden Neurofibrillenbündel.
+# sent_id = 123
+1	Tau	Tau	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=6571|end_char=6574
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=6574|end_char=6575
+3	Peptide	Peptide	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	start_char=6575|end_char=6582
+4	bilden	bilden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6583|end_char=6589
+5	Neurofibrillenbündel	Neurofibrillenbündel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=6590|end_char=6610
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=6610|end_char=6611
+
+# text = Tau-Protein ist ein Bestand-Teil der Nerven-Zellen.
+# sent_id = 124
+1	Tau	Tau	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=6613|end_char=6616
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=6616|end_char=6617
+3	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	start_char=6617|end_char=6624
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=6625|end_char=6628
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=6629|end_char=6632
+6	Bestand	Bestand	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	start_char=6633|end_char=6640
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=6640|end_char=6641
+8	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=6641|end_char=6645
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=6646|end_char=6649
+10	Nerven	Nerv|Nerven	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	12	compound	_	start_char=6650|end_char=6656
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=6656|end_char=6657
+12	Zellen	Zelle	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	start_char=6657|end_char=6663
+13	.	.	PUNCT	$.	_	8	punct	_	start_char=6663|end_char=6664
+
+# text = Tau-Protein ist wie ein Tau.
+# sent_id = 125
+1	Tau	Tau	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=6665|end_char=6668
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=6668|end_char=6669
+3	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	start_char=6669|end_char=6676
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=6677|end_char=6680
+5	wie	wie	ADP	KOKOM	_	7	case	_	start_char=6681|end_char=6684
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=6685|end_char=6688
+7	Tau	Tau	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=6689|end_char=6692
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=6692|end_char=6693
+
+# text = Tau-Protein ist normalerweise in den Nerven-Zellen.
+# sent_id = 126
+1	Tau	Tau	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	compound	_	start_char=6694|end_char=6697
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=6697|end_char=6698
+3	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=6698|end_char=6705
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=6706|end_char=6709
+5	normalerweise	normalerweise	ADV	ADV	_	10	advmod	_	start_char=6710|end_char=6723
+6	in	in	ADP	APPR	_	10	case	_	start_char=6724|end_char=6726
+7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=6727|end_char=6730
+8	Nerven	Nerv|Nerven	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	compound	_	start_char=6731|end_char=6737
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=6737|end_char=6738
+10	Zellen	Zelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	0	root	_	start_char=6738|end_char=6744
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=6744|end_char=6745
+
+# text = Bei Alzheimer wird das Tau-Protein mit Phosphat beladen.
+# sent_id = 127
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=6746|end_char=6749
+2	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=6750|end_char=6759
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=6760|end_char=6764
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=6765|end_char=6768
+5	Tau	Tau	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	compound	_	start_char=6769|end_char=6772
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=6772|end_char=6773
+7	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj:pass	_	start_char=6773|end_char=6780
+8	mit	mit	ADP	APPR	_	9	case	_	start_char=6781|end_char=6784
+9	Phosphat	Phosphat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=6785|end_char=6793
+10	beladen	beladen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=6794|end_char=6801
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=6801|end_char=6802
+
+# text = Das Tau-Protein verändert sich.
+# sent_id = 128
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=6803|end_char=6806
+2	Tau	Tau	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	start_char=6807|end_char=6810
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=6810|end_char=6811
+4	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=6811|end_char=6818
+5	verändert	verändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6819|end_char=6828
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=6829|end_char=6833
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=6833|end_char=6834
+
+# text = Es kann die Nerven-Zellen nicht mehr stabilisieren und nicht mehr richtig transportieren.
+# sent_id = 129
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=6835|end_char=6837
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=6838|end_char=6842
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=6843|end_char=6846
+4	Nerven	Nerv|Nerven	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	compound	_	start_char=6847|end_char=6853
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=6853|end_char=6854
+6	Zellen	Zelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	start_char=6854|end_char=6860
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=6861|end_char=6866
+8	mehr	mehr	ADV	ADV	_	9	advmod	_	start_char=6867|end_char=6871
+9	stabilisieren	stabilisieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6872|end_char=6885
+10	und	und	CCONJ	KON	_	14	cc	_	start_char=6886|end_char=6889
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	start_char=6890|end_char=6895
+12	mehr	mehr	ADV	ADV	_	14	advmod	_	start_char=6896|end_char=6900
+13	richtig	richtig	ADV	ADJD	_	14	advmod	_	start_char=6901|end_char=6908
+14	transportieren	transportieren	VERB	VVINF	VerbForm=Inf	9	conj	_	start_char=6909|end_char=6923
+15	.	.	PUNCT	$.	_	9	punct	_	start_char=6923|end_char=6924
+
+# text = Deshalb sterben die Nerven-Zellen ab.
+# sent_id = 130
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=6925|end_char=6932
+2	sterben	sterben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6933|end_char=6940
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=6941|end_char=6944
+4	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	compound	_	start_char=6945|end_char=6951
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=6951|end_char=6952
+6	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=6952|end_char=6958
+7	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=6959|end_char=6961
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=6961|end_char=6962
+
+# text = Das Tau-Protein breitet sich bei Alzheimer aus.
+# sent_id = 131
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=6963|end_char=6966
+2	Tau	Tau	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=6967|end_char=6970
+3	-	-	PUNCT	$(	_	4	punct	_	start_char=6970|end_char=6971
+4	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	flat	_	start_char=6971|end_char=6978
+5	breitet	breiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6979|end_char=6986
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=6987|end_char=6991
+7	bei	bei	ADP	APPR	_	8	case	_	start_char=6992|end_char=6995
+8	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	start_char=6996|end_char=7005
+9	aus	aus	ADP	PTKVZ	_	5	compound:prt	_	start_char=7006|end_char=7009
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=7009|end_char=7010
+
+# text = Das Tau-Protein breitet sich in den Nerven-Zellen aus.
+# sent_id = 132
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=7011|end_char=7014
+2	Tau	Tau	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	start_char=7015|end_char=7018
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=7018|end_char=7019
+4	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=7019|end_char=7026
+5	breitet	breiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7027|end_char=7034
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=7035|end_char=7039
+7	in	in	ADP	APPR	_	11	case	_	start_char=7040|end_char=7042
+8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=7043|end_char=7046
+9	Nerven	Nerv|Nerven	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	compound	_	start_char=7047|end_char=7053
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=7053|end_char=7054
+11	Zellen	Zelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	start_char=7054|end_char=7060
+12	aus	aus	ADP	PTKVZ	_	5	compound:prt	_	start_char=7061|end_char=7064
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=7064|end_char=7065
+
+# text = Die betroffenen Nerven-Zellen sind zusammenhängend.
+# sent_id = 133
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=7066|end_char=7069
+2	betroffenen	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=7070|end_char=7081
+3	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	compound	_	start_char=7082|end_char=7088
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=7088|end_char=7089
+5	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=7089|end_char=7095
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=7096|end_char=7100
+7	zusammenhängend	zusammenhängend	ADJ	ADJD	Degree=Pos	0	root	_	start_char=7101|end_char=7116
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=7116|end_char=7117
+
+# text = Deshalb werden immer mehr Nerven-Zellen krank.
+# sent_id = 134
+1	Deshalb	deshalb	ADV	PAV	_	8	advmod	_	start_char=7118|end_char=7125
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	cop	_	start_char=7126|end_char=7132
+3	immer	immer	ADV	ADV	_	4	advmod	_	start_char=7133|end_char=7138
+4	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	7	det	_	start_char=7139|end_char=7143
+5	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	compound	_	start_char=7144|end_char=7150
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=7150|end_char=7151
+7	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=7151|end_char=7157
+8	krank	krank	ADJ	ADJD	Degree=Pos	0	root	_	start_char=7158|end_char=7163
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=7163|end_char=7164
+
+# text = Die Boten-Stoffe im Gehirn sind verändert.
+# sent_id = 135
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=7166|end_char=7169
+2	Boten	Bote	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	compound	_	start_char=7170|end_char=7175
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=7175|end_char=7176
+4	Stoffe	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=7176|end_char=7182
+5-6	im	_	_	_	_	_	_	_	start_char=7183|end_char=7185
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=7186|end_char=7192
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=7193|end_char=7197
+9	verändert	verändern	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=7198|end_char=7207
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=7207|end_char=7208
+
+# text = Im Gehirn von Menschen mit Alzheimer-Demenz sind bestimmte Boten-Stoffe nicht mehr in ausreichender Menge vorhanden.
+# sent_id = 136
+1-2	Im	_	_	_	_	_	_	_	start_char=7210|end_char=7212
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	start_char=7213|end_char=7219
+4	von	von	ADP	APPR	_	5	case	_	start_char=7220|end_char=7223
+5	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	nmod	_	start_char=7224|end_char=7232
+6	mit	mit	ADP	APPR	_	9	case	_	start_char=7233|end_char=7236
+7	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	compound	_	start_char=7237|end_char=7246
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=7246|end_char=7247
+9	Demenz	Demenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	start_char=7247|end_char=7253
+10	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=7254|end_char=7258
+11	bestimmte	bestimmt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=7259|end_char=7268
+12	Boten	Bote	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	compound	_	start_char=7269|end_char=7274
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=7274|end_char=7275
+14	Stoffe	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	start_char=7275|end_char=7281
+15	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	start_char=7282|end_char=7287
+16	mehr	mehr	ADV	ADV	_	20	advmod	_	start_char=7288|end_char=7292
+17	in	in	ADP	APPR	_	19	case	_	start_char=7293|end_char=7295
+18	ausreichender	ausreichend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=7296|end_char=7309
+19	Menge	Menge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	start_char=7310|end_char=7315
+20	vorhanden	vorhanden	ADJ	ADJD	Degree=Pos	0	root	_	start_char=7316|end_char=7325
+21	.	.	PUNCT	$.	_	20	punct	_	start_char=7325|end_char=7326
+
+# text = Dazu gehören zum Beispiel: - Acetylcholin - Glutamat
+# sent_id = 137
+1	Dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	start_char=7327|end_char=7331
+2	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7332|end_char=7339
+3-4	zum	_	_	_	_	_	_	_	start_char=7340|end_char=7343
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=7344|end_char=7352
+6	:	:	PUNCT	$.	_	10	punct	_	start_char=7352|end_char=7353
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=7354|end_char=7355
+8	Acetylcholin	Acetylcholin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	compound	_	start_char=7356|end_char=7368
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=7369|end_char=7370
+10	Glutamat	Glutamat	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=7371|end_char=7379
+
+# text = Diese Boten-Stoffe sind wichtig für die Nerven-Zellen.
+# sent_id = 138
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=7380|end_char=7385
+2	Boten	Bote	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	compound	_	start_char=7386|end_char=7391
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=7391|end_char=7392
+4	Stoffe	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=7392|end_char=7398
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=7399|end_char=7403
+6	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=7404|end_char=7411
+7	für	für	ADP	APPR	_	11	case	_	start_char=7412|end_char=7415
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=7416|end_char=7419
+9	Nerven	Nerv|Nerven	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	compound	_	start_char=7420|end_char=7426
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=7426|end_char=7427
+11	Zellen	Zelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	start_char=7427|end_char=7433
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=7433|end_char=7434
+
+# text = Die Nerven-Zellen übertragen Signale im Gehirn.
+# sent_id = 139
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=7435|end_char=7438
+2	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	compound	_	start_char=7439|end_char=7445
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=7445|end_char=7446
+4	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=7446|end_char=7452
+5	übertragen	übertragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7453|end_char=7463
+6	Signale	Signal	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=7464|end_char=7471
+7-8	im	_	_	_	_	_	_	_	start_char=7472|end_char=7474
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=7475|end_char=7481
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=7481|end_char=7482
+
+# text = Deshalb brauchen die Nerven-Zellen diese Boten-Stoffe.
+# sent_id = 140
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=7483|end_char=7490
+2	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7491|end_char=7499
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=7500|end_char=7503
+4	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	compound	_	start_char=7504|end_char=7510
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=7510|end_char=7511
+6	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=7511|end_char=7517
+7	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	10	det	_	start_char=7518|end_char=7523
+8	Boten	Bote	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	compound	_	start_char=7524|end_char=7529
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=7529|end_char=7530
+10	Stoffe	Stoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=7530|end_char=7536
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=7536|end_char=7537
+
+# text = Bei Alzheimer-Demenz gehen immer mehr Nerven-Zellen im Gehirn kaputt.
+# sent_id = 141
+1	Bei	bei	ADP	APPR	_	4	case	_	start_char=7538|end_char=7541
+2	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	compound	_	start_char=7542|end_char=7551
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=7551|end_char=7552
+4	Demenz	Demenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=7552|end_char=7558
+5	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7559|end_char=7564
+6	immer	immer	ADV	ADV	_	7	advmod	_	start_char=7565|end_char=7570
+7	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	10	det	_	start_char=7571|end_char=7575
+8	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	compound	_	start_char=7576|end_char=7582
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=7582|end_char=7583
+10	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=7583|end_char=7589
+11-12	im	_	_	_	_	_	_	_	start_char=7590|end_char=7592
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=7593|end_char=7599
+14	kaputt	kaputt	ADJ	ADJD	Degree=Pos	5	xcomp	_	start_char=7600|end_char=7606
+15	.	.	PUNCT	$.	_	5	punct	_	start_char=7606|end_char=7607
+
+# text = Deshalb fehlt den Nerven-Zellen dann Acetylcholin.
+# sent_id = 142
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=7608|end_char=7615
+2	fehlt	fehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7616|end_char=7621
+3	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=7622|end_char=7625
+4	Nerven	Nerv|Nerven	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	compound	_	start_char=7626|end_char=7632
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=7632|end_char=7633
+6	Zellen	Zelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl:arg	_	start_char=7633|end_char=7639
+7	dann	dann	ADV	ADV	_	2	advmod	_	start_char=7640|end_char=7644
+8	Acetylcholin	Acetylcholin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=7645|end_char=7657
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=7657|end_char=7658
+
+# text = Und die Nerven-Zellen produzieren dann zu viel Glutamat.
+# sent_id = 143
+1	Und	und	CCONJ	KON	_	6	cc	_	start_char=7659|end_char=7662
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=7663|end_char=7666
+3	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	compound	_	start_char=7667|end_char=7673
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=7673|end_char=7674
+5	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=7674|end_char=7680
+6	produzieren	produzieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7681|end_char=7692
+7	dann	dann	ADV	ADV	_	6	advmod	_	start_char=7693|end_char=7697
+8	zu	zu	ADV	PTKA	_	9	advmod	_	start_char=7698|end_char=7700
+9	viel	viel	DET	PIAT	PronType=Ind	10	det	_	start_char=7701|end_char=7705
+10	Glutamat	Glutamat	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=7706|end_char=7714
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=7714|end_char=7715
+
+# text = Glutamat ist ein wichtiger Boten-Stoff für das Gehirn.
+# sent_id = 144
+1	Glutamat	Glutamat	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=7716|end_char=7724
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=7725|end_char=7728
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=7729|end_char=7732
+4	wichtiger	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=7733|end_char=7742
+5	Boten	Bote	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	start_char=7743|end_char=7748
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=7748|end_char=7749
+7	Stoff	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=7749|end_char=7754
+8	für	für	ADP	APPR	_	10	case	_	start_char=7755|end_char=7758
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=7759|end_char=7762
+10	Gehirn	Gehirn	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	start_char=7763|end_char=7769
+11	.	.	PUNCT	$.	_	7	punct	_	start_char=7769|end_char=7770
+
+# text = Aber bei Alzheimer-Demenz produziert das Gehirn zu viel Glutamat.
+# sent_id = 145
+1	Aber	aber	CCONJ	KON	_	6	cc	_	start_char=7771|end_char=7775
+2	bei	bei	ADP	APPR	_	5	case	_	start_char=7776|end_char=7779
+3	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	compound	_	start_char=7780|end_char=7789
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=7789|end_char=7790
+5	Demenz	Demenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=7790|end_char=7796
+6	produziert	produzieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7797|end_char=7807
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=7808|end_char=7811
+8	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=7812|end_char=7818
+9	zu	zu	ADV	PTKA	_	10	advmod	_	start_char=7819|end_char=7821
+10	viel	viel	DET	PIAT	PronType=Ind	11	det	_	start_char=7822|end_char=7826
+11	Glutamat	Glutamat	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=7827|end_char=7835
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=7835|end_char=7836
+
+# text = Das kann schädlich sein.
+# sent_id = 146
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=7837|end_char=7840
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=7841|end_char=7845
+3	schädlich	schädlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=7846|end_char=7855
+4	sein	sein	AUX	VAINF	VerbForm=Inf	3	cop	_	start_char=7856|end_char=7860
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=7860|end_char=7861
+
+# text = Welche Rolle spielen Gene?
+# sent_id = 147
+1	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	2	det	_	start_char=7863|end_char=7869
+2	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=7870|end_char=7875
+3	spielen	spielen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7876|end_char=7883
+4	Gene	Gen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=7884|end_char=7888
+5	?	?	PUNCT	$.	_	3	punct	_	start_char=7888|end_char=7889
+
+# text = Vielleicht ist Alzheimer vererbbar.
+# sent_id = 148
+1	Vielleicht	vielleicht	ADV	ADV	_	4	advmod	_	start_char=7891|end_char=7901
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=7902|end_char=7905
+3	Alzheimer	Alzheimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=7906|end_char=7915
+4	vererbbar	vererbbar	ADJ	ADJD	Degree=Pos	0	root	_	start_char=7916|end_char=7925
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=7925|end_char=7926
+
+# text = Das heißt: Die Krankheit kann von den Eltern auf die Kinder übertragen werden.
+# sent_id = 149
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=7927|end_char=7930
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7931|end_char=7936
+3	:	:	PUNCT	$.	_	13	punct	_	start_char=7936|end_char=7937
+4	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=7938|end_char=7941
+5	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj:pass	_	start_char=7942|end_char=7951
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=7952|end_char=7956
+7	von	von	ADP	APPR	_	9	case	_	start_char=7957|end_char=7960
+8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=7961|end_char=7964
+9	Eltern	Eltern	NOUN	NN	Case=Dat|Number=Plur	13	obl:agent	_	start_char=7965|end_char=7971
+10	auf	auf	ADP	APPR	_	12	case	_	start_char=7972|end_char=7975
+11	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=7976|end_char=7979
+12	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obl	_	start_char=7980|end_char=7986
+13	übertragen	übertragen	VERB	VVPP	VerbForm=Part	2	ccomp	_	start_char=7987|end_char=7997
+14	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	13	aux:pass	_	start_char=7998|end_char=8004
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=8004|end_char=8005
+
+# text = Das Risiko für eine Vererbung ist bei nahen Verwandten etwas höher.
+# sent_id = 150
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=8006|end_char=8009
+2	Risiko	Risiko	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=8010|end_char=8016
+3	für	für	ADP	APPR	_	5	case	_	start_char=8017|end_char=8020
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=8021|end_char=8025
+5	Vererbung	Vererbung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=8026|end_char=8035
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=8036|end_char=8039
+7	bei	bei	ADP	APPR	_	9	case	_	start_char=8040|end_char=8043
+8	nahen	nah	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=8044|end_char=8049
+9	Verwandten	Verwandte|Verwandter	NOUN	NN	Case=Dat|Number=Plur	11	nmod	_	start_char=8050|end_char=8060
+10	etwas	etwas	ADV	ADV	PronType=Ind	11	advmod	_	start_char=8061|end_char=8066
+11	höher	hoch	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=8067|end_char=8072
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=8072|end_char=8073
+
+# text = Aber das Risiko ist immer noch sehr gering.
+# sent_id = 151
+1	Aber	aber	CCONJ	KON	_	8	cc	_	start_char=8074|end_char=8078
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=8079|end_char=8082
+3	Risiko	Risiko	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=8083|end_char=8089
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=8090|end_char=8093
+5	immer	immer	ADV	ADV	_	6	advmod	_	start_char=8094|end_char=8099
+6	noch	noch	ADV	ADV	_	8	advmod	_	start_char=8100|end_char=8104
+7	sehr	sehr	ADV	ADV	_	8	advmod	_	start_char=8105|end_char=8109
+8	gering	gering	ADJ	ADJD	Degree=Pos	0	root	_	start_char=8110|end_char=8116
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=8116|end_char=8117
+
+# text = Die Vererbung von Alzheimer hängt wahrscheinlich von vielen verschiedenen Genen ab.
+# sent_id = 152
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=8118|end_char=8121
+2	Vererbung	Vererbung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=8122|end_char=8131
+3	von	von	ADP	APPR	_	4	case	_	start_char=8132|end_char=8135
+4	Alzheimer	Alzheimer	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	start_char=8136|end_char=8145
+5	hängt	hängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8146|end_char=8151
+6	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	5	advmod	_	start_char=8152|end_char=8166
+7	von	von	ADP	APPR	_	10	case	_	start_char=8167|end_char=8170
+8	vielen	viel	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	start_char=8171|end_char=8177
+9	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=8178|end_char=8191
+10	Genen	Gen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	start_char=8192|end_char=8197
+11	ab	ab	ADP	PTKVZ	_	5	compound:prt	_	start_char=8198|end_char=8200
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=8200|end_char=8201
+
+# text = Ein Gen heißt: Apolipoprotein-E-Gen oder kurz: ApoE-Gen.
+# sent_id = 153
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=8202|end_char=8205
+2	Gen	Gen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=8206|end_char=8209
+3	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8210|end_char=8215
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=8215|end_char=8216
+5	Apolipoprotein	Apolipoprotein	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	start_char=8217|end_char=8231
+6	-E	-E	PROPN	NN	Case=Nom|Number=Sing	5	flat	_	start_char=8231|end_char=8233
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=8233|end_char=8234
+8	Gen	Gen	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	start_char=8234|end_char=8237
+9	oder	oder	CCONJ	KON	_	12	cc	_	start_char=8238|end_char=8242
+10	kurz	kurz	ADJ	ADJD	Degree=Pos	5	conj	_	start_char=8243|end_char=8247
+11	:	:	PUNCT	$.	_	12	punct	_	start_char=8247|end_char=8248
+12	ApoE	ApoE	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	start_char=8249|end_char=8253
+13	-	-	PUNCT	$(	_	14	punct	_	start_char=8253|end_char=8254
+14	Gen	Gen	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	12	flat	_	start_char=8254|end_char=8257
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=8257|end_char=8258
+
+# text = Das ApoE-Gen gibt es in verschiedenen Varianten.
+# sent_id = 154
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=8259|end_char=8262
+2	ApoE-	ApoE-	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=8263|end_char=8268
+3	Gen	Gen	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	flat	_	start_char=8268|end_char=8271
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8272|end_char=8276
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=8277|end_char=8279
+6	in	in	ADP	APPR	_	8	case	_	start_char=8280|end_char=8282
+7	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=8283|end_char=8296
+8	Varianten	Variante	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=8297|end_char=8306
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=8306|end_char=8307
+
+# text = Die Epsilon 4 Variante erhöht das Risiko für Alzheimer stark.
+# sent_id = 155
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=8308|end_char=8311
+2	Epsilon	Epsilon	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=8312|end_char=8319
+3	4	4	PROPN	CARD	NumType=Card	2	appos	_	start_char=8320|end_char=8321
+4	Variante	Variante	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	start_char=8322|end_char=8330
+5	erhöht	erhöhen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8331|end_char=8337
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=8338|end_char=8341
+7	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=8342|end_char=8348
+8	für	für	ADP	APPR	_	9	case	_	start_char=8349|end_char=8352
+9	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	nmod	_	start_char=8353|end_char=8362
+10	stark	stark	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=8363|end_char=8368
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=8368|end_char=8369
+
+# text = Menschen mit dieser Variante haben ein bis zu zehnfach höheres Risiko, an Alzheimer zu erkranken.
+# sent_id = 156
+1	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=8370|end_char=8378
+2	mit	mit	ADP	APPR	_	4	case	_	start_char=8379|end_char=8382
+3	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=8383|end_char=8389
+4	Variante	Variante	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	start_char=8390|end_char=8398
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8399|end_char=8404
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=8405|end_char=8408
+7	bis	bis	ADP	ADV	_	9	case	_	start_char=8409|end_char=8412
+8	zu	zu	ADP	ADV	_	9	case	_	start_char=8413|end_char=8415
+9	zehnfach	zehnfach	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=8416|end_char=8424
+10	höheres	hoch	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	11	amod	_	start_char=8425|end_char=8432
+11	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=8433|end_char=8439
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=8439|end_char=8440
+13	an	an	ADP	APPR	_	14	case	_	start_char=8441|end_char=8443
+14	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	start_char=8444|end_char=8453
+15	zu	zu	PART	PTKZU	_	16	mark	_	start_char=8454|end_char=8456
+16	erkranken	erkranken	VERB	VVINF	VerbForm=Inf	11	acl	_	start_char=8457|end_char=8466
+17	.	.	PUNCT	$.	_	5	punct	_	start_char=8466|end_char=8467
+
+# text = In sehr seltenen Fällen ist Alzheimer fest in den Genen verankert.
+# sent_id = 157
+1	In	in	ADP	APPR	_	4	case	_	start_char=8468|end_char=8470
+2	sehr	sehr	ADV	ADV	_	3	advmod	_	start_char=8471|end_char=8475
+3	seltenen	selten	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=8476|end_char=8484
+4	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	start_char=8485|end_char=8491
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=8492|end_char=8495
+6	Alzheimer	Alzheimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=8496|end_char=8505
+7	fest	fest	ADJ	ADJD	Degree=Pos	11	advmod	_	start_char=8506|end_char=8510
+8	in	in	ADP	APPR	_	10	case	_	start_char=8511|end_char=8513
+9	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=8514|end_char=8517
+10	Genen	Gen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	nmod	_	start_char=8518|end_char=8523
+11	verankert	verankern	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=8524|end_char=8533
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=8533|end_char=8534
+
+# text = Das bedeutet: Die Kinder bekommen die Krankheit sicher.
+# sent_id = 158
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=8535|end_char=8538
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8539|end_char=8547
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=8547|end_char=8548
+4	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=8549|end_char=8552
+5	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=8553|end_char=8559
+6	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=8560|end_char=8568
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=8569|end_char=8572
+8	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nsubj	_	start_char=8573|end_char=8582
+9	sicher	sicher	ADJ	ADJD	Degree=Pos	6	xcomp	_	start_char=8583|end_char=8589
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=8589|end_char=8590
+
+# text = Bisher sind mehrere Gene bekannt, die das Risiko erhöhen.
+# sent_id = 159
+1	Bisher	bisher	ADV	ADV	_	5	advmod	_	start_char=8591|end_char=8597
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=8598|end_char=8602
+3	mehrere	mehr	DET	PIAT	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	start_char=8603|end_char=8610
+4	Gene	Gen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=8611|end_char=8615
+5	bekannt	bekennen	ADJ	ADJD	Degree=Pos	0	root	_	start_char=8616|end_char=8623
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=8623|end_char=8624
+7	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	10	nsubj	_	start_char=8625|end_char=8628
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=8629|end_char=8632
+9	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=8633|end_char=8639
+10	erhöhen	erhöhen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=8640|end_char=8647
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=8647|end_char=8648
+
+# text = Die Erbanlagen sind fest?
+# sent_id = 160
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=8650|end_char=8653
+2	Erbanlagen	Erbanlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=8654|end_char=8664
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=8665|end_char=8669
+4	fest	fest	ADJ	ADJD	Degree=Pos	0	root	_	start_char=8670|end_char=8674
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=8674|end_char=8675
+
+# text = Dann haben die betroffenen Personen eine erhöhte Wahrscheinlichkeit für Alzheimer.
+# sent_id = 161
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=8676|end_char=8680
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8681|end_char=8686
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=8687|end_char=8690
+4	betroffenen	betroffen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=8691|end_char=8702
+5	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=8703|end_char=8711
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=8712|end_char=8716
+7	erhöhte	erhöht	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=8717|end_char=8724
+8	Wahrscheinlichkeit	Wahrscheinlichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=8725|end_char=8743
+9	für	für	ADP	APPR	_	10	case	_	start_char=8744|end_char=8747
+10	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	start_char=8748|end_char=8757
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=8757|end_char=8758
+
+# text = Die Erkrankung tritt dann meistens relativ früh ab dem 30.
+# sent_id = 162
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=8759|end_char=8762
+2	Erkrankung	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=8763|end_char=8773
+3	tritt	treten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8774|end_char=8779
+4	dann	dann	ADV	ADV	_	3	advmod	_	start_char=8780|end_char=8784
+5	meistens	meistens	ADV	ADV	_	3	advmod	_	start_char=8785|end_char=8793
+6	relativ	relativ	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=8794|end_char=8801
+7	früh	früh	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=8802|end_char=8806
+8	ab	ab	ADP	APPR	_	10	case	_	start_char=8807|end_char=8809
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=8810|end_char=8813
+10	30	30	NUM	CARD	NumType=Card	3	obl	_	start_char=8814|end_char=8816
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=8816|end_char=8817
+
+# text = Lebens-Jahr auf.
+# sent_id = 163
+1	Lebens	Leben	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	compound	_	start_char=8818|end_char=8824
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=8824|end_char=8825
+3	Jahr	Jahr	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	dep	_	start_char=8825|end_char=8829
+4	auf	auf	ADP	PTKVZ	_	0	root	_	start_char=8830|end_char=8833
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=8833|end_char=8834
+
+# text = Es gibt noch keine Heilung für Alzheimer.
+# sent_id = 164
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=8835|end_char=8837
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8838|end_char=8842
+3	noch	noch	ADV	ADV	_	2	advmod	_	start_char=8843|end_char=8847
+4	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	5	det	_	start_char=8848|end_char=8853
+5	Heilung	Heilung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nsubj	_	start_char=8854|end_char=8861
+6	für	für	ADP	APPR	_	7	case	_	start_char=8862|end_char=8865
+7	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	start_char=8866|end_char=8875
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=8875|end_char=8876
+
+# text = Deshalb ist der Nutzen von Gen-Tests umstritten.
+# sent_id = 165
+1	Deshalb	deshalb	ADV	PAV	_	9	advmod	_	start_char=8877|end_char=8884
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=8885|end_char=8888
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=8889|end_char=8892
+4	Nutzen	Nutzen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=8893|end_char=8899
+5	von	von	ADP	APPR	_	6	case	_	start_char=8900|end_char=8903
+6	Gen	Gen	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	start_char=8904|end_char=8907
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=8907|end_char=8908
+8	Tests	Test	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	flat	_	start_char=8908|end_char=8913
+9	umstritten	umstritten	ADJ	ADJD	Degree=Pos	0	root	_	start_char=8914|end_char=8924
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=8924|end_char=8925
+
+# text = Mit einem Gen-Test kann man feststellen: Hat eine Person die gefährlichen Erbanlagen?
+# sent_id = 166
+1	Mit	mit	ADP	APPR	_	5	case	_	start_char=8926|end_char=8929
+2	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=8930|end_char=8935
+3	Gen	Gen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	compound	_	start_char=8936|end_char=8939
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=8939|end_char=8940
+5	Test	Test	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=8940|end_char=8944
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=8945|end_char=8949
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=8950|end_char=8953
+8	feststellen	feststellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8954|end_char=8965
+9	:	:	PUNCT	$.	_	10	punct	_	start_char=8965|end_char=8966
+10	Hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	start_char=8967|end_char=8970
+11	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=8971|end_char=8975
+12	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=8976|end_char=8982
+13	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=8983|end_char=8986
+14	gefährlichen	gefährlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=8987|end_char=8999
+15	Erbanlagen	Erbanlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=9000|end_char=9010
+16	?	?	PUNCT	$.	_	10	punct	_	start_char=9010|end_char=9011
+
+# text = Die Forscher-Gruppe DIAN ist ein internationales Netz-Werk.
+# sent_id = 167
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=9013|end_char=9016
+2	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	start_char=9017|end_char=9025
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=9025|end_char=9026
+4	Gruppe	Gruppe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=9026|end_char=9032
+5	DIAN	DIAN	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	start_char=9033|end_char=9037
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=9038|end_char=9041
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=9042|end_char=9045
+8	internationales	international	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=9046|end_char=9061
+9	Netz	Netz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	compound	_	start_char=9062|end_char=9066
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=9066|end_char=9067
+11	Werk	Werk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=9067|end_char=9071
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=9071|end_char=9072
+
+# text = Es forscht an der Alzheimer-Krankheit.
+# sent_id = 168
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=9073|end_char=9075
+2	forscht	forschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9076|end_char=9083
+3	an	an	ADP	APPR	_	5	case	_	start_char=9084|end_char=9086
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=9087|end_char=9090
+5	Alzheimer	Alzheimer	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=9091|end_char=9100
+6	-	-	PUNCT	$(	_	7	punct	_	start_char=9100|end_char=9101
+7	Krankheit	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	flat	_	start_char=9101|end_char=9110
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=9110|end_char=9111
+
+# text = Die Forscher-Gruppe DIAN ist in den USA.
+# sent_id = 169
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=9112|end_char=9115
+2	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	start_char=9116|end_char=9124
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=9124|end_char=9125
+4	Gruppe	Gruppe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=9125|end_char=9131
+5	DIAN	DIAN	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	start_char=9132|end_char=9136
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9137|end_char=9140
+7	in	in	ADP	APPR	_	9	case	_	start_char=9141|end_char=9143
+8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=9144|end_char=9147
+9	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	start_char=9148|end_char=9151
+10	.	.	PUNCT	$.	_	6	punct	_	start_char=9151|end_char=9152
+
+# text = Die Forscher-Gruppe DIAN forscht auch an der genetischen Form der Alzheimer-Krankheit.
+# sent_id = 170
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=9153|end_char=9156
+2	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	start_char=9157|end_char=9165
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=9165|end_char=9166
+4	Gruppe	Gruppe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=9166|end_char=9172
+5	DIAN	DIAN	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	start_char=9173|end_char=9177
+6	forscht	forschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9178|end_char=9185
+7	auch	auch	ADV	ADV	_	6	advmod	_	start_char=9186|end_char=9190
+8	an	an	ADP	APPR	_	11	case	_	start_char=9191|end_char=9193
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=9194|end_char=9197
+10	genetischen	genetisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=9198|end_char=9209
+11	Form	Form	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=9210|end_char=9214
+12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=9215|end_char=9218
+13	Alzheimer	Alzheimer	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=9219|end_char=9228
+14	-	-	PUNCT	$(	_	15	punct	_	start_char=9228|end_char=9229
+15	Krankheit	Krankheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	flat	_	start_char=9229|end_char=9238
+16	.	.	PUNCT	$.	_	6	punct	_	start_char=9238|end_char=9239
+
+# text = Die genetische Form der Alzheimer-Krankheit wird vererbt.
+# sent_id = 171
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=9240|end_char=9243
+2	genetische	genetisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=9244|end_char=9254
+3	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	start_char=9255|end_char=9259
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=9260|end_char=9263
+5	Alzheimer	Alzheimer	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	compound	_	start_char=9264|end_char=9273
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=9273|end_char=9274
+7	Krankheit	Krankheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=9274|end_char=9283
+8	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	aux:pass	_	start_char=9284|end_char=9288
+9	vererbt	vererben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=9289|end_char=9296
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=9296|end_char=9297
+
+# text = Das bedeutet: Die Krankheit wird von den Eltern an die Kinder weitergegeben.
+# sent_id = 172
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=9298|end_char=9301
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9302|end_char=9310
+3	:	:	PUNCT	$.	_	13	punct	_	start_char=9310|end_char=9311
+4	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=9312|end_char=9315
+5	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj:pass	_	start_char=9316|end_char=9325
+6	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	aux:pass	_	start_char=9326|end_char=9330
+7	von	von	ADP	APPR	_	9	case	_	start_char=9331|end_char=9334
+8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=9335|end_char=9338
+9	Eltern	Eltern	NOUN	NN	Case=Dat|Number=Plur	13	obl:agent	_	start_char=9339|end_char=9345
+10	an	an	ADP	APPR	_	12	case	_	start_char=9346|end_char=9348
+11	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=9349|end_char=9352
+12	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obl	_	start_char=9353|end_char=9359
+13	weitergegeben	weitergeben	VERB	VVPP	VerbForm=Part	2	parataxis	_	start_char=9360|end_char=9373
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=9373|end_char=9374
+
+# text = In der genetischen Form von Alzheimer kann manche Person die Krankheit bekommen.
+# sent_id = 173
+1	In	in	ADP	APPR	_	4	case	_	start_char=9375|end_char=9377
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=9378|end_char=9381
+3	genetischen	genetisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=9382|end_char=9393
+4	Form	Form	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	start_char=9394|end_char=9398
+5	von	von	ADP	APPR	_	6	case	_	start_char=9399|end_char=9402
+6	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=9403|end_char=9412
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=9413|end_char=9417
+8	manche	mancher	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	9	det	_	start_char=9418|end_char=9424
+9	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=9425|end_char=9431
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=9432|end_char=9435
+11	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=9436|end_char=9445
+12	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=9446|end_char=9454
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=9454|end_char=9455
+
+# text = Diese Person hat dann eine hohe Wahrscheinlichkeit, die Krankheit zu bekommen.
+# sent_id = 174
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=9456|end_char=9461
+2	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=9462|end_char=9468
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9469|end_char=9472
+4	dann	dann	ADV	ADV	_	3	advmod	_	start_char=9473|end_char=9477
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=9478|end_char=9482
+6	hohe	hoch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=9483|end_char=9487
+7	Wahrscheinlichkeit	Wahrscheinlichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=9488|end_char=9506
+8	,	,	PUNCT	$,	_	12	punct	_	start_char=9506|end_char=9507
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=9508|end_char=9511
+10	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=9512|end_char=9521
+11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=9522|end_char=9524
+12	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	start_char=9525|end_char=9533
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=9533|end_char=9534
+
+# text = Diese Person kann sich freiwillig an der Studie beteiligen.
+# sent_id = 175
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=9535|end_char=9540
+2	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=9541|end_char=9547
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=9548|end_char=9552
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	start_char=9553|end_char=9557
+5	freiwillig	freiwillig	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=9558|end_char=9568
+6	an	an	ADP	APPR	_	8	case	_	start_char=9569|end_char=9571
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=9572|end_char=9575
+8	Studie	Studie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=9576|end_char=9582
+9	beteiligen	beteiligen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=9583|end_char=9593
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=9593|end_char=9594
+
+# text = Die Forscher-Gruppe DIAN nennt diese Person auch: Patienten.
+# sent_id = 176
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=9595|end_char=9598
+2	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	start_char=9599|end_char=9607
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=9607|end_char=9608
+4	Gruppe	Gruppe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=9608|end_char=9614
+5	DIAN	DIAN	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	start_char=9615|end_char=9619
+6	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9620|end_char=9625
+7	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=9626|end_char=9631
+8	Person	Person	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=9632|end_char=9638
+9	auch	auch	ADV	ADV	_	6	advmod	_	start_char=9639|end_char=9643
+10	:	:	PUNCT	$.	_	11	punct	_	start_char=9643|end_char=9644
+11	Patienten	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	xcomp	_	start_char=9645|end_char=9654
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=9654|end_char=9655
+

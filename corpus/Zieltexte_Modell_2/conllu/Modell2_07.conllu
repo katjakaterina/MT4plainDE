@@ -1,0 +1,254 @@
+# text = ﻿
+# sent_id = 0
+1	﻿	"	PUNCT	$(	_	0	root	_	start_char=0|end_char=1
+
+# text = Erste Hilfe ist auch für die Seele wichtig.
+# sent_id = 1
+1	Erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	2	amod	_	start_char=4|end_char=9
+2	Hilfe	Hilfe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=10|end_char=15
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=16|end_char=19
+4	auch	auch	ADV	ADV	_	8	advmod	_	start_char=20|end_char=24
+5	für	für	ADP	APPR	_	7	case	_	start_char=25|end_char=28
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=29|end_char=32
+7	Seele	Seele	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	start_char=33|end_char=38
+8	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=39|end_char=46
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=46|end_char=47
+
+# text = Sie haben eine seelische Krise?
+# sent_id = 2
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=49|end_char=52
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=53|end_char=58
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=59|end_char=63
+4	seelische	seelisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=64|end_char=73
+5	Krise	Krise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=74|end_char=79
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=79|end_char=80
+
+# text = Dann rufen Sie die Telefon-Seelsorge an.
+# sent_id = 3
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=81|end_char=85
+2	rufen	rufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=86|end_char=91
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=92|end_char=95
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=96|end_char=99
+5	Telefon	Telefon	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	compound	_	start_char=100|end_char=107
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=107|end_char=108
+7	Seelsorge	Seelsorge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=108|end_char=117
+8	an	an	ADP	PTKVZ	_	2	compound:prt	_	start_char=118|end_char=120
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=120|end_char=121
+
+# text = Das ist kostenlos und anonym.
+# sent_id = 4
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=122|end_char=125
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=126|end_char=129
+3	kostenlos	kostenlos	ADJ	ADJD	Degree=Pos	0	root	_	start_char=130|end_char=139
+4	und	und	CCONJ	KON	_	5	cc	_	start_char=140|end_char=143
+5	anonym	anonym	ADJ	ADJD	Degree=Pos	3	conj	_	start_char=144|end_char=150
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=150|end_char=151
+
+# text = Das wurde am 12. Februar 2020 aktualisiert.
+# sent_id = 5
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	nsubj:pass	_	start_char=153|end_char=156
+2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=157|end_char=162
+3-4	am	_	_	_	_	_	_	_	start_char=163|end_char=165
+3	an	an	ADP	APPR	_	6	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	12.	12.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	6	amod	_	start_char=166|end_char=169
+6	Februar	Februar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=170|end_char=177
+7	2020	2020	NUM	CARD	NumType=Card	6	nmod	_	start_char=178|end_char=182
+8	aktualisiert	aktualisieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=183|end_char=195
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=195|end_char=196
+
+# text = Manchmal braucht man jemanden zum Reden.
+# sent_id = 6
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=198|end_char=206
+2	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=207|end_char=214
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=215|end_char=218
+4	jemanden	jemand	PRON	PIS	Case=Acc|Number=Sing|PronType=Ind	2	obj	_	start_char=219|end_char=227
+5-6	zum	_	_	_	_	_	_	_	start_char=228|end_char=231
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Reden	Rede|Reden	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=232|end_char=237
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=237|end_char=238
+
+# text = Aber manchmal ist niemand da, der einen versteht.
+# sent_id = 7
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=239|end_char=243
+2	manchmal	manchmal	ADV	ADV	_	3	advmod	_	start_char=244|end_char=252
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=253|end_char=256
+4	niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	3	nsubj	_	start_char=257|end_char=264
+5	da	da	ADV	ADV	_	3	advmod	_	start_char=265|end_char=267
+6	,	,	PUNCT	$,	_	9	punct	_	start_char=267|end_char=268
+7	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	9	nsubj	_	start_char=269|end_char=272
+8	einen	ein	DET	PIS	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	obj	_	start_char=273|end_char=278
+9	versteht	verstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=279|end_char=287
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=287|end_char=288
+
+# text = Das kann sehr schwer sein.
+# sent_id = 8
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=289|end_char=292
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=293|end_char=297
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	start_char=298|end_char=302
+4	schwer	schwer	ADJ	ADJD	Degree=Pos	0	root	_	start_char=303|end_char=309
+5	sein	sein	AUX	VAINF	VerbForm=Inf	4	cop	_	start_char=310|end_char=314
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=314|end_char=315
+
+# text = Sie haben Sorgen oder Probleme?
+# sent_id = 9
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=316|end_char=319
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=320|end_char=325
+3	Sorgen	Sorge|Sorgen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=326|end_char=332
+4	oder	oder	CCONJ	KON	_	5	cc	_	start_char=333|end_char=337
+5	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	conj	_	start_char=338|end_char=346
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=346|end_char=347
+
+# text = Dann können Sie mit jemandem darüber reden.
+# sent_id = 10
+1	Dann	dann	ADV	ADV	_	7	advmod	_	start_char=348|end_char=352
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=353|end_char=359
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	start_char=360|end_char=363
+4	mit	mit	ADP	APPR	_	5	case	_	start_char=364|end_char=367
+5	jemandem	jemand	PRON	PIS	Case=Dat|Number=Sing|PronType=Ind	7	obl	_	start_char=368|end_char=376
+6	darüber	darüber	ADV	PAV	PronType=Dem	7	advmod	_	start_char=377|end_char=384
+7	reden	reden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=385|end_char=390
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=390|end_char=391
+
+# text = Es gibt viele Stellen, wo Sie Hilfe bekommen können.
+# sent_id = 11
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=392|end_char=394
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=395|end_char=399
+3	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	start_char=400|end_char=405
+4	Stellen	Stelle|Stellen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=406|end_char=413
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=413|end_char=414
+6	wo	wo	ADV	PWAV	PronType=Int	9	advmod	_	start_char=415|end_char=417
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=418|end_char=421
+8	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=422|end_char=427
+9	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	4	acl	_	start_char=428|end_char=436
+10	können	können	AUX	VMINF	Number=Plur|VerbForm=Inf	9	aux	_	start_char=437|end_char=443
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=443|end_char=444
+
+# text = Die evangelische und die katholische Kirche helfen Ihnen.
+# sent_id = 12
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=445|end_char=448
+2	evangelische	evangelisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=449|end_char=461
+3	und	und	CCONJ	KON	_	5	cc	_	start_char=462|end_char=465
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=466|end_char=469
+5	katholische	katholisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=470|end_char=481
+6	Kirche	Kirche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=482|end_char=488
+7	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=489|end_char=495
+8	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	obl:arg	_	start_char=496|end_char=501
+9	.	.	PUNCT	$.	_	7	punct	_	start_char=501|end_char=502
+
+# text = Sie bieten eine Telefon-Seelsorge an.
+# sent_id = 13
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=503|end_char=506
+2	bieten	bieten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=507|end_char=513
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=514|end_char=518
+4	Telefon	Telefon	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	compound	_	start_char=519|end_char=526
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=526|end_char=527
+6	Seelsorge	Seelsorge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=527|end_char=536
+7	an	an	ADP	PTKVZ	_	2	compound:prt	_	start_char=537|end_char=539
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=539|end_char=540
+
+# text = Die Telefon-Seelsorge ist kostenlos und anonym.
+# sent_id = 14
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=541|end_char=544
+2	Telefon	Telefon	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	start_char=545|end_char=552
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=552|end_char=553
+4	Seelsorge	Seelsorge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=553|end_char=562
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=563|end_char=566
+6	kostenlos	kostenlos	ADJ	ADJD	Degree=Pos	0	root	_	start_char=567|end_char=576
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=577|end_char=580
+8	anonym	anonym	ADJ	ADJD	Degree=Pos	6	conj	_	start_char=581|end_char=587
+9	.	.	PUNCT	$.	_	6	punct	_	start_char=587|end_char=588
+
+# text = Die Telefon-Nummern sind: 0 80 01 11 01 11 0 80 01 11 02 22 116123
+# sent_id = 15
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=590|end_char=593
+2	Telefon	Telefon	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	compound	_	start_char=594|end_char=601
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=601|end_char=602
+4	Nummern	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=602|end_char=609
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=610|end_char=614
+6	:	:	PUNCT	$.	_	7	punct	_	start_char=614|end_char=615
+7	0	0	NUM	CARD	NumType=Card	0	root	_	start_char=616|end_char=617
+8	80	80	NUM	CARD	NumType=Card	7	appos	_	start_char=618|end_char=620
+9	01	01	NUM	CARD	NumType=Card	7	appos	_	start_char=621|end_char=623
+10	11	11	NUM	CARD	NumType=Card	8	appos	_	start_char=624|end_char=626
+11	01	01	NUM	CARD	NumType=Card	9	appos	_	start_char=627|end_char=629
+12	11	11	NUM	CARD	NumType=Card	9	appos	_	start_char=630|end_char=632
+13	0	0	NUM	CARD	NumType=Card	12	nummod	_	start_char=633|end_char=634
+14	80	80	NUM	CARD	NumType=Card	13	appos	_	start_char=635|end_char=637
+15	01	01	NUM	CARD	NumType=Card	14	nummod	_	start_char=638|end_char=640
+16	11	11	NUM	CARD	NumType=Card	15	nummod	_	start_char=641|end_char=643
+17	02	02	NUM	CARD	NumType=Card	16	nummod	_	start_char=644|end_char=646
+18	22	22	NUM	CARD	NumType=Card	19	nummod	_	start_char=647|end_char=649
+19	116123	116123	NUM	CARD	NumType=Card	17	appos	_	start_char=650|end_char=656
+
+# text = Sie können die Nummern immer anrufen.
+# sent_id = 16
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=658|end_char=661
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=662|end_char=668
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=669|end_char=672
+4	Nummern	Nummer	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=673|end_char=680
+5	immer	immer	ADV	ADV	_	6	advmod	_	start_char=681|end_char=686
+6	anrufen	anrufen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=687|end_char=694
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=694|end_char=695
+
+# text = Die Nummern sind immer erreichbar, auch nachts.
+# sent_id = 17
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=696|end_char=699
+2	Nummern	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=700|end_char=707
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=708|end_char=712
+4	immer	immer	ADV	ADV	_	5	advmod	_	start_char=713|end_char=718
+5	erreichbar	erreichbar	ADJ	ADJD	Degree=Pos	0	root	_	start_char=719|end_char=729
+6	,	,	PUNCT	$,	_	8	punct	_	start_char=729|end_char=730
+7	auch	auch	ADV	ADV	_	8	advmod	_	start_char=731|end_char=735
+8	nachts	nachts	ADV	ADV	_	5	conj	_	start_char=736|end_char=742
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=742|end_char=743
+
+# text = Die Telefon-Seelsorge bietet auch Beratung per E-Mail an.
+# sent_id = 18
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=744|end_char=747
+2	Telefon	Telefon	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	start_char=748|end_char=755
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=755|end_char=756
+4	Seelsorge	Seelsorge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=756|end_char=765
+5	bietet	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=766|end_char=772
+6	auch	auch	ADV	ADV	_	5	advmod	_	start_char=773|end_char=777
+7	Beratung	Beratung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=778|end_char=786
+8	per	per	ADP	APPR	_	11	case	_	start_char=787|end_char=790
+9	E	E	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	compound	_	start_char=791|end_char=792
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=792|end_char=793
+11	Mail	Mail	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	start_char=793|end_char=797
+12	an	an	ADP	PTKVZ	_	5	compound:prt	_	start_char=798|end_char=800
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=800|end_char=801
+
+# text = Oder Sie können mit der Telefon-Seelsorge chatten.
+# sent_id = 19
+1	Oder	Oder	CCONJ	KON	_	9	cc	_	start_char=802|end_char=806
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=807|end_char=810
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=811|end_char=817
+4	mit	mit	ADP	APPR	_	8	case	_	start_char=818|end_char=821
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=822|end_char=825
+6	Telefon	Telefon	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	compound	_	start_char=826|end_char=833
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=833|end_char=834
+8	Seelsorge	Seelsorge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=834|end_char=843
+9	chatten	chatten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=844|end_char=851
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=851|end_char=852
+
+# text = Für E-Mail und Chat müssen Sie sich auf der Web-Seite anmelden.
+# sent_id = 20
+1	Für	für	ADP	APPR	_	4	case	_	start_char=853|end_char=856
+2	E	E	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	compound	_	start_char=857|end_char=858
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=858|end_char=859
+4	Mail	Mail	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	start_char=859|end_char=863
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=864|end_char=867
+6	Chat	Chat	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	conj	_	start_char=868|end_char=872
+7	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=873|end_char=879
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	15	nsubj	_	start_char=880|end_char=883
+9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	15	obj	_	start_char=884|end_char=888
+10	auf	auf	ADP	APPR	_	14	case	_	start_char=889|end_char=892
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=893|end_char=896
+12	Web	Web	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	compound	_	start_char=897|end_char=900
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=900|end_char=901
+14	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	start_char=901|end_char=906
+15	anmelden	anmelden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=907|end_char=915
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=915|end_char=916
+

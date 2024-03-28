@@ -1,0 +1,1795 @@
+# text = ﻿
+# sent_id = 0
+1	﻿	"	PUNCT	$(	_	0	root	_	start_char=0|end_char=1
+
+# text = Das sind verschiedene Arten von Medikamenten.
+# sent_id = 1
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=4|end_char=7
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=8|end_char=12
+3	verschiedene	verschieden	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=13|end_char=25
+4	Arten	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=26|end_char=31
+5	von	von	ADP	APPR	_	6	case	_	start_char=32|end_char=35
+6	Medikamenten	Medikament	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	nmod	_	start_char=36|end_char=48
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=48|end_char=49
+
+# text = Es gibt verschiedene Schmerz-Mittel.
+# sent_id = 2
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=51|end_char=53
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=54|end_char=58
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=59|end_char=71
+4	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	compound	_	start_char=72|end_char=79
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=79|end_char=80
+6	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=80|end_char=86
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=86|end_char=87
+
+# text = Jedes Schmerz-Mittel hilft bei bestimmten Schmerzen.
+# sent_id = 3
+1	Jedes	jeder	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	4	det	_	start_char=88|end_char=93
+2	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	start_char=94|end_char=101
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=101|end_char=102
+4	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=102|end_char=108
+5	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=109|end_char=114
+6	bei	bei	ADP	APPR	_	8	case	_	start_char=115|end_char=118
+7	bestimmten	bestimmt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=119|end_char=129
+8	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	start_char=130|end_char=139
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=139|end_char=140
+
+# text = Paracetamol hilft zum Beispiel bei Kopf-Schmerzen.
+# sent_id = 4
+1	Paracetamol	Paracetamol	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=141|end_char=152
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=153|end_char=158
+3-4	zum	_	_	_	_	_	_	_	start_char=159|end_char=162
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=163|end_char=171
+6	bei	bei	ADP	APPR	_	9	case	_	start_char=172|end_char=175
+7	Kopf	Kopf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	compound	_	start_char=176|end_char=180
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=180|end_char=181
+9	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	start_char=181|end_char=190
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=190|end_char=191
+
+# text = Ibuprofen hilft bei Entzündungen und Schmerzen.
+# sent_id = 5
+1	Ibuprofen	Ibuprof	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=192|end_char=201
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=202|end_char=207
+3	bei	bei	ADP	APPR	_	4	case	_	start_char=208|end_char=211
+4	Entzündungen	Entzündung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=212|end_char=224
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=225|end_char=228
+6	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	conj	_	start_char=229|end_char=238
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=238|end_char=239
+
+# text = Aspirin hilft bei leichten bis mittleren Schmerzen.
+# sent_id = 6
+1	Aspirin	Aspirin	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=240|end_char=247
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=248|end_char=253
+3	bei	bei	ADP	APPR	_	7	case	_	start_char=254|end_char=257
+4	leichten	leicht	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=258|end_char=266
+5	bis	bis	ADP	APPR	_	6	case	_	start_char=267|end_char=270
+6	mittleren	mittler	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=271|end_char=280
+7	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	start_char=281|end_char=290
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=290|end_char=291
+
+# text = Es gibt viele Arten von Medikamenten gegen Schmerzen.
+# sent_id = 7
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=293|end_char=295
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=296|end_char=300
+3	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	start_char=301|end_char=306
+4	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=307|end_char=312
+5	von	von	ADP	APPR	_	6	case	_	start_char=313|end_char=316
+6	Medikamenten	Medikament	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	nmod	_	start_char=317|end_char=329
+7	gegen	gegen	ADP	APPR	_	8	case	_	start_char=330|end_char=335
+8	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	start_char=336|end_char=345
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=345|end_char=346
+
+# text = Jedes Medikament wirkt auf eine andere Weise.
+# sent_id = 8
+1	Jedes	jeder	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	2	det	_	start_char=347|end_char=352
+2	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=353|end_char=363
+3	wirkt	wirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=364|end_char=369
+4	auf	auf	ADP	APPR	_	7	case	_	start_char=370|end_char=373
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=374|end_char=378
+6	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	start_char=379|end_char=385
+7	Weise	Weise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=386|end_char=391
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=391|end_char=392
+
+# text = Es ist wichtig, das richtige Medikament zu nehmen.
+# sent_id = 9
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=393|end_char=395
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=396|end_char=399
+3	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=400|end_char=407
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=407|end_char=408
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=409|end_char=412
+6	richtige	richtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=413|end_char=421
+7	Medikament	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=422|end_char=432
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=433|end_char=435
+9	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	3	csubj	_	start_char=436|end_char=442
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=442|end_char=443
+
+# text = Dr. Achim Gerald Schneider hat das geschrieben.
+# sent_id = 10
+1	Dr.	Dr.	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	compound	_	start_char=445|end_char=448
+2	Achim	Achim	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=449|end_char=454
+3	Gerald	Gerald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	start_char=455|end_char=461
+4	Schneider	Schneider	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	start_char=462|end_char=471
+5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=472|end_char=475
+6	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	obj	_	start_char=476|end_char=479
+7	geschrieben	schreiben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=480|end_char=491
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=491|end_char=492
+
+# text = Er hat es am 15.
+# sent_id = 11
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=493|end_char=495
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=496|end_char=499
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=500|end_char=502
+4-5	am	_	_	_	_	_	_	_	start_char=503|end_char=505
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+6	15	15	NUM	CARD	NumType=Card	2	obl	_	start_char=506|end_char=508
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=508|end_char=509
+
+# text = August 2022 aktualisiert.
+# sent_id = 12
+1	August	August	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	dep	_	start_char=510|end_char=516
+2	2022	2022	NUM	CARD	NumType=Card	1	nmod	_	start_char=517|end_char=521
+3	aktualisiert	aktualisieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=522|end_char=534
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=534|end_char=535
+
+# text = Letizia Marsili spürt keinen Schmerz.
+# sent_id = 13
+1	Letizia	Letizia	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=537|end_char=544
+2	Marsili	Marsili	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	start_char=545|end_char=552
+3	spürt	spüren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=553|end_char=558
+4	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	5	det	_	start_char=559|end_char=565
+5	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=566|end_char=573
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=573|end_char=574
+
+# text = Das ist bei ihrer Familie schon seit 3 Gene-Rationen so.
+# sent_id = 14
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=575|end_char=578
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=579|end_char=582
+3	bei	bei	ADP	APPR	_	5	case	_	start_char=583|end_char=586
+4	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=587|end_char=592
+5	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=593|end_char=600
+6	schon	schon	ADV	ADV	_	2	advmod	_	start_char=601|end_char=606
+7	seit	seit	ADP	APPR	_	11	case	_	start_char=607|end_char=611
+8	3	3	NUM	CARD	NumType=Card	11	nummod	_	start_char=612|end_char=613
+9	Gene	Gen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	compound	_	start_char=614|end_char=618
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=618|end_char=619
+11	Rationen	Ration	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=619|end_char=627
+12	so	so	ADV	ADV	_	2	advmod	_	start_char=628|end_char=630
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=630|end_char=631
+
+# text = Forscher haben herausgefunden, warum das so ist.
+# sent_id = 15
+1	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=632|end_char=640
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=641|end_char=646
+3	herausgefunden	herausfinden	VERB	VVPP	VerbForm=Part	0	root	_	start_char=647|end_char=661
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=661|end_char=662
+5	warum	warum	ADV	PWAV	PronType=Int	8	mark	_	start_char=663|end_char=668
+6	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	nsubj	_	start_char=669|end_char=672
+7	so	so	ADV	ADV	_	8	advmod	_	start_char=673|end_char=675
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=676|end_char=679
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=679|end_char=680
+
+# text = Es liegt an einer Veränderung im Erbgut von Letizia Marsili und ihrer Familie.
+# sent_id = 16
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=681|end_char=683
+2	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=684|end_char=689
+3	an	an	ADP	APPR	_	5	case	_	start_char=690|end_char=692
+4	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=693|end_char=698
+5	Veränderung	Veränderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=699|end_char=710
+6-7	im	_	_	_	_	_	_	_	start_char=711|end_char=713
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Erbgut	Erbgut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=714|end_char=720
+9	von	von	ADP	APPR	_	10	case	_	start_char=721|end_char=724
+10	Letizia	Letizia	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	start_char=725|end_char=732
+11	Marsili	Marsili	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	10	flat	_	start_char=733|end_char=740
+12	und	und	CCONJ	KON	_	14	cc	_	start_char=741|end_char=744
+13	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	start_char=745|end_char=750
+14	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	conj	_	start_char=751|end_char=758
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=758|end_char=759
+
+# text = Diese Veränderung verhindert, dass Schmerz-Signale zum Gehirn gelangen.
+# sent_id = 17
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=760|end_char=765
+2	Veränderung	Veränderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=766|end_char=777
+3	verhindert	verhindern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=778|end_char=788
+4	,	,	PUNCT	$,	_	12	punct	_	start_char=788|end_char=789
+5	dass	dass	SCONJ	KOUS	_	12	mark	_	start_char=790|end_char=794
+6	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	compound	_	start_char=795|end_char=802
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=802|end_char=803
+8	Signale	Signal	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=803|end_char=810
+9-10	zum	_	_	_	_	_	_	_	start_char=811|end_char=814
+9	zu	zu	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	start_char=815|end_char=821
+12	gelangen	gelangen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	start_char=822|end_char=830
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=830|end_char=831
+
+# text = Letizia Marsili sagt, dass sie ein normales Leben führt.
+# sent_id = 18
+1	Letizia	Letizia	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=832|end_char=839
+2	Marsili	Marsili	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	start_char=840|end_char=847
+3	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=848|end_char=852
+4	,	,	PUNCT	$,	_	10	punct	_	start_char=852|end_char=853
+5	dass	dass	SCONJ	KOUS	_	10	mark	_	start_char=854|end_char=858
+6	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=859|end_char=862
+7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=863|end_char=866
+8	normales	normal	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=867|end_char=875
+9	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=876|end_char=881
+10	führt	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=882|end_char=887
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=887|end_char=888
+
+# text = Sie denkt sogar, dass ihr Leben besser ist als das von anderen Menschen.
+# sent_id = 19
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=889|end_char=892
+2	denkt	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=893|end_char=898
+3	sogar	sogar	ADV	ADV	_	2	advmod	_	start_char=899|end_char=904
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=904|end_char=905
+5	dass	dass	SCONJ	KOUS	_	8	mark	_	start_char=906|end_char=910
+6	ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=911|end_char=914
+7	Leben	Leben	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=915|end_char=920
+8	besser	gut	ADJ	ADJD	Degree=Cmp	2	ccomp	_	start_char=921|end_char=927
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=928|end_char=931
+10	als	als	ADP	KOKOM	_	11	case	_	start_char=932|end_char=935
+11	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	nmod	_	start_char=936|end_char=939
+12	von	von	ADP	APPR	_	14	case	_	start_char=940|end_char=943
+13	anderen	anderer	DET	ADJA	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	14	det	_	start_char=944|end_char=951
+14	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	start_char=952|end_char=960
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=960|end_char=961
+
+# text = Diese Erkenntnisse wurden in der Zeitschrift Brain veröffentlicht.
+# sent_id = 20
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=962|end_char=967
+2	Erkenntnisse	Erkenntnis	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj:pass	_	start_char=968|end_char=980
+3	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=981|end_char=987
+4	in	in	ADP	APPR	_	6	case	_	start_char=988|end_char=990
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=991|end_char=994
+6	Zeitschrift	Zeitschrift	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=995|end_char=1006
+7	Brain	Brain	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	appos	_	start_char=1007|end_char=1012
+8	veröffentlicht	veröffentlichen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1013|end_char=1027
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=1027|end_char=1028
+
+# text = Die moderne Schmerz-Therapie hat sich entwickelt.
+# sent_id = 21
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1030|end_char=1033
+2	moderne	modern	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=1034|end_char=1041
+3	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	start_char=1042|end_char=1049
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=1049|end_char=1050
+5	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=1050|end_char=1058
+6	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1059|end_char=1062
+7	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	start_char=1063|end_char=1067
+8	entwickelt	entwickeln	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1068|end_char=1078
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=1078|end_char=1079
+
+# text = Manchmal wünschen wir uns, keinen Schmerz zu spüren.
+# sent_id = 22
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=1081|end_char=1089
+2	wünschen	wünschen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1090|end_char=1098
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=1099|end_char=1102
+4	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	start_char=1103|end_char=1106
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=1106|end_char=1107
+6	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	7	det	_	start_char=1108|end_char=1114
+7	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=1115|end_char=1122
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=1123|end_char=1125
+9	spüren	spüren	VERB	VVINF	VerbForm=Inf	2	xcomp	_	start_char=1126|end_char=1132
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=1132|end_char=1133
+
+# text = Zum Beispiel nach einer Verletzung.
+# sent_id = 23
+1-2	Zum	_	_	_	_	_	_	_	start_char=1134|end_char=1137
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=1138|end_char=1146
+4	nach	nach	ADP	APPR	_	6	case	_	start_char=1147|end_char=1151
+5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=1152|end_char=1157
+6	Verletzung	Verletzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	start_char=1158|end_char=1168
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1168|end_char=1169
+
+# text = Oder wenn eine Stelle im Körper wehtut.
+# sent_id = 24
+1	Oder	Oder	CCONJ	KON	_	8	cc	_	start_char=1170|end_char=1174
+2	wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=1175|end_char=1179
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1180|end_char=1184
+4	Stelle	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=1185|end_char=1191
+5-6	im	_	_	_	_	_	_	_	start_char=1192|end_char=1194
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=1195|end_char=1201
+8	wehtut	wehtuen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1202|end_char=1208
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=1208|end_char=1209
+
+# text = Viele Menschen haben oft Schmerzen.
+# sent_id = 25
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=1210|end_char=1215
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1216|end_char=1224
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1225|end_char=1230
+4	oft	oft	ADV	ADV	_	3	advmod	_	start_char=1231|end_char=1234
+5	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=1235|end_char=1244
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=1244|end_char=1245
+
+# text = Zum Beispiel im Rücken, in den Gelenken oder im Kopf.
+# sent_id = 26
+1-2	Zum	_	_	_	_	_	_	_	start_char=1246|end_char=1249
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=1250|end_char=1258
+4-5	im	_	_	_	_	_	_	_	start_char=1259|end_char=1261
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Rücken	Rücken	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	_	start_char=1262|end_char=1268
+7	,	,	PUNCT	$,	_	10	punct	_	start_char=1268|end_char=1269
+8	in	in	ADP	APPR	_	10	case	_	start_char=1270|end_char=1272
+9	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=1273|end_char=1276
+10	Gelenken	Gelenk	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	conj	_	start_char=1277|end_char=1285
+11	oder	oder	CCONJ	KON	_	14	cc	_	start_char=1286|end_char=1290
+12-13	im	_	_	_	_	_	_	_	start_char=1291|end_char=1293
+12	in	in	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Kopf	Kopf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	conj	_	start_char=1294|end_char=1298
+15	.	.	PUNCT	$.	_	6	punct	_	start_char=1298|end_char=1299
+
+# text = In Deutschland hat jeder zehnte Mensch chronische Schmerzen.
+# sent_id = 27
+1	In	in	ADP	APPR	_	2	case	_	start_char=1300|end_char=1302
+2	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=1303|end_char=1314
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1315|end_char=1318
+4	jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	6	det	_	start_char=1319|end_char=1324
+5	zehnte	zehnt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|NumType=Ord|Number=Sing	6	amod	_	start_char=1325|end_char=1331
+6	Mensch	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1332|end_char=1338
+7	chronische	chronisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=1339|end_char=1349
+8	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=1350|end_char=1359
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=1359|end_char=1360
+
+# text = Chronische Schmerzen dauern mindestens 3 Monate.
+# sent_id = 28
+1	Chronische	chronisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=1361|end_char=1371
+2	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1372|end_char=1381
+3	dauern	dauern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1382|end_char=1388
+4	mindestens	mindestens	ADV	ADV	_	5	advmod	_	start_char=1389|end_char=1399
+5	3	3	NUM	CARD	NumType=Card	6	nummod	_	start_char=1400|end_char=1401
+6	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=1402|end_char=1408
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1408|end_char=1409
+
+# text = Menschen nutzen schon immer Medikamente.
+# sent_id = 29
+1	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=1411|end_char=1419
+2	nutzen	nutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1420|end_char=1426
+3	schon	schon	ADV	ADV	_	4	advmod	_	start_char=1427|end_char=1432
+4	immer	immer	ADV	ADV	_	2	advmod	_	start_char=1433|end_char=1438
+5	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=1439|end_char=1450
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=1450|end_char=1451
+
+# text = Das erste bekannte Schmerz-Mittel ist der Saft vom Schlafmohn.
+# sent_id = 30
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=1452|end_char=1455
+2	erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|NumType=Ord|Number=Sing	6	amod	_	start_char=1456|end_char=1461
+3	bekannte	bekannt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=1462|end_char=1470
+4	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	compound	_	start_char=1471|end_char=1478
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1478|end_char=1479
+6	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=1479|end_char=1485
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=1486|end_char=1489
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=1490|end_char=1493
+9	Saft	Saft	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=1494|end_char=1498
+10-11	vom	_	_	_	_	_	_	_	start_char=1499|end_char=1502
+10	von	von	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Schlafmohn	Schlafmohn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	start_char=1503|end_char=1513
+13	.	.	PUNCT	$.	_	9	punct	_	start_char=1513|end_char=1514
+
+# text = Schlafmohn wurde vor über 5000 Jahren im heutigen Irak angebaut.
+# sent_id = 31
+1	Schlafmohn	Schlafmohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	start_char=1515|end_char=1525
+2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	11	aux:pass	_	start_char=1526|end_char=1531
+3	vor	vor	ADP	APPR	_	6	case	_	start_char=1532|end_char=1535
+4	über	über	ADV	ADV	_	5	advmod	_	start_char=1536|end_char=1540
+5	5000	5000	NUM	CARD	NumType=Card	6	nummod	_	start_char=1541|end_char=1545
+6	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	start_char=1546|end_char=1552
+7-8	im	_	_	_	_	_	_	_	start_char=1553|end_char=1555
+7	in	in	ADP	APPR	_	10	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+9	heutigen	heutig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=1556|end_char=1564
+10	Irak	Irak	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=1565|end_char=1569
+11	angebaut	anbauen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1570|end_char=1578
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=1578|end_char=1579
+
+# text = Aus dem Schlafmohn haben die Menschen Schmerz-Mittel gemacht.
+# sent_id = 32
+1	Aus	aus	ADP	APPR	_	3	case	_	start_char=1580|end_char=1583
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=1584|end_char=1587
+3	Schlafmohn	Schlafmohn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=1588|end_char=1598
+4	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1599|end_char=1604
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=1605|end_char=1608
+6	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=1609|end_char=1617
+7	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	compound	_	start_char=1618|end_char=1625
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=1625|end_char=1626
+9	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=1626|end_char=1632
+10	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1633|end_char=1640
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1640|end_char=1641
+
+# text = Im Jahr 1804 hat Friedrich Sertürner Morphin entdeckt.
+# sent_id = 33
+1-2	Im	_	_	_	_	_	_	_	start_char=1643|end_char=1645
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=1646|end_char=1650
+4	1804	1804	NUM	CARD	NumType=Card	3	nmod	_	start_char=1651|end_char=1655
+5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1656|end_char=1659
+6	Friedrich	Friedrich	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=1660|end_char=1669
+7	Sertürner	Sertürner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	start_char=1670|end_char=1679
+8	Morphin	Morphin	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	start_char=1680|end_char=1687
+9	entdeckt	entdecken	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1688|end_char=1696
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1696|end_char=1697
+
+# text = Morphin ist ein Medikament gegen Schmerzen.
+# sent_id = 34
+1	Morphin	Morphin	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1698|end_char=1705
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1706|end_char=1709
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1710|end_char=1713
+4	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1714|end_char=1724
+5	gegen	gegen	ADP	APPR	_	6	case	_	start_char=1725|end_char=1730
+6	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	start_char=1731|end_char=1740
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=1740|end_char=1741
+
+# text = Es kommt aus dem getrockneten Saft der Mohnpflanze.
+# sent_id = 35
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=1742|end_char=1744
+2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1745|end_char=1750
+3	aus	aus	ADP	APPR	_	6	case	_	start_char=1751|end_char=1754
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=1755|end_char=1758
+5	getrockneten	getrocknet	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=1759|end_char=1771
+6	Saft	Saft	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=1772|end_char=1776
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1777|end_char=1780
+8	Mohnpflanze	Mohnpflanze	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=1781|end_char=1792
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=1792|end_char=1793
+
+# text = Heute gibt es auch künstliche Opioide.
+# sent_id = 36
+1	Heute	heute	ADV	ADV	_	2	advmod	_	start_char=1794|end_char=1799
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1800|end_char=1804
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1805|end_char=1807
+4	auch	auch	ADV	ADV	_	2	advmod	_	start_char=1808|end_char=1812
+5	künstliche	künstlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=1813|end_char=1823
+6	Opioide	Opioide	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	start_char=1824|end_char=1831
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=1831|end_char=1832
+
+# text = Diese Opioide sind stärker als Morphin.
+# sent_id = 37
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=1833|end_char=1838
+2	Opioide	Opioide	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=1839|end_char=1846
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1847|end_char=1851
+4	stärker	stark	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=1852|end_char=1859
+5	als	als	ADP	KOKOM	_	6	case	_	start_char=1860|end_char=1863
+6	Morphin	Morphin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	start_char=1864|end_char=1871
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=1871|end_char=1872
+
+# text = Sie wirken schon in sehr kleinen Mengen.
+# sent_id = 38
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1873|end_char=1876
+2	wirken	wirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1877|end_char=1883
+3	schon	schon	ADV	ADV	_	2	advmod	_	start_char=1884|end_char=1889
+4	in	in	ADP	APPR	_	7	case	_	start_char=1890|end_char=1892
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	start_char=1893|end_char=1897
+6	kleinen	klein	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=1898|end_char=1905
+7	Mengen	Menge	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=1906|end_char=1912
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=1912|end_char=1913
+
+# text = Welches Medikament Sie nehmen, hängt von Ihren Beschwerden ab.
+# sent_id = 39
+1	Welches	welcher	DET	PWAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	det	_	start_char=1915|end_char=1922
+2	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=1923|end_char=1933
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=1934|end_char=1937
+4	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=1938|end_char=1944
+5	,	,	PUNCT	$,	_	4	punct	_	start_char=1944|end_char=1945
+6	hängt	hängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1946|end_char=1951
+7	von	von	ADP	APPR	_	9	case	_	start_char=1952|end_char=1955
+8	Ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=1956|end_char=1961
+9	Beschwerden	Beschwerde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	start_char=1962|end_char=1973
+10	ab	ab	ADP	PTKVZ	_	6	compound:prt	_	start_char=1974|end_char=1976
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=1976|end_char=1977
+
+# text = Je stärker die Beschwerden, desto stärker das Medikament.
+# sent_id = 40
+1	Je	je	ADV	ADV	_	2	advmod	_	start_char=1978|end_char=1980
+2	stärker	stark	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=1981|end_char=1988
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=1989|end_char=1992
+4	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1993|end_char=2004
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=2004|end_char=2005
+6	desto	desto	CCONJ	KON	_	7	cc	_	start_char=2006|end_char=2011
+7	stärker	stark	ADJ	ADJD	Degree=Cmp	2	conj	_	start_char=2012|end_char=2019
+8	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=2020|end_char=2023
+9	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	start_char=2024|end_char=2034
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=2034|end_char=2035
+
+# text = Opioide sind Medikamente gegen Schmerzen.
+# sent_id = 41
+1	Opioide	Opioide	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=2037|end_char=2044
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=2045|end_char=2049
+3	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=2050|end_char=2061
+4	gegen	gegen	ADP	APPR	_	5	case	_	start_char=2062|end_char=2067
+5	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	start_char=2068|end_char=2077
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=2077|end_char=2078
+
+# text = Ärzte entscheiden, welches Medikament sie geben.
+# sent_id = 42
+1	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=2079|end_char=2084
+2	entscheiden	entscheiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2085|end_char=2096
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=2096|end_char=2097
+4	welches	welcher	DET	PWAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	5	det	_	start_char=2098|end_char=2105
+5	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=2106|end_char=2116
+6	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	start_char=2117|end_char=2120
+7	geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=2121|end_char=2126
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=2126|end_char=2127
+
+# text = Sie schauen, wie stark der Schmerz ist.
+# sent_id = 43
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=2128|end_char=2131
+2	schauen	schauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2132|end_char=2139
+3	,	,	PUNCT	$,	_	5	punct	_	start_char=2139|end_char=2140
+4	wie	wie	ADV	PWAV	PronType=Int	5	advmod	_	start_char=2141|end_char=2144
+5	stark	stark	ADJ	ADJD	Degree=Pos	2	ccomp	_	start_char=2145|end_char=2150
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=2151|end_char=2154
+7	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=2155|end_char=2162
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2163|end_char=2166
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=2166|end_char=2167
+
+# text = Dafür nutzen sie eine Skala von 0 bis 10. 0 bedeutet: kein Schmerz.
+# sent_id = 44
+1	Dafür	dafür	ADV	PAV	PronType=Dem	2	advmod	_	start_char=2168|end_char=2173
+2	nutzen	nutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2174|end_char=2180
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=2181|end_char=2184
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=2185|end_char=2189
+5	Skala	Skala	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2190|end_char=2195
+6	von	von	ADP	APPR	_	10	case	_	start_char=2196|end_char=2199
+7	0	0	NUM	CARD	NumType=Card	10	nummod	_	start_char=2200|end_char=2201
+8	bis	bis	ADP	APPR	_	9	case	_	start_char=2202|end_char=2205
+9	10.	10.	NUM	CARD	NumType=Card	10	nmod	_	start_char=2206|end_char=2209
+10	0	0	NUM	CARD	NumType=Card	5	nmod	_	start_char=2210|end_char=2211
+11	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=2212|end_char=2220
+12	:	:	PUNCT	$.	_	14	punct	_	start_char=2220|end_char=2221
+13	kein	kein	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	14	det	_	start_char=2222|end_char=2226
+14	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	appos	_	start_char=2227|end_char=2234
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=2234|end_char=2235
+
+# text = 10 bedeutet: sehr starker Schmerz.
+# sent_id = 45
+1	10	10	NUM	CARD	NumType=Card	2	dep	_	start_char=2236|end_char=2238
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2239|end_char=2247
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=2247|end_char=2248
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	start_char=2249|end_char=2253
+5	starker	stark	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=2254|end_char=2261
+6	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	start_char=2262|end_char=2269
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=2269|end_char=2270
+
+# text = Die Skala hilft Ärzten nach Operationen.
+# sent_id = 46
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2271|end_char=2274
+2	Skala	Skala	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2275|end_char=2280
+3	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2281|end_char=2286
+4	Ärzten	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl:arg	_	start_char=2287|end_char=2293
+5	nach	nach	ADP	APPR	_	6	case	_	start_char=2294|end_char=2298
+6	Operationen	Operation	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	start_char=2299|end_char=2310
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=2310|end_char=2311
+
+# text = Sie können sehen, ob das Medikament hilft.
+# sent_id = 47
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=2312|end_char=2315
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=2316|end_char=2322
+3	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2323|end_char=2328
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=2328|end_char=2329
+5	ob	ob	SCONJ	KOUS	_	8	mark	_	start_char=2330|end_char=2332
+6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=2333|end_char=2336
+7	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=2337|end_char=2347
+8	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=2348|end_char=2353
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=2353|end_char=2354
+
+# text = Sie können die Behandlung anpassen.
+# sent_id = 48
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=2355|end_char=2358
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2359|end_char=2365
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2366|end_char=2369
+4	Behandlung	Behandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=2370|end_char=2380
+5	anpassen	anpassen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2381|end_char=2389
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2389|end_char=2390
+
+# text = Es ist wichtig, dass Menschen nach einer Operation keine Schmerzen haben.
+# sent_id = 49
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=2391|end_char=2393
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=2394|end_char=2397
+3	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2398|end_char=2405
+4	,	,	PUNCT	$,	_	12	punct	_	start_char=2405|end_char=2406
+5	dass	dass	SCONJ	KOUS	_	12	mark	_	start_char=2407|end_char=2411
+6	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=2412|end_char=2420
+7	nach	nach	ADP	APPR	_	9	case	_	start_char=2421|end_char=2425
+8	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=2426|end_char=2431
+9	Operation	Operation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	start_char=2432|end_char=2441
+10	keine	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Neg	11	det	_	start_char=2442|end_char=2447
+11	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	start_char=2448|end_char=2457
+12	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	start_char=2458|end_char=2463
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=2463|end_char=2464
+
+# text = Dann werden die Schmerzen nicht chronisch.
+# sent_id = 50
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=2465|end_char=2469
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	start_char=2470|end_char=2476
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=2477|end_char=2480
+4	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=2481|end_char=2490
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=2491|end_char=2496
+6	chronisch	chronisch	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2497|end_char=2506
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2506|end_char=2507
+
+# text = Das sagt Professorin Herta Flor.
+# sent_id = 51
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=2508|end_char=2511
+2	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2512|end_char=2516
+3	Professorin	Professorin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=2517|end_char=2528
+4	Herta	Herta	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	start_char=2529|end_char=2534
+5	Flor	Flor	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	flat	_	start_char=2535|end_char=2539
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=2539|end_char=2540
+
+# text = Sie forscht zu Schmerzen.
+# sent_id = 52
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2541|end_char=2544
+2	forscht	forschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2545|end_char=2552
+3	zu	zu	ADP	APPR	_	4	case	_	start_char=2553|end_char=2555
+4	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	start_char=2556|end_char=2565
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=2565|end_char=2566
+
+# text = Das WHO-Schema hat 3 Stufen.
+# sent_id = 53
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=2568|end_char=2571
+2	WHO	WHO	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=2572|end_char=2575
+3	-	-	PUNCT	$(	_	4	punct	_	start_char=2575|end_char=2576
+4	Schema	Schema	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	flat	_	start_char=2576|end_char=2582
+5	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2583|end_char=2586
+6	3	3	NUM	CARD	NumType=Card	7	nummod	_	start_char=2587|end_char=2588
+7	Stufen	Stufe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=2589|end_char=2595
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=2595|end_char=2596
+
+# text = Es hilft bei der Orientierung.
+# sent_id = 54
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2597|end_char=2599
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2600|end_char=2605
+3	bei	bei	ADP	APPR	_	5	case	_	start_char=2606|end_char=2609
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2610|end_char=2613
+5	Orientierung	Orientierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=2614|end_char=2626
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=2626|end_char=2627
+
+# text = Die WHO hat einen Plan für Schmerz-Mittel.
+# sent_id = 55
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2629|end_char=2632
+2	WHO	WHO	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2633|end_char=2636
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2637|end_char=2640
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=2641|end_char=2646
+5	Plan	Plan	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=2647|end_char=2651
+6	für	für	ADP	APPR	_	9	case	_	start_char=2652|end_char=2655
+7	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	compound	_	start_char=2656|end_char=2663
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=2663|end_char=2664
+9	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	start_char=2664|end_char=2670
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=2670|end_char=2671
+
+# text = Bei leichtem Schmerz nehmen Sie zum Beispiel: - Acetylsalicylsäure - Ibuprofen - Diclofenac - Paracetamol Bei mittlerem bis starkem Schmerz nehmen Sie schwache Opioide.
+# sent_id = 56
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=2672|end_char=2675
+2	leichtem	leicht	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=2676|end_char=2684
+3	Schmerz	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=2685|end_char=2692
+4	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2693|end_char=2699
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=2700|end_char=2703
+6-7	zum	_	_	_	_	_	_	_	start_char=2704|end_char=2707
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=2708|end_char=2716
+9	:	:	PUNCT	$.	_	17	punct	_	start_char=2716|end_char=2717
+10	-	-	PUNCT	$(	_	11	punct	_	start_char=2718|end_char=2719
+11	Acetylsalicylsäure	Acetylsalicylsäure	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	compound	_	start_char=2720|end_char=2738
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=2739|end_char=2740
+13	Ibuprofen	Ibuprof	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	compound	_	start_char=2741|end_char=2750
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=2751|end_char=2752
+15	Diclofenac	Diclofenac	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	compound	_	start_char=2753|end_char=2763
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=2764|end_char=2765
+17	Paracetamol	Paracetamol	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	start_char=2766|end_char=2777
+18	Bei	bei	ADP	APPR	_	22	case	_	start_char=2778|end_char=2781
+19	mittlerem	mittler	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=2782|end_char=2791
+20	bis	bis	ADP	APPR	_	21	case	_	start_char=2792|end_char=2795
+21	starkem	stark	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	19	conj	_	start_char=2796|end_char=2803
+22	Schmerz	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	start_char=2804|end_char=2811
+23	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=2812|end_char=2818
+24	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	23	nsubj	_	start_char=2819|end_char=2822
+25	schwache	schwach	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	26	amod	_	start_char=2823|end_char=2831
+26	Opioide	Opioide	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	23	obj	_	start_char=2832|end_char=2839
+27	.	.	PUNCT	$.	_	4	punct	_	start_char=2839|end_char=2840
+
+# text = Bei sehr starkem Schmerz nehmen Sie starke Opioide.
+# sent_id = 57
+1	Bei	bei	ADP	APPR	_	4	case	_	start_char=2841|end_char=2844
+2	sehr	sehr	ADV	ADV	_	3	advmod	_	start_char=2845|end_char=2849
+3	starkem	stark	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=2850|end_char=2857
+4	Schmerz	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	start_char=2858|end_char=2865
+5	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2866|end_char=2872
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=2873|end_char=2876
+7	starke	stark	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=2877|end_char=2883
+8	Opioide	Opioide	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	start_char=2884|end_char=2891
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=2891|end_char=2892
+
+# text = Manchmal brauchen Sie noch andere Medikamente dazu.
+# sent_id = 58
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=2893|end_char=2901
+2	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2902|end_char=2910
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2911|end_char=2914
+4	noch	noch	ADV	ADV	_	2	advmod	_	start_char=2915|end_char=2919
+5	andere	anderer	DET	ADJA	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	6	det	_	start_char=2920|end_char=2926
+6	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=2927|end_char=2938
+7	dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	start_char=2939|end_char=2943
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=2943|end_char=2944
+
+# text = Das WHO-Schema ist nur ein grober Leitfaden.
+# sent_id = 59
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=2946|end_char=2949
+2	WHO	WHO	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=2950|end_char=2953
+3	-	-	PUNCT	$(	_	4	punct	_	start_char=2953|end_char=2954
+4	Schema	Schema	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	flat	_	start_char=2954|end_char=2960
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=2961|end_char=2964
+6	nur	nur	ADV	ADV	_	9	advmod	_	start_char=2965|end_char=2968
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=2969|end_char=2972
+8	grober	grob	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=2973|end_char=2979
+9	Leitfaden	Leitfaden	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=2980|end_char=2989
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=2989|end_char=2990
+
+# text = Professor Winfried Häuser sagt: Das Schema ist nicht gut für Menschen mit Schmerzen.
+# sent_id = 60
+1	Professor	Professor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	dep	_	start_char=2991|end_char=3000
+2	Winfried	Winfried	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3001|end_char=3009
+3	Häuser	Haus	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	flat	_	start_char=3010|end_char=3016
+4	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3017|end_char=3021
+5	:	:	PUNCT	$.	_	10	punct	_	start_char=3021|end_char=3022
+6	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=3023|end_char=3026
+7	Schema	Schema	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=3027|end_char=3033
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=3034|end_char=3037
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=3038|end_char=3043
+10	gut	gut	ADJ	ADJD	Degree=Pos	4	parataxis	_	start_char=3044|end_char=3047
+11	für	für	ADP	APPR	_	12	case	_	start_char=3048|end_char=3051
+12	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	start_char=3052|end_char=3060
+13	mit	mit	ADP	APPR	_	14	case	_	start_char=3061|end_char=3064
+14	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	start_char=3065|end_char=3074
+15	.	.	PUNCT	$.	_	4	punct	_	start_char=3074|end_char=3075
+
+# text = Diese Schmerzen kommen nicht von Krebs.
+# sent_id = 61
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	start_char=3076|end_char=3081
+2	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3082|end_char=3091
+3	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3092|end_char=3098
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=3099|end_char=3104
+5	von	von	ADP	APPR	_	6	case	_	start_char=3105|end_char=3108
+6	Krebs	Krebs	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=3109|end_char=3114
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=3114|end_char=3115
+
+# text = Das Schema kann falsch verstanden werden.
+# sent_id = 62
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=3116|end_char=3119
+2	Schema	Schema	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	start_char=3120|end_char=3126
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3127|end_char=3131
+4	falsch	falsch	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=3132|end_char=3138
+5	verstanden	verstehen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3139|end_char=3149
+6	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	5	aux:pass	_	start_char=3150|end_char=3156
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=3156|end_char=3157
+
+# text = Es sieht so aus, als ob starke Opioide immer am besten helfen.
+# sent_id = 63
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=3158|end_char=3160
+2	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3161|end_char=3166
+3	so	so	ADV	ADV	_	2	advmod	_	start_char=3167|end_char=3169
+4	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	start_char=3170|end_char=3173
+5	,	,	PUNCT	$,	_	14	punct	_	start_char=3173|end_char=3174
+6	als	als	SCONJ	KOUS	_	14	mark	_	start_char=3175|end_char=3178
+7	ob	ob	SCONJ	KOUS	_	14	mark	_	start_char=3179|end_char=3181
+8	starke	stark	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=3182|end_char=3188
+9	Opioide	Opioide	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=3189|end_char=3196
+10	immer	immer	ADV	ADV	_	14	advmod	_	start_char=3197|end_char=3202
+11-12	am	_	_	_	_	_	_	_	start_char=3203|end_char=3205
+11	an	an	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	besten	gut	ADJ	NN	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	14	obl	_	start_char=3206|end_char=3212
+14	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=3213|end_char=3219
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=3219|end_char=3220
+
+# text = Arthrose, Rheuma und Tumore verursachen Schmerzen.
+# sent_id = 64
+1	Arthrose	Arthrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=3222|end_char=3230
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=3230|end_char=3231
+3	Rheuma	Rheuma	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	start_char=3232|end_char=3238
+4	und	und	CCONJ	KON	_	5	cc	_	start_char=3239|end_char=3242
+5	Tumore	Tumore	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=3243|end_char=3249
+6	verursachen	verursechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3250|end_char=3261
+7	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=3262|end_char=3271
+8	.	.	PUNCT	$.	_	6	punct	_	start_char=3271|end_char=3272
+
+# text = Für jeden Schmerz gibt es ein passendes Medikament.
+# sent_id = 65
+1	Für	für	ADP	APPR	_	3	case	_	start_char=3273|end_char=3276
+2	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	3	det	_	start_char=3277|end_char=3282
+3	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	start_char=3283|end_char=3290
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3291|end_char=3295
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=3296|end_char=3298
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=3299|end_char=3302
+7	passendes	passend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=3303|end_char=3312
+8	Medikament	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	nsubj	_	start_char=3313|end_char=3323
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=3323|end_char=3324
+
+# text = Welches Schmerz-Mittel das Beste ist, hängt von der Krankheit ab.
+# sent_id = 66
+1	Welches	welcher	DET	PWAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	det	_	start_char=3326|end_char=3333
+2	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	start_char=3334|end_char=3341
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=3341|end_char=3342
+4	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=3342|end_char=3348
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=3349|end_char=3352
+6	Beste	Beste	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	ccomp	_	start_char=3353|end_char=3358
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=3359|end_char=3362
+8	,	,	PUNCT	$,	_	6	punct	_	start_char=3362|end_char=3363
+9	hängt	hängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3364|end_char=3369
+10	von	von	ADP	APPR	_	12	case	_	start_char=3370|end_char=3373
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=3374|end_char=3377
+12	Krankheit	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=3378|end_char=3387
+13	ab	ab	ADP	PTKVZ	_	9	compound:prt	_	start_char=3388|end_char=3390
+14	.	.	PUNCT	$.	_	9	punct	_	start_char=3390|end_char=3391
+
+# text = Ärzte entscheiden das.
+# sent_id = 67
+1	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=3392|end_char=3397
+2	entscheiden	entscheiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3398|end_char=3409
+3	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=3410|end_char=3413
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=3413|end_char=3414
+
+# text = Sie können sich auch selbst informieren.
+# sent_id = 68
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=3415|end_char=3418
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=3419|end_char=3425
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	start_char=3426|end_char=3430
+4	auch	auch	ADV	ADV	_	6	advmod	_	start_char=3431|end_char=3435
+5	selbst	selbst	ADV	ADV	_	6	advmod	_	start_char=3436|end_char=3442
+6	informieren	informieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3443|end_char=3454
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=3454|end_char=3455
+
+# text = Bei Gelenkschmerzen helfen oft Cox-Hemmer.
+# sent_id = 69
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=3456|end_char=3459
+2	Gelenkschmerzen	Gelenkschmerz	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	start_char=3460|end_char=3475
+3	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3476|end_char=3482
+4	oft	oft	ADV	ADV	_	3	advmod	_	start_char=3483|end_char=3486
+5	Cox	Cox	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=3487|end_char=3490
+6	-	-	PUNCT	$(	_	7	punct	_	start_char=3490|end_char=3491
+7	Hemmer	Hemmer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	start_char=3491|end_char=3497
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=3497|end_char=3498
+
+# text = Zum Beispiel Diclofenac und Ibuprofen.
+# sent_id = 70
+1-2	Zum	_	_	_	_	_	_	_	start_char=3499|end_char=3502
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=3503|end_char=3511
+4	Diclofenac	Diclofenac	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=3512|end_char=3522
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=3523|end_char=3526
+6	Ibuprofen	Ibuprofen	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	start_char=3527|end_char=3536
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=3536|end_char=3537
+
+# text = Bei Rheuma helfen oft Cortison-Medikamente.
+# sent_id = 71
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=3538|end_char=3541
+2	Rheuma	Rheuma	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=3542|end_char=3548
+3	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3549|end_char=3555
+4	oft	oft	ADV	ADV	_	3	advmod	_	start_char=3556|end_char=3559
+5	Cortison	Cortison	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	compound	_	start_char=3560|end_char=3568
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=3568|end_char=3569
+7	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=3569|end_char=3580
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=3580|end_char=3581
+
+# text = Andere Rheuma-Medikamente helfen langfristig.
+# sent_id = 72
+1	Andere	anderer	DET	ADJA	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	start_char=3582|end_char=3588
+2	Rheuma	Rheuma	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	compound	_	start_char=3589|end_char=3595
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=3595|end_char=3596
+4	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=3596|end_char=3607
+5	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3608|end_char=3614
+6	langfristig	langfristig	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=3615|end_char=3626
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=3626|end_char=3627
+
+# text = Bei Nerven-Schmerzen hilft oft das Medikament Pregabalin.
+# sent_id = 73
+1	Bei	bei	ADP	APPR	_	4	case	_	start_char=3628|end_char=3631
+2	Nerven	Nerv|Nerven	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	compound	_	start_char=3632|end_char=3638
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=3638|end_char=3639
+4	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	start_char=3639|end_char=3648
+5	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3649|end_char=3654
+6	oft	oft	ADV	ADV	_	5	advmod	_	start_char=3655|end_char=3658
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=3659|end_char=3662
+8	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=3663|end_char=3673
+9	Pregabalin	Pregabalin	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	appos	_	start_char=3674|end_char=3684
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=3684|end_char=3685
+
+# text = Oder bestimmte Antidepressiva.
+# sent_id = 74
+1	Oder	Oder	CCONJ	KON	_	3	cc	_	start_char=3686|end_char=3690
+2	bestimmte	bestimmt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=3691|end_char=3700
+3	Antidepressiva	Antidepressiva	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=3701|end_char=3715
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=3715|end_char=3716
+
+# text = Bei Krebs-Schmerzen helfen oft Opioide.
+# sent_id = 75
+1	Bei	bei	ADP	APPR	_	4	case	_	start_char=3717|end_char=3720
+2	Krebs	Krebs	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	compound	_	start_char=3721|end_char=3726
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=3726|end_char=3727
+4	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	start_char=3727|end_char=3736
+5	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3737|end_char=3743
+6	oft	oft	ADV	ADV	_	5	advmod	_	start_char=3744|end_char=3747
+7	Opioide	Opioide	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=3748|end_char=3755
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=3755|end_char=3756
+
+# text = Es gibt auch andere Wege als Medikamente.
+# sent_id = 76
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=3758|end_char=3760
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3761|end_char=3765
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=3766|end_char=3770
+4	andere	anderer	DET	ADJA	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=3771|end_char=3777
+5	Wege	Weg	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=3778|end_char=3782
+6	als	als	ADP	KOKOM	_	7	case	_	start_char=3783|end_char=3786
+7	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	nmod	_	start_char=3787|end_char=3798
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=3798|end_char=3799
+
+# text = Diese Wege können zum Beispiel sein: - Physiotherapie - Psycho-Therapie - Ernährungs-Umstellung - Sport und Bewegung.
+# sent_id = 77
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	start_char=3800|end_char=3805
+2	Wege	Weg	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=3806|end_char=3810
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=3811|end_char=3817
+4-5	zum	_	_	_	_	_	_	_	start_char=3818|end_char=3821
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=3822|end_char=3830
+7	sein	sein	AUX	VAINF	VerbForm=Inf	0	root	_	start_char=3831|end_char=3835
+8	:	:	PUNCT	$.	_	18	punct	_	start_char=3835|end_char=3836
+9	-	-	PUNCT	$(	_	10	punct	_	start_char=3837|end_char=3838
+10	Physiotherapie	Physiotherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	compound	_	start_char=3839|end_char=3853
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=3854|end_char=3855
+12	Psycho	Psycho	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	compound	_	start_char=3856|end_char=3862
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=3862|end_char=3863
+14	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	compound	_	start_char=3863|end_char=3871
+15	-	-	PUNCT	$(	_	16	punct	_	start_char=3872|end_char=3873
+16	Ernährungs	Ernährungs	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	compound	_	start_char=3874|end_char=3884
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=3884|end_char=3885
+18	Umstellung	Umstellung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	appos	_	start_char=3885|end_char=3895
+19	-	-	PUNCT	$(	_	20	punct	_	start_char=3896|end_char=3897
+20	Sport	Sport	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	flat	_	start_char=3898|end_char=3903
+21	und	und	CCONJ	KON	_	22	cc	_	start_char=3904|end_char=3907
+22	Bewegung	Bewegung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	conj	_	start_char=3908|end_char=3916
+23	.	.	PUNCT	$.	_	7	punct	_	start_char=3916|end_char=3917
+
+# text = Medikamente sind nicht die einzige Lösung gegen Schmerzen.
+# sent_id = 78
+1	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=3919|end_char=3930
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=3931|end_char=3935
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=3936|end_char=3941
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3942|end_char=3945
+5	einzige	einzig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=3946|end_char=3953
+6	Lösung	Lösung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=3954|end_char=3960
+7	gegen	gegen	ADP	APPR	_	8	case	_	start_char=3961|end_char=3966
+8	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	start_char=3967|end_char=3976
+9	.	.	PUNCT	$.	_	6	punct	_	start_char=3976|end_char=3977
+
+# text = Andere Methoden können besser helfen.
+# sent_id = 79
+1	Andere	anderer	DET	ADJA	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	start_char=3978|end_char=3984
+2	Methoden	Methode	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=3985|end_char=3993
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3994|end_char=4000
+4	besser	gut	ADJ	ADJD	Degree=Cmp	5	advmod	_	start_char=4001|end_char=4007
+5	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4008|end_char=4014
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=4014|end_char=4015
+
+# text = Das sagt ein Experte namens Häuser.
+# sent_id = 80
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=4016|end_char=4019
+2	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4020|end_char=4024
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=4025|end_char=4028
+4	Experte	Experte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=4029|end_char=4036
+5	namens	namens	ADP	APPR	_	6	case	_	start_char=4037|end_char=4043
+6	Häuser	Haus	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	start_char=4044|end_char=4050
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=4050|end_char=4051
+
+# text = Haben Sie dauerhafte Muskel-Schmerzen?
+# sent_id = 81
+1	Haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4052|end_char=4057
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=4058|end_char=4061
+3	dauerhafte	dauerhaft	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=4062|end_char=4072
+4	Muskel	Muskel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	compound	_	start_char=4073|end_char=4079
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=4079|end_char=4080
+6	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=4080|end_char=4089
+7	?	?	PUNCT	$.	_	1	punct	_	start_char=4089|end_char=4090
+
+# text = Dann helfen Entzündungshemmer kaum.
+# sent_id = 82
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=4091|end_char=4095
+2	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4096|end_char=4102
+3	Entzündungshemmer	Entzündungshemmer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=4103|end_char=4120
+4	kaum	kaum	ADV	ADV	_	2	advmod	_	start_char=4121|end_char=4125
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=4125|end_char=4126
+
+# text = Was hilft besser? - leichtes Ausdauer-Training - Psycho-Therapie
+# sent_id = 83
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	nsubj	_	start_char=4127|end_char=4130
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4131|end_char=4136
+3	besser?	besser?	ADJ	ADJD	Degree=Pos	5	compound	_	start_char=4137|end_char=4144
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=4145|end_char=4146
+5	leichtes	leicht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=4147|end_char=4155
+6	Ausdauer	Ausdauer	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	compound	_	start_char=4156|end_char=4164
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=4164|end_char=4165
+8	Training	Training	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	compound	_	start_char=4165|end_char=4173
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=4174|end_char=4175
+10	Psycho	Psycho	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	compound	_	start_char=4176|end_char=4182
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=4182|end_char=4183
+12	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	start_char=4183|end_char=4191
+
+# text = Diese Methoden sind besser als Medikamente.
+# sent_id = 84
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=4192|end_char=4197
+2	Methoden	Methode	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=4198|end_char=4206
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4207|end_char=4211
+4	besser	gut	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=4212|end_char=4218
+5	als	als	ADP	KOKOM	_	6	case	_	start_char=4219|end_char=4222
+6	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nmod	_	start_char=4223|end_char=4234
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=4234|end_char=4235
+
+# text = Haben Sie Arthrose?
+# sent_id = 85
+1	Haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4237|end_char=4242
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=4243|end_char=4246
+3	Arthrose	Arthrose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=4247|end_char=4255
+4	?	?	PUNCT	$.	_	1	punct	_	start_char=4255|end_char=4256
+
+# text = Dann bewegen und entlasten Sie Ihre Gelenke.
+# sent_id = 86
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=4257|end_char=4261
+2	bewegen	bewegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4262|end_char=4269
+3	und	und	CCONJ	KON	_	4	cc	_	start_char=4270|end_char=4273
+4	entlasten	entlasten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=4274|end_char=4283
+5	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=4284|end_char=4287
+6	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=4288|end_char=4292
+7	Gelenke	Gelenke	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=4293|end_char=4300
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=4300|end_char=4301
+
+# text = Haben Sie Rücken-Schmerzen?
+# sent_id = 87
+1	Haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4302|end_char=4307
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=4308|end_char=4311
+3	Rücken	Rücken	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=4312|end_char=4318
+4	-	-	PUNCT	$(	_	5	punct	_	start_char=4318|end_char=4319
+5	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=4319|end_char=4328
+6	?	?	PUNCT	$.	_	1	punct	_	start_char=4328|end_char=4329
+
+# text = Dann helfen Physiotherapie und Reha-Sport oft am besten. Ärzte und Kranken-Kassen helfen Ihnen.
+# sent_id = 88
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=4330|end_char=4334
+2	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4335|end_char=4341
+3	Physiotherapie	Physiotherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=4342|end_char=4356
+4	und	und	CCONJ	KON	_	7	cc	_	start_char=4357|end_char=4360
+5	Reha	Reha	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	start_char=4361|end_char=4365
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=4365|end_char=4366
+7	Sport	Sport	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	start_char=4366|end_char=4371
+8	oft	oft	ADV	ADV	_	2	advmod	_	start_char=4372|end_char=4375
+9-10	am	_	_	_	_	_	_	_	start_char=4376|end_char=4378
+9	an	an	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	besten	gut	ADJ	NN	Case=Dat|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	start_char=4379|end_char=4385
+12	.	.	PUNCT	$.	_	18	punct	_	start_char=4385|end_char=4386
+13	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	start_char=4387|end_char=4392
+14	und	und	CCONJ	KON	_	17	cc	_	start_char=4393|end_char=4396
+15	Kranken	Kranke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	compound	_	start_char=4397|end_char=4404
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=4404|end_char=4405
+17	Kassen	Kasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	conj	_	start_char=4405|end_char=4411
+18	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=4412|end_char=4418
+19	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	18	obl:arg	_	start_char=4419|end_char=4424
+20	.	.	PUNCT	$.	_	2	punct	_	start_char=4424|end_char=4425
+
+# text = Sie finden für Sie das passende Angebot.
+# sent_id = 89
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=4426|end_char=4429
+2	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4430|end_char=4436
+3	für	für	ADP	APPR	_	4	case	_	start_char=4437|end_char=4440
+4	Sie	sie	PRON	PPER	Case=Acc|Person=2|Polite=Form|PronType=Prs	2	obl	_	start_char=4441|end_char=4444
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=4445|end_char=4448
+6	passende	passend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=4449|end_char=4457
+7	Angebot	Angebot	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=4458|end_char=4465
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=4465|end_char=4466
+
+# text = In den USA gibt es ein großes Problem.
+# sent_id = 90
+1	In	in	ADP	APPR	_	3	case	_	start_char=4468|end_char=4470
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=4471|end_char=4474
+3	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	start_char=4475|end_char=4478
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4479|end_char=4483
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=4484|end_char=4486
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=4487|end_char=4490
+7	großes	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=4491|end_char=4497
+8	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	nsubj	_	start_char=4498|end_char=4505
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=4505|end_char=4506
+
+# text = Das Problem heißt: Opioidkrise.
+# sent_id = 91
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=4507|end_char=4510
+2	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=4511|end_char=4518
+3	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4519|end_char=4524
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=4524|end_char=4525
+5	Opioidkrise	Opioidkrise	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	xcomp	_	start_char=4526|end_char=4537
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=4537|end_char=4538
+
+# text = Viele Menschen sind abhängig von Opioiden.
+# sent_id = 92
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=4539|end_char=4544
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=4545|end_char=4553
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4554|end_char=4558
+4	abhängig	abhängig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4559|end_char=4567
+5	von	von	ADP	APPR	_	6	case	_	start_char=4568|end_char=4571
+6	Opioiden	Opioide	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	start_char=4572|end_char=4580
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=4580|end_char=4581
+
+# text = Schmerz-Mittel können helfen.
+# sent_id = 93
+1	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	compound	_	start_char=4583|end_char=4590
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=4590|end_char=4591
+3	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=4591|end_char=4597
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=4598|end_char=4604
+5	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4605|end_char=4611
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=4611|end_char=4612
+
+# text = Sie können aber auch gefährlich sein.
+# sent_id = 94
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=4613|end_char=4616
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=4617|end_char=4623
+3	aber	aber	ADV	ADV	_	5	advmod	_	start_char=4624|end_char=4628
+4	auch	auch	ADV	ADV	_	5	advmod	_	start_char=4629|end_char=4633
+5	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4634|end_char=4644
+6	sein	sein	AUX	VAINF	VerbForm=Inf	5	cop	_	start_char=4645|end_char=4649
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=4649|end_char=4650
+
+# text = In den USA ist das ein großes Problem.
+# sent_id = 95
+1	In	in	ADP	APPR	_	3	case	_	start_char=4651|end_char=4653
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=4654|end_char=4657
+3	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	8	nmod	_	start_char=4658|end_char=4661
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=4662|end_char=4665
+5	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	nsubj	_	start_char=4666|end_char=4669
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=4670|end_char=4673
+7	großes	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=4674|end_char=4680
+8	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4681|end_char=4688
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=4688|end_char=4689
+
+# text = Seit 1999 sind dort fast 932.000 Menschen gestorben.
+# sent_id = 96
+1	Seit	seit	ADP	APPR	_	2	case	_	start_char=4690|end_char=4694
+2	1999	1999	NUM	CARD	NumType=Card	8	obl	_	start_char=4695|end_char=4699
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=4700|end_char=4704
+4	dort	dort	ADV	ADV	_	8	advmod	_	start_char=4705|end_char=4709
+5	fast	fast	ADV	ADV	_	6	advmod	_	start_char=4710|end_char=4714
+6	932.000	932.000	NUM	CARD	NumType=Card	7	nummod	_	start_char=4715|end_char=4722
+7	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=4723|end_char=4731
+8	gestorben	sterben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=4732|end_char=4741
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=4741|end_char=4742
+
+# text = Sie hatten zu viele Medikamente oder Drogen genommen.
+# sent_id = 97
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=4743|end_char=4746
+2	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=4747|end_char=4753
+3	zu	zu	ADV	PTKA	_	4	advmod	_	start_char=4754|end_char=4756
+4	viele	viel	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	5	det	_	start_char=4757|end_char=4762
+5	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	start_char=4763|end_char=4774
+6	oder	oder	CCONJ	KON	_	7	cc	_	start_char=4775|end_char=4779
+7	Drogen	Droge	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	start_char=4780|end_char=4786
+8	genommen	nehmen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=4787|end_char=4795
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=4795|end_char=4796
+
+# text = Viele dieser Menschen waren abhängig von Schmerz-Mitteln.
+# sent_id = 98
+1	Viele	viel	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	5	nsubj	_	start_char=4797|end_char=4802
+2	dieser	dieser	DET	PDAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	start_char=4803|end_char=4809
+3	Menschen	Mensch	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=4810|end_char=4818
+4	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=4819|end_char=4824
+5	abhängig	abhängig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4825|end_char=4833
+6	von	von	ADP	APPR	_	9	case	_	start_char=4834|end_char=4837
+7	Schmerz	Schmerz	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	compound	_	start_char=4838|end_char=4845
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=4845|end_char=4846
+9	Mitteln	Mittel|Mitteln	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	nmod	_	start_char=4846|end_char=4853
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=4853|end_char=4854
+
+# text = Diese Schmerz-Mittel hatten Ärzte ihnen gegeben.
+# sent_id = 99
+1	Diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=4855|end_char=4860
+2	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	compound	_	start_char=4861|end_char=4868
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=4868|end_char=4869
+4	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	start_char=4869|end_char=4875
+5	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=4876|end_char=4882
+6	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=4883|end_char=4888
+7	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	8	obl:arg	_	start_char=4889|end_char=4894
+8	gegeben	geben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=4895|end_char=4902
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=4902|end_char=4903
+
+# text = Das nennt man die Opioidkrise.
+# sent_id = 100
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=4904|end_char=4907
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4908|end_char=4913
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=4914|end_char=4917
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=4918|end_char=4921
+5	Opioidkrise	Opioidkrise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=4922|end_char=4933
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=4933|end_char=4934
+
+# text = In Deutschland gibt es keine Opioidkrise.
+# sent_id = 101
+1	In	in	ADP	APPR	_	2	case	_	start_char=4936|end_char=4938
+2	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=4939|end_char=4950
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4951|end_char=4955
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=4956|end_char=4958
+5	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	6	det	_	start_char=4959|end_char=4964
+6	Opioidkrise	Opioidkrise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nsubj	_	start_char=4965|end_char=4976
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=4976|end_char=4977
+
+# text = Warum nicht? - Ärzte dürfen Opioide nur unter strengen Regeln verschreiben.
+# sent_id = 102
+1	Warum	warum	ADV	PWAV	PronType=Int	11	advmod	_	start_char=4978|end_char=4983
+2	nicht?	nicht?	ADV	ADV	_	4	advmod	_	start_char=4984|end_char=4990
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=4991|end_char=4992
+4	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	start_char=4993|end_char=4998
+5	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=4999|end_char=5005
+6	Opioide	Opioide	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	obj	_	start_char=5006|end_char=5013
+7	nur	nur	ADV	ADV	_	11	advmod	_	start_char=5014|end_char=5017
+8	unter	unter	ADP	APPR	_	10	case	_	start_char=5018|end_char=5023
+9	strengen	streng	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=5024|end_char=5032
+10	Regeln	Regel|Regeln	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	start_char=5033|end_char=5039
+11	verschreiben	verschreiben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5040|end_char=5052
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=5052|end_char=5053
+
+# text = - Unser Gesundheits-System ist gut. - Große Gruppen von Menschen sind in Deutschland nicht sozial abgestiegen.
+# sent_id = 103
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=5054|end_char=5055
+2	Unser	unser	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=5056|end_char=5061
+3	Gesundheits	Gesundheit	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	compound	_	start_char=5062|end_char=5073
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=5073|end_char=5074
+5	System	System	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=5074|end_char=5080
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=5081|end_char=5084
+7	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5085|end_char=5088
+8	.	.	PUNCT	$.	_	11	punct	_	start_char=5088|end_char=5089
+9	-	-	PUNCT	$(	_	11	punct	_	start_char=5090|end_char=5091
+10	Große	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=5092|end_char=5097
+11	Gruppen	Gruppe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	start_char=5098|end_char=5105
+12	von	von	ADP	APPR	_	13	case	_	start_char=5106|end_char=5109
+13	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	start_char=5110|end_char=5118
+14	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=5119|end_char=5123
+15	in	in	ADP	APPR	_	16	case	_	start_char=5124|end_char=5126
+16	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	start_char=5127|end_char=5138
+17	nicht	nicht	PART	PTKNEG	Polarity=Neg	18	advmod	_	start_char=5139|end_char=5144
+18	sozial	sozial	ADV	ADJD	_	19	advmod	_	start_char=5145|end_char=5151
+19	abgestiegen	absteigen	ADJ	VVPP	Degree=Pos|VerbForm=Part	7	conj	_	start_char=5152|end_char=5163
+20	.	.	PUNCT	$.	_	7	punct	_	start_char=5163|end_char=5164
+
+# text = In den USA gibt es eine Opioidkrise.
+# sent_id = 104
+1	In	in	ADP	APPR	_	3	case	_	start_char=5165|end_char=5167
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=5168|end_char=5171
+3	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	start_char=5172|end_char=5175
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5176|end_char=5180
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=5181|end_char=5183
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=5184|end_char=5188
+7	Opioidkrise	Opioidkrise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nsubj	_	start_char=5189|end_char=5200
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=5200|end_char=5201
+
+# text = Ein Grund dafür ist der soziale Abstieg großer Bevölkerungs-Gruppen.
+# sent_id = 105
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=5202|end_char=5205
+2	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=5206|end_char=5211
+3	dafür	dafür	ADV	PAV	PronType=Dem	2	advmod	_	start_char=5212|end_char=5217
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=5218|end_char=5221
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=5222|end_char=5225
+6	soziale	sozial	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=5226|end_char=5233
+7	Abstieg	Abstieg	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=5234|end_char=5241
+8	großer	groß	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=5242|end_char=5248
+9	Bevölkerungs	Bevölkerungs	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	11	compound	_	start_char=5249|end_char=5261
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=5261|end_char=5262
+11	Gruppen	Gruppe	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=5262|end_char=5269
+12	.	.	PUNCT	$.	_	7	punct	_	start_char=5269|end_char=5270
+
+# text = In Deutschland bekommen viele Menschen Opioide.
+# sent_id = 106
+1	In	in	ADP	APPR	_	2	case	_	start_char=5272|end_char=5274
+2	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=5275|end_char=5286
+3	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5287|end_char=5295
+4	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=5296|end_char=5301
+5	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=5302|end_char=5310
+6	Opioide	Opioide	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=5311|end_char=5318
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=5318|end_char=5319
+
+# text = Manche Menschen nehmen Opioide falsch ein.
+# sent_id = 107
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=5320|end_char=5326
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=5327|end_char=5335
+3	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5336|end_char=5342
+4	Opioide	Opioide	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=5343|end_char=5350
+5	falsch	falsch	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=5351|end_char=5357
+6	ein	ein	ADV	PTKVZ	_	3	compound:prt	_	start_char=5358|end_char=5361
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=5361|end_char=5362
+
+# text = Das sagt ein Experte namens Häuser.
+# sent_id = 108
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=5363|end_char=5366
+2	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5367|end_char=5371
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=5372|end_char=5375
+4	Experte	Experte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=5376|end_char=5383
+5	namens	namens	ADP	APPR	_	6	case	_	start_char=5384|end_char=5390
+6	Häuser	Haus	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	start_char=5391|end_char=5397
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=5397|end_char=5398
+
+# text = Einige Menschen nehmen Opioide, obwohl sie nicht helfen.
+# sent_id = 109
+1	Einige	einige	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=5399|end_char=5405
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=5406|end_char=5414
+3	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5415|end_char=5421
+4	Opioide	Opioide	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=5422|end_char=5429
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=5429|end_char=5430
+6	obwohl	obwohl	SCONJ	KOUS	_	9	mark	_	start_char=5431|end_char=5437
+7	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=5438|end_char=5441
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=5442|end_char=5447
+9	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=5448|end_char=5454
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=5454|end_char=5455
+
+# text = Andere Menschen werden von Opioiden abhängig.
+# sent_id = 110
+1	Andere	anderer	DET	ADJA	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=5456|end_char=5462
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=5463|end_char=5471
+3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	start_char=5472|end_char=5478
+4	von	von	ADP	APPR	_	5	case	_	start_char=5479|end_char=5482
+5	Opioiden	Opioide	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	start_char=5483|end_char=5491
+6	abhängig	abhängig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5492|end_char=5500
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=5500|end_char=5501
+
+# text = Manche Menschen haben Angst vor einer Sucht.
+# sent_id = 111
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=5502|end_char=5508
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=5509|end_char=5517
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5518|end_char=5523
+4	Angst	Angst	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=5524|end_char=5529
+5	vor	vor	ADP	APPR	_	7	case	_	start_char=5530|end_char=5533
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=5534|end_char=5539
+7	Sucht	Sucht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	start_char=5540|end_char=5545
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=5545|end_char=5546
+
+# text = Deshalb nehmen sie keine Opioide, obwohl sie nötig wären.
+# sent_id = 112
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=5547|end_char=5554
+2	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5555|end_char=5561
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=5562|end_char=5565
+4	keine	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Neg	5	det	_	start_char=5566|end_char=5571
+5	Opioide	Opioide	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=5572|end_char=5579
+6	,	,	PUNCT	$,	_	9	punct	_	start_char=5579|end_char=5580
+7	obwohl	obwohl	SCONJ	KOUS	_	9	mark	_	start_char=5581|end_char=5587
+8	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=5588|end_char=5591
+9	nötig	nötig	ADJ	ADJD	Degree=Pos	2	advcl	_	start_char=5592|end_char=5597
+10	wären	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=5598|end_char=5603
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=5603|end_char=5604
+
+# text = Das kann auch schaden.
+# sent_id = 113
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=5605|end_char=5608
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=5609|end_char=5613
+3	auch	auch	ADV	ADV	_	4	advmod	_	start_char=5614|end_char=5618
+4	schaden	schaden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5619|end_char=5626
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=5626|end_char=5627
+
+# text = Nehmen Sie Schmerz-Mittel nur so, wie der Arzt es sagt.
+# sent_id = 114
+1	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5629|end_char=5635
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=5636|end_char=5639
+3	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	compound	_	start_char=5640|end_char=5647
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=5647|end_char=5648
+5	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	start_char=5648|end_char=5654
+6	nur	nur	ADV	ADV	_	7	advmod	_	start_char=5655|end_char=5658
+7	so	so	ADV	ADV	_	1	advmod	_	start_char=5659|end_char=5661
+8	,	,	PUNCT	$,	_	13	punct	_	start_char=5661|end_char=5662
+9	wie	wie	ADV	KOUS	_	13	advmod	_	start_char=5663|end_char=5666
+10	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=5667|end_char=5670
+11	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=5671|end_char=5675
+12	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=5676|end_char=5678
+13	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	start_char=5679|end_char=5683
+14	.	.	PUNCT	$.	_	1	punct	_	start_char=5683|end_char=5684
+
+# text = Nehmen Sie Ihr Schmerz-Mittel so ein, wie es Ihr Arzt sagt.
+# sent_id = 115
+1	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5686|end_char=5692
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=5693|end_char=5696
+3	Ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=5697|end_char=5700
+4	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	compound	_	start_char=5701|end_char=5708
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=5708|end_char=5709
+6	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	start_char=5709|end_char=5715
+7	so	so	ADV	ADV	_	1	advmod	_	start_char=5716|end_char=5718
+8	ein	ein	ADV	PTKVZ	_	1	compound:prt	_	start_char=5719|end_char=5722
+9	,	,	PUNCT	$,	_	14	punct	_	start_char=5722|end_char=5723
+10	wie	wie	ADV	KOUS	_	14	advmod	_	start_char=5724|end_char=5727
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=5728|end_char=5730
+12	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	start_char=5731|end_char=5734
+13	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=5735|end_char=5739
+14	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	start_char=5740|end_char=5744
+15	.	.	PUNCT	$.	_	1	punct	_	start_char=5744|end_char=5745
+
+# text = Sie haben Nebenwirkungen?
+# sent_id = 116
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=5746|end_char=5749
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5750|end_char=5755
+3	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=5756|end_char=5770
+4	?	?	PUNCT	$.	_	2	punct	_	start_char=5770|end_char=5771
+
+# text = Dann sprechen Sie mit Ihrem Arzt oder Apotheker darüber.
+# sent_id = 117
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5772|end_char=5776
+2	sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5777|end_char=5785
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=5786|end_char=5789
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=5790|end_char=5793
+5	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=5794|end_char=5799
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=5800|end_char=5804
+7	oder	oder	CCONJ	KON	_	8	cc	_	start_char=5805|end_char=5809
+8	Apotheker	Apotheker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	conj	_	start_char=5810|end_char=5819
+9	darüber	darüber	ADV	PAV	PronType=Dem	2	advmod	_	start_char=5820|end_char=5827
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=5827|end_char=5828
+
+# text = Finden Sie heraus, wie lange Sie das Schmerz-Mittel nehmen dürfen.
+# sent_id = 118
+1	Finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5829|end_char=5835
+2	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=5836|end_char=5839
+3	heraus	heraus	ADV	PTKVZ	_	1	compound:prt	_	start_char=5840|end_char=5846
+4	,	,	PUNCT	$,	_	12	punct	_	start_char=5846|end_char=5847
+5	wie	wie	ADV	PWAV	PronType=Int	12	advmod	_	start_char=5848|end_char=5851
+6	lange	lange	ADV	ADV	_	12	advmod	_	start_char=5852|end_char=5857
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	start_char=5858|end_char=5861
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=5862|end_char=5865
+9	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	compound	_	start_char=5866|end_char=5873
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=5873|end_char=5874
+11	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=5874|end_char=5880
+12	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	1	ccomp	_	start_char=5881|end_char=5887
+13	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=5888|end_char=5894
+14	.	.	PUNCT	$.	_	1	punct	_	start_char=5894|end_char=5895
+
+# text = Das Schmerz-Mittel hilft nur gegen die Schmerzen.
+# sent_id = 119
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=5896|end_char=5899
+2	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	start_char=5900|end_char=5907
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=5907|end_char=5908
+4	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=5908|end_char=5914
+5	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5915|end_char=5920
+6	nur	nur	ADV	ADV	_	5	advmod	_	start_char=5921|end_char=5924
+7	gegen	gegen	ADP	APPR	_	9	case	_	start_char=5925|end_char=5930
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=5931|end_char=5934
+9	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	start_char=5935|end_char=5944
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=5944|end_char=5945
+
+# text = Es hilft nicht gegen die Ursache der Schmerzen.
+# sent_id = 120
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=5946|end_char=5948
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5949|end_char=5954
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=5955|end_char=5960
+4	gegen	gegen	ADP	APPR	_	6	case	_	start_char=5961|end_char=5966
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=5967|end_char=5970
+6	Ursache	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=5971|end_char=5978
+7	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=5979|end_char=5982
+8	Schmerzen	Schmerz	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=5983|end_char=5992
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=5992|end_char=5993
+
+# text = Manche Medikamente helfen nach einer Weile nicht mehr gegen Schmerzen.
+# sent_id = 121
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	2	det	_	start_char=5995|end_char=6001
+2	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=6002|end_char=6013
+3	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6014|end_char=6020
+4	nach	nach	ADP	APPR	_	6	case	_	start_char=6021|end_char=6025
+5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=6026|end_char=6031
+6	Weile	Weile	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=6032|end_char=6037
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=6038|end_char=6043
+8	mehr	mehr	ADV	ADV	_	3	advmod	_	start_char=6044|end_char=6048
+9	gegen	gegen	ADP	APPR	_	10	case	_	start_char=6049|end_char=6054
+10	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	start_char=6055|end_char=6064
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=6064|end_char=6065
+
+# text = Einige starke Schmerz-Mittel können den Schmerz sogar noch schlimmer machen.
+# sent_id = 122
+1	Einige	einige	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=6066|end_char=6072
+2	starke	stark	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=6073|end_char=6079
+3	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	compound	_	start_char=6080|end_char=6087
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=6087|end_char=6088
+5	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	start_char=6088|end_char=6094
+6	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=6095|end_char=6101
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=6102|end_char=6105
+8	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=6106|end_char=6113
+9	sogar	sogar	ADV	ADV	_	10	advmod	_	start_char=6114|end_char=6119
+10	noch	noch	ADV	ADV	_	12	advmod	_	start_char=6120|end_char=6124
+11	schlimmer	schlimm	ADJ	ADJD	Degree=Cmp	12	xcomp	_	start_char=6125|end_char=6134
+12	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6135|end_char=6141
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=6141|end_char=6142
+
+# text = Manche Kopf-Schmerz-Tabletten können Kopf-Schmerzen auslösen.
+# sent_id = 123
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	start_char=6143|end_char=6149
+2	Kopf	Kopf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	compound	_	start_char=6150|end_char=6154
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=6154|end_char=6155
+4	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	compound	_	start_char=6155|end_char=6162
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=6162|end_char=6163
+6	Tabletten	Tablett	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=6163|end_char=6172
+7	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=6173|end_char=6179
+8	Kopf	Kopf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	compound	_	start_char=6180|end_char=6184
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=6184|end_char=6185
+10	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=6185|end_char=6194
+11	auslösen	auslösen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6195|end_char=6203
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=6203|end_char=6204
+
+# text = Chronischer Schmerz ist ein Schmerz, der sehr lange anhält.
+# sent_id = 124
+1	Chronischer	chronisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=6205|end_char=6216
+2	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=6217|end_char=6224
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=6225|end_char=6228
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=6229|end_char=6232
+5	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=6233|end_char=6240
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=6240|end_char=6241
+7	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	10	nsubj	_	start_char=6242|end_char=6245
+8	sehr	sehr	ADV	ADV	_	9	advmod	_	start_char=6246|end_char=6250
+9	lange	lang	ADJ	ADV	Degree=Pos	10	advmod	_	start_char=6251|end_char=6256
+10	anhält	anhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=6257|end_char=6263
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=6263|end_char=6264
+
+# text = Bei chronischem Schmerz sind die Nerven im Gehirn und Rücken-Mark anders aktiv.
+# sent_id = 125
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=6265|end_char=6268
+2	chronischem	chronisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=6269|end_char=6280
+3	Schmerz	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	start_char=6281|end_char=6288
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=6289|end_char=6293
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=6294|end_char=6297
+6	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	start_char=6298|end_char=6304
+7-8	im	_	_	_	_	_	_	_	start_char=6305|end_char=6307
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	nmod	_	start_char=6308|end_char=6314
+10	und	und	CCONJ	KON	_	13	cc	_	start_char=6315|end_char=6318
+11	Rücken	Rücken	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	compound	_	start_char=6319|end_char=6325
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=6325|end_char=6326
+13	Mark	Mark	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	9	conj	_	start_char=6326|end_char=6330
+14	anders	anders	ADV	ADV	_	15	advmod	_	start_char=6331|end_char=6337
+15	aktiv	aktiv	ADJ	ADJD	Degree=Pos	0	root	_	start_char=6338|end_char=6343
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=6343|end_char=6344
+
+# text = Das sagt Herta Flor.
+# sent_id = 126
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=6345|end_char=6348
+2	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6349|end_char=6353
+3	Herta	Herta	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=6354|end_char=6359
+4	Flor	Flor	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	flat	_	start_char=6360|end_char=6364
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=6364|end_char=6365
+
+# text = Der Schmerz hat sich dann verselbstständigt und ist im Gedächtnis gespeichert.
+# sent_id = 127
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=6366|end_char=6369
+2	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=6370|end_char=6377
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=6378|end_char=6381
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	start_char=6382|end_char=6386
+5	dann	dann	ADV	ADV	_	6	advmod	_	start_char=6387|end_char=6391
+6	verselbstständigt	verselbständigen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=6392|end_char=6409
+7	und	und	CCONJ	KON	_	12	cc	_	start_char=6410|end_char=6413
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=6414|end_char=6417
+9-10	im	_	_	_	_	_	_	_	start_char=6418|end_char=6420
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Gedächtnis	Gedächtnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	start_char=6421|end_char=6431
+12	gespeichert	speichern	ADJ	VVPP	Degree=Pos|VerbForm=Part	6	conj	_	start_char=6432|end_char=6443
+13	.	.	PUNCT	$.	_	6	punct	_	start_char=6443|end_char=6444
+
+# text = Aber es gibt auch eine gute Nachricht: Man kann lernen, den chronischen Schmerz zu vergessen.
+# sent_id = 128
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=6445|end_char=6449
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=6450|end_char=6452
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6453|end_char=6457
+4	auch	auch	ADV	ADV	_	3	advmod	_	start_char=6458|end_char=6462
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=6463|end_char=6467
+6	gute	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=6468|end_char=6472
+7	Nachricht	Nachricht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=6473|end_char=6482
+8	:	:	PUNCT	$.	_	11	punct	_	start_char=6482|end_char=6483
+9	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=6484|end_char=6487
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=6488|end_char=6492
+11	lernen	lernen	VERB	VVINF	VerbForm=Inf	3	parataxis	_	start_char=6493|end_char=6499
+12	,	,	PUNCT	$,	_	17	punct	_	start_char=6499|end_char=6500
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=6501|end_char=6504
+14	chronischen	chronisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=6505|end_char=6516
+15	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=6517|end_char=6524
+16	zu	zu	PART	PTKZU	_	17	mark	_	start_char=6525|end_char=6527
+17	vergessen	vergessen	VERB	VVINF	VerbForm=Inf	11	xcomp	_	start_char=6528|end_char=6537
+18	.	.	PUNCT	$.	_	3	punct	_	start_char=6537|end_char=6538
+
+# text = Fühlen Sie keine Schmerzen?
+# sent_id = 129
+1	Fühlen	Fühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6540|end_char=6546
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=6547|end_char=6550
+3	keine	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Neg	4	det	_	start_char=6551|end_char=6556
+4	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=6557|end_char=6566
+5	?	?	PUNCT	$.	_	1	punct	_	start_char=6566|end_char=6567
+
+# text = Dann können Sie sich leichter verletzen.
+# sent_id = 130
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=6568|end_char=6572
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=6573|end_char=6579
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=6580|end_char=6583
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	start_char=6584|end_char=6588
+5	leichter	leicht	ADJ	ADJD	Degree=Cmp	6	advmod	_	start_char=6589|end_char=6597
+6	verletzen	verletzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6598|end_char=6607
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=6607|end_char=6608
+
+# text = Manche Menschen haben nie Schmerzen.
+# sent_id = 131
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=6610|end_char=6616
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=6617|end_char=6625
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6626|end_char=6631
+4	nie	nie	ADV	ADV	_	3	advmod	_	start_char=6632|end_char=6635
+5	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=6636|end_char=6645
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=6645|end_char=6646
+
+# text = Aber ist das gut?
+# sent_id = 132
+1	Aber	aber	CCONJ	KON	_	4	cc	_	start_char=6647|end_char=6651
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=6652|end_char=6655
+3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=6656|end_char=6659
+4	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	start_char=6660|end_char=6663
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=6663|end_char=6664
+
+# text = Flor sagt: "Das ist nicht gut.
+# sent_id = 133
+1	Flor	Flor	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=6665|end_char=6669
+2	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6670|end_char=6674
+3	:	:	PUNCT	$.	_	8	punct	_	start_char=6674|end_char=6675
+4	"	"	PUNCT	$(	_	8	punct	_	start_char=6676|end_char=6677
+5	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	nsubj	_	start_char=6677|end_char=6680
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=6681|end_char=6684
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=6685|end_char=6690
+8	gut	gut	ADJ	ADJD	Degree=Pos	2	parataxis	_	start_char=6691|end_char=6694
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=6694|end_char=6695
+
+# text = Es kann sogar gefährlich sein."
+# sent_id = 134
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=6696|end_char=6698
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6699|end_char=6703
+3	sogar	sogar	ADV	ADV	_	4	advmod	_	start_char=6704|end_char=6709
+4	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=6710|end_char=6720
+5	sein	sein	AUX	VAINF	VerbForm=Inf	4	cop	_	start_char=6721|end_char=6725
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=6725|end_char=6726
+7	"	"	PUNCT	$(	_	4	punct	_	start_char=6726|end_char=6727
+
+# text = Studien zeigen auch: Es ist nicht gut, nie Schmerzen zu haben.
+# sent_id = 135
+1	Studien	Studie|Studium	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=6728|end_char=6735
+2	zeigen	zeigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6736|end_char=6742
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=6743|end_char=6747
+4	:	:	PUNCT	$.	_	8	punct	_	start_char=6747|end_char=6748
+5	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	start_char=6749|end_char=6751
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=6752|end_char=6755
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=6756|end_char=6761
+8	gut	gut	ADJ	ADJD	Degree=Pos	2	parataxis	_	start_char=6762|end_char=6765
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=6765|end_char=6766
+10	nie	nie	ADV	ADV	_	13	advmod	_	start_char=6767|end_char=6770
+11	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obj	_	start_char=6771|end_char=6780
+12	zu	zu	PART	PTKZU	_	13	mark	_	start_char=6781|end_char=6783
+13	haben	haben	VERB	VAINF	VerbForm=Inf	8	xcomp	_	start_char=6784|end_char=6789
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=6789|end_char=6790
+
+# text = Manche Menschen verbrennen sich an heißen Herd-Platten.
+# sent_id = 136
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=6792|end_char=6798
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=6799|end_char=6807
+3	verbrennen	verbrennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6808|end_char=6818
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=6819|end_char=6823
+5	an	an	ADP	APPR	_	9	case	_	start_char=6824|end_char=6826
+6	heißen	heißen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=6827|end_char=6833
+7	Herd	Herd	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	compound	_	start_char=6834|end_char=6838
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=6838|end_char=6839
+9	Platten	Platte	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	start_char=6839|end_char=6846
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=6846|end_char=6847
+
+# text = Oder sie brechen sich einen Knochen.
+# sent_id = 137
+1	Oder	Oder	CCONJ	KON	_	3	cc	_	start_char=6848|end_char=6852
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=6853|end_char=6856
+3	brechen	brechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6857|end_char=6864
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=6865|end_char=6869
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=6870|end_char=6875
+6	Knochen	Knochen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=6876|end_char=6883
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=6883|end_char=6884
+
+# text = Aber sie merken das nicht sofort.
+# sent_id = 138
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=6885|end_char=6889
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=6890|end_char=6893
+3	merken	merken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6894|end_char=6900
+4	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	obj	_	start_char=6901|end_char=6904
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=6905|end_char=6910
+6	sofort	sofort	ADV	ADV	_	3	advmod	_	start_char=6911|end_char=6917
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=6917|end_char=6918
+
+# text = Kleine Kinder sind besonders gefährdet.
+# sent_id = 139
+1	Kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	2	amod	_	start_char=6919|end_char=6925
+2	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=6926|end_char=6932
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=6933|end_char=6937
+4	besonders	besonders	ADV	ADV	_	5	advmod	_	start_char=6938|end_char=6947
+5	gefährdet	gefährden	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=6948|end_char=6957
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=6957|end_char=6958
+
+# text = Sie verletzen sich oft nach dem Zahnen.
+# sent_id = 140
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=6959|end_char=6962
+2	verletzen	verletzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6963|end_char=6972
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=6973|end_char=6977
+4	oft	oft	ADV	ADV	_	2	advmod	_	start_char=6978|end_char=6981
+5	nach	nach	ADP	APPR	_	7	case	_	start_char=6982|end_char=6986
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=6987|end_char=6990
+7	Zahnen	Zahn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=6991|end_char=6997
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=6997|end_char=6998
+
+# text = Dann beißen sie sich auf die Zunge, die Lippen oder die Finger.
+# sent_id = 141
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=6999|end_char=7003
+2	beißen	beißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7004|end_char=7010
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=7011|end_char=7014
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=7015|end_char=7019
+5	auf	auf	ADP	APPR	_	7	case	_	start_char=7020|end_char=7023
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=7024|end_char=7027
+7	Zunge	Zunge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=7028|end_char=7033
+8	,	,	PUNCT	$,	_	10	punct	_	start_char=7033|end_char=7034
+9	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=7035|end_char=7038
+10	Lippen	Lippe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	conj	_	start_char=7039|end_char=7045
+11	oder	oder	CCONJ	KON	_	13	cc	_	start_char=7046|end_char=7050
+12	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=7051|end_char=7054
+13	Finger	Finger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	conj	_	start_char=7055|end_char=7061
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=7061|end_char=7062
+
+# text = Nur wenige Menschen spüren fast keine Schmerzen.
+# sent_id = 142
+1	Nur	nur	ADV	ADV	_	2	advmod	_	start_char=7063|end_char=7066
+2	wenige	wenig	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=7067|end_char=7073
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=7074|end_char=7082
+4	spüren	spüren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7083|end_char=7089
+5	fast	fast	ADV	ADV	_	6	advmod	_	start_char=7090|end_char=7094
+6	keine	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Neg	7	det	_	start_char=7095|end_char=7100
+7	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=7101|end_char=7110
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=7110|end_char=7111
+
+# text = Forscher untersuchen diese Menschen.
+# sent_id = 143
+1	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=7112|end_char=7120
+2	untersuchen	untersuchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7121|end_char=7132
+3	diese	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	start_char=7133|end_char=7138
+4	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=7139|end_char=7147
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=7147|end_char=7148
+
+# text = Sie hoffen, dass sie dadurch neue Medikamente entwickeln können.
+# sent_id = 144
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=7149|end_char=7152
+2	hoffen	hoffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7153|end_char=7159
+3	,	,	PUNCT	$,	_	9	punct	_	start_char=7159|end_char=7160
+4	dass	dass	SCONJ	KOUS	_	9	mark	_	start_char=7161|end_char=7165
+5	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=7166|end_char=7169
+6	dadurch	dadurch	ADV	PAV	PronType=Dem	9	advmod	_	start_char=7170|end_char=7177
+7	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	start_char=7178|end_char=7182
+8	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	start_char=7183|end_char=7194
+9	entwickeln	entwickeln	VERB	VVINF	VerbForm=Inf	2	ccomp	_	start_char=7195|end_char=7205
+10	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=7206|end_char=7212
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=7212|end_char=7213
+
+# text = Diese Medikamente sollen die Wirkung der Gen-Fehler dieser Menschen nachahmen.
+# sent_id = 145
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	start_char=7214|end_char=7219
+2	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	start_char=7220|end_char=7231
+3	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=7232|end_char=7238
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=7239|end_char=7242
+5	Wirkung	Wirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=7243|end_char=7250
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=7251|end_char=7254
+7	Gen	Gen	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	9	compound	_	start_char=7255|end_char=7258
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=7258|end_char=7259
+9	Fehler	Fehler	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=7259|end_char=7265
+10	dieser	dieser	DET	PDAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	11	det	_	start_char=7266|end_char=7272
+11	Menschen	Mensch	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	start_char=7273|end_char=7281
+12	nachahmen	nachahmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7282|end_char=7291
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=7291|end_char=7292
+

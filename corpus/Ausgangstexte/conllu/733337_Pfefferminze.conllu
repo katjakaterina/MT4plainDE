@@ -1,0 +1,772 @@
+# text = Pfefferminze: Hilfreich gegen Kopf- und Bauchschmerzen?
+# sent_id = 0
+1	Pfefferminze	Pfefferminze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=12
+2	:	:	PUNCT	$.	_	3	punct	_	start_char=12|end_char=13
+3	Hilfreich	hilfreich	ADJ	NN	Case=Nom|Degree=Pos|Number=Sing	1	appos	_	start_char=14|end_char=23
+4	gegen	gegen	ADP	APPR	_	5	case	_	start_char=24|end_char=29
+5	Kopf-	Kopf-	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=30|end_char=35
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=36|end_char=39
+7	Bauchschmerzen	Bauchschmerz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	start_char=40|end_char=54
+8	?	?	PUNCT	$.	_	3	punct	_	start_char=54|end_char=55
+
+# text = Pfefferminzöl hilft bei Verdauungsbeschwerden und Reizdarm.
+# sent_id = 1
+1	Pfefferminzöl	Pfefferminzöl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=56|end_char=69
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=70|end_char=75
+3	bei	bei	ADP	APPR	_	4	case	_	start_char=76|end_char=79
+4	Verdauungsbeschwerden	Verdauungsbeschwerden	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=80|end_char=101
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=102|end_char=105
+6	Reizdarm	Reizdarm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	conj	_	start_char=106|end_char=114
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=114|end_char=115
+
+# text = Zugleich kann es Kopfschmerzen und Erkältungssymptome lindern
+# sent_id = 2
+1	Zugleich	zugleich	ADV	ADV	_	7	advmod	_	start_char=116|end_char=124
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=125|end_char=129
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=130|end_char=132
+4	Kopfschmerzen	Kopfschmerz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=133|end_char=146
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=147|end_char=150
+6	Erkältungssymptome	Erkältungssymptome	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	start_char=151|end_char=169
+7	lindern	lindern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=170|end_char=177
+
+# text = Unsere Inhalte sind pharmazeutisch und medizinisch geprüft
+# sent_id = 3
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=179|end_char=185
+2	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=186|end_char=193
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=194|end_char=198
+4	pharmazeutisch	pharmazeutisch	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=199|end_char=213
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=214|end_char=217
+6	medizinisch	medizinisch	ADV	ADJD	_	4	conj	_	start_char=218|end_char=229
+7	geprüft	prüfen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=230|end_char=237
+
+# text = Von Dr. Martina Melzer, Aktualisiert am 14.01.2020 * WELCHE INHALTSSTOFFE KOMMEN IN PFEFFERMINZE VOR? * GEGEN WAS HILFT PFEFFERMINZE? * WAS IST BEI DER ANWENDUNG ZU BEACHTEN? * NEBENWIRKUNGEN UND WECHSELWIRKUNGEN Pfefferminze  kurz erklärt Die Pfefferminze, lateinisch: Mentha x piperita, ist eine seit Langem bekannte Heilpflanze.
+# sent_id = 4
+1	Von	von	ADP	APPR	_	3	case	_	start_char=239|end_char=242
+2	Dr.	Dr.	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	compound	_	start_char=243|end_char=246
+3	Martina	Martina	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	53	nmod	_	start_char=247|end_char=254
+4	Melzer	Melzer	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	3	flat	_	start_char=255|end_char=261
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=261|end_char=262
+6	Aktualisiert	aktualisieren	VERB	VVPP	VerbForm=Part	3	acl	_	start_char=263|end_char=275
+7-8	am	_	_	_	_	_	_	_	start_char=276|end_char=278
+7	an	an	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	14.01.2020	14.01.2020	NUM	CARD	Case=Dat|NumType=Card|Number=Sing	6	obl	_	start_char=279|end_char=289
+10	*	*	PUNCT	$(	_	11	cc	_	start_char=290|end_char=291
+11	WELCHE	WELCHE	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	start_char=292|end_char=298
+12	INHALTSSTOFFE	INHALTSSTOFFE	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	flat	_	start_char=299|end_char=312
+13	KOMMEN	KOMMEN	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	flat	_	start_char=313|end_char=319
+14	IN	IN	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	flat	_	start_char=320|end_char=322
+15	PFEFFERMINZE	PFEFFERMINZE	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	flat	_	start_char=323|end_char=335
+16	VOR?	VOR?	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	flat	_	start_char=336|end_char=340
+17	*	*	PUNCT	$(	_	18	cc	_	start_char=341|end_char=342
+18	GEGEN	GEGEN	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	flat	_	start_char=343|end_char=348
+19	WAS	WAS	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	18	flat	_	start_char=349|end_char=352
+20	HILFT	HILFT	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	18	flat	_	start_char=353|end_char=358
+21	PFEFFERMINZE?	PFEFFERMINZE?	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	18	flat	_	start_char=359|end_char=372
+22	*	*	PUNCT	$(	_	18	cc	_	start_char=373|end_char=374
+23	WAS	WAS	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	18	flat	_	start_char=375|end_char=378
+24	IST	IST	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	23	flat	_	start_char=379|end_char=382
+25	BEI	BEI	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	23	flat	_	start_char=383|end_char=386
+26	DER	DER	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	23	flat	_	start_char=387|end_char=390
+27	ANWENDUNG	ANWENDUNG	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	23	flat	_	start_char=391|end_char=400
+28	ZU	ZU	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	23	flat	_	start_char=401|end_char=403
+29	BEACHTEN	BEACHTEN	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	23	flat	_	start_char=404|end_char=412
+30	?	?	PUNCT	$.	_	23	punct	_	start_char=412|end_char=413
+31	*	*	PUNCT	$(	_	35	cc	_	start_char=414|end_char=415
+32	NEBENWIRKUNGEN	nebenwirkungen	ADV	NE	Case=Nom|Gender=Neut|Number=Sing	35	advmod	_	start_char=416|end_char=430
+33	UND	UND	ADV	NE	Case=Nom|Number=Sing	34	advmod	_	start_char=431|end_char=434
+34	WECHSELWIRKUNGEN	WECHSELWIRKUNGEN	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	35	nmod	_	start_char=435|end_char=451
+35	Pfefferminze	Pfefferminze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	appos	_	start_char=452|end_char=464
+36		"	PUNCT	$(	_	38	punct	_	start_char=465|end_char=466
+37	kurz	kurz	ADJ	ADJD	Degree=Pos	38	advmod	_	start_char=467|end_char=471
+38	erklärt	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	parataxis	_	start_char=472|end_char=479
+39	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	start_char=480|end_char=483
+40	Pfefferminze	Pfefferminze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	nsubj	_	start_char=484|end_char=496
+41	,	,	PUNCT	$,	_	44	punct	_	start_char=496|end_char=497
+42	lateinisch	lateinisch	ADJ	ADJD	Degree=Pos	44	amod	_	start_char=498|end_char=508
+43	:	:	PUNCT	$.	_	42	punct	_	start_char=508|end_char=509
+44	Mentha	Mentha	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	40	appos	_	start_char=510|end_char=516
+45	x	x	PROPN	NE	_	44	flat	_	start_char=517|end_char=518
+46	piperita	piperita	PROPN	NE	_	44	amod	_	start_char=519|end_char=527
+47	,	,	PUNCT	$,	_	44	punct	_	start_char=527|end_char=528
+48	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	cop	_	start_char=529|end_char=532
+49	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	53	det	_	start_char=533|end_char=537
+50	seit	seit	ADP	APPR	_	51	case	_	start_char=538|end_char=542
+51	Langem	Lange	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	52	nmod	_	start_char=543|end_char=549
+52	bekannte	bekannt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	53	amod	_	start_char=550|end_char=558
+53	Heilpflanze	Heilpflanze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=559|end_char=570
+54	.	.	PUNCT	$.	_	53	punct	_	start_char=570|end_char=571
+
+# text = Sie soll unter anderem Reizdarmbeschwerden und Spannungskopfschmerzen lindern.
+# sent_id = 5
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=572|end_char=575
+2	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=576|end_char=580
+3	unter	unter	ADP	APPR	_	4	case	_	start_char=581|end_char=586
+4	anderem	ander	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	8	obl	_	start_char=587|end_char=594
+5	Reizdarmbeschwerden	Reizdarmbeschwerden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=595|end_char=614
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=615|end_char=618
+7	Spannungskopfschmerzen	Spannungskopfschmerzen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	start_char=619|end_char=641
+8	lindern	lindern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=642|end_char=649
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=649|end_char=650
+
+# text = Pfefferminzöl darf nicht bei Babys, Kleinkindern und Menschen mit Asthma angewendet werden.
+# sent_id = 6
+1	Pfefferminzöl	Pfefferminzöl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj:pass	_	start_char=651|end_char=664
+2	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=665|end_char=669
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=670|end_char=675
+4	bei	bei	ADP	APPR	_	5	case	_	start_char=676|end_char=679
+5	Babys	Baby	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	start_char=680|end_char=685
+6	,	,	PUNCT	$,	_	7	punct	_	start_char=685|end_char=686
+7	Kleinkindern	Kleinkinder	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	start_char=687|end_char=699
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=700|end_char=703
+9	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	start_char=704|end_char=712
+10	mit	mit	ADP	APPR	_	11	case	_	start_char=713|end_char=716
+11	Asthma	Asthma	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	start_char=717|end_char=723
+12	angewendet	anwenden	VERB	VVPP	VerbForm=Part	0	root	_	start_char=724|end_char=734
+13	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	12	aux:pass	_	start_char=735|end_char=741
+14	.	.	PUNCT	$.	_	12	punct	_	start_char=741|end_char=742
+
+# text = Welche Inhaltsstoffe kommen in Pfefferminze vor?
+# sent_id = 7
+1	Welche	welch	PRON	PWAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Int	2	det	_	start_char=744|end_char=750
+2	Inhaltsstoffe	Inhaltsstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=751|end_char=764
+3	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=765|end_char=771
+4	in	in	ADP	APPR	_	5	case	_	start_char=772|end_char=774
+5	Pfefferminze	Pfefferminze	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=775|end_char=787
+6	vor	vor	ADP	PTKVZ	_	3	compound:prt	_	start_char=788|end_char=791
+7	?	?	PUNCT	$.	_	3	punct	_	start_char=791|end_char=792
+
+# text = Als pflanzliche Arznei dienen die Pfefferminzblätter, welche ätherisches Öl enthalten.
+# sent_id = 8
+1	Als	als	ADP	KOKOM	_	3	case	_	start_char=794|end_char=797
+2	pflanzliche	pflanzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=798|end_char=809
+3	Arznei	Arznei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obl	_	start_char=810|end_char=816
+4	dienen	dienen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=817|end_char=823
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	start_char=824|end_char=827
+6	Pfefferminzblätter	Pfefferminzblätter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=828|end_char=846
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=846|end_char=847
+8	welche	welch	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	11	nsubj	_	start_char=848|end_char=854
+9	ätherisches	ätherisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=855|end_char=866
+10	Öl	Öl	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=867|end_char=869
+11	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=870|end_char=879
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=879|end_char=880
+
+# text = Es setzt sich hauptsächlich aus den Substanzen Menthol und Menthon zusammen.
+# sent_id = 9
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=881|end_char=883
+2	setzt	setzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=884|end_char=889
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=890|end_char=894
+4	hauptsächlich	hauptsächlich	ADJ	ADV	Degree=Pos	2	advmod	_	start_char=895|end_char=908
+5	aus	aus	ADP	APPR	_	7	case	_	start_char=909|end_char=912
+6	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=913|end_char=916
+7	Substanzen	Substanz	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=917|end_char=927
+8	Menthol	Menthol	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	appos	_	start_char=928|end_char=935
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=936|end_char=939
+10	Menthon	Menthon	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	conj	_	start_char=940|end_char=947
+11	zusammen	zusammen	ADV	PTKVZ	_	2	compound:prt	_	start_char=948|end_char=956
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=956|end_char=957
+
+# text = Für den charakteristischen Geruch ist Menthol verantwortlich.
+# sent_id = 10
+1	Für	für	ADP	APPR	_	4	case	_	start_char=958|end_char=961
+2	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=962|end_char=965
+3	charakteristischen	charakteristisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=966|end_char=984
+4	Geruch	Geruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	start_char=985|end_char=991
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=992|end_char=995
+6	Menthol	Menthol	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=996|end_char=1003
+7	verantwortlich	verantwortlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1004|end_char=1018
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1018|end_char=1019
+
+# text = Gegen was hilft Pfefferminze?
+# sent_id = 11
+1	Gegen	gegen	ADP	APPR	_	2	case	_	start_char=1020|end_char=1025
+2	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	obl	_	start_char=1026|end_char=1029
+3	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1030|end_char=1035
+4	Pfefferminze	Pfefferminze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1036|end_char=1048
+5	?	?	PUNCT	$.	_	3	punct	_	start_char=1048|end_char=1049
+
+# text = * Verdauungsprobleme Pfefferminztee kann gegen leichte Magen-Darm-Beschwerden wie Völlegefühl, Bauschmerzen und Blähungen helfen.
+# sent_id = 12
+1	*	*	PUNCT	$(	_	2	dep	_	start_char=1051|end_char=1052
+2	Verdauungsprobleme	Verdauungsprobleme	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	compound	_	start_char=1053|end_char=1071
+3	Pfefferminztee	Pfefferminztee	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	start_char=1072|end_char=1086
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=1087|end_char=1091
+5	gegen	gegen	ADP	APPR	_	11	case	_	start_char=1092|end_char=1097
+6	leichte	leicht	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=1098|end_char=1105
+7	Magen	Mage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	compound	_	start_char=1106|end_char=1111
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=1111|end_char=1112
+9	Darm	Darm	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	compound	_	start_char=1112|end_char=1116
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=1116|end_char=1117
+11	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obl	_	start_char=1117|end_char=1128
+12	wie	wie	ADP	KOKOM	_	13	case	_	start_char=1129|end_char=1132
+13	Völlegefühl	Völlegefühl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	start_char=1133|end_char=1144
+14	,	,	PUNCT	$,	_	15	punct	_	start_char=1144|end_char=1145
+15	Bauschmerzen	Bauschmerz	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	conj	_	start_char=1146|end_char=1158
+16	und	und	CCONJ	KON	_	17	cc	_	start_char=1159|end_char=1162
+17	Blähungen	Blahung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	conj	_	start_char=1163|end_char=1172
+18	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1173|end_char=1179
+19	.	.	PUNCT	$.	_	18	punct	_	start_char=1179|end_char=1180
+
+# text = * Reizdarm Das ätherische Öl lindert leichte Bauchkrämpfe, Bauchschmerzen und Blähungen, indem es unter anderem die Darmmuskeln entspannt.
+# sent_id = 13
+1	*	*	PUNCT	$(	_	2	dep	_	start_char=1181|end_char=1182
+2	Reizdarm	Reizdarm	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=1183|end_char=1191
+3	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1192|end_char=1195
+4	ätherische	ätherisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=1196|end_char=1206
+5	Öl	Öl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	start_char=1207|end_char=1209
+6	lindert	lindern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1210|end_char=1217
+7	leichte	leicht	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=1218|end_char=1225
+8	Bauchkrämpfe	Bauchkrampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=1226|end_char=1238
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=1238|end_char=1239
+10	Bauchschmerzen	Bauchschmerz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	conj	_	start_char=1240|end_char=1254
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=1255|end_char=1258
+12	Blähungen	Blahung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	conj	_	start_char=1259|end_char=1268
+13	,	,	PUNCT	$,	_	20	punct	_	start_char=1268|end_char=1269
+14	indem	indem	SCONJ	KOUS	_	20	mark	_	start_char=1270|end_char=1275
+15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=1276|end_char=1278
+16	unter	unter	ADP	APPR	_	17	case	_	start_char=1279|end_char=1284
+17	anderem	ander	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	20	obl	_	start_char=1285|end_char=1292
+18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=1293|end_char=1296
+19	Darmmuskeln	Darmmuskel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	start_char=1297|end_char=1308
+20	entspannt	entspannen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=1309|end_char=1318
+21	.	.	PUNCT	$.	_	6	punct	_	start_char=1318|end_char=1319
+
+# text = Solche Beschwerden treten häufig bei einem Reizdarmsyndrom auf.
+# sent_id = 14
+1	Solche	solch	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	start_char=1320|end_char=1326
+2	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=1327|end_char=1338
+3	treten	treten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1339|end_char=1345
+4	häufig	häufig	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=1346|end_char=1352
+5	bei	bei	ADP	APPR	_	7	case	_	start_char=1353|end_char=1356
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=1357|end_char=1362
+7	Reizdarmsyndrom	Reizdarmsyndrom	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=1363|end_char=1378
+8	auf	auf	ADP	PTKVZ	_	3	compound:prt	_	start_char=1379|end_char=1382
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=1382|end_char=1383
+
+# text = Studien an Reizdarmpatienten zeigen, dass Fertigarzneimittel mit Pfefferminzöl die Symptome durchaus abmildern können.
+# sent_id = 15
+1	Studien	Studie|Studium	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=1384|end_char=1391
+2	an	an	ADP	APPR	_	3	case	_	start_char=1392|end_char=1394
+3	Reizdarmpatienten	Reizdarmpatient	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	1	nmod	_	start_char=1395|end_char=1412
+4	zeigen	zeigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1413|end_char=1419
+5	,	,	PUNCT	$,	_	13	punct	_	start_char=1419|end_char=1420
+6	dass	dass	SCONJ	KOUS	_	13	mark	_	start_char=1421|end_char=1425
+7	Fertigarzneimittel	Fertigarzneimittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	start_char=1426|end_char=1444
+8	mit	mit	ADP	APPR	_	9	case	_	start_char=1445|end_char=1448
+9	Pfefferminzöl	Pfefferminzöl	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=1449|end_char=1462
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	start_char=1463|end_char=1466
+11	Symptome	Symptom	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	start_char=1467|end_char=1475
+12	durchaus	durchaus	ADV	ADV	_	13	advmod	_	start_char=1476|end_char=1484
+13	abmildern	abmildern	VERB	VVINF	VerbForm=Inf	4	ccomp	_	start_char=1485|end_char=1494
+14	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=1495|end_char=1501
+15	.	.	PUNCT	$.	_	4	punct	_	start_char=1501|end_char=1502
+
+# text = * Spannungskopfschmerz Wer Pfefferminzöl in die Haut einmassiert, verspürt einen kühlenden Effekt.
+# sent_id = 16
+1	*	*	PUNCT	$(	_	2	dep	_	start_char=1503|end_char=1504
+2	Spannungskopfschmerz	Spannungskopfschmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=1505|end_char=1525
+3	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	8	nsubj	_	start_char=1526|end_char=1529
+4	Pfefferminzöl	Pfefferminzöl	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=1530|end_char=1543
+5	in	in	ADP	APPR	_	7	case	_	start_char=1544|end_char=1546
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1547|end_char=1550
+7	Haut	Haut	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	start_char=1551|end_char=1555
+8	einmassiert	einmassieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	start_char=1556|end_char=1567
+9	,	,	PUNCT	$,	_	8	punct	_	start_char=1567|end_char=1568
+10	verspürt	verspüren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1569|end_char=1577
+11	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=1578|end_char=1583
+12	kühlenden	kühlend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=1584|end_char=1593
+13	Effekt	Effekt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=1594|end_char=1600
+14	.	.	PUNCT	$.	_	10	punct	_	start_char=1600|end_char=1601
+
+# text = Vermutlich regen die Inhaltsstoffe des Öls Kälterezeptoren in der Haut an.
+# sent_id = 17
+1	Vermutlich	vermutlich	ADJ	ADV	Degree=Pos	2	advmod	_	start_char=1602|end_char=1612
+2	regen	rege	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1613|end_char=1618
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	start_char=1619|end_char=1622
+4	Inhaltsstoffe	Inhaltsstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=1623|end_char=1636
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=1637|end_char=1640
+6	Öls	Öls	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=1641|end_char=1644
+7	Kälterezeptoren	Kälterezeptoren	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	2	obj	_	start_char=1645|end_char=1660
+8	in	in	ADP	APPR	_	10	case	_	start_char=1661|end_char=1663
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1664|end_char=1667
+10	Haut	Haut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=1668|end_char=1672
+11	an	an	ADP	PTKVZ	_	2	compound:prt	_	start_char=1673|end_char=1675
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=1675|end_char=1676
+
+# text = Dieser Vorgang soll zugleich dort befindliche Schmerzfasern unempfindlicher machen, weshalb die Heilpflanze unter anderem als Hausmittel gegen Spannungskopfschmerzen gilt.
+# sent_id = 18
+1	Dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=1677|end_char=1683
+2	Vorgang	Vorgang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=1684|end_char=1691
+3	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1692|end_char=1696
+4	zugleich	zugleich	ADV	ADV	_	9	advmod	_	start_char=1697|end_char=1705
+5	dort	dort	ADV	ADV	_	6	advmod	_	start_char=1706|end_char=1710
+6	befindliche	befindlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=1711|end_char=1722
+7	Schmerzfasern	Schmerzfaser	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	start_char=1723|end_char=1736
+8	unempfindlicher	unempfindlich	ADJ	ADJD	Degree=Pos	9	xcomp	_	start_char=1737|end_char=1752
+9	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1753|end_char=1759
+10	,	,	PUNCT	$,	_	20	punct	_	start_char=1759|end_char=1760
+11	weshalb	weshalb	ADV	PWAV	PronType=Int	20	advmod	_	start_char=1761|end_char=1768
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=1769|end_char=1772
+13	Heilpflanze	Heilpflanze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	start_char=1773|end_char=1784
+14	unter	unter	ADP	APPR	_	15	case	_	start_char=1785|end_char=1790
+15	anderem	ander	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	20	obl	_	start_char=1791|end_char=1798
+16	als	als	ADP	KOKOM	_	17	case	_	start_char=1799|end_char=1802
+17	Hausmittel	Hausmittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	20	xcomp	_	start_char=1803|end_char=1813
+18	gegen	gegen	ADP	APPR	_	19	case	_	start_char=1814|end_char=1819
+19	Spannungskopfschmerzen	Spannungskopfschmerzen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	nmod	_	start_char=1820|end_char=1842
+20	gilt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=1843|end_char=1847
+21	.	.	PUNCT	$.	_	9	punct	_	start_char=1847|end_char=1848
+
+# text = * Erkältung Pfefferminzöl soll bei einer Erkältung Schleim aus den Bronchien lösen und das Atmen bei einer verstopften Nase erleichtern.
+# sent_id = 19
+1	*	*	PUNCT	$(	_	2	dep	_	start_char=1849|end_char=1850
+2	Erkältung	Erkältung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	compound	_	start_char=1851|end_char=1860
+3	Pfefferminzöl	Pfefferminzöl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	start_char=1861|end_char=1874
+4	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=1875|end_char=1879
+5	bei	bei	ADP	APPR	_	7	case	_	start_char=1880|end_char=1883
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1884|end_char=1889
+7	Erkältung	Erkältung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	start_char=1890|end_char=1899
+8	Schleim	Schleim	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=1900|end_char=1907
+9	aus	aus	ADP	APPR	_	11	case	_	start_char=1908|end_char=1911
+10	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=1912|end_char=1915
+11	Bronchien	Bronchien	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	start_char=1916|end_char=1925
+12	lösen	lösen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1926|end_char=1931
+13	und	und	CCONJ	KON	_	20	cc	_	start_char=1932|end_char=1935
+14	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	start_char=1936|end_char=1939
+15	Atmen	Atme	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	start_char=1940|end_char=1945
+16	bei	bei	ADP	APPR	_	19	case	_	start_char=1946|end_char=1949
+17	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=1950|end_char=1955
+18	verstopften	verstopft	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=1956|end_char=1967
+19	Nase	Nase	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	start_char=1968|end_char=1972
+20	erleichtern	erleichtern	VERB	VVINF	VerbForm=Inf	12	conj	_	start_char=1973|end_char=1984
+21	.	.	PUNCT	$.	_	12	punct	_	start_char=1984|end_char=1985
+
+# text = Es lässt sich inhalieren, als Balsam auf die Haut einreiben oder ist Bestandteil von Nasensprays.
+# sent_id = 20
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=1986|end_char=1988
+2	lässt	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1989|end_char=1994
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=1995|end_char=1999
+4	inhalieren	inhalieren	VERB	VVINF	VerbForm=Inf	2	xcomp	_	start_char=2000|end_char=2010
+5	,	,	PUNCT	$,	_	11	punct	_	start_char=2010|end_char=2011
+6	als	als	ADP	KOKOM	_	7	case	_	start_char=2012|end_char=2015
+7	Balsam	Balsam	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	start_char=2016|end_char=2022
+8	auf	auf	ADP	APPR	_	10	case	_	start_char=2023|end_char=2026
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=2027|end_char=2030
+10	Haut	Haut	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=2031|end_char=2035
+11	einreiben	einreiben	VERB	VVINF	VerbForm=Inf	4	conj	_	start_char=2036|end_char=2045
+12	oder	oder	CCONJ	KON	_	14	cc	_	start_char=2046|end_char=2050
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=2051|end_char=2054
+14	Bestandteil	Bestandteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=2055|end_char=2066
+15	von	von	ADP	APPR	_	16	case	_	start_char=2067|end_char=2070
+16	Nasensprays	Nasenspray	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	14	nmod	_	start_char=2071|end_char=2082
+17	.	.	PUNCT	$.	_	2	punct	_	start_char=2082|end_char=2083
+
+# text = * Muskelschmerzen Äußerlich angewendet soll verdünntes Pfefferminzöl verspannte Muskeln lockern.
+# sent_id = 21
+1	*	*	PUNCT	$(	_	2	dep	_	start_char=2084|end_char=2085
+2	Muskelschmerzen	Muskelschmerz	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	obj	_	start_char=2086|end_char=2101
+3	Äußerlich	äußerlich	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=2102|end_char=2111
+4	angewendet	anwenden	VERB	VVPP	VerbForm=Part	10	acl	_	start_char=2112|end_char=2122
+5	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=2123|end_char=2127
+6	verdünntes	verdennt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=2128|end_char=2138
+7	Pfefferminzöl	Pfefferminzöl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=2139|end_char=2152
+8	verspannte	verspannt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=2153|end_char=2163
+9	Muskeln	Muskel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=2164|end_char=2171
+10	lockern	lockern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2172|end_char=2179
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=2179|end_char=2180
+
+# text = Was ist bei der Anwendung zu beachten?
+# sent_id = 22
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	2	nsubj	_	start_char=2181|end_char=2184
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2185|end_char=2188
+3	bei	bei	ADP	APPR	_	5	case	_	start_char=2189|end_char=2192
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2193|end_char=2196
+5	Anwendung	Anwendung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=2197|end_char=2206
+6	zu	zu	PART	PTKZU	_	7	mark	_	start_char=2207|end_char=2209
+7	beachten	beachen	VERB	VVINF	VerbForm=Inf	2	acl	_	start_char=2210|end_char=2218
+8	?	?	PUNCT	$.	_	2	punct	_	start_char=2218|end_char=2219
+
+# text = Wenden Sie Pfefferminzöl nie unverdünnt an  weder innerlich noch äußerlich.
+# sent_id = 23
+1	Wenden	Wende	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2221|end_char=2227
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=2228|end_char=2231
+3	Pfefferminzöl	Pfefferminzöl	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	start_char=2232|end_char=2245
+4	nie	nie	ADV	ADV	_	5	advmod	_	start_char=2246|end_char=2249
+5	unverdünnt	unverdünnt	ADJ	ADJD	Degree=Pos	1	advmod	_	start_char=2250|end_char=2260
+6	an	an	ADP	APPR	_	1	compound:prt	_	start_char=2261|end_char=2263
+7		"	PUNCT	$(	_	9	punct	_	start_char=2264|end_char=2265
+8	weder	weder	CCONJ	KON	_	9	cc	_	start_char=2266|end_char=2271
+9	innerlich	innerlich	ADJ	ADJD	Degree=Pos	1	advmod	_	start_char=2272|end_char=2281
+10	noch	noch	CCONJ	ADV	_	11	cc	_	start_char=2282|end_char=2286
+11	äußerlich	äußerlich	ADJ	ADJD	Degree=Pos	9	conj	_	start_char=2287|end_char=2296
+12	.	.	PUNCT	$.	_	1	punct	_	start_char=2296|end_char=2297
+
+# text = Auf der Haut kann das konzentrierte Öl zu Reizungen führen.
+# sent_id = 24
+1	Auf	auf	ADP	APPR	_	3	case	_	start_char=2298|end_char=2301
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=2302|end_char=2305
+3	Haut	Haut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=2306|end_char=2310
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=2311|end_char=2315
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=2316|end_char=2319
+6	konzentrierte	konzentrieren	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=2320|end_char=2333
+7	Öl	Öl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=2334|end_char=2336
+8	zu	zu	ADP	APPR	_	9	case	_	start_char=2337|end_char=2339
+9	Reizungen	Reizung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	start_char=2340|end_char=2349
+10	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2350|end_char=2356
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=2356|end_char=2357
+
+# text = Innerlich kann es zu starken Magen-Darm-Beschwerden kommen.
+# sent_id = 25
+1	Innerlich	innerlich	ADJ	ADJD	Degree=Pos	11	advmod	_	start_char=2358|end_char=2367
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=2368|end_char=2372
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=2373|end_char=2375
+4	zu	zu	ADP	APPR	_	10	case	_	start_char=2376|end_char=2378
+5	starken	stark	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=2379|end_char=2386
+6	Magen	Mage	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	compound	_	start_char=2387|end_char=2392
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=2392|end_char=2393
+8	Darm	Darm	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	compound	_	start_char=2393|end_char=2397
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=2397|end_char=2398
+10	Beschwerden	Beschwerde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	start_char=2398|end_char=2409
+11	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2410|end_char=2416
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=2416|end_char=2417
+
+# text = Beim Inhalieren kann Atemnot auftreten.
+# sent_id = 26
+1-2	Beim	_	_	_	_	_	_	_	start_char=2418|end_char=2422
+1	Bei	bei	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Inhalieren	Inhalier	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=2423|end_char=2433
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2434|end_char=2438
+5	Atemnot	Atemnot	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=2439|end_char=2446
+6	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2447|end_char=2456
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2456|end_char=2457
+
+# text = Möchten Sie Pfefferminzöl gegen Reizdarmbeschwerden einnehmen, sollten Sie ein Fertigarzneimittel aus der Apotheke wählen.
+# sent_id = 27
+1	Möchten	mögen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2458|end_char=2465
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=2466|end_char=2469
+3	Pfefferminzöl	Pfefferminzöl	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=2470|end_char=2483
+4	gegen	gegen	ADP	APPR	_	5	case	_	start_char=2484|end_char=2489
+5	Reizdarmbeschwerden	Reizdarmbeschwerden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	start_char=2490|end_char=2509
+6	einnehmen	einnehmen	VERB	VVINF	VerbForm=Inf	15	advcl	_	start_char=2510|end_char=2519
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=2519|end_char=2520
+8	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	start_char=2521|end_char=2528
+9	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=2529|end_char=2532
+10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=2533|end_char=2536
+11	Fertigarzneimittel	Fertigarzneimittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	start_char=2537|end_char=2555
+12	aus	aus	ADP	APPR	_	14	case	_	start_char=2556|end_char=2559
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=2560|end_char=2563
+14	Apotheke	Apotheke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	start_char=2564|end_char=2572
+15	wählen	wählen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2573|end_char=2579
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=2579|end_char=2580
+
+# text = Es hängt von der verwendeten Arzneiform ab, wie gut das Heilkraut hilft und wie verträglich es ist.
+# sent_id = 28
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2581|end_char=2583
+2	hängt	hängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2584|end_char=2589
+3	von	von	ADP	APPR	_	6	case	_	start_char=2590|end_char=2593
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=2594|end_char=2597
+5	verwendeten	verwandt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=2598|end_char=2609
+6	Arzneiform	Arzneiform	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=2610|end_char=2620
+7	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=2621|end_char=2623
+8	,	,	PUNCT	$,	_	13	punct	_	start_char=2623|end_char=2624
+9	wie	wie	SCONJ	KOUS	_	13	mark	_	start_char=2625|end_char=2628
+10	gut	gut	ADJ	ADJD	Degree=Pos	13	advmod	_	start_char=2629|end_char=2632
+11	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=2633|end_char=2636
+12	Heilkraut	Heilkraut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	start_char=2637|end_char=2646
+13	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=2647|end_char=2652
+14	und	und	CCONJ	KON	_	16	cc	_	start_char=2653|end_char=2656
+15	wie	wie	ADV	KOUS	PronType=Int	16	advmod	_	start_char=2657|end_char=2660
+16	verträglich	verträglich	ADJ	ADJD	Degree=Pos	13	conj	_	start_char=2661|end_char=2672
+17	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=2673|end_char=2675
+18	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=2676|end_char=2679
+19	.	.	PUNCT	$.	_	2	punct	_	start_char=2679|end_char=2680
+
+# text = Pfefferminzöl sollte seine Wirkung erst im Darm entfalten, nicht schon im Magen.
+# sent_id = 29
+1	Pfefferminzöl	Pfefferminzöl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=2681|end_char=2694
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	start_char=2695|end_char=2701
+3	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=2702|end_char=2707
+4	Wirkung	Wirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=2708|end_char=2715
+5	erst	erst	ADV	ADV	_	9	advmod	_	start_char=2716|end_char=2720
+6-7	im	_	_	_	_	_	_	_	start_char=2721|end_char=2723
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Darm	Darm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	start_char=2724|end_char=2728
+9	entfalten	entfalten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2729|end_char=2738
+10	,	,	PUNCT	$,	_	15	punct	_	start_char=2738|end_char=2739
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	start_char=2740|end_char=2745
+12	schon	schon	ADV	ADV	_	15	advmod	_	start_char=2746|end_char=2751
+13-14	im	_	_	_	_	_	_	_	start_char=2752|end_char=2754
+13	in	in	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Magen	Mage	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	start_char=2755|end_char=2760
+16	.	.	PUNCT	$.	_	9	punct	_	start_char=2760|end_char=2761
+
+# text = Setzen Sie Minzöl bei Spannungskopfschmerzen ein, massieren Sie das verdünnte Öl direkt auf der schmerzenden Stelle ein oder träufeln es vorher auf ein Tuch, um das dann zu verwenden.
+# sent_id = 30
+1	Setzen	setzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	start_char=2762|end_char=2768
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=2769|end_char=2772
+3	Minzöl	Minzöl	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=2773|end_char=2779
+4	bei	bei	ADP	APPR	_	5	case	_	start_char=2780|end_char=2783
+5	Spannungskopfschmerzen	Spannungskopfschmerzen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	1	obl	_	start_char=2784|end_char=2806
+6	ein	ein	ADV	PTKVZ	_	1	compound:prt	_	start_char=2807|end_char=2810
+7	,	,	PUNCT	$,	_	1	punct	_	start_char=2810|end_char=2811
+8	massieren	massieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2812|end_char=2821
+9	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=2822|end_char=2825
+10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=2826|end_char=2829
+11	verdünnte	verdunnt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=2830|end_char=2839
+12	Öl	Öl	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	start_char=2840|end_char=2842
+13	direkt	direkt	ADV	ADJD	_	17	advmod	_	start_char=2843|end_char=2849
+14	auf	auf	ADP	APPR	_	17	case	_	start_char=2850|end_char=2853
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=2854|end_char=2857
+16	schmerzenden	schmerziehd	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=2858|end_char=2870
+17	Stelle	Stelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=2871|end_char=2877
+18	ein	ein	ADV	PTKVZ	_	8	compound:prt	_	start_char=2878|end_char=2881
+19	oder	oder	CCONJ	KON	_	20	cc	_	start_char=2882|end_char=2886
+20	träufeln	träufeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=2887|end_char=2895
+21	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	start_char=2896|end_char=2898
+22	vorher	vorher	ADV	ADV	_	20	advmod	_	start_char=2899|end_char=2905
+23	auf	auf	ADP	APPR	_	25	case	_	start_char=2906|end_char=2909
+24	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	25	det	_	start_char=2910|end_char=2913
+25	Tuch	Tuch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	obl	_	start_char=2914|end_char=2918
+26	,	,	PUNCT	$,	_	31	punct	_	start_char=2918|end_char=2919
+27	um	um	ADP	KOUI	_	31	mark	_	start_char=2920|end_char=2922
+28	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	31	obj	_	start_char=2923|end_char=2926
+29	dann	dann	ADV	ADV	_	31	advmod	_	start_char=2927|end_char=2931
+30	zu	zu	PART	PTKZU	_	31	mark	_	start_char=2932|end_char=2934
+31	verwenden	verwenden	VERB	VVINF	VerbForm=Inf	20	advcl	_	start_char=2935|end_char=2944
+32	.	.	PUNCT	$.	_	8	punct	_	start_char=2944|end_char=2945
+
+# text = Lassen Sie sich zur Anwendung in der Apotheke beraten.
+# sent_id = 31
+1	Lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2946|end_char=2952
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=2953|end_char=2956
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	start_char=2957|end_char=2961
+4-5	zur	_	_	_	_	_	_	_	start_char=2962|end_char=2965
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Anwendung	Anwendung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=2966|end_char=2975
+7	in	in	ADP	APPR	_	9	case	_	start_char=2976|end_char=2978
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=2979|end_char=2982
+9	Apotheke	Apotheke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	start_char=2983|end_char=2991
+10	beraten	beraten	VERB	VVINF	VerbForm=Inf	1	xcomp	_	start_char=2992|end_char=2999
+11	.	.	PUNCT	$.	_	1	punct	_	start_char=2999|end_char=3000
+
+# text = Das Öl darf nicht an die Augen gelangen.
+# sent_id = 32
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=3001|end_char=3004
+2	Öl	Öl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=3005|end_char=3007
+3	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=3008|end_char=3012
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=3013|end_char=3018
+5	an	an	ADP	APPR	_	7	case	_	start_char=3019|end_char=3021
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	start_char=3022|end_char=3025
+7	Augen	Auge	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	start_char=3026|end_char=3031
+8	gelangen	gelangen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3032|end_char=3040
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=3040|end_char=3041
+
+# text = Nebenwirkungen und Wechselwirkungen Pfefferminztee kann Sodbrennen und Übelkeit hervorrufen.
+# sent_id = 33
+1	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=3042|end_char=3056
+2	und	und	CCONJ	KON	_	3	cc	_	start_char=3057|end_char=3060
+3	Wechselwirkungen	Wechselwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	start_char=3061|end_char=3077
+4	Pfefferminztee	Pfefferminztee	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=3079|end_char=3093
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=3094|end_char=3098
+6	Sodbrennen	Sodbrennen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=3099|end_char=3109
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=3110|end_char=3113
+8	Übelkeit	Übelkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	start_char=3114|end_char=3122
+9	hervorrufen	hervorrufen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3123|end_char=3134
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3134|end_char=3135
+
+# text = Wahrscheinlicher sind diese möglichen Nebenwirkungen aber bei der Einnahme des Öls in Form von Arzneimitteln.
+# sent_id = 34
+1	Wahrscheinlicher	wahrscheinlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3136|end_char=3152
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=3153|end_char=3157
+3	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	start_char=3158|end_char=3163
+4	möglichen	möglich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=3164|end_char=3173
+5	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	start_char=3174|end_char=3188
+6	aber	aber	ADV	ADV	_	1	advmod	_	start_char=3189|end_char=3193
+7	bei	bei	ADP	APPR	_	9	case	_	start_char=3194|end_char=3197
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=3198|end_char=3201
+9	Einnahme	Einnahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	start_char=3202|end_char=3210
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=3211|end_char=3214
+11	Öls	Öls	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=3215|end_char=3218
+12	in	in	ADP	APPR	_	13	case	_	start_char=3219|end_char=3221
+13	Form	Form	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	start_char=3222|end_char=3226
+14	von	von	ADP	APPR	_	15	case	_	start_char=3227|end_char=3230
+15	Arzneimitteln	Arzneimittel	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	nmod	_	start_char=3231|end_char=3244
+16	.	.	PUNCT	$.	_	1	punct	_	start_char=3244|end_char=3245
+
+# text = Auch Brennen im Analbereich und Mundtrockenheit können auftreten.
+# sent_id = 35
+1	Auch	auch	ADV	ADV	_	2	advmod	_	start_char=3246|end_char=3250
+2	Brennen	Brennen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=3251|end_char=3258
+3-4	im	_	_	_	_	_	_	_	start_char=3259|end_char=3261
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Analbereich	Analbereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	start_char=3262|end_char=3273
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=3274|end_char=3277
+7	Mundtrockenheit	Mundtrockenheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	conj	_	start_char=3278|end_char=3293
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=3294|end_char=3300
+9	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3301|end_char=3310
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=3310|end_char=3311
+
+# text = Wer Probleme mit der Galle hat, sollte das Heilkraut nicht einnehmen.
+# sent_id = 36
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	6	nsubj	_	start_char=3312|end_char=3315
+2	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=3316|end_char=3324
+3	mit	mit	ADP	APPR	_	5	case	_	start_char=3325|end_char=3328
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=3329|end_char=3332
+5	Galle	Galle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=3333|end_char=3338
+6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	csubj	_	start_char=3339|end_char=3342
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=3342|end_char=3343
+8	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	start_char=3344|end_char=3350
+9	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=3351|end_char=3354
+10	Heilkraut	Heilkraut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	obj	_	start_char=3355|end_char=3364
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=3365|end_char=3370
+12	einnehmen	einnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3371|end_char=3380
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=3380|end_char=3381
+
+# text = Der Inhaltsstoff Menthol kann bei Säuglingen und Kleinkindern Atemnot auslösen, wenn er in die Nähe von Mund oder Nase gerät.
+# sent_id = 37
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=3382|end_char=3385
+2	Inhaltsstoff	Inhaltsstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=3386|end_char=3398
+3	Menthol	Menthol	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=3399|end_char=3406
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=3407|end_char=3411
+5	bei	bei	ADP	APPR	_	6	case	_	start_char=3412|end_char=3415
+6	Säuglingen	Säuglingen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	start_char=3416|end_char=3426
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=3427|end_char=3430
+8	Kleinkindern	Kleinkinder	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	conj	_	start_char=3431|end_char=3443
+9	Atemnot	Atemnot	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=3444|end_char=3451
+10	auslösen	auslösen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3452|end_char=3460
+11	,	,	PUNCT	$,	_	21	punct	_	start_char=3460|end_char=3461
+12	wenn	wenn	SCONJ	KOUS	_	21	mark	_	start_char=3462|end_char=3466
+13	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=3467|end_char=3469
+14	in	in	ADP	APPR	_	16	case	_	start_char=3470|end_char=3472
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=3473|end_char=3476
+16	Nähe	Nähe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	start_char=3477|end_char=3481
+17	von	von	ADP	APPR	_	18	case	_	start_char=3482|end_char=3485
+18	Mund	Mund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	start_char=3486|end_char=3490
+19	oder	oder	CCONJ	KON	_	20	cc	_	start_char=3491|end_char=3495
+20	Nase	Nase	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	conj	_	start_char=3496|end_char=3500
+21	gerät	geraten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=3501|end_char=3506
+22	.	.	PUNCT	$.	_	10	punct	_	start_char=3506|end_char=3507
+
+# text = Deshalb Pfefferminzöl nicht auf die Brust massieren und das Kind auch nicht daran riechen lassen.
+# sent_id = 38
+1	Deshalb	deshalb	ADV	PAV	_	7	advmod	_	start_char=3508|end_char=3515
+2	Pfefferminzöl	Pfefferminzöl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=3516|end_char=3529
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=3530|end_char=3535
+4	auf	auf	ADP	APPR	_	6	case	_	start_char=3536|end_char=3539
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3540|end_char=3543
+6	Brust	Brust	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	start_char=3544|end_char=3549
+7	massieren	massieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3550|end_char=3559
+8	und	und	CCONJ	KON	_	15	cc	_	start_char=3560|end_char=3563
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=3564|end_char=3567
+10	Kind	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	start_char=3568|end_char=3572
+11	auch	auch	ADV	ADV	_	15	advmod	_	start_char=3573|end_char=3577
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	start_char=3578|end_char=3583
+13	daran	daran	PRON	PAV	_	15	advmod	_	start_char=3584|end_char=3589
+14	riechen	riechen	VERB	VVINF	VerbForm=Inf	15	xcomp	_	start_char=3590|end_char=3597
+15	lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=3598|end_char=3604
+16	.	.	PUNCT	$.	_	7	punct	_	start_char=3604|end_char=3605
+
+# text = Fragen Sie beim Arzt oder in der Apotheke nach geeigneten Mitteln.
+# sent_id = 39
+1	Fragen	Frage	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3606|end_char=3612
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=3613|end_char=3616
+3-4	beim	_	_	_	_	_	_	_	start_char=3617|end_char=3621
+3	bei	bei	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	start_char=3622|end_char=3626
+6	oder	oder	CCONJ	KON	_	9	cc	_	start_char=3627|end_char=3631
+7	in	in	ADP	APPR	_	9	case	_	start_char=3632|end_char=3634
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=3635|end_char=3638
+9	Apotheke	Apotheke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	conj	_	start_char=3639|end_char=3647
+10	nach	nach	ADP	APPR	_	12	case	_	start_char=3648|end_char=3652
+11	geeigneten	geeignet	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	start_char=3653|end_char=3663
+12	Mitteln	Mittel|Mitteln	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	1	obl	_	start_char=3664|end_char=3671
+13	.	.	PUNCT	$.	_	1	punct	_	start_char=3671|end_char=3672
+
+# text = Auch Menschen, die an Asthma leiden, müssen vorab mit dem Arzt abklären, ob sie entsprechende Mittel einnehmen dürfen.
+# sent_id = 40
+1	Auch	auch	ADV	ADV	_	2	advmod	_	start_char=3673|end_char=3677
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=3678|end_char=3686
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=3686|end_char=3687
+4	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	7	nsubj	_	start_char=3688|end_char=3691
+5	an	an	ADP	APPR	_	6	case	_	start_char=3692|end_char=3694
+6	Asthma	Asthma	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=3695|end_char=3701
+7	leiden	leiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	start_char=3702|end_char=3708
+8	,	,	PUNCT	$,	_	7	punct	_	start_char=3708|end_char=3709
+9	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=3710|end_char=3716
+10	vorab	vorab	ADV	ADV	_	14	advmod	_	start_char=3717|end_char=3722
+11	mit	mit	ADP	APPR	_	13	case	_	start_char=3723|end_char=3726
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=3727|end_char=3730
+13	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	start_char=3731|end_char=3735
+14	abklären	abklären	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3736|end_char=3744
+15	,	,	PUNCT	$,	_	20	punct	_	start_char=3744|end_char=3745
+16	ob	ob	SCONJ	KOUS	_	20	mark	_	start_char=3746|end_char=3748
+17	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=3749|end_char=3752
+18	entsprechende	entsprechend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	19	amod	_	start_char=3753|end_char=3766
+19	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	obj	_	start_char=3767|end_char=3773
+20	einnehmen	einnehmen	VERB	VVINF	VerbForm=Inf	14	ccomp	_	start_char=3774|end_char=3783
+21	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=3784|end_char=3790
+22	.	.	PUNCT	$.	_	14	punct	_	start_char=3790|end_char=3791
+
+# text = Inhalieren mit ätherischen Ölen ist für sie tabu, da dies einen Asthmaanfall auslösen kann.
+# sent_id = 41
+1	Inhalieren	Inhalieren	VERB	VVINF	VerbForm=Inf	8	acl	_	start_char=3792|end_char=3802
+2	mit	mit	ADP	APPR	_	4	case	_	start_char=3803|end_char=3806
+3	ätherischen	ätherisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=3807|end_char=3818
+4	Ölen	Öl	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	1	obl	_	start_char=3819|end_char=3823
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=3824|end_char=3827
+6	für	für	ADP	APPR	_	7	case	_	start_char=3828|end_char=3831
+7	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod	_	start_char=3832|end_char=3835
+8	tabu	tabu	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3836|end_char=3840
+9	,	,	PUNCT	$,	_	14	punct	_	start_char=3840|end_char=3841
+10	da	da	SCONJ	KOUS	_	14	mark	_	start_char=3842|end_char=3844
+11	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	start_char=3845|end_char=3849
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=3850|end_char=3855
+13	Asthmaanfall	Asthmaanfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=3856|end_char=3868
+14	auslösen	auslösen	VERB	VVINF	VerbForm=Inf	8	advcl	_	start_char=3869|end_char=3877
+15	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=3878|end_char=3882
+16	.	.	PUNCT	$.	_	8	punct	_	start_char=3882|end_char=3883
+
+# text = Bei der Anwendung auf der Haut kann es zu allergischen Reaktionen kommen.
+# sent_id = 42
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=3884|end_char=3887
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3888|end_char=3891
+3	Anwendung	Anwendung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	start_char=3892|end_char=3901
+4	auf	auf	ADP	APPR	_	6	case	_	start_char=3902|end_char=3905
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3906|end_char=3909
+6	Haut	Haut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	start_char=3910|end_char=3914
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=3915|end_char=3919
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=3920|end_char=3922
+9	zu	zu	ADP	APPR	_	11	case	_	start_char=3923|end_char=3925
+10	allergischen	allergisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=3926|end_char=3938
+11	Reaktionen	Reaktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	start_char=3939|end_char=3949
+12	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3950|end_char=3956
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=3956|end_char=3957
+
+# text = Wichtig: Lassen Sie sich zu Dosierung, Anwendung und unerwünschten Effekten der Heilpflanze in der Apotheke beraten.
+# sent_id = 43
+1	Wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3958|end_char=3965
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=3965|end_char=3966
+3	Lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	appos	_	start_char=3967|end_char=3973
+4	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=3974|end_char=3977
+5	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	18	obj	_	start_char=3978|end_char=3982
+6	zu	zu	ADP	APPR	_	7	case	_	start_char=3983|end_char=3985
+7	Dosierung	Dosierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	start_char=3986|end_char=3995
+8	,	,	PUNCT	$,	_	9	punct	_	start_char=3995|end_char=3996
+9	Anwendung	Anwendung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	conj	_	start_char=3997|end_char=4006
+10	und	und	CCONJ	KON	_	12	cc	_	start_char=4007|end_char=4010
+11	unerwünschten	unerwünscht	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	start_char=4011|end_char=4024
+12	Effekten	Effekten	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	conj	_	start_char=4025|end_char=4033
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=4034|end_char=4037
+14	Heilpflanze	Heilpflanze	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=4038|end_char=4049
+15	in	in	ADP	APPR	_	17	case	_	start_char=4050|end_char=4052
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=4053|end_char=4056
+17	Apotheke	Apotheke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	start_char=4057|end_char=4065
+18	beraten	beraten	VERB	VVINF	VerbForm=Inf	3	xcomp	_	start_char=4066|end_char=4073
+19	.	.	PUNCT	$.	_	1	punct	_	start_char=4073|end_char=4074
+
