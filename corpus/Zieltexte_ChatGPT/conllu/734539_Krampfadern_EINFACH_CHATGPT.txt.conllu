@@ -1,0 +1,384 @@
+# text = Krampfadern sind dicke, gewundene Venen, die meistens an den Beinen zu sehen sind.
+# sent_id = 0
+1	Krampfadern	Krampfader	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=0|end_char=11
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=12|end_char=16
+3	dicke	dick	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=17|end_char=22
+4	,	,	PUNCT	$,	_	5	punct	_	start_char=22|end_char=23
+5	gewundene	gewunden	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	conj	_	start_char=24|end_char=33
+6	Venen	Venen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=34|end_char=39
+7	,	,	PUNCT	$,	_	14	punct	_	start_char=39|end_char=40
+8	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	14	nsubj:pass	_	start_char=41|end_char=44
+9	meistens	meistens	ADV	ADV	_	14	advmod	_	start_char=45|end_char=53
+10	an	an	ADP	APPR	_	12	case	_	start_char=54|end_char=56
+11	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=57|end_char=60
+12	Beinen	Bein|Reinen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	obl	_	start_char=61|end_char=67
+13	zu	zu	PART	PTKZU	_	14	mark	_	start_char=68|end_char=70
+14	sehen	sehen	VERB	VVINF	VerbForm=Inf	6	acl	_	start_char=71|end_char=76
+15	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	start_char=77|end_char=81
+16	.	.	PUNCT	$.	_	6	punct	_	start_char=81|end_char=82
+
+# text = Sie können zu Schmerzen und anderen Problemen führen.
+# sent_id = 1
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=83|end_char=86
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=87|end_char=93
+3	zu	zu	ADP	APPR	_	4	case	_	start_char=94|end_char=96
+4	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	start_char=97|end_char=106
+5	und	und	CCONJ	KON	_	7	cc	_	start_char=107|end_char=110
+6	anderen	anderer	DET	ADJA	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	7	det	_	start_char=111|end_char=118
+7	Problemen	Problem	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	conj	_	start_char=119|end_char=128
+8	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=129|end_char=135
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=135|end_char=136
+
+# text = Es ist wichtig, bei Krampfadern einen Arzt aufzusuchen, um zu klären, ob eine Behandlung nötig ist.
+# sent_id = 2
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=137|end_char=139
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=140|end_char=143
+3	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=144|end_char=151
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=151|end_char=152
+5	bei	bei	ADP	APPR	_	6	case	_	start_char=153|end_char=156
+6	Krampfadern	Krampfader	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	start_char=157|end_char=168
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=169|end_char=174
+8	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=175|end_char=179
+9	aufzusuchen	aufsuchen	VERB	VVIZU	VerbForm=Inf	3	csubj	_	start_char=180|end_char=191
+10	,	,	PUNCT	$,	_	13	punct	_	start_char=191|end_char=192
+11	um	um	ADP	KOUI	_	13	mark	_	start_char=193|end_char=195
+12	zu	zu	PART	PTKZU	_	13	mark	_	start_char=196|end_char=198
+13	klären	klären	VERB	VVINF	VerbForm=Inf	9	advcl	_	start_char=199|end_char=205
+14	,	,	PUNCT	$,	_	18	punct	_	start_char=205|end_char=206
+15	ob	ob	SCONJ	KOUS	_	18	mark	_	start_char=207|end_char=209
+16	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	17	det	_	start_char=210|end_char=214
+17	Behandlung	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	start_char=215|end_char=225
+18	nötig	nötig	ADJ	ADJD	Degree=Pos	13	ccomp	_	start_char=226|end_char=231
+19	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=232|end_char=235
+20	.	.	PUNCT	$.	_	3	punct	_	start_char=235|end_char=236
+
+# text = Krampfadern sind dauerhaft vergrößerte und gewundene Venen.
+# sent_id = 3
+1	Krampfadern	Krampfader	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=240|end_char=251
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=252|end_char=256
+3	dauerhaft	dauerhaft	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=257|end_char=266
+4	vergrößerte	vergrößert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=267|end_char=278
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=279|end_char=282
+6	gewundene	gewunden	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	conj	_	start_char=283|end_char=292
+7	Venen	Venen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=293|end_char=298
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=298|end_char=299
+
+# text = Sie kommen hauptsächlich an den Beinen vor.
+# sent_id = 4
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=300|end_char=303
+2	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=304|end_char=310
+3	hauptsächlich	hauptsächlich	ADJ	ADV	Degree=Pos	2	advmod	_	start_char=311|end_char=324
+4	an	an	ADP	APPR	_	6	case	_	start_char=325|end_char=327
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=328|end_char=331
+6	Beinen	Bein|Reinen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	start_char=332|end_char=338
+7	vor	vor	ADP	PTKVZ	_	2	compound:prt	_	start_char=339|end_char=342
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=342|end_char=343
+
+# text = Kleine Krampfadern, die Besenreiser genannt werden, sind oft harmlos, aber viele Menschen finden sie unschön.
+# sent_id = 5
+1	Kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=344|end_char=350
+2	Krampfadern	Krampfader	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=351|end_char=362
+3	,	,	PUNCT	$,	_	6	punct	_	start_char=362|end_char=363
+4	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	6	nsubj:pass	_	start_char=364|end_char=367
+5	Besenreiser	Besenreiser	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	start_char=368|end_char=379
+6	genannt	nennen	VERB	VVPP	VerbForm=Part	2	acl	_	start_char=380|end_char=387
+7	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	start_char=388|end_char=394
+8	,	,	PUNCT	$,	_	6	punct	_	start_char=394|end_char=395
+9	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=396|end_char=400
+10	oft	oft	ADV	ADV	_	11	advmod	_	start_char=401|end_char=404
+11	harmlos	harmlos	ADJ	ADJD	Degree=Pos	0	root	_	start_char=405|end_char=412
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=412|end_char=413
+13	aber	aber	CCONJ	KON	_	16	cc	_	start_char=414|end_char=418
+14	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	15	det	_	start_char=419|end_char=424
+15	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	start_char=425|end_char=433
+16	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	start_char=434|end_char=440
+17	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=441|end_char=444
+18	unschön	unschön	ADJ	ADJD	Degree=Pos	16	xcomp	_	start_char=445|end_char=452
+19	.	.	PUNCT	$.	_	11	punct	_	start_char=452|end_char=453
+
+# text = Größere Krampfadern können Schmerzen verursachen und ernsthafte Probleme mit der Haut und den Venen hervorrufen.
+# sent_id = 6
+1	Größere	groß	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	2	amod	_	start_char=454|end_char=461
+2	Krampfadern	Krampfader	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=462|end_char=473
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=474|end_char=480
+4	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=481|end_char=490
+5	verursachen	verursechen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=491|end_char=502
+6	und	und	CCONJ	KON	_	15	cc	_	start_char=503|end_char=506
+7	ernsthafte	ernsthaft	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	start_char=507|end_char=517
+8	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	start_char=518|end_char=526
+9	mit	mit	ADP	APPR	_	11	case	_	start_char=527|end_char=530
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=531|end_char=534
+11	Haut	Haut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	start_char=535|end_char=539
+12	und	und	CCONJ	KON	_	14	cc	_	start_char=540|end_char=543
+13	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	14	det	_	start_char=544|end_char=547
+14	Venen	Venen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	conj	_	start_char=548|end_char=553
+15	hervorrufen	hervorrufen	VERB	VVINF	VerbForm=Inf	5	conj	_	start_char=554|end_char=565
+16	.	.	PUNCT	$.	_	5	punct	_	start_char=565|end_char=566
+
+# text = Krampfadern entstehen, wenn die Venenwände und Venenklappen schwach werden und das Blut nicht mehr richtig durchlassen.
+# sent_id = 7
+1	Krampfadern	Krampfader	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=570|end_char=581
+2	entstehen	entstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=582|end_char=591
+3	,	,	PUNCT	$,	_	10	punct	_	start_char=591|end_char=592
+4	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=593|end_char=597
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=598|end_char=601
+6	Venenwände	Venenwände	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=602|end_char=612
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=613|end_char=616
+8	Venenklappen	Venenklappen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	start_char=617|end_char=629
+9	schwach	schwach	ADJ	ADJD	Degree=Pos	10	xcomp	_	start_char=630|end_char=637
+10	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=638|end_char=644
+11	und	und	CCONJ	KON	_	17	cc	_	start_char=645|end_char=648
+12	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	start_char=649|end_char=652
+13	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	start_char=653|end_char=657
+14	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	start_char=658|end_char=663
+15	mehr	mehr	ADV	ADV	_	14	advmod	_	start_char=664|end_char=668
+16	richtig	richtig	ADJ	ADJD	Degree=Pos	17	advmod	_	start_char=669|end_char=676
+17	durchlassen	durchlassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	start_char=677|end_char=688
+18	.	.	PUNCT	$.	_	2	punct	_	start_char=688|end_char=689
+
+# text = Das Blut sammelt sich in den Venen und diese werden dann sichtbar und geschwollen.
+# sent_id = 8
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=690|end_char=693
+2	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=694|end_char=698
+3	sammelt	sammeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=699|end_char=706
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=707|end_char=711
+5	in	in	ADP	APPR	_	7	case	_	start_char=712|end_char=714
+6	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=715|end_char=718
+7	Venen	Venen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	start_char=719|end_char=724
+8	und	und	CCONJ	KON	_	12	cc	_	start_char=725|end_char=728
+9	diese	dieser	DET	PDS	Case=Nom|Number=Plur|PronType=Dem	12	nsubj	_	start_char=729|end_char=734
+10	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	cop	_	start_char=735|end_char=741
+11	dann	dann	ADV	ADV	_	12	advmod	_	start_char=742|end_char=746
+12	sichtbar	sichtbar	ADJ	ADJD	Degree=Pos	3	conj	_	start_char=747|end_char=755
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=756|end_char=759
+14	geschwollen	geschwoll	ADJ	VVPP	Degree=Pos|VerbForm=Part	12	conj	_	start_char=760|end_char=771
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=771|end_char=772
+
+# text = - Genetische Veranlagung (familiäre Bindegewebsschwäche) - Weibliche Hormone, besonders während der Schwangerschaft - Bewegungsmangel - Langes Stehen oder Sitzen - Übergewicht
+# sent_id = 9
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=776|end_char=777
+2	Genetische	genetisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=778|end_char=788
+3	Veranlagung	Veranlagung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=789|end_char=800
+4	(	(	PUNCT	$(	_	6	punct	_	start_char=801|end_char=802
+5	familiäre	familiär	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=802|end_char=811
+6	Bindegewebsschwäche	Bindegewebebssäche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	start_char=812|end_char=831
+7	)	)	PUNCT	$(	_	6	punct	_	start_char=831|end_char=832
+8	-	-	PUNCT	$(	_	6	punct	_	start_char=834|end_char=835
+9	Weibliche	weiblich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	start_char=836|end_char=845
+10	Hormone	Hormone	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	appos	_	start_char=846|end_char=853
+11	,	,	PUNCT	$,	_	20	punct	_	start_char=853|end_char=854
+12	besonders	besonders	ADV	ADV	_	20	advmod	_	start_char=855|end_char=864
+13	während	während	ADP	APPR	_	20	case	_	start_char=865|end_char=872
+14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=873|end_char=876
+15	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	compound	_	start_char=877|end_char=892
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=894|end_char=895
+17	Bewegungsmangel	Bewegungsmangel	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	compound	_	start_char=896|end_char=911
+18	-	-	PUNCT	$(	_	17	punct	_	start_char=913|end_char=914
+19	Langes	Lang	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	start_char=915|end_char=921
+20	Stehen	Stehen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	start_char=922|end_char=928
+21	oder	oder	CCONJ	KON	_	24	cc	_	start_char=929|end_char=933
+22	Sitzen	Sitze	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	24	compound	_	start_char=934|end_char=940
+23	-	-	PUNCT	$(	_	22	punct	_	start_char=942|end_char=943
+24	Übergewicht	Übergewicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	20	conj	_	start_char=944|end_char=955
+
+# text = -
+# sent_id = 10
+1	-	-	PUNCT	$(	_	0	root	_	start_char=959|end_char=960
+
+# text = Das Gewicht im Normalbereich halten - Regelmäßiger Sport wie Spazierengehen oder Radfahren - Beine hochlegen, wenn möglich - Kalte Beinduschen –
+# sent_id = 11
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=961|end_char=964
+2	Gewicht	Gewicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=965|end_char=972
+3-4	im	_	_	_	_	_	_	_	start_char=973|end_char=975
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Normalbereich	Normalbereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	start_char=976|end_char=989
+6	halten	halten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=990|end_char=996
+7	-	-	PUNCT	$(	_	9	punct	_	start_char=998|end_char=999
+8	Regelmäßiger	Regelmäßige	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=1000|end_char=1012
+9	Sport	Sport	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	start_char=1013|end_char=1018
+10	wie	wie	ADP	KOKOM	_	11	case	_	start_char=1019|end_char=1022
+11	Spazierengehen	Spazierengehen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nmod	_	start_char=1023|end_char=1037
+12	oder	oder	CCONJ	KON	_	15	cc	_	start_char=1038|end_char=1042
+13	Radfahren	Radfahren	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	15	compound	_	start_char=1043|end_char=1052
+14	-	-	PUNCT	$(	_	13	punct	_	start_char=1054|end_char=1055
+15	Beine	Bein	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	conj	_	start_char=1056|end_char=1061
+16	hochlegen	hochlegen	VERB	VVINF	VerbForm=Inf	6	conj	_	start_char=1062|end_char=1071
+17	,	,	PUNCT	$,	_	19	punct	_	start_char=1071|end_char=1072
+18	wenn	wenn	SCONJ	KOUS	_	19	mark	_	start_char=1073|end_char=1077
+19	möglich	möglich	ADJ	ADJD	Degree=Pos	16	advcl	_	start_char=1078|end_char=1085
+20	-	-	PUNCT	$(	_	22	punct	_	start_char=1086|end_char=1087
+21	Kalte	kalt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=1088|end_char=1093
+22	Beinduschen	Beinduschen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	start_char=1094|end_char=1105
+23	–	"	PUNCT	$(	_	6	punct	_	start_char=1106|end_char=1107
+
+# text = Sichtbare, geschwollene Venen - Schweregefühl und Schmerzen in den Beinen, besonders am Ende des Tages - Schwellungen in den Beinen - Juckende Haut um die Venen
+# sent_id = 12
+1	Sichtbare	sichtbar	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=1112|end_char=1121
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=1121|end_char=1122
+3	geschwollene	geschwollen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	conj	_	start_char=1123|end_char=1135
+4	Venen	Venen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	compound	_	start_char=1136|end_char=1141
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1143|end_char=1144
+6	Schweregefühl	Schweregefühl	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=1145|end_char=1158
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=1159|end_char=1162
+8	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	start_char=1163|end_char=1172
+9	in	in	ADP	APPR	_	11	case	_	start_char=1173|end_char=1175
+10	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=1176|end_char=1179
+11	Beinen	Bein|Reinen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	nmod	_	start_char=1180|end_char=1186
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=1186|end_char=1187
+13	besonders	besonders	ADV	ADV	_	16	advmod	_	start_char=1188|end_char=1197
+14-15	am	_	_	_	_	_	_	_	start_char=1198|end_char=1200
+14	an	an	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=1201|end_char=1205
+17	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=1206|end_char=1209
+18	Tages	Tag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	compound	_	start_char=1210|end_char=1215
+19	-	-	PUNCT	$(	_	18	punct	_	start_char=1217|end_char=1218
+20	Schwellungen	Schwellung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	start_char=1219|end_char=1231
+21	in	in	ADP	APPR	_	26	case	_	start_char=1232|end_char=1234
+22	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	23	det	_	start_char=1235|end_char=1238
+23	Beinen	Bein|Reinen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	20	compound	_	start_char=1239|end_char=1245
+24	-	-	PUNCT	$(	_	26	punct	_	start_char=1246|end_char=1247
+25	Juckende	juckend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=1248|end_char=1256
+26	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	start_char=1257|end_char=1261
+27	um	um	ADP	APPR	_	29	case	_	start_char=1262|end_char=1264
+28	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	29	det	_	start_char=1265|end_char=1268
+29	Venen	Venen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	26	nmod	_	start_char=1269|end_char=1274
+
+# text = 1. : Regelmäßiges Gehen oder spezielle Übungen für die Beine.
+# sent_id = 13
+1	1	1	NUM	CARD	NumType=Card	5	dep	_	start_char=1278|end_char=1279
+2	.	.	PUNCT	$.	_	1	punct	_	start_char=1279|end_char=1280
+3	:	:	PUNCT	$.	_	5	punct	_	start_char=1281|end_char=1282
+4	Regelmäßiges	regelmäßig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=1283|end_char=1295
+5	Gehen	Gehen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1296|end_char=1301
+6	oder	oder	CCONJ	KON	_	8	cc	_	start_char=1302|end_char=1306
+7	spezielle	speziell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=1307|end_char=1316
+8	Übungen	Übung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	start_char=1317|end_char=1324
+9	für	für	ADP	APPR	_	11	case	_	start_char=1325|end_char=1328
+10	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=1329|end_char=1332
+11	Beine	Bein	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	start_char=1333|end_char=1338
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=1338|end_char=1339
+
+# text = 2. : Tragen von speziellen Strümpfen, die den Blutfluss verbessern und die Symptome lindern.
+# sent_id = 14
+1	2.	2.	ADJ	ADJA	Degree=Pos|NumType=Ord	3	dep	_	start_char=1341|end_char=1343
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=1344|end_char=1345
+3	Tragen	Trage|Tragen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=1346|end_char=1352
+4	von	von	ADP	APPR	_	6	case	_	start_char=1353|end_char=1356
+5	speziellen	speziell	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=1357|end_char=1367
+6	Strümpfen	Strumpf	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	nmod	_	start_char=1368|end_char=1377
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=1377|end_char=1378
+8	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	nsubj	_	start_char=1379|end_char=1382
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=1383|end_char=1386
+10	Blutfluss	Blutfluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=1387|end_char=1396
+11	verbessern	verbessern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=1397|end_char=1407
+12	und	und	CCONJ	KON	_	15	cc	_	start_char=1408|end_char=1411
+13	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	14	det	_	start_char=1412|end_char=1415
+14	Symptome	Symptom	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	start_char=1416|end_char=1424
+15	lindern	lindern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	start_char=1425|end_char=1432
+16	.	.	PUNCT	$.	_	3	punct	_	start_char=1432|end_char=1433
+
+# text = 3. : Kalte Wickel oder Kneipp-Anwendungen.
+# sent_id = 15
+1	3.	3.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	dep	_	start_char=1435|end_char=1437
+2	:	:	PUNCT	$.	_	4	punct	_	start_char=1438|end_char=1439
+3	Kalte	kalt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=1440|end_char=1445
+4	Wickel	Wickel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1446|end_char=1452
+5	oder	oder	CCONJ	KON	_	8	cc	_	start_char=1453|end_char=1457
+6	Kneipp	Kneipp	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	compound	_	start_char=1458|end_char=1464
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=1464|end_char=1465
+8	Anwendungen	Anwendung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	conj	_	start_char=1465|end_char=1476
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=1476|end_char=1477
+
+# text = 4. : Einspritzen eines Mittels, das die Vene verschließt.
+# sent_id = 16
+1	4.	4.	ADJ	ADJA	Degree=Pos|NumType=Ord	3	dep	_	start_char=1479|end_char=1481
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=1482|end_char=1483
+3	Einspritzen	Einspritzen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1484|end_char=1495
+4	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=1496|end_char=1501
+5	Mittels	mittels	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=1502|end_char=1509
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=1509|end_char=1510
+7	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	10	nsubj	_	start_char=1511|end_char=1514
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1515|end_char=1518
+9	Vene	Vene	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=1519|end_char=1523
+10	verschließt	verschließen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=1524|end_char=1535
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=1535|end_char=1536
+
+# text = 5. : Behandlung mit Laser oder Radiowellen.
+# sent_id = 17
+1	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	3	dep	_	start_char=1538|end_char=1540
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=1541|end_char=1542
+3	Behandlung	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1543|end_char=1553
+4	mit	mit	ADP	APPR	_	5	case	_	start_char=1554|end_char=1557
+5	Laser	Laser	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	start_char=1558|end_char=1563
+6	oder	oder	CCONJ	KON	_	7	cc	_	start_char=1564|end_char=1568
+7	Radiowellen	Radiowelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	conj	_	start_char=1569|end_char=1580
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=1580|end_char=1581
+
+# text = 6. : Entfernung der betroffenen Venenabschnitte.
+# sent_id = 18
+1	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	3	dep	_	start_char=1583|end_char=1585
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=1586|end_char=1587
+3	Entfernung	Entfernung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1588|end_char=1598
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1599|end_char=1602
+5	betroffenen	betroffen	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=1603|end_char=1614
+6	Venenabschnitte	Venenabschnitte	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=1615|end_char=1630
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1630|end_char=1631
+
+# text = Man sollte bei den ersten Anzeichen von Krampfadern zum Arzt gehen, um Komplikationen zu vermeiden und die beste Behandlung zu bestimmen.
+# sent_id = 19
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=1637|end_char=1640
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	start_char=1641|end_char=1647
+3	bei	bei	ADP	APPR	_	6	case	_	start_char=1648|end_char=1651
+4	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=1652|end_char=1655
+5	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|NumType=Ord|Number=Plur	6	amod	_	start_char=1656|end_char=1662
+6	Anzeichen	Anzeichen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	start_char=1663|end_char=1672
+7	von	von	ADP	APPR	_	8	case	_	start_char=1673|end_char=1676
+8	Krampfadern	Krampfader	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	start_char=1677|end_char=1688
+9-10	zum	_	_	_	_	_	_	_	start_char=1689|end_char=1692
+9	zu	zu	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=1693|end_char=1697
+12	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1698|end_char=1703
+13	,	,	PUNCT	$,	_	17	punct	_	start_char=1703|end_char=1704
+14	um	um	ADP	KOUI	_	17	mark	_	start_char=1705|end_char=1707
+15	Komplikationen	Komplikation	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	start_char=1708|end_char=1722
+16	zu	zu	PART	PTKZU	_	17	mark	_	start_char=1723|end_char=1725
+17	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	12	advcl	_	start_char=1726|end_char=1735
+18	und	und	CCONJ	KON	_	23	cc	_	start_char=1736|end_char=1739
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=1740|end_char=1743
+20	beste	gut	ADJ	ADJA	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	21	amod	_	start_char=1744|end_char=1749
+21	Behandlung	Behandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	start_char=1750|end_char=1760
+22	zu	zu	PART	PTKZU	_	23	mark	_	start_char=1761|end_char=1763
+23	bestimmen	bestimmen	VERB	VVINF	VerbForm=Inf	17	conj	_	start_char=1764|end_char=1773
+24	.	.	PUNCT	$.	_	12	punct	_	start_char=1773|end_char=1774
+
+# text = Dieser Text gibt allgemeine Informationen und ersetzt keinen Arztbesuch.
+# sent_id = 20
+1	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=1779|end_char=1785
+2	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1786|end_char=1790
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1791|end_char=1795
+4	allgemeine	allgemein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=1796|end_char=1806
+5	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=1807|end_char=1820
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=1821|end_char=1824
+7	ersetzt	ersetzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=1825|end_char=1832
+8	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	9	det	_	start_char=1833|end_char=1839
+9	Arztbesuch	Arztbesuch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=1840|end_char=1850
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=1850|end_char=1851
+
+# text = Bei gesundheitlichen Problemen oder Fragen sollte immer ein Arzt konsultiert werden.
+# sent_id = 21
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=1852|end_char=1855
+2	gesundheitlichen	gesundheitlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	start_char=1856|end_char=1872
+3	Problemen	Problem	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	start_char=1873|end_char=1882
+4	oder	oder	CCONJ	KON	_	5	cc	_	start_char=1883|end_char=1887
+5	Fragen	Frage	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	conj	_	start_char=1888|end_char=1894
+6	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	start_char=1895|end_char=1901
+7	immer	immer	ADV	ADV	_	10	advmod	_	start_char=1902|end_char=1907
+8	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=1908|end_char=1911
+9	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	start_char=1912|end_char=1916
+10	konsultiert	konsultieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1917|end_char=1928
+11	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	10	aux:pass	_	start_char=1929|end_char=1935
+12	.	.	PUNCT	$.	_	10	punct	_	start_char=1935|end_char=1936
+

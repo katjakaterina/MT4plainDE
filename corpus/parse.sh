@@ -8,6 +8,7 @@ InputHuman=/home/katja/hildesheim/collaborations/chatgpt/apothekenumschau/corpus
 InputBaseline=/home/katja/hildesheim/collaborations/chatgpt/apothekenumschau/corpus/Zieltexte_Baseline
 InputModell1=/home/katja/hildesheim/collaborations/chatgpt/apothekenumschau/corpus/Zieltexte_Modell_1
 InputModell2=/home/katja/hildesheim/collaborations/chatgpt/apothekenumschau/corpus/Zieltexte_Modell_2
+InputChatGPT=/home/katja/hildesheim/collaborations/chatgpt/apothekenumschau/corpus/Zieltexte_ChatGPT
 
 #Ausgangstext parsen
 for file in Ausgangstexte/Txt/*.utf8.txt ; do python3 stanza_pipeline.py --language=de "$file" "${file%.utf8.txt}.conllu"; done
@@ -28,3 +29,6 @@ mv Zieltexte_Modell_1/txt/*.conllu Zieltexte_Modell_1/conllu
 
 for file in Zieltexte_Modell_2/txt/*.txt ; do python3 stanza_pipeline.py --language=de "$file" "${file%.txt}.conllu"; done
 mv Zieltexte_Modell_2/txt/*.conllu Zieltexte_Modell_2/conllu
+
+for file in Zieltexte_ChatGPT/txt/*.txt ; do python3 stanza_pipeline.py --language=de "$file" "${file%.txt}.conllu"; done
+mv Zieltexte_ChatGPT/txt/*.conllu Zieltexte_ChatGPT/conllu

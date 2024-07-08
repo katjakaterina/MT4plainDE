@@ -1,0 +1,426 @@
+# text = ### Diabetes mellitus Typ 2 ####
+# sent_id = 0
+1	###	###	PUNCT	$(	_	2	punct	_	start_char=0|end_char=3
+2	Diabetes	Diabetes	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4|end_char=12
+3	mellitus	mellitus	PROPN	NE	Number=Sing	2	appos	_	start_char=13|end_char=21
+4	Typ	Typ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=22|end_char=25
+5	2	2	NUM	CARD	NumType=Card	4	appos	_	start_char=26|end_char=27
+6	###	###	PUNCT	$(	_	2	punct	_	start_char=28|end_char=31
+7	#	#	PUNCT	$(	_	2	punct	_	start_char=31|end_char=32
+
+# text = Was ist Typ-2-Diabetes?
+# sent_id = 1
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=33|end_char=36
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=37|end_char=40
+3	Typ-2-Diabetes	Typ-2-Diabetes	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=41|end_char=55
+4	?	?	PUNCT	$.	_	3	punct	_	start_char=55|end_char=56
+
+# text = Typ-2-Diabetes ist eine Krankheit.
+# sent_id = 2
+1	Typ-2-Diabetes	Typ-2-Diabetes	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=57|end_char=71
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=72|end_char=75
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=76|end_char=80
+4	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=81|end_char=90
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=90|end_char=91
+
+# text = Bei dieser Krankheit ist zu viel Zucker im Blut.
+# sent_id = 3
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=92|end_char=95
+2	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=96|end_char=102
+3	Krankheit	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=103|end_char=112
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=113|end_char=116
+5	zu	zu	ADV	PTKA	_	6	advmod	_	start_char=117|end_char=119
+6	viel	viel	DET	PIAT	PronType=Ind	7	det	_	start_char=120|end_char=124
+7	Zucker	Zucker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nsubj	_	start_char=125|end_char=131
+8-9	im	_	_	_	_	_	_	_	start_char=132|end_char=134
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=135|end_char=139
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=139|end_char=140
+
+# text = Dadurch kann der Körper krank werden.
+# sent_id = 4
+1	Dadurch	dadurch	ADV	PAV	PronType=Dem	5	advmod	_	start_char=141|end_char=148
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=149|end_char=153
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=154|end_char=157
+4	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=158|end_char=164
+5	krank	krank	ADJ	ADJD	Degree=Pos	6	xcomp	_	start_char=165|end_char=170
+6	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=171|end_char=177
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=177|end_char=178
+
+# text = #### Warum bekommt man Typ-2-Diabetes?
+# sent_id = 5
+1	####	####	X	NE	_	3	dep	_	start_char=179|end_char=183
+2	Warum	warum	ADV	PWAV	PronType=Int	3	advmod	_	start_char=184|end_char=189
+3	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=190|end_char=197
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=198|end_char=201
+5	Typ-2-Diabetes	Typ-2-Diabetes	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=202|end_char=216
+6	?	?	PUNCT	$.	_	3	punct	_	start_char=216|end_char=217
+
+# text = Es gibt viele Gründe: - Man kann die Krankheit von den Eltern erben.
+# sent_id = 6
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=218|end_char=220
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=221|end_char=225
+3	viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	start_char=226|end_char=231
+4	Gründe	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=232|end_char=238
+5	:	:	PUNCT	$.	_	14	punct	_	start_char=238|end_char=239
+6	-	-	PUNCT	$(	_	14	punct	_	start_char=240|end_char=241
+7	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	start_char=242|end_char=245
+8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=246|end_char=250
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=251|end_char=254
+10	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=255|end_char=264
+11	von	von	ADP	APPR	_	13	case	_	start_char=265|end_char=268
+12	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=269|end_char=272
+13	Eltern	Eltern	NOUN	NN	Case=Dat|Number=Plur	10	nmod	_	start_char=273|end_char=279
+14	erben	erben	VERB	VVINF	VerbForm=Inf	2	parataxis	_	start_char=280|end_char=285
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=285|end_char=286
+
+# text = - Man isst zu viel ungesundes Essen.
+# sent_id = 7
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=287|end_char=288
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=289|end_char=292
+3	isst	essen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=293|end_char=297
+4	zu	zu	ADV	PTKA	_	5	advmod	_	start_char=298|end_char=300
+5	viel	viel	DET	PIAT	PronType=Ind	7	det	_	start_char=301|end_char=305
+6	ungesundes	ungesund	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=306|end_char=316
+7	Essen	Essen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=317|end_char=322
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=322|end_char=323
+
+# text = - Man bewegt sich zu wenig.
+# sent_id = 8
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=324|end_char=325
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=326|end_char=329
+3	bewegt	bewegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=330|end_char=336
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=337|end_char=341
+5	zu	zu	ADV	PTKA	_	6	advmod	_	start_char=342|end_char=344
+6	wenig	wenig	DET	PIS	PronType=Ind	3	obj	_	start_char=345|end_char=350
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=350|end_char=351
+
+# text = Normalerweise hilft das Hormon Insulin, den Zucker aus dem Blut in die Zellen zu bringen.
+# sent_id = 9
+1	Normalerweise	normalerweise	ADV	ADV	_	2	advmod	_	start_char=352|end_char=365
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=366|end_char=371
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=372|end_char=375
+4	Hormon	Hormon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=376|end_char=382
+5	Insulin	Insulin	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=383|end_char=390
+6	,	,	PUNCT	$,	_	16	punct	_	start_char=390|end_char=391
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=392|end_char=395
+8	Zucker	Zucker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=396|end_char=402
+9	aus	aus	ADP	APPR	_	11	case	_	start_char=403|end_char=406
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=407|end_char=410
+11	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=411|end_char=415
+12	in	in	ADP	APPR	_	14	case	_	start_char=416|end_char=418
+13	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	14	det	_	start_char=419|end_char=422
+14	Zellen	Zelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obl	_	start_char=423|end_char=429
+15	zu	zu	PART	PTKZU	_	16	mark	_	start_char=430|end_char=432
+16	bringen	bringen	VERB	VVINF	VerbForm=Inf	5	acl	_	start_char=433|end_char=440
+17	.	.	PUNCT	$.	_	2	punct	_	start_char=440|end_char=441
+
+# text = Bei Typ-2-Diabetes funktioniert das Insulin nicht mehr richtig.
+# sent_id = 10
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=442|end_char=445
+2	Typ-2-Diabetes	Typ-2-Diabetes	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=446|end_char=460
+3	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=461|end_char=473
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=474|end_char=477
+5	Insulin	Insulin	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=478|end_char=485
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=486|end_char=491
+7	mehr	mehr	ADV	ADV	_	3	advmod	_	start_char=492|end_char=496
+8	richtig	richtig	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=497|end_char=504
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=504|end_char=505
+
+# text = Der Zucker bleibt im Blut.
+# sent_id = 11
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=506|end_char=509
+2	Zucker	Zucker	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=510|end_char=516
+3	bleibt	bleiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=517|end_char=523
+4-5	im	_	_	_	_	_	_	_	start_char=524|end_char=526
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=527|end_char=531
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=531|end_char=532
+
+# text = #### Symptome Wenn jemand Typ-2-Diabetes hat, merkt er das nicht sofort.
+# sent_id = 12
+1	####	####	PUNCT	$(	_	2	punct	_	start_char=533|end_char=537
+2	Symptome	Symptom	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	start_char=538|end_char=546
+3	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=547|end_char=551
+4	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=552|end_char=558
+5	Typ-2-Diabetes	Typ-2-Diabetes	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=559|end_char=573
+6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	start_char=574|end_char=577
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=577|end_char=578
+8	merkt	merken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=579|end_char=584
+9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=585|end_char=587
+10	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	obj	_	start_char=588|end_char=591
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=592|end_char=597
+12	sofort	sofort	ADV	ADV	_	8	advmod	_	start_char=598|end_char=604
+13	.	.	PUNCT	$.	_	8	punct	_	start_char=604|end_char=605
+
+# text = Oft gibt es lange keine Beschwerden.
+# sent_id = 13
+1	Oft	oft	ADV	ADV	_	2	advmod	_	start_char=606|end_char=609
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=610|end_char=614
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=615|end_char=617
+4	lange	lange	ADV	ADV	_	2	advmod	_	start_char=618|end_char=623
+5	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	6	det	_	start_char=624|end_char=629
+6	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=630|end_char=641
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=641|end_char=642
+
+# text = Aber der Zucker im Blut schadet dem Körper.
+# sent_id = 14
+1	Aber	aber	CCONJ	KON	_	7	cc	_	start_char=643|end_char=647
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=648|end_char=651
+3	Zucker	Zucker	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=652|end_char=658
+4-5	im	_	_	_	_	_	_	_	start_char=659|end_char=661
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	start_char=662|end_char=666
+7	schadet	schaden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=667|end_char=674
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=675|end_char=678
+9	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl:arg	_	start_char=679|end_char=685
+10	.	.	PUNCT	$.	_	7	punct	_	start_char=685|end_char=686
+
+# text = #### Diagnose Der Arzt kann Typ-2-Diabetes mit einem Bluttest feststellen.
+# sent_id = 15
+1	####	####	PUNCT	$(	_	2	punct	_	start_char=687|end_char=691
+2	Diagnose	Diagnose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=692|end_char=700
+3	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=701|end_char=704
+4	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=705|end_char=709
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=710|end_char=714
+6	Typ-2-Diabetes	Typ-2-Diabetes	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=715|end_char=729
+7	mit	mit	ADP	APPR	_	9	case	_	start_char=730|end_char=733
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=734|end_char=739
+9	Bluttest	Bluttest	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=740|end_char=748
+10	feststellen	feststellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=749|end_char=760
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=760|end_char=761
+
+# text = #### Folgekrankheiten - Herz-Kreislauf-Erkrankungen (wie Herzinfarkt) - Schlaganfall - Nierenschäden - Schäden an den Augen - Nervenschäden - Durchblutungsstörungen in den Beinen (diabetischer Fuß, kann zu Amputationen führen) #### Therapie
+# sent_id = 16
+1	####	####	PUNCT	$(	_	2	punct	_	start_char=762|end_char=766
+2	Folgekrankheiten	Folgekrankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	compound	_	start_char=767|end_char=783
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=784|end_char=785
+4	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	compound	_	start_char=786|end_char=790
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=790|end_char=791
+6	Kreislauf	Kreislauf	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	compound	_	start_char=791|end_char=800
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=800|end_char=801
+8	Erkrankungen	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	39	nsubj	_	start_char=801|end_char=813
+9	(	(	PUNCT	$(	_	11	punct	_	start_char=814|end_char=815
+10	wie	wie	ADP	KOKOM	_	11	case	_	start_char=815|end_char=818
+11	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	start_char=819|end_char=830
+12	)	)	PUNCT	$(	_	11	punct	_	start_char=830|end_char=831
+13	-	-	PUNCT	$(	_	11	punct	_	start_char=832|end_char=833
+14	Schlaganfall	Schlaganfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	compound	_	start_char=834|end_char=846
+15	-	-	PUNCT	$(	_	14	punct	_	start_char=847|end_char=848
+16	Nierenschäden	Nierenschaden	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	compound	_	start_char=849|end_char=862
+17	-	-	PUNCT	$(	_	16	punct	_	start_char=863|end_char=864
+18	Schäden	Schaden	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	appos	_	start_char=865|end_char=872
+19	an	an	ADP	APPR	_	25	case	_	start_char=873|end_char=875
+20	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	25	det	_	start_char=876|end_char=879
+21	Augen	Auge	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	25	compound	_	start_char=880|end_char=885
+22	-	-	PUNCT	$(	_	21	punct	_	start_char=886|end_char=887
+23	Nervenschäden	Nervenschaden	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	25	compound	_	start_char=888|end_char=901
+24	-	-	PUNCT	$(	_	23	punct	_	start_char=902|end_char=903
+25	Durchblutungsstörungen	Durchblutungsstörung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	nmod	_	start_char=904|end_char=926
+26	in	in	ADP	APPR	_	28	case	_	start_char=927|end_char=929
+27	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	28	det	_	start_char=930|end_char=933
+28	Beinen	Bein|Reinen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	25	nmod	_	start_char=934|end_char=940
+29	(	(	PUNCT	$(	_	31	punct	_	start_char=941|end_char=942
+30	diabetischer	diabetisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	start_char=942|end_char=954
+31	Fuß	Fuß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	appos	_	start_char=955|end_char=958
+32	,	,	PUNCT	$,	_	31	punct	_	start_char=958|end_char=959
+33	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	start_char=960|end_char=964
+34	zu	zu	ADP	APPR	_	35	case	_	start_char=965|end_char=967
+35	Amputationen	Amputation	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	36	obl	_	start_char=968|end_char=980
+36	führen	führen	VERB	VVINF	VerbForm=Inf	8	parataxis	_	start_char=981|end_char=987
+37	)	)	PUNCT	$(	_	36	punct	_	start_char=987|end_char=988
+38	####	####	PUNCT	$(	_	39	punct	_	start_char=989|end_char=993
+39	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=994|end_char=1002
+
+# text = Es gibt mehrere Möglichkeiten, wie man Typ-2-Diabetes behandeln kann: - Medikamente, die vom Arzt verschrieben werden - Gesunde Ernährung - Abnehmen - Viel Bewegung #### Alltag mit Typ-2-Diabetes Man kann mit Typ-2-Diabetes gut leben, wenn man ein paar Dinge beachtet: - Regelmäßig zum Arzt gehen - Gesund essen - Sich viel bewegen ####
+# sent_id = 17
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1003|end_char=1005
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1006|end_char=1010
+3	mehrere	mehr	DET	PIAT	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	start_char=1011|end_char=1018
+4	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1019|end_char=1032
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=1032|end_char=1033
+6	wie	wie	SCONJ	KOUS	_	9	mark	_	start_char=1034|end_char=1037
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=1038|end_char=1041
+8	Typ-2-Diabetes	Typ-2-Diabetes	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=1042|end_char=1056
+9	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	2	ccomp	_	start_char=1057|end_char=1066
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1067|end_char=1071
+11	:	:	PUNCT	$.	_	13	punct	_	start_char=1071|end_char=1072
+12	-	-	PUNCT	$(	_	13	punct	_	start_char=1073|end_char=1074
+13	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	appos	_	start_char=1075|end_char=1086
+14	,	,	PUNCT	$,	_	19	punct	_	start_char=1086|end_char=1087
+15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	19	nsubj:pass	_	start_char=1088|end_char=1091
+16-17	vom	_	_	_	_	_	_	_	start_char=1092|end_char=1095
+16	von	von	ADP	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl:agent	_	start_char=1096|end_char=1100
+19	verschrieben	verschreiben	VERB	VVPP	VerbForm=Part	13	acl	_	start_char=1101|end_char=1113
+20	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	aux:pass	_	start_char=1114|end_char=1120
+21	-	-	PUNCT	$(	_	28	punct	_	start_char=1121|end_char=1122
+22	Gesunde	gesund	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=1123|end_char=1130
+23	Ernährung	Ernährung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	compound	_	start_char=1131|end_char=1140
+24	-	-	PUNCT	$(	_	23	punct	_	start_char=1141|end_char=1142
+25	Abnehmen	Abnehmen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	compound	_	start_char=1143|end_char=1151
+26	-	-	PUNCT	$(	_	25	punct	_	start_char=1152|end_char=1153
+27	Viel	viel	DET	PIAT	PronType=Ind	28	det	_	start_char=1154|end_char=1158
+28	Bewegung	Bewegung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	start_char=1159|end_char=1167
+29	####	####	PUNCT	$(	_	30	punct	_	start_char=1168|end_char=1172
+30	Alltag	Alltag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	appos	_	start_char=1173|end_char=1179
+31	mit	mit	ADP	APPR	_	32	case	_	start_char=1180|end_char=1183
+32	Typ	Typ	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	30	nmod	_	start_char=1184|end_char=1187
+33	-2-Diabetes	-2-Diabetes	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	32	appos	_	start_char=1187|end_char=1198
+34	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	39	nsubj	_	start_char=1199|end_char=1202
+35	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	start_char=1203|end_char=1207
+36	mit	mit	ADP	APPR	_	37	case	_	start_char=1208|end_char=1211
+37	Typ-2-Diabetes	Typ-2-Diabetes	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	39	obl	_	start_char=1212|end_char=1226
+38	gut	gut	ADJ	ADJD	Degree=Pos	39	advmod	_	start_char=1227|end_char=1230
+39	leben	leben	VERB	VVINF	VerbForm=Inf	2	parataxis	_	start_char=1231|end_char=1236
+40	,	,	PUNCT	$,	_	46	punct	_	start_char=1236|end_char=1237
+41	wenn	wenn	SCONJ	KOUS	_	46	mark	_	start_char=1238|end_char=1242
+42	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	46	nsubj	_	start_char=1243|end_char=1246
+43	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	45	det	_	start_char=1247|end_char=1250
+44	paar	paar	ADJ	PIAT	Degree=Pos	45	nmod	_	start_char=1251|end_char=1255
+45	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	46	obj	_	start_char=1256|end_char=1261
+46	beachtet	beachten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	advcl	_	start_char=1262|end_char=1270
+47	:	:	PUNCT	$.	_	53	punct	_	start_char=1270|end_char=1271
+48	-	-	PUNCT	$(	_	53	punct	_	start_char=1272|end_char=1273
+49	Regelmäßig	regelmäßig	ADV	ADJD	_	53	advmod	_	start_char=1274|end_char=1284
+50-51	zum	_	_	_	_	_	_	_	start_char=1285|end_char=1288
+50	zu	zu	ADP	APPR	_	52	case	_	_
+51	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	53	obl	_	start_char=1289|end_char=1293
+53	gehen	gehen	VERB	VVINF	VerbForm=Inf	46	parataxis	_	start_char=1294|end_char=1299
+54	-	-	PUNCT	$(	_	56	punct	_	start_char=1300|end_char=1301
+55	Gesund	gesund	ADJ	ADJD	Degree=Pos	56	advmod	_	start_char=1302|end_char=1308
+56	essen	essen	VERB	VVINF	VerbForm=Inf	53	conj	_	start_char=1309|end_char=1314
+57	-	-	PUNCT	$(	_	60	punct	_	start_char=1315|end_char=1316
+58	Sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	60	obj	_	start_char=1317|end_char=1321
+59	viel	viel	DET	PIS	PronType=Ind	60	obj	_	start_char=1322|end_char=1326
+60	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	53	conj	_	start_char=1327|end_char=1334
+61	###	###	PUNCT	$(	_	60	punct	_	start_char=1335|end_char=1338
+62	#	#	PUNCT	$(	_	39	punct	_	start_char=1338|end_char=1339
+
+# text = Wie häufig ist Typ-2-Diabetes?
+# sent_id = 18
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	start_char=1340|end_char=1343
+2	häufig	häufig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1344|end_char=1350
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=1351|end_char=1354
+4	Typ-2-Diabetes	Typ-2-Diabetes	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=1355|end_char=1369
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=1369|end_char=1370
+
+# text = In Deutschland haben viele Menschen Typ-2-Diabetes.
+# sent_id = 19
+1	In	in	ADP	APPR	_	2	case	_	start_char=1371|end_char=1373
+2	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=1374|end_char=1385
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1386|end_char=1391
+4	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=1392|end_char=1397
+5	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1398|end_char=1406
+6	Typ-2-Diabetes	Typ-2-Diabetes	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=1407|end_char=1421
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1421|end_char=1422
+
+# text = Viele wissen es aber nicht, weil sie keine Beschwerden haben.
+# sent_id = 20
+1	Viele	viel	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	2	nsubj	_	start_char=1423|end_char=1428
+2	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1429|end_char=1435
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=1436|end_char=1438
+4	aber	aber	ADV	ADV	_	2	advmod	_	start_char=1439|end_char=1443
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=1444|end_char=1449
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=1449|end_char=1450
+7	weil	weil	SCONJ	KOUS	_	11	mark	_	start_char=1451|end_char=1455
+8	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=1456|end_char=1459
+9	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	10	det	_	start_char=1460|end_char=1465
+10	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=1466|end_char=1477
+11	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=1478|end_char=1483
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=1483|end_char=1484
+
+# text = #### Kann man Typ-2-Diabetes heilen?
+# sent_id = 21
+1	####	####	PUNCT	$(	_	5	punct	_	start_char=1485|end_char=1489
+2	Kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1490|end_char=1494
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=1495|end_char=1498
+4	Typ-2-Diabetes	Typ-2-Diabetes	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	start_char=1499|end_char=1513
+5	heilen	heilen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1514|end_char=1520
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=1520|end_char=1521
+
+# text = Man kann den Diabetes oft durch Abnehmen und gesunde Lebensweise bessern.
+# sent_id = 22
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=1522|end_char=1525
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=1526|end_char=1530
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1531|end_char=1534
+4	Diabetes	Diabet	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=1535|end_char=1543
+5	oft	oft	ADV	ADV	_	11	advmod	_	start_char=1544|end_char=1547
+6	durch	durch	ADP	APPR	_	7	case	_	start_char=1548|end_char=1553
+7	Abnehmen	Abnehmen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	start_char=1554|end_char=1562
+8	und	und	CCONJ	KON	_	10	cc	_	start_char=1563|end_char=1566
+9	gesunde	gesund	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=1567|end_char=1574
+10	Lebensweise	Lebensweise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	start_char=1575|end_char=1586
+11	bessern	bessern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1587|end_char=1594
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=1594|end_char=1595
+
+# text = Manchmal verschwindet der Diabetes sogar ganz.
+# sent_id = 23
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=1596|end_char=1604
+2	verschwindet	verschwinden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1605|end_char=1617
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1618|end_char=1621
+4	Diabetes	Diabet	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1622|end_char=1630
+5	sogar	sogar	ADV	ADV	_	2	advmod	_	start_char=1631|end_char=1636
+6	ganz	ganz	ADJ	ADV	Degree=Pos	2	advmod	_	start_char=1637|end_char=1641
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=1641|end_char=1642
+
+# text = #### Unterschied zwischen Typ-1- und Typ-2-Diabetes - Typ-2-Diabetes: Das Insulin funktioniert nicht richtig.
+# sent_id = 24
+1	####	####	PUNCT	$(	_	2	punct	_	start_char=1643|end_char=1647
+2	Unterschied	Unterschied	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=1648|end_char=1659
+3	zwischen	zwischen	ADP	APPR	_	8	case	_	start_char=1660|end_char=1668
+4	Typ-1-	Typ-1-	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	amod	_	start_char=1669|end_char=1675
+5	und	und	CCONJ	KON	_	8	cc	_	start_char=1676|end_char=1679
+6	Typ-2-Diabetes	Typ-2-Diabetes	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	conj	_	start_char=1680|end_char=1694
+7	-	-	PUNCT	$(	_	6	punct	_	start_char=1695|end_char=1696
+8	Typ-2-Diabetes	Typ-2-Diabetes	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	start_char=1697|end_char=1711
+9	:	:	PUNCT	$.	_	12	punct	_	start_char=1711|end_char=1712
+10	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=1713|end_char=1716
+11	Insulin	Insulin	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	start_char=1717|end_char=1724
+12	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=1725|end_char=1737
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=1738|end_char=1743
+14	richtig	richtig	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=1744|end_char=1751
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=1751|end_char=1752
+
+# text = - Typ-1-Diabetes: Der Körper stellt kein Insulin mehr her.
+# sent_id = 25
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1753|end_char=1754
+2	Typ-1-Diabetes	Typ-1-Diabetes	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=1755|end_char=1769
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=1769|end_char=1770
+4	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1771|end_char=1774
+5	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=1775|end_char=1781
+6	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1782|end_char=1788
+7	kein	kein	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	8	det	_	start_char=1789|end_char=1793
+8	Insulin	Insulin	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=1794|end_char=1801
+9	mehr	mehr	ADV	ADV	_	6	advmod	_	start_char=1802|end_char=1806
+10	her	her	ADV	PTKVZ	_	6	compound:prt	_	start_char=1807|end_char=1810
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=1810|end_char=1811
+
+# text = Meistens bekommen Kinder und junge Menschen diese Krankheit.
+# sent_id = 26
+1	Meistens	meistens	ADV	ADV	_	2	advmod	_	start_char=1812|end_char=1820
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1821|end_char=1829
+3	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	start_char=1830|end_char=1836
+4	und	und	CCONJ	KON	_	6	cc	_	start_char=1837|end_char=1840
+5	junge	jung	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=1841|end_char=1846
+6	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	start_char=1847|end_char=1855
+7	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=1856|end_char=1861
+8	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=1862|end_char=1871
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=1871|end_char=1872
+
+# text = Sie müssen von Anfang an Insulin spritzen.
+# sent_id = 27
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=1873|end_char=1876
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1877|end_char=1883
+3	von	von	ADP	APPR	_	4	case	_	start_char=1884|end_char=1887
+4	Anfang	Anfang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=1888|end_char=1894
+5	an	an	ADP	APPR	_	6	case	_	start_char=1895|end_char=1897
+6	Insulin	Insulin	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	start_char=1898|end_char=1905
+7	spritzen	spritzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1906|end_char=1914
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1914|end_char=1915
+

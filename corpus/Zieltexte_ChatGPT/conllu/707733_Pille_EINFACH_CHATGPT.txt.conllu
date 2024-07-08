@@ -1,0 +1,248 @@
+# text = Was ist "Verhütung: Die Pille"?
+# sent_id = 0
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=0|end_char=3
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4|end_char=7
+3	"	"	PUNCT	$(	_	4	punct	_	start_char=8|end_char=9
+4	Verhütung	Verhütung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=9|end_char=18
+5	:	:	PUNCT	$.	_	7	punct	_	start_char=18|end_char=19
+6	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=20|end_char=23
+7	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	start_char=24|end_char=29
+8	"	"	PUNCT	$(	_	7	punct	_	start_char=29|end_char=30
+9	?	?	PUNCT	$.	_	4	punct	_	start_char=30|end_char=31
+
+# text = Die Antibabypille ist ein Medikament, das gut vor Schwangerschaft schützt und einfach angewendet werden kann.
+# sent_id = 1
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=32|end_char=35
+2	Antibabypille	Antibabypille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=36|end_char=49
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=50|end_char=53
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=54|end_char=57
+5	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=58|end_char=68
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=68|end_char=69
+7	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	nsubj	_	start_char=70|end_char=73
+8	gut	gut	ADV	ADJD	_	11	advmod	_	start_char=74|end_char=77
+9	vor	vor	ADP	APPR	_	10	case	_	start_char=78|end_char=81
+10	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	start_char=82|end_char=97
+11	schützt	schützen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=98|end_char=105
+12	und	und	CCONJ	KON	_	14	cc	_	start_char=106|end_char=109
+13	einfach	einfach	ADJ	ADJD	Degree=Pos	14	advmod	_	start_char=110|end_char=117
+14	angewendet	anwenden	VERB	VVPP	VerbForm=Part	11	conj	_	start_char=118|end_char=128
+15	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	11	aux:pass	_	start_char=129|end_char=135
+16	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=136|end_char=140
+17	.	.	PUNCT	$.	_	5	punct	_	start_char=140|end_char=141
+
+# text = Wir erklären, was die Pille bewirkt und ihre Vor- und Nachteile.
+# sent_id = 2
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=142|end_char=145
+2	erklären	erklären	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=146|end_char=154
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=154|end_char=155
+4	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	7	obj	_	start_char=156|end_char=159
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=160|end_char=163
+6	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=164|end_char=169
+7	bewirkt	bewirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=170|end_char=177
+8	und	und	CCONJ	KON	_	10	cc	_	start_char=178|end_char=181
+9	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=182|end_char=186
+10	Vor	vor	NOUN	TRUNC	_	7	obj	_	start_char=187|end_char=190
+11	-	-	PUNCT	$(	_	13	punct	_	start_char=190|end_char=191
+12	und	und	CCONJ	KON	_	13	cc	_	start_char=192|end_char=195
+13	Nachteile	Nachteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	conj	_	start_char=196|end_char=205
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=205|end_char=206
+
+# text = Zuletzt aktualisiert am 12. Februar 2019. - Der natürliche Zyklus: Der Körper einer Frau hat einen natürlichen Zyklus, der von Hormonen gesteuert wird.
+# sent_id = 3
+1	Zuletzt	zuletzt	ADV	ADV	_	2	advmod	_	start_char=207|end_char=214
+2	aktualisiert	aktualisieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=215|end_char=227
+3-4	am	_	_	_	_	_	_	_	start_char=228|end_char=230
+3	an	an	ADP	APPR	_	6	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	12.	12.	ADJ	ADJA	Degree=Pos|NumType=Ord	6	amod	_	start_char=231|end_char=234
+6	Februar	Februar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=235|end_char=242
+7	2019	2019	NUM	CARD	NumType=Card	6	nmod	_	start_char=243|end_char=247
+8	.	.	PUNCT	$.	_	12	punct	_	start_char=247|end_char=248
+9	-	-	PUNCT	$(	_	12	punct	_	start_char=249|end_char=250
+10	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=251|end_char=254
+11	natürliche	natürlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=255|end_char=265
+12	Zyklus	Zyklus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	dep	_	start_char=266|end_char=272
+13	:	:	PUNCT	$.	_	18	punct	_	start_char=272|end_char=273
+14	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=274|end_char=277
+15	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	start_char=278|end_char=284
+16	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	17	det	_	start_char=285|end_char=290
+17	Frau	Frau	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=291|end_char=295
+18	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=296|end_char=299
+19	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	21	det	_	start_char=300|end_char=305
+20	natürlichen	natürlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=306|end_char=317
+21	Zyklus	Zyklus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	start_char=318|end_char=324
+22	,	,	PUNCT	$,	_	26	punct	_	start_char=324|end_char=325
+23	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	26	nsubj:pass	_	start_char=326|end_char=329
+24	von	von	ADP	APPR	_	25	case	_	start_char=330|end_char=333
+25	Hormonen	Hormon	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	26	obl:agent	_	start_char=334|end_char=342
+26	gesteuert	steuern	VERB	VVPP	VerbForm=Part	21	acl	_	start_char=343|end_char=352
+27	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	26	aux:pass	_	start_char=353|end_char=357
+28	.	.	PUNCT	$.	_	2	punct	_	start_char=357|end_char=358
+
+# text = - So wirkt die Pille: Die Pille enthält künstliche Hormone, die den natürlichen Zyklus beeinflussen.
+# sent_id = 4
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=359|end_char=360
+2	So	so	ADV	ADV	_	3	advmod	_	start_char=361|end_char=363
+3	wirkt	wirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=364|end_char=369
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=370|end_char=373
+5	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=374|end_char=379
+6	:	:	PUNCT	$.	_	9	punct	_	start_char=379|end_char=380
+7	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=381|end_char=384
+8	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=385|end_char=390
+9	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=391|end_char=398
+10	künstliche	künstlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	11	amod	_	start_char=399|end_char=409
+11	Hormone	Hormone	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	start_char=410|end_char=417
+12	,	,	PUNCT	$,	_	17	punct	_	start_char=417|end_char=418
+13	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	17	nsubj	_	start_char=419|end_char=422
+14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=423|end_char=426
+15	natürlichen	natürlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=427|end_char=438
+16	Zyklus	Zyklus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=439|end_char=445
+17	beeinflussen	beeinflussen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	start_char=446|end_char=458
+18	.	.	PUNCT	$.	_	3	punct	_	start_char=458|end_char=459
+
+# text = - Welche Arten von Pillen gibt es?
+# sent_id = 5
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=460|end_char=461
+2	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	3	det	_	start_char=462|end_char=468
+3	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=469|end_char=474
+4	von	von	ADP	APPR	_	5	case	_	start_char=475|end_char=478
+5	Pillen	Pille	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	start_char=479|end_char=485
+6	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=486|end_char=490
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=491|end_char=493
+8	?	?	PUNCT	$.	_	6	punct	_	start_char=493|end_char=494
+
+# text = Es gibt verschiedene Arten von Pillen mit unterschiedlichen Hormonkombinationen.
+# sent_id = 6
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=495|end_char=497
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=498|end_char=502
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=503|end_char=515
+4	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=516|end_char=521
+5	von	von	ADP	APPR	_	6	case	_	start_char=522|end_char=525
+6	Pillen	Pille	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	start_char=526|end_char=532
+7	mit	mit	ADP	APPR	_	9	case	_	start_char=533|end_char=536
+8	unterschiedlichen	unterschiedlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=537|end_char=554
+9	Hormonkombinationen	Hormonkombination	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	start_char=555|end_char=574
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=574|end_char=575
+
+# text = - Vor- und Nachteile der Pille: Die Pille hat Vorteile wie bequeme Anwendung, aber auch mögliche Nachteile.
+# sent_id = 7
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=576|end_char=577
+2	Vor	vor	NOUN	TRUNC	_	0	root	_	start_char=578|end_char=581
+3	-	-	PUNCT	$(	_	5	punct	_	start_char=581|end_char=582
+4	und	und	CCONJ	KON	_	5	cc	_	start_char=583|end_char=586
+5	Nachteile	Nachteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=587|end_char=596
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=597|end_char=600
+7	Pille	Pille	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=601|end_char=606
+8	:	:	PUNCT	$.	_	11	punct	_	start_char=606|end_char=607
+9	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=608|end_char=611
+10	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=612|end_char=617
+11	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=618|end_char=621
+12	Vorteile	Vorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=622|end_char=630
+13	wie	wie	ADP	KOKOM	_	15	case	_	start_char=631|end_char=634
+14	bequeme	bequem	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=635|end_char=642
+15	Anwendung	Anwendung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nmod	_	start_char=643|end_char=652
+16	,	,	PUNCT	$,	_	20	punct	_	start_char=652|end_char=653
+17	aber	aber	CCONJ	KON	_	20	cc	_	start_char=654|end_char=658
+18	auch	auch	ADV	ADV	_	20	advmod	_	start_char=659|end_char=663
+19	mögliche	möglich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	start_char=664|end_char=672
+20	Nachteile	Nachteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	conj	_	start_char=673|end_char=682
+21	.	.	PUNCT	$.	_	11	punct	_	start_char=682|end_char=683
+
+# text = - Wie wird die Pille eingenommen?
+# sent_id = 8
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=684|end_char=685
+2	Wie	wie	ADV	PWAV	PronType=Int	6	advmod	_	start_char=686|end_char=689
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	start_char=690|end_char=694
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=695|end_char=698
+5	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	start_char=699|end_char=704
+6	eingenommen	einnehmen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=705|end_char=716
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=716|end_char=717
+
+# text = Es gibt bestimmte Regeln für die Einnahme der Pille.
+# sent_id = 9
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=718|end_char=720
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=721|end_char=725
+3	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=726|end_char=735
+4	Regeln	Regel|Regeln	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=736|end_char=742
+5	für	für	ADP	APPR	_	7	case	_	start_char=743|end_char=746
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=747|end_char=750
+7	Einnahme	Einnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	start_char=751|end_char=759
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=760|end_char=763
+9	Pille	Pille	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=764|end_char=769
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=769|end_char=770
+
+# text = Zuverlässige Verhütung mit der Pille: Viele Frauen benutzen die Pille als Verhütungsmethode.
+# sent_id = 10
+1	Zuverlässige	zuverlässig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=771|end_char=783
+2	Verhütung	Verhütung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=784|end_char=793
+3	mit	mit	ADP	APPR	_	5	case	_	start_char=794|end_char=797
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=798|end_char=801
+5	Pille	Pille	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=802|end_char=807
+6	:	:	PUNCT	$.	_	9	punct	_	start_char=807|end_char=808
+7	Viele	viel	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	8	det	_	start_char=809|end_char=814
+8	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=815|end_char=821
+9	benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=822|end_char=830
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=831|end_char=834
+11	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=835|end_char=840
+12	als	als	ADP	KOKOM	_	13	case	_	start_char=841|end_char=844
+13	Verhütungsmethode	Verhütungsmethode	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	start_char=845|end_char=862
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=862|end_char=863
+
+# text = Doch wie funktioniert die Pille genau?
+# sent_id = 11
+1	Doch	doch	ADV	KON	_	3	advmod	_	start_char=864|end_char=868
+2	wie	wie	ADV	KOUS	_	3	advmod	_	start_char=869|end_char=872
+3	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=873|end_char=885
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=886|end_char=889
+5	Pille	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=890|end_char=895
+6	genau	genau	ADV	ADV	_	3	advmod	_	start_char=896|end_char=901
+7	?	?	PUNCT	$.	_	3	punct	_	start_char=901|end_char=902
+
+# text = Um das zu verstehen, muss man den natürlichen Zyklus verstehen.
+# sent_id = 12
+1	Um	um	ADP	KOUI	_	4	mark	_	start_char=903|end_char=905
+2	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	obj	_	start_char=906|end_char=909
+3	zu	zu	PART	PTKZU	_	4	mark	_	start_char=910|end_char=912
+4	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	11	advcl	_	start_char=913|end_char=922
+5	,	,	PUNCT	$,	_	4	punct	_	start_char=922|end_char=923
+6	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=924|end_char=928
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=929|end_char=932
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=933|end_char=936
+9	natürlichen	natürlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=937|end_char=948
+10	Zyklus	Zyklus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=949|end_char=955
+11	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=956|end_char=965
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=965|end_char=966
+
+# text = Ich hoffe, dass diese Übersetzung Ihnen weiterhilft.
+# sent_id = 13
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=967|end_char=970
+2	hoffe	hoffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=971|end_char=976
+3	,	,	PUNCT	$,	_	8	punct	_	start_char=976|end_char=977
+4	dass	dass	SCONJ	KOUS	_	8	mark	_	start_char=978|end_char=982
+5	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=983|end_char=988
+6	Übersetzung	Übersetzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=989|end_char=1000
+7	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	obl:arg	_	start_char=1001|end_char=1006
+8	weiterhilft	weiterhilfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=1007|end_char=1018
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=1018|end_char=1019
+
+# text = Wenn Sie noch weitere Fragen haben oder Hilfe benötigen, stehe ich gerne zur Verfügung.
+# sent_id = 14
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=1020|end_char=1024
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=1025|end_char=1028
+3	noch	noch	ADV	ADV	_	6	advmod	_	start_char=1029|end_char=1033
+4	weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	5	amod	_	start_char=1034|end_char=1041
+5	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=1042|end_char=1048
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=1049|end_char=1054
+7	oder	oder	CCONJ	KON	_	9	cc	_	start_char=1055|end_char=1059
+8	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=1060|end_char=1065
+9	benötigen	benötigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=1066|end_char=1075
+10	,	,	PUNCT	$,	_	6	punct	_	start_char=1075|end_char=1076
+11	stehe	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1077|end_char=1082
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=1083|end_char=1086
+13	gerne	gerne	ADV	ADV	_	11	advmod	_	start_char=1087|end_char=1092
+14-15	zur	_	_	_	_	_	_	_	start_char=1093|end_char=1096
+14	zu	zu	ADP	APPR	_	16	case	_	_
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Verfügung	Verfügung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	start_char=1097|end_char=1106
+17	.	.	PUNCT	$.	_	11	punct	_	start_char=1106|end_char=1107
+

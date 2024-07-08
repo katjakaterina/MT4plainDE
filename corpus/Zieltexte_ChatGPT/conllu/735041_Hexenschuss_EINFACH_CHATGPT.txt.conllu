@@ -1,0 +1,491 @@
+# text = Was ist ein Hexenschuss?
+# sent_id = 0
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=0|end_char=3
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4|end_char=7
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=8|end_char=11
+4	Hexenschuss	Hexenschuß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=12|end_char=23
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=23|end_char=24
+
+# text = - Ein Hexenschuss ist ein plötzlicher, starker Schmerz im unteren Rücken.
+# sent_id = 1
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=26|end_char=27
+2	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=28|end_char=31
+3	Hexenschuss	Hexenschuß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=32|end_char=43
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=44|end_char=47
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=48|end_char=51
+6	plötzlicher	plötzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=52|end_char=63
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=63|end_char=64
+8	starker	stark	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=65|end_char=72
+9	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=73|end_char=80
+10-11	im	_	_	_	_	_	_	_	start_char=81|end_char=83
+10	in	in	ADP	APPR	_	13	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	unteren	unter	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=84|end_char=91
+13	Rücken	Rücken	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	start_char=92|end_char=98
+14	.	.	PUNCT	$.	_	9	punct	_	start_char=98|end_char=99
+
+# text = - Ein anderer Name dafür ist Lumbago.
+# sent_id = 2
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=101|end_char=102
+2	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=103|end_char=106
+3	anderer	anderer	DET	ADJA	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	start_char=107|end_char=114
+4	Name	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=115|end_char=119
+5	dafür	dafür	ADV	PAV	PronType=Dem	4	advmod	_	start_char=120|end_char=125
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=126|end_char=129
+7	Lumbago	Lumbago	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=130|end_char=137
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=137|end_char=138
+
+# text = - Die gute Nachricht: Meistens wird der Schmerz nach einigen Tagen besser.
+# sent_id = 3
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=140|end_char=141
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=142|end_char=145
+3	gute	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=146|end_char=150
+4	Nachricht	Nachricht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=151|end_char=160
+5	:	:	PUNCT	$.	_	7	punct	_	start_char=160|end_char=161
+6	Meistens	meistens	ADV	ADV	_	7	advmod	_	start_char=162|end_char=170
+7	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=171|end_char=175
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=176|end_char=179
+9	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=180|end_char=187
+10	nach	nach	ADP	APPR	_	12	case	_	start_char=188|end_char=192
+11	einigen	einige	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	12	det	_	start_char=193|end_char=200
+12	Tagen	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	start_char=201|end_char=206
+13	besser	gut	ADJ	ADJD	Degree=Cmp	7	xcomp	_	start_char=207|end_char=213
+14	.	.	PUNCT	$.	_	7	punct	_	start_char=213|end_char=214
+
+# text = - Fast jeder Mensch hat mindestens einmal in seinem Leben einen Hexenschuss.
+# sent_id = 4
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=216|end_char=217
+2	Fast	fast	ADV	ADV	_	3	advmod	_	start_char=218|end_char=222
+3	jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	4	det	_	start_char=223|end_char=228
+4	Mensch	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=229|end_char=235
+5	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=236|end_char=239
+6	mindestens	mindestens	ADV	ADV	_	7	advmod	_	start_char=240|end_char=250
+7	einmal	einmal	ADV	ADV	_	5	advmod	_	start_char=251|end_char=257
+8	in	in	ADP	APPR	_	10	case	_	start_char=258|end_char=260
+9	seinem	sein	DET	PPOSAT	Case=Dat|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=261|end_char=267
+10	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=268|end_char=273
+11	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=274|end_char=279
+12	Hexenschuss	Hexenschuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=280|end_char=291
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=291|end_char=292
+
+# text = Warum bekommt man einen Hexenschuss? - Der Schmerz kann plötzlich auftreten, wenn man sich unglücklich bewegt hat oder etwas Schweres gehoben hat.
+# sent_id = 5
+1	Warum	warum	ADV	PWAV	PronType=Int	2	advmod	_	start_char=295|end_char=300
+2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=301|end_char=308
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=309|end_char=312
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=313|end_char=318
+5	Hexenschuss	Hexenschuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=319|end_char=330
+6	?	?	PUNCT	$.	_	12	punct	_	start_char=330|end_char=331
+7	-	-	PUNCT	$(	_	12	punct	_	start_char=333|end_char=334
+8	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=335|end_char=338
+9	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=339|end_char=346
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=347|end_char=351
+11	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=352|end_char=361
+12	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	2	parataxis	_	start_char=362|end_char=371
+13	,	,	PUNCT	$,	_	18	punct	_	start_char=371|end_char=372
+14	wenn	wenn	SCONJ	KOUS	_	18	mark	_	start_char=373|end_char=377
+15	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	18	nsubj	_	start_char=378|end_char=381
+16	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	18	obj	_	start_char=382|end_char=386
+17	unglücklich	unglücklich	ADV	ADJD	_	18	advmod	_	start_char=387|end_char=398
+18	bewegt	bewegen	VERB	VVPP	VerbForm=Part	12	advcl	_	start_char=399|end_char=405
+19	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=406|end_char=409
+20	oder	oder	CCONJ	KON	_	23	cc	_	start_char=410|end_char=414
+21	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	23	obj	_	start_char=415|end_char=420
+22	Schweres	Schwere	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	obj	_	start_char=421|end_char=429
+23	gehoben	heben	VERB	VVPP	VerbForm=Part	18	conj	_	start_char=430|end_char=437
+24	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=438|end_char=441
+25	.	.	PUNCT	$.	_	2	punct	_	start_char=441|end_char=442
+
+# text = - Manchmal hat man auch einfach zu lange in einer falschen Haltung gesessen.
+# sent_id = 6
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=444|end_char=445
+2	Manchmal	manchmal	ADV	ADV	_	13	advmod	_	start_char=446|end_char=454
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=455|end_char=458
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	_	start_char=459|end_char=462
+5	auch	auch	ADV	ADV	_	13	advmod	_	start_char=463|end_char=467
+6	einfach	einfach	ADV	ADV	_	8	advmod	_	start_char=468|end_char=475
+7	zu	zu	ADV	PTKA	_	8	advmod	_	start_char=476|end_char=478
+8	lange	lange	ADV	ADV	_	13	advmod	_	start_char=479|end_char=484
+9	in	in	ADP	APPR	_	12	case	_	start_char=485|end_char=487
+10	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=488|end_char=493
+11	falschen	falsch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=494|end_char=502
+12	Haltung	Haltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	start_char=503|end_char=510
+13	gesessen	sitzen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=511|end_char=519
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=519|end_char=520
+
+# text = - Stress und kaltes Wetter können auch Schmerzen im Rücken auslösen.
+# sent_id = 7
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=522|end_char=523
+2	Stress	Streß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=524|end_char=530
+3	und	und	CCONJ	KON	_	5	cc	_	start_char=531|end_char=534
+4	kaltes	kalt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=535|end_char=541
+5	Wetter	Wetter	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	start_char=542|end_char=548
+6	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=549|end_char=555
+7	auch	auch	ADV	ADV	_	12	advmod	_	start_char=556|end_char=560
+8	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	obj	_	start_char=561|end_char=570
+9-10	im	_	_	_	_	_	_	_	start_char=571|end_char=573
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Rücken	Rücken	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	start_char=574|end_char=580
+12	auslösen	auslösen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=581|end_char=589
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=589|end_char=590
+
+# text = Symptome eines Hexenschusses - Der Schmerz kommt plötzlich und ist sehr stark.
+# sent_id = 8
+1	Symptome	Symptom	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=593|end_char=601
+2	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=602|end_char=607
+3	Hexenschusses	Hexenschuß	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	compound	_	start_char=608|end_char=621
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=623|end_char=624
+5	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=625|end_char=628
+6	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	start_char=629|end_char=636
+7	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=637|end_char=642
+8	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=643|end_char=652
+9	und	und	CCONJ	KON	_	12	cc	_	start_char=653|end_char=656
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=657|end_char=660
+11	sehr	sehr	ADV	ADV	_	12	advmod	_	start_char=661|end_char=665
+12	stark	stark	ADJ	ADJD	Degree=Pos	7	conj	_	start_char=666|end_char=671
+13	.	.	PUNCT	$.	_	7	punct	_	start_char=671|end_char=672
+
+# text = - Er sitzt oft auf einer Seite zwischen dem unteren Rücken und dem Po. - Es tut weh, sich zu bewegen und man nimmt eine Schonhaltung ein.
+# sent_id = 9
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=674|end_char=675
+2	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=676|end_char=678
+3	sitzt	sitzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=679|end_char=684
+4	oft	oft	ADV	ADV	_	3	advmod	_	start_char=685|end_char=688
+5	auf	auf	ADP	APPR	_	7	case	_	start_char=689|end_char=692
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=693|end_char=698
+7	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=699|end_char=704
+8	zwischen	zwischen	ADP	APPR	_	11	case	_	start_char=705|end_char=713
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=714|end_char=717
+10	unteren	unter	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=718|end_char=725
+11	Rücken	Rücken	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	start_char=726|end_char=732
+12	und	und	CCONJ	KON	_	17	cc	_	start_char=733|end_char=736
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=737|end_char=740
+14	Po.	Po.	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	7	conj	_	start_char=741|end_char=744
+15	-	-	PUNCT	$(	_	16	punct	_	start_char=746|end_char=747
+16	Es	es	PRON	PPER	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	flat	_	start_char=748|end_char=750
+17	tut	tun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=751|end_char=754
+18	weh	weh	ADV	PTKVZ	_	17	compound:prt	_	start_char=755|end_char=758
+19	,	,	PUNCT	$,	_	22	punct	_	start_char=758|end_char=759
+20	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	start_char=760|end_char=764
+21	zu	zu	PART	PTKZU	_	22	mark	_	start_char=765|end_char=767
+22	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	17	xcomp	_	start_char=768|end_char=775
+23	und	und	CCONJ	KON	_	25	cc	_	start_char=776|end_char=779
+24	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	25	nsubj	_	start_char=780|end_char=783
+25	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=784|end_char=789
+26	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	27	det	_	start_char=790|end_char=794
+27	Schonhaltung	Schonhaltung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	start_char=795|end_char=807
+28	ein	ein	ADV	PTKVZ	_	25	compound:prt	_	start_char=808|end_char=811
+29	.	.	PUNCT	$.	_	3	punct	_	start_char=811|end_char=812
+
+# text = - Durch Liegen mit angezogenen Beinen kann der Schmerz etwas besser werden.
+# sent_id = 10
+1	-	-	PUNCT	$(	_	12	punct	_	start_char=813|end_char=814
+2	Durch	durch	ADP	APPR	_	3	case	_	start_char=815|end_char=820
+3	Liegen	liegen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	start_char=821|end_char=827
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=828|end_char=831
+5	angezogenen	angezogen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=832|end_char=843
+6	Beinen	Bein|Reinen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	nmod	_	start_char=844|end_char=850
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=851|end_char=855
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=856|end_char=859
+9	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=860|end_char=867
+10	etwas	etwas	ADV	ADV	PronType=Ind	12	advmod	_	start_char=868|end_char=873
+11	besser	gut	ADJ	ADJD	Degree=Cmp	12	xcomp	_	start_char=874|end_char=880
+12	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=881|end_char=887
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=887|end_char=888
+
+# text = Wann sollte man zum Arzt gehen? - Wenn der Schmerz nach zwei oder drei Tagen nicht besser wird.
+# sent_id = 11
+1	Wann	wann	ADV	PWAV	PronType=Int	7	advmod	_	start_char=891|end_char=895
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=896|end_char=902
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=903|end_char=906
+4-5	zum	_	_	_	_	_	_	_	start_char=907|end_char=910
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=911|end_char=915
+7	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=916|end_char=921
+8	?	?	PUNCT	$.	_	20	punct	_	start_char=921|end_char=922
+9	-	-	PUNCT	$(	_	20	punct	_	start_char=924|end_char=925
+10	Wenn	wenn	SCONJ	KOUS	_	20	mark	_	start_char=926|end_char=930
+11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=931|end_char=934
+12	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	start_char=935|end_char=942
+13	nach	nach	ADP	APPR	_	17	case	_	start_char=943|end_char=947
+14	zwei	zwei	NUM	CARD	NumType=Card	17	nummod	_	start_char=948|end_char=952
+15	oder	oder	CCONJ	KON	_	16	cc	_	start_char=953|end_char=957
+16	drei	drei	NUM	CARD	NumType=Card	14	conj	_	start_char=958|end_char=962
+17	Tagen	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	19	nmod	_	start_char=963|end_char=968
+18	nicht	nicht	PART	PTKNEG	Polarity=Neg	20	advmod	_	start_char=969|end_char=974
+19	besser	gut	ADJ	ADJD	Degree=Cmp	20	xcomp	_	start_char=975|end_char=981
+20	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=982|end_char=986
+21	.	.	PUNCT	$.	_	7	punct	_	start_char=986|end_char=987
+
+# text = - Wenn der Schmerz ins Bein ausstrahlt oder Taubheitsgefühle auftreten.
+# sent_id = 12
+1	-	-	PUNCT	$(	_	8	punct	_	start_char=989|end_char=990
+2	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=991|end_char=995
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=996|end_char=999
+4	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=1000|end_char=1007
+5-6	ins	_	_	_	_	_	_	_	start_char=1008|end_char=1011
+5	in	in	ADP	APPR	_	7	case	_	_
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Bein	Bein	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	start_char=1012|end_char=1016
+8	ausstrahlt	ausstrehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1017|end_char=1027
+9	oder	oder	CCONJ	KON	_	11	cc	_	start_char=1028|end_char=1032
+10	Taubheitsgefühle	Taubheitsgefühl	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	start_char=1033|end_char=1049
+11	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	8	conj	_	start_char=1050|end_char=1059
+12	.	.	PUNCT	$.	_	8	punct	_	start_char=1059|end_char=1060
+
+# text = - Wenn man hohes Fieber hat oder andere ernsthafte Symptome.
+# sent_id = 13
+1	-	-	PUNCT	$(	_	6	punct	_	start_char=1062|end_char=1063
+2	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=1064|end_char=1068
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=1069|end_char=1072
+4	hohes	hoch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=1073|end_char=1078
+5	Fieber	Fieber	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=1079|end_char=1085
+6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1086|end_char=1089
+7	oder	oder	CCONJ	KON	_	10	cc	_	start_char=1090|end_char=1094
+8	andere	anderer	DET	ADJA	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	10	det	_	start_char=1095|end_char=1101
+9	ernsthafte	ernsthaft	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	start_char=1102|end_char=1112
+10	Symptome	Symptom	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	start_char=1113|end_char=1121
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=1121|end_char=1122
+
+# text = - Wenn man chronische Krankheiten wie Diabetes oder Osteoporose hat.
+# sent_id = 14
+1	-	-	PUNCT	$(	_	10	punct	_	start_char=1124|end_char=1125
+2	Wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=1126|end_char=1130
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=1131|end_char=1134
+4	chronische	chronisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=1135|end_char=1145
+5	Krankheiten	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=1146|end_char=1157
+6	wie	wie	ADP	KOKOM	_	7	case	_	start_char=1158|end_char=1161
+7	Diabetes	Diabet	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=1162|end_char=1170
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=1171|end_char=1175
+9	Osteoporose	Osteoporose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	start_char=1176|end_char=1187
+10	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1188|end_char=1191
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1191|end_char=1192
+
+# text = - Bei Taubheitsgefühlen im Schritt oder Problemen beim Wasserlassen sofort den Notruf 112 wählen.
+# sent_id = 15
+1	-	-	PUNCT	$(	_	16	punct	_	start_char=1194|end_char=1195
+2	Bei	bei	ADP	APPR	_	3	case	_	start_char=1196|end_char=1199
+3	Taubheitsgefühlen	Taubheitsgefühl	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	obl	_	start_char=1200|end_char=1217
+4-5	im	_	_	_	_	_	_	_	start_char=1218|end_char=1220
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Schritt	Schritt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	start_char=1221|end_char=1228
+7	oder	oder	CCONJ	KON	_	8	cc	_	start_char=1229|end_char=1233
+8	Problemen	Problem	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	conj	_	start_char=1234|end_char=1243
+9-10	beim	_	_	_	_	_	_	_	start_char=1244|end_char=1248
+9	bei	bei	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Wasserlassen	Wasserlassen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=1249|end_char=1261
+12	sofort	sofort	ADV	ADV	_	16	advmod	_	start_char=1262|end_char=1268
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=1269|end_char=1272
+14	Notruf	Notruf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=1273|end_char=1279
+15	112	112	NUM	CARD	NumType=Card	14	appos	_	start_char=1280|end_char=1283
+16	wählen	wählen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1284|end_char=1290
+17	.	.	PUNCT	$.	_	16	punct	_	start_char=1290|end_char=1291
+
+# text = Diagnose beim Arzt - Oft kann der Arzt schon anhand der Beschwerden und einer Untersuchung feststellen, dass es sich um einen Hexenschuss handelt.
+# sent_id = 16
+1	Diagnose	Diagnose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	obj	_	start_char=1294|end_char=1302
+2-3	beim	_	_	_	_	_	_	_	start_char=1303|end_char=1307
+2	bei	bei	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	start_char=1308|end_char=1312
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1314|end_char=1315
+6	Oft	oft	ADV	ADV	_	17	advmod	_	start_char=1316|end_char=1319
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=1320|end_char=1324
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=1325|end_char=1328
+9	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=1329|end_char=1333
+10	schon	schon	ADV	ADV	_	13	advmod	_	start_char=1334|end_char=1339
+11	anhand	anhand	ADP	APPR	_	13	case	_	start_char=1340|end_char=1346
+12	der	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=1347|end_char=1350
+13	Beschwerden	Beschwerde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	obl	_	start_char=1351|end_char=1362
+14	und	und	CCONJ	KON	_	16	cc	_	start_char=1363|end_char=1366
+15	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	16	det	_	start_char=1367|end_char=1372
+16	Untersuchung	Untersuchung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	conj	_	start_char=1373|end_char=1385
+17	feststellen	feststellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1386|end_char=1397
+18	,	,	PUNCT	$,	_	25	punct	_	start_char=1397|end_char=1398
+19	dass	dass	SCONJ	KOUS	_	25	mark	_	start_char=1399|end_char=1403
+20	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	start_char=1404|end_char=1406
+21	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	25	obj	_	start_char=1407|end_char=1411
+22	um	um	ADP	APPR	_	24	case	_	start_char=1412|end_char=1414
+23	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	24	det	_	start_char=1415|end_char=1420
+24	Hexenschuss	Hexenschuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obl	_	start_char=1421|end_char=1432
+25	handelt	handeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	start_char=1433|end_char=1440
+26	.	.	PUNCT	$.	_	17	punct	_	start_char=1440|end_char=1441
+
+# text = - In den meisten Fällen sind weitere Untersuchungen nicht nötig.
+# sent_id = 17
+1	-	-	PUNCT	$(	_	10	punct	_	start_char=1443|end_char=1444
+2	In	in	ADP	APPR	_	5	case	_	start_char=1445|end_char=1447
+3	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1448|end_char=1451
+4	meisten	meist	DET	PIAT	Case=Dat|Degree=Sup|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=1452|end_char=1459
+5	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	start_char=1460|end_char=1466
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=1467|end_char=1471
+7	weitere	weit	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	8	amod	_	start_char=1472|end_char=1479
+8	Untersuchungen	Untersuchung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=1480|end_char=1494
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=1495|end_char=1500
+10	nötig	nötig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1501|end_char=1506
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1506|end_char=1507
+
+# text = - Bei länger andauernden Schmerzen oder anderen Problemen können weitere Untersuchungen wie Röntgenaufnahmen gemacht werden.
+# sent_id = 18
+1	-	-	PUNCT	$(	_	14	punct	_	start_char=1509|end_char=1510
+2	Bei	bei	ADP	APPR	_	5	case	_	start_char=1511|end_char=1514
+3	länger	lang	ADJ	ADJD	Degree=Cmp	4	advmod	_	start_char=1515|end_char=1521
+4	andauernden	andauernd	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=1522|end_char=1533
+5	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	obl	_	start_char=1534|end_char=1543
+6	oder	oder	CCONJ	KON	_	8	cc	_	start_char=1544|end_char=1548
+7	anderen	anderer	DET	ADJA	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	8	det	_	start_char=1549|end_char=1556
+8	Problemen	Problem	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	conj	_	start_char=1557|end_char=1566
+9	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=1567|end_char=1573
+10	weitere	weit	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	11	amod	_	start_char=1574|end_char=1581
+11	Untersuchungen	Untersuchung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj:pass	_	start_char=1582|end_char=1596
+12	wie	wie	ADP	KOKOM	_	13	case	_	start_char=1597|end_char=1600
+13	Röntgenaufnahmen	Röntgenaufnahmen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nmod	_	start_char=1601|end_char=1617
+14	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1618|end_char=1625
+15	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	14	aux:pass	_	start_char=1626|end_char=1632
+16	.	.	PUNCT	$.	_	14	punct	_	start_char=1632|end_char=1633
+
+# text = Therapie & Tipps - Liegen mit angezogenen Beinen kann helfen.
+# sent_id = 19
+1	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1636|end_char=1644
+2	&	&	SYM	NE	_	5	cc	_	start_char=1645|end_char=1646
+3	Tipps	Tip	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	compound	_	start_char=1647|end_char=1652
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=1654|end_char=1655
+5	Liegen	liegen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1656|end_char=1662
+6	mit	mit	ADP	APPR	_	8	case	_	start_char=1663|end_char=1666
+7	angezogenen	angezogen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=1667|end_char=1678
+8	Beinen	Bein|Reinen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	start_char=1679|end_char=1685
+9	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1686|end_char=1690
+10	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1691|end_char=1697
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1697|end_char=1698
+
+# text = - Man sollte sich trotzdem vorsichtig bewegen und normale Tätigkeiten beibehalten.
+# sent_id = 20
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1700|end_char=1701
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1702|end_char=1705
+3	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=1706|end_char=1712
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=1713|end_char=1717
+5	trotzdem	trotzdem	ADV	PAV	_	7	advmod	_	start_char=1718|end_char=1726
+6	vorsichtig	vorsichtig	ADV	ADJD	_	7	advmod	_	start_char=1727|end_char=1737
+7	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1738|end_char=1745
+8	und	und	CCONJ	KON	_	11	cc	_	start_char=1746|end_char=1749
+9	normale	normal	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=1750|end_char=1757
+10	Tätigkeiten	Tätigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=1758|end_char=1769
+11	beibehalten	beibehalten	VERB	VVINF	VerbForm=Inf	7	conj	_	start_char=1770|end_char=1781
+12	.	.	PUNCT	$.	_	7	punct	_	start_char=1781|end_char=1782
+
+# text = - Gehen ist besser als langes Sitzen oder Stehen.
+# sent_id = 21
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1784|end_char=1785
+2	Gehen	Gehen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=1786|end_char=1791
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1792|end_char=1795
+4	besser	gut	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=1796|end_char=1802
+5	als	als	ADP	KOKOM	_	7	case	_	start_char=1803|end_char=1806
+6	langes	lang	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=1807|end_char=1813
+7	Sitzen	Sitze	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	start_char=1814|end_char=1820
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=1821|end_char=1825
+9	Stehen	Stehen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	start_char=1826|end_char=1832
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=1832|end_char=1833
+
+# text = - Einfache Schmerzmittel können helfen, jedoch nur in der niedrigsten wirksamen Dosis.
+# sent_id = 22
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1835|end_char=1836
+2	Einfache	einfach	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	start_char=1837|end_char=1845
+3	Schmerzmittel	Schmerzmittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=1846|end_char=1859
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1860|end_char=1866
+5	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1867|end_char=1873
+6	,	,	PUNCT	$,	_	13	punct	_	start_char=1873|end_char=1874
+7	jedoch	jedoch	ADV	ADV	_	13	advmod	_	start_char=1875|end_char=1881
+8	nur	nur	ADV	ADV	_	13	advmod	_	start_char=1882|end_char=1885
+9	in	in	ADP	APPR	_	13	case	_	start_char=1886|end_char=1888
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=1889|end_char=1892
+11	niedrigsten	niedrig	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	13	amod	_	start_char=1893|end_char=1904
+12	wirksamen	wirksam	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=1905|end_char=1914
+13	Dosis	Dosis	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=1915|end_char=1920
+14	.	.	PUNCT	$.	_	5	punct	_	start_char=1920|end_char=1921
+
+# text = - Wärmebehandlungen können die Schmerzen lindern.
+# sent_id = 23
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1923|end_char=1924
+2	Wärmebehandlungen	Wärmebehandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=1925|end_char=1942
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1943|end_char=1949
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1950|end_char=1953
+5	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=1954|end_char=1963
+6	lindern	lindern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1964|end_char=1971
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1971|end_char=1972
+
+# text = - Physiotherapie ist meist nicht nötig, aber später gezielte Übungen machen.
+# sent_id = 24
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1974|end_char=1975
+2	Physiotherapie	Physiotherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=1976|end_char=1990
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1991|end_char=1994
+4	meist	meist	ADV	ADV	_	6	advmod	_	start_char=1995|end_char=2000
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=2001|end_char=2006
+6	nötig	nötig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2007|end_char=2012
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=2012|end_char=2013
+8	aber	aber	CCONJ	KON	_	12	cc	_	start_char=2014|end_char=2018
+9	später	spät	ADJ	ADJD	Degree=Cmp	12	advmod	_	start_char=2019|end_char=2025
+10	gezielte	gezielt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=2026|end_char=2034
+11	Übungen	Übung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=2035|end_char=2042
+12	machen	machen	VERB	VVINF	VerbForm=Inf	6	conj	_	start_char=2043|end_char=2049
+13	.	.	PUNCT	$.	_	6	punct	_	start_char=2049|end_char=2050
+
+# text = Vorbeugung von chronischen Schmerzen - Regelmäßige Bewegung und eine gesunde Haltung helfen, Rückenschmerzen vorzubeugen.
+# sent_id = 25
+1	Vorbeugung	Vorbeugung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=2053|end_char=2063
+2	von	von	ADP	APPR	_	7	case	_	start_char=2064|end_char=2067
+3	chronischen	chronisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=2068|end_char=2079
+4	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	compound	_	start_char=2080|end_char=2089
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=2091|end_char=2092
+6	Regelmäßige	regelmäßig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=2093|end_char=2104
+7	Bewegung	Bewegung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	start_char=2105|end_char=2113
+8	und	und	CCONJ	KON	_	11	cc	_	start_char=2114|end_char=2117
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=2118|end_char=2122
+10	gesunde	gesund	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=2123|end_char=2130
+11	Haltung	Haltung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	start_char=2131|end_char=2138
+12	helfen	helfen	VERB	VVINF	Number=Plur|Tense=Pres|VerbForm=Inf	0	root	_	start_char=2139|end_char=2145
+13	,	,	PUNCT	$,	_	15	punct	_	start_char=2145|end_char=2146
+14	Rückenschmerzen	Rückenschmerz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	start_char=2147|end_char=2162
+15	vorzubeugen	vorbeugen	VERB	VVIZU	VerbForm=Inf	12	xcomp	_	start_char=2163|end_char=2174
+16	.	.	PUNCT	$.	_	12	punct	_	start_char=2174|end_char=2175
+
+# text = - Es ist wichtig, das Normalgewicht zu halten.
+# sent_id = 26
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2177|end_char=2178
+2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=2179|end_char=2181
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2182|end_char=2185
+4	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2186|end_char=2193
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=2193|end_char=2194
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=2195|end_char=2198
+7	Normalgewicht	Normalgewicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=2199|end_char=2212
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=2213|end_char=2215
+9	halten	halten	VERB	VVINF	VerbForm=Inf	4	xcomp	_	start_char=2216|end_char=2222
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=2222|end_char=2223
+
+# text = - Stress sollte man möglichst vermeiden.
+# sent_id = 27
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2225|end_char=2226
+2	Stress	Streß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=2227|end_char=2233
+3	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	start_char=2234|end_char=2240
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=2241|end_char=2244
+5	möglichst	möglichst	ADV	ADV	_	6	advmod	_	start_char=2245|end_char=2254
+6	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2255|end_char=2264
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2264|end_char=2265
+
+# text = Das war eine einfache Erklärung zum Thema Hexenschuss.
+# sent_id = 28
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=2269|end_char=2272
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=2273|end_char=2276
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=2277|end_char=2281
+4	einfache	einfach	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=2282|end_char=2290
+5	Erklärung	Erklärung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2291|end_char=2300
+6-7	zum	_	_	_	_	_	_	_	start_char=2301|end_char=2304
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Thema	Thema	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=2305|end_char=2310
+9	Hexenschuss	Hexenschuss	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	8	appos	_	start_char=2311|end_char=2322
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=2322|end_char=2323
+
